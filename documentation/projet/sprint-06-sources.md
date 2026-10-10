@@ -17,8 +17,7 @@
 
 ## Notes
 
-- ADW pour myiopsitta et bourkii
-- Plusieurs fiches : dimorphisme / régime `na` si BirdLife silencieux
+- ADW pour myiopsitta et bourkii ; Neophema / omnicolore souvent `na` sur régime ou dimorphisme
 - Points de cours : `attente`
 
 ## Definition of Done
