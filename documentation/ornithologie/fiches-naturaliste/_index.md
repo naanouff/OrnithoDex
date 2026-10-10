@@ -27,12 +27,12 @@ Générés le 2026-10-10. Lots en `complete` (sprint 03a) : Galliformes, Anséri
 | [cyanoramphus-auriceps](cyanoramphus-auriceps.md) | Kakariki à front jaune | complete |
 | [forpus-coelestis](forpus-coelestis.md) | Perruche céleste | complete |
 | [melopsittacus-undulatus](melopsittacus-undulatus.md) | Perruche ondulée | complete |
-| [myiopsitta-monachus-monachus](myiopsitta-monachus-monachus.md) | Perruche souris | liste_seule |
-| [neopsephotus-bourkii](neopsephotus-bourkii.md) | Perruche de Bourke | liste_seule |
-| [neophema-elegans](neophema-elegans.md) | Perruche élégante | liste_seule |
-| [neophema-pulchella](neophema-pulchella.md) | Perruche d'Edwards ou turquoisine | liste_seule |
-| [neophema-splendida](neophema-splendida.md) | Perruche splendide | liste_seule |
-| [platycercus-eximius-eximius](platycercus-eximius-eximius.md) | Perruche omnicolore | liste_seule |
+| [myiopsitta-monachus-monachus](myiopsitta-monachus-monachus.md) | Perruche souris | complete |
+| [neopsephotus-bourkii](neopsephotus-bourkii.md) | Perruche de Bourke | complete |
+| [neophema-elegans](neophema-elegans.md) | Perruche élégante | complete |
+| [neophema-pulchella](neophema-pulchella.md) | Perruche d'Edwards ou turquoisine | complete |
+| [neophema-splendida](neophema-splendida.md) | Perruche splendide | complete |
+| [platycercus-eximius-eximius](platycercus-eximius-eximius.md) | Perruche omnicolore | complete |
 | [platycercus-elegans](platycercus-elegans.md) | Perruche de Pennant | liste_seule |
 | [platycercus-icterotis](platycercus-icterotis.md) | Perruche de Stanley | liste_seule |
 | [platycercus-adscitus](platycercus-adscitus.md) | Perruche palliceps | liste_seule |

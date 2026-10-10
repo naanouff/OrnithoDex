@@ -54,9 +54,9 @@ Registre public de **toutes** les sources utilisées dans le projet. Toute nouve
 | `xeno-canto` | Xeno-canto | Xeno-canto Foundation | https://xeno-canto.org/ | Enregistrement audio précis (auteur + licence) |
 | `wikimedia-commons` | Wikimedia Commons | Wikimedia | https://commons.wikimedia.org/ | Images libres (licence par fichier) |
 
-Fiches espèce BirdLife / ADW / Avibase (sprints 01–05) : détail dans chaque [fiche du naturaliste](documentation/ornithologie/fiches-naturaliste/).
+Fiches espèce BirdLife / ADW / Avibase (sprints 01–06) : détail dans chaque [fiche du naturaliste](documentation/ornithologie/fiches-naturaliste/).
 
-### Médias retenus (sprints 01–05 — liens ; copie locale plus tard)
+### Médias retenus (sprints 01–06 — liens ; copie locale plus tard)
 
 | Espèce (slug) | Type | Auteur | Licence | URL |
 |---------------|------|--------|---------|-----|
@@ -114,3 +114,15 @@ Fiches espèce BirdLife / ADW / Avibase (sprints 01–05) : détail dans chaque 
 | `forpus-coelestis` | Audio | Hans Matheve | CC BY-NC-ND 4.0 | https://xeno-canto.org/512761 |
 | `melopsittacus-undulatus` | Image | Lip Kee | CC BY-SA 2.0 | https://commons.wikimedia.org/wiki/File:Budgerigars_at_water,_Karratha,_Western_Aaustralia_(7857257686).jpg |
 | `melopsittacus-undulatus` | Audio | Samantha Aguirre | CC BY-NC-SA 4.0 | https://xeno-canto.org/940888 |
+| `myiopsitta-monachus-monachus` | Image | Juan Emilio | CC BY-SA 2.0 | https://commons.wikimedia.org/wiki/File:Myiopsitta_monachus_-Gran_Canaria,_Canary_Islands,_Spain-8.jpg |
+| `myiopsitta-monachus-monachus` | Audio | Tanguy Loïs | CC BY-SA 4.0 | https://xeno-canto.org/1143450 |
+| `neopsephotus-bourkii` | Image | Ljosa | Domaine public | https://commons.wikimedia.org/wiki/File:Bourkes_Parrot_(Neopsephotus_bourkii)9.jpg |
+| `neopsephotus-bourkii` | Audio | Marc Anderson | CC BY-NC-ND 4.0 | https://xeno-canto.org/681342 |
+| `neophema-elegans` | Image | Ron Knight | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Elegant_Parrot_(Neophema_elegans)_(8079612251).jpg |
+| `neophema-elegans` | Audio | Eddy Smith | CC BY-NC-SA 4.0 | https://xeno-canto.org/755583 |
+| `neophema-pulchella` | Image | stephen jones | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Neophema_pulchella_-Twycross_Zoo,_Leicestershire,_England-8a.jpg |
+| `neophema-pulchella` | Audio | Andrew Spencer | CC BY-NC-ND 4.0 | https://xeno-canto.org/328216 |
+| `neophema-splendida` | Image | Ltshears | Domaine public | https://commons.wikimedia.org/wiki/File:Scarlet_Chested_Parakeet.jpg |
+| `neophema-splendida` | Audio | Louis Masarei | CC BY-NC-SA 4.0 | https://xeno-canto.org/924874 |
+| `platycercus-eximius-eximius` | Image | Murdock Grewar | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Female_Eastern_Rosella_(Platycercus_eximius).jpg |
+| `platycercus-eximius-eximius` | Audio | Romuald Mikusek | CC BY-NC-SA 4.0 | https://xeno-canto.org/1173636 |
