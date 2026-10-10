@@ -1,7 +1,7 @@
 ﻿# Colombe zébrée
 
 - **Slug** : `geopelia-striata`
-- **Statut documentation** : `liste_seule`
+- **Statut documentation** : `partielle`
 - **Dernière vérification** : 2026-10-10
 
 ## Identité
@@ -15,27 +15,41 @@
 
 ## Description
 
+Évaluée **Least Concern** (2025). Non migratrice. EOO ≈ 6 960 000 km² ; population non quantifiée, généralement commune ; tendance suspectée **stable**. Aire native en Asie du Sud-Est ; nombreuses introductions ailleurs.  
+*Source : birdlife-geopelia-striata.*
+
 ## Dimorphisme sexuel
+
+*Non documenté dans les sources consultées pour ce sprint.*
 
 ## Habitat d’origine
 
+Fourrés secs et humides subtropicaux/tropicaux ; terres cultivées, jardins ruraux, zones urbaines, forêts dégradées (tous suitable, résident).  
+*Source : birdlife-geopelia-striata.*
+
 ## Régime alimentaire
 
-## Comportement
+*Non documenté dans les sources consultées pour ce sprint.*
 
 ## Chant et vocalisations
 
+https://xeno-canto.org/species/Geopelia-striata
+
 ## Points de cours à retenir
+
+*En attente de supports de cours.*
 
 ## Médias
 
-| Type | Fichier | Crédit / licence | Source README |
-|------|---------|------------------|---------------|
-| Image | `/images/birds/geopelia-striata.webp` | *à fournir* | |
-| Audio | `/audio/birds/geopelia-striata.mp3` | *à fournir* | |
+| Type | Fichier / URL | Crédit / licence | Source README |
+|------|--------------|------------------|---------------|
+| Image | https://commons.wikimedia.org/wiki/File:Burung_Merbuk.JPG | Angah hfz — CC BY-SA 3.0 | media-geopelia-striata-img |
+| Audio | https://xeno-canto.org/species/Geopelia-striata | page espèce | xeno-canto |
 
 ## Sources
 
 | Id | Titre | Éditeur / auteur | Année | URL | Note |
 |----|-------|------------------|-------|-----|------|
-| bac-pro-tcva-liste | Liste des oiseaux – BAC PRO TCVA (MP6) | Support de cours / arrêtés 02/07/2009 + domestiques | 2009 | | Identité programme |
+| bac-pro-tcva-liste | Liste des oiseaux – BAC PRO TCVA (MP6) | Support de cours | 2009 | | Identité programme |
+| birdlife-geopelia-striata | Zebra Dove Geopelia striata — Species Factsheet | BirdLife International DataZone | 2025 | https://datazone.birdlife.org/species/factsheet/zebra-dove-geopelia-striata | Consulté 2026-10-10 |
+| media-geopelia-striata-img | File:Burung Merbuk.JPG | Angah hfz / Wikimedia Commons | 2009 | https://commons.wikimedia.org/wiki/File:Burung_Merbuk.JPG | CC BY-SA 3.0 |

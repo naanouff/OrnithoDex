@@ -24,7 +24,7 @@ Le cadrage et le plan complets sont dans [`documentation/`](documentation/) :
 
 ## Statut
 
-Sprint 01 sources en cours : [sprint-01-sources.md](documentation/projet/sprint-01-sources.md) · suivi [suivi-sources.md](documentation/ornithologie/suivi-sources.md).  
+Sources : [sprint 01](documentation/projet/sprint-01-sources.md) (lot pilote) · [sprint 02](documentation/projet/sprint-02-sources.md) (Columbiformes) · suivi [suivi-sources.md](documentation/ornithologie/suivi-sources.md).  
 Développement applicatif (Vite / React / TypeScript / Tailwind) ensuite.
 
 Licence du code : **MIT** — voir [`LICENSE`](LICENSE).
@@ -52,9 +52,9 @@ Registre public de **toutes** les sources utilisées dans le projet. Toute nouve
 | `xeno-canto` | Xeno-canto | Xeno-canto Foundation | https://xeno-canto.org/ | Pages espèce audio (fichier précis à créditer à la sélection) |
 | `wikimedia-commons` | Wikimedia Commons | Wikimedia | https://commons.wikimedia.org/ | Images libres (licence par fichier) |
 
-Fiches espèce BirdLife / IUCN / Avibase utilisées (sprint 01) : détail dans chaque [fiche du naturaliste](documentation/ornithologie/fiches-naturaliste/) du lot pilote.
+Fiches espèce BirdLife / IUCN / Avibase utilisées (sprints 01–02) : détail dans chaque [fiche du naturaliste](documentation/ornithologie/fiches-naturaliste/).
 
-### Médias retenus (sprint 01 — liens ; copie locale plus tard)
+### Médias retenus (sprints 01–02 — liens ; copie locale plus tard)
 
 | Espèce (slug) | Type | Auteur | Licence | URL |
 |---------------|------|--------|---------|-----|
@@ -64,3 +64,9 @@ Fiches espèce BirdLife / IUCN / Avibase utilisées (sprint 01) : détail dans c
 | `callipepla-californica` | Image | Nick Myatt / ODFW | CC BY-SA 2.0 | https://commons.wikimedia.org/wiki/File:Valley_quail_myatt_(5489811278)_(cropped).jpg |
 | `aix-galericulata` | Image | Alexis Lours | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Mandarin_duck_(Aix_galericulata).jpg |
 | `aix-sponsa` | Image | Dick Daniels | CC BY-SA 3.0 | https://commons.wikimedia.org/wiki/File:Wood_Duck_(Aix_sponsa).jpg |
+| `geopelia-cuneata` | Image | Maurice van Bruggen | CC BY-SA 3.0 | https://commons.wikimedia.org/wiki/File:Geopelia_cuneata.JPG |
+| `geopelia-striata` | Image | Angah hfz | CC BY-SA 3.0 | https://commons.wikimedia.org/wiki/File:Burung_Merbuk.JPG |
+| `oena-capensis` | Image | Neil Strickland | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Oena_capensis_-Etosha_National_Park,_Namibia-8.jpg |
+| `streptopelia-senegalensis` | Image | Zeynel Cebeci | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Spilopelia_senegalensis_-_Laughing_Dove_-_K%C3%BC%C3%A7%C3%BCk_kumru_02.JPG |
+| `streptopelia-risoria` | Image | Dick Daniels | CC BY-SA 3.0 | https://commons.wikimedia.org/wiki/File:Barbary_Dove_(Streptopelia_risoria)_RWD.jpg |
+| `columba-livia` | Image | Charles J. Sharp | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Rock_dove_(Columba_livia).jpg |

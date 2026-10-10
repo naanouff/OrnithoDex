@@ -17,6 +17,7 @@ Contenu pédagogique lié au programme **MP6 – TCVA – Ornithologie** (oiseau
 | [fiches-naturaliste/](fiches-naturaliste/) | Une fiche par espèce |
 | [Plan sources](../projet/plan-sources.md) | Méthode d’enrichissement |
 | [Sprint 01](../projet/sprint-01-sources.md) | Lot pilote Galliformes + Ansériformes |
+| [Sprint 02](../projet/sprint-02-sources.md) | Columbiformes (6) |
 
 ## Règle
 

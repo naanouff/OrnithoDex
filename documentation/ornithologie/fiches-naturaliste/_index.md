@@ -1,6 +1,6 @@
 ﻿# Fiches du naturaliste
 
-Générés le 2026-10-10. Lot pilote (6 premières) enrichi en `partielle` — sprint 01. Aucune biologie inventée.
+Générés le 2026-10-10. Lots enrichis en `partielle` : sprint 01 (Galliformes/Ansériformes) + sprint 02 (Columbiformes). Aucune biologie inventée.
 
 | Slug | Nom commun | Statut |
 |------|------------|--------|
@@ -10,12 +10,12 @@ Générés le 2026-10-10. Lot pilote (6 premières) enrichi en `partielle` — s
 | [callipepla-californica](callipepla-californica.md) | Colin de Californie | partielle |
 | [aix-galericulata](aix-galericulata.md) | Canard mandarin | partielle |
 | [aix-sponsa](aix-sponsa.md) | Canard carolin | partielle |
-| [geopelia-cuneata](geopelia-cuneata.md) | Colombe diamant | liste_seule |
-| [geopelia-striata](geopelia-striata.md) | Colombe zébrée | liste_seule |
-| [oena-capensis](oena-capensis.md) | Tourterelle masque de fer | liste_seule |
-| [streptopelia-senegalensis](streptopelia-senegalensis.md) | Colombe maillée | liste_seule |
-| [streptopelia-risoria](streptopelia-risoria.md) | Tourterelle rieuse | liste_seule |
-| [columba-livia](columba-livia.md) | Pigeon biset | liste_seule |
+| [geopelia-cuneata](geopelia-cuneata.md) | Colombe diamant | partielle |
+| [geopelia-striata](geopelia-striata.md) | Colombe zébrée | partielle |
+| [oena-capensis](oena-capensis.md) | Tourterelle masque de fer | partielle |
+| [streptopelia-senegalensis](streptopelia-senegalensis.md) | Colombe maillée | partielle |
+| [streptopelia-risoria](streptopelia-risoria.md) | Tourterelle rieuse | partielle |
+| [columba-livia](columba-livia.md) | Pigeon biset | partielle |
 | [agapornis-roseicollis](agapornis-roseicollis.md) | Inséparable à face rose | liste_seule |
 | [agapornis-fischeri](agapornis-fischeri.md) | Inséparable de Fischer | liste_seule |
 | [agapornis-personatus](agapornis-personatus.md) | Inséparable masqué ou à tête noire | liste_seule |
