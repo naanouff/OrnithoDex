@@ -60,12 +60,12 @@ Plan sources : [plan-sources.md](../projet/plan-sources.md) (85/85 `complete`) �
 | amandava-subflava | ok | ok | ok | ok | ok | na | ok | na | ok | ok | |
 | erythrura-gouldiae | ok | ok | ok | ok | ok | na | ok | ok | ok | ok | BirdLife: Chloebia gouldiae |
 | erythrura-trichroa | ok | ok | ok | ok | ok | na | ok | na | ok | ok | |
-| erythrura-psittacea | ok | ok | ok | ok | ok | na | ok | na | ok | attente | Endémique NC |
-| estrilda-astrild | ok | ok | ok | ok | ok | ok | ok | ok | ok | attente | ADW |
-| estrilda-caerulescens | ok | ok | ok | ok | ok | na | ok | na | ok | attente | BirdLife: Glaucestrilda coerulescens |
-| estrilda-melpoda | ok | ok | ok | ok | ok | na | ok | na | ok | attente | |
-| estrilda-troglodytes | ok | ok | ok | ok | ok | na | ok | na | ok | attente | |
-| lagonosticta-senegala | ok | ok | ok | ok | ok | na | ok | na | ok | attente | |
+| erythrura-psittacea | ok | ok | ok | ok | ok | na | ok | na | ok | ok | Endémique NC |
+| estrilda-astrild | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok | ADW |
+| estrilda-caerulescens | ok | ok | ok | ok | ok | na | ok | na | ok | ok | BirdLife: Glaucestrilda coerulescens |
+| estrilda-melpoda | ok | ok | ok | ok | ok | na | ok | na | ok | ok | |
+| estrilda-troglodytes | ok | ok | ok | ok | ok | na | ok | na | ok | ok | |
+| lagonosticta-senegala | ok | ok | ok | ok | ok | na | ok | na | ok | ok | |
 | lagonosticta-larvata-vinacea | ok | ok | ok | ok | ok | na | ok | na | ok | attente | BirdLife: L. vinacea |
 | lonchura-striata | ok | ok | ok | ok | ok | na | ok | na | ok | attente | |
 | lonchura-striata-domestiqua | ok | ok | ok | ok | ok | na | ok | na | ok | attente | forme domestique ; audio sauvage |

@@ -43,7 +43,13 @@ Enregistrement XC1145629 (African Bioacoustics Community — CC BY-NC-SA 4.0) : 
 
 ## Points de cours à retenir
 
-*En attente ingénieur pédagogique / supports de cours.*
+<!-- Aides à la mémorisation (pas un polycopié enseignant). -->
+
+- **[programme]** Amaranthe à bec rouge ↔ *Lagonosticta senegala* ; Passériformes ; Estrildidés
+- **[programme]** Genre *Lagonosticta* — distinct des *Estrilda* (astrilds) du programme
+- **[sourcé]** Least Concern ; EOO très vaste (≈ 25,6 M km²) ; tendance stable
+- **[sourcé]** Non migrateur ; savane, fourrés, cultures, jardins, urbain
+- **[sourcé]** Commerce d’animaux de compagnie signalé (échelle nationale / subsistance)
 
 ## Médias
 
