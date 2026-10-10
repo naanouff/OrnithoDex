@@ -44,7 +44,13 @@ Enregistrement XC1173636 (Romuald Mikusek — CC BY-NC-SA 4.0) : https://xeno-ca
 
 ## Points de cours à retenir
 
-*En attente ingénieur pédagogique / supports de cours.*
+<!-- Aides à la mémorisation (pas un polycopié enseignant). -->
+
+- **[programme]** Perruche omnicolore ↔ *Platycercus eximius eximius* ; Psittaciformes ; Psittacidés
+- **[programme]** Confusion : *P. elegans* (Pennant) — même genre *Platycercus*, sous-espèce nominale ici
+- **[sourcé]** Least Concern ; Australie (+ introduite NZ) ; tendance en **augmentation**
+- **[sourcé]** Très commune ; forêts, savanes, jardins, cultures
+- **[sourcé]** Non migratrice ; hausse liée à l’ouverture d’habitats
 
 ## Médias
 

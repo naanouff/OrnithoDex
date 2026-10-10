@@ -44,7 +44,13 @@ Enregistrement XC681342 (Marc Anderson — CC BY-NC-ND 4.0) : https://xeno-canto
 
 ## Points de cours à retenir
 
-*En attente ingénieur pédagogique / supports de cours.*
+<!-- Aides à la mémorisation (pas un polycopié enseignant). -->
+
+- **[programme]** Perruche de Bourke ↔ *Neopsephotus bourkii* ; Psittaciformes ; Psittacidés
+- **[programme]** Genre seul — ne pas confondre avec les *Neophema* (élégante, turquoisine, splendide)
+- **[sourcé]** Least Concern ; Australie ; tendance en augmentation ; plumage brun-rosé
+- **[sourcé]** Nomade ; savane / mulga ; granivore (aube et crépuscule)
+- **[sourcé]** Dimorphisme : bande frontale bleue plus marquée chez le mâle
 
 ## Médias
 

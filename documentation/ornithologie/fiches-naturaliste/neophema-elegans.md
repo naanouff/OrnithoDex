@@ -44,7 +44,13 @@ Enregistrement XC755583 (Eddy Smith — CC BY-NC-SA 4.0) : https://xeno-canto.or
 
 ## Points de cours à retenir
 
-*En attente ingénieur pédagogique / supports de cours.*
+<!-- Aides à la mémorisation (pas un polycopié enseignant). -->
+
+- **[programme]** Perruche élégante ↔ *Neophema elegans* ; Psittaciformes ; Psittacidés
+- **[programme]** Confusion : autres *Neophema* (turquoisine, splendide) + Bourke (*Neopsephotus*)
+- **[sourcé]** Least Concern ; endémique Australie ; tendance en augmentation
+- **[sourcé]** Nomade ; prairies, savane sèche, fourrés secs
+- **[sourcé]** Population soupçonnée en hausse avec l’ouverture d’habitats
 
 ## Médias
 

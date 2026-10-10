@@ -44,7 +44,13 @@ Enregistrement XC1173944 (Romuald Mikusek — CC BY-NC-SA 4.0) : https://xeno-ca
 
 ## Points de cours à retenir
 
-*En attente ingénieur pédagogique / supports de cours.*
+<!-- Aides à la mémorisation (pas un polycopié enseignant). -->
+
+- **[programme]** Perruche de Pennant ↔ *Platycercus elegans* ; Psittaciformes ; Psittacidés
+- **[programme]** Confusion : omnicolore (*P. eximius*) — Pennant = tendance en **diminution**
+- **[sourcé]** Least Concern ; déclin soupçonné (destruction d’habitat)
+- **[sourcé]** Forêts, fourrés, aussi zones urbaines / jardins / plantations
+- **[sourcé]** Habitat résident (non détaillé comme migrateur)
 
 ## Médias
 

@@ -44,7 +44,13 @@ Enregistrement XC328216 (Andrew Spencer — CC BY-NC-ND 4.0) : https://xeno-cant
 
 ## Points de cours à retenir
 
-*En attente ingénieur pédagogique / supports de cours.*
+<!-- Aides à la mémorisation (pas un polycopié enseignant). -->
+
+- **[programme]** Perruche d'Edwards / turquoisine ↔ *Neophema pulchella* ; Psittaciformes ; Psittacidés
+- **[programme]** Confusion : *N. elegans* / *N. splendida* — turquoisine = sud-est AU, **non migratrice**
+- **[sourcé]** Least Concern ; tendance **stable** ; ≈ 20 000 individus
+- **[sourcé]** Forêt sèche, prairies, fourrés ; besoin de sous-bois herbeux
+- **[sourcé]** Menaces citées : brûlis inadaptés, perte de cavités
 
 ## Médias
 
