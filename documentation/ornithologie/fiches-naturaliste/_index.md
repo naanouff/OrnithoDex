@@ -73,12 +73,12 @@ Générés le 2026-10-10. Lots en `complete` (sprint 03a) : Galliformes, Anséri
 | [lonchura-cucullata](lonchura-cucullata.md) | Nonnette ou spermète | complete |
 | [lonchura-maja](lonchura-maja.md) | Capucin à tête blanche | complete |
 | [lonchura-malabarica](lonchura-malabarica.md) | Bec de plomb | complete |
-| [lonchura-punctulata](lonchura-punctulata.md) | Damier | liste_seule |
-| [lonchura-oryzivora](lonchura-oryzivora.md) | Calfat ou padda | liste_seule |
-| [neochmia-modesta](neochmia-modesta.md) | Diamant modeste | liste_seule |
-| [neochmia-ruficauda](neochmia-ruficauda.md) | Diamant à queue rousse | liste_seule |
-| [stagonopleura-guttata](stagonopleura-guttata.md) | Diamant à gouttelettes | liste_seule |
-| [taeniopygia-bichenovii](taeniopygia-bichenovii.md) | Diamant de Bichenow | liste_seule |
+| [lonchura-punctulata](lonchura-punctulata.md) | Damier | complete |
+| [lonchura-oryzivora](lonchura-oryzivora.md) | Calfat ou padda | complete |
+| [neochmia-modesta](neochmia-modesta.md) | Diamant modeste | complete |
+| [neochmia-ruficauda](neochmia-ruficauda.md) | Diamant à queue rousse | complete |
+| [stagonopleura-guttata](stagonopleura-guttata.md) | Diamant à gouttelettes | complete |
+| [taeniopygia-bichenovii](taeniopygia-bichenovii.md) | Diamant de Bichenow | complete |
 | [taeniopygia-guttata-castanotis](taeniopygia-guttata-castanotis.md) | Diamant Mandarin | liste_seule |
 | [uraeginthus-bengalus](uraeginthus-bengalus.md) | Cordon bleu | liste_seule |
 | [uraeginthus-cyanocephalus](uraeginthus-cyanocephalus.md) | Cap bleu | liste_seule |
