@@ -3,18 +3,18 @@
 - **Slug** : `callipepla-californica`
 - **Latin** : *Callipepla californica*
 - **Ordre / famille** : Galliformes / Odontophoridés
-- **Faits limités** : non
+- **Plumage sourcé** : oui
 
 ## Prompt — illustration naturaliste (EN)
 
 ```
-Naturalist field-guide illustration of Colin de Californie (Callipepla californica), Galliformes, Odontophoridés. Side three-quarter view, clear readable silhouette, soft cream background, flat illustrative style with bold navy outlines, vivid but accurate plumage, educational poster look, no photorealism, no text, no watermark, no cage. Appearance from sources: Évalué Least Concern (2021). Non migrateur. Sexual dimorphism note: Oui : mâle à gorge noire ; femelle à gorge grisâtre striée de noir ; panache frontale caractéristique chez les deux sexes. Habitat context (subtle, not a landscape scene): BirdLife : pâturages, terres cultivées, désert chaud, forêts et prairies tempérées, fourrés secs et végétation méditerranéenne (suitable). ADW : bois ouverts, contreforts buissonnants, vallées, banlieues, chaparral.
+Square 1:1 naturalist field-guide illustration of Colin de Californie (Callipepla californica), Galliformes, Odontophoridés. Side three-quarter view, clear readable silhouette, soft cream background, flat illustrative style, thick navy blue outlines only (color #1b365d, never black). Educational poster look, no photorealism. Plumage from sources only: Oui : mâle à gorge noire ; femelle à gorge grisâtre striée de noir ; panache frontale caractéristique chez les deux sexes. Use only colors explicitly named in the plumage sentence. Do not add any other hue on the bird: no guessed bill, iris, breast, wing, or belly color. Areas without a named color stay the same cream as the background. Habitat props only (subtle branch or foliage, not a landscape): BirdLife : pâturages, terres cultivées, désert chaud, forêts et prairies tempérées, fourrés secs et végétation méditerranéenne (suitable). ADW : bois ouverts, contreforts buissonnants, vallées, banlieues, chaparral. Avoid: text, watermark, logo, human, hand, cage, perch label, extra birds, invented subspecies colors, any color not named in the plumage sentence, cartoon eyes, blurry, low-res, black outlines, dark brown outlines, non-square aspect ratio.
 ```
 
 ## Prompt — modèle 3D réaliste (EN)
 
 ```
-Realistic 3D bird asset of Colin de Californie (Callipepla californica), Galliformes, Odontophoridés. Single subject, perched pose, clean topology-friendly form, neutral studio background, photoreal feather textures, accurate proportions, game-ready prop, no base, no text, no watermark. Morphology from sources: Évalué Least Concern (2021). Non migrateur. Dimorphism note: Oui : mâle à gorge noire ; femelle à gorge grisâtre striée de noir ; panache frontale caractéristique chez les deux sexes.
+Realistic 3D bird asset of Colin de Californie (Callipepla californica), Galliformes, Odontophoridés. Single subject, perched pose, clean topology-friendly form, neutral studio background, photoreal feather textures, accurate proportions, game-ready prop, no base, no text, no watermark. Morphology from sources only: Oui : mâle à gorge noire ; femelle à gorge grisâtre striée de noir ; panache frontale caractéristique chez les deux sexes. Use only colors explicitly named in the plumage sentence. Do not add any other hue on the bird: no guessed bill, iris, breast, wing, or belly color. Areas without a named color stay the same cream as the background.
 ```
 
 ## Garde-fous (negative)

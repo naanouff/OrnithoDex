@@ -3,18 +3,18 @@
 - **Slug** : `erythrura-gouldiae`
 - **Latin** : *Erythrura gouldiae*
 - **Ordre / famille** : Passériformes / Estrildidés
-- **Faits limités** : non
+- **Plumage sourcé** : non — génération bloquée (ne pas inventer)
 
 ## Prompt — illustration naturaliste (EN)
 
 ```
-Naturalist field-guide illustration of Diamant de Gould (Erythrura gouldiae), Passériformes, Estrildidés. Side three-quarter view, clear readable silhouette, soft cream background, flat illustrative style with bold navy outlines, vivid but accurate plumage, educational poster look, no photorealism, no text, no watermark, no cage. Appearance from sources: Évalué Least Concern (2022). BirdLife / IOC : Chloebia gouldiae (syn. Erythrura gouldiae). Endémique reproducteur d’Australie (nord). Altitude 0–370 m. Sexual dimorphism note: na — sources consultées silencieuses sur le dimorphisme (polymorphisme de couleur de tête connu hors sources retenues ici). Habitat context (subtle, not a landscape scene): Non migrateur. Bois tropicaux ouverts à sous-bois herbeux ; nidification presque exclusivement dans des cavités d’arbres ; collines rocheuses avec Eucalyptus près de points d’eau permanents en saison sèche. Nord de l’Australie.
+GENERATION BLOCKED for Diamant de Gould (Erythrura gouldiae). The species sheet has no sourced plumage or morphology. Do not generate an illustration. Do not invent colors, bill, crest, or sexual dimorphism.
 ```
 
 ## Prompt — modèle 3D réaliste (EN)
 
 ```
-Realistic 3D bird asset of Diamant de Gould (Erythrura gouldiae), Passériformes, Estrildidés. Single subject, perched pose, clean topology-friendly form, neutral studio background, photoreal feather textures, accurate proportions, game-ready prop, no base, no text, no watermark. Morphology from sources: Évalué Least Concern (2022). BirdLife / IOC : Chloebia gouldiae (syn. Erythrura gouldiae). Endémique reproducteur d’Australie (nord). Altitude 0–370 m. Dimorphism note: na — sources consultées silencieuses sur le dimorphisme (polymorphisme de couleur de tête connu hors sources retenues ici).
+GENERATION BLOCKED for Diamant de Gould (Erythrura gouldiae). No sourced plumage on the sheet. Do not generate a 3D model. Do not invent colors.
 ```
 
 ## Garde-fous (negative)

@@ -3,18 +3,18 @@
 - **Slug** : `bolborhynchus-lineola-lineola`
 - **Latin** : *Bolborhynchus lineola lineola*
 - **Ordre / famille** : Psittaciformes / Psittacidés
-- **Faits limités** : non
+- **Plumage sourcé** : non — génération bloquée (ne pas inventer)
 
 ## Prompt — illustration naturaliste (EN)
 
 ```
-Naturalist field-guide illustration of Perruche Catherine ou rayée (Bolborhynchus lineola lineola), Psittaciformes, Psittacidés. Side three-quarter view, clear readable silhouette, soft cream background, flat illustrative style with bold navy outlines, vivid but accurate plumage, educational poster look, no photorealism, no text, no watermark, no cage. Appearance from sources: Taxon programme = sous-espèce lineola. Espèce B. lineola évaluée Least Concern (2022). Mexique à Amérique du Sud andine. Sexual dimorphism note: na — non décrit dans la fiche BirdLife consultée. Habitat context (subtle, not a landscape scene): Forêts humides de montagne et de basse altitude, milieux fortement dégradés (suitable) ; 0–3 900 m ; aussi lisières et habitats secondaires.
+GENERATION BLOCKED for Perruche Catherine ou rayée (Bolborhynchus lineola lineola). The species sheet has no sourced plumage or morphology. Do not generate an illustration. Do not invent colors, bill, crest, or sexual dimorphism.
 ```
 
 ## Prompt — modèle 3D réaliste (EN)
 
 ```
-Realistic 3D bird asset of Perruche Catherine ou rayée (Bolborhynchus lineola lineola), Psittaciformes, Psittacidés. Single subject, perched pose, clean topology-friendly form, neutral studio background, photoreal feather textures, accurate proportions, game-ready prop, no base, no text, no watermark. Morphology from sources: Taxon programme = sous-espèce lineola. Espèce B. lineola évaluée Least Concern (2022). Mexique à Amérique du Sud andine. Dimorphism note: na — non décrit dans la fiche BirdLife consultée.
+GENERATION BLOCKED for Perruche Catherine ou rayée (Bolborhynchus lineola lineola). No sourced plumage on the sheet. Do not generate a 3D model. Do not invent colors.
 ```
 
 ## Garde-fous (negative)

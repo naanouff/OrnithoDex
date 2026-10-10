@@ -22,7 +22,7 @@ Deux volets complémentaires (le volet physique est **hors V1** du site) :
 Référence pour la cohérence visuelle des cartes numériques :
 
 - Format type carte à jouer (~63 × 88 mm)
-- **Recto** : nom commun, photo, codes couleur ordre / famille
+- **Recto** : nom commun, **illustration** naturaliste (collection), codes couleur ordre / famille ; la **photo** sourcée reste sur la fiche / quiz
 - **Verso** : nom scientifique, commun, ordre, famille, caractéristiques à retenir
 - Livrables futurs : PDF HD, impression carton
 

@@ -46,64 +46,77 @@ function loadFicheFacts(filePath) {
     }
   }
 
-  const limited = !parts.description && !parts.dimorphisme
-  return { slug, identity, parts, sourceIds: [...sourceIds], limited }
+  const plumage = [visualSentences(parts.description), visualSentences(parts.dimorphisme)]
+    .filter(Boolean)
+    .join(' ')
+  const limited = !plumage
+  return { slug, identity, parts, plumage, sourceIds: [...sourceIds], limited }
 }
 
-/** Retire stats non visuelles (EOO, IUCN, population) pour des prompts plus propres. */
-function visualFocus(text) {
+/** Mots entiers : « vert » ne doit pas matcher « couvert ». */
+const VISUAL =
+  /\b(verts?|vertes?|bleue?s?|bleut\w*|rouges?|oranges?|jaunes?|jaunât\w*|noire?s?|blancs?|blanches?|grise?s?|gris|roses?|rosé\w*|rosât\w*|bruns?|brunes?|marron|olive|turquoise|violets?|violettes?|pourpre|roux|huppe|collier|masque|gorge|ventre|croupion|calotte|joues?|poitrine|panache|crête|crete|dague|becs?|plumages?|iris|irisations?|corps|tachet\w*|striée?s?)\b/i
+
+const NON_VISUAL_NOTE =
+  /^(na\b|non détaill|non décrit|non decrit|sources consultées silencieuses)/i
+
+/** Phrases qui décrivent vraiment le plumage / la morphologie. Le reste (IUCN, aire, commerce) est exclu. */
+function visualSentences(text) {
   if (!text) return ''
-  return text
-    .replace(/\bÉvaluée?\b[^.]*\./gi, '')
-    .replace(/\bEOO\b[^.]*\./gi, '')
-    .replace(/\bpopulation[^.]*\./gi, '')
-    .replace(/\btendance[^.]*\./gi, '')
-    .replace(/\([^)]*A\d[a-z0-9]*\)/gi, '')
-    .replace(/\s*[.;]\s*[.;]+/g, '. ')
-    .replace(/^\s*[.;]\s*/g, '')
-    .replace(/\s+/g, ' ')
-    .trim()
+  const parts = text
+    .split(/(?<=[.!;])\s+/)
+    .map((s) => s.replace(/\s+/g, ' ').trim())
+    .filter((s) => s && !NON_VISUAL_NOTE.test(s) && VISUAL.test(s))
+  return parts.join(' ')
 }
+
+const COLOR_LOCK =
+  'Use only colors explicitly named in the plumage sentence. Do not add any other hue on the bird: no guessed bill, iris, breast, wing, or belly color. Areas without a named color stay the same cream as the background.'
+
+const AVOID =
+  'Avoid: text, watermark, logo, human, hand, cage, perch label, extra birds, invented subspecies colors, any color not named in the plumage sentence, cartoon eyes, blurry, low-res, black outlines, dark brown outlines, non-square aspect ratio.'
 
 function buildIllustrationPrompt(f) {
-  const { identity, parts, limited } = f
-  const appearance = visualFocus(parts.description)
-  const habitat = visualFocus(parts.habitat)
+  const { identity, parts, plumage, limited } = f
+  if (limited) {
+    return [
+      `GENERATION BLOCKED for ${identity.commonName} (${identity.scientificName}).`,
+      'The species sheet has no sourced plumage or morphology.',
+      'Do not generate an illustration. Do not invent colors, bill, crest, or sexual dimorphism.',
+    ].join(' ')
+  }
   const bits = [
-    `Naturalist field-guide illustration of ${identity.commonName} (${identity.scientificName}),`,
+    `Square 1:1 naturalist field-guide illustration of ${identity.commonName} (${identity.scientificName}),`,
     `${identity.order}, ${identity.family}.`,
     'Side three-quarter view, clear readable silhouette, soft cream background,',
-    'flat illustrative style with bold navy outlines, vivid but accurate plumage,',
-    'educational poster look, no photorealism, no text, no watermark, no cage.',
+    'flat illustrative style, thick navy blue outlines only (color #1b365d, never black).',
+    'Educational poster look, no photorealism.',
+    `Plumage from sources only: ${plumage}`,
+    COLOR_LOCK,
   ]
-  if (appearance) bits.push(`Appearance from sources: ${appearance}`)
-  if (parts.dimorphisme) bits.push(`Sexual dimorphism note: ${parts.dimorphisme}`)
-  if (habitat) bits.push(`Habitat context (subtle, not a landscape scene): ${habitat}`)
-  if (limited) {
-    bits.push(
-      'Limited sourced morphology: keep plumage generic for the named taxon; do not invent subspecies colors.',
-    )
+  if (parts.habitat) {
+    bits.push(`Habitat props only (subtle branch or foliage, not a landscape): ${parts.habitat}`)
   }
+  bits.push(AVOID)
   return bits.join(' ')
 }
 
 function buildModel3dPrompt(f) {
-  const { identity, parts, limited } = f
-  const appearance = visualFocus(parts.description)
-  const bits = [
+  const { identity, plumage, limited } = f
+  if (limited) {
+    return [
+      `GENERATION BLOCKED for ${identity.commonName} (${identity.scientificName}).`,
+      'No sourced plumage on the sheet. Do not generate a 3D model. Do not invent colors.',
+    ].join(' ')
+  }
+  return [
     `Realistic 3D bird asset of ${identity.commonName} (${identity.scientificName}),`,
     `${identity.order}, ${identity.family}.`,
     'Single subject, perched pose, clean topology-friendly form, neutral studio background,',
     'photoreal feather textures, accurate proportions, game-ready prop, no base, no text, no watermark.',
-  ]
-  if (appearance) bits.push(`Morphology from sources: ${appearance}`)
-  if (parts.dimorphisme) bits.push(`Dimorphism note: ${parts.dimorphisme}`)
-  if (limited) {
-    bits.push(
-      'Limited sourced morphology: do not invent distinctive color patterns beyond the species name.',
-    )
-  }
-  return bits.join(' ')
+    `Morphology from sources only: ${plumage}`,
+    COLOR_LOCK,
+  ].join(' ')
 }
 
 function renderMarkdown(f) {
@@ -115,7 +128,7 @@ function renderMarkdown(f) {
 - **Slug** : \`${slug}\`
 - **Latin** : *${identity.scientificName}*
 - **Ordre / famille** : ${identity.order} / ${identity.family}
-- **Faits limités** : ${limited ? 'oui — ne pas enrichir hors fiche' : 'non'}
+- **Plumage sourcé** : ${limited ? 'non — génération bloquée (ne pas inventer)' : 'oui'}
 
 ## Prompt — illustration naturaliste (EN)
 
@@ -159,7 +172,7 @@ function main() {
     const facts = loadFicheFacts(path.join(fichesDir, file))
     fs.writeFileSync(path.join(outDir, `${facts.slug}.md`), renderMarkdown(facts), 'utf8')
     rows.push(
-      `| [\`${facts.slug}\`](${facts.slug}.md) | ${facts.identity.commonName} | ${facts.limited ? 'limité' : 'ok'} |`,
+      `| [\`${facts.slug}\`](${facts.slug}.md) | ${facts.identity.commonName} | ${facts.limited ? 'bloqué' : 'prêt'} |`,
     )
   }
 
@@ -167,7 +180,7 @@ function main() {
 
 Généré par \`npm run data:prompts\` — ne pas éditer les fiches espèces à la main.
 
-| Slug | Nom commun | Couverture faits |
+| Slug | Nom commun | Illustration |
 |------|------------|------------------|
 ${rows.join('\n')}
 

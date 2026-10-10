@@ -3,18 +3,18 @@
 - **Slug** : `uraeginthus-bengalus`
 - **Latin** : *Uraeginthus bengalus*
 - **Ordre / famille** : Passériformes / Estrildidés
-- **Faits limités** : non
+- **Plumage sourcé** : non — génération bloquée (ne pas inventer)
 
 ## Prompt — illustration naturaliste (EN)
 
 ```
-Naturalist field-guide illustration of Cordon bleu (Uraeginthus bengalus), Passériformes, Estrildidés. Side three-quarter view, clear readable silhouette, soft cream background, flat illustrative style with bold navy outlines, vivid but accurate plumage, educational poster look, no photorealism, no text, no watermark, no cage. Appearance from sources: Évalué Least Concern (2018). Signalé dans le commerce d’animaux de compagnie. Sexual dimorphism note: na — sources consultées silencieuses. Habitat context (subtle, not a landscape scene): Non migrateur. Jardins ruraux, pâturages et cultures ; prairies, savanes et fourrés secs.
+GENERATION BLOCKED for Cordon bleu (Uraeginthus bengalus). The species sheet has no sourced plumage or morphology. Do not generate an illustration. Do not invent colors, bill, crest, or sexual dimorphism.
 ```
 
 ## Prompt — modèle 3D réaliste (EN)
 
 ```
-Realistic 3D bird asset of Cordon bleu (Uraeginthus bengalus), Passériformes, Estrildidés. Single subject, perched pose, clean topology-friendly form, neutral studio background, photoreal feather textures, accurate proportions, game-ready prop, no base, no text, no watermark. Morphology from sources: Évalué Least Concern (2018). Signalé dans le commerce d’animaux de compagnie. Dimorphism note: na — sources consultées silencieuses.
+GENERATION BLOCKED for Cordon bleu (Uraeginthus bengalus). No sourced plumage on the sheet. Do not generate a 3D model. Do not invent colors.
 ```
 
 ## Garde-fous (negative)

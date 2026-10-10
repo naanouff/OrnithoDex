@@ -56,7 +56,7 @@ Variables CSS cibles (à mapper en Tailwind theme) :
 
 ### Fond
 
-Pas de fond plat unique : dégradés légers sky → cream → lime (comme le brouillon `accueil-v0`), texture discrète. Photo espèce = ancrage réel sur Collection / Fiche / Quiz.
+Pas de fond plat unique : dégradés légers sky → cream → lime (comme le brouillon `accueil-v0`), texture discrète. Ancrage visuel : **illustration** en Collection ; **photo** sourcée en Fiche / Quiz.
 
 ### Accents ordre (5)
 
@@ -91,7 +91,7 @@ Pastilles / filtres stables — une couleur par ordre du programme :
 
 | Composant | Spec |
 |-----------|------|
-| **Carte espèce** | Recto : photo dominante + nom commun ; pastilles ordre/famille ; pas de card décorative hors interaction |
+| **Carte espèce** | Recto : **illustration** dominante + nom commun ; pastilles ordre/famille ; pas de card décorative hors interaction |
 | **Pastille** | Pill ordre (couleur token) + famille en texte secondaire |
 | **Nav basse** | 3 onglets : Accueil · Collection · Entraînement ; hauteur ~68 px + safe-area |
 | **CTA** | Pleine largeur, min-height 56 px, bordure navy 3 px, ombre « pressable » |
@@ -124,12 +124,13 @@ Pastilles / filtres stables — une couleur par ordre du programme :
 - **Job** : trouver une espèce
 - Recherche + filtres Ordre / Famille
 - Liste cartes en colonne (max 2 colonnes sur grand téléphone)
-- Photo = ancrage ; pas de collage hero
+- **Illustration** naturaliste = ancrage de la tuile (pas la photo Commons) ; pas de collage hero
+- Sans illustration validée : placeholder / dégradé ordre — ne pas inventer un visuel
 
 ### Fiche du naturaliste
 
 - **Job** : mémoriser l’identité
-- Photo dominante edge-to-edge dans la zone média
+- **Photo** sourcée dominante dans la zone média (pas l’illustration de collection)
 - Noms (commun + latin), ordre / famille
 - Points de cours (`programme` / `sourcé`)
 - Audio si disponible
@@ -138,7 +139,7 @@ Pastilles / filtres stables — une couleur par ordre du programme :
 ### Quiz (photo → nom ; chant → espèce)
 
 - **Job** : s’entraîner
-- Stimulus (image ou lecteur audio)
+- Stimulus (**photo** sourcée ou lecteur audio) — pas l’illustration de collection
 - 4 réponses empilées
 - Feedback immédiat + score discret
 - Pas de question si média / fait absent ([pedagogie.md](pedagogie.md))

@@ -3,18 +3,18 @@
 - **Slug** : `cacatua-galerita`
 - **Latin** : *Cacatua galerita*
 - **Ordre / famille** : Psittaciformes / Cacatuides
-- **Faits limités** : non
+- **Plumage sourcé** : oui
 
 ## Prompt — illustration naturaliste (EN)
 
 ```
-Naturalist field-guide illustration of Grand cacatoès à huppe jaune (Cacatua galerita), Psittaciformes, Cacatuides. Side three-quarter view, clear readable silhouette, soft cream background, flat illustrative style with bold navy outlines, vivid but accurate plumage, educational poster look, no photorealism, no text, no watermark, no cage. Appearance from sources: Évalué Least Concern (2018). Grand cacatoès blanc à bec gris-noir, huppe jaune soufre et lavage jaune sous les ailes. Sexual dimorphism note: Plumage similaire ; à courte distance, iris rouge-brun chez la femelle, brun plus foncé chez le mâle. Habitat context (subtle, not a landscape scene): BirdLife : forêts humides et sèches, cultures, milieux fortement dégradés (suitable) ; non migrateur. BirdLife Australia : habitats boisés variés et zones habitées (urbain, woodland, forest, wetland, coastal) ; sédentaire.
+Square 1:1 naturalist field-guide illustration of Grand cacatoès à huppe jaune (Cacatua galerita), Psittaciformes, Cacatuides. Side three-quarter view, clear readable silhouette, soft cream background, flat illustrative style, thick navy blue outlines only (color #1b365d, never black). Educational poster look, no photorealism. Plumage from sources only: Grand cacatoès blanc à bec gris-noir, huppe jaune soufre et lavage jaune sous les ailes. Plumage similaire ; à courte distance, iris rouge-brun chez la femelle, brun plus foncé chez le mâle. Use only colors explicitly named in the plumage sentence. Do not add any other hue on the bird: no guessed bill, iris, breast, wing, or belly color. Areas without a named color stay the same cream as the background. Habitat props only (subtle branch or foliage, not a landscape): BirdLife : forêts humides et sèches, cultures, milieux fortement dégradés (suitable) ; non migrateur. BirdLife Australia : habitats boisés variés et zones habitées (urbain, woodland, forest, wetland, coastal) ; sédentaire. Avoid: text, watermark, logo, human, hand, cage, perch label, extra birds, invented subspecies colors, any color not named in the plumage sentence, cartoon eyes, blurry, low-res, black outlines, dark brown outlines, non-square aspect ratio.
 ```
 
 ## Prompt — modèle 3D réaliste (EN)
 
 ```
-Realistic 3D bird asset of Grand cacatoès à huppe jaune (Cacatua galerita), Psittaciformes, Cacatuides. Single subject, perched pose, clean topology-friendly form, neutral studio background, photoreal feather textures, accurate proportions, game-ready prop, no base, no text, no watermark. Morphology from sources: Évalué Least Concern (2018). Grand cacatoès blanc à bec gris-noir, huppe jaune soufre et lavage jaune sous les ailes. Dimorphism note: Plumage similaire ; à courte distance, iris rouge-brun chez la femelle, brun plus foncé chez le mâle.
+Realistic 3D bird asset of Grand cacatoès à huppe jaune (Cacatua galerita), Psittaciformes, Cacatuides. Single subject, perched pose, clean topology-friendly form, neutral studio background, photoreal feather textures, accurate proportions, game-ready prop, no base, no text, no watermark. Morphology from sources only: Grand cacatoès blanc à bec gris-noir, huppe jaune soufre et lavage jaune sous les ailes. Plumage similaire ; à courte distance, iris rouge-brun chez la femelle, brun plus foncé chez le mâle. Use only colors explicitly named in the plumage sentence. Do not add any other hue on the bird: no guessed bill, iris, breast, wing, or belly color. Areas without a named color stay the same cream as the background.
 ```
 
 ## Garde-fous (negative)

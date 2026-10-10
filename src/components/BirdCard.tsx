@@ -27,6 +27,7 @@ export function BirdCard({ bird, row = 0, reveal = true, onReady }: Props) {
       >
         <BirdImage
           src={bird.image}
+          birdId={bird.id}
           alt=""
           order={bird.order}
           label={bird.commonName}

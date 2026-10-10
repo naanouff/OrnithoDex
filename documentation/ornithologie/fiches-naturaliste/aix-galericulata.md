@@ -20,7 +20,7 @@
 
 ## Dimorphisme sexuel
 
-Fort : mâle en plumage nuptial avec « voiles » dorsales, crête orange/crème et bandeau oculaire blanc ; femelle plus terne, grise, avec trait blanc derrière l’œil.  
+Mâle en plumage complet : paire de plumes « voiles » dressées verticalement au-dessus du dos, crête orange et crème, large bandeau oculaire blanc bordé au-dessus et au-dessous par des plumes plus sombres. Femelle plus terne, aspect général gris, trait blanc courbe derrière l’œil, taches blanches sur les parties inférieures. En vol, les deux sexes montrent un speculum irisé bleu-vert.  
 *Source : adw-aix-galericulata.*
 
 ## Habitat d’origine

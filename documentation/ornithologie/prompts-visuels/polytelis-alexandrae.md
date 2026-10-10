@@ -3,18 +3,18 @@
 - **Slug** : `polytelis-alexandrae`
 - **Latin** : *Polytelis alexandrae*
 - **Ordre / famille** : Psittaciformes / Psittacidés
-- **Faits limités** : non
+- **Plumage sourcé** : non — génération bloquée (ne pas inventer)
 
 ## Prompt — illustration naturaliste (EN)
 
 ```
-Naturalist field-guide illustration of Perruche princesse de Galles ou à calotte bleue (Polytelis alexandrae), Psittaciformes, Psittacidés. Side three-quarter view, clear readable silhouette, soft cream background, flat illustrative style with bold navy outlines, vivid but accurate plumage, educational poster look, no photorealism, no text, no watermark, no cage. Appearance from sources: Évalué Near Threatened (2022, critère D1). Endémique nicheur d’Australie ; Sexual dimorphism note: Non détaillé dans les sources consultées (BirdLife). Habitat context (subtle, not a landscape scene): Désert chaud, prairies sèches (majeur), fourrés secs (majeur) ; statut nomade. Zone aride (Grands Déserts de Sable, Gibson, Tanami, Victoria, etc.) ; souvent dans les dépressions entre dunes.
+GENERATION BLOCKED for Perruche princesse de Galles ou à calotte bleue (Polytelis alexandrae). The species sheet has no sourced plumage or morphology. Do not generate an illustration. Do not invent colors, bill, crest, or sexual dimorphism.
 ```
 
 ## Prompt — modèle 3D réaliste (EN)
 
 ```
-Realistic 3D bird asset of Perruche princesse de Galles ou à calotte bleue (Polytelis alexandrae), Psittaciformes, Psittacidés. Single subject, perched pose, clean topology-friendly form, neutral studio background, photoreal feather textures, accurate proportions, game-ready prop, no base, no text, no watermark. Morphology from sources: Évalué Near Threatened (2022, critère D1). Endémique nicheur d’Australie ; Dimorphism note: Non détaillé dans les sources consultées (BirdLife).
+GENERATION BLOCKED for Perruche princesse de Galles ou à calotte bleue (Polytelis alexandrae). No sourced plumage on the sheet. Do not generate a 3D model. Do not invent colors.
 ```
 
 ## Garde-fous (negative)

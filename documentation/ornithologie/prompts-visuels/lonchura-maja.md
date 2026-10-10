@@ -3,18 +3,18 @@
 - **Slug** : `lonchura-maja`
 - **Latin** : *Lonchura maja*
 - **Ordre / famille** : Passériformes / Estrildidés
-- **Faits limités** : non
+- **Plumage sourcé** : non — génération bloquée (ne pas inventer)
 
 ## Prompt — illustration naturaliste (EN)
 
 ```
-Naturalist field-guide illustration of Capucin à tête blanche (Lonchura maja), Passériformes, Estrildidés. Side three-quarter view, clear readable silhouette, soft cream background, flat illustrative style with bold navy outlines, vivid but accurate plumage, educational poster look, no photorealism, no text, no watermark, no cage. Appearance from sources: Évalué Least Concern (2025). Commerce signalé à forte prévalence. Sexual dimorphism note: na — sources consultées silencieuses. Habitat context (subtle, not a landscape scene): Non migrateur. Zones humides intérieures (majeur) ; terres cultivées et plantations (suitable) ; jardins ruraux (marginal).
+GENERATION BLOCKED for Capucin à tête blanche (Lonchura maja). The species sheet has no sourced plumage or morphology. Do not generate an illustration. Do not invent colors, bill, crest, or sexual dimorphism.
 ```
 
 ## Prompt — modèle 3D réaliste (EN)
 
 ```
-Realistic 3D bird asset of Capucin à tête blanche (Lonchura maja), Passériformes, Estrildidés. Single subject, perched pose, clean topology-friendly form, neutral studio background, photoreal feather textures, accurate proportions, game-ready prop, no base, no text, no watermark. Morphology from sources: Évalué Least Concern (2025). Commerce signalé à forte prévalence. Dimorphism note: na — sources consultées silencieuses.
+GENERATION BLOCKED for Capucin à tête blanche (Lonchura maja). No sourced plumage on the sheet. Do not generate a 3D model. Do not invent colors.
 ```
 
 ## Garde-fous (negative)

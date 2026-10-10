@@ -3,18 +3,18 @@
 - **Slug** : `amadina-fasciata`
 - **Latin** : *Amadina fasciata*
 - **Ordre / famille** : Passériformes / Estrildidés
-- **Faits limités** : non
+- **Plumage sourcé** : non — génération bloquée (ne pas inventer)
 
 ## Prompt — illustration naturaliste (EN)
 
 ```
-Naturalist field-guide illustration of Cou coupé (Amadina fasciata), Passériformes, Estrildidés. Side three-quarter view, clear readable silhouette, soft cream background, flat illustrative style with bold navy outlines, vivid but accurate plumage, educational poster look, no photorealism, no text, no watermark, no cage. Appearance from sources: Évalué Least Concern (2024). Altitude 0–2 150 m. Commerce d’oiseaux signalé à prévalence élevée (Donald et al. 2024 via BirdLife). Sexual dimorphism note: Non détaillé dans les sources consultées (BirdLife). Habitat context (subtle, not a landscape scene): Non migrateur. Savane sèche (majeur) ; prairies et fourrés secs (adaptés).
+GENERATION BLOCKED for Cou coupé (Amadina fasciata). The species sheet has no sourced plumage or morphology. Do not generate an illustration. Do not invent colors, bill, crest, or sexual dimorphism.
 ```
 
 ## Prompt — modèle 3D réaliste (EN)
 
 ```
-Realistic 3D bird asset of Cou coupé (Amadina fasciata), Passériformes, Estrildidés. Single subject, perched pose, clean topology-friendly form, neutral studio background, photoreal feather textures, accurate proportions, game-ready prop, no base, no text, no watermark. Morphology from sources: Évalué Least Concern (2024). Altitude 0–2 150 m. Commerce d’oiseaux signalé à prévalence élevée (Donald et al. 2024 via BirdLife). Dimorphism note: Non détaillé dans les sources consultées (BirdLife).
+GENERATION BLOCKED for Cou coupé (Amadina fasciata). No sourced plumage on the sheet. Do not generate a 3D model. Do not invent colors.
 ```
 
 ## Garde-fous (negative)
