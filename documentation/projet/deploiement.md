@@ -33,3 +33,10 @@ Secrets GitHub (Settings → Secrets and variables → Actions) :
 ## Flux Gitflow rappel
 
 `feature/*` → PR → `develop` (preview) → `release/x.y.z` → `main` → tag + Release → prod Vercel.
+
+### Première prod (0.1.0)
+
+1. Merger la PR `release/0.1.0` → `main`
+2. Merger aussi `release/0.1.0` → `develop` si commits de release uniquement sur la branche
+3. Sur `main` : créer le tag `v0.1.0` et une **GitHub Release** (déclenche `.github/workflows/deploy-production.yml`)
+4. Avoir au préalable importé le repo sur Vercel + secrets `VERCEL_TOKEN`, `VERCEL_ORG_ID`, `VERCEL_PROJECT_ID`
