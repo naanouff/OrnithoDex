@@ -130,6 +130,17 @@ function parseSourcedSection(body) {
   return { text, sourceIds }
 }
 
+function findLocalMedia(slug, kind, exts) {
+  const dir = path.join(root, 'public', kind, 'birds')
+  for (const ext of exts) {
+    const file = path.join(dir, `${slug}${ext}`)
+    if (fs.existsSync(file) && fs.statSync(file).size > 500) {
+      return `/${kind}/birds/${slug}${ext}`
+    }
+  }
+  return undefined
+}
+
 function parseFiche(filePath) {
   const md = fs.readFileSync(filePath, 'utf8').replace(/\r\n/g, '\n')
   const slugMatch = md.match(/\*\*Slug\*\*\s*:\s*`([^`]+)`/)
@@ -179,10 +190,25 @@ function parseFiche(filePath) {
     sources,
   }
 
-  if (media.image) bird.image = media.image
   if (media.imageCredit) bird.imageCredit = media.imageCredit
   if (media.imageSourceId) bird.imageSourceId = media.imageSourceId
-  if (media.audio.length) bird.audio = media.audio
+
+  const localImg = findLocalMedia(bird.id, 'images', ['.webp', '.jpg', '.jpeg', '.png'])
+  const localAud = findLocalMedia(bird.id, 'audio', ['.mp3', '.ogg', '.wav'])
+
+  if (localImg) {
+    bird.image = localImg
+    if (media.image) bird.imageRemote = media.image
+  } else if (media.image) {
+    bird.image = media.image
+  }
+
+  if (localAud) {
+    bird.audio = [localAud]
+    if (media.audio.length) bird.audioRemote = media.audio
+  } else if (media.audio.length) {
+    bird.audio = media.audio
+  }
 
   if (!bird.scientificName || !bird.commonName || !bird.order || !bird.family) {
     throw new Error(`Identité incomplète: ${bird.id}`)

@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "preview": "vite preview",
-    "data:birds": "node scripts/build-birds.mjs"
+    "data:birds": "node scripts/build-birds.mjs",
+    "media:fetch": "node scripts/fetch-media.mjs",
+    "media:refresh": "node scripts/fetch-media.mjs && node scripts/build-birds.mjs"
   },
   "dependencies": {
     "react": "^19.1.1",

@@ -129,20 +129,32 @@ export function QuizPage() {
         />
       ) : null}
 
-      {question?.mode === 'chant' && question.audioEmbedUrl ? (
-        <div className="overflow-hidden rounded-[var(--radius-sm)] border-[3px] border-navy bg-white shadow-[0_4px_0_rgb(27_54_93/0.12)]">
-          <iframe
-            title="Enregistrement Xeno-canto"
-            src={question.audioEmbedUrl}
-            className="h-[140px] w-full border-0"
-            loading="lazy"
-          />
+      {question?.mode === 'chant' && (question.audioUrl || question.audioEmbedUrl) ? (
+        <div className="overflow-hidden rounded-[var(--radius-sm)] border-[3px] border-navy bg-white p-3 shadow-[0_4px_0_rgb(27_54_93/0.12)]">
+          {question.audioUrl ? (
+            <audio
+              key={question.audioUrl}
+              controls
+              preload="metadata"
+              className="w-full"
+              src={question.audioUrl}
+            >
+              Lecteur audio non supporté
+            </audio>
+          ) : (
+            <iframe
+              title="Enregistrement Xeno-canto"
+              src={question.audioEmbedUrl}
+              className="h-[140px] w-full border-0"
+              loading="lazy"
+            />
+          )}
           {question.audioPageUrl ? (
             <a
               href={question.audioPageUrl}
               target="_blank"
               rel="noreferrer"
-              className="block px-3 py-2 text-center text-xs font-bold text-sky underline"
+              className="mt-2 block text-center text-xs font-bold text-sky underline"
             >
               Crédit / page Xeno-canto
             </a>

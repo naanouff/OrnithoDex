@@ -32,12 +32,16 @@ export type Bird = {
   order: string
   family: string
   programSourceId: string
-  /** URL Commons (ou chemin local plus tard). */
+  /** Chemin local `/images/birds/…` ou URL Commons. */
   image?: string
+  /** URL Commons d’origine si `image` est local. */
+  imageRemote?: string
   imageCredit?: string
   imageSourceId?: string
-  /** URLs Xeno-canto (ou chemins locaux plus tard). */
+  /** Chemins locaux `/audio/birds/…` ou URLs Xeno-canto. */
   audio?: string[]
+  /** Pages XC d’origine si `audio` est local. */
+  audioRemote?: string[]
   sheet: {
     status: SheetStatus
     sections: SourcedText[]
