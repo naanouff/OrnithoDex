@@ -37,5 +37,6 @@ Chronique courte des sessions de travail : décisions, avancement, blocages.
 | 2026-10-10 | [2026-10-10-25.md](2026-10-10-25.md) — Pédagogie Livrable A (charte + règle Cursor + gabarit) |
 | 2026-10-10 | [2026-10-10-26.md](2026-10-10-26.md) — Pédagogie pilote 12 (points de cours) |
 | 2026-10-10 | [2026-10-10-27.md](2026-10-10-27.md) — Pédagogie lot 01 Agapornis / Amazona (6) |
+| 2026-10-10 | [2026-10-10-28.md](2026-10-10-28.md) — Pédagogie lot 02 Psittacidés A (6) |
 | 2026-10-10 | [2026-10-10-10.md](2026-10-10-10.md) — Consignation plan pédagogie |
 | 2026-10-10 | [2026-10-10-11.md](2026-10-10-11.md) — Public prioritaire seconde pro TCVA |

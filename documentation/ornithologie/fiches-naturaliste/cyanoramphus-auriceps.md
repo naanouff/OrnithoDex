@@ -44,7 +44,13 @@ Enregistrement XC526622 (James Lidster — CC BY-NC-SA 4.0) : https://xeno-canto
 
 ## Points de cours à retenir
 
-*En attente ingénieur pédagogique / supports de cours.*
+<!-- Aides à la mémorisation (pas un polycopié enseignant). -->
+
+- **[programme]** Kakariki à front jaune ↔ *Cyanoramphus auriceps* ; Psittaciformes ; Psittacidés
+- **[programme]** Confusion : *C. novaezelandiae* (front rouge) — même genre, statut différent
+- **[sourcé]** **Near Threatened** ; endémique NZ ; ≈ 10 000–30 000 matures
+- **[sourcé]** Forêts mixtes, souvent plus en altitude que le front rouge
+- **[sourcé]** Régime : graines, baies, fleurs + insectes sur les arbres
 
 ## Médias
 
