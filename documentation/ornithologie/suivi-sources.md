@@ -36,12 +36,12 @@ Plan sources : [plan-sources.md](../projet/plan-sources.md) (85/85 `complete`) �
 | neophema-splendida | ok | ok | ok | ok | ok | na | ok | na | ok | ok | dimorphisme/régime na; sprint 06 |
 | platycercus-eximius-eximius | ok | ok | ok | ok | ok | na | ok | na | ok | ok | sous-esp. programme; dimorphisme/régime na; sprint 06 |
 | platycercus-elegans | ok | ok | ok | ok | ok | na | ok | na | ok | ok | déclin habitat; sprint 07 |
-| platycercus-icterotis | ok | ok | ok | ok | ok | na | ok | na | ok | attente | déclin; sprint 07 |
-| platycercus-adscitus | ok | ok | ok | ok | ok | na | ok | na | ok | attente | sprint 07 |
-| poicephalus-senegalus | ok | ok | ok | ok | ok | ok | ok | ok | ok | attente | ADW; commerce; sprint 07 |
-| polytelis-alexandrae | ok | ok | ok | ok | ok | na | ok | ok | ok | attente | NT; sprint 07 |
-| polytelis-anthopeplus | ok | ok | ok | ok | ok | na | ok | na | ok | attente | déclin; sprint 07 |
-| psephotus-haematonotus-haematonotus | ok | ok | ok | ok | ok | na | ok | na | ok | attente | sous-esp. programme; dimorphisme/régime na; sprint 08 |
+| platycercus-icterotis | ok | ok | ok | ok | ok | na | ok | na | ok | ok | déclin; sprint 07 |
+| platycercus-adscitus | ok | ok | ok | ok | ok | na | ok | na | ok | ok | sprint 07 |
+| poicephalus-senegalus | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok | ADW; commerce; sprint 07 |
+| polytelis-alexandrae | ok | ok | ok | ok | ok | na | ok | ok | ok | ok | NT; sprint 07 |
+| polytelis-anthopeplus | ok | ok | ok | ok | ok | na | ok | na | ok | ok | déclin; sprint 07 |
+| psephotus-haematonotus-haematonotus | ok | ok | ok | ok | ok | na | ok | na | ok | ok | sous-esp. programme; dimorphisme/régime na; sprint 08 |
 | psittacula-krameri-manillensis | ok | ok | ok | ok | ok | ok | ok | ok | ok | attente | Alexandrinus; ADW; sous-esp. manillensis; sprint 08 |
 | psittacula-cyanocephala | ok | ok | ok | ok | ok | na | ok | na | ok | attente | Himalayapsitta; dimorphisme/régime na; sprint 08 |
 | psittacula-eupatria | ok | ok | ok | ok | ok | na | ok | ok | ok | attente | Palaeornis; nomade; dimorphisme na; sprint 08 |
