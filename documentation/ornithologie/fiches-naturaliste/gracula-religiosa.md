@@ -45,7 +45,13 @@ Enregistrement XC1157137 (Ding Li Yong — CC BY-NC-ND 4.0) : https://xeno-canto
 
 ## Points de cours à retenir
 
-*En attente ingénieur pédagogique / supports de cours.*
+<!-- Aides à la mémorisation (pas un polycopié enseignant). -->
+
+- **[programme]** Mainate religieux ↔ *Gracula religiosa* ; **Passériformes** ; Sturnidés
+- **[programme]** Premier Passériforme du lot — distinct des Cacatuides / Psittacidés
+- **[sourcé]** Least Concern ; tendance en diminution ; noir brillant + caroncules jaunes
+- **[sourcé]** Surtout frugivore arboricole ; forêts humides
+- **[sourcé]** Connu pour le mimétisme (sons, parole)
 
 ## Médias
 

@@ -12,6 +12,7 @@
 | [sprint-pedagogie-lot-03.md](sprint-pedagogie-lot-03.md) | **Sprint pédagogie** — lot 03 Psittacidés B (6) |
 | [sprint-pedagogie-lot-04.md](sprint-pedagogie-lot-04.md) | **Sprint pédagogie** — lot 04 Psittacidés C (6) |
 | [sprint-pedagogie-lot-05.md](sprint-pedagogie-lot-05.md) | **Sprint pédagogie** — lot 05 Psittacidés D / Cacatuides (6) |
+| [sprint-pedagogie-lot-06.md](sprint-pedagogie-lot-06.md) | **Sprint pédagogie** — lot 06 Cacatuides / Passériformes (6) |
 | [plan-design.md](plan-design.md) | **Plan design** — charte + maquettes (direction artistique) |
 | [sprint-01-sources.md](sprint-01-sources.md) | **Sprint 01** — collecte lot pilote (6 espèces) |
 | [sprint-02-sources.md](sprint-02-sources.md) | **Sprint 02** — Columbiformes (6) |

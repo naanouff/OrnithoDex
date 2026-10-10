@@ -46,7 +46,13 @@ BirdLife Australia : cri fort caractéristique se terminant par une légère mon
 
 ## Points de cours à retenir
 
-*En attente ingénieur pédagogique / supports de cours.*
+<!-- Aides à la mémorisation (pas un polycopié enseignant). -->
+
+- **[programme]** Grand cacatoès à huppe jaune ↔ *Cacatua galerita* ; Psittaciformes ; Cacatuides
+- **[programme]** Confusion : *C. alba* (EN, blanc) — galerita = huppe **jaune**, Least Concern
+- **[sourcé]** LC ; Australie / PNG / Indonésie ; tendance en diminution (habitat)
+- **[sourcé]** Dimorphisme discret : iris ♀ rouge-brun vs ♂ plus foncé
+- **[sourcé]** Grégaire ; baies, graines, noix ; sentinelles pendant l’alimentation
 
 ## Médias
 

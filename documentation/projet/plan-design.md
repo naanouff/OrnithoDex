@@ -18,7 +18,7 @@ Voir aussi : [vision.md](vision.md), [cahier-des-charges.md](cahier-des-charges.
 
 ## Prérequis logo
 
-Logo NanoBanana retenu ; brouillon vectorisé local : `documentation/mocup/logo-ornithodex.svg` (VTracer depuis JPG, fond retiré). Versionnement officiel plus tard sous [`assets/logo-ornithodex.svg`](assets/logo-ornithodex.svg).
+Logo NanoBanana retenu ; brouillon local (gitignored) : `documentation/mocup/logo-ornithodex.svg` (VTracer haute fidélité ~2 Mo, fond retiré) + `logo-ornithodex-hq.png` (aperçu net). Auto-trace ≠ redraw manuel — pour prod, reprise Inkscape / export vectoriel amont si dispo. Versionnement officiel plus tard sous [`assets/`](assets/).
 
 Analyse du logo → tokens (couleurs, contrastes, style illustration). DA ludique type Duolingo (navy / orange-jaune / sky / lime).
 
