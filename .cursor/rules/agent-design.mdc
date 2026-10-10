@@ -22,4 +22,4 @@ Référence : [`documentation/projet/design.md`](documentation/projet/design.md)
 - [ ] Zones ≥ 44 px ; CTA pleine largeur
 - [ ] Accents ordre via tokens `--ordre-*`
 - [ ] Fond avec atmosphère (dégradés), pas plat unique
-- [ ] Photo espèce = ancrage réel (Collection / Fiche / Quiz)
+- [ ] Collection = illustration ; fiche / quiz = photo sourcée

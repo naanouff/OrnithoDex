@@ -3,18 +3,18 @@
 - **Slug** : `agapornis-personatus`
 - **Latin** : *Agapornis personatus*
 - **Ordre / famille** : Psittaciformes / Psittacidés
-- **Faits limités** : non
+- **Plumage sourcé** : non — génération bloquée (ne pas inventer)
 
 ## Prompt — illustration naturaliste (EN)
 
 ```
-Naturalist field-guide illustration of Inséparable masqué ou à tête noire (Agapornis personatus), Psittaciformes, Psittacidés. Side three-quarter view, clear readable silhouette, soft cream background, flat illustrative style with bold navy outlines, vivid but accurate plumage, educational poster look, no photorealism, no text, no watermark, no cage. Appearance from sources: Évalué Least Concern (2018). Endémique nicheur Tanzanie ; Non migrateur. Elevation typique 1 100–1 800 m. Sexual dimorphism note: na — non décrit dans la fiche BirdLife consultée. Habitat context (subtle, not a landscape scene): Savane sèche (major).
+GENERATION BLOCKED for Inséparable masqué ou à tête noire (Agapornis personatus). The species sheet has no sourced plumage or morphology. Do not generate an illustration. Do not invent colors, bill, crest, or sexual dimorphism.
 ```
 
 ## Prompt — modèle 3D réaliste (EN)
 
 ```
-Realistic 3D bird asset of Inséparable masqué ou à tête noire (Agapornis personatus), Psittaciformes, Psittacidés. Single subject, perched pose, clean topology-friendly form, neutral studio background, photoreal feather textures, accurate proportions, game-ready prop, no base, no text, no watermark. Morphology from sources: Évalué Least Concern (2018). Endémique nicheur Tanzanie ; Non migrateur. Elevation typique 1 100–1 800 m. Dimorphism note: na — non décrit dans la fiche BirdLife consultée.
+GENERATION BLOCKED for Inséparable masqué ou à tête noire (Agapornis personatus). No sourced plumage on the sheet. Do not generate a 3D model. Do not invent colors.
 ```
 
 ## Garde-fous (negative)

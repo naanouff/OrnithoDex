@@ -3,18 +3,18 @@
 - **Slug** : `lonchura-malacca-atricapilla`
 - **Latin** : *Lonchura malacca atricapilla*
 - **Ordre / famille** : Passériformes / Estrildidés
-- **Faits limités** : non
+- **Plumage sourcé** : non — génération bloquée (ne pas inventer)
 
 ## Prompt — illustration naturaliste (EN)
 
 ```
-Naturalist field-guide illustration of Capucin à tête noire (Lonchura malacca atricapilla), Passériformes, Estrildidés. Side three-quarter view, clear readable silhouette, soft cream background, flat illustrative style with bold navy outlines, vivid but accurate plumage, educational poster look, no photorealism, no text, no watermark, no cage. Appearance from sources: BirdLife traite L. atricapilla (Chestnut Munia) comme espèce distincte de L. malacca. Évalué Least Concern (2024). Altitude 0–2 100 m. Sexual dimorphism note: na — sources consultées silencieuses. Habitat context (subtle, not a landscape scene): Non migrateur. Zones humides intérieures (majeur) ; fourrés humides, terres cultivées, plantations, canaux d’irrigation ; forêt humide de basse altitude (marginal).
+GENERATION BLOCKED for Capucin à tête noire (Lonchura malacca atricapilla). The species sheet has no sourced plumage or morphology. Do not generate an illustration. Do not invent colors, bill, crest, or sexual dimorphism.
 ```
 
 ## Prompt — modèle 3D réaliste (EN)
 
 ```
-Realistic 3D bird asset of Capucin à tête noire (Lonchura malacca atricapilla), Passériformes, Estrildidés. Single subject, perched pose, clean topology-friendly form, neutral studio background, photoreal feather textures, accurate proportions, game-ready prop, no base, no text, no watermark. Morphology from sources: BirdLife traite L. atricapilla (Chestnut Munia) comme espèce distincte de L. malacca. Évalué Least Concern (2024). Altitude 0–2 100 m. Dimorphism note: na — sources consultées silencieuses.
+GENERATION BLOCKED for Capucin à tête noire (Lonchura malacca atricapilla). No sourced plumage on the sheet. Do not generate a 3D model. Do not invent colors.
 ```
 
 ## Garde-fous (negative)

@@ -3,18 +3,18 @@
 - **Slug** : `stagonopleura-guttata`
 - **Latin** : *Stagonopleura guttata*
 - **Ordre / famille** : Passériformes / Estrildidés
-- **Faits limités** : non
+- **Plumage sourcé** : non — génération bloquée (ne pas inventer)
 
 ## Prompt — illustration naturaliste (EN)
 
 ```
-Naturalist field-guide illustration of Diamant à gouttelettes (Stagonopleura guttata), Passériformes, Estrildidés. Side three-quarter view, clear readable silhouette, soft cream background, flat illustrative style with bold navy outlines, vivid but accurate plumage, educational poster look, no photorealism, no text, no watermark, no cage. Appearance from sources: Évalué Vulnerable (2022). Endémique nicheur d’Australie. Déclins récents liés au défrichement et à la dégradation des habitats. Sexual dimorphism note: na — sources consultées silencieuses. Habitat context (subtle, not a landscape scene): Non migrateur. Prairies et savanes sèches (majeur) ; forêts sèches subtropicales/tropicales (suitable).
+GENERATION BLOCKED for Diamant à gouttelettes (Stagonopleura guttata). The species sheet has no sourced plumage or morphology. Do not generate an illustration. Do not invent colors, bill, crest, or sexual dimorphism.
 ```
 
 ## Prompt — modèle 3D réaliste (EN)
 
 ```
-Realistic 3D bird asset of Diamant à gouttelettes (Stagonopleura guttata), Passériformes, Estrildidés. Single subject, perched pose, clean topology-friendly form, neutral studio background, photoreal feather textures, accurate proportions, game-ready prop, no base, no text, no watermark. Morphology from sources: Évalué Vulnerable (2022). Endémique nicheur d’Australie. Déclins récents liés au défrichement et à la dégradation des habitats. Dimorphism note: na — sources consultées silencieuses.
+GENERATION BLOCKED for Diamant à gouttelettes (Stagonopleura guttata). No sourced plumage on the sheet. Do not generate a 3D model. Do not invent colors.
 ```
 
 ## Garde-fous (negative)

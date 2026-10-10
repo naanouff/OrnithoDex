@@ -3,18 +3,18 @@
 - **Slug** : `lonchura-striata-domestiqua`
 - **Latin** : *Lonchura striata domestiqua*
 - **Ordre / famille** : Passériformes / Estrildidés
-- **Faits limités** : non
+- **Plumage sourcé** : non — génération bloquée (ne pas inventer)
 
 ## Prompt — illustration naturaliste (EN)
 
 ```
-Naturalist field-guide illustration of Moineau du Japon (Lonchura striata domestiqua), Passériformes, Estrildidés. Side three-quarter view, clear readable silhouette, soft cream background, flat illustrative style with bold navy outlines, vivid but accurate plumage, educational poster look, no photorealism, no text, no watermark, no cage. Appearance from sources: Forme domestique (Society Finch / moineau du Japon), dérivée du capucin domino sauvage. Taxon sauvage L. striata : Least Concern (2024) ; Sexual dimorphism note: na — sources consultées silencieuses pour le taxon sauvage ; forme domestique non détaillée. Habitat context (subtle, not a landscape scene): Taxon sauvage : non migrateur ; savane sèche, prairies sèches, fourrés secs, forêts sèches, terres cultivées. Forme domestique : animale d’élevage / de compagnie (pas d’aire sauvage propre).
+GENERATION BLOCKED for Moineau du Japon (Lonchura striata domestiqua). The species sheet has no sourced plumage or morphology. Do not generate an illustration. Do not invent colors, bill, crest, or sexual dimorphism.
 ```
 
 ## Prompt — modèle 3D réaliste (EN)
 
 ```
-Realistic 3D bird asset of Moineau du Japon (Lonchura striata domestiqua), Passériformes, Estrildidés. Single subject, perched pose, clean topology-friendly form, neutral studio background, photoreal feather textures, accurate proportions, game-ready prop, no base, no text, no watermark. Morphology from sources: Forme domestique (Society Finch / moineau du Japon), dérivée du capucin domino sauvage. Taxon sauvage L. striata : Least Concern (2024) ; Dimorphism note: na — sources consultées silencieuses pour le taxon sauvage ; forme domestique non détaillée.
+GENERATION BLOCKED for Moineau du Japon (Lonchura striata domestiqua). No sourced plumage on the sheet. Do not generate a 3D model. Do not invent colors.
 ```
 
 ## Garde-fous (negative)

@@ -107,6 +107,14 @@ flowchart LR
   birdsTs --> ficheUI
 ```
 
+## Usage des assets (décision produit)
+
+| Surface | Asset |
+|---------|--------|
+| Collection | **Illustration** naturaliste (`public/images/illustrations/…`) |
+| Fiche / quiz photo | **Photo** sourcée (`public/images/birds/…`) |
+| 3D | Hors UI V1 (prompts seulement pour l’instant) |
+
 ## Hors périmètre (sprint code)
 
 - Génération effective des 85 × 2 assets (PNG / GLB) — **passe illustration** : [plan-suivi-illustrations.md](plan-suivi-illustrations.md)

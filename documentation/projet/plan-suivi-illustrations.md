@@ -2,6 +2,8 @@
 
 Document de référence consigné le **2026-10-10**. Complète le [plan prompts visuels](plan-prompts-visuels.md). Toute évolution majeure → ce fichier + [journal](../journal/).
 
+**Branche** : `feature/suivi-illustrations` → PR vers `develop`
+
 ## Vue d’ensemble
 
 Passe opérationnelle : générer et valider les **85 illustrations naturalistes** une par une (prompts déjà produits par `npm run data:prompts`).
@@ -18,8 +20,15 @@ Rôles :
 |-------|--------|
 | Périmètre | **Illustration uniquement** (pas 3D pour cette passe) |
 | Ordre | [`_index.md`](../ornithologie/prompts-visuels/_index.md) — **repartir de 0** (`agapornis-fischeri`) |
-| Stockage | `documentation/ornithologie/prompts-visuels/references/{slug}-illustration.jpg` (ou `.png` / `.webp`) |
-| App | **Pas** d’intégration `public/images/birds/` tant que la passe n’est pas validée |
+| Format image | **Carré** (1:1) — demandé dans le prompt unique |
+| Prompt opérateur | **Un seul bloc collable** (négatifs fusionnés en « Avoid: … ») |
+| Couleurs | **Photo de la fiche** (médias, licence OK) = référence plumage / couleurs. Le prompt ne décrit que le **cadrage, le style et la pose**. Ne pas recopier la pose de la photo si elle diffère |
+| Reprise | On ne fournit pas l’espèce suivante tant que l’image en cours n’est pas validée |
+| Progression | À chaque tour : `validées / 85`, espèce en cours, suivante |
+| Stockage validation | `documentation/ornithologie/prompts-visuels/references/{slug}-illustration.jpg` (ou `.png` / `.webp`) |
+| Usage app | **Collection** = illustrations ; **fiche + quiz** = photos Commons (inchangé) |
+| Publication app | Après validation : copier vers `public/images/illustrations/{slug}.webp` (pas dans `images/birds/`) |
+| App pendant la passe | Pas d’intégration `public/` tant que l’espèce n’est pas validée ; fallback collection = placeholder / dégradé ordre |
 | Commit | Uniquement sur demande explicite |
 
 ## Boucle par espèce
@@ -33,16 +42,18 @@ flowchart LR
   store --> next[Espece_suivante]
 ```
 
-1. **Prompt** — bloc « Prompt — illustration naturaliste (EN) » du fichier `{slug}.md` + garde-fous négatifs
+1. **Prompt** — un seul bloc collable : illustration EN (faits visuels) + format carré 1:1 + « Avoid: … » (négatifs)
 2. **Génération** — opérateur colle / dépose l’image
 3. **Contrôle** (checklist) :
+   - format carré (1:1)
    - silhouette lisible, vue 3/4 de côté
    - fond crème, style plat, contours navy `#1b365d` (pas noirs)
-   - plumage / morphologie **uniquement** faits du prompt / fiche — zéro invention
+   - plumage **uniquement** les couleurs nommées dans le prompt — toute autre teinte sur l’oiseau = KO
    - pas de texte, watermark, cage, multi-sujets
 4. **Si OK** — enregistrer sous `references/{slug}-illustration.*`, ligne dans [`references/README.md`](../ornithologie/prompts-visuels/references/README.md), puis `npm run data:prompts`
-5. **Si KO** — feedback précis (1–3 points) ; même espèce ; pas d’avance
-6. **Suivante** — espèce suivante dans `_index.md`
+5. **Si KO** — feedback précis (1–3 points) ; **même espèce uniquement** ; ne pas donner le prompt suivant
+6. **Suivante** — espèce suivante dans `_index.md` dont la colonne Illustration est `prêt`
+7. **Bloqué** — plumage absent de la fiche : ne pas générer ; ne pas inventer. Compléter la fiche depuis une source approuvée, puis `npm run data:prompts`
 
 ## Suivi de progression
 
@@ -50,10 +61,20 @@ flowchart LR
 - Pilote Fischer existant : **remplacé / revalidé** avec la nouvelle génération (repartir de 0)
 - Critère de done passe : 85 illustrations validées en `references/`
 
+## Usage produit (décision 2026-10-10)
+
+| Surface | Visuel |
+|---------|--------|
+| **Collection** (tuiles) | Illustration naturaliste validée |
+| **Fiche** | Photo sourcée (Commons / local `images/birds/`) |
+| **Quiz photo → nom** | Photo sourcée |
+
+Conséquence : le cadrage « focus tête » sur photo ne s’applique pas aux tuiles collection (illustrations carrées 1:1, déjà composées pour la lisibilité).
+
 ## Hors périmètre
 
 - Génération / validation des GLB 3D
-- Publication des assets dans l’app (`public/`)
+- Remplacer les photos de fiche / quiz par les illustrations
 - Modification des prompts générés (sauf ajustement mineur des négatifs si échec répété)
 
 ## Documents liés

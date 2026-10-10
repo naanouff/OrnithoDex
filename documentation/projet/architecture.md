@@ -66,9 +66,8 @@ Règle : `sourceIds` obligatoire dès qu’un texte de section est non vide. Ide
 
 | Environnement | Déclencheur |
 |---------------|-------------|
-| Preview Vercel | Push / PR vers `develop` |
+| Preview Vercel | CI Actions : push `develop` + PR (job `preview`) |
 | Production Vercel | GitHub Release (`release: published`) via Actions |
 
-Secrets attendus : `VERCEL_TOKEN`, `VERCEL_ORG_ID`, `VERCEL_PROJECT_ID`.
-
-Détail Gitflow : [conventions.md](conventions.md).
+Secrets attendus : `VERCEL_TOKEN`, `VERCEL_ORG_ID`, `VERCEL_PROJECT_ID`.  
+Procédure : [deploiement.md](deploiement.md). Gitflow : [conventions.md](conventions.md).

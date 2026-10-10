@@ -3,18 +3,18 @@
 - **Slug** : `amandava-subflava`
 - **Latin** : *Amandava subflava*
 - **Ordre / famille** : Passériformes / Estrildidés
-- **Faits limités** : non
+- **Plumage sourcé** : non — génération bloquée (ne pas inventer)
 
 ## Prompt — illustration naturaliste (EN)
 
 ```
-Naturalist field-guide illustration of Ventre orange (Amandava subflava), Passériformes, Estrildidés. Side three-quarter view, clear readable silhouette, soft cream background, flat illustrative style with bold navy outlines, vivid but accurate plumage, educational poster look, no photorealism, no text, no watermark, no cage. Appearance from sources: Évalué Least Concern (2018). Altitude 250–2 000 m. Sexual dimorphism note: na — sources consultées silencieuses. Habitat context (subtle, not a landscape scene): Non migrateur. Prairies (sèches ou saisonnièrement humides), savane sèche, zones humides intérieures (marais…), terres cultivées. Afrique subsaharienne (large répartition).
+GENERATION BLOCKED for Ventre orange (Amandava subflava). The species sheet has no sourced plumage or morphology. Do not generate an illustration. Do not invent colors, bill, crest, or sexual dimorphism.
 ```
 
 ## Prompt — modèle 3D réaliste (EN)
 
 ```
-Realistic 3D bird asset of Ventre orange (Amandava subflava), Passériformes, Estrildidés. Single subject, perched pose, clean topology-friendly form, neutral studio background, photoreal feather textures, accurate proportions, game-ready prop, no base, no text, no watermark. Morphology from sources: Évalué Least Concern (2018). Altitude 250–2 000 m. Dimorphism note: na — sources consultées silencieuses.
+GENERATION BLOCKED for Ventre orange (Amandava subflava). No sourced plumage on the sheet. Do not generate a 3D model. Do not invent colors.
 ```
 
 ## Garde-fous (negative)

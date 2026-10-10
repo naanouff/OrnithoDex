@@ -106,6 +106,7 @@ export function QuizPage() {
         >
           <BirdImage
             src={question.imageUrl ?? question.bird.image}
+            birdId={question.bird.id}
             alt="Espèce à identifier"
             order={question.bird.order}
             loading="eager"

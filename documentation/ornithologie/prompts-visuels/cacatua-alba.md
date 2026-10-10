@@ -3,18 +3,18 @@
 - **Slug** : `cacatua-alba`
 - **Latin** : *Cacatua alba*
 - **Ordre / famille** : Psittaciformes / Cacatuides
-- **Faits limités** : non
+- **Plumage sourcé** : non — génération bloquée (ne pas inventer)
 
 ## Prompt — illustration naturaliste (EN)
 
 ```
-Naturalist field-guide illustration of Cacatoès blanc (Cacatua alba), Psittaciformes, Cacatuides. Side three-quarter view, clear readable silhouette, soft cream background, flat illustrative style with bold navy outlines, vivid but accurate plumage, educational poster look, no photorealism, no text, no watermark, no cage. Appearance from sources: Évalué Endangered (2021 ; critères A2bcd+4bcd). Sexual dimorphism note: na — non décrit dans la fiche BirdLife consultée. Habitat context (subtle, not a landscape scene): Résident en forêt primaire, exploitée et secondaire jusqu’à 600 m ; aussi mangroves, plantations (dont cocotiers) et terres agricoles ; densités maximales en forêt primaire ; grands arbres pour nidification et dortoirs. Habitats BirdLife : forêt humide de basse altitude (major), mangrove, plantations, cultures (suitable).
+GENERATION BLOCKED for Cacatoès blanc (Cacatua alba). The species sheet has no sourced plumage or morphology. Do not generate an illustration. Do not invent colors, bill, crest, or sexual dimorphism.
 ```
 
 ## Prompt — modèle 3D réaliste (EN)
 
 ```
-Realistic 3D bird asset of Cacatoès blanc (Cacatua alba), Psittaciformes, Cacatuides. Single subject, perched pose, clean topology-friendly form, neutral studio background, photoreal feather textures, accurate proportions, game-ready prop, no base, no text, no watermark. Morphology from sources: Évalué Endangered (2021 ; critères A2bcd+4bcd). Dimorphism note: na — non décrit dans la fiche BirdLife consultée.
+GENERATION BLOCKED for Cacatoès blanc (Cacatua alba). No sourced plumage on the sheet. Do not generate a 3D model. Do not invent colors.
 ```
 
 ## Garde-fous (negative)

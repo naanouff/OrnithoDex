@@ -23,6 +23,8 @@
 | [plan-prompts-visuels.md](plan-prompts-visuels.md) | **Plan prompts visuels** — illustration + 3D + carte hémisphère |
 | [sprint-prompts-visuels.md](sprint-prompts-visuels.md) | **Sprint** — prompts 85×2 + wildRange + UI carte |
 | [plan-suivi-illustrations.md](plan-suivi-illustrations.md) | **Suivi illustrations** — génération / validation 85 PNG (références) |
+| [plan-image-focus.md](plan-image-focus.md) | **Plan focus photos** — labellisation tête (outil local, hors app) |
+| [sprint-image-focus.md](sprint-image-focus.md) | **Sprint** — outil `npm run focus:tool` + lecture rendu |
 | [plan-ui-equiv-maquette.md](plan-ui-equiv-maquette.md) | **Plan UI ≡ maquette** — zéro écart chrome Livrable B |
 | [sprint-ui-equiv-maquette.md](sprint-ui-equiv-maquette.md) | **Sprint** — porter PNG/prototype dans React |
 | [design.md](design.md) | **Charte design** — tokens, typo, composants, specs 4 écrans |

@@ -3,18 +3,18 @@
 - **Slug** : `cyanoramphus-auriceps`
 - **Latin** : *Cyanoramphus auriceps*
 - **Ordre / famille** : Psittaciformes / Psittacidés
-- **Faits limités** : non
+- **Plumage sourcé** : non — génération bloquée (ne pas inventer)
 
 ## Prompt — illustration naturaliste (EN)
 
 ```
-Naturalist field-guide illustration of Kakariki à front jaune (Cyanoramphus auriceps), Psittaciformes, Psittacidés. Side three-quarter view, clear readable silhouette, soft cream background, flat illustrative style with bold navy outlines, vivid but accurate plumage, educational poster look, no photorealism, no text, no watermark, no cage. Appearance from sources: Évalué Near Threatened . Endémique Nouvelle-Zélande ; Sexual dimorphism note: na — non décrit dans la fiche BirdLife consultée. Habitat context (subtle, not a landscape scene): Forêts mixtes Nothofagus-Podocarpus, souvent plus en altitude que C. novaezelandiae ; forêts denses ininterrompues sur petites îles ; rarement forêts secondaires. Habitats majeurs : forêts humides montagnardes et de basse altitude.
+GENERATION BLOCKED for Kakariki à front jaune (Cyanoramphus auriceps). The species sheet has no sourced plumage or morphology. Do not generate an illustration. Do not invent colors, bill, crest, or sexual dimorphism.
 ```
 
 ## Prompt — modèle 3D réaliste (EN)
 
 ```
-Realistic 3D bird asset of Kakariki à front jaune (Cyanoramphus auriceps), Psittaciformes, Psittacidés. Single subject, perched pose, clean topology-friendly form, neutral studio background, photoreal feather textures, accurate proportions, game-ready prop, no base, no text, no watermark. Morphology from sources: Évalué Near Threatened . Endémique Nouvelle-Zélande ; Dimorphism note: na — non décrit dans la fiche BirdLife consultée.
+GENERATION BLOCKED for Kakariki à front jaune (Cyanoramphus auriceps). No sourced plumage on the sheet. Do not generate a 3D model. Do not invent colors.
 ```
 
 ## Garde-fous (negative)

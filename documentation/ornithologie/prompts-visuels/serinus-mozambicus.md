@@ -3,18 +3,18 @@
 - **Slug** : `serinus-mozambicus`
 - **Latin** : *Serinus mozambicus*
 - **Ordre / famille** : Passériformes / Fringillidés
-- **Faits limités** : non
+- **Plumage sourcé** : non — génération bloquée (ne pas inventer)
 
 ## Prompt — illustration naturaliste (EN)
 
 ```
-Naturalist field-guide illustration of Serin du Mozambique (Serinus mozambicus), Passériformes, Fringillidés. Side three-quarter view, clear readable silhouette, soft cream background, flat illustrative style with bold navy outlines, vivid but accurate plumage, educational poster look, no photorealism, no text, no watermark, no cage. Appearance from sources: Évalué Least Concern (2018). Plus de 2,6 millions d’oiseaux sauvages déclarés dans le commerce international depuis 1985 (CITES via BirdLife). BirdLife : Crithagra mozambica (ex-Serinus). Sexual dimorphism note: na — sources consultées silencieuses. Habitat context (subtle, not a landscape scene): Non migrateur. Savane sèche (majeur) ; prairies et fourrés secs ; jardins, pâturages et cultures.
+GENERATION BLOCKED for Serin du Mozambique (Serinus mozambicus). The species sheet has no sourced plumage or morphology. Do not generate an illustration. Do not invent colors, bill, crest, or sexual dimorphism.
 ```
 
 ## Prompt — modèle 3D réaliste (EN)
 
 ```
-Realistic 3D bird asset of Serin du Mozambique (Serinus mozambicus), Passériformes, Fringillidés. Single subject, perched pose, clean topology-friendly form, neutral studio background, photoreal feather textures, accurate proportions, game-ready prop, no base, no text, no watermark. Morphology from sources: Évalué Least Concern (2018). Plus de 2,6 millions d’oiseaux sauvages déclarés dans le commerce international depuis 1985 (CITES via BirdLife). BirdLife : Crithagra mozambica (ex-Serinus). Dimorphism note: na — sources consultées silencieuses.
+GENERATION BLOCKED for Serin du Mozambique (Serinus mozambicus). No sourced plumage on the sheet. Do not generate a 3D model. Do not invent colors.
 ```
 
 ## Garde-fous (negative)

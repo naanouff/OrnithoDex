@@ -3,18 +3,18 @@
 - **Slug** : `oena-capensis`
 - **Latin** : *Oena capensis*
 - **Ordre / famille** : Columbiformes / Columbidés
-- **Faits limités** : non
+- **Plumage sourcé** : non — génération bloquée (ne pas inventer)
 
 ## Prompt — illustration naturaliste (EN)
 
 ```
-Naturalist field-guide illustration of Tourterelle masque de fer (Oena capensis), Columbiformes, Columbidés. Side three-quarter view, clear readable silhouette, soft cream background, flat illustrative style with bold navy outlines, vivid but accurate plumage, educational poster look, no photorealism, no text, no watermark, no cage. Appearance from sources: Évaluée Least Concern (2024). Migrateur complet. Sexual dimorphism note: Non documenté en détail sur la fiche BirdLife consultée — na. Habitat context (subtle, not a landscape scene): Savane sèche, prairies tempérées et sèches, fourrés secs, terres cultivées et jardins (suitable).
+GENERATION BLOCKED for Tourterelle masque de fer (Oena capensis). The species sheet has no sourced plumage or morphology. Do not generate an illustration. Do not invent colors, bill, crest, or sexual dimorphism.
 ```
 
 ## Prompt — modèle 3D réaliste (EN)
 
 ```
-Realistic 3D bird asset of Tourterelle masque de fer (Oena capensis), Columbiformes, Columbidés. Single subject, perched pose, clean topology-friendly form, neutral studio background, photoreal feather textures, accurate proportions, game-ready prop, no base, no text, no watermark. Morphology from sources: Évaluée Least Concern (2024). Migrateur complet. Dimorphism note: Non documenté en détail sur la fiche BirdLife consultée — na.
+GENERATION BLOCKED for Tourterelle masque de fer (Oena capensis). No sourced plumage on the sheet. Do not generate a 3D model. Do not invent colors.
 ```
 
 ## Garde-fous (negative)

@@ -3,18 +3,18 @@
 - **Slug** : `geopelia-striata`
 - **Latin** : *Geopelia striata*
 - **Ordre / famille** : Columbiformes / Columbidés
-- **Faits limités** : non
+- **Plumage sourcé** : non — génération bloquée (ne pas inventer)
 
 ## Prompt — illustration naturaliste (EN)
 
 ```
-Naturalist field-guide illustration of Colombe zébrée (Geopelia striata), Columbiformes, Columbidés. Side three-quarter view, clear readable silhouette, soft cream background, flat illustrative style with bold navy outlines, vivid but accurate plumage, educational poster look, no photorealism, no text, no watermark, no cage. Appearance from sources: Évaluée Least Concern (2025). Non migratrice. Nombreuses introductions hors aire native. Sexual dimorphism note: Non documenté dans BirdLife / ADW consultés — na. Habitat context (subtle, not a landscape scene): Fourrés secs et humides ; terres cultivées, jardins ruraux, zones urbaines, forêts dégradées (suitable, résident).
+GENERATION BLOCKED for Colombe zébrée (Geopelia striata). The species sheet has no sourced plumage or morphology. Do not generate an illustration. Do not invent colors, bill, crest, or sexual dimorphism.
 ```
 
 ## Prompt — modèle 3D réaliste (EN)
 
 ```
-Realistic 3D bird asset of Colombe zébrée (Geopelia striata), Columbiformes, Columbidés. Single subject, perched pose, clean topology-friendly form, neutral studio background, photoreal feather textures, accurate proportions, game-ready prop, no base, no text, no watermark. Morphology from sources: Évaluée Least Concern (2025). Non migratrice. Nombreuses introductions hors aire native. Dimorphism note: Non documenté dans BirdLife / ADW consultés — na.
+GENERATION BLOCKED for Colombe zébrée (Geopelia striata). No sourced plumage on the sheet. Do not generate a 3D model. Do not invent colors.
 ```
 
 ## Garde-fous (negative)

@@ -3,18 +3,18 @@
 - **Slug** : `erythrura-psittacea`
 - **Latin** : *Erythrura psittacea*
 - **Ordre / famille** : Passériformes / Estrildidés
-- **Faits limités** : non
+- **Plumage sourcé** : non — génération bloquée (ne pas inventer)
 
 ## Prompt — illustration naturaliste (EN)
 
 ```
-Naturalist field-guide illustration of Pape de Nouméa (Erythrura psittacea), Passériformes, Estrildidés. Side three-quarter view, clear readable silhouette, soft cream background, flat illustrative style with bold navy outlines, vivid but accurate plumage, educational poster look, no photorealism, no text, no watermark, no cage. Appearance from sources: Évalué Least Concern (2018). Endémique reproducteur de Nouvelle-Calédonie. Dépendance forestière faible. Sexual dimorphism note: na — sources consultées silencieuses. Habitat context (subtle, not a landscape scene): Non migrateur. Forêt humide de basse altitude, fourrés humides, plantations ; jardins ruraux (marginal). Nouvelle-Calédonie (France).
+GENERATION BLOCKED for Pape de Nouméa (Erythrura psittacea). The species sheet has no sourced plumage or morphology. Do not generate an illustration. Do not invent colors, bill, crest, or sexual dimorphism.
 ```
 
 ## Prompt — modèle 3D réaliste (EN)
 
 ```
-Realistic 3D bird asset of Pape de Nouméa (Erythrura psittacea), Passériformes, Estrildidés. Single subject, perched pose, clean topology-friendly form, neutral studio background, photoreal feather textures, accurate proportions, game-ready prop, no base, no text, no watermark. Morphology from sources: Évalué Least Concern (2018). Endémique reproducteur de Nouvelle-Calédonie. Dépendance forestière faible. Dimorphism note: na — sources consultées silencieuses.
+GENERATION BLOCKED for Pape de Nouméa (Erythrura psittacea). No sourced plumage on the sheet. Do not generate a 3D model. Do not invent colors.
 ```
 
 ## Garde-fous (negative)

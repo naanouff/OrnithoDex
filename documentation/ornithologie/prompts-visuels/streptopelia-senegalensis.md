@@ -3,18 +3,18 @@
 - **Slug** : `streptopelia-senegalensis`
 - **Latin** : *Streptopelia senegalensis*
 - **Ordre / famille** : Columbiformes / Columbidés
-- **Faits limités** : non
+- **Plumage sourcé** : non — génération bloquée (ne pas inventer)
 
 ## Prompt — illustration naturaliste (EN)
 
 ```
-Naturalist field-guide illustration of Colombe maillée (Streptopelia senegalensis), Columbiformes, Columbidés. Side three-quarter view, clear readable silhouette, soft cream background, flat illustrative style with bold navy outlines, vivid but accurate plumage, educational poster look, no photorealism, no text, no watermark, no cage. Appearance from sources: Évaluée Least Concern (2018). Sexual dimorphism note: Non documenté dans BirdLife / ADW consultés — na. Habitat context (subtle, not a landscape scene): Terres cultivées (majeur), jardins, zones urbaines, pâturages, prairies, savane sèche. Associée aux cultures, aux arbres (hors forêt dense) et à l’habitat humain.
+GENERATION BLOCKED for Colombe maillée (Streptopelia senegalensis). The species sheet has no sourced plumage or morphology. Do not generate an illustration. Do not invent colors, bill, crest, or sexual dimorphism.
 ```
 
 ## Prompt — modèle 3D réaliste (EN)
 
 ```
-Realistic 3D bird asset of Colombe maillée (Streptopelia senegalensis), Columbiformes, Columbidés. Single subject, perched pose, clean topology-friendly form, neutral studio background, photoreal feather textures, accurate proportions, game-ready prop, no base, no text, no watermark. Morphology from sources: Évaluée Least Concern (2018). Dimorphism note: Non documenté dans BirdLife / ADW consultés — na.
+GENERATION BLOCKED for Colombe maillée (Streptopelia senegalensis). No sourced plumage on the sheet. Do not generate a 3D model. Do not invent colors.
 ```
 
 ## Garde-fous (negative)
