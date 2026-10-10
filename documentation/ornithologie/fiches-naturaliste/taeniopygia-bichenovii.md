@@ -43,7 +43,13 @@ Enregistrement XC816265 (Marc Anderson — CC BY-NC-ND 4.0) : https://xeno-canto
 
 ## Points de cours à retenir
 
-*En attente ingénieur pédagogique / supports de cours.*
+<!-- Aides à la mémorisation (pas un polycopié enseignant). -->
+
+- **[programme]** Diamant de Bichenow ↔ *Taeniopygia bichenovii* ; Passériformes ; Estrildidés
+- **[programme]** Confusion : diamant Mandarin (*T. guttata castanotis*) — même genre *Taeniopygia*
+- **[sourcé]** Least Concern ; endémique Australie ; tendance stable
+- **[sourcé]** Non migrateur ; urbain, jardins, cultures, savanes sèches
+- **[sourcé]** Commerce signalé à forte prévalence
 
 ## Médias
 

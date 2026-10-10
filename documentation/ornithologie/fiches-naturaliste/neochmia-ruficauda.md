@@ -43,7 +43,13 @@ Enregistrement XC436594 (Marc Anderson — CC BY-NC-ND 4.0) : https://xeno-canto
 
 ## Points de cours à retenir
 
-*En attente ingénieur pédagogique / supports de cours.*
+<!-- Aides à la mémorisation (pas un polycopié enseignant). -->
+
+- **[programme]** Diamant à queue rousse ↔ *Neochmia ruficauda* ; Passériformes ; Estrildidés
+- **[programme]** Confusion : diamant modeste (*N. modesta*) — même genre *Neochmia*, AU
+- **[sourcé]** Least Concern ; endémique Australie ; tendance en diminution
+- **[sourcé]** Non migrateur ; zones irriguées, urbain, savane/fourrés humides
+- **[sourcé]** Menace citée : surpâturage près de l’eau (certaines sous-espèces)
 
 ## Médias
 
