@@ -18,11 +18,11 @@ Plan : [plan-sources.md](../projet/plan-sources.md) · Sprints : [01](../projet/
 | streptopelia-senegalensis | ok | ok | ok | ok | ok | na | ok | ok | ok | attente | Spilopelia; dimorphisme na; sprint 03a |
 | streptopelia-risoria | na | ok | ok | ok | ok | ok | ok | ok | ok | attente | Forme domestique; ADW S. roseogrisea; sprint 03a |
 | columba-livia | ok | ok | ok | ok | ok | ok | ok | ok | ok | attente | ADW; sprint 03a |
-| agapornis-roseicollis | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
-| agapornis-fischeri | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
-| agapornis-personatus | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
-| agapornis-lilianae | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
-| agapornis-nigrigenis | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
+| agapornis-roseicollis | ok | ok | ok | ok | ok | ok | ok | ok | ok | attente | ADW; sprint 04 |
+| agapornis-fischeri | ok | ok | ok | ok | ok | ok | ok | ok | ok | attente | NT; ADW; sprint 04 |
+| agapornis-personatus | ok | ok | ok | ok | ok | na | ok | na | ok | attente | régime/dimorphisme na; sprint 04 |
+| agapornis-lilianae | ok | ok | ok | ok | ok | na | ok | ok | ok | attente | NT; dimorphisme na; sprint 04 |
+| agapornis-nigrigenis | ok | ok | ok | ok | ok | na | ok | ok | ok | attente | VU; spécimen Naturalis; sprint 04 |
 | amazona-aestiva | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
 | bolborhynchus-lineola-lineola | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
 | cyanoramphus-novaezelandiae | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
@@ -92,4 +92,4 @@ Plan : [plan-sources.md](../projet/plan-sources.md) · Sprints : [01](../projet/
 | serinus-mozambicus | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
 | serinus-canaria | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
 
-Dernière mise à jour : 2026-10-10 (sprint 03b — 4 Cacatuides complete).
+Dernière mise à jour : 2026-10-10 (sprint 04 — 5 Agapornis complete).
