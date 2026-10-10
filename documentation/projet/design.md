@@ -165,11 +165,14 @@ Portraits ~390×844 sous [`maquettes/`](maquettes/) :
 Prototype interactif : [`maquettes/README.md`](maquettes/README.md).  
 Logo dans les captures : **JPG** versionné (SVG en cours d’amélioration — tokens / DA inchangés).
 
+**Implémentation app** : l’UI React doit être l’équivalent de ce référentiel — [plan-ui-equiv-maquette.md](plan-ui-equiv-maquette.md) · [sprint-ui-equiv-maquette.md](sprint-ui-equiv-maquette.md). Aucun contrôle hors PNG / prototype.
+
 ## Documents liés
 
 | Document | Rôle |
 |----------|------|
 | [plan-design.md](plan-design.md) | Plan d’exécution charte → maquettes |
+| [plan-ui-equiv-maquette.md](plan-ui-equiv-maquette.md) | Porter le chrome maquette dans l’app |
 | [plan.md](plan.md) | Feuille de route V1 + UI/UX |
 | [pedagogie.md](pedagogie.md) | Charge cognitive / points de cours |
 | [cahier-des-charges.md](cahier-des-charges.md) | Specs fonctionnelles |

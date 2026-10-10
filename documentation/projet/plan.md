@@ -209,6 +209,7 @@ Flux : feature → `develop` → `release/x.y.z` → `main` → tag + Release �
 6. Gitflow + Vercel — **fait** (CI + workflow Release ; brancher le projet Vercel une fois — [deploiement.md](deploiement.md))
 7. Enrichissement progressif des fiches **uniquement** avec sources validées — **continu** (85/85 `complete`)
 8. Prompts visuels (illustration + 3D) + carte hémisphère répartition — [plan](plan-prompts-visuels.md) · [sprint](sprint-prompts-visuels.md)
+9. UI/UX équivalente à la maquette (zéro écart) — [plan](plan-ui-equiv-maquette.md) · [sprint](sprint-ui-equiv-maquette.md)
 
 ## Critères de done V1
 
@@ -229,6 +230,7 @@ Flux : feature → `develop` → `release/x.y.z` → `main` → tag + Release �
 - [Plan pédagogie](plan-pedagogie.md) — cadre ingénieur pédagogue + points de cours
 - [Plan design](plan-design.md) — charte + maquettes (direction artistique)
 - [Plan prompts visuels](plan-prompts-visuels.md) — illustration / 3D / carte hémisphère
+- [Plan UI ≡ maquette](plan-ui-equiv-maquette.md) — porter le chrome Livrable B dans l’app
 - [Charte design](design.md) — tokens, composants, specs écrans
 - [Vision](vision.md)
 - [Cahier des charges](cahier-des-charges.md)
