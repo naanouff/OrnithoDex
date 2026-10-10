@@ -36,6 +36,16 @@ Les sections sans source restent **vides** (ne pas inventer). Méthode : [plan-s
 
 ## Habitat d’origine
 
+## Répartition sauvage
+
+<!-- Optionnel. Uniquement régions/pays déjà sourcés (BirdLife / IUCN). Sinon laisser vide. -->
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Régions / pays | … | … |
+| Hémisphère / realm | AF \| AU \| AS \| AM \| EU \| multi \| na | … |
+| Note | … | … |
+
 ## Régime alimentaire
 
 ## Comportement

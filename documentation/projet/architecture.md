@@ -23,7 +23,11 @@ flowchart LR
   fiche --> sourcesUI[Sources visibles]
 ```
 
-Générateur : [`scripts/build-birds.mjs`](../../scripts/build-birds.mjs) — identité, points de cours, médias (URL), sources, sections biologie sourcées.
+Générateur : [`scripts/build-birds.mjs`](../../scripts/build-birds.mjs) — identité, points de cours, médias, `wildRange`, sources, sections biologie sourcées.
+
+Prompts visuels : [`scripts/build-visual-prompts.mjs`](../../scripts/build-visual-prompts.mjs) → [`documentation/ornithologie/prompts-visuels/`](../../ornithologie/prompts-visuels/) (`npm run data:prompts`).
+
+Cartes pédagogiques : [`public/maps/hemisphere-*.svg`](../../public/maps/) + composant `WildRangeMap` (régions uniquement si documentées).
 
 ## Stack
 

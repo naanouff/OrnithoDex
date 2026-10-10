@@ -139,9 +139,19 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-ND 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Fischer%27s_Lovebird,_(Agapornis_fischeri)_perching_on_a_box.jpg",
+    "wildRange": {
+      "regions": [
+        "Tanzanie"
+      ],
+      "hemisphere": "AF",
+      "sourceIds": [
+        "birdlife-agapornis-fischeri",
+        "adw-agapornis-fischeri"
+      ]
+    },
     "imageCredit": "Peter Békési — CC BY-SA 2.0",
     "imageSourceId": "media-agapornis-fischeri-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Fischer%27s_Lovebird,_(Agapornis_fischeri)_perching_on_a_box.jpg",
     "audio": [
       "https://xeno-canto.org/947900"
     ]
@@ -264,9 +274,18 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Lilian%27s_Lovebird_(Agapornis_lilianae)_(23710441211).jpg",
+    "wildRange": {
+      "regions": [
+        "Tanzanie"
+      ],
+      "hemisphere": "AF",
+      "sourceIds": [
+        "birdlife-agapornis-lilianae"
+      ]
+    },
     "imageCredit": "Lip Kee — CC BY-SA 2.0",
     "imageSourceId": "media-agapornis-lilianae-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Lilian%27s_Lovebird_(Agapornis_lilianae)_(23710441211).jpg",
     "audio": [
       "https://xeno-canto.org/933097"
     ]
@@ -387,9 +406,9 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Naturalis_Biodiversity_Center_-_ZMA.AVES.56942_-_Agapornis_nigrigenis_Sclater,_W.L.,_1906_-_Psittacidae_-_skin_specimen.jpeg",
     "imageCredit": "Huub Veldhuijzen van Zanten / Naturalis — CC BY-SA",
     "imageSourceId": "media-agapornis-nigrigenis-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Naturalis_Biodiversity_Center_-_ZMA.AVES.56942_-_Agapornis_nigrigenis_Sclater,_W.L.,_1906_-_Psittacidae_-_skin_specimen.jpeg",
     "audio": [
       "https://xeno-canto.org/585260"
     ]
@@ -521,9 +540,18 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-ND 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Yellow-collared_Lovebird_(27582137244).jpg",
+    "wildRange": {
+      "regions": [
+        "Tanzanie"
+      ],
+      "hemisphere": "AF",
+      "sourceIds": [
+        "birdlife-agapornis-personatus"
+      ]
+    },
     "imageCredit": "Becky Matsubara — CC BY 2.0",
     "imageSourceId": "media-agapornis-personatus-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Yellow-collared_Lovebird_(27582137244).jpg",
     "audio": [
       "https://xeno-canto.org/509849"
     ]
@@ -659,9 +687,22 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Rosy-faced_lovebird_(Agapornis_roseicollis_roseicollis)_flock.jpg",
+    "wildRange": {
+      "regions": [
+        "Afrique",
+        "Afrique du Sud",
+        "Namibie",
+        "Angola"
+      ],
+      "hemisphere": "AF",
+      "sourceIds": [
+        "birdlife-agapornis-roseicollis",
+        "adw-agapornis-roseicollis"
+      ]
+    },
     "imageCredit": "Charles J. Sharp — CC BY-SA 4.0",
     "imageSourceId": "media-agapornis-roseicollis-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Rosy-faced_lovebird_(Agapornis_roseicollis_roseicollis)_flock.jpg",
     "audio": [
       "https://xeno-canto.org/1101865"
     ]
@@ -793,9 +834,23 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Mandarin_duck_(Aix_galericulata).jpg",
+    "wildRange": {
+      "regions": [
+        "Chine",
+        "Asie",
+        "Asie de l’Est",
+        "Japon",
+        "Europe"
+      ],
+      "hemisphere": "multi",
+      "sourceIds": [
+        "birdlife-aix-galericulata",
+        "adw-aix-galericulata"
+      ]
+    },
     "imageCredit": "Alexis Lours — CC BY 4.0",
     "imageSourceId": "media-aix-galericulata-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Mandarin_duck_(Aix_galericulata).jpg",
     "audio": [
       "https://xeno-canto.org/1137635"
     ]
@@ -926,9 +981,9 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Wood_Duck_(Aix_sponsa).jpg",
     "imageCredit": "Dick Daniels — CC BY-SA 3.0",
     "imageSourceId": "media-aix-sponsa-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Wood_Duck_(Aix_sponsa).jpg",
     "audio": [
       "https://xeno-canto.org/1173163"
     ]
@@ -1046,9 +1101,9 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-ND 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Cut-throat_Finch_(Amadina_fasciata,_male_-_Djenn%C3%A9,_Mali,_2008).jpg",
     "imageCredit": "David Boettger — Domaine public",
     "imageSourceId": "media-amadina-fasciata-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Cut-throat_Finch_(Amadina_fasciata,_male_-_Djenn%C3%A9,_Mali,_2008).jpg",
     "audio": [
       "https://xeno-canto.org/509854"
     ]
@@ -1184,9 +1239,9 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-ND 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Red_Avadavat_(26082788247).jpg",
     "imageCredit": "Mike Prince — CC BY 2.0",
     "imageSourceId": "media-amandava-amandava-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Red_Avadavat_(26082788247).jpg",
     "audio": [
       "https://xeno-canto.org/698326"
     ]
@@ -1304,9 +1359,18 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-ND 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Male_Zebra_Waxbill_(Sporaeginthus_subflavus).jpg",
+    "wildRange": {
+      "regions": [
+        "Afrique"
+      ],
+      "hemisphere": "AF",
+      "sourceIds": [
+        "birdlife-amandava-subflava"
+      ]
+    },
     "imageCredit": "Alan Manson — CC BY-SA 2.0",
     "imageSourceId": "media-amandava-subflava-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Male_Zebra_Waxbill_(Sporaeginthus_subflavus).jpg",
     "audio": [
       "https://xeno-canto.org/872300"
     ]
@@ -1439,9 +1503,20 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Amazona_aestiva_-_Maroparque_01.jpg",
+    "wildRange": {
+      "regions": [
+        "Brésil"
+      ],
+      "hemisphere": "AM",
+      "sourceIds": [
+        "birdlife-amazona-aestiva",
+        "birdlife-amazona-aestiva (citant Collar",
+        "al. 2019)"
+      ]
+    },
     "imageCredit": "H. Zell — CC BY-SA 3.0",
     "imageSourceId": "media-amazona-aestiva-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Amazona_aestiva_-_Maroparque_01.jpg",
     "audio": [
       "https://xeno-canto.org/554117"
     ]
@@ -1561,9 +1636,19 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Barred_Parakeet,_Oxapampa,_Pasco,_Peru_1.jpg",
+    "wildRange": {
+      "regions": [
+        "Amérique du Sud",
+        "Mexique"
+      ],
+      "hemisphere": "AM",
+      "sourceIds": [
+        "birdlife-bolborhynchus-lineola"
+      ]
+    },
     "imageCredit": "thibaudaronson — CC BY-SA 4.0",
     "imageSourceId": "media-bolborhynchus-lineola-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Barred_Parakeet,_Oxapampa,_Pasco,_Peru_1.jpg",
     "audio": [
       "https://xeno-canto.org/1060162"
     ]
@@ -1683,9 +1768,9 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Cacatua_alba_-Coconuts_Bar_-Cozumel_-Mexico-8a.jpg",
     "imageCredit": "Kevin T — CC BY 2.0",
     "imageSourceId": "media-cacatua-alba-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Cacatua_alba_-Coconuts_Bar_-Cozumel_-Mexico-8a.jpg",
     "audio": [
       "https://xeno-canto.org/1074294"
     ]
@@ -1820,9 +1905,21 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Sulphur-crested_cockatoo_(Cacatua_galerita_galerita)_Sydney.jpg",
+    "wildRange": {
+      "regions": [
+        "Australie",
+        "Indonésie",
+        "Nouvelle-Guinée"
+      ],
+      "hemisphere": "multi",
+      "sourceIds": [
+        "birdlife-cacatua-galerita",
+        "birdlife-au-sulphur-crested"
+      ]
+    },
     "imageCredit": "Charles J. Sharp — CC BY-SA 4.0",
     "imageSourceId": "media-cacatua-galerita-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Sulphur-crested_cockatoo_(Cacatua_galerita_galerita)_Sydney.jpg",
     "audio": [
       "https://xeno-canto.org/1177819"
     ]
@@ -1953,9 +2050,9 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Valley_quail_myatt_(5489811278)_(cropped).jpg",
     "imageCredit": "Nick Myatt / ODFW — CC BY-SA 2.0",
     "imageSourceId": "media-callipepla-californica-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Valley_quail_myatt_(5489811278)_(cropped).jpg",
     "audio": [
       "https://xeno-canto.org/570687"
     ]
@@ -2086,9 +2183,9 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Northern_Bobwhite_female_RWD.jpg",
     "imageCredit": "DickDaniels — CC BY-SA 3.0",
     "imageSourceId": "media-colinus-virginianus-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Northern_Bobwhite_female_RWD.jpg",
     "audio": [
       "https://xeno-canto.org/919215"
     ]
@@ -2219,9 +2316,9 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Rock_dove_(Columba_livia).jpg",
     "imageCredit": "Charles J. Sharp — CC BY-SA 4.0",
     "imageSourceId": "media-columba-livia-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Rock_dove_(Columba_livia).jpg",
     "audio": [
       "https://xeno-canto.org/977797"
     ]
@@ -2362,9 +2459,9 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Chinese_Painted_Quail_RWD12a.jpg",
     "imageCredit": "DickDaniels — CC BY-SA 3.0",
     "imageSourceId": "media-coturnix-chinensis-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Chinese_Painted_Quail_RWD12a.jpg",
     "audio": [
       "https://xeno-canto.org/1076265"
     ]
@@ -2484,9 +2581,18 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Yellow-crowned_parakeet_-_K%C4%81k%C4%81riki.jpg",
+    "wildRange": {
+      "regions": [
+        "Nouvelle-Zélande"
+      ],
+      "hemisphere": "AU",
+      "sourceIds": [
+        "birdlife-cyanoramphus-auriceps"
+      ]
+    },
     "imageCredit": "Alexeyevitch — domaine public",
     "imageSourceId": "media-cyanoramphus-auriceps-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Yellow-crowned_parakeet_-_K%C4%81k%C4%81riki.jpg",
     "audio": [
       "https://xeno-canto.org/526622"
     ]
@@ -2618,9 +2724,18 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Kakariki,_the_red-crowned_parakeet.(Cyanoramphus_novaezelandiae)_(9118899767).jpg",
+    "wildRange": {
+      "regions": [
+        "Nouvelle-Zélande"
+      ],
+      "hemisphere": "AU",
+      "sourceIds": [
+        "birdlife-cyanoramphus-novaezelandiae"
+      ]
+    },
     "imageCredit": "Bernard Spragg. NZ — CC0",
     "imageSourceId": "media-cyanoramphus-novaezelandiae-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Kakariki,_the_red-crowned_parakeet.(Cyanoramphus_novaezelandiae)_(9118899767).jpg",
     "audio": [
       "https://xeno-canto.org/956617"
     ]
@@ -2757,9 +2872,19 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-ND 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Eolophus_roseicapilla_-_a_pair_of_Galahs_-Australia.jpg",
+    "wildRange": {
+      "regions": [
+        "Australie"
+      ],
+      "hemisphere": "AU",
+      "sourceIds": [
+        "birdlife-eolophus-roseicapilla",
+        "birdlife-au-galah"
+      ]
+    },
     "imageCredit": "Tatiana Gerus — CC BY 2.0",
     "imageSourceId": "media-eolophus-roseicapilla-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Eolophus_roseicapilla_-_a_pair_of_Galahs_-Australia.jpg",
     "audio": [
       "https://xeno-canto.org/1181679"
     ]
@@ -2879,9 +3004,18 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Chloebia_gouldiae,_Elsey,_Northern_Territory,_Australia_1.jpg",
+    "wildRange": {
+      "regions": [
+        "Australie"
+      ],
+      "hemisphere": "AU",
+      "sourceIds": [
+        "birdlife-chloebia-gouldiae"
+      ]
+    },
     "imageCredit": "Kym Nicolson — CC BY 4.0",
     "imageSourceId": "media-erythrura-gouldiae-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Chloebia_gouldiae,_Elsey,_Northern_Territory,_Australia_1.jpg",
     "audio": [
       "https://xeno-canto.org/960939"
     ]
@@ -2999,9 +3133,9 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 3.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Red-throated_Parrotfinch_0A2A5145.jpg",
     "imageCredit": "JJ Harrison — CC BY-SA 3.0",
     "imageSourceId": "media-erythrura-psittacea-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Red-throated_Parrotfinch_0A2A5145.jpg",
     "audio": [
       "https://xeno-canto.org/40164"
     ]
@@ -3119,9 +3253,20 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Blue-faced_Parrot-finch_Pengo.jpg",
+    "wildRange": {
+      "regions": [
+        "Australie",
+        "Indonésie",
+        "Nouvelle-Guinée"
+      ],
+      "hemisphere": "multi",
+      "sourceIds": [
+        "birdlife-erythrura-trichroa"
+      ]
+    },
     "imageCredit": "Peter Halasz — CC BY-SA 2.5 / 3.0",
     "imageSourceId": "media-erythrura-trichroa-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Blue-faced_Parrot-finch_Pengo.jpg",
     "audio": [
       "https://xeno-canto.org/1003825"
     ]
@@ -3257,9 +3402,19 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Common_waxbill_(26408344029).jpg",
+    "wildRange": {
+      "regions": [
+        "Afrique"
+      ],
+      "hemisphere": "AF",
+      "sourceIds": [
+        "birdlife-estrilda-astrild",
+        "adw-estrilda-astrild"
+      ]
+    },
     "imageCredit": "Derek Keats — CC BY 2.0",
     "imageSourceId": "media-estrilda-astrild-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Common_waxbill_(26408344029).jpg",
     "audio": [
       "https://xeno-canto.org/1155179"
     ]
@@ -3377,9 +3532,18 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-ND 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Lavender_waxbill_(Estrilda_caerulescens).jpg",
+    "wildRange": {
+      "regions": [
+        "Afrique"
+      ],
+      "hemisphere": "AF",
+      "sourceIds": [
+        "birdlife-glaucestrilda-coerulescens"
+      ]
+    },
     "imageCredit": "Charles J. Sharp — CC BY-SA 4.0",
     "imageSourceId": "media-estrilda-caerulescens-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Lavender_waxbill_(Estrilda_caerulescens).jpg",
     "audio": [
       "https://xeno-canto.org/1081214"
     ]
@@ -3496,9 +3660,9 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-ND 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Orange-cheeked_Waxbill.jpg",
     "imageCredit": "Pearly85 — CC BY 2.0",
     "imageSourceId": "media-estrilda-melpoda-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Orange-cheeked_Waxbill.jpg",
     "audio": [
       "https://xeno-canto.org/1081191"
     ]
@@ -3616,9 +3780,9 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Black-rumped_Waxbill_-_Gambia_(31806634704).jpg",
     "imageCredit": "Francesco Veronesi — CC BY-SA 2.0",
     "imageSourceId": "media-estrilda-troglodytes-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Black-rumped_Waxbill_-_Gambia_(31806634704).jpg",
     "audio": [
       "https://xeno-canto.org/1154517"
     ]
@@ -3736,9 +3900,9 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Southern_Red_Bishop_(Euplectes_orix)_male_..._(52656476541).jpg",
     "imageCredit": "Bernard DUPONT — CC BY-SA 2.0",
     "imageSourceId": "media-euplectes-orix-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Southern_Red_Bishop_(Euplectes_orix)_male_..._(52656476541).jpg",
     "audio": [
       "https://xeno-canto.org/1183523"
     ]
@@ -3858,9 +4022,9 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-ND 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Forpus_coelestis_(normal_and_American_white)_-AFA_show_bird-8a.jpg",
     "imageCredit": "Ruth Rogers — CC BY 2.0",
     "imageSourceId": "media-forpus-coelestis-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Forpus_coelestis_(normal_and_American_white)_-AFA_show_bird-8a.jpg",
     "audio": [
       "https://xeno-canto.org/512761"
     ]
@@ -3993,9 +4157,9 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Rooster_and_Hen.jpg",
     "imageCredit": "SimonWaldherr — CC BY 4.0",
     "imageSourceId": "media-gallus-domesticus-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Rooster_and_Hen.jpg",
     "audio": [
       "https://xeno-canto.org/1181554"
     ]
@@ -4111,9 +4275,18 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 3.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Geopelia_cuneata.JPG",
+    "wildRange": {
+      "regions": [
+        "Australie"
+      ],
+      "hemisphere": "AU",
+      "sourceIds": [
+        "birdlife-geopelia-cuneata"
+      ]
+    },
     "imageCredit": "Maurice van Bruggen — CC BY-SA 3.0",
     "imageSourceId": "media-geopelia-cuneata-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Geopelia_cuneata.JPG",
     "audio": [
       "https://xeno-canto.org/165147"
     ]
@@ -4229,9 +4402,9 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Burung_Merbuk.JPG",
     "imageCredit": "Angah hfz — CC BY-SA 3.0",
     "imageSourceId": "media-geopelia-striata-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Burung_Merbuk.JPG",
     "audio": [
       "https://xeno-canto.org/1081912"
     ]
@@ -4364,9 +4537,9 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-ND 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Hill_Myna_(Gracula_religiosa_intermedia),_Thrigby_Hall.jpg",
     "imageCredit": "Spencer Wright — CC BY 2.0",
     "imageSourceId": "media-gracula-religiosa-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Hill_Myna_(Gracula_religiosa_intermedia),_Thrigby_Hall.jpg",
     "audio": [
       "https://xeno-canto.org/1157137"
     ]
@@ -4484,9 +4657,18 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0 ; catalogué *L. larvata* (IOC)"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Vinaceous_Firefinch.jpg",
+    "wildRange": {
+      "regions": [
+        "Sénégal"
+      ],
+      "hemisphere": "AF",
+      "sourceIds": [
+        "birdlife-lagonosticta-vinacea"
+      ]
+    },
     "imageCredit": "Francesco Veronesi — CC BY-SA 2.0",
     "imageSourceId": "media-lagonosticta-larvata-vinacea-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Vinaceous_Firefinch.jpg",
     "audio": [
       "https://xeno-canto.org/405752"
     ]
@@ -4603,9 +4785,9 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Red-billed_firefinch_(Lagonosticta_senegala_senegala)_male.jpg",
     "imageCredit": "Charles J. Sharp — CC BY-SA 4.0",
     "imageSourceId": "media-lagonosticta-senegala-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Red-billed_firefinch_(Lagonosticta_senegala_senegala)_male.jpg",
     "audio": [
       "https://xeno-canto.org/1145629"
     ]
@@ -4723,9 +4905,9 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Silberschn%C3%A4belchen_(Lonchura_cantans).JPG",
     "imageCredit": "Edward Cwik — CC BY-SA 3.0",
     "imageSourceId": "media-lonchura-cantans-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Silberschn%C3%A4belchen_(Lonchura_cantans).JPG",
     "audio": [
       "https://xeno-canto.org/1163939"
     ]
@@ -4843,9 +5025,9 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Bronze_mannikin_(Lonchura_cucullata_cucullata).jpg",
     "imageCredit": "Charles J. Sharp — CC BY-SA 4.0",
     "imageSourceId": "media-lonchura-cucullata-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Bronze_mannikin_(Lonchura_cucullata_cucullata).jpg",
     "audio": [
       "https://xeno-canto.org/1165783"
     ]
@@ -4963,9 +5145,9 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Lonchura_maja_by_Michael_MK_Khor.jpg",
     "imageCredit": "Michael MK Khor — CC BY 2.0",
     "imageSourceId": "media-lonchura-maja-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Lonchura_maja_by_Michael_MK_Khor.jpg",
     "audio": [
       "https://xeno-canto.org/1106789"
     ]
@@ -5083,9 +5265,9 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Indian_silverbill-_Euodice_malabarica.jpg",
     "imageCredit": "Anagha devi — CC BY-SA 4.0",
     "imageSourceId": "media-lonchura-malabarica-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Indian_silverbill-_Euodice_malabarica.jpg",
     "audio": [
       "https://xeno-canto.org/1182208"
     ]
@@ -5203,9 +5385,9 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Bondol_rawa_(Lonchura_atricapilla).jpg",
     "imageCredit": "Batin E. Tuwuilu — CC BY-SA 3.0",
     "imageSourceId": "media-lonchura-malacca-atricapilla-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Bondol_rawa_(Lonchura_atricapilla).jpg",
     "audio": [
       "https://xeno-canto.org/1141729"
     ]
@@ -5323,9 +5505,9 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-ND 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Tri_colored_munia.jpg",
     "imageCredit": "Photosynthesis85 — CC BY-SA 4.0",
     "imageSourceId": "media-lonchura-malacca-malacca-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Tri_colored_munia.jpg",
     "audio": [
       "https://xeno-canto.org/1160217"
     ]
@@ -5443,9 +5625,9 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Padda_oryzivora_qtl1.jpg",
     "imageCredit": "Quartl — CC BY-SA 3.0",
     "imageSourceId": "media-lonchura-oryzivora-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Padda_oryzivora_qtl1.jpg",
     "audio": [
       "https://xeno-canto.org/793299"
     ]
@@ -5563,9 +5745,9 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Scaly-breasted_munia_or_spotted_munia_(Lonchura_punctulata)_at_Dehradun,_Uttarakhand_05.jpg",
     "imageCredit": "Satdeep Gill — CC BY-SA 4.0",
     "imageSourceId": "media-lonchura-punctulata-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Scaly-breasted_munia_or_spotted_munia_(Lonchura_punctulata)_at_Dehradun,_Uttarakhand_05.jpg",
     "audio": [
       "https://xeno-canto.org/1069340"
     ]
@@ -5683,9 +5865,18 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-ND 4.0 ; taxon sauvage"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Society_Finch.jpg",
+    "wildRange": {
+      "regions": [
+        "Japon"
+      ],
+      "hemisphere": "AS",
+      "sourceIds": [
+        "birdlife-lonchura-striata"
+      ]
+    },
     "imageCredit": "Anil Kumar — CC BY-SA 4.0",
     "imageSourceId": "media-lonchura-striata-domestiqua-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Society_Finch.jpg",
     "audio": [
       "https://xeno-canto.org/1160466"
     ]
@@ -5803,9 +5994,9 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-ND 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:White-rumped_Munia_(Lonchura_striata)_(32024349690).jpg",
     "imageCredit": "Rison Thumboor — CC BY 2.0",
     "imageSourceId": "media-lonchura-striata-img",
+    "image": "https://commons.wikimedia.org/wiki/File:White-rumped_Munia_(Lonchura_striata)_(32024349690).jpg",
     "audio": [
       "https://xeno-canto.org/1160466"
     ]
@@ -5937,9 +6128,19 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Budgerigars_at_water,_Karratha,_Western_Aaustralia_(7857257686).jpg",
+    "wildRange": {
+      "regions": [
+        "Australie"
+      ],
+      "hemisphere": "AU",
+      "sourceIds": [
+        "birdlife-melopsittacus-undulatus",
+        "adw-melopsittacus-undulatus"
+      ]
+    },
     "imageCredit": "Lip Kee — CC BY-SA 2.0",
     "imageSourceId": "media-melopsittacus-undulatus-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Budgerigars_at_water,_Karratha,_Western_Aaustralia_(7857257686).jpg",
     "audio": [
       "https://xeno-canto.org/940888"
     ]
@@ -6071,9 +6272,20 @@ export const birds: Bird[] = [
         "note": "CC BY-SA 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Myiopsitta_monachus_-Gran_Canaria,_Canary_Islands,_Spain-8.jpg",
+    "wildRange": {
+      "regions": [
+        "Amérique du Sud",
+        "Brésil"
+      ],
+      "hemisphere": "AM",
+      "sourceIds": [
+        "birdlife-myiopsitta-monachus",
+        "adw-myiopsitta-monachus"
+      ]
+    },
     "imageCredit": "Juan Emilio — CC BY-SA 2.0",
     "imageSourceId": "media-myiopsitta-monachus-monachus-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Myiopsitta_monachus_-Gran_Canaria,_Canary_Islands,_Spain-8.jpg",
     "audio": [
       "https://xeno-canto.org/1143450"
     ]
@@ -6191,9 +6403,18 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0 ; XC: Aidemosyne modesta"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Plum-headed_Finch-Neochmia_modesta.jpg",
+    "wildRange": {
+      "regions": [
+        "Australie"
+      ],
+      "hemisphere": "AU",
+      "sourceIds": [
+        "birdlife-neochmia-modesta"
+      ]
+    },
     "imageCredit": "Greg Miles — CC BY-SA 2.0",
     "imageSourceId": "media-neochmia-modesta-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Plum-headed_Finch-Neochmia_modesta.jpg",
     "audio": [
       "https://xeno-canto.org/605889"
     ]
@@ -6311,9 +6532,18 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-ND 4.0 ; XC: Bathilda ruficauda"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Star_Finch_(Neochmia_ruficauda_subclarescens)_Wyndham_WA.jpg",
+    "wildRange": {
+      "regions": [
+        "Australie"
+      ],
+      "hemisphere": "AU",
+      "sourceIds": [
+        "birdlife-neochmia-ruficauda"
+      ]
+    },
     "imageCredit": "HaraldW1954 — CC BY-SA 4.0",
     "imageSourceId": "media-neochmia-ruficauda-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Star_Finch_(Neochmia_ruficauda_subclarescens)_Wyndham_WA.jpg",
     "audio": [
       "https://xeno-canto.org/436594"
     ]
@@ -6428,9 +6658,18 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Elegant_Parrot_(Neophema_elegans)_(8079612251).jpg",
+    "wildRange": {
+      "regions": [
+        "Australie"
+      ],
+      "hemisphere": "AU",
+      "sourceIds": [
+        "birdlife-neophema-elegans"
+      ]
+    },
     "imageCredit": "Ron Knight — CC BY 2.0",
     "imageSourceId": "media-neophema-elegans-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Elegant_Parrot_(Neophema_elegans)_(8079612251).jpg",
     "audio": [
       "https://xeno-canto.org/755583"
     ]
@@ -6547,9 +6786,18 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-ND 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Neophema_pulchella_-Twycross_Zoo,_Leicestershire,_England-8a.jpg",
+    "wildRange": {
+      "regions": [
+        "Australie"
+      ],
+      "hemisphere": "AU",
+      "sourceIds": [
+        "birdlife-neophema-pulchella"
+      ]
+    },
     "imageCredit": "stephen jones — CC BY 2.0",
     "imageSourceId": "media-neophema-pulchella-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Neophema_pulchella_-Twycross_Zoo,_Leicestershire,_England-8a.jpg",
     "audio": [
       "https://xeno-canto.org/328216"
     ]
@@ -6664,9 +6912,18 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Scarlet_Chested_Parakeet.jpg",
+    "wildRange": {
+      "regions": [
+        "Australie"
+      ],
+      "hemisphere": "AU",
+      "sourceIds": [
+        "birdlife-neophema-splendida"
+      ]
+    },
     "imageCredit": "Ltshears — Domaine public",
     "imageSourceId": "media-neophema-splendida-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Scarlet_Chested_Parakeet.jpg",
     "audio": [
       "https://xeno-canto.org/924874"
     ]
@@ -6798,9 +7055,19 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-ND 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Bourkes_Parrot_(Neopsephotus_bourkii)9.jpg",
+    "wildRange": {
+      "regions": [
+        "Australie"
+      ],
+      "hemisphere": "AU",
+      "sourceIds": [
+        "birdlife-neopsephotus-bourkii",
+        "adw-neopsephotus-bourkii"
+      ]
+    },
     "imageCredit": "Ljosa — Domaine public",
     "imageSourceId": "media-neopsephotus-bourkii-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Bourkes_Parrot_(Neopsephotus_bourkii)9.jpg",
     "audio": [
       "https://xeno-canto.org/681342"
     ]
@@ -6935,9 +7202,19 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Cockatiel_Parakeet_(Nymphicus_hollandicus)9.jpg",
+    "wildRange": {
+      "regions": [
+        "Australie"
+      ],
+      "hemisphere": "AU",
+      "sourceIds": [
+        "birdlife-nymphicus-hollandicus",
+        "adw-nymphicus-hollandicus"
+      ]
+    },
     "imageCredit": "Zefry — CC BY 2.0",
     "imageSourceId": "media-nymphicus-hollandicus-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Cockatiel_Parakeet_(Nymphicus_hollandicus)9.jpg",
     "audio": [
       "https://xeno-canto.org/1163859"
     ]
@@ -7053,9 +7330,9 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Oena_capensis_-Etosha_National_Park,_Namibia-8.jpg",
     "imageCredit": "Neil Strickland — CC BY 2.0",
     "imageSourceId": "media-oena-capensis-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Oena_capensis_-Etosha_National_Park,_Namibia-8.jpg",
     "audio": [
       "https://xeno-canto.org/951388"
     ]
@@ -7173,9 +7450,9 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-ND 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Passer_luteus_-_Barry_Stewart_-_661030168.jpeg",
     "imageCredit": "Barry Stewart — CC BY 4.0",
     "imageSourceId": "media-passer-luteus-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Passer_luteus_-_Barry_Stewart_-_661030168.jpeg",
     "audio": [
       "https://xeno-canto.org/985452"
     ]
@@ -7290,9 +7567,18 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Pale-headed_Rosella_-_Herbaton.jpg",
+    "wildRange": {
+      "regions": [
+        "Australie"
+      ],
+      "hemisphere": "AU",
+      "sourceIds": [
+        "birdlife-platycercus-adscitus"
+      ]
+    },
     "imageCredit": "JJ Harrison — CC BY-SA 4.0",
     "imageSourceId": "media-platycercus-adscitus-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Pale-headed_Rosella_-_Herbaton.jpg",
     "audio": [
       "https://xeno-canto.org/593967"
     ]
@@ -7407,9 +7693,9 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Platycercus_elegans_-Blue_Mountains_-side-8a.jpg",
     "imageCredit": "John Poulakis — CC BY 2.0",
     "imageSourceId": "media-platycercus-elegans-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Platycercus_elegans_-Blue_Mountains_-side-8a.jpg",
     "audio": [
       "https://xeno-canto.org/1173944"
     ]
@@ -7524,9 +7810,19 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Female_Eastern_Rosella_(Platycercus_eximius).jpg",
+    "wildRange": {
+      "regions": [
+        "Australie",
+        "Nouvelle-Zélande"
+      ],
+      "hemisphere": "AU",
+      "sourceIds": [
+        "birdlife-platycercus-eximius"
+      ]
+    },
     "imageCredit": "Murdock Grewar — CC BY-SA 4.0",
     "imageSourceId": "media-platycercus-eximius-eximius-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Female_Eastern_Rosella_(Platycercus_eximius).jpg",
     "audio": [
       "https://xeno-canto.org/1173636"
     ]
@@ -7641,9 +7937,18 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-ND 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Western_Rosella_(Platycercus_icterotis)_-eating_bread.jpg",
+    "wildRange": {
+      "regions": [
+        "Australie"
+      ],
+      "hemisphere": "AU",
+      "sourceIds": [
+        "birdlife-platycercus-icterotis"
+      ]
+    },
     "imageCredit": "Robert Young — CC BY 2.0",
     "imageSourceId": "media-platycercus-icterotis-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Western_Rosella_(Platycercus_icterotis)_-eating_bread.jpg",
     "audio": [
       "https://xeno-canto.org/382800"
     ]
@@ -7761,9 +8066,9 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Village_weaver_(Ploceus_cucullatus_cucullatus)_female_and_male.jpg",
     "imageCredit": "Charles J. Sharp — CC BY-SA 4.0",
     "imageSourceId": "media-ploceus-cucullatus-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Village_weaver_(Ploceus_cucullatus_cucullatus)_female_and_male.jpg",
     "audio": [
       "https://xeno-canto.org/1080073"
     ]
@@ -7881,9 +8186,18 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-ND 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Poephila_acuticauda_-Wulagi,_Darwin,_Australia-8a.jpg",
+    "wildRange": {
+      "regions": [
+        "Australie"
+      ],
+      "hemisphere": "AU",
+      "sourceIds": [
+        "birdlife-poephila-acuticauda"
+      ]
+    },
     "imageCredit": "Lip Kee Yap — CC BY-SA 2.0",
     "imageSourceId": "media-poephila-acuticauda-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Poephila_acuticauda_-Wulagi,_Darwin,_Australia-8a.jpg",
     "audio": [
       "https://xeno-canto.org/668759"
     ]
@@ -8015,9 +8329,19 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Senegal_Parrots_-two_on_branch_in_Africa.jpg",
+    "wildRange": {
+      "regions": [
+        "Afrique"
+      ],
+      "hemisphere": "AF",
+      "sourceIds": [
+        "birdlife-poicephalus-senegalus",
+        "adw-poicephalus-senegalus"
+      ]
+    },
     "imageCredit": "ThomHasi / Thomas J. Haslam — CC BY 2.5",
     "imageSourceId": "media-poicephalus-senegalus-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Senegal_Parrots_-two_on_branch_in_Africa.jpg",
     "audio": [
       "https://xeno-canto.org/1093291"
     ]
@@ -8134,9 +8458,18 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Polytelis_alexandrae_-Australia-8.jpg",
+    "wildRange": {
+      "regions": [
+        "Australie"
+      ],
+      "hemisphere": "AU",
+      "sourceIds": [
+        "birdlife-polytelis-alexandrae"
+      ]
+    },
     "imageCredit": "PG Palmer — CC BY 2.0",
     "imageSourceId": "media-polytelis-alexandrae-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Polytelis_alexandrae_-Australia-8.jpg",
     "audio": [
       "https://xeno-canto.org/488068"
     ]
@@ -8251,9 +8584,18 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Polytelis_anthopeplus_-Wyperfeld_National_Park_-Australia-8.jpg",
+    "wildRange": {
+      "regions": [
+        "Australie"
+      ],
+      "hemisphere": "AU",
+      "sourceIds": [
+        "birdlife-polytelis-anthopeplus"
+      ]
+    },
     "imageCredit": "David Cook Wildlife Photography — CC BY 2.0",
     "imageSourceId": "media-polytelis-anthopeplus-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Polytelis_anthopeplus_-Wyperfeld_National_Park_-Australia-8.jpg",
     "audio": [
       "https://xeno-canto.org/638864"
     ]
@@ -8371,9 +8713,18 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-ND 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Red_Rumped_Parrot_Males.jpg",
+    "wildRange": {
+      "regions": [
+        "Australie"
+      ],
+      "hemisphere": "AU",
+      "sourceIds": [
+        "birdlife-psephotus-haematonotus"
+      ]
+    },
     "imageCredit": "Toby Hudson — CC BY-SA 3.0",
     "imageSourceId": "media-psephotus-haematonotus-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Red_Rumped_Parrot_Males.jpg",
     "audio": [
       "https://xeno-canto.org/692681"
     ]
@@ -8491,9 +8842,18 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-ND 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Plum-headed_Parakeet_(Psittacula_cyanocephala)_in_Hyderabad_W_IMG_4536.jpg",
+    "wildRange": {
+      "regions": [
+        "Inde"
+      ],
+      "hemisphere": "AS",
+      "sourceIds": [
+        "birdlife-himalayapsitta-cyanocephala"
+      ]
+    },
     "imageCredit": "J.M.Garg — CC BY-SA 4.0",
     "imageSourceId": "media-psittacula-cyanocephala-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Plum-headed_Parakeet_(Psittacula_cyanocephala)_in_Hyderabad_W_IMG_4536.jpg",
     "audio": [
       "https://xeno-canto.org/809699"
     ]
@@ -8613,9 +8973,18 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:A_Male_with_another_-_Alexandrine_Parakeets_(51005695606).jpg",
+    "wildRange": {
+      "regions": [
+        "Inde"
+      ],
+      "hemisphere": "AS",
+      "sourceIds": [
+        "birdlife-palaeornis-eupatria"
+      ]
+    },
     "imageCredit": "Hari K Patibanda — CC BY 2.0",
     "imageSourceId": "media-psittacula-eupatria-img",
+    "image": "https://commons.wikimedia.org/wiki/File:A_Male_with_another_-_Alexandrine_Parakeets_(51005695606).jpg",
     "audio": [
       "https://xeno-canto.org/1182205"
     ]
@@ -8751,9 +9120,9 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Indian_Ringneck_parrot._(Psittacula_krameri),_(9779826796).jpg",
     "imageCredit": "Bernard Spragg. NZ — CC0",
     "imageSourceId": "media-psittacula-krameri-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Indian_Ringneck_parrot._(Psittacula_krameri),_(9779826796).jpg",
     "audio": [
       "https://xeno-canto.org/1180800"
     ]
@@ -8890,9 +9259,9 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:African-Grey-Parrot.jpg",
     "imageCredit": "Nasimahmed01 — CC BY-SA 4.0",
     "imageSourceId": "media-psittacus-erithacus-img",
+    "image": "https://commons.wikimedia.org/wiki/File:African-Grey-Parrot.jpg",
     "audio": [
       "https://xeno-canto.org/1137653"
     ]
@@ -9028,9 +9397,19 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Green_Cheecked_Conure.jpg",
+    "wildRange": {
+      "regions": [
+        "Brésil"
+      ],
+      "hemisphere": "AM",
+      "sourceIds": [
+        "birdlife-pyrrhura-molinae",
+        "adw-pyrrhura-molinae"
+      ]
+    },
     "imageCredit": "Dan Muntz — CC BY-SA 2.0",
     "imageSourceId": "media-pyrrhura-molinae-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Green_Cheecked_Conure.jpg",
     "audio": [
       "https://xeno-canto.org/1180569"
     ]
@@ -9148,9 +9527,9 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Serinus_canaria_-_Canary_-_Wild.jpg",
     "imageCredit": "Eduardo Martínez — CC BY 2.0",
     "imageSourceId": "media-serinus-canaria-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Serinus_canaria_-_Canary_-_Wild.jpg",
     "audio": [
       "https://xeno-canto.org/1156694"
     ]
@@ -9268,9 +9647,9 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:White-rumped_Seedeater_-_Gambia_(32270398890).jpg",
     "imageCredit": "Francesco Veronesi — CC BY-SA 2.0",
     "imageSourceId": "media-serinus-leucopygius-img",
+    "image": "https://commons.wikimedia.org/wiki/File:White-rumped_Seedeater_-_Gambia_(32270398890).jpg",
     "audio": [
       "https://xeno-canto.org/469496"
     ]
@@ -9388,9 +9767,9 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Yellow-fronted_canary_(Crithagra_mozambica_granti)_male_Kruger.jpg",
     "imageCredit": "Charles J. Sharp — CC BY-SA 4.0",
     "imageSourceId": "media-serinus-mozambicus-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Yellow-fronted_canary_(Crithagra_mozambica_granti)_male_Kruger.jpg",
     "audio": [
       "https://xeno-canto.org/1140446"
     ]
@@ -9508,9 +9887,18 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-ND 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Stagonopleura_guttata_1_-_Glen_Alice.jpg",
+    "wildRange": {
+      "regions": [
+        "Australie"
+      ],
+      "hemisphere": "AU",
+      "sourceIds": [
+        "birdlife-stagonopleura-guttata"
+      ]
+    },
     "imageCredit": "JJ Harrison — CC BY-SA 4.0",
     "imageSourceId": "media-stagonopleura-guttata-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Stagonopleura_guttata_1_-_Glen_Alice.jpg",
     "audio": [
       "https://xeno-canto.org/576505"
     ]
@@ -9642,9 +10030,9 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0 ; taxon sauvage"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Barbary_Dove_(Streptopelia_risoria)_RWD.jpg",
     "imageCredit": "Dick Daniels — CC BY-SA 3.0",
     "imageSourceId": "media-streptopelia-risoria-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Barbary_Dove_(Streptopelia_risoria)_RWD.jpg",
     "audio": [
       "https://xeno-canto.org/1163976"
     ]
@@ -9763,9 +10151,9 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Spilopelia_senegalensis_-_Laughing_Dove_-_K%C3%BC%C3%A7%C3%BCk_kumru_02.JPG",
     "imageCredit": "Zeynel Cebeci — CC BY-SA 4.0",
     "imageSourceId": "media-streptopelia-senegalensis-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Spilopelia_senegalensis_-_Laughing_Dove_-_K%C3%BC%C3%A7%C3%BCk_kumru_02.JPG",
     "audio": [
       "https://xeno-canto.org/1183962"
     ]
@@ -9883,9 +10271,18 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-ND 4.0 ; XC: Stizoptera bichenovii"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Taeniopygia_bichenovii_2_-_Glen_Davis.jpg",
+    "wildRange": {
+      "regions": [
+        "Australie"
+      ],
+      "hemisphere": "AU",
+      "sourceIds": [
+        "birdlife-taeniopygia-bichenovii"
+      ]
+    },
     "imageCredit": "JJ Harrison — CC BY-SA 4.0",
     "imageSourceId": "media-taeniopygia-bichenovii-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Taeniopygia_bichenovii_2_-_Glen_Davis.jpg",
     "audio": [
       "https://xeno-canto.org/816265"
     ]
@@ -10003,9 +10400,18 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-ND 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Australian_Zebra_Finch_0A2A3013.jpg",
+    "wildRange": {
+      "regions": [
+        "Australie"
+      ],
+      "hemisphere": "AU",
+      "sourceIds": [
+        "birdlife-taeniopygia-castanotis"
+      ]
+    },
     "imageCredit": "JJ Harrison — CC BY-SA 3.0",
     "imageSourceId": "media-taeniopygia-guttata-castanotis-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Australian_Zebra_Finch_0A2A3013.jpg",
     "audio": [
       "https://xeno-canto.org/407796"
     ]
@@ -10123,9 +10529,9 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Red-cheeked_cordon-bleu_(Uraeginthus_bengalus_bengalus)_male.jpg",
     "imageCredit": "Charles J. Sharp — CC BY-SA 4.0",
     "imageSourceId": "media-uraeginthus-bengalus-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Red-cheeked_cordon-bleu_(Uraeginthus_bengalus_bengalus)_male.jpg",
     "audio": [
       "https://xeno-canto.org/405791"
     ]
@@ -10243,9 +10649,9 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Blue-capped_Cordon-bleu,_Ngorongoro.jpg",
     "imageCredit": "D. Gordon E. Robertson — CC BY-SA 3.0",
     "imageSourceId": "media-uraeginthus-cyanocephalus-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Blue-capped_Cordon-bleu,_Ngorongoro.jpg",
     "audio": [
       "https://xeno-canto.org/1030357"
     ]
@@ -10363,9 +10769,9 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Village_indigobird_(Vidua_chalybeata_okavangoensis)_male_Zimbabwe.jpg",
     "imageCredit": "Charles J. Sharp — CC BY-SA 4.0",
     "imageSourceId": "media-vidua-chalybeata-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Village_indigobird_(Vidua_chalybeata_okavangoensis)_male_Zimbabwe.jpg",
     "audio": [
       "https://xeno-canto.org/982686"
     ]
@@ -10483,9 +10889,9 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Pin-tailed_whydah_(Vidua_macroura)_breeding_male.jpg",
     "imageCredit": "Charles J. Sharp — CC BY-SA 4.0",
     "imageSourceId": "media-vidua-macroura-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Pin-tailed_whydah_(Vidua_macroura)_breeding_male.jpg",
     "audio": [
       "https://xeno-canto.org/1183545"
     ]
@@ -10603,9 +11009,9 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
-    "image": "https://commons.wikimedia.org/wiki/File:Sahel_Paradise_Whydah.jpg",
     "imageCredit": "Pobpob11 — CC BY-SA 4.0",
     "imageSourceId": "media-vidua-orientalis-img",
+    "image": "https://commons.wikimedia.org/wiki/File:Sahel_Paradise_Whydah.jpg",
     "audio": [
       "https://xeno-canto.org/436008"
     ]

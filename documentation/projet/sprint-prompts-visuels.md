@@ -27,12 +27,12 @@ Livrer le catalogue de prompts (85 × 2), les données `wildRange` sourcées, et
 
 ## Checklist d’exécution
 
-- [ ] Plan lu ([plan-prompts-visuels.md](plan-prompts-visuels.md))
-- [ ] Branche `feature/prompts-visuels-cartes` depuis `develop`
-- [ ] Script prompts + génération 85 fichiers
-- [ ] `wildRange` + gabarit
-- [ ] SVG + composant fiche
-- [ ] Build + journal + PR
+- [x] Plan lu ([plan-prompts-visuels.md](plan-prompts-visuels.md))
+- [x] Branche `feature/prompts-visuels-cartes` depuis `develop`
+- [x] Script prompts + génération 85 fichiers
+- [x] `wildRange` + gabarit
+- [x] SVG + composant fiche
+- [x] Build + journal + PR
 
 ## Notes
 
