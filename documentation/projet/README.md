@@ -22,6 +22,9 @@
 | [plan-design.md](plan-design.md) | **Plan design** — charte + maquettes (direction artistique) |
 | [plan-prompts-visuels.md](plan-prompts-visuels.md) | **Plan prompts visuels** — illustration + 3D + carte hémisphère |
 | [sprint-prompts-visuels.md](sprint-prompts-visuels.md) | **Sprint** — prompts 85×2 + wildRange + UI carte |
+| [plan-suivi-illustrations.md](plan-suivi-illustrations.md) | **Suivi illustrations** — génération / validation 85 PNG (références) |
+| [plan-ui-equiv-maquette.md](plan-ui-equiv-maquette.md) | **Plan UI ≡ maquette** — zéro écart chrome Livrable B |
+| [sprint-ui-equiv-maquette.md](sprint-ui-equiv-maquette.md) | **Sprint** — porter PNG/prototype dans React |
 | [design.md](design.md) | **Charte design** — tokens, typo, composants, specs 4 écrans |
 | [maquettes/](maquettes/) | **Maquettes** — captures + prototype interactif portrait |
 | [sprint-01-sources.md](sprint-01-sources.md) | **Sprint 01** — collecte lot pilote (6 espèces) |

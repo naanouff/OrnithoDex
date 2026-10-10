@@ -58,5 +58,7 @@ Chronique courte des sessions de travail : décisions, avancement, blocages.
 | 2026-10-10 | [2026-10-10-47.md](2026-10-10-47.md) — Rapatriement médias locaux (85 images, 81 sons) |
 | 2026-10-10 | [2026-10-10-49.md](2026-10-10-49.md) — Plan + sprint prompts visuels / carte |
 | 2026-10-10 | [2026-10-10-51.md](2026-10-10-51.md) — Implémentation prompts + wildRange + carte |
+| 2026-10-10 | [2026-10-10-54.md](2026-10-10-54.md) — Plan + sprint UI ≡ maquette |
+| 2026-10-10 | [2026-10-10-55.md](2026-10-10-55.md) — Plan suivi illustrations (génération) |
 | 2026-10-10 | [2026-10-10-10.md](2026-10-10-10.md) — Consignation plan pédagogie |
 | 2026-10-10 | [2026-10-10-11.md](2026-10-10-11.md) — Public prioritaire seconde pro TCVA |
