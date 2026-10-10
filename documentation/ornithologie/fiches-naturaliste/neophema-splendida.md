@@ -44,7 +44,13 @@ Enregistrement XC924874 (Louis Masarei — CC BY-NC-SA 4.0) : https://xeno-canto
 
 ## Points de cours à retenir
 
-*En attente ingénieur pédagogique / supports de cours.*
+<!-- Aides à la mémorisation (pas un polycopié enseignant). -->
+
+- **[programme]** Perruche splendide ↔ *Neophema splendida* ; Psittaciformes ; Psittacidés
+- **[programme]** Confusion : autres *Neophema* — splendide = mallee / désert, **nomade**
+- **[sourcé]** Least Concern ; tendance stable (population fluctuante)
+- **[sourcé]** Cœur d’aire : Great Victoria Desert ; irruptions possibles
+- **[sourcé]** Cohabite souvent avec la perruche de Bourke
 
 ## Médias
 

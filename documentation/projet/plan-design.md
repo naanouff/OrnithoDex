@@ -18,9 +18,9 @@ Voir aussi : [vision.md](vision.md), [cahier-des-charges.md](cahier-des-charges.
 
 ## Prérequis logo
 
-Le logo généré (nanobanana) guide la DA. **Avant ou au démarrage de l’exécution** : le déposer (chat ou chemin absolu), puis le versionner sous [`assets/logo-ornithodex.png`](assets/logo-ornithodex.png) (ou `.webp` / `.svg`).
+Logo NanoBanana retenu ; brouillon vectorisé local : `documentation/mocup/logo-ornithodex.svg` (VTracer depuis JPG, fond retiré). Versionnement officiel plus tard sous [`assets/logo-ornithodex.svg`](assets/logo-ornithodex.svg).
 
-Analyse du logo → tokens (couleurs, contrastes, style illustration). Secours si le fichier tarde : thème déjà écrit dans le plan projet — *naturaliste pédagogique* (verts forêt / bleus ciel / accents par ordre).
+Analyse du logo → tokens (couleurs, contrastes, style illustration). DA ludique type Duolingo (navy / orange-jaune / sky / lime).
 
 ## Livrable A — Charte + specs
 
@@ -54,7 +54,7 @@ Après la charte (même passe, ordre strict) :
 - Les enregistrer sous [`maquettes/`](maquettes/) et les référencer dans `design.md`.
 - Pas de collage hero, pas de cards inutiles hors interaction ; photo espèce = ancrage réel sur Collection / Fiche / Quiz.
 
-**Brouillons locaux** (ignorés par git, pour ne pas croiser les sprints) : `documentation/mocup/` — ex. première proposition Accueil `accueil-v0.jpg`.
+**Brouillons locaux** (ignorés par git, pour ne pas croiser les sprints) : `documentation/mocup/` — [`accueil-v0.html`](../mocup/accueil-v0.html) + `logo-ornithodex.svg` (JPG source conservé).
 
 ## Hors périmètre de cette passe
 

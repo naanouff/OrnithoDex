@@ -30,12 +30,12 @@ Plan sources : [plan-sources.md](../projet/plan-sources.md) (85/85 `complete`) �
 | forpus-coelestis | ok | ok | ok | ok | ok | na | ok | na | ok | ok | régime/dimorphisme na; sprint 05 |
 | melopsittacus-undulatus | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok | ADW; sprint 05 |
 | myiopsitta-monachus-monachus | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok | sous-esp. programme; ADW; sprint 06 |
-| neopsephotus-bourkii | ok | ok | ok | ok | ok | ok | ok | ok | ok | attente | ADW; sprint 06 |
-| neophema-elegans | ok | ok | ok | ok | ok | na | ok | na | ok | attente | dimorphisme/régime na; sprint 06 |
-| neophema-pulchella | ok | ok | ok | ok | ok | na | ok | ok | ok | attente | dimorphisme na; cape weed; sprint 06 |
-| neophema-splendida | ok | ok | ok | ok | ok | na | ok | na | ok | attente | dimorphisme/régime na; sprint 06 |
-| platycercus-eximius-eximius | ok | ok | ok | ok | ok | na | ok | na | ok | attente | sous-esp. programme; dimorphisme/régime na; sprint 06 |
-| platycercus-elegans | ok | ok | ok | ok | ok | na | ok | na | ok | attente | déclin habitat; sprint 07 |
+| neopsephotus-bourkii | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok | ADW; sprint 06 |
+| neophema-elegans | ok | ok | ok | ok | ok | na | ok | na | ok | ok | dimorphisme/régime na; sprint 06 |
+| neophema-pulchella | ok | ok | ok | ok | ok | na | ok | ok | ok | ok | dimorphisme na; cape weed; sprint 06 |
+| neophema-splendida | ok | ok | ok | ok | ok | na | ok | na | ok | ok | dimorphisme/régime na; sprint 06 |
+| platycercus-eximius-eximius | ok | ok | ok | ok | ok | na | ok | na | ok | ok | sous-esp. programme; dimorphisme/régime na; sprint 06 |
+| platycercus-elegans | ok | ok | ok | ok | ok | na | ok | na | ok | ok | déclin habitat; sprint 07 |
 | platycercus-icterotis | ok | ok | ok | ok | ok | na | ok | na | ok | attente | déclin; sprint 07 |
 | platycercus-adscitus | ok | ok | ok | ok | ok | na | ok | na | ok | attente | sprint 07 |
 | poicephalus-senegalus | ok | ok | ok | ok | ok | ok | ok | ok | ok | attente | ADW; commerce; sprint 07 |
