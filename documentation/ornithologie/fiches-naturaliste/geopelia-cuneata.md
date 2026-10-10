@@ -38,7 +38,7 @@ Espèce **nomade** selon BirdLife ; décrite comme commune ; utilisée/commercia
 
 ## Chant et vocalisations
 
-Enregistrement XC634961 (Marc Anderson — CC BY-NC-ND 4.0) : https://xeno-canto.org/634961
+Enregistrement XC165147 (Nigel Jackett — CC BY-NC-SA 3.0) : https://xeno-canto.org/165147
 
 ## Points de cours à retenir
 
@@ -49,7 +49,7 @@ Enregistrement XC634961 (Marc Anderson — CC BY-NC-ND 4.0) : https://xeno-canto
 | Type | Fichier / URL | Crédit / licence | Source README |
 |------|--------------|------------------|---------------|
 | Image | https://commons.wikimedia.org/wiki/File:Geopelia_cuneata.JPG | Maurice van Bruggen — CC BY-SA 3.0 | media-geopelia-cuneata-img |
-| Audio | https://xeno-canto.org/634961 | Marc Anderson — CC BY-NC-ND 4.0 | media-geopelia-cuneata-audio |
+| Audio | https://xeno-canto.org/165147 | Nigel Jackett — CC BY-NC-SA 3.0 | media-geopelia-cuneata-audio |
 
 ## Sources
 
@@ -58,4 +58,4 @@ Enregistrement XC634961 (Marc Anderson — CC BY-NC-ND 4.0) : https://xeno-canto
 | bac-pro-tcva-liste | Liste des oiseaux – BAC PRO TCVA (MP6) | Support de cours | 2009 | | Identité programme |
 | birdlife-geopelia-cuneata | Diamond Dove Geopelia cuneata — Species Factsheet | BirdLife International | 2024 | https://datazone.birdlife.org/species/factsheet/diamond-dove-geopelia-cuneata | Consulté 2026-10-10 |
 | media-geopelia-cuneata-img | File:Geopelia cuneata.JPG | Maurice van Bruggen / Wikimedia Commons | 2009 | https://commons.wikimedia.org/wiki/File:Geopelia_cuneata.JPG | CC BY-SA 3.0 |
-| media-geopelia-cuneata-audio | XC634961 | Marc Anderson / Xeno-canto | | https://xeno-canto.org/634961 | CC BY-NC-ND 4.0 |
+| media-geopelia-cuneata-audio | XC165147 | Nigel Jackett / Xeno-canto | | https://xeno-canto.org/165147 | CC BY-NC-SA 3.0 |

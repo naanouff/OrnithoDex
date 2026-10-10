@@ -16,7 +16,7 @@ Plan : [plan-sources.md](../projet/plan-sources.md) · Sprints : [01](../projet/
 | geopelia-striata | ok | ok | ok | ok | ok | na | ok | na | ok | attente | dimorphisme/régime na; sprint 03a |
 | oena-capensis | ok | ok | ok | ok | ok | na | ok | na | ok | attente | dimorphisme/régime na; sprint 03a |
 | streptopelia-senegalensis | ok | ok | ok | ok | ok | na | ok | ok | ok | attente | Spilopelia; dimorphisme na; sprint 03a |
-| streptopelia-risoria | na | ok | ok | ok | ok | na | ok | na | ok | attente | Forme domestique; S. roseogrisea; sprint 03a |
+| streptopelia-risoria | na | ok | ok | ok | ok | ok | ok | ok | ok | attente | Forme domestique; ADW S. roseogrisea; sprint 03a |
 | columba-livia | ok | ok | ok | ok | ok | ok | ok | ok | ok | attente | ADW; sprint 03a |
 | agapornis-roseicollis | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
 | agapornis-fischeri | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |

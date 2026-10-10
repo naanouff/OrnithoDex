@@ -73,7 +73,7 @@ Fiches espèce BirdLife / ADW / Avibase (sprints 01–03a) : détail dans chaque
 | `aix-sponsa` | Image | Dick Daniels | CC BY-SA 3.0 | https://commons.wikimedia.org/wiki/File:Wood_Duck_(Aix_sponsa).jpg |
 | `aix-sponsa` | Audio | Don Profota | CC BY-NC-SA 4.0 | https://xeno-canto.org/1173163 |
 | `geopelia-cuneata` | Image | Maurice van Bruggen | CC BY-SA 3.0 | https://commons.wikimedia.org/wiki/File:Geopelia_cuneata.JPG |
-| `geopelia-cuneata` | Audio | Marc Anderson | CC BY-NC-ND 4.0 | https://xeno-canto.org/634961 |
+| `geopelia-cuneata` | Audio | Nigel Jackett | CC BY-NC-SA 3.0 | https://xeno-canto.org/165147 |
 | `geopelia-striata` | Image | Angah hfz | CC BY-SA 3.0 | https://commons.wikimedia.org/wiki/File:Burung_Merbuk.JPG |
 | `geopelia-striata` | Audio | Arend Wassink | CC BY-NC-SA 4.0 | https://xeno-canto.org/1081912 |
 | `oena-capensis` | Image | Neil Strickland | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Oena_capensis_-Etosha_National_Park,_Namibia-8.jpg |

@@ -19,7 +19,7 @@ Passer les **12** espèces déjà en `partielle` (sprints 01–02) au statut **`
 | `callipepla-californica` | complete | XC570687 |
 | `aix-galericulata` | complete | XC1137635 |
 | `aix-sponsa` | complete | XC1173163 |
-| `geopelia-cuneata` | complete | XC634961 |
+| `geopelia-cuneata` | complete | XC165147 |
 | `geopelia-striata` | complete | XC1081912 |
 | `oena-capensis` | complete | XC951388 |
 | `streptopelia-senegalensis` | complete | XC1183962 |
