@@ -2,7 +2,15 @@
 
 Chaque espèce a un fichier `fiches-naturaliste/{slug}.md` calqué sur ce gabarit.
 
-Les sections sans source restent **vides** (ne pas inventer).
+Les sections sans source restent **vides** (ne pas inventer). Méthode : [plan-sources.md](../projet/plan-sources.md).
+
+## Statuts
+
+| Statut | Signification |
+|--------|---------------|
+| `liste_seule` | Identité programme uniquement |
+| `partielle` | Au moins un champ texte ou un média sourcé |
+| `complete` | Description, dimorphisme, habitat, régime, comportement, chant (fichier XC), médias (image+audio) tous `ok` ou `na` justifié. **Points de cours** peuvent rester en attente. |
 
 ```markdown
 # {Nom commun}
@@ -34,14 +42,18 @@ Les sections sans source restent **vides** (ne pas inventer).
 
 ## Chant et vocalisations
 
+<!-- Préférer 1 enregistrement Xeno-canto précis (URL fichier + crédit), pas seule la page espèce. -->
+
 ## Points de cours à retenir
+
+*En attente ingénieur pédagogique / supports de cours.*
 
 ## Médias
 
-| Type | Fichier | Crédit / licence | Source README |
-|------|---------|------------------|---------------|
-| Image | `/images/birds/{slug}.webp` | … | … |
-| Audio | `/audio/birds/{slug}.mp3` | … | … |
+| Type | Fichier / URL | Crédit / licence | Source README |
+|------|--------------|------------------|---------------|
+| Image | URL Commons ou `/images/birds/{slug}.webp` | auteur — licence | media-{slug}-img |
+| Audio | URL enregistrement Xeno-canto | auteur — licence | media-{slug}-audio |
 
 ## Sources
 

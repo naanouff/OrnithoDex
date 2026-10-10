@@ -24,8 +24,8 @@ Le cadrage et le plan complets sont dans [`documentation/`](documentation/) :
 
 ## Statut
 
-Sources : [sprint 01](documentation/projet/sprint-01-sources.md) (lot pilote) · [sprint 02](documentation/projet/sprint-02-sources.md) (Columbiformes) · suivi [suivi-sources.md](documentation/ornithologie/suivi-sources.md).  
-Développement applicatif (Vite / React / TypeScript / Tailwind) ensuite.
+Sources : méthode [plan-sources.md](documentation/projet/plan-sources.md) (fiches → `complete`) · [sprint 01](documentation/projet/sprint-01-sources.md) · [sprint 02](documentation/projet/sprint-02-sources.md) · **[sprint 03a](documentation/projet/sprint-03a-sources.md)** (backlog) · suivi [suivi-sources.md](documentation/ornithologie/suivi-sources.md).  
+Points de cours : en attente ingénieur pédagogique. Développement applicatif (Vite / React / TypeScript / Tailwind) ensuite.
 
 Licence du code : **MIT** — voir [`LICENSE`](LICENSE).
 
@@ -47,9 +47,10 @@ Registre public de **toutes** les sources utilisées dans le projet. Toute nouve
 | Id | Titre | Organisme | URL | Usage |
 |----|-------|-----------|-----|--------|
 | `iucn-redlist` | IUCN Red List of Threatened Species | IUCN | https://www.iucnredlist.org/ | Statut, traits (via fiches espèce) |
-| `birdlife-datazone` | BirdLife DataZone | BirdLife International | https://datazone.birdlife.org/ | Habitat, population, écologie |
+| `birdlife-datazone` | BirdLife DataZone | BirdLife International | https://datazone.birdlife.org/ | Habitat, population, écologie (principal) |
+| `animal-diversity-web` | Animal Diversity Web | University of Michigan | https://animaldiversity.org/ | Dimorphisme, régime, comportement (complément) |
 | `avibase` | Avibase | Denis Lepage / BSC-EOC | https://avibase.bsc-eoc.org/ | Contrôle taxonomique, synonymes |
-| `xeno-canto` | Xeno-canto | Xeno-canto Foundation | https://xeno-canto.org/ | Pages espèce audio (fichier précis à créditer à la sélection) |
+| `xeno-canto` | Xeno-canto | Xeno-canto Foundation | https://xeno-canto.org/ | Enregistrement audio précis (auteur + licence) |
 | `wikimedia-commons` | Wikimedia Commons | Wikimedia | https://commons.wikimedia.org/ | Images libres (licence par fichier) |
 
 Fiches espèce BirdLife / IUCN / Avibase utilisées (sprints 01–02) : détail dans chaque [fiche du naturaliste](documentation/ornithologie/fiches-naturaliste/).
