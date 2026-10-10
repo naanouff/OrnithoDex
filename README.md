@@ -29,7 +29,7 @@ Le cadrage et le plan complets sont dans [`documentation/`](documentation/) :
 
 Sources : méthode [plan-sources.md](documentation/projet/plan-sources.md) · sprints [01](documentation/projet/sprint-01-sources.md)–**[15](documentation/projet/sprint-15-sources.md)** — **85/85** fiches `complete` (biologie + médias) · suivi [suivi-sources.md](documentation/ornithologie/suivi-sources.md).  
 Points de cours : [charte](documentation/projet/pedagogie.md) · **[85/85](documentation/projet/plan-pedagogie.md)**. Design : [charte](documentation/projet/design.md) · [maquettes](documentation/projet/maquettes/).  
-App : scaffold **Vite / React / TypeScript / Tailwind** · dataset **85/85** (`npm run data:birds`) · logo **JPG** · suite = UI Collection / fiche.
+App : **Vite / React / TypeScript / Tailwind** · dataset **85/85** · UI Accueil / Collection / fiche · logo **JPG** · suite = quiz.
 
 Licence du code : **MIT** — voir [`LICENSE`](LICENSE).
 
