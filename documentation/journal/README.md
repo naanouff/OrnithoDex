@@ -27,5 +27,6 @@ Chronique courte des sessions de travail : décisions, avancement, blocages.
 | 2026-10-10 | [2026-10-10-15.md](2026-10-10-15.md) — Sprint 06 Psittacidés B (6 fiches complete) |
 | 2026-10-10 | [2026-10-10-16.md](2026-10-10-16.md) — Sprint 07 Psittacidés C (6 fiches complete) |
 | 2026-10-10 | [2026-10-10-17.md](2026-10-10-17.md) — Sprint 08 Psittacidés D (6 fiches complete) |
+| 2026-10-10 | [2026-10-10-18.md](2026-10-10-18.md) — Sprint 09 Passériformes A (6 fiches complete) |
 | 2026-10-10 | [2026-10-10-10.md](2026-10-10-10.md) — Consignation plan pédagogie |
 | 2026-10-10 | [2026-10-10-11.md](2026-10-10-11.md) — Public prioritaire seconde pro TCVA |
