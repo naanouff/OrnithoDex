@@ -11,6 +11,8 @@ export type QuizQuestion = {
   choices: string[]
   correctIndex: number
   imageUrl?: string
+  /** Fichier local `/audio/birds/…`. */
+  audioUrl?: string
   audioEmbedUrl?: string
   audioPageUrl?: string
 }
@@ -55,20 +57,24 @@ export function resetQuizScore(): void {
   localStorage.removeItem(SCORE_KEY)
 }
 
-/** Extraire l’id XC pour l’embed lecture. */
 export function xenoCantoEmbedUrl(pageUrl: string): string | undefined {
   const m = pageUrl.match(/xeno-canto\.org\/(\d+)/i)
   if (!m) return undefined
   return `https://xeno-canto.org/${m[1]}/embed`
 }
 
+function hasPlayableAudio(bird: Bird): boolean {
+  const primary = bird.audio?.[0]
+  if (!primary) return false
+  if (primary.startsWith('/audio/')) return true
+  return Boolean(xenoCantoEmbedUrl(primary))
+}
+
 export function birdsForMode(mode: QuizMode): Bird[] {
   if (mode === 'photo') {
     return birds.filter((bird) => Boolean(resolveBirdImageUrl(bird.image)))
   }
-  return birds.filter((bird) =>
-    Boolean(bird.audio?.[0] && xenoCantoEmbedUrl(bird.audio[0])),
-  )
+  return birds.filter((bird) => hasPlayableAudio(bird))
 }
 
 export function buildQuestion(
@@ -108,9 +114,18 @@ export function buildQuestion(
 
   if (mode === 'photo') {
     question.imageUrl = resolveBirdImageUrl(bird.image)
-  } else if (bird.audio?.[0]) {
-    question.audioPageUrl = bird.audio[0]
-    question.audioEmbedUrl = xenoCantoEmbedUrl(bird.audio[0])
+  } else {
+    const primary = bird.audio?.[0]
+    const remote = bird.audioRemote?.[0] ?? primary
+    if (primary?.startsWith('/audio/')) {
+      question.audioUrl = primary
+      if (remote && remote.includes('xeno-canto')) {
+        question.audioPageUrl = remote
+      }
+    } else if (primary) {
+      question.audioPageUrl = primary
+      question.audioEmbedUrl = xenoCantoEmbedUrl(primary)
+    }
   }
 
   return question

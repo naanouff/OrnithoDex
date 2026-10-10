@@ -1,0 +1,1180 @@
+{
+  "agapornis-fischeri": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/agapornis-fischeri.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Fischer%27s_Lovebird,_(Agapornis_fischeri)_perching_on_a_box.jpg",
+      "bytes": 124618
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/agapornis-fischeri.mp3",
+      "source": "https://xeno-canto.org/947900",
+      "bytes": 536439
+    }
+  },
+  "agapornis-lilianae": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/agapornis-lilianae.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Lilian%27s_Lovebird_(Agapornis_lilianae)_(23710441211).jpg",
+      "bytes": 412446
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/agapornis-lilianae.mp3",
+      "source": "https://xeno-canto.org/933097",
+      "bytes": 438124
+    }
+  },
+  "agapornis-nigrigenis": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/agapornis-nigrigenis.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Naturalis_Biodiversity_Center_-_ZMA.AVES.56942_-_Agapornis_nigrigenis_Sclater,_W.L.,_1906_-_Psittacidae_-_skin_specimen.jpeg",
+      "bytes": 88454
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/agapornis-nigrigenis.mp3",
+      "source": "https://xeno-canto.org/585260",
+      "bytes": 1375120
+    }
+  },
+  "agapornis-personatus": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/agapornis-personatus.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Yellow-collared_Lovebird_(27582137244).jpg",
+      "bytes": 191146
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/agapornis-personatus.mp3",
+      "source": "https://xeno-canto.org/509849",
+      "bytes": 936291
+    }
+  },
+  "agapornis-roseicollis": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/agapornis-roseicollis.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Rosy-faced_lovebird_(Agapornis_roseicollis_roseicollis)_flock.jpg",
+      "bytes": 90510
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/agapornis-roseicollis.wav",
+      "source": "https://xeno-canto.org/1101865",
+      "bytes": 891872
+    }
+  },
+  "aix-galericulata": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/aix-galericulata.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Mandarin_duck_(Aix_galericulata).jpg",
+      "bytes": 98460
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/aix-galericulata.wav",
+      "source": "https://xeno-canto.org/1137635",
+      "bytes": 1703088
+    }
+  },
+  "aix-sponsa": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/aix-sponsa.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Wood_Duck_(Aix_sponsa).jpg",
+      "bytes": 209608
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/aix-sponsa.wav",
+      "source": "https://xeno-canto.org/1173163",
+      "bytes": 2939696
+    }
+  },
+  "amadina-fasciata": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/amadina-fasciata.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Cut-throat_Finch_(Amadina_fasciata,_male_-_Djenn%C3%A9,_Mali,_2008).jpg",
+      "bytes": 14392
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/amadina-fasciata.mp3",
+      "source": "https://xeno-canto.org/509854",
+      "bytes": 794593
+    }
+  },
+  "amandava-amandava": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/amandava-amandava.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Red_Avadavat_(26082788247).jpg",
+      "bytes": 298522
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/amandava-amandava.mp3",
+      "source": "https://xeno-canto.org/698326",
+      "bytes": 2345321
+    }
+  },
+  "amandava-subflava": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/amandava-subflava.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Male_Zebra_Waxbill_(Sporaeginthus_subflavus).jpg",
+      "bytes": 34428
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/amandava-subflava.mp3",
+      "source": "https://xeno-canto.org/872300",
+      "bytes": 363740
+    }
+  },
+  "amazona-aestiva": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/amazona-aestiva.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Amazona_aestiva_-_Maroparque_01.jpg",
+      "bytes": 334348
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/amazona-aestiva.mp3",
+      "source": "https://xeno-canto.org/554117",
+      "bytes": 102260
+    }
+  },
+  "bolborhynchus-lineola-lineola": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/bolborhynchus-lineola-lineola.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Barred_Parakeet,_Oxapampa,_Pasco,_Peru_1.jpg",
+      "bytes": 29220
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/bolborhynchus-lineola-lineola.wav",
+      "source": "https://xeno-canto.org/1060162",
+      "bytes": 773376
+    }
+  },
+  "cacatua-alba": {
+    "image": {
+      "status": "cached",
+      "path": "/images/birds/cacatua-alba.webp",
+      "source": "/images/birds/cacatua-alba.webp"
+    },
+    "audio": {
+      "status": "restricted",
+      "note": "XC download unavailable — keep remote embed"
+    }
+  },
+  "cacatua-galerita": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/cacatua-galerita.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Sulphur-crested_cockatoo_(Cacatua_galerita_galerita)_Sydney.jpg",
+      "bytes": 275368
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/cacatua-galerita.mp3",
+      "source": "https://xeno-canto.org/1177819",
+      "bytes": 523538
+    }
+  },
+  "callipepla-californica": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/callipepla-californica.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Valley_quail_myatt_(5489811278)_(cropped).jpg",
+      "bytes": 117264
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/callipepla-californica.mp3",
+      "source": "https://xeno-canto.org/570687",
+      "bytes": 843167
+    }
+  },
+  "colinus-virginianus": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/colinus-virginianus.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Northern_Bobwhite_female_RWD.jpg",
+      "bytes": 239112
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/colinus-virginianus.mp3",
+      "source": "https://xeno-canto.org/919215",
+      "bytes": 1462292
+    }
+  },
+  "columba-livia": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/columba-livia.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Rock_dove_(Columba_livia).jpg",
+      "bytes": 180300
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/columba-livia.mp3",
+      "source": "https://xeno-canto.org/977797",
+      "bytes": 560995
+    }
+  },
+  "coturnix-chinensis": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/coturnix-chinensis.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Chinese_Painted_Quail_RWD12a.jpg",
+      "bytes": 142874
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/coturnix-chinensis.mp3",
+      "source": "https://xeno-canto.org/1076265",
+      "bytes": 2378451
+    }
+  },
+  "cyanoramphus-auriceps": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/cyanoramphus-auriceps.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Yellow-crowned_parakeet_-_K%C4%81k%C4%81riki.jpg",
+      "bytes": 199366
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/cyanoramphus-auriceps.mp3",
+      "source": "https://xeno-canto.org/526622",
+      "bytes": 311120
+    }
+  },
+  "cyanoramphus-novaezelandiae": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/cyanoramphus-novaezelandiae.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Kakariki,_the_red-crowned_parakeet.(Cyanoramphus_novaezelandiae)_(9118899767).jpg",
+      "bytes": 395574
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/cyanoramphus-novaezelandiae.wav",
+      "source": "https://xeno-canto.org/956617",
+      "bytes": 32248640
+    }
+  },
+  "eolophus-roseicapilla": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/eolophus-roseicapilla.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Eolophus_roseicapilla_-_a_pair_of_Galahs_-Australia.jpg",
+      "bytes": 329896
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/eolophus-roseicapilla.mp3",
+      "source": "https://xeno-canto.org/1181679",
+      "bytes": 5307882
+    }
+  },
+  "erythrura-gouldiae": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/erythrura-gouldiae.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Chloebia_gouldiae,_Elsey,_Northern_Territory,_Australia_1.jpg",
+      "bytes": 133514
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/erythrura-gouldiae.wav",
+      "source": "https://xeno-canto.org/960939",
+      "bytes": 1847374
+    }
+  },
+  "erythrura-psittacea": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/erythrura-psittacea.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Red-throated_Parrotfinch_0A2A5145.jpg",
+      "bytes": 154332
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/erythrura-psittacea.mp3",
+      "source": "https://xeno-canto.org/40164",
+      "bytes": 435416
+    }
+  },
+  "erythrura-trichroa": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/erythrura-trichroa.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Blue-faced_Parrot-finch_Pengo.jpg",
+      "bytes": 111046
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/erythrura-trichroa.wav",
+      "source": "https://xeno-canto.org/1003825",
+      "bytes": 31495708
+    }
+  },
+  "estrilda-astrild": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/estrilda-astrild.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Common_waxbill_(26408344029).jpg",
+      "bytes": 97110
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/estrilda-astrild.wav",
+      "source": "https://xeno-canto.org/1155179",
+      "bytes": 3485840
+    }
+  },
+  "estrilda-caerulescens": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/estrilda-caerulescens.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Lavender_waxbill_(Estrilda_caerulescens).jpg",
+      "bytes": 223520
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/estrilda-caerulescens.mp3",
+      "source": "https://xeno-canto.org/1081214",
+      "bytes": 669700
+    }
+  },
+  "estrilda-melpoda": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/estrilda-melpoda.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Orange-cheeked_Waxbill.jpg",
+      "bytes": 43464
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/estrilda-melpoda.mp3",
+      "source": "https://xeno-canto.org/1081191",
+      "bytes": 597895
+    }
+  },
+  "estrilda-troglodytes": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/estrilda-troglodytes.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Black-rumped_Waxbill_-_Gambia_(31806634704).jpg",
+      "bytes": 114704
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/estrilda-troglodytes.wav",
+      "source": "https://xeno-canto.org/1154517",
+      "bytes": 6370488
+    }
+  },
+  "euplectes-orix": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/euplectes-orix.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Southern_Red_Bishop_(Euplectes_orix)_male_..._(52656476541).jpg",
+      "bytes": 101968
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/euplectes-orix.wav",
+      "source": "https://xeno-canto.org/1183523",
+      "bytes": 7159656
+    }
+  },
+  "forpus-coelestis": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/forpus-coelestis.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Forpus_coelestis_(normal_and_American_white)_-AFA_show_bird-8a.jpg",
+      "bytes": 391700
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/forpus-coelestis.mp3",
+      "source": "https://xeno-canto.org/512761",
+      "bytes": 846571
+    }
+  },
+  "gallus-gallus-domesticus": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/gallus-gallus-domesticus.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Rooster_and_Hen.jpg",
+      "bytes": 452940
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/gallus-gallus-domesticus.wav",
+      "source": "https://xeno-canto.org/1181554",
+      "bytes": 483556
+    }
+  },
+  "geopelia-cuneata": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/geopelia-cuneata.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Geopelia_cuneata.JPG",
+      "bytes": 62860
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/geopelia-cuneata.mp3",
+      "source": "https://xeno-canto.org/165147",
+      "bytes": 184157
+    }
+  },
+  "geopelia-striata": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/geopelia-striata.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Burung_Merbuk.JPG",
+      "bytes": 377372
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/geopelia-striata.wav",
+      "source": "https://xeno-canto.org/1081912",
+      "bytes": 16483100
+    }
+  },
+  "gracula-religiosa": {
+    "image": {
+      "status": "cached",
+      "path": "/images/birds/gracula-religiosa.webp",
+      "source": "/images/birds/gracula-religiosa.webp"
+    },
+    "audio": {
+      "status": "restricted",
+      "note": "XC download unavailable — keep remote embed"
+    }
+  },
+  "lagonosticta-larvata-vinacea": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/lagonosticta-larvata-vinacea.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Vinaceous_Firefinch.jpg",
+      "bytes": 91908
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/lagonosticta-larvata-vinacea.mp3",
+      "source": "https://xeno-canto.org/405752",
+      "bytes": 642225
+    }
+  },
+  "lagonosticta-senegala": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/lagonosticta-senegala.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Red-billed_firefinch_(Lagonosticta_senegala_senegala)_male.jpg",
+      "bytes": 108016
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/lagonosticta-senegala.wav",
+      "source": "https://xeno-canto.org/1145629",
+      "bytes": 7754588
+    }
+  },
+  "lonchura-cantans": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/lonchura-cantans.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Silberschn%C3%A4belchen_(Lonchura_cantans).JPG",
+      "bytes": 59584
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/lonchura-cantans.mp3",
+      "source": "https://xeno-canto.org/1163939",
+      "bytes": 318634
+    }
+  },
+  "lonchura-cucullata": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/lonchura-cucullata.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Bronze_mannikin_(Lonchura_cucullata_cucullata).jpg",
+      "bytes": 131650
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/lonchura-cucullata.wav",
+      "source": "https://xeno-canto.org/1165783",
+      "bytes": 1911900
+    }
+  },
+  "lonchura-maja": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/lonchura-maja.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Lonchura_maja_by_Michael_MK_Khor.jpg",
+      "bytes": 229686
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/lonchura-maja.mp3",
+      "source": "https://xeno-canto.org/1106789",
+      "bytes": 147503
+    }
+  },
+  "lonchura-malabarica": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/lonchura-malabarica.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Indian_silverbill-_Euodice_malabarica.jpg",
+      "bytes": 162742
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/lonchura-malabarica.wav",
+      "source": "https://xeno-canto.org/1182208",
+      "bytes": 10911164
+    }
+  },
+  "lonchura-malacca-atricapilla": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/lonchura-malacca-atricapilla.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Bondol_rawa_(Lonchura_atricapilla).jpg",
+      "bytes": 109778
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/lonchura-malacca-atricapilla.mp3",
+      "source": "https://xeno-canto.org/1141729",
+      "bytes": 500755
+    }
+  },
+  "lonchura-malacca-malacca": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/lonchura-malacca-malacca.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Tri_colored_munia.jpg",
+      "bytes": 125200
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/lonchura-malacca-malacca.wav",
+      "source": "https://xeno-canto.org/1160217",
+      "bytes": 488364
+    }
+  },
+  "lonchura-oryzivora": {
+    "image": {
+      "status": "cached",
+      "path": "/images/birds/lonchura-oryzivora.webp",
+      "source": "/images/birds/lonchura-oryzivora.webp"
+    },
+    "audio": {
+      "status": "restricted",
+      "note": "XC download unavailable — keep remote embed"
+    }
+  },
+  "lonchura-punctulata": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/lonchura-punctulata.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Scaly-breasted_munia_or_spotted_munia_(Lonchura_punctulata)_at_Dehradun,_Uttarakhand_05.jpg",
+      "bytes": 56506
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/lonchura-punctulata.wav",
+      "source": "https://xeno-canto.org/1069340",
+      "bytes": 2984878
+    }
+  },
+  "lonchura-striata-domestiqua": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/lonchura-striata-domestiqua.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Society_Finch.jpg",
+      "bytes": 430554
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/lonchura-striata-domestiqua.wav",
+      "source": "https://xeno-canto.org/1160466",
+      "bytes": 2885648
+    }
+  },
+  "lonchura-striata": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/lonchura-striata.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:White-rumped_Munia_(Lonchura_striata)_(32024349690).jpg",
+      "bytes": 142464
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/lonchura-striata.wav",
+      "source": "https://xeno-canto.org/1160466",
+      "bytes": 2885648
+    }
+  },
+  "melopsittacus-undulatus": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/melopsittacus-undulatus.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Budgerigars_at_water,_Karratha,_Western_Aaustralia_(7857257686).jpg",
+      "bytes": 178460
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/melopsittacus-undulatus.mp3",
+      "source": "https://xeno-canto.org/940888",
+      "bytes": 382035
+    }
+  },
+  "myiopsitta-monachus-monachus": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/myiopsitta-monachus-monachus.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Myiopsitta_monachus_-Gran_Canaria,_Canary_Islands,_Spain-8.jpg",
+      "bytes": 187250
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/myiopsitta-monachus-monachus.wav",
+      "source": "https://xeno-canto.org/1143450",
+      "bytes": 1934544
+    }
+  },
+  "neochmia-modesta": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/neochmia-modesta.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Plum-headed_Finch-Neochmia_modesta.jpg",
+      "bytes": 73700
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/neochmia-modesta.mp3",
+      "source": "https://xeno-canto.org/605889",
+      "bytes": 102225
+    }
+  },
+  "neochmia-ruficauda": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/neochmia-ruficauda.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Star_Finch_(Neochmia_ruficauda_subclarescens)_Wyndham_WA.jpg",
+      "bytes": 63248
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/neochmia-ruficauda.mp3",
+      "source": "https://xeno-canto.org/436594",
+      "bytes": 473152
+    }
+  },
+  "neophema-elegans": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/neophema-elegans.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Elegant_Parrot_(Neophema_elegans)_(8079612251).jpg",
+      "bytes": 163590
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/neophema-elegans.wav",
+      "source": "https://xeno-canto.org/755583",
+      "bytes": 1894506
+    }
+  },
+  "neophema-pulchella": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/neophema-pulchella.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Neophema_pulchella_-Twycross_Zoo,_Leicestershire,_England-8a.jpg",
+      "bytes": 49938
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/neophema-pulchella.mp3",
+      "source": "https://xeno-canto.org/328216",
+      "bytes": 639646
+    }
+  },
+  "neophema-splendida": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/neophema-splendida.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Scarlet_Chested_Parakeet.jpg",
+      "bytes": 71820
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/neophema-splendida.wav",
+      "source": "https://xeno-canto.org/924874",
+      "bytes": 759076
+    }
+  },
+  "neopsephotus-bourkii": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/neopsephotus-bourkii.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Bourkes_Parrot_(Neopsephotus_bourkii)9.jpg",
+      "bytes": 23722
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/neopsephotus-bourkii.mp3",
+      "source": "https://xeno-canto.org/681342",
+      "bytes": 736098
+    }
+  },
+  "nymphicus-hollandicus": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/nymphicus-hollandicus.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Cockatiel_Parakeet_(Nymphicus_hollandicus)9.jpg",
+      "bytes": 55702
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/nymphicus-hollandicus.mp3",
+      "source": "https://xeno-canto.org/1163859",
+      "bytes": 956692
+    }
+  },
+  "oena-capensis": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/oena-capensis.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Oena_capensis_-Etosha_National_Park,_Namibia-8.jpg",
+      "bytes": 133152
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/oena-capensis.wav",
+      "source": "https://xeno-canto.org/951388",
+      "bytes": 23955542
+    }
+  },
+  "passer-luteus": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/passer-luteus.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Passer_luteus_-_Barry_Stewart_-_661030168.jpeg",
+      "bytes": 116844
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/passer-luteus.wav",
+      "source": "https://xeno-canto.org/985452",
+      "bytes": 10358216
+    }
+  },
+  "platycercus-adscitus": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/platycercus-adscitus.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Pale-headed_Rosella_-_Herbaton.jpg",
+      "bytes": 325166
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/platycercus-adscitus.mp3",
+      "source": "https://xeno-canto.org/593967",
+      "bytes": 203605
+    }
+  },
+  "platycercus-elegans": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/platycercus-elegans.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Platycercus_elegans_-Blue_Mountains_-side-8a.jpg",
+      "bytes": 225530
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/platycercus-elegans.mp3",
+      "source": "https://xeno-canto.org/1173944",
+      "bytes": 1260017
+    }
+  },
+  "platycercus-eximius-eximius": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/platycercus-eximius-eximius.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Female_Eastern_Rosella_(Platycercus_eximius).jpg",
+      "bytes": 125356
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/platycercus-eximius-eximius.mp3",
+      "source": "https://xeno-canto.org/1173636",
+      "bytes": 1053642
+    }
+  },
+  "platycercus-icterotis": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/platycercus-icterotis.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Western_Rosella_(Platycercus_icterotis)_-eating_bread.jpg",
+      "bytes": 169790
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/platycercus-icterotis.mp3",
+      "source": "https://xeno-canto.org/382800",
+      "bytes": 428591
+    }
+  },
+  "ploceus-cucullatus": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/ploceus-cucullatus.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Village_weaver_(Ploceus_cucullatus_cucullatus)_female_and_male.jpg",
+      "bytes": 173402
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/ploceus-cucullatus.mp3",
+      "source": "https://xeno-canto.org/1080073",
+      "bytes": 1507824
+    }
+  },
+  "poephila-acuticauda": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/poephila-acuticauda.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Poephila_acuticauda_-Wulagi,_Darwin,_Australia-8a.jpg",
+      "bytes": 65966
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/poephila-acuticauda.mp3",
+      "source": "https://xeno-canto.org/668759",
+      "bytes": 285047
+    }
+  },
+  "poicephalus-senegalus": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/poicephalus-senegalus.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Senegal_Parrots_-two_on_branch_in_Africa.jpg",
+      "bytes": 53592
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/poicephalus-senegalus.mp3",
+      "source": "https://xeno-canto.org/1093291",
+      "bytes": 998947
+    }
+  },
+  "polytelis-alexandrae": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/polytelis-alexandrae.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Polytelis_alexandrae_-Australia-8.jpg",
+      "bytes": 218778
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/polytelis-alexandrae.mp3",
+      "source": "https://xeno-canto.org/488068",
+      "bytes": 8762352
+    }
+  },
+  "polytelis-anthopeplus": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/polytelis-anthopeplus.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Polytelis_anthopeplus_-Wyperfeld_National_Park_-Australia-8.jpg",
+      "bytes": 70992
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/polytelis-anthopeplus.mp3",
+      "source": "https://xeno-canto.org/638864",
+      "bytes": 328356
+    }
+  },
+  "psephotus-haematonotus-haematonotus": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/psephotus-haematonotus-haematonotus.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Red_Rumped_Parrot_Males.jpg",
+      "bytes": 82390
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/psephotus-haematonotus-haematonotus.mp3",
+      "source": "https://xeno-canto.org/692681",
+      "bytes": 3829013
+    }
+  },
+  "psittacula-cyanocephala": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/psittacula-cyanocephala.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Plum-headed_Parakeet_(Psittacula_cyanocephala)_in_Hyderabad_W_IMG_4536.jpg",
+      "bytes": 73584
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/psittacula-cyanocephala.mp3",
+      "source": "https://xeno-canto.org/809699",
+      "bytes": 1542742
+    }
+  },
+  "psittacula-eupatria": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/psittacula-eupatria.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:A_Male_with_another_-_Alexandrine_Parakeets_(51005695606).jpg",
+      "bytes": 49190
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/psittacula-eupatria.wav",
+      "source": "https://xeno-canto.org/1182205",
+      "bytes": 19586000
+    }
+  },
+  "psittacula-krameri-manillensis": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/psittacula-krameri-manillensis.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Indian_Ringneck_parrot._(Psittacula_krameri),_(9779826796).jpg",
+      "bytes": 328670
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/psittacula-krameri-manillensis.wav",
+      "source": "https://xeno-canto.org/1180800",
+      "bytes": 5217734
+    }
+  },
+  "psittacus-erithacus": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/psittacus-erithacus.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:African-Grey-Parrot.jpg",
+      "bytes": 76412
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/psittacus-erithacus.wav",
+      "source": "https://xeno-canto.org/1137653",
+      "bytes": 23037918
+    }
+  },
+  "pyrrhura-molinae": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/pyrrhura-molinae.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Green_Cheecked_Conure.jpg",
+      "bytes": 155886
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/pyrrhura-molinae.mp3",
+      "source": "https://xeno-canto.org/1180569",
+      "bytes": 2934601
+    }
+  },
+  "serinus-canaria": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/serinus-canaria.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Serinus_canaria_-_Canary_-_Wild.jpg",
+      "bytes": 66398
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/serinus-canaria.mp3",
+      "source": "https://xeno-canto.org/1156694",
+      "bytes": 262580
+    }
+  },
+  "serinus-leucopygius": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/serinus-leucopygius.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:White-rumped_Seedeater_-_Gambia_(32270398890).jpg",
+      "bytes": 192392
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/serinus-leucopygius.mp3",
+      "source": "https://xeno-canto.org/469496",
+      "bytes": 1027038
+    }
+  },
+  "serinus-mozambicus": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/serinus-mozambicus.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Yellow-fronted_canary_(Crithagra_mozambica_granti)_male_Kruger.jpg",
+      "bytes": 120572
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/serinus-mozambicus.mp3",
+      "source": "https://xeno-canto.org/1140446",
+      "bytes": 296435
+    }
+  },
+  "stagonopleura-guttata": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/stagonopleura-guttata.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Stagonopleura_guttata_1_-_Glen_Alice.jpg",
+      "bytes": 111640
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/stagonopleura-guttata.mp3",
+      "source": "https://xeno-canto.org/576505",
+      "bytes": 1399425
+    }
+  },
+  "streptopelia-risoria": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/streptopelia-risoria.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Barbary_Dove_(Streptopelia_risoria)_RWD.jpg",
+      "bytes": 146402
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/streptopelia-risoria.mp3",
+      "source": "https://xeno-canto.org/1163976",
+      "bytes": 238964
+    }
+  },
+  "streptopelia-senegalensis": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/streptopelia-senegalensis.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Spilopelia_senegalensis_-_Laughing_Dove_-_K%C3%BC%C3%A7%C3%BCk_kumru_02.JPG",
+      "bytes": 162990
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/streptopelia-senegalensis.wav",
+      "source": "https://xeno-canto.org/1183962",
+      "bytes": 16410266
+    }
+  },
+  "taeniopygia-bichenovii": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/taeniopygia-bichenovii.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Taeniopygia_bichenovii_2_-_Glen_Davis.jpg",
+      "bytes": 121394
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/taeniopygia-bichenovii.mp3",
+      "source": "https://xeno-canto.org/816265",
+      "bytes": 298252
+    }
+  },
+  "taeniopygia-guttata-castanotis": {
+    "image": {
+      "status": "cached",
+      "path": "/images/birds/taeniopygia-guttata-castanotis.webp",
+      "source": "/images/birds/taeniopygia-guttata-castanotis.webp"
+    },
+    "audio": {
+      "status": "restricted",
+      "note": "XC download unavailable — keep remote embed"
+    }
+  },
+  "uraeginthus-bengalus": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/uraeginthus-bengalus.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Red-cheeked_cordon-bleu_(Uraeginthus_bengalus_bengalus)_male.jpg",
+      "bytes": 259376
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/uraeginthus-bengalus.mp3",
+      "source": "https://xeno-canto.org/405791",
+      "bytes": 4940774
+    }
+  },
+  "uraeginthus-cyanocephalus": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/uraeginthus-cyanocephalus.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Blue-capped_Cordon-bleu,_Ngorongoro.jpg",
+      "bytes": 151232
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/uraeginthus-cyanocephalus.wav",
+      "source": "https://xeno-canto.org/1030357",
+      "bytes": 2754710
+    }
+  },
+  "vidua-chalybeata": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/vidua-chalybeata.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Village_indigobird_(Vidua_chalybeata_okavangoensis)_male_Zimbabwe.jpg",
+      "bytes": 89468
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/vidua-chalybeata.wav",
+      "source": "https://xeno-canto.org/982686",
+      "bytes": 3426752
+    }
+  },
+  "vidua-macroura": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/vidua-macroura.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Pin-tailed_whydah_(Vidua_macroura)_breeding_male.jpg",
+      "bytes": 151790
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/vidua-macroura.wav",
+      "source": "https://xeno-canto.org/1183545",
+      "bytes": 2009146
+    }
+  },
+  "vidua-orientalis": {
+    "image": {
+      "status": "ok",
+      "path": "/images/birds/vidua-orientalis.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Sahel_Paradise_Whydah.jpg",
+      "bytes": 32038
+    },
+    "audio": {
+      "status": "ok",
+      "path": "/audio/birds/vidua-orientalis.mp3",
+      "source": "https://xeno-canto.org/436008",
+      "bytes": 1655457
+    }
+  }
+}

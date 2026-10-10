@@ -25,6 +25,8 @@ flowchart LR
 
 Générateur : [`scripts/build-birds.mjs`](../../scripts/build-birds.mjs) — identité, points de cours, médias, `wildRange`, sources, sections biologie sourcées.
 
+Médias locaux : `npm run media:fetch` (Commons → WebP, Xeno-canto → MP3) puis `npm run data:birds`. Manifest : [`public/media-manifest.json`](../../public/media-manifest.json).
+
 Prompts visuels : [`scripts/build-visual-prompts.mjs`](../../scripts/build-visual-prompts.mjs) → [`documentation/ornithologie/prompts-visuels/`](../../ornithologie/prompts-visuels/) (`npm run data:prompts`).
 
 Cartes pédagogiques : [`public/maps/hemisphere-*.svg`](../../public/maps/) + composant `WildRangeMap` (régions uniquement si documentées).
