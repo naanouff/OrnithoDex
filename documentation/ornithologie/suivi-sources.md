@@ -69,12 +69,12 @@ Plan : [plan-sources.md](../projet/plan-sources.md) · Sprints : [01](../projet/
 | lagonosticta-larvata-vinacea | ok | ok | ok | ok | ok | na | ok | na | ok | attente | BirdLife: L. vinacea |
 | lonchura-striata | ok | ok | ok | ok | ok | na | ok | na | ok | attente | |
 | lonchura-striata-domestiqua | ok | ok | ok | ok | ok | na | ok | na | ok | attente | forme domestique ; audio sauvage |
-| lonchura-malacca-malacca | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
-| lonchura-malacca-atricapilla | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
-| lonchura-cantans | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
-| lonchura-cucullata | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
-| lonchura-maja | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
-| lonchura-malabarica | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
+| lonchura-malacca-malacca | ok | ok | ok | ok | ok | na | ok | na | ok | attente | BirdLife: L. malacca |
+| lonchura-malacca-atricapilla | ok | ok | ok | ok | ok | na | ok | na | ok | attente | BirdLife: L. atricapilla |
+| lonchura-cantans | ok | ok | ok | ok | ok | na | ok | na | ok | attente | BirdLife: Euodice cantans |
+| lonchura-cucullata | ok | ok | ok | ok | ok | na | ok | na | ok | attente | BirdLife: Spermestes cucullata |
+| lonchura-maja | ok | ok | ok | ok | ok | na | ok | na | ok | attente | |
+| lonchura-malabarica | ok | ok | ok | ok | ok | na | ok | na | ok | attente | BirdLife: Euodice malabarica |
 | lonchura-punctulata | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
 | lonchura-oryzivora | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
 | neochmia-modesta | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |

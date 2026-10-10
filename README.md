@@ -186,3 +186,15 @@ Fiches espèce BirdLife / ADW / Avibase (sprints 01–07) : détail dans chaque 
 | `lonchura-striata` | Audio | Nishant Bhagwat | CC BY-NC-ND 4.0 | https://xeno-canto.org/1160466 |
 | `lonchura-striata-domestiqua` | Image | Anil Kumar | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Society_Finch.jpg |
 | `lonchura-striata-domestiqua` | Audio | Nishant Bhagwat | CC BY-NC-ND 4.0 | https://xeno-canto.org/1160466 |
+| `lonchura-malacca-malacca` | Image | Photosynthesis85 | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Tri_colored_munia.jpg |
+| `lonchura-malacca-malacca` | Audio | Nishant Bhagwat | CC BY-NC-ND 4.0 | https://xeno-canto.org/1160217 |
+| `lonchura-malacca-atricapilla` | Image | Batin E. Tuwuilu | CC BY-SA 3.0 | https://commons.wikimedia.org/wiki/File:Bondol_rawa_(Lonchura_atricapilla).jpg |
+| `lonchura-malacca-atricapilla` | Audio | Joan Theng | CC BY-NC-SA 4.0 | https://xeno-canto.org/1141729 |
+| `lonchura-cantans` | Image | Edward Cwik | CC BY-SA 3.0 | https://commons.wikimedia.org/wiki/File:Silberschn%C3%A4belchen_(Lonchura_cantans).JPG |
+| `lonchura-cantans` | Audio | Zsombor Károlyi | CC BY-NC-SA 4.0 | https://xeno-canto.org/1163939 |
+| `lonchura-cucullata` | Image | Charles J. Sharp | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Bronze_mannikin_(Lonchura_cucullata_cucullata).jpg |
+| `lonchura-cucullata` | Audio | Jonathan Onongo | CC BY-NC-SA 4.0 | https://xeno-canto.org/1165783 |
+| `lonchura-maja` | Image | Michael MK Khor | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Lonchura_maja_by_Michael_MK_Khor.jpg |
+| `lonchura-maja` | Audio | Joan Theng | CC BY-NC-SA 4.0 | https://xeno-canto.org/1106789 |
+| `lonchura-malabarica` | Image | Anagha devi | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Indian_silverbill-_Euodice_malabarica.jpg |
+| `lonchura-malabarica` | Audio | David Darrell-Lambert | CC BY-NC-SA 4.0 | https://xeno-canto.org/1182208 |
