@@ -93,13 +93,25 @@ export function BirdSheetPage() {
           <h2 id="audio-title" className="font-display text-xl font-bold text-navy">
             Écoute
           </h2>
+          {bird.audio[0].startsWith('/audio/') ? (
+            <audio
+              controls
+              preload="metadata"
+              className="w-full rounded-[var(--radius-sm)] border-[3px] border-navy bg-white p-2"
+              src={bird.audio[0]}
+            >
+              Lecteur audio non supporté
+            </audio>
+          ) : null}
           <a
-            href={bird.audio[0]}
+            href={bird.audioRemote?.[0] ?? bird.audio[0]}
             target="_blank"
             rel="noreferrer"
             className="font-display inline-flex min-h-12 w-full items-center justify-center rounded-[var(--radius-sm)] border-[3px] border-navy bg-gradient-to-b from-sky-soft to-sky px-4 text-base font-semibold text-navy-deep shadow-[0_4px_0_rgb(27_54_93/0.14)]"
           >
-            Ouvrir l’enregistrement
+            {bird.audio[0].startsWith('/audio/')
+              ? 'Crédit / page Xeno-canto'
+              : 'Ouvrir l’enregistrement'}
           </a>
         </section>
       ) : null}
