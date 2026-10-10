@@ -4,6 +4,9 @@ Site pédagogique **open source** pour apprendre les oiseaux de cage et de voli�
 
 **Nom de code** : OrnithoDex — utilisé pour le dépôt GitHub et le projet Vercel.
 
+- Dépôt : [github.com/naanouff/OrnithoDex](https://github.com/naanouff/OrnithoDex) (public)
+- Branches : `main` (prod), `develop` (intégration) — protégées (PR obligatoire)
+
 - Collection type cartes + **fiche du naturaliste**
 - Quiz (photo → nom, chant → espèce)
 - Optimisé **smartphone portrait**
