@@ -63,12 +63,12 @@ Plan : [plan-sources.md](../projet/plan-sources.md) · Sprints : [01](../projet/
 | erythrura-psittacea | ok | ok | ok | ok | ok | na | ok | na | ok | attente | Endémique NC |
 | estrilda-astrild | ok | ok | ok | ok | ok | ok | ok | ok | ok | attente | ADW |
 | estrilda-caerulescens | ok | ok | ok | ok | ok | na | ok | na | ok | attente | BirdLife: Glaucestrilda coerulescens |
-| estrilda-melpoda | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
-| estrilda-troglodytes | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
-| lagonosticta-senegala | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
-| lagonosticta-larvata-vinacea | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
-| lonchura-striata | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
-| lonchura-striata-domestiqua | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
+| estrilda-melpoda | ok | ok | ok | ok | ok | na | ok | na | ok | attente | |
+| estrilda-troglodytes | ok | ok | ok | ok | ok | na | ok | na | ok | attente | |
+| lagonosticta-senegala | ok | ok | ok | ok | ok | na | ok | na | ok | attente | |
+| lagonosticta-larvata-vinacea | ok | ok | ok | ok | ok | na | ok | na | ok | attente | BirdLife: L. vinacea |
+| lonchura-striata | ok | ok | ok | ok | ok | na | ok | na | ok | attente | |
+| lonchura-striata-domestiqua | ok | ok | ok | ok | ok | na | ok | na | ok | attente | forme domestique ; audio sauvage |
 | lonchura-malacca-malacca | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
 | lonchura-malacca-atricapilla | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
 | lonchura-cantans | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |

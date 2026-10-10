@@ -174,3 +174,15 @@ Fiches espèce BirdLife / ADW / Avibase (sprints 01–07) : détail dans chaque 
 | `estrilda-astrild` | Audio | Walter Wallner | CC BY-NC-SA 4.0 | https://xeno-canto.org/1155179 |
 | `estrilda-caerulescens` | Image | Charles J. Sharp | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Lavender_waxbill_(Estrilda_caerulescens).jpg |
 | `estrilda-caerulescens` | Audio | Peter Boesman | CC BY-NC-ND 4.0 | https://xeno-canto.org/1081214 |
+| `estrilda-melpoda` | Image | Pearly85 | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Orange-cheeked_Waxbill.jpg |
+| `estrilda-melpoda` | Audio | Peter Boesman | CC BY-NC-ND 4.0 | https://xeno-canto.org/1081191 |
+| `estrilda-troglodytes` | Image | Francesco Veronesi | CC BY-SA 2.0 | https://commons.wikimedia.org/wiki/File:Black-rumped_Waxbill_-_Gambia_(31806634704).jpg |
+| `estrilda-troglodytes` | Audio | Sébastien Birard | CC BY-NC-SA 4.0 | https://xeno-canto.org/1154517 |
+| `lagonosticta-senegala` | Image | Charles J. Sharp | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Red-billed_firefinch_(Lagonosticta_senegala_senegala)_male.jpg |
+| `lagonosticta-senegala` | Audio | African Bioacoustics Community | CC BY-NC-SA 4.0 | https://xeno-canto.org/1145629 |
+| `lagonosticta-larvata-vinacea` | Image | Francesco Veronesi | CC BY-SA 2.0 | https://commons.wikimedia.org/wiki/File:Vinaceous_Firefinch.jpg |
+| `lagonosticta-larvata-vinacea` | Audio | Bram Piot | CC BY-NC-SA 4.0 | https://xeno-canto.org/405752 |
+| `lonchura-striata` | Image | Rison Thumboor | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:White-rumped_Munia_(Lonchura_striata)_(32024349690).jpg |
+| `lonchura-striata` | Audio | Nishant Bhagwat | CC BY-NC-ND 4.0 | https://xeno-canto.org/1160466 |
+| `lonchura-striata-domestiqua` | Image | Anil Kumar | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Society_Finch.jpg |
+| `lonchura-striata-domestiqua` | Audio | Nishant Bhagwat | CC BY-NC-ND 4.0 | https://xeno-canto.org/1160466 |
