@@ -153,8 +153,17 @@ Au moins 2–3 motions intentionnelles en V1 :
 
 ## Maquettes (Livrable B)
 
-À produire après cette charte — portraits ~390×844 sous [`maquettes/`](maquettes/) : Accueil, Collection, Fiche, Quiz photo.  
-Brouillon local (gitignored) : `documentation/mocup/accueil-v0.html`.
+Portraits ~390×844 sous [`maquettes/`](maquettes/) :
+
+| Écran | Capture | Prototype |
+|-------|---------|-----------|
+| Accueil | [accueil.png](maquettes/accueil.png) | [prototype.html](maquettes/prototype.html)#accueil |
+| Collection | [collection.png](maquettes/collection.png) | …#collection |
+| Fiche | [fiche.png](maquettes/fiche.png) | ouvrir une carte |
+| Quiz photo | [quiz.png](maquettes/quiz.png) | …#entrainement → Photo → nom |
+
+Prototype interactif : [`maquettes/README.md`](maquettes/README.md).  
+Logo dans les captures : **JPG** versionné (SVG en cours d’amélioration — tokens / DA inchangés).
 
 ## Documents liés
 
