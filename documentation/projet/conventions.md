@@ -26,6 +26,7 @@ Le dossier local peut rester `ornithologie` ; le remote et Vercel utilisent **Or
 2. Intégration vers `develop` **uniquement par Pull Request**.
 3. Naming features : `feature/<sujet-court>` (ex. `feature/sprint-02-columbiformes`, `feature/gitflow-workflow`).
 4. Protections `main` / `develop` : PR obligatoire, status checks (CI) quand disponibles, pas de push direct (pas de bypass admin en routine).
+5. **Suppression automatique des branches** après merge de PR (`Settings → General → Automatically delete head branches`) — activé sur le dépôt. Les branches `feature/*` / `release/*` / `hotfix/*` mergées disparaissent du remote ; purger le local avec `git fetch --prune` et `git branch -d <branche>`.
 
 Publication prod : tag `vX.Y.Z` + **GitHub Release** → déploiement Vercel.
 
