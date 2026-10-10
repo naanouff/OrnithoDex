@@ -13,6 +13,7 @@
 | [sprint-04-sources.md](sprint-04-sources.md) | **Sprint 04** — Agapornis (5) → `complete` |
 | [sprint-05-sources.md](sprint-05-sources.md) | **Sprint 05** — Psittacidés A (6) → `complete` |
 | [sprint-06-sources.md](sprint-06-sources.md) | **Sprint 06** — Psittacidés B (6) → `complete` |
+| [sprint-07-sources.md](sprint-07-sources.md) | **Sprint 07** — Psittacidés C (6) → `complete` |
 | [vision.md](vision.md) | Problème, solution, public, principes |
 | [cahier-des-charges.md](cahier-des-charges.md) | Spécifications fonctionnelles |
 | [architecture.md](architecture.md) | Stack, structure, flux, déploiement |

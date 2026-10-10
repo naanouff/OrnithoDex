@@ -33,12 +33,12 @@ Générés le 2026-10-10. Lots en `complete` (sprint 03a) : Galliformes, Anséri
 | [neophema-pulchella](neophema-pulchella.md) | Perruche d'Edwards ou turquoisine | complete |
 | [neophema-splendida](neophema-splendida.md) | Perruche splendide | complete |
 | [platycercus-eximius-eximius](platycercus-eximius-eximius.md) | Perruche omnicolore | complete |
-| [platycercus-elegans](platycercus-elegans.md) | Perruche de Pennant | liste_seule |
-| [platycercus-icterotis](platycercus-icterotis.md) | Perruche de Stanley | liste_seule |
-| [platycercus-adscitus](platycercus-adscitus.md) | Perruche palliceps | liste_seule |
-| [poicephalus-senegalus](poicephalus-senegalus.md) | Youyou du Sénégal | liste_seule |
-| [polytelis-alexandrae](polytelis-alexandrae.md) | Perruche princesse de Galles ou à calotte bleue | liste_seule |
-| [polytelis-anthopeplus](polytelis-anthopeplus.md) | Perruche mélanure | liste_seule |
+| [platycercus-elegans](platycercus-elegans.md) | Perruche de Pennant | complete |
+| [platycercus-icterotis](platycercus-icterotis.md) | Perruche de Stanley | complete |
+| [platycercus-adscitus](platycercus-adscitus.md) | Perruche palliceps | complete |
+| [poicephalus-senegalus](poicephalus-senegalus.md) | Youyou du Sénégal | complete |
+| [polytelis-alexandrae](polytelis-alexandrae.md) | Perruche princesse de Galles ou à calotte bleue | complete |
+| [polytelis-anthopeplus](polytelis-anthopeplus.md) | Perruche mélanure | complete |
 | [psephotus-haematonotus-haematonotus](psephotus-haematonotus-haematonotus.md) | Perruche à croupion rouge | liste_seule |
 | [psittacula-krameri-manillensis](psittacula-krameri-manillensis.md) | Perruche à collier d'Asie | liste_seule |
 | [psittacula-cyanocephala](psittacula-cyanocephala.md) | Perruche tête de prune | liste_seule |
