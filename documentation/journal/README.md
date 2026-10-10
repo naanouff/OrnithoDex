@@ -42,5 +42,6 @@ Chronique courte des sessions de travail : décisions, avancement, blocages.
 | 2026-10-10 | [2026-10-10-30.md](2026-10-10-30.md) — Pédagogie lot 04 Psittacidés C (6) |
 | 2026-10-10 | [2026-10-10-31.md](2026-10-10-31.md) — Pédagogie lot 05 Psittacidés D / Cacatuides (6) |
 | 2026-10-10 | [2026-10-10-32.md](2026-10-10-32.md) — Pédagogie lot 06 Cacatuides / Passériformes (6) |
+| 2026-10-10 | [2026-10-10-33.md](2026-10-10-33.md) — Pédagogie lot 07 Estrildidés A (6) |
 | 2026-10-10 | [2026-10-10-10.md](2026-10-10-10.md) — Consignation plan pédagogie |
 | 2026-10-10 | [2026-10-10-11.md](2026-10-10-11.md) — Public prioritaire seconde pro TCVA |
