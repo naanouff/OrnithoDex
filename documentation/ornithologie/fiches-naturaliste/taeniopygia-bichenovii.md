@@ -1,7 +1,7 @@
 ﻿# Diamant de Bichenow
 
 - **Slug** : `taeniopygia-bichenovii`
-- **Statut documentation** : `liste_seule`
+- **Statut documentation** : `complete`
 - **Dernière vérification** : 2026-10-10
 
 ## Identité
@@ -15,27 +15,54 @@
 
 ## Description
 
+Évalué **Least Concern** (2024). EOO ≈ 5 450 000 km² ; population non quantifiée ; tendance **stable**. Endémique nicheur d’Australie. Commerce signalé à forte prévalence.  
+*Source : birdlife-taeniopygia-bichenovii.*
+
 ## Dimorphisme sexuel
+
+*na — sources consultées silencieuses.*
 
 ## Habitat d’origine
 
+Non migrateur. Zones urbaines, jardins, cultures et pâturages ; forêts, savanes et fourrés secs ; prairies.  
+*Source : birdlife-taeniopygia-bichenovii.*
+
 ## Régime alimentaire
+
+*na — sources consultées silencieuses.*
 
 ## Comportement
 
+Sédentaire (non migrateur). Présent dans le commerce d’animaux de compagnie.  
+*Source : birdlife-taeniopygia-bichenovii.*
+
 ## Chant et vocalisations
+
+Enregistrement XC816265 (Marc Anderson — CC BY-NC-ND 4.0) : https://xeno-canto.org/816265  
+*Source : media-taeniopygia-bichenovii-audio.*
 
 ## Points de cours à retenir
 
+<!-- Aides à la mémorisation (pas un polycopié enseignant). -->
+
+- **[programme]** Diamant de Bichenow ↔ *Taeniopygia bichenovii* ; Passériformes ; Estrildidés
+- **[programme]** Confusion : diamant Mandarin (*T. guttata castanotis*) — même genre *Taeniopygia*
+- **[sourcé]** Least Concern ; endémique Australie ; tendance stable
+- **[sourcé]** Non migrateur ; urbain, jardins, cultures, savanes sèches
+- **[sourcé]** Commerce signalé à forte prévalence
+
 ## Médias
 
-| Type | Fichier | Crédit / licence | Source README |
-|------|---------|------------------|---------------|
-| Image | `/images/birds/taeniopygia-bichenovii.webp` | *à fournir* | |
-| Audio | `/audio/birds/taeniopygia-bichenovii.mp3` | *à fournir* | |
+| Type | Fichier / URL | Crédit / licence | Source README |
+|------|--------------|------------------|---------------|
+| Image | https://commons.wikimedia.org/wiki/File:Taeniopygia_bichenovii_2_-_Glen_Davis.jpg | JJ Harrison — CC BY-SA 4.0 | media-taeniopygia-bichenovii-img |
+| Audio | https://xeno-canto.org/816265 | Marc Anderson — CC BY-NC-ND 4.0 | media-taeniopygia-bichenovii-audio |
 
 ## Sources
 
 | Id | Titre | Éditeur / auteur | Année | URL | Note |
 |----|-------|------------------|-------|-----|------|
-| bac-pro-tcva-liste | Liste des oiseaux – BAC PRO TCVA (MP6) | Support de cours / arrêtés 02/07/2009 + domestiques | 2009 | | Identité programme |
+| bac-pro-tcva-liste | Liste des oiseaux – BAC PRO TCVA (MP6) | Support de cours | 2009 | | Identité programme |
+| birdlife-taeniopygia-bichenovii | Double-barred Finch Taeniopygia bichenovii — Species Factsheet | BirdLife International | 2024 | https://datazone.birdlife.org/species/factsheet/double-barred-finch-taeniopygia-bichenovii | Consulté 2026-10-10 |
+| media-taeniopygia-bichenovii-img | File:Taeniopygia bichenovii 2 - Glen Davis.jpg | JJ Harrison / Wikimedia Commons | 2019 | https://commons.wikimedia.org/wiki/File:Taeniopygia_bichenovii_2_-_Glen_Davis.jpg | CC BY-SA 4.0 |
+| media-taeniopygia-bichenovii-audio | XC816265 | Marc Anderson / Xeno-canto | | https://xeno-canto.org/816265 | CC BY-NC-ND 4.0 ; XC: Stizoptera bichenovii |

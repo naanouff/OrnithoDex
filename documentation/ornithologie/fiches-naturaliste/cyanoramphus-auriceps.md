@@ -1,7 +1,7 @@
 ﻿# Kakariki à front jaune
 
 - **Slug** : `cyanoramphus-auriceps`
-- **Statut documentation** : `liste_seule`
+- **Statut documentation** : `complete`
 - **Dernière vérification** : 2026-10-10
 
 ## Identité
@@ -15,27 +15,55 @@
 
 ## Description
 
+Évalué **Near Threatened** (2022 ; A2ce). Endémique Nouvelle-Zélande ; EOO ≈ 550 000 km² ; ≈ 10 000–30 000 individus matures ; tendance **en diminution** (prédateurs introduits).  
+*Source : birdlife-cyanoramphus-auriceps.*
+
 ## Dimorphisme sexuel
+
+`na` — non décrit dans la fiche BirdLife consultée.  
+*Source : birdlife-cyanoramphus-auriceps.*
 
 ## Habitat d’origine
 
+Forêts mixtes *Nothofagus*-*Podocarpus*, souvent plus en altitude que *C. novaezelandiae* ; forêts denses ininterrompues sur petites îles ; rarement forêts secondaires. Habitats majeurs : forêts humides montagnardes et de basse altitude.  
+*Source : birdlife-cyanoramphus-auriceps.*
+
 ## Régime alimentaire
+
+Graines, baies, fleurs et racines ; insectes pris sur les arbres = part importante du régime (Greene 1998 *via* BirdLife) ; au sol en zones sans prédateurs.  
+*Source : birdlife-cyanoramphus-auriceps.*
 
 ## Comportement
 
+Non migrateur. Reproduction surtout octobre–décembre. Fluctuations liées aux cycles de mast de hêtre et aux pics de prédateurs.  
+*Source : birdlife-cyanoramphus-auriceps.*
+
 ## Chant et vocalisations
+
+Enregistrement XC526622 (James Lidster — CC BY-NC-SA 4.0) : https://xeno-canto.org/526622
 
 ## Points de cours à retenir
 
+<!-- Aides à la mémorisation (pas un polycopié enseignant). -->
+
+- **[programme]** Kakariki à front jaune ↔ *Cyanoramphus auriceps* ; Psittaciformes ; Psittacidés
+- **[programme]** Confusion : *C. novaezelandiae* (front rouge) — même genre, statut différent
+- **[sourcé]** **Near Threatened** ; endémique NZ ; ≈ 10 000–30 000 matures
+- **[sourcé]** Forêts mixtes, souvent plus en altitude que le front rouge
+- **[sourcé]** Régime : graines, baies, fleurs + insectes sur les arbres
+
 ## Médias
 
-| Type | Fichier | Crédit / licence | Source README |
-|------|---------|------------------|---------------|
-| Image | `/images/birds/cyanoramphus-auriceps.webp` | *à fournir* | |
-| Audio | `/audio/birds/cyanoramphus-auriceps.mp3` | *à fournir* | |
+| Type | Fichier / URL | Crédit / licence | Source README |
+|------|--------------|------------------|---------------|
+| Image | https://commons.wikimedia.org/wiki/File:Yellow-crowned_parakeet_-_K%C4%81k%C4%81riki.jpg | Alexeyevitch — domaine public | media-cyanoramphus-auriceps-img |
+| Audio | https://xeno-canto.org/526622 | James Lidster — CC BY-NC-SA 4.0 | media-cyanoramphus-auriceps-audio |
 
 ## Sources
 
 | Id | Titre | Éditeur / auteur | Année | URL | Note |
 |----|-------|------------------|-------|-----|------|
-| bac-pro-tcva-liste | Liste des oiseaux – BAC PRO TCVA (MP6) | Support de cours / arrêtés 02/07/2009 + domestiques | 2009 | | Identité programme |
+| bac-pro-tcva-liste | Liste des oiseaux – BAC PRO TCVA (MP6) | Support de cours | 2009 | | Identité programme |
+| birdlife-cyanoramphus-auriceps | Yellow-fronted Parakeet Cyanoramphus auriceps — Species Factsheet | BirdLife International | 2022 | https://datazone.birdlife.org/species/factsheet/yellow-fronted-parakeet-cyanoramphus-auriceps | Consulté 2026-10-10 |
+| media-cyanoramphus-auriceps-img | File:Yellow-crowned parakeet - Kākāriki.jpg | Alexeyevitch / Wikimedia Commons | 2024 | https://commons.wikimedia.org/wiki/File:Yellow-crowned_parakeet_-_K%C4%81k%C4%81riki.jpg | Domaine public |
+| media-cyanoramphus-auriceps-audio | XC526622 | James Lidster / Xeno-canto | | https://xeno-canto.org/526622 | CC BY-NC-SA 4.0 |

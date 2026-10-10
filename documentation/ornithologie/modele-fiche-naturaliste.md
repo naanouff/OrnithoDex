@@ -2,7 +2,15 @@
 
 Chaque espèce a un fichier `fiches-naturaliste/{slug}.md` calqué sur ce gabarit.
 
-Les sections sans source restent **vides** (ne pas inventer).
+Les sections sans source restent **vides** (ne pas inventer). Méthode : [plan-sources.md](../projet/plan-sources.md).
+
+## Statuts
+
+| Statut | Signification |
+|--------|---------------|
+| `liste_seule` | Identité programme uniquement |
+| `partielle` | Au moins un champ texte ou un média sourcé |
+| `complete` | Description, dimorphisme, habitat, régime, comportement, chant (fichier XC), médias (image+audio) tous `ok` ou `na` justifié. **Points de cours** peuvent rester en attente. |
 
 ```markdown
 # {Nom commun}
@@ -28,20 +36,38 @@ Les sections sans source restent **vides** (ne pas inventer).
 
 ## Habitat d’origine
 
+## Répartition sauvage
+
+<!-- Optionnel. Uniquement régions/pays déjà sourcés (BirdLife / IUCN). Sinon laisser vide. -->
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Régions / pays | … | … |
+| Hémisphère / realm | AF \| AU \| AS \| AM \| EU \| multi \| na | … |
+| Note | … | … |
+
 ## Régime alimentaire
 
 ## Comportement
 
 ## Chant et vocalisations
 
+<!-- Préférer 1 enregistrement Xeno-canto précis (URL fichier + crédit), pas seule la page espèce. -->
+
 ## Points de cours à retenir
+
+<!-- Aides à la mémorisation (pas un polycopié enseignant). Chaque puce : programme | sourcé. Charte : pedagogie.md -->
+
+- **[programme]** Nom commun ↔ binôme ; ordre ; famille
+- **[programme]** Confusion fréquente : … (même genre / noms proches / même famille dans le référentiel)
+- **[sourcé]** … (uniquement si la section amont est remplie et sourcée)
 
 ## Médias
 
-| Type | Fichier | Crédit / licence | Source README |
-|------|---------|------------------|---------------|
-| Image | `/images/birds/{slug}.webp` | … | … |
-| Audio | `/audio/birds/{slug}.mp3` | … | … |
+| Type | Fichier / URL | Crédit / licence | Source README |
+|------|--------------|------------------|---------------|
+| Image | URL Commons ou `/images/birds/{slug}.webp` | auteur — licence | media-{slug}-img |
+| Audio | URL enregistrement Xeno-canto | auteur — licence | media-{slug}-audio |
 
 ## Sources
 

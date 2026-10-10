@@ -4,6 +4,8 @@ Termes utiles pour le projet et le cours. Définitions courtes ; enrichir unique
 
 | Terme | Sens dans ce projet |
 |-------|---------------------|
+| TCVA | BAC PRO Technicien conseil vente en animalerie |
+| Seconde pro | Première année du BAC PRO ; **cible prioritaire** d’OrnithoDex |
 | Ordre | Rang taxonomique regroupant des familles (ex. Psittaciformes) |
 | Famille | Rang sous l’ordre (ex. Psittacidés, Estrildidés) |
 | Nom scientifique | Binôme latin (genre + espèce), parfois avec sous-espèce |
@@ -13,3 +15,7 @@ Termes utiles pour le projet et le cours. Définitions courtes ; enrichir unique
 | Slug | Identifiant fichier dérivé du nom scientifique (kebab-case) |
 | Identité programme | Nom latin, commun, ordre, famille issus de la liste BAC PRO |
 | Source | Référence bibliographique ou URL justifiant un fait |
+| Points de cours | Aides à la rétention (3–5 puces) ; pas un polycopié enseignant — voir [pedagogie.md](../projet/pedagogie.md) |
+| `[programme]` | Niveau de confiance : fait d’identité issu de la liste BAC PRO |
+| `[sourcé]` | Niveau de confiance : reformulation d’un fait déjà sourcé dans la fiche |
+| `points_cours` (suivi) | `attente` \| `minimal` (identité seule) \| `ok` (section conforme) |

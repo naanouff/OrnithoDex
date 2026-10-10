@@ -17,7 +17,7 @@ Application web **statique** pour mémoriser les oiseaux de cage et de volière 
 - Lecture audio (bouton prêt ; fichiers à brancher plus tard)
 - Modes quiz (photo → nom, chant → espèce)
 
-Public principal : adolescents / étudiants sur **téléphone** (usage une main, portrait). Desktop = bonus, pas la cible de design.
+Public prioritaire : élèves de **seconde pro** TCVA (**Technicien conseil vente en animalerie**) sur **téléphone** (usage une main, portrait). Desktop = bonus, pas la cible de design.
 
 **Hors V1** : PDF cartes physiques, compte utilisateur, backend, app store native.
 
@@ -144,7 +144,7 @@ type SourcedText = {
 
 ## UI / UX — mobile-first portrait
 
-Thème **naturaliste pédagogique** (verts forêt / bleus ciel / accents par ordre), typographie expressive, fond texturé léger.
+Thème et tokens : voir **[design.md](design.md)** (DA logo : navy / orange / sky / lime ; accents par ordre). Typographie expressive (Fredoka + Nunito), fond texturé léger.
 
 Contraintes smartphone :
 
@@ -200,31 +200,40 @@ Flux : feature → `develop` → `release/x.y.z` → `main` → tag + Release �
 
 ## Feuille de route d’implémentation
 
-0. Base documentaire (en cours / ce dossier)
-1. Scaffold Vite / React / TS / Tailwind
-2. Types sourcés + dataset aligné sur les fiches
-3. UI Collection + fiche du naturaliste
-4. Quiz (2 modes)
-5. Placeholders + README racine (registre sources)
-6. Gitflow + Vercel
-7. Enrichissement progressif des fiches **uniquement** avec sources validées
+0. Base documentaire — **fait**
+1. Scaffold Vite / React / TS / Tailwind — **fait**
+2. Types sourcés + dataset aligné sur les fiches — **fait** (`npm run data:birds` → 85 espèces)
+3. UI Collection + fiche du naturaliste — **fait** (quiz = étape suivante)
+4. Quiz (2 modes) — **fait** (photo → nom, chant → espèce)
+5. Placeholders + README racine (registre sources) — **fait**
+6. Gitflow + Vercel — **fait** (CI build + preview Actions ; prod Release ; brancher le projet Vercel + secrets une fois — [deploiement.md](deploiement.md))
+7. Enrichissement progressif des fiches **uniquement** avec sources validées — **continu** (85/85 `complete`)
+8. Focus tête photos (outil local hors app) — [plan](plan-image-focus.md) · [sprint](sprint-image-focus.md)
+9. Prompts visuels (illustration + 3D) + carte hémisphère répartition — [plan](plan-prompts-visuels.md) · [sprint](sprint-prompts-visuels.md)
+9. UI/UX équivalente à la maquette (zéro écart) — [plan](plan-ui-equiv-maquette.md) · [sprint](sprint-ui-equiv-maquette.md)
 
 ## Critères de done V1
 
-- [ ] `documentation/` complète ; politique de sourcing ; fiches squelettes
-- [ ] `README.md` racine avec section **Sources** exhaustive
-- [ ] Aucune information inventée ; aucune source absente du README
-- [ ] Espèces consultables ; fiche du naturaliste avec sources visibles
-- [ ] UI fluide en portrait smartphone
-- [ ] Audio opérationnel dès fichier présent
-- [ ] Quiz photo et chant jouables
-- [ ] Manifest PWA minimal
-- [ ] `npm run build` OK
-- [ ] Repo GitHub public (Gitflow) ; preview Vercel ; prod sur Release
+- [x] `documentation/` complète ; politique de sourcing ; fiches squelettes
+- [x] `README.md` racine avec section **Sources** exhaustive
+- [x] Aucune information inventée ; aucune source absente du README
+- [x] Espèces consultables ; fiche du naturaliste avec sources visibles
+- [x] UI fluide en portrait smartphone
+- [x] Audio opérationnel dès fichier présent (embed XC ; fichiers locaux optionnels)
+- [x] Quiz photo et chant jouables
+- [x] Manifest PWA minimal
+- [x] `npm run build` OK
+- [ ] Repo GitHub public (Gitflow) ; preview Vercel ; prod sur Release *(CI prêt ; lier le projet Vercel + secrets)*
 
 ## Documents liés
 
 - [Plan sources](plan-sources.md) — enrichissement des fiches (sources publiques)
+- [Plan pédagogie](plan-pedagogie.md) — cadre ingénieur pédagogue + points de cours
+- [Plan design](plan-design.md) — charte + maquettes (direction artistique)
+- [Plan focus photos](plan-image-focus.md) — labellisation tête (outil local) · [sprint](sprint-image-focus.md)
+- [Plan prompts visuels](plan-prompts-visuels.md) — illustration / 3D / carte hémisphère
+- [Plan UI ≡ maquette](plan-ui-equiv-maquette.md) — porter le chrome Livrable B dans l’app
+- [Charte design](design.md) — tokens, composants, specs écrans
 - [Vision](vision.md)
 - [Cahier des charges](cahier-des-charges.md)
 - [Architecture](architecture.md)

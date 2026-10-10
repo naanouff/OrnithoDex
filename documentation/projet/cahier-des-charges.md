@@ -4,7 +4,7 @@ Issu du cadrage **OrnithoDex** (cartes ornithologie) et des décisions consigné
 
 ## 1. Contexte et objectifs
 
-Faciliter l’apprentissage et la mémorisation des espèces d’oiseaux de cage et de volière du programme MP6 – Ornithologie (BAC PRO TCVA).
+Faciliter l’apprentissage et la mémorisation des espèces d’oiseaux de cage et de volière du programme MP6 – Ornithologie, pour les élèves de **seconde pro** du BAC PRO **Technicien conseil vente en animalerie** (TCVA).
 
 Deux volets complémentaires (le volet physique est **hors V1** du site) :
 
@@ -13,16 +13,16 @@ Deux volets complémentaires (le volet physique est **hors V1** du site) :
 
 ## 2. Public cible
 
-- Étudiants BAC PRO TCVA (Technicien Conseil Vente en Animalerie)
+- **Prioritaire** : élèves de **seconde professionnelle** — BAC PRO **Technicien conseil vente en animalerie** (TCVA)
 - Usage principal : **smartphone en portrait**
-- Toute personne souhaitant identifier ces espèces
+- Secondaire : autres niveaux TCVA ; toute personne souhaitant identifier ces espèces
 
 ## 3. Version physique (hors V1 site)
 
 Référence pour la cohérence visuelle des cartes numériques :
 
 - Format type carte à jouer (~63 × 88 mm)
-- **Recto** : nom commun, photo, codes couleur ordre / famille
+- **Recto** : nom commun, **illustration** naturaliste (collection), codes couleur ordre / famille ; la **photo** sourcée reste sur la fiche / quiz
 - **Verso** : nom scientifique, commun, ordre, famille, caractéristiques à retenir
 - Livrables futurs : PDF HD, impression carton
 

@@ -1,0 +1,25 @@
+---
+description: Agent design OrnithoDex — DA logo, mobile portrait, pas de dashboard
+alwaysApply: true
+---
+
+# Agent design — OrnithoDex
+
+Référence : [`documentation/projet/design.md`](documentation/projet/design.md).
+
+## Non négociable
+
+- Cible : **smartphone portrait** ; desktop = colonne centrée
+- Accueil : logo + marque **OrnithoDex** en hero ; 1 phrase ; 2 CTA — pas de stats / listes
+- Tokens logo : navy `#1b365d`, orange `#ff8a1f`, sky `#2eb7e6`, lime `#7bcf3a` — pas purple-on-white ni cream/terracotta générique
+- Typo : **Fredoka** (display) + **Nunito** (corps) — pas Inter / Roboto / Arial
+- Cartes : uniquement pour l’interaction (espèce) ; pas de cards décoratives dans le hero
+- Quiz : 1 question, 4 réponses empilées, feedback immédiat
+- Sources visibles sur la fiche ; zéro invention de contenu
+
+## Checklist UI
+
+- [ ] Zones ≥ 44 px ; CTA pleine largeur
+- [ ] Accents ordre via tokens `--ordre-*`
+- [ ] Fond avec atmosphère (dégradés), pas plat unique
+- [ ] Collection = illustration ; fiche / quiz = photo sourcée

@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>OrnithoDex — Focus photos (outil local)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700&family=Nunito:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <div>
+          <span class="badge">Outil local — hors app élèves</span>
+          <h1>Focus photos (bbox + tête)</h1>
+          <p class="stats" id="stats">Chargement…</p>
+        </div>
+        <div class="toolbar">
+          <button type="button" id="mode-bbox" class="is-active" aria-pressed="true">1 · BBox</button>
+          <button type="button" id="mode-head" aria-pressed="false">2 · Tête</button>
+          <button type="button" id="btn-prev">← Préc.</button>
+          <button type="button" id="btn-next">Suiv. →</button>
+          <button type="button" class="primary" id="btn-save">Enregistrer</button>
+          <button type="button" id="btn-download">Télécharger JSON</button>
+          <button type="button" id="btn-clear">Effacer</button>
+        </div>
+      </header>
+
+      <div class="layout">
+        <aside class="list" id="list" aria-label="Espèces"></aside>
+        <section class="panel">
+          <h2 id="title">—</h2>
+          <p class="meta" id="meta"></p>
+          <div class="workspace">
+            <div>
+              <div class="stage" id="stage" data-mode="bbox" title="Labelliser">
+                <img id="stage-img" alt="" draggable="false" />
+                <div class="bbox" id="bbox" aria-hidden="true"></div>
+                <div class="crosshair" id="crosshair" aria-hidden="true"></div>
+              </div>
+              <p class="coords" id="coords"></p>
+              <p class="hint" id="hint">
+                Glisse un rectangle autour de <strong>tout l’animal</strong>, puis marque la tête.
+                Ctrl+S enregistre dans <code>src/data/image-focus.json</code>.
+              </p>
+            </div>
+            <div class="preview-block">
+              <h3>Aperçu crop 3:4</h3>
+              <div class="tile">
+                <img id="tile-img" alt="" />
+                <span id="tile-label"></span>
+              </div>
+            </div>
+          </div>
+          <p class="status" id="status"></p>
+        </section>
+      </div>
+    </div>
+    <script src="/app.js" type="module"></script>
+  </body>
+</html>

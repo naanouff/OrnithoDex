@@ -1,7 +1,7 @@
 ﻿# Colombe diamant
 
 - **Slug** : `geopelia-cuneata`
-- **Statut documentation** : `liste_seule`
+- **Statut documentation** : `complete`
 - **Dernière vérification** : 2026-10-10
 
 ## Identité
@@ -15,27 +15,53 @@
 
 ## Description
 
+Évaluée **Least Concern** (2024). Endémique nicheur d’Australie ; statut migratoire BirdLife : **nomade**. EOO ≈ 7 860 000 km² ; population non quantifiée, décrite comme commune ; tendance suspectée **stable**.  
+*Source : birdlife-geopelia-cuneata.*
+
 ## Dimorphisme sexuel
+
+*Non documenté dans BirdLife ni dans un compte-rendu ADW espèce (classification seule) — `na`.*
 
 ## Habitat d’origine
 
+Désert chaud et zones humides intérieures (sources/oasis) — suitable (résident). Altitude 0–790 m.  
+*Source : birdlife-geopelia-cuneata.*
+
 ## Régime alimentaire
+
+*Non documenté dans les sources catalogue consultées (BirdLife sans paragraphe régime ; pas de fiche ADW complète) — `na`.*
 
 ## Comportement
 
+Espèce **nomade** selon BirdLife ; décrite comme commune ; utilisée/commercialisée (animaux de compagnie, nourriture) à forte prévalence dans les jeux de données commerce évalués (Donald et al. 2024, cité BirdLife).  
+*Source : birdlife-geopelia-cuneata.*
+
 ## Chant et vocalisations
+
+Enregistrement XC165147 (Nigel Jackett — CC BY-NC-SA 3.0) : https://xeno-canto.org/165147
 
 ## Points de cours à retenir
 
+<!-- Aides à la mémorisation (pas un polycopié enseignant). -->
+
+- **[programme]** Colombe diamant ↔ *Geopelia cuneata* ; Columbiformes ; Columbidés
+- **[programme]** Même genre que la colombe zébrée (*G. striata*) — distinguer au plumage / aire
+- **[sourcé]** Endémique d’Australie ; BirdLife : statut **nomade**
+- **[sourcé]** Least Concern ; habitats désert chaud / oasis
+- **[sourcé]** Présente dans le commerce d’animaux de compagnie (donnée BirdLife)
+
 ## Médias
 
-| Type | Fichier | Crédit / licence | Source README |
-|------|---------|------------------|---------------|
-| Image | `/images/birds/geopelia-cuneata.webp` | *à fournir* | |
-| Audio | `/audio/birds/geopelia-cuneata.mp3` | *à fournir* | |
+| Type | Fichier / URL | Crédit / licence | Source README |
+|------|--------------|------------------|---------------|
+| Image | https://commons.wikimedia.org/wiki/File:Geopelia_cuneata.JPG | Maurice van Bruggen — CC BY-SA 3.0 | media-geopelia-cuneata-img |
+| Audio | https://xeno-canto.org/165147 | Nigel Jackett — CC BY-NC-SA 3.0 | media-geopelia-cuneata-audio |
 
 ## Sources
 
 | Id | Titre | Éditeur / auteur | Année | URL | Note |
 |----|-------|------------------|-------|-----|------|
-| bac-pro-tcva-liste | Liste des oiseaux – BAC PRO TCVA (MP6) | Support de cours / arrêtés 02/07/2009 + domestiques | 2009 | | Identité programme |
+| bac-pro-tcva-liste | Liste des oiseaux – BAC PRO TCVA (MP6) | Support de cours | 2009 | | Identité programme |
+| birdlife-geopelia-cuneata | Diamond Dove Geopelia cuneata — Species Factsheet | BirdLife International | 2024 | https://datazone.birdlife.org/species/factsheet/diamond-dove-geopelia-cuneata | Consulté 2026-10-10 |
+| media-geopelia-cuneata-img | File:Geopelia cuneata.JPG | Maurice van Bruggen / Wikimedia Commons | 2009 | https://commons.wikimedia.org/wiki/File:Geopelia_cuneata.JPG | CC BY-SA 3.0 |
+| media-geopelia-cuneata-audio | XC165147 | Nigel Jackett / Xeno-canto | | https://xeno-canto.org/165147 | CC BY-NC-SA 3.0 |

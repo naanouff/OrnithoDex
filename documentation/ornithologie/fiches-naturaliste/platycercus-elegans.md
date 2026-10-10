@@ -1,7 +1,7 @@
 ﻿# Perruche de Pennant
 
 - **Slug** : `platycercus-elegans`
-- **Statut documentation** : `liste_seule`
+- **Statut documentation** : `complete`
 - **Dernière vérification** : 2026-10-10
 
 ## Identité
@@ -15,27 +15,55 @@
 
 ## Description
 
+Évalué **Least Concern** (2018). EOO ≈ 2 600 000 km² ; tendance **en diminution** (destruction d’habitat) sans atteindre les seuils de vulnérabilité.  
+*Source : birdlife-platycercus-elegans.*
+
 ## Dimorphisme sexuel
+
+*Non détaillé dans les sources consultées (BirdLife).*  
+*Sources : na.*
 
 ## Habitat d’origine
 
+Zones urbaines, jardins ruraux, plantations ; forêts humides montagnardes et de basse altitude, forêt sèche, fourrés humides (résident).  
+*Source : birdlife-platycercus-elegans.*
+
 ## Régime alimentaire
+
+*Non détaillé dans les sources consultées (BirdLife).*  
+*Sources : na.*
 
 ## Comportement
 
+Population soupçonnée en déclin avec la destruction continue d’habitat.  
+*Source : birdlife-platycercus-elegans.*
+
 ## Chant et vocalisations
+
+Enregistrement XC1173944 (Romuald Mikusek — CC BY-NC-SA 4.0) : https://xeno-canto.org/1173944
 
 ## Points de cours à retenir
 
+<!-- Aides à la mémorisation (pas un polycopié enseignant). -->
+
+- **[programme]** Perruche de Pennant ↔ *Platycercus elegans* ; Psittaciformes ; Psittacidés
+- **[programme]** Confusion : omnicolore (*P. eximius*) — Pennant = tendance en **diminution**
+- **[sourcé]** Least Concern ; déclin soupçonné (destruction d’habitat)
+- **[sourcé]** Forêts, fourrés, aussi zones urbaines / jardins / plantations
+- **[sourcé]** Habitat résident (non détaillé comme migrateur)
+
 ## Médias
 
-| Type | Fichier | Crédit / licence | Source README |
-|------|---------|------------------|---------------|
-| Image | `/images/birds/platycercus-elegans.webp` | *à fournir* | |
-| Audio | `/audio/birds/platycercus-elegans.mp3` | *à fournir* | |
+| Type | Fichier / URL | Crédit / licence | Source README |
+|------|--------------|------------------|---------------|
+| Image | https://commons.wikimedia.org/wiki/File:Platycercus_elegans_-Blue_Mountains_-side-8a.jpg | John Poulakis — CC BY 2.0 | media-platycercus-elegans-img |
+| Audio | https://xeno-canto.org/1173944 | Romuald Mikusek — CC BY-NC-SA 4.0 | media-platycercus-elegans-audio |
 
 ## Sources
 
 | Id | Titre | Éditeur / auteur | Année | URL | Note |
 |----|-------|------------------|-------|-----|------|
-| bac-pro-tcva-liste | Liste des oiseaux – BAC PRO TCVA (MP6) | Support de cours / arrêtés 02/07/2009 + domestiques | 2009 | | Identité programme |
+| bac-pro-tcva-liste | Liste des oiseaux – BAC PRO TCVA (MP6) | Support de cours | 2009 | | Identité programme |
+| birdlife-platycercus-elegans | Crimson Rosella Platycercus elegans — Species Factsheet | BirdLife International | 2018 | https://datazone.birdlife.org/species/factsheet/crimson-rosella-platycercus-elegans | Consulté 2026-10-10 |
+| media-platycercus-elegans-img | File:Platycercus elegans -Blue Mountains -side-8a.jpg | John Poulakis / Wikimedia Commons | | https://commons.wikimedia.org/wiki/File:Platycercus_elegans_-Blue_Mountains_-side-8a.jpg | CC BY 2.0 |
+| media-platycercus-elegans-audio | XC1173944 | Romuald Mikusek / Xeno-canto | | https://xeno-canto.org/1173944 | CC BY-NC-SA 4.0 |

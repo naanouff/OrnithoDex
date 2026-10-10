@@ -1,41 +1,69 @@
 ﻿# Moineau du Japon
 
 - **Slug** : `lonchura-striata-domestiqua`
-- **Statut documentation** : `liste_seule`
+- **Statut documentation** : `complete`
 - **Dernière vérification** : 2026-10-10
 
 ## Identité
 
 | Champ | Valeur | Source |
 |-------|--------|--------|
-| Nom scientifique | Lonchura striata domestiqua | bac-pro-tcva-liste |
+| Nom scientifique (programme) | Lonchura striata domestiqua | bac-pro-tcva-liste |
 | Nom commun | Moineau du Japon | bac-pro-tcva-liste |
 | Ordre | Passériformes | bac-pro-tcva-liste |
 | Famille | Estrildidés | bac-pro-tcva-liste |
+| Taxon sauvage (BirdLife) | Lonchura striata | birdlife-lonchura-striata |
 
 ## Description
 
+**Forme domestique** (Society Finch / moineau du Japon), dérivée du capucin domino sauvage. Taxon sauvage *L. striata* : **Least Concern** (2024) ; EOO ≈ 14 500 000 km² ; tendance **stable**.  
+*Source : birdlife-lonchura-striata.*
+
 ## Dimorphisme sexuel
+
+*na — sources consultées silencieuses pour le taxon sauvage ; forme domestique non détaillée.*
 
 ## Habitat d’origine
 
+Taxon sauvage : non migrateur ; savane sèche, prairies sèches, fourrés secs, forêts sèches, terres cultivées. Forme domestique : animale d’élevage / de compagnie (pas d’aire sauvage propre).  
+*Source : birdlife-lonchura-striata.*
+
 ## Régime alimentaire
+
+*na — sources consultées silencieuses.*
 
 ## Comportement
 
+Taxon sauvage sédentaire ; fortement présent dans le commerce d’animaux de compagnie — contexte historique de la forme domestique.  
+*Source : birdlife-lonchura-striata.*
+
 ## Chant et vocalisations
+
+Enregistrement XC1160466 (*Lonchura striata* sauvage, Nishant Bhagwat — CC BY-NC-ND 4.0) : https://xeno-canto.org/1160466  
+*Source : media-lonchura-striata-domestiqua-audio.*
 
 ## Points de cours à retenir
 
+<!-- Aides à la mémorisation (pas un polycopié enseignant). -->
+
+- **[programme]** Moineau du Japon ↔ *Lonchura striata domestiqua* ; Passériformes ; Estrildidés
+- **[programme]** Forme **domestique** — ne pas confondre avec le capucin domino sauvage (*L. striata*)
+- **[sourcé]** Dérivée du taxon sauvage *L. striata* (Least Concern, tendance stable)
+- **[sourcé]** Pas d’aire sauvage propre : élevage / compagnie
+- **[sourcé]** Audio de référence = enregistrement du taxon sauvage (même espèce)
+
 ## Médias
 
-| Type | Fichier | Crédit / licence | Source README |
-|------|---------|------------------|---------------|
-| Image | `/images/birds/lonchura-striata-domestiqua.webp` | *à fournir* | |
-| Audio | `/audio/birds/lonchura-striata-domestiqua.mp3` | *à fournir* | |
+| Type | Fichier / URL | Crédit / licence | Source README |
+|------|--------------|------------------|---------------|
+| Image | https://commons.wikimedia.org/wiki/File:Society_Finch.jpg | Anil Kumar — CC BY-SA 4.0 | media-lonchura-striata-domestiqua-img |
+| Audio | https://xeno-canto.org/1160466 | Nishant Bhagwat — CC BY-NC-ND 4.0 | media-lonchura-striata-domestiqua-audio |
 
 ## Sources
 
 | Id | Titre | Éditeur / auteur | Année | URL | Note |
 |----|-------|------------------|-------|-----|------|
-| bac-pro-tcva-liste | Liste des oiseaux – BAC PRO TCVA (MP6) | Support de cours / arrêtés 02/07/2009 + domestiques | 2009 | | Identité programme |
+| bac-pro-tcva-liste | Liste des oiseaux – BAC PRO TCVA (MP6) | Support de cours | 2009 | | Identité programme |
+| birdlife-lonchura-striata | White-rumped Munia Lonchura striata — Species Factsheet | BirdLife International | 2024 | https://datazone.birdlife.org/species/factsheet/white-rumped-munia-lonchura-striata | Taxon sauvage |
+| media-lonchura-striata-domestiqua-img | File:Society Finch.jpg | Anil Kumar / Wikimedia Commons | 2022 | https://commons.wikimedia.org/wiki/File:Society_Finch.jpg | CC BY-SA 4.0 ; forme domestique |
+| media-lonchura-striata-domestiqua-audio | XC1160466 | Nishant Bhagwat / Xeno-canto | | https://xeno-canto.org/1160466 | CC BY-NC-ND 4.0 ; taxon sauvage |

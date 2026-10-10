@@ -1,7 +1,7 @@
 ﻿# Perruche princesse de Galles ou à calotte bleue
 
 - **Slug** : `polytelis-alexandrae`
-- **Statut documentation** : `liste_seule`
+- **Statut documentation** : `complete`
 - **Dernière vérification** : 2026-10-10
 
 ## Identité
@@ -15,27 +15,55 @@
 
 ## Description
 
+Évalué **Near Threatened** (2022, critère D1). Endémique nicheur d’Australie ; EOO ≈ 1 995 000 km² ; 900–10 000 adultes matures estimés ; population variable selon conditions, parfois < 1 000 au minimum ; tendance **stable**.  
+*Source : birdlife-polytelis-alexandrae.*
+
 ## Dimorphisme sexuel
+
+*Non détaillé dans les sources consultées (BirdLife).*  
+*Sources : na.*
 
 ## Habitat d’origine
 
+Désert chaud, prairies sèches (majeur), fourrés secs (majeur) ; statut **nomade**. Zone aride (Grands Déserts de Sable, Gibson, Tanami, Victoria, etc.) ; souvent dans les dépressions entre dunes.  
+*Source : birdlife-polytelis-alexandrae.*
+
 ## Régime alimentaire
+
+Variété de graines, fleurs, fruits et feuillage d’arbustes et d’arbres ; associé notamment aux gommier marbre (*Eucalyptus gongylocarpa*) dans le Grand Désert de Victoria.  
+*Source : birdlife-polytelis-alexandrae.*
 
 ## Comportement
 
+Nomade / irruptif ; nidification en cavités (ex. marble gums) ; se reproduit en années humides dans le cœur d’aire puis peut se disperser.  
+*Source : birdlife-polytelis-alexandrae.*
+
 ## Chant et vocalisations
+
+Enregistrement XC488068 (Mark Carter — CC BY-NC-SA 4.0) : https://xeno-canto.org/488068
 
 ## Points de cours à retenir
 
+<!-- Aides à la mémorisation (pas un polycopié enseignant). -->
+
+- **[programme]** Perruche princesse de Galles / calotte bleue ↔ *Polytelis alexandrae* ; Psittaciformes ; Psittacidés
+- **[programme]** Confusion : *P. anthopeplus* (mélanure) — princesse = **Near Threatened**, désert
+- **[sourcé]** NT (D1) ; 900–10 000 adultes ; population parfois < 1 000
+- **[sourcé]** Nomade / irruptive ; déserts arides australiens
+- **[sourcé]** Régime : graines, fleurs, fruits, feuillage ; nid en cavités
+
 ## Médias
 
-| Type | Fichier | Crédit / licence | Source README |
-|------|---------|------------------|---------------|
-| Image | `/images/birds/polytelis-alexandrae.webp` | *à fournir* | |
-| Audio | `/audio/birds/polytelis-alexandrae.mp3` | *à fournir* | |
+| Type | Fichier / URL | Crédit / licence | Source README |
+|------|--------------|------------------|---------------|
+| Image | https://commons.wikimedia.org/wiki/File:Polytelis_alexandrae_-Australia-8.jpg | PG Palmer — CC BY 2.0 | media-polytelis-alexandrae-img |
+| Audio | https://xeno-canto.org/488068 | Mark Carter — CC BY-NC-SA 4.0 | media-polytelis-alexandrae-audio |
 
 ## Sources
 
 | Id | Titre | Éditeur / auteur | Année | URL | Note |
 |----|-------|------------------|-------|-----|------|
-| bac-pro-tcva-liste | Liste des oiseaux – BAC PRO TCVA (MP6) | Support de cours / arrêtés 02/07/2009 + domestiques | 2009 | | Identité programme |
+| bac-pro-tcva-liste | Liste des oiseaux – BAC PRO TCVA (MP6) | Support de cours | 2009 | | Identité programme |
+| birdlife-polytelis-alexandrae | Princess Parrot Polytelis alexandrae — Species Factsheet | BirdLife International | 2022 | https://datazone.birdlife.org/species/factsheet/princess-parrot-polytelis-alexandrae | Consulté 2026-10-10 ; NT |
+| media-polytelis-alexandrae-img | File:Polytelis alexandrae -Australia-8.jpg | PG Palmer / Wikimedia Commons | | https://commons.wikimedia.org/wiki/File:Polytelis_alexandrae_-Australia-8.jpg | CC BY 2.0 |
+| media-polytelis-alexandrae-audio | XC488068 | Mark Carter / Xeno-canto | | https://xeno-canto.org/488068 | CC BY-NC-SA 4.0 |

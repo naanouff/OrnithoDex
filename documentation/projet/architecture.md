@@ -13,7 +13,8 @@ Voir aussi le [plan](plan.md).
 
 ```mermaid
 flowchart LR
-  docs[fiches-naturaliste MD] --> data[src/data]
+  docs[fiches-naturaliste MD] --> gen[npm run data:birds]
+  gen --> data[src/data/birds.ts]
   data --> app[React App]
   assets[public/images + audio] --> app
   app --> collection[Collection]
@@ -21,6 +22,14 @@ flowchart LR
   app --> quiz[Quiz]
   fiche --> sourcesUI[Sources visibles]
 ```
+
+Générateur : [`scripts/build-birds.mjs`](../../scripts/build-birds.mjs) — identité, points de cours, médias, `wildRange`, sources, sections biologie sourcées.
+
+Médias locaux : `npm run media:fetch` (Commons → WebP, Xeno-canto → MP3) puis `npm run data:birds`. Manifest : [`public/media-manifest.json`](../../public/media-manifest.json).
+
+Prompts visuels : [`scripts/build-visual-prompts.mjs`](../../scripts/build-visual-prompts.mjs) → [`documentation/ornithologie/prompts-visuels/`](../../ornithologie/prompts-visuels/) (`npm run data:prompts`).
+
+Cartes pédagogiques : [`public/maps/hemisphere-*.svg`](../../public/maps/) + composant `WildRangeMap` (régions uniquement si documentées).
 
 ## Stack
 
@@ -57,9 +66,8 @@ Règle : `sourceIds` obligatoire dès qu’un texte de section est non vide. Ide
 
 | Environnement | Déclencheur |
 |---------------|-------------|
-| Preview Vercel | Push / PR vers `develop` |
+| Preview Vercel | CI Actions : push `develop` + PR (job `preview`) |
 | Production Vercel | GitHub Release (`release: published`) via Actions |
 
-Secrets attendus : `VERCEL_TOKEN`, `VERCEL_ORG_ID`, `VERCEL_PROJECT_ID`.
-
-Détail Gitflow : [conventions.md](conventions.md).
+Secrets attendus : `VERCEL_TOKEN`, `VERCEL_ORG_ID`, `VERCEL_PROJECT_ID`.  
+Procédure : [deploiement.md](deploiement.md). Gitflow : [conventions.md](conventions.md).

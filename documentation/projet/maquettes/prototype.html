@@ -1,0 +1,1033 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>OrnithoDex — Maquettes OrnithoDex — prototype interactif</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --navy: #1b365d;
+      --navy-deep: #12243f;
+      --sky: #2eb7e6;
+      --sky-soft: #7ed4f5;
+      --orange: #ff8a1f;
+      --orange-deep: #f06a00;
+      --yellow: #ffd84d;
+      --lime: #7bcf3a;
+      --leaf: #3d9e2e;
+      --cream: #fff8e8;
+      --ink: #1b365d;
+      --muted: #5a6f8c;
+      --white: #ffffff;
+      --ok: #2f9e44;
+      --ko: #e03131;
+      --stroke: 3px;
+      --radius: 22px;
+      --radius-sm: 16px;
+      --safe-b: env(safe-area-inset-bottom, 0px);
+      --nav-h: 68px;
+      --ordre-galliformes: #e6a817;
+      --ordre-anseriformes: #2eb7e6;
+      --ordre-columbiformes: #8b7ec8;
+      --ordre-psittaciformes: #ff8a1f;
+      --ordre-passeriformes: #7bcf3a;
+      --shadow: 0 8px 0 rgba(27, 54, 93, 0.18);
+      --shadow-press: 0 3px 0 rgba(27, 54, 93, 0.18);
+    }
+
+    * { box-sizing: border-box; }
+    html, body { height: 100%; margin: 0; }
+
+    body {
+      font-family: Nunito, system-ui, sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 20% 15%, rgba(255, 216, 77, 0.45), transparent 40%),
+        radial-gradient(circle at 85% 10%, rgba(46, 183, 230, 0.35), transparent 42%),
+        radial-gradient(circle at 70% 90%, rgba(123, 207, 58, 0.25), transparent 45%),
+        linear-gradient(180deg, #d9f3ff 0%, #fff4d6 55%, #e8f9d4 100%);
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .stage {
+      min-height: 100%;
+      display: grid;
+      place-items: center;
+      padding: 16px;
+    }
+
+    .phone {
+      width: min(100%, 390px);
+      height: min(844px, calc(100vh - 32px));
+      min-height: 640px;
+      border-radius: 32px;
+      overflow: hidden;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      border: 4px solid var(--navy);
+      box-shadow:
+        0 0 0 4px var(--lime),
+        0 22px 40px rgba(18, 36, 63, 0.28);
+      background:
+        radial-gradient(circle at 50% 0%, rgba(255,255,255,0.55), transparent 50%),
+        linear-gradient(180deg, #e8f8ff 0%, #fff8e8 48%, #eef9dc 100%);
+    }
+
+    @media (max-width: 430px) {
+      .stage { padding: 0; }
+      .phone {
+        width: 100%;
+        height: 100%;
+        min-height: 100%;
+        border-radius: 0;
+        border: 0;
+        box-shadow: none;
+      }
+    }
+
+    .screens {
+      flex: 1;
+      position: relative;
+      overflow: hidden;
+      z-index: 1;
+    }
+
+    .screen {
+      display: none;
+      flex-direction: column;
+      height: 100%;
+      padding: 18px 16px calc(var(--nav-h) + var(--safe-b) + 12px);
+      overflow: auto;
+      animation: pop-in 0.35s ease-out both;
+    }
+
+    .screen.is-active { display: flex; }
+
+    .screen--home {
+      justify-content: center;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    .brand {
+      text-align: center;
+      margin-bottom: 28px;
+    }
+
+    .logo {
+      width: min(88%, 280px);
+      height: auto;
+      display: block;
+      margin: 0 auto 8px;
+      filter: drop-shadow(0 10px 0 rgba(27, 54, 93, 0.12));
+      animation: bob 3.8s ease-in-out infinite;
+    }
+
+    .tagline-home {
+      margin: 0 auto;
+      max-width: 18rem;
+      font-family: Fredoka, Nunito, sans-serif;
+      font-weight: 600;
+      font-size: 1.05rem;
+      line-height: 1.3;
+      color: var(--navy);
+      background: rgba(255, 255, 255, 0.72);
+      border: 2px solid rgba(27, 54, 93, 0.12);
+      border-radius: 999px;
+      padding: 8px 14px;
+    }
+
+    .cta { display: grid; gap: 14px; }
+
+    .btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      min-height: 56px;
+      padding: 14px 20px;
+      border: var(--stroke) solid var(--navy);
+      border-radius: 18px;
+      background: linear-gradient(180deg, var(--yellow) 0%, var(--orange) 100%);
+      color: var(--navy-deep);
+      font-family: Fredoka, Nunito, sans-serif;
+      font-weight: 700;
+      font-size: 1.2rem;
+      text-decoration: none;
+      cursor: pointer;
+      box-shadow: var(--shadow);
+      transition: transform 0.12s ease, box-shadow 0.12s ease;
+      width: 100%;
+    }
+
+    .btn:hover { filter: brightness(1.03); }
+    .btn:active {
+      transform: translateY(4px);
+      box-shadow: var(--shadow-press);
+    }
+    .btn:focus-visible {
+      outline: 3px solid var(--sky);
+      outline-offset: 3px;
+    }
+    .btn svg { width: 24px; height: 24px; flex-shrink: 0; stroke-width: 2.5; }
+
+    .btn--secondary {
+      background: linear-gradient(180deg, var(--sky-soft) 0%, var(--sky) 100%);
+      color: var(--navy-deep);
+    }
+
+    .btn--ghost {
+      background: transparent;
+      box-shadow: none;
+      border: 0;
+      min-height: 44px;
+      font-size: 1rem;
+      color: var(--navy);
+      padding: 8px;
+    }
+    .btn--ghost:active { transform: none; box-shadow: none; }
+
+    .btn--next {
+      background: linear-gradient(180deg, var(--lime) 0%, var(--leaf) 100%);
+      color: var(--white);
+      margin-top: 12px;
+    }
+
+    .screen-head {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-bottom: 14px;
+      flex-shrink: 0;
+    }
+
+    .screen-head h2 {
+      font-family: Fredoka, Nunito, sans-serif;
+      font-size: 1.7rem;
+      font-weight: 700;
+      color: var(--navy);
+      margin: 0;
+      letter-spacing: -0.02em;
+    }
+
+    .screen-head p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.95rem;
+      font-weight: 700;
+      line-height: 1.3;
+    }
+
+    .search {
+      width: 100%;
+      min-height: 50px;
+      border: var(--stroke) solid var(--navy);
+      border-radius: 16px;
+      padding: 12px 16px;
+      font: inherit;
+      font-size: 1rem;
+      font-weight: 700;
+      background: var(--white);
+      color: var(--ink);
+      box-shadow: 0 4px 0 rgba(27, 54, 93, 0.1);
+    }
+
+    .search:focus {
+      outline: 3px solid var(--orange);
+      outline-offset: 2px;
+    }
+
+    .filters {
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      padding-bottom: 2px;
+      scrollbar-width: none;
+    }
+    .filters::-webkit-scrollbar { display: none; }
+
+    .chip {
+      flex: 0 0 auto;
+      min-height: 42px;
+      padding: 8px 14px;
+      border-radius: 999px;
+      border: 2.5px solid var(--navy);
+      background: var(--white);
+      color: var(--navy);
+      font: inherit;
+      font-family: Fredoka, Nunito, sans-serif;
+      font-size: 0.88rem;
+      font-weight: 600;
+      cursor: pointer;
+      white-space: nowrap;
+      box-shadow: 0 3px 0 rgba(27, 54, 93, 0.12);
+    }
+
+    .chip[aria-pressed="true"] {
+      background: linear-gradient(180deg, var(--yellow), var(--orange));
+      color: var(--navy-deep);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      align-content: start;
+    }
+
+    .card {
+      display: flex;
+      flex-direction: column;
+      border: 0;
+      padding: 0;
+      background: transparent;
+      text-align: left;
+      cursor: pointer;
+      font: inherit;
+      color: inherit;
+      border-radius: var(--radius-sm);
+    }
+
+    .card:focus-visible {
+      outline: 3px solid var(--orange);
+      outline-offset: 3px;
+    }
+
+    .card:active .card__media { transform: translateY(2px); }
+
+    .card__media {
+      aspect-ratio: 3 / 4;
+      border-radius: var(--radius-sm);
+      position: relative;
+      overflow: hidden;
+      border: var(--stroke) solid var(--navy);
+      box-shadow: 0 6px 0 rgba(27, 54, 93, 0.16);
+      transition: transform 0.12s ease;
+    }
+
+    .card__media::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(circle at 28% 28%, rgba(255,255,255,0.35), transparent 42%),
+        linear-gradient(180deg, transparent 40%, rgba(18, 36, 63, 0.55) 100%);
+    }
+
+    .card__media span {
+      position: absolute;
+      left: 8px;
+      right: 8px;
+      bottom: 8px;
+      z-index: 1;
+      color: var(--white);
+      font-family: Fredoka, Nunito, sans-serif;
+      font-weight: 700;
+      font-size: 0.86rem;
+      line-height: 1.15;
+      text-shadow: 0 2px 0 rgba(18, 36, 63, 0.35);
+    }
+
+    .card__meta {
+      margin-top: 8px;
+      font-size: 0.75rem;
+      color: var(--muted);
+      font-weight: 800;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      flex-shrink: 0;
+      border: 2px solid var(--navy);
+    }
+
+    .empty {
+      grid-column: 1 / -1;
+      text-align: center;
+      color: var(--muted);
+      padding: 28px 12px;
+      font-weight: 700;
+    }
+
+    .mode-list { display: grid; gap: 12px; margin-top: 4px; }
+
+    .mode {
+      display: grid;
+      gap: 4px;
+      padding: 18px 16px;
+      border-radius: var(--radius);
+      border: var(--stroke) solid var(--navy);
+      background: var(--white);
+      text-align: left;
+      cursor: pointer;
+      font: inherit;
+      color: inherit;
+      min-height: 92px;
+      box-shadow: var(--shadow);
+    }
+
+    .mode:active {
+      transform: translateY(4px);
+      box-shadow: var(--shadow-press);
+    }
+
+    .mode:disabled {
+      opacity: 0.55;
+      cursor: not-allowed;
+      box-shadow: none;
+    }
+    .mode:disabled:active { transform: none; }
+
+    .mode:focus-visible { outline: 3px solid var(--orange); outline-offset: 3px; }
+
+    .mode strong {
+      font-family: Fredoka, Nunito, sans-serif;
+      font-size: 1.25rem;
+      color: var(--navy);
+    }
+    .mode span {
+      color: var(--muted);
+      font-size: 0.92rem;
+      font-weight: 700;
+      line-height: 1.3;
+    }
+
+    .mode--photo {
+      background: linear-gradient(135deg, #fff7d6, #ffe0b0);
+    }
+
+    .quiz-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 10px;
+    }
+
+    .quiz-bar .score {
+      font-family: Fredoka, Nunito, sans-serif;
+      font-weight: 700;
+      color: var(--navy);
+      font-size: 1rem;
+      background: var(--white);
+      border: 2.5px solid var(--navy);
+      border-radius: 999px;
+      padding: 6px 12px;
+    }
+
+    .stimulus {
+      aspect-ratio: 3 / 4;
+      max-height: 260px;
+      width: 100%;
+      margin: 0 auto 14px;
+      border-radius: var(--radius);
+      position: relative;
+      overflow: hidden;
+      border: var(--stroke) solid var(--navy);
+      box-shadow: var(--shadow);
+    }
+
+    .stimulus::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(circle at 35% 30%, rgba(255,255,255,0.3), transparent 45%);
+    }
+
+    .quiz-prompt {
+      text-align: center;
+      margin: 0 0 12px;
+      font-family: Fredoka, Nunito, sans-serif;
+      font-weight: 700;
+      font-size: 1.15rem;
+      color: var(--navy);
+    }
+
+    .answers { display: grid; gap: 10px; }
+
+    .answer {
+      min-height: 54px;
+      padding: 12px 14px;
+      border-radius: 16px;
+      border: var(--stroke) solid var(--navy);
+      background: var(--white);
+      font: inherit;
+      font-family: Fredoka, Nunito, sans-serif;
+      font-weight: 700;
+      font-size: 1.05rem;
+      text-align: left;
+      cursor: pointer;
+      color: var(--navy);
+      box-shadow: 0 4px 0 rgba(27, 54, 93, 0.12);
+    }
+
+    .answer:active:not(:disabled) {
+      transform: translateY(2px);
+      box-shadow: 0 2px 0 rgba(27, 54, 93, 0.12);
+    }
+
+    .answer:disabled { cursor: default; }
+    .answer.is-correct {
+      background: #d3f9d8;
+      border-color: var(--ok);
+      color: #1b6b2a;
+    }
+    .answer.is-wrong {
+      background: #ffe3e3;
+      border-color: var(--ko);
+      color: #a01818;
+    }
+
+    .feedback {
+      margin-top: 12px;
+      min-height: 1.4em;
+      text-align: center;
+      font-family: Fredoka, Nunito, sans-serif;
+      font-weight: 700;
+      font-size: 1.05rem;
+    }
+    .feedback.is-ok { color: var(--ok); }
+    .feedback.is-ko { color: var(--ko); }
+
+    .sheet {
+      display: none;
+      position: absolute;
+      inset: 0;
+      z-index: 5;
+      background: linear-gradient(180deg, #e8f8ff 0%, #fff8e8 50%, #eef9dc 100%);
+      overflow: auto;
+      padding: 16px 16px calc(24px + var(--safe-b));
+      animation: pop-in 0.28s ease-out both;
+    }
+
+    .sheet.is-open { display: block; }
+
+    .sheet__back {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      min-height: 44px;
+      border: 0;
+      background: transparent;
+      color: var(--navy);
+      font: inherit;
+      font-family: Fredoka, Nunito, sans-serif;
+      font-weight: 700;
+      cursor: pointer;
+      padding: 0 0 8px;
+    }
+
+    .sheet__media {
+      aspect-ratio: 3 / 4;
+      max-height: 300px;
+      width: 100%;
+      border-radius: var(--radius);
+      margin-bottom: 14px;
+      position: relative;
+      overflow: hidden;
+      border: var(--stroke) solid var(--navy);
+      box-shadow: var(--shadow);
+    }
+
+    .sheet__media::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(circle at 35% 30%, rgba(255,255,255,0.28), transparent 45%);
+    }
+
+    .sheet h3 {
+      font-family: Fredoka, Nunito, sans-serif;
+      font-size: 1.7rem;
+      margin: 0 0 4px;
+      color: var(--navy);
+    }
+
+    .sheet .latin {
+      margin: 0 0 12px;
+      font-style: italic;
+      color: var(--muted);
+      font-weight: 700;
+    }
+
+    .pills { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 7px 12px;
+      border-radius: 999px;
+      background: var(--white);
+      border: 2.5px solid var(--navy);
+      font-size: 0.85rem;
+      font-weight: 800;
+      font-family: Fredoka, Nunito, sans-serif;
+      color: var(--navy);
+    }
+
+    .points {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: grid;
+      gap: 10px;
+    }
+
+    .points li {
+      padding: 14px 14px;
+      border-radius: 16px;
+      background: var(--white);
+      font-size: 0.98rem;
+      font-weight: 700;
+      line-height: 1.35;
+      border: 2.5px solid var(--navy);
+      box-shadow: 0 4px 0 rgba(27, 54, 93, 0.1);
+    }
+
+    .sources {
+      margin-top: 16px;
+      font-size: 0.82rem;
+      font-weight: 700;
+      color: var(--muted);
+    }
+
+    nav.tabbar {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 4;
+      height: calc(var(--nav-h) + var(--safe-b));
+      padding: 0 8px var(--safe-b);
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      align-items: stretch;
+      background: rgba(255, 255, 255, 0.94);
+      border-top: 3px solid var(--navy);
+    }
+
+    nav.tabbar a {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 3px;
+      min-height: 44px;
+      text-decoration: none;
+      color: var(--muted);
+      font-family: Fredoka, Nunito, sans-serif;
+      font-size: 0.78rem;
+      font-weight: 700;
+      position: relative;
+    }
+
+    nav.tabbar a[aria-current="page"] { color: var(--orange-deep); }
+    nav.tabbar a[aria-current="page"]::after {
+      content: "";
+      position: absolute;
+      bottom: 5px;
+      width: 20px;
+      height: 4px;
+      border-radius: 999px;
+      background: var(--orange);
+      border: 1.5px solid var(--navy);
+    }
+    nav.tabbar svg { width: 24px; height: 24px; stroke-width: 2.4; }
+
+    .note {
+      position: fixed;
+      top: 10px;
+      right: 10px;
+      z-index: 20;
+      font-family: Fredoka, Nunito, sans-serif;
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      color: var(--navy);
+      background: var(--yellow);
+      border: 2.5px solid var(--navy);
+      padding: 6px 10px;
+      border-radius: 999px;
+      box-shadow: 0 3px 0 rgba(27, 54, 93, 0.15);
+    }
+
+    @media (max-width: 430px) {
+      .note {
+        top: auto;
+        bottom: calc(var(--nav-h) + var(--safe-b) + 12px);
+        right: 12px;
+      }
+    }
+
+    @keyframes pop-in {
+      from { opacity: 0; transform: translateY(10px) scale(0.98); }
+      to { opacity: 1; transform: translateY(0) scale(1); }
+    }
+
+    @keyframes bob {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-7px); }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation: none !important;
+        transition: none !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <p class="note" id="note">Maquette · Accueil</p>
+  <div class="stage">
+    <div class="phone">
+      <div class="screens">
+        <section class="screen screen--home is-active" id="screen-accueil" data-screen="accueil" aria-label="Accueil">
+          <header class="brand">
+            <img
+              class="logo"
+              src="../assets/logo-ornithodex.jpg"
+              width="280"
+              height="280"
+              alt="OrnithoDex — L'encyclopédie des oiseaux"
+            />
+            <p class="tagline-home">Apprends les oiseaux en t’amusant</p>
+          </header>
+          <div class="cta">
+            <a class="btn" href="#collection" data-nav="collection">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true">
+                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+              </svg>
+              Collection
+            </a>
+            <a class="btn btn--secondary" href="#entrainement" data-nav="entrainement">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true">
+                <path d="M6 12h12M4 8h2v8H4zM18 8h2v8h-2z"/>
+              </svg>
+              Entraînement
+            </a>
+          </div>
+        </section>
+
+        <section class="screen" id="screen-collection" data-screen="collection" aria-label="Collection" hidden>
+          <header class="screen-head">
+            <div>
+              <h2>Collection</h2>
+              <p>Tes cartes d’espèces — cherche et filtre</p>
+            </div>
+            <label for="search" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)">Rechercher</label>
+            <input class="search" id="search" type="search" placeholder="Nom commun ou latin…" autocomplete="off" />
+            <div class="filters" id="filters" role="group" aria-label="Filtrer par ordre"></div>
+          </header>
+          <div class="grid" id="bird-grid"></div>
+        </section>
+
+        <section class="screen" id="screen-entrainement" data-screen="entrainement" aria-label="Entraînement" hidden>
+          <div id="train-hub">
+            <header class="screen-head">
+              <div>
+                <h2>Entraînement</h2>
+                <p>Comme un défi — 1 question, 4 choix</p>
+              </div>
+            </header>
+            <div class="mode-list">
+              <button type="button" class="mode mode--photo" id="mode-photo">
+                <strong>Photo → nom</strong>
+                <span>Reconnais l’espèce sur la carte</span>
+              </button>
+              <button type="button" class="mode" id="mode-chant" disabled title="Maquette : audio à brancher plus tard">
+                <strong>Chant → espèce</strong>
+                <span>Bientôt — quand les sons seront là</span>
+              </button>
+            </div>
+          </div>
+
+          <div id="train-quiz" hidden>
+            <div class="quiz-bar">
+              <button type="button" class="btn btn--ghost" id="quiz-back">← Modes</button>
+              <span class="score" id="quiz-score">0 / 0</span>
+            </div>
+            <p class="quiz-prompt">Quel est cet oiseau&nbsp;?</p>
+            <div class="stimulus" id="quiz-stimulus" aria-hidden="true"></div>
+            <div class="answers" id="quiz-answers" role="group" aria-label="Propositions"></div>
+            <p class="feedback" id="quiz-feedback" aria-live="polite"></p>
+            <button type="button" class="btn btn--next" id="quiz-next" hidden>Question suivante</button>
+          </div>
+        </section>
+
+        <div class="sheet" id="sheet" aria-hidden="true">
+          <button type="button" class="sheet__back" id="sheet-back">← Collection</button>
+          <div class="sheet__media" id="sheet-media"></div>
+          <h3 id="sheet-common"></h3>
+          <p class="latin" id="sheet-latin"></p>
+          <div class="pills" id="sheet-pills"></div>
+          <ul class="points" id="sheet-points"></ul>
+          <p class="sources" id="sheet-sources"></p>
+        </div>
+      </div>
+
+      <nav class="tabbar" aria-label="Navigation principale">
+        <a href="#accueil" data-nav="accueil">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true">
+            <path d="M3 10.5 12 3l9 7.5V21a1 1 0 0 1-1 1h-5v-7H9v7H4a1 1 0 0 1-1-1v-10.5z"/>
+          </svg>
+          Accueil
+        </a>
+        <a href="#collection" data-nav="collection">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true">
+            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+          </svg>
+          Collection
+        </a>
+        <a href="#entrainement" data-nav="entrainement">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true">
+            <path d="M6 12h12M4 8h2v8H4zM18 8h2v8h-2z"/>
+          </svg>
+          Entraînement
+        </a>
+      </nav>
+    </div>
+  </div>
+
+  <script>
+    const ORDERS = [
+      { id: "all", label: "Tous" },
+      { id: "Galliformes", label: "Galliformes" },
+      { id: "Ansériformes", label: "Ansériformes" },
+      { id: "Columbiformes", label: "Columbiformes" },
+      { id: "Psittaciformes", label: "Psittaciformes" },
+      { id: "Passériformes", label: "Passériformes" },
+    ];
+
+    const ORDER_COLORS = {
+      Galliformes: ["#ffd84d", "#e6a817"],
+      "Ansériformes": ["#7ed4f5", "#2eb7e6"],
+      Columbiformes: ["#c4b5f0", "#8b7ec8"],
+      Psittaciformes: ["#ffb15a", "#ff8a1f"],
+      "Passériformes": ["#b6e87a", "#7bcf3a"],
+    };
+
+    const BIRDS = [
+      { common: "Caille peinte de Chine", latin: "Coturnix chinensis", order: "Galliformes", family: "Phasianidés" },
+      { common: "Poule domestique", latin: "Gallus gallus domesticus", order: "Galliformes", family: "Phasianidés" },
+      { common: "Colin de Virginie", latin: "Colinus virginianus", order: "Galliformes", family: "Odontophoridés" },
+      { common: "Canard mandarin", latin: "Aix galericulata", order: "Ansériformes", family: "Anatidés" },
+      { common: "Canard carolin", latin: "Aix sponsa", order: "Ansériformes", family: "Anatidés" },
+      { common: "Colombe diamant", latin: "Geopelia cuneata", order: "Columbiformes", family: "Columbidés" },
+      { common: "Tourterelle rieuse", latin: "Streptopelia risoria", order: "Columbiformes", family: "Columbidés" },
+      { common: "Pigeon biset", latin: "Columba livia", order: "Columbiformes", family: "Columbidés" },
+      { common: "Inséparable de Fischer", latin: "Agapornis fischeri", order: "Psittaciformes", family: "Psittacidés" },
+      { common: "Perruche ondulée", latin: "Melopsittacus undulatus", order: "Psittaciformes", family: "Psittacidés" },
+      { common: "Perruche omnicolore", latin: "Platycercus eximius", order: "Psittaciformes", family: "Psittacidés" },
+      { common: "Diamant mandarin", latin: "Taeniopygia guttata castanotis", order: "Passériformes", family: "Estrildidés" },
+      { common: "Serin des Canaries", latin: "Serinus canaria", order: "Passériformes", family: "Fringillidés" },
+      { common: "Capucin damier", latin: "Lonchura punctulata", order: "Passériformes", family: "Estrildidés" },
+    ];
+
+    const SCREENS = ["accueil", "collection", "entrainement"];
+    const note = document.getElementById("note");
+    const grid = document.getElementById("bird-grid");
+    const search = document.getElementById("search");
+    const filtersEl = document.getElementById("filters");
+    const sheet = document.getElementById("sheet");
+
+    let activeOrder = "all";
+    let quiz = { score: 0, total: 0, current: null, locked: false };
+
+    function mediaStyle(order) {
+      const [a, b] = ORDER_COLORS[order] || ["#7ed4f5", "#2eb7e6"];
+      return `background: linear-gradient(145deg, ${a}, ${b});`;
+    }
+
+    function setScreen(name) {
+      if (!SCREENS.includes(name)) name = "accueil";
+      document.querySelectorAll(".screen").forEach((el) => {
+        const on = el.dataset.screen === name;
+        el.classList.toggle("is-active", on);
+        el.hidden = !on;
+      });
+      document.querySelectorAll("nav.tabbar a").forEach((a) => {
+        if (a.dataset.nav === name) a.setAttribute("aria-current", "page");
+        else a.removeAttribute("aria-current");
+      });
+      note.textContent = "Maquette · " + name.charAt(0).toUpperCase() + name.slice(1);
+      closeSheet();
+      if (name !== "entrainement") showTrainHub();
+      if (location.hash.replace("#", "") !== name) {
+        history.replaceState(null, "", "#" + name);
+      }
+    }
+
+    function filteredBirds() {
+      const q = search.value.trim().toLowerCase();
+      return BIRDS.filter((b) => {
+        const orderOk = activeOrder === "all" || b.order === activeOrder;
+        const textOk = !q || b.common.toLowerCase().includes(q) || b.latin.toLowerCase().includes(q);
+        return orderOk && textOk;
+      });
+    }
+
+    function renderFilters() {
+      filtersEl.innerHTML = ORDERS.map((o) =>
+        `<button type="button" class="chip" data-order="${o.id}" aria-pressed="${activeOrder === o.id}">${o.label}</button>`
+      ).join("");
+    }
+
+    function renderGrid() {
+      const list = filteredBirds();
+      if (!list.length) {
+        grid.innerHTML = `<p class="empty">Aucune espèce pour ces filtres.</p>`;
+        return;
+      }
+      grid.innerHTML = list.map((b) => `
+        <button type="button" class="card" data-index="${BIRDS.indexOf(b)}">
+          <div class="card__media" style="${mediaStyle(b.order)}">
+            <span>${b.common}</span>
+          </div>
+          <div class="card__meta">
+            <span class="dot" style="background:${ORDER_COLORS[b.order]?.[1] || "var(--sky)"}"></span>
+            ${b.order}
+          </div>
+        </button>
+      `).join("");
+    }
+
+    function openSheet(bird) {
+      document.getElementById("sheet-media").style.cssText = mediaStyle(bird.order);
+      document.getElementById("sheet-common").textContent = bird.common;
+      document.getElementById("sheet-latin").textContent = bird.latin;
+      document.getElementById("sheet-pills").innerHTML = `
+        <span class="pill"><span class="dot" style="background:${ORDER_COLORS[bird.order]?.[1]}"></span>${bird.order}</span>
+        <span class="pill">${bird.family}</span>
+      `;
+      document.getElementById("sheet-points").innerHTML = `
+        <li><strong>[programme]</strong> — ${bird.common} ↔ <em>${bird.latin}</em></li>
+        <li><strong>[programme]</strong> — Ordre ${bird.order} · famille ${bird.family}</li>
+        <li>[programme] — identité liste BAC PRO · [sourcé] si fait déjà en fiche</li>
+      `;
+      document.getElementById("sheet-sources").textContent = "Source identité : liste BAC PRO TCVA (bac-pro-tcva-liste)";
+      sheet.classList.add("is-open");
+      sheet.setAttribute("aria-hidden", "false");
+    }
+
+    function closeSheet() {
+      sheet.classList.remove("is-open");
+      sheet.setAttribute("aria-hidden", "true");
+    }
+
+    function shuffle(arr) {
+      const a = [...arr];
+      for (let i = a.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [a[i], a[j]] = [a[j], a[i]];
+      }
+      return a;
+    }
+
+    function showTrainHub() {
+      document.getElementById("train-hub").hidden = false;
+      document.getElementById("train-quiz").hidden = true;
+    }
+
+    function startQuiz() {
+      quiz.score = 0;
+      quiz.total = 0;
+      document.getElementById("train-hub").hidden = true;
+      document.getElementById("train-quiz").hidden = false;
+      nextQuestion();
+    }
+
+    function nextQuestion() {
+      quiz.locked = false;
+      const correct = BIRDS[Math.floor(Math.random() * BIRDS.length)];
+      const distractors = shuffle(BIRDS.filter((b) => b.latin !== correct.latin)).slice(0, 3);
+      const options = shuffle([correct, ...distractors]);
+      quiz.current = correct;
+
+      document.getElementById("quiz-stimulus").style.cssText = mediaStyle(correct.order);
+      document.getElementById("quiz-feedback").textContent = "";
+      document.getElementById("quiz-feedback").className = "feedback";
+      document.getElementById("quiz-next").hidden = true;
+      document.getElementById("quiz-score").textContent = `${quiz.score} / ${quiz.total}`;
+
+      document.getElementById("quiz-answers").innerHTML = options.map((b) =>
+        `<button type="button" class="answer" data-latin="${b.latin}">${b.common}</button>`
+      ).join("");
+    }
+
+    function onAnswer(btn) {
+      if (quiz.locked) return;
+      quiz.locked = true;
+      quiz.total += 1;
+      const ok = btn.dataset.latin === quiz.current.latin;
+      if (ok) quiz.score += 1;
+
+      document.querySelectorAll("#quiz-answers .answer").forEach((el) => {
+        el.disabled = true;
+        if (el.dataset.latin === quiz.current.latin) el.classList.add("is-correct");
+        else if (el === btn && !ok) el.classList.add("is-wrong");
+      });
+
+      const fb = document.getElementById("quiz-feedback");
+      fb.textContent = ok ? "Bien joué !" : `C’était : ${quiz.current.common}`;
+      fb.className = "feedback " + (ok ? "is-ok" : "is-ko");
+      document.getElementById("quiz-score").textContent = `${quiz.score} / ${quiz.total}`;
+      document.getElementById("quiz-next").hidden = false;
+    }
+
+    document.querySelectorAll("[data-nav]").forEach((el) => {
+      el.addEventListener("click", (e) => {
+        e.preventDefault();
+        setScreen(el.dataset.nav);
+      });
+    });
+
+    filtersEl.addEventListener("click", (e) => {
+      const btn = e.target.closest("[data-order]");
+      if (!btn) return;
+      activeOrder = btn.dataset.order;
+      renderFilters();
+      renderGrid();
+    });
+
+    search.addEventListener("input", renderGrid);
+
+    grid.addEventListener("click", (e) => {
+      const card = e.target.closest(".card");
+      if (!card) return;
+      openSheet(BIRDS[+card.dataset.index]);
+    });
+
+    document.getElementById("sheet-back").addEventListener("click", closeSheet);
+    document.getElementById("mode-photo").addEventListener("click", startQuiz);
+    document.getElementById("quiz-back").addEventListener("click", showTrainHub);
+    document.getElementById("quiz-next").addEventListener("click", nextQuestion);
+
+    document.getElementById("quiz-answers").addEventListener("click", (e) => {
+      const btn = e.target.closest(".answer");
+      if (btn) onAnswer(btn);
+    });
+
+    window.addEventListener("hashchange", () => {
+      setScreen(location.hash.replace("#", "") || "accueil");
+    });
+
+    renderFilters();
+    renderGrid();
+    setScreen(location.hash.replace("#", "") || "accueil");
+  </script>
+</body>
+</html>

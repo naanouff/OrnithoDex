@@ -1,7 +1,7 @@
 ﻿# Inséparable de Liliane
 
 - **Slug** : `agapornis-lilianae`
-- **Statut documentation** : `liste_seule`
+- **Statut documentation** : `complete`
 - **Dernière vérification** : 2026-10-10
 
 ## Identité
@@ -15,27 +15,55 @@
 
 ## Description
 
+Évalué **Near Threatened** (2018 ; C1). EOO ≈ 539 000 km² ; ≈ 6 000–15 000 individus matures ; tendance **en diminution**. Vallée du Zambèze (Mozambique, Zimbabwe), Luangwa (Zambie, Tanzanie sud), Shire (Malawi).  
+*Source : birdlife-agapornis-lilianae.*
+
 ## Dimorphisme sexuel
+
+`na` — non décrit dans la fiche BirdLife consultée.  
+*Source : birdlife-agapornis-lilianae.*
 
 ## Habitat d’origine
 
+Forte association au mopane (*Colophospermum mopane*) au sud ; aussi *Acacia* sur alluvions, forêt riveraine, figuiers au nord ; à Liwonde (Malawi) surtout prairies humides. Habitats : savane sèche (major), forêts sèches et humides de basse altitude, cultures (suitable).  
+*Source : birdlife-agapornis-lilianae.*
+
 ## Régime alimentaire
+
+Graines de graminées (*Hyparrhenia*, mil, riz sauvage *Oryza perennis*) ; aussi fleurs, graines et fruits d’autres plantes.  
+*Source : birdlife-agapornis-lilianae (citant del Hoyo et al. 1997 ; Mzumara et al. 2014).*
 
 ## Comportement
 
+Non migrateur. Nid couvert dans crevasses de mopane ; reproduction janvier–mars et juin–juillet (Zambie). Menaces : capture pour le commerce, inondations de barrages, statut de ravageur agricole.  
+*Source : birdlife-agapornis-lilianae.*
+
 ## Chant et vocalisations
+
+Enregistrement XC933097 (Magnus Wadstein — CC BY-NC-SA 4.0) : https://xeno-canto.org/933097
 
 ## Points de cours à retenir
 
+<!-- Aides à la mémorisation (pas un polycopié enseignant). -->
+
+- **[programme]** Inséparable de Liliane ↔ *Agapornis lilianae* ; Psittaciformes ; Psittacidés
+- **[programme]** Confusion : *A. nigrigenis* (aussi mopane / Zambèze) — Liliane = NT, aire plus large
+- **[sourcé]** **Near Threatened** ; population ≈ 6 000–15 000 matures ; en diminution
+- **[sourcé]** Forte association au mopane ; graines de graminées (+ fleurs / fruits)
+- **[sourcé]** Menaces : commerce, barrages, statut de ravageur agricole
+
 ## Médias
 
-| Type | Fichier | Crédit / licence | Source README |
-|------|---------|------------------|---------------|
-| Image | `/images/birds/agapornis-lilianae.webp` | *à fournir* | |
-| Audio | `/audio/birds/agapornis-lilianae.mp3` | *à fournir* | |
+| Type | Fichier / URL | Crédit / licence | Source README |
+|------|--------------|------------------|---------------|
+| Image | https://commons.wikimedia.org/wiki/File:Lilian%27s_Lovebird_(Agapornis_lilianae)_(23710441211).jpg | Lip Kee — CC BY-SA 2.0 | media-agapornis-lilianae-img |
+| Audio | https://xeno-canto.org/933097 | Magnus Wadstein — CC BY-NC-SA 4.0 | media-agapornis-lilianae-audio |
 
 ## Sources
 
 | Id | Titre | Éditeur / auteur | Année | URL | Note |
 |----|-------|------------------|-------|-----|------|
-| bac-pro-tcva-liste | Liste des oiseaux – BAC PRO TCVA (MP6) | Support de cours / arrêtés 02/07/2009 + domestiques | 2009 | | Identité programme |
+| bac-pro-tcva-liste | Liste des oiseaux – BAC PRO TCVA (MP6) | Support de cours | 2009 | | Identité programme |
+| birdlife-agapornis-lilianae | Nyasa Lovebird Agapornis lilianae — Species Factsheet | BirdLife International | 2018 | https://datazone.birdlife.org/species/factsheet/nyasa-lovebird-agapornis-lilianae | Consulté 2026-10-10 |
+| media-agapornis-lilianae-img | File:Lilian's Lovebird (Agapornis lilianae) (23710441211).jpg | Lip Kee / Wikimedia Commons | 2015 | https://commons.wikimedia.org/wiki/File:Lilian%27s_Lovebird_(Agapornis_lilianae)_(23710441211).jpg | CC BY-SA 2.0 ; Liwonde, Malawi |
+| media-agapornis-lilianae-audio | XC933097 | Magnus Wadstein / Xeno-canto | | https://xeno-canto.org/933097 | CC BY-NC-SA 4.0 |
