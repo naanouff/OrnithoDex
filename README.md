@@ -19,6 +19,7 @@ Le cadrage et le plan complets sont dans [`documentation/`](documentation/) :
 - **[Plan du projet](documentation/projet/plan.md)** — feuille de route V1
 - **[Plan sources](documentation/projet/plan-sources.md)** — enrichissement des fiches (biologie + médias)
 - **[Plan pédagogie](documentation/projet/plan-pedagogie.md)** — cadre ingénieur pédagogue + points de cours
+- **[Charte pédagogique](documentation/projet/pedagogie.md)** — objectifs, parcours, contrat points de cours (aides projet, pas polycopié enseignant)
 - [Vision](documentation/projet/vision.md) · [Cahier des charges](documentation/projet/cahier-des-charges.md) · [Architecture](documentation/projet/architecture.md)
 - [Journal de développement](documentation/journal/)
 - [Référentiel ornithologie](documentation/ornithologie/) · [Liste des espèces](documentation/ornithologie/especes.md)
@@ -26,7 +27,7 @@ Le cadrage et le plan complets sont dans [`documentation/`](documentation/) :
 ## Statut
 
 Sources : méthode [plan-sources.md](documentation/projet/plan-sources.md) · sprints [01](documentation/projet/sprint-01-sources.md)–**[15](documentation/projet/sprint-15-sources.md)** — **85/85** fiches `complete` (biologie + médias) · suivi [suivi-sources.md](documentation/ornithologie/suivi-sources.md).  
-Points de cours : plan consigné dans [plan-pedagogie.md](documentation/projet/plan-pedagogie.md) (exécution cadre + contenu à venir ; pas de polycopié enseignant). Développement applicatif (Vite / React / TypeScript / Tailwind) ensuite.
+Points de cours : [charte](documentation/projet/pedagogie.md) livrée ; contenu fiche par fiche à venir ([plan-pedagogie.md](documentation/projet/plan-pedagogie.md)) — aides à la rétention du **projet**, pas un polycopié enseignant. Développement applicatif (Vite / React / TypeScript / Tailwind) ensuite.
 
 Licence du code : **MIT** — voir [`LICENSE`](LICENSE).
 

@@ -46,7 +46,11 @@ Les sections sans source restent **vides** (ne pas inventer). Méthode : [plan-s
 
 ## Points de cours à retenir
 
-*Plan : [plan-pedagogie.md](../projet/plan-pedagogie.md) — aides à la rétention (pas un polycopié enseignant) ; format `programme` | `sourcé` à appliquer lors de l’exécution.*
+<!-- Aides à la mémorisation (pas un polycopié enseignant). Chaque puce : programme | sourcé. Charte : pedagogie.md -->
+
+- **[programme]** Nom commun ↔ binôme ; ordre ; famille
+- **[programme]** Confusion fréquente : … (même genre / noms proches / même famille dans le référentiel)
+- **[sourcé]** … (uniquement si la section amont est remplie et sourcée)
 
 ## Médias
 
