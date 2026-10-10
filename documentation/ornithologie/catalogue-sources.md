@@ -10,11 +10,14 @@ Toute utilisation concrète (URL d’une fiche espèce, fichier média) doit aus
 | Id | Organisme | URL racine | Usage | Date d’adoption |
 |----|-----------|------------|-------|-----------------|
 | `iucn-redlist` | IUCN Red List of Threatened Species | https://www.iucnredlist.org/ | Habitat, répartition, statut, traits | 2026-10-10 |
-| `birdlife-datazone` | BirdLife International DataZone | https://datazone.birdlife.org/ | Complément habitat / répartition | 2026-10-10 |
+| `birdlife-datazone` | BirdLife International DataZone | https://datazone.birdlife.org/ | Habitat, population, écologie (principal) | 2026-10-10 |
+| `animal-diversity-web` | Animal Diversity Web (University of Michigan) | https://animaldiversity.org/ | Dimorphisme, régime, comportement (complément) | 2026-10-10 |
 | `avibase` | Avibase — the world bird database | https://avibase.bsc-eoc.org/ | Vérification taxonomique, synonymes, liens | 2026-10-10 |
-| `xeno-canto` | Xeno-canto | https://xeno-canto.org/ | Enregistrements sonores (licence par fichier) | 2026-10-10 |
+| `xeno-canto` | Xeno-canto | https://xeno-canto.org/ | Enregistrements sonores — fichier précis + licence | 2026-10-10 |
 | `wikimedia-commons` | Wikimedia Commons | https://commons.wikimedia.org/ | Images (licence + auteur par fichier) | 2026-10-10 |
 | `bac-pro-tcva-liste` | Liste oiseaux BAC PRO TCVA MP6 | (support de cours) | Identité programme uniquement | 2026-10-10 |
+
+Faits du texte *Habitat and ecology* BirdLife avec citation secondaire nommée (del Hoyo, Baptista, etc. *via* BirdLife) : autorisés.
 
 ## Licences médias acceptées
 

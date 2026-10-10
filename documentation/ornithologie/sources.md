@@ -37,4 +37,5 @@ Source unique initiale : `bac-pro-tcva-liste` — voir [programme.md](programme.
 
 Liste des bases approuvées et URLs : [catalogue-sources.md](catalogue-sources.md).  
 Suivi espèce par espèce : [suivi-sources.md](suivi-sources.md).  
-Sprint en cours : [sprint-01-sources.md](../projet/sprint-01-sources.md).
+Plan sources (méthode `complete`) : [plan-sources.md](../projet/plan-sources.md).  
+Sprint en cours : [sprint-03a-sources.md](../projet/sprint-03a-sources.md).

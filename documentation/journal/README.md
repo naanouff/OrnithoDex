@@ -19,3 +19,4 @@ Chronique courte des sessions de travail : décisions, avancement, blocages.
 | 2026-10-10 | [2026-10-10-6.md](2026-10-10-6.md) — Rappel Gitflow (feature → PR → develop) |
 | 2026-10-10 | [2026-10-10-7.md](2026-10-10-7.md) — Sprint 02 sources (Columbiformes) |
 | 2026-10-10 | [2026-10-10-8.md](2026-10-10-8.md) — Suppression auto des branches après merge |
+| 2026-10-10 | [2026-10-10-9.md](2026-10-10-9.md) — Plan fiches complètes + préparation sprint 03a |
