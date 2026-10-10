@@ -44,7 +44,13 @@ Enregistrement XC793299 (Kim Chuah Lim — CC BY-NC-SA 4.0) : https://xeno-canto
 
 ## Points de cours à retenir
 
-*En attente ingénieur pédagogique / supports de cours.*
+<!-- Aides à la mémorisation (pas un polycopié enseignant). -->
+
+- **[programme]** Calfat / padda ↔ *Lonchura oryzivora* ; Passériformes ; Estrildidés
+- **[programme]** BirdLife : *Padda oryzivora* — seul **Endangered** du lot Lonchura
+- **[sourcé]** EN ; 1 000–2 499 matures ; déclin (piégeage cage)
+- **[sourcé]** Endémique Java / Bali (+ introductions) ; CITES Annexe II
+- **[sourcé]** Non migrateur ; urbain, jardins, cultures ; grégaire hors reproduction
 
 ## Médias
 

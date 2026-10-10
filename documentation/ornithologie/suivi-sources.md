@@ -72,12 +72,12 @@ Plan sources : [plan-sources.md](../projet/plan-sources.md) (85/85 `complete`) Â
 | lonchura-malacca-malacca | ok | ok | ok | ok | ok | na | ok | na | ok | ok | BirdLife: L. malacca |
 | lonchura-malacca-atricapilla | ok | ok | ok | ok | ok | na | ok | na | ok | ok | BirdLife: L. atricapilla |
 | lonchura-cantans | ok | ok | ok | ok | ok | na | ok | na | ok | ok | BirdLife: Euodice cantans |
-| lonchura-cucullata | ok | ok | ok | ok | ok | na | ok | na | ok | attente | BirdLife: Spermestes cucullata |
-| lonchura-maja | ok | ok | ok | ok | ok | na | ok | na | ok | attente | |
-| lonchura-malabarica | ok | ok | ok | ok | ok | na | ok | na | ok | attente | BirdLife: Euodice malabarica |
-| lonchura-punctulata | ok | ok | ok | ok | ok | na | ok | na | ok | attente | |
-| lonchura-oryzivora | ok | ok | ok | ok | ok | na | ok | na | ok | attente | BirdLife: Padda oryzivora ; EN |
-| neochmia-modesta | ok | ok | ok | ok | ok | na | ok | na | ok | attente | XC: Aidemosyne modesta |
+| lonchura-cucullata | ok | ok | ok | ok | ok | na | ok | na | ok | ok | BirdLife: Spermestes cucullata |
+| lonchura-maja | ok | ok | ok | ok | ok | na | ok | na | ok | ok | |
+| lonchura-malabarica | ok | ok | ok | ok | ok | na | ok | na | ok | ok | BirdLife: Euodice malabarica |
+| lonchura-punctulata | ok | ok | ok | ok | ok | na | ok | na | ok | ok | |
+| lonchura-oryzivora | ok | ok | ok | ok | ok | na | ok | na | ok | ok | BirdLife: Padda oryzivora ; EN |
+| neochmia-modesta | ok | ok | ok | ok | ok | na | ok | na | ok | ok | XC: Aidemosyne modesta |
 | neochmia-ruficauda | ok | ok | ok | ok | ok | na | ok | na | ok | attente | XC: Bathilda ruficauda |
 | stagonopleura-guttata | ok | ok | ok | ok | ok | na | ok | na | ok | attente | VU |
 | taeniopygia-bichenovii | ok | ok | ok | ok | ok | na | ok | na | ok | attente | XC: Stizoptera bichenovii |
