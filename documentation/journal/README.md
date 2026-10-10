@@ -15,3 +15,4 @@ Chronique courte des sessions de travail : décisions, avancement, blocages.
 | 2026-10-10 | [2026-10-10-2.md](2026-10-10-2.md) — Plan sources (enrichissement fiches) |
 | 2026-10-10 | [2026-10-10-3.md](2026-10-10-3.md) — Nom de code OrnithoDex |
 | 2026-10-10 | [2026-10-10-4.md](2026-10-10-4.md) — Préparation dépôt GitHub |
+| 2026-10-10 | [2026-10-10-5.md](2026-10-10-5.md) — Sprint 01 sources (lot pilote) |

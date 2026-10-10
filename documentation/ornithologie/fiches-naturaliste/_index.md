@@ -1,15 +1,15 @@
 ﻿# Fiches du naturaliste
 
-Squelettes générés le 2026-10-10 — **identité programme uniquement**. Aucune biologie inventée.
+Générés le 2026-10-10. Lot pilote (6 premières) enrichi en `partielle` — sprint 01. Aucune biologie inventée.
 
 | Slug | Nom commun | Statut |
 |------|------------|--------|
-| [coturnix-chinensis](coturnix-chinensis.md) | Caille peinte de Chine | liste_seule |
-| [gallus-gallus-domesticus](gallus-gallus-domesticus.md) | Poule domestique | liste_seule |
-| [colinus-virginianus](colinus-virginianus.md) | Colin de Virginie | liste_seule |
-| [callipepla-californica](callipepla-californica.md) | Colin de Californie | liste_seule |
-| [aix-galericulata](aix-galericulata.md) | Canard mandarin | liste_seule |
-| [aix-sponsa](aix-sponsa.md) | Canard carolin | liste_seule |
+| [coturnix-chinensis](coturnix-chinensis.md) | Caille peinte de Chine | partielle |
+| [gallus-gallus-domesticus](gallus-gallus-domesticus.md) | Poule domestique | partielle |
+| [colinus-virginianus](colinus-virginianus.md) | Colin de Virginie | partielle |
+| [callipepla-californica](callipepla-californica.md) | Colin de Californie | partielle |
+| [aix-galericulata](aix-galericulata.md) | Canard mandarin | partielle |
+| [aix-sponsa](aix-sponsa.md) | Canard carolin | partielle |
 | [geopelia-cuneata](geopelia-cuneata.md) | Colombe diamant | liste_seule |
 | [geopelia-striata](geopelia-striata.md) | Colombe zébrée | liste_seule |
 | [oena-capensis](oena-capensis.md) | Tourterelle masque de fer | liste_seule |

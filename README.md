@@ -24,7 +24,8 @@ Le cadrage et le plan complets sont dans [`documentation/`](documentation/) :
 
 ## Statut
 
-Phase 0 : base documentaire en place. Prochaine étape doc : exécution du [plan sources](documentation/projet/plan-sources.md). Développement applicatif (Vite / React / TypeScript / Tailwind) ensuite.
+Sprint 01 sources en cours : [sprint-01-sources.md](documentation/projet/sprint-01-sources.md) · suivi [suivi-sources.md](documentation/ornithologie/suivi-sources.md).  
+Développement applicatif (Vite / React / TypeScript / Tailwind) ensuite.
 
 Licence du code : **MIT** — voir [`LICENSE`](LICENSE).
 
@@ -32,7 +33,8 @@ Licence du code : **MIT** — voir [`LICENSE`](LICENSE).
 
 Registre public de **toutes** les sources utilisées dans le projet. Toute nouvelle source (fiche, photo, son) doit y être ajoutée.
 
-Politique détaillée : [`documentation/ornithologie/sources.md`](documentation/ornithologie/sources.md).
+- Politique : [`documentation/ornithologie/sources.md`](documentation/ornithologie/sources.md)
+- Catalogue : [`documentation/ornithologie/catalogue-sources.md`](documentation/ornithologie/catalogue-sources.md)
 
 ### Programme et identité des espèces
 
@@ -40,14 +42,25 @@ Politique détaillée : [`documentation/ornithologie/sources.md`](documentation/
 |----|-------|--------------------|-------|-----|--------|
 | `bac-pro-tcva-liste` | Liste des oiseaux – BAC PRO TCVA (MP6), arrêtés du 02 juillet 2009 + espèces domestiques | Support de cours transmis pour le projet (réf. arrêtés 02/07/2009) | 2009 | — | Noms scientifiques, noms communs, ordre, famille |
 
-### Ouvrages et sites
+### Bases et sites (enrichissement)
 
-*Aucune source d’enrichissement biologique enregistrée pour l’instant.*
+| Id | Titre | Organisme | URL | Usage |
+|----|-------|-----------|-----|--------|
+| `iucn-redlist` | IUCN Red List of Threatened Species | IUCN | https://www.iucnredlist.org/ | Statut, traits (via fiches espèce) |
+| `birdlife-datazone` | BirdLife DataZone | BirdLife International | https://datazone.birdlife.org/ | Habitat, population, écologie |
+| `avibase` | Avibase | Denis Lepage / BSC-EOC | https://avibase.bsc-eoc.org/ | Contrôle taxonomique, synonymes |
+| `xeno-canto` | Xeno-canto | Xeno-canto Foundation | https://xeno-canto.org/ | Pages espèce audio (fichier précis à créditer à la sélection) |
+| `wikimedia-commons` | Wikimedia Commons | Wikimedia | https://commons.wikimedia.org/ | Images libres (licence par fichier) |
 
-### Médias (images et sons)
+Fiches espèce BirdLife / IUCN / Avibase utilisées (sprint 01) : détail dans chaque [fiche du naturaliste](documentation/ornithologie/fiches-naturaliste/) du lot pilote.
 
-*Aucun fichier média versionné pour l’instant — placeholders prévus dans `public/` lors du développement.*
+### Médias retenus (sprint 01 — liens ; copie locale plus tard)
 
-| Espèce (slug) | Type | Auteur | Licence | URL | Fichier |
-|---------------|------|--------|---------|-----|---------|
-| — | — | — | — | — | — |
+| Espèce (slug) | Type | Auteur | Licence | URL |
+|---------------|------|--------|---------|-----|
+| `coturnix-chinensis` | Image | DickDaniels | CC BY-SA 3.0 | https://commons.wikimedia.org/wiki/File:Chinese_Painted_Quail_RWD12a.jpg |
+| `gallus-gallus-domesticus` | Image | SimonWaldherr | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Rooster_and_Hen.jpg |
+| `colinus-virginianus` | Image | DickDaniels | CC BY-SA 3.0 | https://commons.wikimedia.org/wiki/File:Northern_Bobwhite_female_RWD.jpg |
+| `callipepla-californica` | Image | Nick Myatt / ODFW | CC BY-SA 2.0 | https://commons.wikimedia.org/wiki/File:Valley_quail_myatt_(5489811278)_(cropped).jpg |
+| `aix-galericulata` | Image | Alexis Lours | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Mandarin_duck_(Aix_galericulata).jpg |
+| `aix-sponsa` | Image | Dick Daniels | CC BY-SA 3.0 | https://commons.wikimedia.org/wiki/File:Wood_Duck_(Aix_sponsa).jpg |

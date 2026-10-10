@@ -11,9 +11,12 @@ Contenu pédagogique lié au programme **MP6 – TCVA – Ornithologie** (oiseau
 | [especes.md](especes.md) | Index des espèces → fiches |
 | [glossaire.md](glossaire.md) | Termes utiles |
 | [sources.md](sources.md) | Politique de sourcing |
+| [catalogue-sources.md](catalogue-sources.md) | Bases approuvées |
+| [suivi-sources.md](suivi-sources.md) | Tableau de progression (85 espèces) |
 | [modele-fiche-naturaliste.md](modele-fiche-naturaliste.md) | Gabarit obligatoire |
 | [fiches-naturaliste/](fiches-naturaliste/) | Une fiche par espèce |
-| [Plan sources](../projet/plan-sources.md) | Méthode d’enrichissement (catalogue, lots, suivi) |
+| [Plan sources](../projet/plan-sources.md) | Méthode d’enrichissement |
+| [Sprint 01](../projet/sprint-01-sources.md) | Lot pilote Galliformes + Ansériformes |
 
 ## Règle
 

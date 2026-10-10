@@ -32,3 +32,9 @@ Sources non acceptées seules : rumeurs, forums non expertisés, « connaissance
 ## Identité programme
 
 Source unique initiale : `bac-pro-tcva-liste` — voir [programme.md](programme.md).
+
+## Catalogue opérationnel
+
+Liste des bases approuvées et URLs : [catalogue-sources.md](catalogue-sources.md).  
+Suivi espèce par espèce : [suivi-sources.md](suivi-sources.md).  
+Sprint en cours : [sprint-01-sources.md](../projet/sprint-01-sources.md).
