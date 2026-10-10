@@ -45,7 +45,13 @@ Enregistrement XC1182205 (David Darrell-Lambert — CC BY-NC-SA 4.0) : https://x
 
 ## Points de cours à retenir
 
-*En attente ingénieur pédagogique / supports de cours.*
+<!-- Aides à la mémorisation (pas un polycopié enseignant). -->
+
+- **[programme]** Perruche grande alexandre ↔ *Psittacula eupatria* ; Psittaciformes ; Psittacidés
+- **[programme]** Confusion : collier d'Asie (*krameri*) — grande alexandre = plus grande, statut **nomade**
+- **[sourcé]** Least Concern ; BirdLife : *Palaeornis eupatria* ; tendance en augmentation
+- **[sourcé]** Fruits, graines, nectar, bourgeons ; peut ravageur des cultures
+- **[sourcé]** Forêts sèches/humides de basse altitude (majeurs)
 
 ## Médias
 
