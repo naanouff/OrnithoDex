@@ -3,6 +3,7 @@ import { BottomNav } from './components/BottomNav'
 import { BirdSheetPage } from './pages/BirdSheetPage'
 import { CollectionPage } from './pages/CollectionPage'
 import { HomePage } from './pages/HomePage'
+import { QuizPage } from './pages/QuizPage'
 import { TrainingPage } from './pages/TrainingPage'
 
 export default function App() {
@@ -14,6 +15,7 @@ export default function App() {
           <Route path="/collection" element={<CollectionPage />} />
           <Route path="/espece/:slug" element={<BirdSheetPage />} />
           <Route path="/entrainement" element={<TrainingPage />} />
+          <Route path="/entrainement/:mode" element={<QuizPage />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
         <BottomNav />
