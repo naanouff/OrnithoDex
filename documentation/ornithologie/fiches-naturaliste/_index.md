@@ -39,12 +39,12 @@ Générés le 2026-10-10. Lots en `complete` (sprint 03a) : Galliformes, Anséri
 | [poicephalus-senegalus](poicephalus-senegalus.md) | Youyou du Sénégal | complete |
 | [polytelis-alexandrae](polytelis-alexandrae.md) | Perruche princesse de Galles ou à calotte bleue | complete |
 | [polytelis-anthopeplus](polytelis-anthopeplus.md) | Perruche mélanure | complete |
-| [psephotus-haematonotus-haematonotus](psephotus-haematonotus-haematonotus.md) | Perruche à croupion rouge | liste_seule |
-| [psittacula-krameri-manillensis](psittacula-krameri-manillensis.md) | Perruche à collier d'Asie | liste_seule |
-| [psittacula-cyanocephala](psittacula-cyanocephala.md) | Perruche tête de prune | liste_seule |
-| [psittacula-eupatria](psittacula-eupatria.md) | Perruche grande alexandre | liste_seule |
-| [psittacus-erithacus](psittacus-erithacus.md) | Perroquet gris du Gabon ou jaco | liste_seule |
-| [pyrrhura-molinae](pyrrhura-molinae.md) | Conure de Molina | liste_seule |
+| [psephotus-haematonotus-haematonotus](psephotus-haematonotus-haematonotus.md) | Perruche à croupion rouge | complete |
+| [psittacula-krameri-manillensis](psittacula-krameri-manillensis.md) | Perruche à collier d'Asie | complete |
+| [psittacula-cyanocephala](psittacula-cyanocephala.md) | Perruche tête de prune | complete |
+| [psittacula-eupatria](psittacula-eupatria.md) | Perruche grande alexandre | complete |
+| [psittacus-erithacus](psittacus-erithacus.md) | Perroquet gris du Gabon ou jaco | complete |
+| [pyrrhura-molinae](pyrrhura-molinae.md) | Conure de Molina | complete |
 | [eolophus-roseicapilla](eolophus-roseicapilla.md) | Cacatoès rosalbin | complete |
 | [nymphicus-hollandicus](nymphicus-hollandicus.md) | Calopsitte | complete |
 | [cacatua-alba](cacatua-alba.md) | Cacatoès blanc | complete |

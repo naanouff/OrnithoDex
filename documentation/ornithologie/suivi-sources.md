@@ -41,12 +41,12 @@ Plan : [plan-sources.md](../projet/plan-sources.md) · Sprints : [01](../projet/
 | poicephalus-senegalus | ok | ok | ok | ok | ok | ok | ok | ok | ok | attente | ADW; commerce; sprint 07 |
 | polytelis-alexandrae | ok | ok | ok | ok | ok | na | ok | ok | ok | attente | NT; sprint 07 |
 | polytelis-anthopeplus | ok | ok | ok | ok | ok | na | ok | na | ok | attente | déclin; sprint 07 |
-| psephotus-haematonotus-haematonotus | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
-| psittacula-krameri-manillensis | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
-| psittacula-cyanocephala | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
-| psittacula-eupatria | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
-| psittacus-erithacus | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
-| pyrrhura-molinae | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
+| psephotus-haematonotus-haematonotus | ok | ok | ok | ok | ok | na | ok | na | ok | attente | sous-esp. programme; dimorphisme/régime na; sprint 08 |
+| psittacula-krameri-manillensis | ok | ok | ok | ok | ok | ok | ok | ok | ok | attente | Alexandrinus; ADW; sous-esp. manillensis; sprint 08 |
+| psittacula-cyanocephala | ok | ok | ok | ok | ok | na | ok | na | ok | attente | Himalayapsitta; dimorphisme/régime na; sprint 08 |
+| psittacula-eupatria | ok | ok | ok | ok | ok | na | ok | ok | ok | attente | Palaeornis; nomade; dimorphisme na; sprint 08 |
+| psittacus-erithacus | ok | ok | ok | ok | ok | ok | ok | ok | ok | attente | EN; ADW; sprint 08 |
+| pyrrhura-molinae | ok | ok | ok | ok | ok | ok | ok | ok | ok | attente | ADW; sprint 08 |
 | eolophus-roseicapilla | ok | ok | ok | ok | ok | na | ok | ok | ok | attente | BirdLife AU; dimorphisme na; sprint 03b |
 | nymphicus-hollandicus | ok | ok | ok | ok | ok | ok | ok | ok | ok | attente | ADW; sprint 03b |
 | cacatua-alba | ok | ok | ok | ok | ok | na | ok | ok | ok | attente | EN; dimorphisme na; sprint 03b |

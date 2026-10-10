@@ -138,3 +138,15 @@ Fiches espèce BirdLife / ADW / Avibase (sprints 01–07) : détail dans chaque 
 | `polytelis-alexandrae` | Audio | Mark Carter | CC BY-NC-SA 4.0 | https://xeno-canto.org/488068 |
 | `polytelis-anthopeplus` | Image | David Cook Wildlife Photography | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Polytelis_anthopeplus_-Wyperfeld_National_Park_-Australia-8.jpg |
 | `polytelis-anthopeplus` | Audio | Drew Davison | CC BY-NC-SA 4.0 | https://xeno-canto.org/638864 |
+| `psephotus-haematonotus-haematonotus` | Image | Toby Hudson | CC BY-SA 3.0 | https://commons.wikimedia.org/wiki/File:Red_Rumped_Parrot_Males.jpg |
+| `psephotus-haematonotus-haematonotus` | Audio | Marc Anderson | CC BY-NC-ND 4.0 | https://xeno-canto.org/692681 |
+| `psittacula-krameri-manillensis` | Image | Bernard Spragg. NZ | CC0 | https://commons.wikimedia.org/wiki/File:Indian_Ringneck_parrot._(Psittacula_krameri),_(9779826796).jpg |
+| `psittacula-krameri-manillensis` | Audio | Sam Hambly | CC BY-NC-SA 4.0 | https://xeno-canto.org/1180800 |
+| `psittacula-cyanocephala` | Image | J.M.Garg | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Plum-headed_Parakeet_(Psittacula_cyanocephala)_in_Hyderabad_W_IMG_4536.jpg |
+| `psittacula-cyanocephala` | Audio | Marc Anderson | CC BY-NC-ND 4.0 | https://xeno-canto.org/809699 |
+| `psittacula-eupatria` | Image | Hari K Patibanda | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:A_Male_with_another_-_Alexandrine_Parakeets_(51005695606).jpg |
+| `psittacula-eupatria` | Audio | David Darrell-Lambert | CC BY-NC-SA 4.0 | https://xeno-canto.org/1182205 |
+| `psittacus-erithacus` | Image | Nasimahmed01 | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:African-Grey-Parrot.jpg |
+| `psittacus-erithacus` | Audio | Antoine Ede | CC BY-NC-SA 4.0 | https://xeno-canto.org/1137653 |
+| `pyrrhura-molinae` | Image | Dan Muntz | CC BY-SA 2.0 | https://commons.wikimedia.org/wiki/File:Green_Cheecked_Conure.jpg |
+| `pyrrhura-molinae` | Audio | Bo Shunqi 薄顺奇 | CC BY-NC-SA 4.0 | https://xeno-canto.org/1180569 |
