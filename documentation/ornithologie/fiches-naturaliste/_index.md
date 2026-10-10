@@ -79,12 +79,12 @@ Générés le 2026-10-10. Lots en `complete` (sprint 03a) : Galliformes, Anséri
 | [neochmia-ruficauda](neochmia-ruficauda.md) | Diamant à queue rousse | complete |
 | [stagonopleura-guttata](stagonopleura-guttata.md) | Diamant à gouttelettes | complete |
 | [taeniopygia-bichenovii](taeniopygia-bichenovii.md) | Diamant de Bichenow | complete |
-| [taeniopygia-guttata-castanotis](taeniopygia-guttata-castanotis.md) | Diamant Mandarin | liste_seule |
-| [uraeginthus-bengalus](uraeginthus-bengalus.md) | Cordon bleu | liste_seule |
-| [uraeginthus-cyanocephalus](uraeginthus-cyanocephalus.md) | Cap bleu | liste_seule |
-| [poephila-acuticauda](poephila-acuticauda.md) | Diamant à longue queue | liste_seule |
-| [vidua-chalybeata](vidua-chalybeata.md) | Combassou | liste_seule |
-| [vidua-macroura](vidua-macroura.md) | Veuve dominicaine | liste_seule |
+| [taeniopygia-guttata-castanotis](taeniopygia-guttata-castanotis.md) | Diamant Mandarin | complete |
+| [uraeginthus-bengalus](uraeginthus-bengalus.md) | Cordon bleu | complete |
+| [uraeginthus-cyanocephalus](uraeginthus-cyanocephalus.md) | Cap bleu | complete |
+| [poephila-acuticauda](poephila-acuticauda.md) | Diamant à longue queue | complete |
+| [vidua-chalybeata](vidua-chalybeata.md) | Combassou | complete |
+| [vidua-macroura](vidua-macroura.md) | Veuve dominicaine | complete |
 | [vidua-orientalis](vidua-orientalis.md) | Veuve à collier d'or | liste_seule |
 | [serinus-leucopygius](serinus-leucopygius.md) | Chanteur d'Afrique | liste_seule |
 | [serinus-mozambicus](serinus-mozambicus.md) | Serin du Mozambique | liste_seule |

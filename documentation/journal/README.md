@@ -32,5 +32,6 @@ Chronique courte des sessions de travail : décisions, avancement, blocages.
 | 2026-10-10 | [2026-10-10-20.md](2026-10-10-20.md) — Sprint 11 Passériformes C / Estrildidés (6 fiches complete) |
 | 2026-10-10 | [2026-10-10-21.md](2026-10-10-21.md) — Sprint 12 Lonchura A (6 fiches complete) |
 | 2026-10-10 | [2026-10-10-22.md](2026-10-10-22.md) — Sprint 13 Lonchura B / Estrildidés AU (6 fiches complete) |
+| 2026-10-10 | [2026-10-10-23.md](2026-10-10-23.md) — Sprint 14 Estrildidés / Vidua (6 fiches complete) |
 | 2026-10-10 | [2026-10-10-10.md](2026-10-10-10.md) — Consignation plan pédagogie |
 | 2026-10-10 | [2026-10-10-11.md](2026-10-10-11.md) — Public prioritaire seconde pro TCVA |

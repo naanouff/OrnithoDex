@@ -1,7 +1,7 @@
 ﻿# Diamant à longue queue
 
 - **Slug** : `poephila-acuticauda`
-- **Statut documentation** : `liste_seule`
+- **Statut documentation** : `complete`
 - **Dernière vérification** : 2026-10-10
 
 ## Identité
@@ -15,27 +15,48 @@
 
 ## Description
 
+Évalué **Least Concern** (2024). EOO ≈ 1 420 000 km² ; population non quantifiée ; tendance **stable**. Endémique nicheur d’Australie. Commerce signalé à forte prévalence.  
+*Source : birdlife-poephila-acuticauda.*
+
 ## Dimorphisme sexuel
+
+*na — sources consultées silencieuses.*
 
 ## Habitat d’origine
 
+Non migrateur. Forêts et savanes sèches subtropicales/tropicales.  
+*Source : birdlife-poephila-acuticauda.*
+
 ## Régime alimentaire
+
+*na — sources consultées silencieuses.*
 
 ## Comportement
 
+Sédentaire (non migrateur). Présent dans le commerce d’animaux de compagnie.  
+*Source : birdlife-poephila-acuticauda.*
+
 ## Chant et vocalisations
+
+Enregistrement XC668759 (James Lambert — CC BY-NC-ND 4.0) : https://xeno-canto.org/668759  
+*Source : media-poephila-acuticauda-audio.*
 
 ## Points de cours à retenir
 
+*En attente ingénieur pédagogique / supports de cours.*
+
 ## Médias
 
-| Type | Fichier | Crédit / licence | Source README |
-|------|---------|------------------|---------------|
-| Image | `/images/birds/poephila-acuticauda.webp` | *à fournir* | |
-| Audio | `/audio/birds/poephila-acuticauda.mp3` | *à fournir* | |
+| Type | Fichier / URL | Crédit / licence | Source README |
+|------|--------------|------------------|---------------|
+| Image | https://commons.wikimedia.org/wiki/File:Poephila_acuticauda_-Wulagi,_Darwin,_Australia-8a.jpg | Lip Kee Yap — CC BY-SA 2.0 | media-poephila-acuticauda-img |
+| Audio | https://xeno-canto.org/668759 | James Lambert — CC BY-NC-ND 4.0 | media-poephila-acuticauda-audio |
 
 ## Sources
 
 | Id | Titre | Éditeur / auteur | Année | URL | Note |
 |----|-------|------------------|-------|-----|------|
-| bac-pro-tcva-liste | Liste des oiseaux – BAC PRO TCVA (MP6) | Support de cours / arrêtés 02/07/2009 + domestiques | 2009 | | Identité programme |
+| bac-pro-tcva-liste | Liste des oiseaux – BAC PRO TCVA (MP6) | Support de cours | 2009 | | Identité programme |
+| birdlife-poephila-acuticauda | Long-tailed Finch Poephila acuticauda — Species Factsheet | BirdLife International | 2024 | https://datazone.birdlife.org/species/factsheet/long-tailed-finch-poephila-acuticauda | Consulté 2026-10-10 |
+| media-poephila-acuticauda-img | File:Poephila acuticauda -Wulagi, Darwin, Australia-8a.jpg | Lip Kee Yap / Wikimedia Commons | 2010 | https://commons.wikimedia.org/wiki/File:Poephila_acuticauda_-Wulagi,_Darwin,_Australia-8a.jpg | CC BY-SA 2.0 |
+| media-poephila-acuticauda-audio | XC668759 | James Lambert / Xeno-canto | | https://xeno-canto.org/668759 | CC BY-NC-ND 4.0 |

@@ -210,3 +210,15 @@ Fiches espèce BirdLife / ADW / Avibase (sprints 01–07) : détail dans chaque 
 | `stagonopleura-guttata` | Audio | Marc Anderson | CC BY-NC-ND 4.0 | https://xeno-canto.org/576505 |
 | `taeniopygia-bichenovii` | Image | JJ Harrison | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Taeniopygia_bichenovii_2_-_Glen_Davis.jpg |
 | `taeniopygia-bichenovii` | Audio | Marc Anderson | CC BY-NC-ND 4.0 | https://xeno-canto.org/816265 |
+| `taeniopygia-guttata-castanotis` | Image | JJ Harrison | CC BY-SA 3.0 | https://commons.wikimedia.org/wiki/File:Australian_Zebra_Finch_0A2A3013.jpg |
+| `taeniopygia-guttata-castanotis` | Audio | Frank Lambert | CC BY-NC-ND 4.0 | https://xeno-canto.org/407796 |
+| `uraeginthus-bengalus` | Image | Charles J. Sharp | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Red-cheeked_cordon-bleu_(Uraeginthus_bengalus_bengalus)_male.jpg |
+| `uraeginthus-bengalus` | Audio | Bram Piot | CC BY-NC-SA 4.0 | https://xeno-canto.org/405791 |
+| `uraeginthus-cyanocephalus` | Image | D. Gordon E. Robertson | CC BY-SA 3.0 | https://commons.wikimedia.org/wiki/File:Blue-capped_Cordon-bleu,_Ngorongoro.jpg |
+| `uraeginthus-cyanocephalus` | Audio | Martin Tlustos | CC BY-NC-SA 4.0 | https://xeno-canto.org/1030357 |
+| `poephila-acuticauda` | Image | Lip Kee Yap | CC BY-SA 2.0 | https://commons.wikimedia.org/wiki/File:Poephila_acuticauda_-Wulagi,_Darwin,_Australia-8a.jpg |
+| `poephila-acuticauda` | Audio | James Lambert | CC BY-NC-ND 4.0 | https://xeno-canto.org/668759 |
+| `vidua-chalybeata` | Image | Charles J. Sharp | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Village_indigobird_(Vidua_chalybeata_okavangoensis)_male_Zimbabwe.jpg |
+| `vidua-chalybeata` | Audio | Julien Birard | CC BY-NC-SA 4.0 | https://xeno-canto.org/982686 |
+| `vidua-macroura` | Image | Charles J. Sharp | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Pin-tailed_whydah_(Vidua_macroura)_breeding_male.jpg |
+| `vidua-macroura` | Audio | African Bioacoustics Community | CC BY-NC-SA 4.0 | https://xeno-canto.org/1183545 |
