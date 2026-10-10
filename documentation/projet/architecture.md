@@ -13,7 +13,8 @@ Voir aussi le [plan](plan.md).
 
 ```mermaid
 flowchart LR
-  docs[fiches-naturaliste MD] --> data[src/data]
+  docs[fiches-naturaliste MD] --> gen[npm run data:birds]
+  gen --> data[src/data/birds.ts]
   data --> app[React App]
   assets[public/images + audio] --> app
   app --> collection[Collection]
@@ -21,6 +22,8 @@ flowchart LR
   app --> quiz[Quiz]
   fiche --> sourcesUI[Sources visibles]
 ```
+
+Générateur : [`scripts/build-birds.mjs`](../../scripts/build-birds.mjs) — identité, points de cours, médias (URL), sources, sections biologie sourcées.
 
 ## Stack
 
