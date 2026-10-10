@@ -18,12 +18,12 @@ Plan sources : [plan-sources.md](../projet/plan-sources.md) (85/85 `complete`) �
 | streptopelia-senegalensis | ok | ok | ok | ok | ok | na | ok | ok | ok | ok | Spilopelia; dimorphisme na; sprint 03a |
 | streptopelia-risoria | na | ok | ok | ok | ok | ok | ok | ok | ok | ok | Forme domestique; ADW S. roseogrisea; sprint 03a |
 | columba-livia | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok | ADW; sprint 03a |
-| agapornis-roseicollis | ok | ok | ok | ok | ok | ok | ok | ok | ok | attente | ADW; sprint 04 |
-| agapornis-fischeri | ok | ok | ok | ok | ok | ok | ok | ok | ok | attente | NT; ADW; sprint 04 |
-| agapornis-personatus | ok | ok | ok | ok | ok | na | ok | na | ok | attente | régime/dimorphisme na; sprint 04 |
-| agapornis-lilianae | ok | ok | ok | ok | ok | na | ok | ok | ok | attente | NT; dimorphisme na; sprint 04 |
-| agapornis-nigrigenis | ok | ok | ok | ok | ok | na | ok | ok | ok | attente | VU; spécimen Naturalis; sprint 04 |
-| amazona-aestiva | ok | ok | ok | ok | ok | ok | ok | ok | ok | attente | NT; ADW; sprint 05 |
+| agapornis-roseicollis | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok | ADW; sprint 04 |
+| agapornis-fischeri | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok | NT; ADW; sprint 04 |
+| agapornis-personatus | ok | ok | ok | ok | ok | na | ok | na | ok | ok | régime/dimorphisme na; sprint 04 |
+| agapornis-lilianae | ok | ok | ok | ok | ok | na | ok | ok | ok | ok | NT; dimorphisme na; sprint 04 |
+| agapornis-nigrigenis | ok | ok | ok | ok | ok | na | ok | ok | ok | ok | VU; spécimen Naturalis; sprint 04 |
+| amazona-aestiva | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok | NT; ADW; sprint 05 |
 | bolborhynchus-lineola-lineola | ok | ok | ok | ok | ok | na | ok | na | ok | attente | sous-esp. programme; régime na; sprint 05 |
 | cyanoramphus-novaezelandiae | ok | ok | ok | ok | ok | na | ok | na | ok | attente | régime na; sprint 05 |
 | cyanoramphus-auriceps | ok | ok | ok | ok | ok | na | ok | ok | ok | attente | NT; dimorphisme na; sprint 05 |

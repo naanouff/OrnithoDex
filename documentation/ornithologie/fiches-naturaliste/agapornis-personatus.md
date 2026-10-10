@@ -44,7 +44,13 @@ Enregistrement XC509849 (Peter Boesman — CC BY-NC-ND 4.0) : https://xeno-canto
 
 ## Points de cours à retenir
 
-*En attente ingénieur pédagogique / supports de cours.*
+<!-- Aides à la mémorisation (pas un polycopié enseignant). -->
+
+- **[programme]** Inséparable masqué / à tête noire ↔ *Agapornis personatus* ; Psittaciformes ; Psittacidés
+- **[programme]** Confusion : *A. fischeri* — personatus = tête **noire** (masque)
+- **[sourcé]** Least Concern ; endémique Tanzanie ; tendance stable
+- **[sourcé]** Savane sèche ; non migrateur
+- **[sourcé]** Hybridation documentée avec *A. fischeri*
 
 ## Médias
 

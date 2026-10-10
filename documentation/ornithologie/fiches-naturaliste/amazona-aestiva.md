@@ -44,7 +44,13 @@ Enregistrement XC554117 (Ricardo José Mitidieri — CC BY-NC-SA 4.0) : https://
 
 ## Points de cours à retenir
 
-*En attente ingénieur pédagogique / supports de cours.*
+<!-- Aides à la mémorisation (pas un polycopié enseignant). -->
+
+- **[programme]** Amazone à front bleu ↔ *Amazona aestiva* ; Psittaciformes ; Psittacidés
+- **[programme]** Genre *Amazona* — distinct des *Agapornis* (inséparables) du même ordre
+- **[sourcé]** **Near Threatened** ; tendance en diminution (capture + habitat)
+- **[sourcé]** Sexes semblables ; fruits et graines ; nid en cavités
+- **[sourcé]** Surtout résident ; dortoirs collectifs ; Amérique du Sud
 
 ## Médias
 

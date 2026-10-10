@@ -7,6 +7,7 @@
 | [plan-pedagogie.md](plan-pedagogie.md) | **Plan pédagogie** — cadre ingénieur pédagogue + points de cours |
 | [pedagogie.md](pedagogie.md) | **Charte pédagogique** — objectifs, parcours, contrat points de cours, briefs |
 | [sprint-pedagogie-pilote-12.md](sprint-pedagogie-pilote-12.md) | **Sprint pédagogie** — pilote 12 points de cours |
+| [sprint-pedagogie-lot-01.md](sprint-pedagogie-lot-01.md) | **Sprint pédagogie** — lot 01 Agapornis / Amazona (6) |
 | [plan-design.md](plan-design.md) | **Plan design** — charte + maquettes (direction artistique) |
 | [sprint-01-sources.md](sprint-01-sources.md) | **Sprint 01** — collecte lot pilote (6 espèces) |
 | [sprint-02-sources.md](sprint-02-sources.md) | **Sprint 02** — Columbiformes (6) |
