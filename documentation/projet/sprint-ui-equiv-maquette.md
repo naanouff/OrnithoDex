@@ -1,6 +1,6 @@
 # Sprint — UI/UX équivalente à la maquette
 
-**Branche** : `feature/ui-equiv-maquette` → PR vers `develop`  
+**Branche** : `feature/ui-equiv-maquette-impl` → PR vers `develop`  
 **Dates** : 2026-10-10  
 **Réf.** : [plan-ui-equiv-maquette.md](plan-ui-equiv-maquette.md)
 
@@ -28,12 +28,12 @@ Porter le chrome Livrable B (PNG + prototype) dans l’app React — **zéro éc
 ## Checklist d’exécution
 
 - [x] Plan lu ([plan-ui-equiv-maquette.md](plan-ui-equiv-maquette.md))
-- [x] Branche `feature/ui-equiv-maquette` depuis `develop` (consignation)
-- [ ] Prototype resynchronisé PNG
-- [ ] CSS extrait + shell
-- [ ] Pages / composants 1:1
-- [ ] Purge UI hors maquette
-- [ ] Build + journal + PR
+- [x] Branche `feature/ui-equiv-maquette-impl` depuis `develop`
+- [x] Prototype resynchronisé PNG
+- [x] CSS extrait + shell (`stage` / `phone` / `screens` / `tabbar`)
+- [x] Pages / composants 1:1
+- [x] Purge UI hors maquette (`WildRangeMap`, filtre famille, CTA custom)
+- [x] Build + journal + PR
 
 ## Notes
 

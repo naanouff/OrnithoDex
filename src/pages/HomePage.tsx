@@ -1,31 +1,33 @@
-import { CtaButton } from '../components/CtaButton'
+import { Link } from 'react-router-dom'
 
 export function HomePage() {
   return (
-    <main className="flex flex-1 flex-col items-center justify-center gap-6 py-6 text-center">
-      <img
-        src="/brand/logo-ornithodex.jpg"
-        alt=""
-        width={168}
-        height={168}
-        className="h-[168px] w-[168px] rounded-[var(--radius)] border-[3px] border-navy object-cover shadow-[var(--shadow)]"
-      />
-      <div className="space-y-2">
-        <h1 className="font-display text-4xl font-semibold tracking-tight text-navy">
-          OrnithoDex
-        </h1>
-        <p className="font-body mx-auto max-w-[24ch] text-base font-semibold text-muted">
-          Mémoriser les oiseaux du programme BAC PRO TCVA.
-        </p>
-      </div>
-      <div className="flex w-full flex-col gap-3">
-        <CtaButton to="/collection" variant="primary">
+    <section className="screen screen--home" aria-label="Accueil">
+      <header className="brand">
+        <img
+          className="logo"
+          src="/brand/logo-ornithodex.jpg"
+          width={280}
+          height={280}
+          alt="OrnithoDex — L'encyclopédie des oiseaux"
+        />
+        <p className="tagline-home">Apprends les oiseaux en t’amusant</p>
+      </header>
+      <div className="cta">
+        <Link className="btn" to="/collection">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true">
+            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
+            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" />
+          </svg>
           Collection
-        </CtaButton>
-        <CtaButton to="/entrainement" variant="secondary">
+        </Link>
+        <Link className="btn btn--secondary" to="/entrainement">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true">
+            <path d="M6 12h12M4 8h2v8H4zM18 8h2v8h-2z" />
+          </svg>
           Entraînement
-        </CtaButton>
+        </Link>
       </div>
-    </main>
+    </section>
   )
 }
