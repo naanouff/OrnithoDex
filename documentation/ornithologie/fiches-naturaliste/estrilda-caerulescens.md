@@ -43,7 +43,13 @@ Enregistrement XC1081214 (Peter Boesman — CC BY-NC-ND 4.0) : https://xeno-cant
 
 ## Points de cours à retenir
 
-*En attente ingénieur pédagogique / supports de cours.*
+<!-- Aides à la mémorisation (pas un polycopié enseignant). -->
+
+- **[programme]** Queue de vinaigre ↔ *Estrilda caerulescens* ; Passériformes ; Estrildidés
+- **[programme]** Confusion : autres *Estrilda* — BirdLife : *Glaucestrilda coerulescens*
+- **[sourcé]** Least Concern ; Afrique de l’Ouest / Sahel ; tendance stable
+- **[sourcé]** Non migrateur ; savane sèche, fourrés, cultures
+- **[sourcé]** Commerce international d’animaux de compagnie signalé
 
 ## Médias
 

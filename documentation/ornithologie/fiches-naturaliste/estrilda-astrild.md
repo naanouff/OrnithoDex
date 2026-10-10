@@ -46,7 +46,13 @@ ADW : chant doux et simple ; parade avec « révérence » et exhibition du vent
 
 ## Points de cours à retenir
 
-*En attente ingénieur pédagogique / supports de cours.*
+<!-- Aides à la mémorisation (pas un polycopié enseignant). -->
+
+- **[programme]** Astrild de Sainte Hélène ↔ *Estrilda astrild* ; Passériformes ; Estrildidés
+- **[programme]** Confusion : autres *Estrilda* (queue de vinaigre, joues orange, bec de corail)
+- **[sourcé]** Least Concern ; bec et masque rouges ; très répandue et introduite hors Afrique
+- **[sourcé]** Dimorphisme : ♀ plus pâle, moins de rouge ventral
+- **[sourcé]** Granivore ; social ; souvent parasité par *Vidua macroura*
 
 ## Médias
 
