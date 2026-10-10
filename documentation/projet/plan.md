@@ -208,6 +208,7 @@ Flux : feature → `develop` → `release/x.y.z` → `main` → tag + Release �
 5. Placeholders + README racine (registre sources) — **fait**
 6. Gitflow + Vercel — **fait** (CI + workflow Release ; brancher le projet Vercel une fois — [deploiement.md](deploiement.md))
 7. Enrichissement progressif des fiches **uniquement** avec sources validées — **continu** (85/85 `complete`)
+8. Prompts visuels (illustration + 3D) + carte hémisphère répartition — [plan](plan-prompts-visuels.md) · [sprint](sprint-prompts-visuels.md)
 
 ## Critères de done V1
 
@@ -227,6 +228,7 @@ Flux : feature → `develop` → `release/x.y.z` → `main` → tag + Release �
 - [Plan sources](plan-sources.md) — enrichissement des fiches (sources publiques)
 - [Plan pédagogie](plan-pedagogie.md) — cadre ingénieur pédagogue + points de cours
 - [Plan design](plan-design.md) — charte + maquettes (direction artistique)
+- [Plan prompts visuels](plan-prompts-visuels.md) — illustration / 3D / carte hémisphère
 - [Charte design](design.md) — tokens, composants, specs écrans
 - [Vision](vision.md)
 - [Cahier des charges](cahier-des-charges.md)
