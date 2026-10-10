@@ -150,3 +150,15 @@ Fiches espèce BirdLife / ADW / Avibase (sprints 01–07) : détail dans chaque 
 | `psittacus-erithacus` | Audio | Antoine Ede | CC BY-NC-SA 4.0 | https://xeno-canto.org/1137653 |
 | `pyrrhura-molinae` | Image | Dan Muntz | CC BY-SA 2.0 | https://commons.wikimedia.org/wiki/File:Green_Cheecked_Conure.jpg |
 | `pyrrhura-molinae` | Audio | Bo Shunqi 薄顺奇 | CC BY-NC-SA 4.0 | https://xeno-canto.org/1180569 |
+| `gracula-religiosa` | Image | Spencer Wright | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Hill_Myna_(Gracula_religiosa_intermedia),_Thrigby_Hall.jpg |
+| `gracula-religiosa` | Audio | Ding Li Yong | CC BY-NC-ND 4.0 | https://xeno-canto.org/1157137 |
+| `passer-luteus` | Image | Barry Stewart | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Passer_luteus_-_Barry_Stewart_-_661030168.jpeg |
+| `passer-luteus` | Audio | Oscar Campbell | CC BY-NC-ND 4.0 | https://xeno-canto.org/985452 |
+| `ploceus-cucullatus` | Image | Charles J. Sharp | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Village_weaver_(Ploceus_cucullatus_cucullatus)_female_and_male.jpg |
+| `ploceus-cucullatus` | Audio | JJSUN | CC BY-NC-SA 4.0 | https://xeno-canto.org/1080073 |
+| `euplectes-orix` | Image | Bernard DUPONT | CC BY-SA 2.0 | https://commons.wikimedia.org/wiki/File:Southern_Red_Bishop_(Euplectes_orix)_male_..._(52656476541).jpg |
+| `euplectes-orix` | Audio | African Bioacoustics Community | CC BY-NC-SA 4.0 | https://xeno-canto.org/1183523 |
+| `amadina-fasciata` | Image | David Boettger | Domaine public | https://commons.wikimedia.org/wiki/File:Cut-throat_Finch_(Amadina_fasciata,_male_-_Djenn%C3%A9,_Mali,_2008).jpg |
+| `amadina-fasciata` | Audio | Peter Boesman | CC BY-NC-ND 4.0 | https://xeno-canto.org/509854 |
+| `amandava-amandava` | Image | Mike Prince | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Red_Avadavat_(26082788247).jpg |
+| `amandava-amandava` | Audio | Ding Li Yong | CC BY-NC-ND 4.0 | https://xeno-canto.org/698326 |

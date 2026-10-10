@@ -49,12 +49,12 @@ Générés le 2026-10-10. Lots en `complete` (sprint 03a) : Galliformes, Anséri
 | [nymphicus-hollandicus](nymphicus-hollandicus.md) | Calopsitte | complete |
 | [cacatua-alba](cacatua-alba.md) | Cacatoès blanc | complete |
 | [cacatua-galerita](cacatua-galerita.md) | Grand cacatoès à huppe jaune | complete |
-| [gracula-religiosa](gracula-religiosa.md) | Mainate religieux | liste_seule |
-| [passer-luteus](passer-luteus.md) | Moineau doré | liste_seule |
-| [ploceus-cucullatus](ploceus-cucullatus.md) | Tisserin gendarme | liste_seule |
-| [euplectes-orix](euplectes-orix.md) | Euplecte ignicolore | liste_seule |
-| [amadina-fasciata](amadina-fasciata.md) | Cou coupé | liste_seule |
-| [amandava-amandava](amandava-amandava.md) | Bengali de Bombay | liste_seule |
+| [gracula-religiosa](gracula-religiosa.md) | Mainate religieux | complete |
+| [passer-luteus](passer-luteus.md) | Moineau doré | complete |
+| [ploceus-cucullatus](ploceus-cucullatus.md) | Tisserin gendarme | complete |
+| [euplectes-orix](euplectes-orix.md) | Euplecte ignicolore | complete |
+| [amadina-fasciata](amadina-fasciata.md) | Cou coupé | complete |
+| [amandava-amandava](amandava-amandava.md) | Bengali de Bombay | complete |
 | [amandava-subflava](amandava-subflava.md) | Ventre orange | liste_seule |
 | [erythrura-gouldiae](erythrura-gouldiae.md) | Diamant de Gould | liste_seule |
 | [erythrura-trichroa](erythrura-trichroa.md) | Diamant de Kittlitz | liste_seule |

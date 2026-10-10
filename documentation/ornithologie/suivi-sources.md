@@ -51,12 +51,12 @@ Plan : [plan-sources.md](../projet/plan-sources.md) · Sprints : [01](../projet/
 | nymphicus-hollandicus | ok | ok | ok | ok | ok | ok | ok | ok | ok | attente | ADW; sprint 03b |
 | cacatua-alba | ok | ok | ok | ok | ok | na | ok | ok | ok | attente | EN; dimorphisme na; sprint 03b |
 | cacatua-galerita | ok | ok | ok | ok | ok | ok | ok | ok | ok | attente | BirdLife AU; sprint 03b |
-| gracula-religiosa | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
-| passer-luteus | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
-| ploceus-cucullatus | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
-| euplectes-orix | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
-| amadina-fasciata | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
-| amandava-amandava | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
+| gracula-religiosa | ok | ok | ok | ok | ok | na | ok | ok | ok | attente | ADW; sprint 09 |
+| passer-luteus | ok | ok | ok | ok | ok | na | ok | na | ok | attente | nomade; dimorphisme/régime na; sprint 09 |
+| ploceus-cucullatus | ok | ok | ok | ok | ok | na | ok | na | ok | attente | dimorphisme/régime na; sprint 09 |
+| euplectes-orix | ok | ok | ok | ok | ok | na | ok | na | ok | attente | dimorphisme/régime na; sprint 09 |
+| amadina-fasciata | ok | ok | ok | ok | ok | na | ok | na | ok | attente | dimorphisme/régime na; sprint 09 |
+| amandava-amandava | ok | ok | ok | ok | ok | ok | ok | ok | ok | attente | ADW; sprint 09 |
 | amandava-subflava | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
 | erythrura-gouldiae | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
 | erythrura-trichroa | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |

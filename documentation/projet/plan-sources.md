@@ -101,7 +101,8 @@ Valeurs : `ok` | `manquant` | `na` | `lien` (audio page espèce seulement — à
 | **06** | Psittacidés B (6) | Fait — [sprint-06-sources.md](sprint-06-sources.md) |
 | **07** | Psittacidés C (6) | Fait — [sprint-07-sources.md](sprint-07-sources.md) |
 | **08** | Psittacidés D (6) | Fait — [sprint-08-sources.md](sprint-08-sources.md) |
-| 09+ | Passériformes | Ensuite |
+| **09** | Passériformes A (6) | Fait — [sprint-09-sources.md](sprint-09-sources.md) |
+| 10+ | Passériformes (suite) | Ensuite |
 
 ## Livrables de cette phase
 
