@@ -1,6 +1,8 @@
-/** Types runtime — peuplés à l’étape « dataset aligné sur les fiches ». */
+/** Types runtime — alignés sur les fiches du naturaliste. */
 
 export type SheetStatus = 'liste_seule' | 'partielle' | 'complete'
+
+export type CoursePointLevel = 'programme' | 'sourcé'
 
 export type SourceRef = {
   id: string
@@ -17,6 +19,12 @@ export type SourcedText = {
   sourceIds: string[]
 }
 
+export type CoursePoint = {
+  level: CoursePointLevel
+  text: string
+  sourceIds: string[]
+}
+
 export type Bird = {
   id: string
   scientificName: string
@@ -24,11 +32,16 @@ export type Bird = {
   order: string
   family: string
   programSourceId: string
+  /** URL Commons (ou chemin local plus tard). */
   image?: string
+  imageCredit?: string
+  imageSourceId?: string
+  /** URLs Xeno-canto (ou chemins locaux plus tard). */
   audio?: string[]
   sheet: {
     status: SheetStatus
     sections: SourcedText[]
   }
+  coursePoints: CoursePoint[]
   sources: SourceRef[]
 }
