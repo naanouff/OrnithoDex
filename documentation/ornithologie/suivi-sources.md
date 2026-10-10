@@ -57,12 +57,12 @@ Plan : [plan-sources.md](../projet/plan-sources.md) · Sprints : [01](../projet/
 | euplectes-orix | ok | ok | ok | ok | ok | na | ok | na | ok | attente | dimorphisme/régime na; sprint 09 |
 | amadina-fasciata | ok | ok | ok | ok | ok | na | ok | na | ok | attente | dimorphisme/régime na; sprint 09 |
 | amandava-amandava | ok | ok | ok | ok | ok | ok | ok | ok | ok | attente | ADW; sprint 09 |
-| amandava-subflava | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
-| erythrura-gouldiae | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
-| erythrura-trichroa | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
-| erythrura-psittacea | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
-| estrilda-astrild | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
-| estrilda-caerulescens | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
+| amandava-subflava | ok | ok | ok | ok | ok | na | ok | na | ok | attente | |
+| erythrura-gouldiae | ok | ok | ok | ok | ok | na | ok | ok | ok | attente | BirdLife: Chloebia gouldiae |
+| erythrura-trichroa | ok | ok | ok | ok | ok | na | ok | na | ok | attente | |
+| erythrura-psittacea | ok | ok | ok | ok | ok | na | ok | na | ok | attente | Endémique NC |
+| estrilda-astrild | ok | ok | ok | ok | ok | ok | ok | ok | ok | attente | ADW |
+| estrilda-caerulescens | ok | ok | ok | ok | ok | na | ok | na | ok | attente | BirdLife: Glaucestrilda coerulescens |
 | estrilda-melpoda | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
 | estrilda-troglodytes | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
 | lagonosticta-senegala | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |

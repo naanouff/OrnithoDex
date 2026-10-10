@@ -162,3 +162,15 @@ Fiches espèce BirdLife / ADW / Avibase (sprints 01–07) : détail dans chaque 
 | `amadina-fasciata` | Audio | Peter Boesman | CC BY-NC-ND 4.0 | https://xeno-canto.org/509854 |
 | `amandava-amandava` | Image | Mike Prince | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Red_Avadavat_(26082788247).jpg |
 | `amandava-amandava` | Audio | Ding Li Yong | CC BY-NC-ND 4.0 | https://xeno-canto.org/698326 |
+| `amandava-subflava` | Image | Alan Manson | CC BY-SA 2.0 | https://commons.wikimedia.org/wiki/File:Male_Zebra_Waxbill_(Sporaeginthus_subflavus).jpg |
+| `amandava-subflava` | Audio | Dries Van de Loock | CC BY-NC-ND 4.0 | https://xeno-canto.org/872300 |
+| `erythrura-gouldiae` | Image | Kym Nicolson | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Chloebia_gouldiae,_Elsey,_Northern_Territory,_Australia_1.jpg |
+| `erythrura-gouldiae` | Audio | Louis Masarei | CC BY-NC-SA 4.0 | https://xeno-canto.org/960939 |
+| `erythrura-trichroa` | Image | Peter Halasz | CC BY-SA 2.5 / 3.0 | https://commons.wikimedia.org/wiki/File:Blue-faced_Parrot-finch_Pengo.jpg |
+| `erythrura-trichroa` | Audio | Chi-Hsuan Shao | CC BY-NC-SA 4.0 | https://xeno-canto.org/1003825 |
+| `erythrura-psittacea` | Image | JJ Harrison | CC BY-SA 3.0 | https://commons.wikimedia.org/wiki/File:Red-throated_Parrotfinch_0A2A5145.jpg |
+| `erythrura-psittacea` | Audio | Patrik Åberg | CC BY-NC-SA 3.0 | https://xeno-canto.org/40164 |
+| `estrilda-astrild` | Image | Derek Keats | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Common_waxbill_(26408344029).jpg |
+| `estrilda-astrild` | Audio | Walter Wallner | CC BY-NC-SA 4.0 | https://xeno-canto.org/1155179 |
+| `estrilda-caerulescens` | Image | Charles J. Sharp | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Lavender_waxbill_(Estrilda_caerulescens).jpg |
+| `estrilda-caerulescens` | Audio | Peter Boesman | CC BY-NC-ND 4.0 | https://xeno-canto.org/1081214 |
