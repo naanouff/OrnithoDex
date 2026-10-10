@@ -15,6 +15,8 @@ Contenu pédagogique lié au programme **MP6 – TCVA – Ornithologie** (oiseau
 | [suivi-sources.md](suivi-sources.md) | Tableau de progression (85 espèces) |
 | [modele-fiche-naturaliste.md](modele-fiche-naturaliste.md) | Gabarit obligatoire |
 | [fiches-naturaliste/](fiches-naturaliste/) | Une fiche par espèce |
+| [prompts-visuels/](prompts-visuels/) | Prompts illustration + 3D (après sprint) |
+| [Plan prompts visuels](../projet/plan-prompts-visuels.md) | Catalogue prompts + carte hémisphère |
 | [Plan sources](../projet/plan-sources.md) | Méthode d’enrichissement |
 | [Plan pédagogie](../projet/plan-pedagogie.md) | Cadre ingénieur pédagogue + points de cours |
 | [Sprint 01](../projet/sprint-01-sources.md) | Lot pilote Galliformes + Ansériformes |
