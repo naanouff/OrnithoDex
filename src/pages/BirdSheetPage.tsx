@@ -1,6 +1,6 @@
 import { Link, useParams } from 'react-router-dom'
+import { BirdImage } from '../components/BirdImage'
 import { getBirdById } from '../lib/birds'
-import { resolveBirdImageUrl } from '../lib/media'
 import { orderAccent } from '../lib/orders'
 
 export function BirdSheetPage() {
@@ -18,8 +18,6 @@ export function BirdSheetPage() {
     )
   }
 
-  const image = resolveBirdImageUrl(bird.image)
-
   return (
     <main className="flex flex-1 flex-col gap-4 pb-4">
       <div className="flex items-center gap-2">
@@ -31,22 +29,12 @@ export function BirdSheetPage() {
         </Link>
       </div>
 
-      <div className="relative aspect-3/4 max-h-[320px] w-full overflow-hidden rounded-[var(--radius)] border-[3px] border-navy shadow-[var(--shadow)]">
-        {image ? (
-          <img
-            src={image}
-            alt={bird.commonName}
-            referrerPolicy="no-referrer"
-            className="h-full w-full object-cover"
-          />
-        ) : (
-          <div
-            className="h-full w-full"
-            style={{ background: orderAccent(bird.order) }}
-            aria-hidden
-          />
-        )}
-      </div>
+      <BirdImage
+        src={bird.image}
+        alt={bird.commonName}
+        order={bird.order}
+        className="aspect-3/4 max-h-[320px] w-full rounded-[var(--radius)] border-[3px] border-navy shadow-[var(--shadow)]"
+      />
 
       {bird.imageCredit ? (
         <p className="text-xs font-semibold text-muted">{bird.imageCredit}</p>

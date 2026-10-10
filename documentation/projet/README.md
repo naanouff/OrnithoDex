@@ -33,4 +33,5 @@
 | [vision.md](vision.md) | Problème, solution, public, principes |
 | [cahier-des-charges.md](cahier-des-charges.md) | Spécifications fonctionnelles |
 | [architecture.md](architecture.md) | Stack, structure, flux, déploiement |
+| [deploiement.md](deploiement.md) | Vercel preview / prod Release + secrets Actions |
 | [conventions.md](conventions.md) | Gitflow, assets, fiches, journal |

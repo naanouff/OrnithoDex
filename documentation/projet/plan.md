@@ -205,22 +205,22 @@ Flux : feature → `develop` → `release/x.y.z` → `main` → tag + Release �
 2. Types sourcés + dataset aligné sur les fiches — **fait** (`npm run data:birds` → 85 espèces)
 3. UI Collection + fiche du naturaliste — **fait** (quiz = étape suivante)
 4. Quiz (2 modes) — **fait** (photo → nom, chant → espèce)
-5. Placeholders + README racine (registre sources)
-6. Gitflow + Vercel
-7. Enrichissement progressif des fiches **uniquement** avec sources validées
+5. Placeholders + README racine (registre sources) — **fait**
+6. Gitflow + Vercel — **fait** (CI + workflow Release ; brancher le projet Vercel une fois — [deploiement.md](deploiement.md))
+7. Enrichissement progressif des fiches **uniquement** avec sources validées — **continu** (85/85 `complete`)
 
 ## Critères de done V1
 
-- [ ] `documentation/` complète ; politique de sourcing ; fiches squelettes
-- [ ] `README.md` racine avec section **Sources** exhaustive
-- [ ] Aucune information inventée ; aucune source absente du README
-- [ ] Espèces consultables ; fiche du naturaliste avec sources visibles
-- [ ] UI fluide en portrait smartphone
-- [ ] Audio opérationnel dès fichier présent
-- [ ] Quiz photo et chant jouables
-- [ ] Manifest PWA minimal
-- [ ] `npm run build` OK
-- [ ] Repo GitHub public (Gitflow) ; preview Vercel ; prod sur Release
+- [x] `documentation/` complète ; politique de sourcing ; fiches squelettes
+- [x] `README.md` racine avec section **Sources** exhaustive
+- [x] Aucune information inventée ; aucune source absente du README
+- [x] Espèces consultables ; fiche du naturaliste avec sources visibles
+- [x] UI fluide en portrait smartphone
+- [x] Audio opérationnel dès fichier présent (embed XC ; fichiers locaux optionnels)
+- [x] Quiz photo et chant jouables
+- [x] Manifest PWA minimal
+- [x] `npm run build` OK
+- [ ] Repo GitHub public (Gitflow) ; preview Vercel ; prod sur Release *(CI prêt ; lier le projet Vercel + secrets)*
 
 ## Documents liés
 
