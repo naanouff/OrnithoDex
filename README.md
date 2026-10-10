@@ -20,6 +20,7 @@ Le cadrage et le plan complets sont dans [`documentation/`](documentation/) :
 - **[Plan sources](documentation/projet/plan-sources.md)** — enrichissement des fiches (biologie + médias)
 - **[Plan pédagogie](documentation/projet/plan-pedagogie.md)** — cadre ingénieur pédagogue + points de cours
 - **[Charte pédagogique](documentation/projet/pedagogie.md)** — objectifs, parcours, contrat points de cours (aides projet, pas polycopié enseignant)
+- **[Charte design](documentation/projet/design.md)** — DA logo, tokens, specs 4 écrans mobile
 - [Vision](documentation/projet/vision.md) · [Cahier des charges](documentation/projet/cahier-des-charges.md) · [Architecture](documentation/projet/architecture.md)
 - [Journal de développement](documentation/journal/)
 - [Référentiel ornithologie](documentation/ornithologie/) · [Liste des espèces](documentation/ornithologie/especes.md)
@@ -27,7 +28,7 @@ Le cadrage et le plan complets sont dans [`documentation/`](documentation/) :
 ## Statut
 
 Sources : méthode [plan-sources.md](documentation/projet/plan-sources.md) · sprints [01](documentation/projet/sprint-01-sources.md)–**[15](documentation/projet/sprint-15-sources.md)** — **85/85** fiches `complete` (biologie + médias) · suivi [suivi-sources.md](documentation/ornithologie/suivi-sources.md).  
-Points de cours : [charte](documentation/projet/pedagogie.md) · **[85/85](documentation/projet/plan-pedagogie.md)** (pilote + lots [01](documentation/projet/sprint-pedagogie-lot-01.md)–[12](documentation/projet/sprint-pedagogie-lot-12.md)) — aides à la rétention du **projet**, pas un polycopié enseignant. Développement applicatif (Vite / React / TypeScript / Tailwind) ensuite.
+Points de cours : [charte](documentation/projet/pedagogie.md) · **[85/85](documentation/projet/plan-pedagogie.md)**. Design : [charte](documentation/projet/design.md) livrée ; maquettes ensuite ([plan-design.md](documentation/projet/plan-design.md)). Développement applicatif (Vite / React / TypeScript / Tailwind) ensuite.
 
 Licence du code : **MIT** — voir [`LICENSE`](LICENSE).
 

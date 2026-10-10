@@ -11,8 +11,8 @@ Institutionnaliser le rôle d’**agent graphiste / designer / ergonome** : écr
 - Produit : **OrnithoDex**, PWA pédagogique (collection cartes + fiche du naturaliste + quiz).
 - Cible prioritaire : élèves **seconde pro** BAC PRO TCVA (Technicien conseil vente en animalerie), usage **smartphone portrait** (pouce) ; desktop = colonne centrée, pas la cible de design.
 - Stack UI prévue : Vite / React / TypeScript / Tailwind CSS ([plan.md](plan.md)).
-- App **pas encore scaffoldée** — livrable de cette passe = documentation design + images de maquettes, **pas** le code.
-- Choix utilisateur : charte + specs d’abord, **puis** maquettes.
+- App **pas encore scaffoldée** — livrable = documentation design (+ maquettes), **pas** le code.
+- État : **Livrable A (charte)** fait — [`design.md`](design.md) + logo sous [`assets/`](assets/) ; Livrable B (maquettes) ensuite.
 
 Voir aussi : [vision.md](vision.md), [cahier-des-charges.md](cahier-des-charges.md), [plan.md](plan.md) (UI/UX).
 
@@ -64,15 +64,16 @@ Après la charte (même passe, ordre strict) :
 
 ## Critères de done
 
-- [`design.md`](design.md) + asset logo sous `assets/` + 4 maquettes sous `maquettes/`
-- Liens docs mis à jour ; entrée journal
-- Cohérence avec vision / cahier des charges (mobile, rétention, sources visibles)
+- [x] [`design.md`](design.md) + asset logo sous `assets/` (**Livrable A**)
+- [ ] 4 maquettes sous `maquettes/` (**Livrable B**)
+- [x] Liens docs mis à jour ; entrée journal (cadre)
+- [x] Cohérence avec vision / cahier des charges (mobile, rétention, sources visibles)
 
 ## Checklist d’exécution
 
-- [ ] Récupérer le logo nanobanana, l’analyser (palette / style), le versionner sous `documentation/projet/assets/`
-- [ ] Rédiger `design.md` (DA, tokens, composants, specs 4 écrans, ergonomie TCVA)
-- [ ] Lier `design.md` depuis README projet + `plan.md` ; entrée journal
+- [x] Récupérer le logo, l’analyser (palette / style), le versionner sous `documentation/projet/assets/`
+- [x] Rédiger `design.md` (DA, tokens, composants, specs 4 écrans, ergonomie TCVA)
+- [x] Lier `design.md` depuis README projet + `plan.md` ; entrée journal
 - [ ] Produire 4 maquettes portrait dans `documentation/projet/maquettes/`
 
 ## Documents liés
