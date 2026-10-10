@@ -25,4 +25,4 @@
 - [x] Image Commons + enregistrement XC précis par espèce
 - [x] `suivi-sources.md` + README + `_index.md`
 - [x] `plan-design.md` versionné + liens docs
-- [ ] Journal + PR vers `develop`
+- [x] Journal + PR vers `develop` (#6)
