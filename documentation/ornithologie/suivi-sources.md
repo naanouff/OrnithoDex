@@ -78,12 +78,12 @@ Plan sources : [plan-sources.md](../projet/plan-sources.md) (85/85 `complete`) Â
 | lonchura-punctulata | ok | ok | ok | ok | ok | na | ok | na | ok | ok | |
 | lonchura-oryzivora | ok | ok | ok | ok | ok | na | ok | na | ok | ok | BirdLife: Padda oryzivora ; EN |
 | neochmia-modesta | ok | ok | ok | ok | ok | na | ok | na | ok | ok | XC: Aidemosyne modesta |
-| neochmia-ruficauda | ok | ok | ok | ok | ok | na | ok | na | ok | attente | XC: Bathilda ruficauda |
-| stagonopleura-guttata | ok | ok | ok | ok | ok | na | ok | na | ok | attente | VU |
-| taeniopygia-bichenovii | ok | ok | ok | ok | ok | na | ok | na | ok | attente | XC: Stizoptera bichenovii |
-| taeniopygia-guttata-castanotis | ok | ok | ok | ok | ok | na | ok | na | ok | attente | BirdLife: T. castanotis |
-| uraeginthus-bengalus | ok | ok | ok | ok | ok | na | ok | na | ok | attente | |
-| uraeginthus-cyanocephalus | ok | ok | ok | ok | ok | na | ok | na | ok | attente | |
+| neochmia-ruficauda | ok | ok | ok | ok | ok | na | ok | na | ok | ok | XC: Bathilda ruficauda |
+| stagonopleura-guttata | ok | ok | ok | ok | ok | na | ok | na | ok | ok | VU |
+| taeniopygia-bichenovii | ok | ok | ok | ok | ok | na | ok | na | ok | ok | XC: Stizoptera bichenovii |
+| taeniopygia-guttata-castanotis | ok | ok | ok | ok | ok | na | ok | na | ok | ok | BirdLife: T. castanotis |
+| uraeginthus-bengalus | ok | ok | ok | ok | ok | na | ok | na | ok | ok | |
+| uraeginthus-cyanocephalus | ok | ok | ok | ok | ok | na | ok | na | ok | ok | |
 | poephila-acuticauda | ok | ok | ok | ok | ok | na | ok | na | ok | attente | |
 | vidua-chalybeata | ok | ok | ok | ok | ok | na | ok | na | ok | attente | |
 | vidua-macroura | ok | ok | ok | ok | ok | na | ok | na | ok | attente | |

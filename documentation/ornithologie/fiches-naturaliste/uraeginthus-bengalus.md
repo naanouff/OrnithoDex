@@ -43,7 +43,13 @@ Enregistrement XC405791 (Bram Piot — CC BY-NC-SA 4.0) : https://xeno-canto.org
 
 ## Points de cours à retenir
 
-*En attente ingénieur pédagogique / supports de cours.*
+<!-- Aides à la mémorisation (pas un polycopié enseignant). -->
+
+- **[programme]** Cordon bleu ↔ *Uraeginthus bengalus* ; Passériformes ; Estrildidés
+- **[programme]** Confusion : cap bleu (*U. cyanocephalus*) — même genre *Uraeginthus* (Afrique)
+- **[sourcé]** Least Concern ; EOO très vaste ; tendance stable
+- **[sourcé]** Non migrateur ; jardins, pâturages, cultures, savanes sèches
+- **[sourcé]** Présent dans le commerce d’animaux de compagnie
 
 ## Médias
 
