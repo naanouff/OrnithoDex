@@ -44,7 +44,13 @@ Enregistrement XC1060162 (José — CC BY-NC-SA 4.0) : https://xeno-canto.org/10
 
 ## Points de cours à retenir
 
-*En attente ingénieur pédagogique / supports de cours.*
+<!-- Aides à la mémorisation (pas un polycopié enseignant). -->
+
+- **[programme]** Perruche Catherine / rayée ↔ *Bolborhynchus lineola lineola* ; Psittaciformes ; Psittacidés
+- **[programme]** Sous-espèce programme *lineola* — genre seul dans le référentiel
+- **[sourcé]** Least Concern ; tendance stable ; Mexique → Andes
+- **[sourcé]** Forêts humides / lisières ; 0–3 900 m
+- **[sourcé]** Statut migratoire BirdLife : **nomade**
 
 ## Médias
 

@@ -44,7 +44,13 @@ Enregistrement XC512761 (Hans Matheve — CC BY-NC-ND 4.0) : https://xeno-canto.
 
 ## Points de cours à retenir
 
-*En attente ingénieur pédagogique / supports de cours.*
+<!-- Aides à la mémorisation (pas un polycopié enseignant). -->
+
+- **[programme]** Perruche céleste ↔ *Forpus coelestis* ; Psittaciformes ; Psittacidés
+- **[programme]** Genre *Forpus* — petit perroquet distinct des kakarikis / ondulée
+- **[sourcé]** Least Concern ; natif Équateur et Pérou ; tendance en diminution
+- **[sourcé]** Habitat majeur : forêt sèche
+- **[sourcé]** Non migrateur ; fort présence dans le commerce d’oiseaux
 
 ## Médias
 

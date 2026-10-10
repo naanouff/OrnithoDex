@@ -24,12 +24,12 @@ Plan sources : [plan-sources.md](../projet/plan-sources.md) (85/85 `complete`) �
 | agapornis-lilianae | ok | ok | ok | ok | ok | na | ok | ok | ok | ok | NT; dimorphisme na; sprint 04 |
 | agapornis-nigrigenis | ok | ok | ok | ok | ok | na | ok | ok | ok | ok | VU; spécimen Naturalis; sprint 04 |
 | amazona-aestiva | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok | NT; ADW; sprint 05 |
-| bolborhynchus-lineola-lineola | ok | ok | ok | ok | ok | na | ok | na | ok | attente | sous-esp. programme; régime na; sprint 05 |
-| cyanoramphus-novaezelandiae | ok | ok | ok | ok | ok | na | ok | na | ok | attente | régime na; sprint 05 |
-| cyanoramphus-auriceps | ok | ok | ok | ok | ok | na | ok | ok | ok | attente | NT; dimorphisme na; sprint 05 |
-| forpus-coelestis | ok | ok | ok | ok | ok | na | ok | na | ok | attente | régime/dimorphisme na; sprint 05 |
-| melopsittacus-undulatus | ok | ok | ok | ok | ok | ok | ok | ok | ok | attente | ADW; sprint 05 |
-| myiopsitta-monachus-monachus | ok | ok | ok | ok | ok | ok | ok | ok | ok | attente | sous-esp. programme; ADW; sprint 06 |
+| bolborhynchus-lineola-lineola | ok | ok | ok | ok | ok | na | ok | na | ok | ok | sous-esp. programme; régime na; sprint 05 |
+| cyanoramphus-novaezelandiae | ok | ok | ok | ok | ok | na | ok | na | ok | ok | régime na; sprint 05 |
+| cyanoramphus-auriceps | ok | ok | ok | ok | ok | na | ok | ok | ok | ok | NT; dimorphisme na; sprint 05 |
+| forpus-coelestis | ok | ok | ok | ok | ok | na | ok | na | ok | ok | régime/dimorphisme na; sprint 05 |
+| melopsittacus-undulatus | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok | ADW; sprint 05 |
+| myiopsitta-monachus-monachus | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok | sous-esp. programme; ADW; sprint 06 |
 | neopsephotus-bourkii | ok | ok | ok | ok | ok | ok | ok | ok | ok | attente | ADW; sprint 06 |
 | neophema-elegans | ok | ok | ok | ok | ok | na | ok | na | ok | attente | dimorphisme/régime na; sprint 06 |
 | neophema-pulchella | ok | ok | ok | ok | ok | na | ok | ok | ok | attente | dimorphisme na; cape weed; sprint 06 |
