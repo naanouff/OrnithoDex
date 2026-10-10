@@ -89,8 +89,8 @@ Exemple de cible pour une fiche riche (ex. [coturnix-chinensis.md](../ornitholog
 ## Critères de done
 
 - [x] [`pedagogie.md`](pedagogie.md) + règle Cursor + gabarit à jour (**Livrable A**)
-- [ ] 85 fiches avec section points de cours conforme — **12/85** fait (pilote) ; 73 restantes
-- [x] Aucun fait nouveau non sourcé introduit (pilote 12)
+- [ ] 85 fiches avec section points de cours conforme — **18/85** (pilote 12 + lot 01) ; 67 restantes
+- [x] Aucun fait nouveau non sourcé introduit (pilote + lot 01)
 - [x] Journal + liens docs mis à jour (cadre)
 
 ## Checklist d’exécution
@@ -99,7 +99,7 @@ Exemple de cible pour une fiche riche (ex. [coturnix-chinensis.md](../ornitholog
 - [x] Ajouter `.cursor/rules/ingenieur-pedagogue.mdc` (`alwaysApply`)
 - [x] Mettre à jour modèle fiche, glossaire, `suivi-sources.md` (format `programme` | `sourcé`)
 - [x] Rédiger les points de cours du **pilote 12** (Galliformes / Ansériformes / Columbiformes) — [sprint-pedagogie-pilote-12.md](sprint-pedagogie-pilote-12.md)
-- [ ] Rédiger les points de cours des **73** autres (lots) — `programme` + `sourcé` si utile
+- [ ] Rédiger les points de cours des **67** restantes (lots) — `programme` + `sourcé` si utile · lot 01 fait ([sprint-pedagogie-lot-01.md](sprint-pedagogie-lot-01.md))
 - [x] Journal + README : clarifier que les points de cours compensent l’absence de polycopié sans le remplacer
 
 ## Documents liés

@@ -46,7 +46,13 @@ ADW : cris aigus / séries de cris ; frottement de mandibules.
 
 ## Points de cours à retenir
 
-*En attente ingénieur pédagogique / supports de cours.*
+<!-- Aides à la mémorisation (pas un polycopié enseignant). -->
+
+- **[programme]** Inséparable à face rose ↔ *Agapornis roseicollis* ; Psittaciformes ; Psittacidés
+- **[programme]** Confusion : autres *Agapornis* du programme — repère = face / poitrine **rose**
+- **[sourcé]** Least Concern ; tendance en diminution (exploitation)
+- **[sourcé]** Savane sèche près de l’eau ; surtout graines ; boit souvent
+- **[sourcé]** Très social (groupes) ; couples monogames ; dimorphisme faible
 
 ## Médias
 

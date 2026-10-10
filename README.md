@@ -27,7 +27,7 @@ Le cadrage et le plan complets sont dans [`documentation/`](documentation/) :
 ## Statut
 
 Sources : méthode [plan-sources.md](documentation/projet/plan-sources.md) · sprints [01](documentation/projet/sprint-01-sources.md)–**[15](documentation/projet/sprint-15-sources.md)** — **85/85** fiches `complete` (biologie + médias) · suivi [suivi-sources.md](documentation/ornithologie/suivi-sources.md).  
-Points de cours : [charte](documentation/projet/pedagogie.md) · pilote **[12/85](documentation/projet/sprint-pedagogie-pilote-12.md)** · suite ([plan-pedagogie.md](documentation/projet/plan-pedagogie.md)) — aides à la rétention du **projet**, pas un polycopié enseignant. Développement applicatif (Vite / React / TypeScript / Tailwind) ensuite.
+Points de cours : [charte](documentation/projet/pedagogie.md) · **[18/85](documentation/projet/plan-pedagogie.md)** ([pilote 12](documentation/projet/sprint-pedagogie-pilote-12.md) + [lot 01](documentation/projet/sprint-pedagogie-lot-01.md)) — aides à la rétention du **projet**, pas un polycopié enseignant. Développement applicatif (Vite / React / TypeScript / Tailwind) ensuite.
 
 Licence du code : **MIT** — voir [`LICENSE`](LICENSE).
 
