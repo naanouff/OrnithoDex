@@ -1,11 +1,12 @@
 import { useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { BirdImage } from '../components/BirdImage'
+import { orderMediaStyle } from '../lib/orders'
+import { resolveBirdImageUrl } from '../lib/media'
 import {
   buildQuestion,
   birdsForMode,
   loadQuizScore,
-  resetQuizScore,
   saveQuizScore,
   type QuizMode,
   type QuizQuestion,
@@ -39,30 +40,33 @@ export function QuizPage() {
 
   if (!mode) {
     return (
-      <main className="flex flex-1 flex-col gap-4 py-4">
-        <p className="font-bold text-muted">Mode quiz inconnu.</p>
-        <Link to="/entrainement" className="font-display font-semibold text-sky underline">
-          Retour à l’entraînement
+      <section className="screen" aria-label="Quiz">
+        <p className="feedback">Mode quiz inconnu.</p>
+        <Link className="btn btn--ghost" to="/entrainement">
+          ← Modes
         </Link>
-      </main>
+      </section>
     )
   }
 
   if (unavailable) {
     return (
-      <main className="flex flex-1 flex-col gap-4 py-4">
-        <p className="font-bold text-muted">
-          Pas assez d’espèces avec média pour ce quiz.
-        </p>
-        <Link to="/entrainement" className="font-display font-semibold text-sky underline">
-          Retour
-        </Link>
-      </main>
+      <section className="screen" aria-label="Quiz">
+        <div className="quiz-bar">
+          <Link className="btn btn--ghost" to="/entrainement">
+            ← Modes
+          </Link>
+        </div>
+        <p className="feedback">Pas assez d’espèces avec média pour ce quiz.</p>
+      </section>
     )
   }
 
   const answered = picked !== null
   const isCorrect = answered && picked === question?.correctIndex
+  const hasPhoto =
+    question?.mode === 'photo' &&
+    Boolean(resolveBirdImageUrl(question.imageUrl ?? question.bird.image))
 
   function onPick(index: number) {
     if (!question || answered) return
@@ -81,63 +85,43 @@ export function QuizPage() {
     setQuestion(buildQuestion(mode, question?.bird.id))
   }
 
-  function onResetScore() {
-    resetQuizScore()
-    setScore({ correct: 0, answered: 0 })
-  }
-
   return (
-    <main className="flex flex-1 flex-col gap-3 pb-2">
-      <div className="flex items-center justify-between gap-2">
-        <Link
-          to="/entrainement"
-          className="font-display inline-flex min-h-11 items-center rounded-[16px] border-[2.5px] border-navy bg-white px-3 text-sm font-semibold text-navy shadow-[0_3px_0_rgb(27_54_93/0.12)]"
-        >
+    <section className="screen" aria-label="Quiz">
+      <div className="quiz-bar">
+        <Link className="btn btn--ghost" to="/entrainement">
           ← Modes
         </Link>
-        <div className="flex items-center gap-2">
-          <p className="font-display rounded-full border-[2.5px] border-navy bg-white px-3 py-1.5 text-sm font-bold text-navy">
-            {score.correct}/{score.answered}
-          </p>
-          {score.answered > 0 ? (
-            <button
-              type="button"
-              onClick={onResetScore}
-              className="min-h-11 rounded-[16px] px-2 text-xs font-bold text-muted underline"
-            >
-              Reset
-            </button>
-          ) : null}
-        </div>
+        <span className="score">
+          {score.correct} / {score.answered}
+        </span>
       </div>
-
-      <h1 className="font-display text-2xl font-bold text-navy">
-        {mode === 'photo' ? 'Photo → nom' : 'Chant → espèce'}
-      </h1>
-      <p className="font-display text-center text-lg font-bold text-navy">
-        {mode === 'photo'
-          ? 'Quel est cet oiseau ?'
-          : 'Quelle espèce entends-tu ?'}
+      <p className="quiz-prompt">
+        {mode === 'photo' ? 'Quel est cet oiseau\u00a0?' : 'Quelle espèce entends-tu\u00a0?'}
       </p>
 
       {question?.mode === 'photo' ? (
-        <BirdImage
-          src={question.imageUrl ?? question.bird.image}
-          alt="Espèce à identifier"
-          order={question.bird.order}
-          className="mx-auto aspect-3/4 max-h-[260px] w-full rounded-[var(--radius)] border-[3px] border-navy shadow-[var(--shadow)]"
-        />
+        <div
+          className="stimulus"
+          style={hasPhoto ? undefined : { background: orderMediaStyle(question.bird.order) }}
+        >
+          <BirdImage
+            src={question.imageUrl ?? question.bird.image}
+            alt="Espèce à identifier"
+            order={question.bird.order}
+            loading="eager"
+          />
+        </div>
       ) : null}
 
       {question?.mode === 'chant' && (question.audioUrl || question.audioEmbedUrl) ? (
-        <div className="overflow-hidden rounded-[var(--radius-sm)] border-[3px] border-navy bg-white p-3 shadow-[0_4px_0_rgb(27_54_93/0.12)]">
+        <div className="stimulus" style={{ background: orderMediaStyle(question.bird.order) }}>
           {question.audioUrl ? (
             <audio
               key={question.audioUrl}
               controls
               preload="metadata"
-              className="w-full"
               src={question.audioUrl}
+              style={{ width: '90%', margin: 'auto' }}
             >
               Lecteur audio non supporté
             </audio>
@@ -145,88 +129,55 @@ export function QuizPage() {
             <iframe
               title="Enregistrement Xeno-canto"
               src={question.audioEmbedUrl}
-              className="h-[140px] w-full border-0"
+              style={{ width: '100%', height: 140, border: 0 }}
               loading="lazy"
             />
           )}
-          {question.audioPageUrl ? (
-            <a
-              href={question.audioPageUrl}
-              target="_blank"
-              rel="noreferrer"
-              className="mt-2 block text-center text-xs font-bold text-sky underline"
-            >
-              Crédit / page Xeno-canto
-            </a>
-          ) : null}
         </div>
       ) : null}
 
       {question ? (
-        <ul className="grid gap-2.5" aria-label="Réponses">
+        <div className="answers" role="group" aria-label="Propositions">
           {question.choices.map((choice, index) => {
-            let stateClass =
-              'border-navy bg-white text-navy shadow-[0_4px_0_rgb(27_54_93/0.12)]'
+            let className = 'answer'
             if (answered) {
-              if (index === question.correctIndex) {
-                stateClass =
-                  'border-ok bg-[#d3f9d8] text-[#1b6b2a] shadow-none'
-              } else if (index === picked) {
-                stateClass =
-                  'border-ko bg-[#ffe3e3] text-[#a01818] shadow-none'
-              } else {
-                stateClass = 'border-navy/40 bg-white/70 text-muted shadow-none'
-              }
+              if (index === question.correctIndex) className += ' is-correct'
+              else if (index === picked) className += ' is-wrong'
+              else className += ' is-muted'
             }
             return (
-              <li key={`${choice}-${index}`}>
-                <button
-                  type="button"
-                  disabled={answered}
-                  onClick={() => onPick(index)}
-                  className={[
-                    'font-display w-full min-h-14 rounded-[16px] border-[3px] px-3.5 py-3 text-left text-base font-bold transition-transform active:enabled:translate-y-0.5',
-                    stateClass,
-                  ].join(' ')}
-                >
-                  {choice}
-                </button>
-              </li>
+              <button
+                key={`${choice}-${index}`}
+                type="button"
+                className={className}
+                disabled={answered}
+                onClick={() => onPick(index)}
+              >
+                {choice}
+              </button>
             )
           })}
-        </ul>
+        </div>
       ) : (
-        <p className="font-bold text-muted">Préparation de la question…</p>
+        <p className="feedback">Préparation de la question…</p>
       )}
 
-      {answered && question ? (
-        <div className="space-y-3">
-          <p
-            className={[
-              'font-display text-center text-lg font-bold',
-              isCorrect ? 'text-ok' : 'text-ko',
-            ].join(' ')}
-            role="status"
-          >
-            {isCorrect
-              ? 'Bien joué !'
-              : `Réponse : ${question.choices[question.correctIndex]}`}
-          </p>
-          <button
-            type="button"
-            onClick={nextQuestion}
-            className="font-display inline-flex w-full min-h-14 items-center justify-center rounded-[var(--radius)] border-[3px] border-navy bg-gradient-to-b from-yellow to-orange px-4 text-lg font-semibold text-navy-deep shadow-[var(--shadow)] active:translate-y-1 active:shadow-[var(--shadow-press)]"
-          >
-            Question suivante
-          </button>
-          <Link
-            to={`/espece/${question.bird.id}`}
-            className="block text-center text-sm font-bold text-sky underline"
-          >
-            Voir la fiche
-          </Link>
-        </div>
+      <p
+        className={['feedback', answered ? (isCorrect ? 'is-ok' : 'is-ko') : ''].join(' ')}
+        aria-live="polite"
+      >
+        {answered && question
+          ? isCorrect
+            ? 'Bien joué !'
+            : `C’était : ${question.choices[question.correctIndex]}`
+          : ''}
+      </p>
+
+      {answered ? (
+        <button type="button" className="btn btn--next" onClick={nextQuestion}>
+          Question suivante
+        </button>
       ) : null}
-    </main>
+    </section>
   )
 }

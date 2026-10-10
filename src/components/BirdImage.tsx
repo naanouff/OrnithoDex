@@ -1,65 +1,97 @@
-import { useState } from 'react'
-import { orderAccent } from '../lib/orders'
+import { useLayoutEffect, useRef, useState } from 'react'
+import { orderMediaStyle } from '../lib/orders'
 import { resolveBirdImageUrl } from '../lib/media'
 
 type Props = {
   src?: string
   alt: string
   order: string
-  className?: string
-  imgClassName?: string
+  /** Nom affiché en overlay (cartes collection). */
+  label?: string
+  /** lazy sur les grilles ; eager sur la fiche. */
+  loading?: 'lazy' | 'eager'
+  /** false : garder le voile jusqu’au signal de la grille. */
+  reveal?: boolean
+  /** Appelé une fois l’image décodée, absente ou en échec. */
+  onReady?: () => void
 }
 
-/** Image espèce avec fallback coloré si URL absente ou chargement impossible. */
+/** Image espèce — voile animé pendant le chargement, dégradé ordre si absente. */
 export function BirdImage({
   src,
   alt,
   order,
-  className = '',
-  imgClassName = 'h-full w-full object-cover',
+  label,
+  loading = 'lazy',
+  reveal = true,
+  onReady,
 }: Props) {
   const resolved = resolveBirdImageUrl(src)
+  const imgRef = useRef<HTMLImageElement>(null)
+  const onReadyRef = useRef(onReady)
+  const reported = useRef(false)
   const [failed, setFailed] = useState(false)
+  const [loaded, setLoaded] = useState(false)
+
+  onReadyRef.current = onReady
+
+  function report() {
+    if (reported.current) return
+    reported.current = true
+    onReadyRef.current?.()
+  }
+
+  useLayoutEffect(() => {
+    reported.current = false
+    setFailed(false)
+    const img = imgRef.current
+    const done = Boolean(img && img.complete && img.naturalWidth > 0)
+    setLoaded(done)
+    if (!resolved || done) report()
+  }, [resolved])
+
   const showImage = Boolean(resolved) && !failed
+  const visible = reveal && loaded
 
   return (
-    <div className={`relative overflow-hidden ${className}`.trim()}>
+    <>
       {showImage ? (
-        <img
-          src={resolved}
-          alt={alt}
-          loading="lazy"
-          referrerPolicy="no-referrer"
-          className={imgClassName}
-          onError={() => setFailed(true)}
-        />
+        <>
+          <div
+            className={visible ? 'bird-skeleton is-hold' : 'bird-skeleton'}
+            aria-hidden="true"
+          />
+          <img
+            ref={imgRef}
+            src={resolved}
+            alt={alt}
+            loading={loading}
+            decoding="async"
+            referrerPolicy="no-referrer"
+            className={visible ? 'is-loaded' : undefined}
+            onLoad={() => {
+              setLoaded(true)
+              report()
+            }}
+            onError={() => {
+              setFailed(true)
+              setLoaded(false)
+              report()
+            }}
+          />
+        </>
       ) : (
         <div
-          className="flex h-full w-full flex-col items-center justify-center gap-2 p-4"
-          style={{ background: orderAccent(order) }}
+          style={{
+            width: '100%',
+            height: '100%',
+            background: orderMediaStyle(order),
+          }}
           role="img"
           aria-label={alt || 'Illustration indisponible'}
-        >
-          <svg
-            viewBox="0 0 64 64"
-            className="h-14 w-14 text-navy/50"
-            aria-hidden
-          >
-            <circle cx="32" cy="28" r="14" fill="currentColor" opacity="0.35" />
-            <path
-              d="M18 48c8-10 20-10 28 0"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="4"
-              strokeLinecap="round"
-              opacity="0.55"
-            />
-          </svg>
-          <span className="font-display text-center text-xs font-bold text-navy/70">
-            Photo à venir
-          </span>
-        </div>
+        />
       )}
-    </div>
+      {label ? <span>{label}</span> : null}
+    </>
   )
 }

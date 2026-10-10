@@ -1,133 +1,203 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { birds } from '../data/birds'
-import { listFamilies, listOrders } from '../lib/birds'
 import { BirdCard } from '../components/BirdCard'
+import { COLLECTION_ORDER_CHIPS } from '../lib/orders'
+
+const COLS_KEY = 'ornithodex.collection.cols'
+const COLS = [2, 3, 4] as const
+
+type Cols = (typeof COLS)[number]
+
+function loadCols(): Cols {
+  try {
+    const n = Number(sessionStorage.getItem(COLS_KEY) || 2)
+    if (n === 2 || n === 3 || n === 4) return n
+  } catch {
+    /* sessionStorage indisponible */
+  }
+  return 2
+}
 
 export function CollectionPage() {
   const [query, setQuery] = useState('')
-  const [order, setOrder] = useState('')
-  const [family, setFamily] = useState('')
-
-  const orders = useMemo(() => listOrders(), [])
-  const families = useMemo(() => listFamilies(order || undefined), [order])
+  const [order, setOrder] = useState('all')
+  const [cols, setCols] = useState<Cols>(loadCols)
+  const [revealed, setRevealed] = useState(false)
+  const readyRef = useRef(new Set<string>())
+  const paintedRef = useRef(false)
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase()
     return birds.filter((bird) => {
-      if (order && bird.order !== order) return false
-      if (family && bird.family !== family) return false
+      const orderOk = order === 'all' || bird.order === order
+      if (!orderOk) return false
       if (!q) return true
       return (
         bird.commonName.toLowerCase().includes(q) ||
-        bird.scientificName.toLowerCase().includes(q) ||
-        bird.family.toLowerCase().includes(q) ||
-        bird.order.toLowerCase().includes(q)
+        bird.scientificName.toLowerCase().includes(q)
       )
     })
-  }, [query, order, family])
+  }, [query, order])
+
+  const listKey = filtered.map((bird) => bird.id).join('|')
+  const [listStamp, setListStamp] = useState(listKey)
+
+  if (listStamp !== listKey) {
+    readyRef.current = new Set()
+    paintedRef.current = false
+    setListStamp(listKey)
+    setRevealed(false)
+  }
+
+  function markReady(id: string) {
+    readyRef.current.add(id)
+    if (paintedRef.current && readyRef.current.size >= filtered.length) {
+      setRevealed(true)
+    }
+  }
+
+  useEffect(() => {
+    paintedRef.current = true
+    if (filtered.length === 0 || readyRef.current.size >= filtered.length) {
+      setRevealed(true)
+    }
+    return () => {
+      paintedRef.current = false
+    }
+  }, [listStamp, filtered.length])
+
+  function onCols(next: Cols) {
+    setCols(next)
+    try {
+      sessionStorage.setItem(COLS_KEY, String(next))
+    } catch {
+      /* ignore */
+    }
+  }
 
   return (
-    <main className="flex flex-1 flex-col gap-3 pb-2">
-      <header className="space-y-1">
-        <h1 className="font-display text-3xl font-bold tracking-tight text-navy">
-          Collection
-        </h1>
-        <p className="text-sm font-bold text-muted">
-          {filtered.length} espèce{filtered.length > 1 ? 's' : ''}
-        </p>
-      </header>
-
-      <label className="sr-only" htmlFor="bird-search">
-        Rechercher une espèce
-      </label>
-      <input
-        id="bird-search"
-        type="search"
-        value={query}
-        onChange={(e) => setQuery(e.target.value)}
-        placeholder="Nom, latin, famille…"
-        className="min-h-12 w-full rounded-[16px] border-[3px] border-navy bg-white px-4 text-base font-bold text-ink shadow-[0_4px_0_rgb(27_54_93/0.1)] outline-none focus:outline focus:outline-3 focus:outline-offset-2 focus:outline-orange"
-      />
-
-      <div className="flex gap-2 overflow-x-auto pb-1 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
-        <FilterChip
-          label="Tous"
-          pressed={!order}
-          onClick={() => {
-            setOrder('')
-            setFamily('')
-          }}
-        />
-        {orders.map((item) => (
-          <FilterChip
-            key={item}
-            label={item}
-            pressed={order === item}
-            onClick={() => {
-              setOrder(item)
-              setFamily('')
-            }}
-          />
-        ))}
-      </div>
-
-      {order ? (
-        <div className="flex gap-2 overflow-x-auto pb-1 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
-          <FilterChip
-            label="Toutes familles"
-            pressed={!family}
-            onClick={() => setFamily('')}
-          />
-          {families.map((item) => (
-            <FilterChip
-              key={item}
-              label={item}
-              pressed={family === item}
-              onClick={() => setFamily(item)}
-            />
-          ))}
+    <section className="screen" aria-label="Collection">
+      <header className="screen-head">
+        <div>
+          <h2>Collection</h2>
+          <p>Tes cartes d’espèces — cherche et filtre</p>
         </div>
-      ) : null}
-
-      {filtered.length === 0 ? (
-        <p className="py-10 text-center font-bold text-muted">
-          Aucune espèce pour ces filtres.
-        </p>
-      ) : (
-        <ul className="grid grid-cols-2 gap-3">
-          {filtered.map((bird) => (
-            <li key={bird.id}>
-              <BirdCard bird={bird} />
-            </li>
-          ))}
-        </ul>
-      )}
-    </main>
+        <label
+          htmlFor="search"
+          style={{
+            position: 'absolute',
+            width: 1,
+            height: 1,
+            overflow: 'hidden',
+            clip: 'rect(0,0,0,0)',
+          }}
+        >
+          Rechercher
+        </label>
+        <input
+          className="search"
+          id="search"
+          type="search"
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
+          placeholder="Nom commun ou latin…"
+          autoComplete="off"
+        />
+        <div className="filter-row">
+          <div className="filter-field">
+            <label htmlFor="filter-order">Ordre</label>
+            <select
+              className="filter-select"
+              id="filter-order"
+              aria-label="Filtrer par ordre"
+              value={order}
+              onChange={(e) => setOrder(e.target.value || 'all')}
+            >
+              {COLLECTION_ORDER_CHIPS.map((chip) => (
+                <option key={chip.id} value={chip.id}>
+                  {chip.id === 'all' ? 'Tous les ordres' : chip.label}
+                </option>
+              ))}
+            </select>
+          </div>
+          <div className="density" role="group" aria-label="Taille des tuiles">
+            <DensityButton cols={2} current={cols} onCols={onCols} />
+            <DensityButton cols={3} current={cols} onCols={onCols} />
+            <DensityButton cols={4} current={cols} onCols={onCols} />
+          </div>
+        </div>
+      </header>
+      <div
+        className={revealed ? 'grid is-revealed' : 'grid'}
+        data-cols={cols}
+        aria-busy={!revealed}
+      >
+        {filtered.length === 0 ? (
+          <p className="empty">Aucune espèce pour ces filtres.</p>
+        ) : (
+          filtered.map((bird, index) => (
+            <BirdCard
+              key={bird.id}
+              bird={bird}
+              row={Math.floor(index / cols)}
+              reveal={revealed}
+              onReady={() => markReady(bird.id)}
+            />
+          ))
+        )}
+      </div>
+    </section>
   )
 }
 
-function FilterChip({
-  label,
-  pressed,
-  onClick,
+function DensityButton({
+  cols,
+  current,
+  onCols,
 }: {
-  label: string
-  pressed: boolean
-  onClick: () => void
+  cols: Cols
+  current: Cols
+  onCols: (cols: Cols) => void
 }) {
   return (
     <button
       type="button"
-      aria-pressed={pressed}
-      onClick={onClick}
-      className={[
-        'font-display min-h-11 shrink-0 rounded-full border-[2.5px] border-navy px-3.5 text-sm font-semibold shadow-[0_3px_0_rgb(27_54_93/0.12)]',
-        pressed
-          ? 'bg-gradient-to-b from-yellow to-orange text-navy-deep'
-          : 'bg-white text-navy',
-      ].join(' ')}
+      className="density__btn"
+      data-cols={cols}
+      aria-pressed={current === cols}
+      title={`${cols} colonnes`}
+      aria-label={`${cols} colonnes`}
+      onClick={() => onCols(cols)}
     >
-      {label}
+      <ColsIcon cols={cols} />
     </button>
+  )
+}
+
+function ColsIcon({ cols }: { cols: Cols }) {
+  if (cols === 2) {
+    return (
+      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+        <rect x="3" y="4" width="8" height="16" rx="1.5" />
+        <rect x="13" y="4" width="8" height="16" rx="1.5" />
+      </svg>
+    )
+  }
+  if (cols === 3) {
+    return (
+      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+        <rect x="2" y="4" width="5.5" height="16" rx="1.2" />
+        <rect x="9.25" y="4" width="5.5" height="16" rx="1.2" />
+        <rect x="16.5" y="4" width="5.5" height="16" rx="1.2" />
+      </svg>
+    )
+  }
+  return (
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      <rect x="1.5" y="4" width="4" height="16" rx="1" />
+      <rect x="7.2" y="4" width="4" height="16" rx="1" />
+      <rect x="12.8" y="4" width="4" height="16" rx="1" />
+      <rect x="18.5" y="4" width="4" height="16" rx="1" />
+    </svg>
   )
 }
