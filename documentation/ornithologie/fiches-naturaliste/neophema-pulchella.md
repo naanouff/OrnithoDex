@@ -1,7 +1,7 @@
 ﻿# Perruche d'Edwards ou turquoisine
 
 - **Slug** : `neophema-pulchella`
-- **Statut documentation** : `liste_seule`
+- **Statut documentation** : `complete`
 - **Dernière vérification** : 2026-10-10
 
 ## Identité
@@ -15,27 +15,49 @@
 
 ## Description
 
+Évalué **Least Concern** (2024). Endémique nicheur d’Australie (sud-est) ; EOO ≈ 771 000 km² ; tendance **stable** ; ≈ 20 000 individus (estimation). Aire historiquement contractée (Queensland, NSW, Victoria).  
+*Source : birdlife-neophema-pulchella.*
+
 ## Dimorphisme sexuel
+
+*Non détaillé dans les sources consultées (BirdLife).*  
+*Sources : na.*
 
 ## Habitat d’origine
 
+Forêt tropicale/subtropicale sèche, prairies et fourrés secs ; terres cultivées (non-breeding, suitable) ; 0–1 130 m ; non migrateur. Sous-bois herbeux requis (menaces : brûlis inadaptés, perte de cavités).  
+*Source : birdlife-neophema-pulchella.*
+
 ## Régime alimentaire
+
+BirdLife : en Victoria, adaptation à une nouvelle source alimentaire — graines de *cape weed* (rapporté dans le justifiant de tendance). Autres détails alimentaires non listés.  
+*Source : birdlife-neophema-pulchella.*
 
 ## Comportement
 
+Résident ; endémique Australie ; population globalement stable.  
+*Source : birdlife-neophema-pulchella.*
+
 ## Chant et vocalisations
+
+Enregistrement XC328216 (Andrew Spencer — CC BY-NC-ND 4.0) : https://xeno-canto.org/328216
 
 ## Points de cours à retenir
 
+*En attente ingénieur pédagogique / supports de cours.*
+
 ## Médias
 
-| Type | Fichier | Crédit / licence | Source README |
-|------|---------|------------------|---------------|
-| Image | `/images/birds/neophema-pulchella.webp` | *à fournir* | |
-| Audio | `/audio/birds/neophema-pulchella.mp3` | *à fournir* | |
+| Type | Fichier / URL | Crédit / licence | Source README |
+|------|--------------|------------------|---------------|
+| Image | https://commons.wikimedia.org/wiki/File:Neophema_pulchella_-Twycross_Zoo,_Leicestershire,_England-8a.jpg | stephen jones — CC BY 2.0 | media-neophema-pulchella-img |
+| Audio | https://xeno-canto.org/328216 | Andrew Spencer — CC BY-NC-ND 4.0 | media-neophema-pulchella-audio |
 
 ## Sources
 
 | Id | Titre | Éditeur / auteur | Année | URL | Note |
 |----|-------|------------------|-------|-----|------|
-| bac-pro-tcva-liste | Liste des oiseaux – BAC PRO TCVA (MP6) | Support de cours / arrêtés 02/07/2009 + domestiques | 2009 | | Identité programme |
+| bac-pro-tcva-liste | Liste des oiseaux – BAC PRO TCVA (MP6) | Support de cours | 2009 | | Identité programme |
+| birdlife-neophema-pulchella | Turquoise Parrot Neophema pulchella — Species Factsheet | BirdLife International | 2024 | https://datazone.birdlife.org/species/factsheet/turquoise-parrot-neophema-pulchella | Consulté 2026-10-10 |
+| media-neophema-pulchella-img | File:Neophema pulchella -Twycross Zoo…jpg | stephen jones / Wikimedia Commons | | https://commons.wikimedia.org/wiki/File:Neophema_pulchella_-Twycross_Zoo,_Leicestershire,_England-8a.jpg | CC BY 2.0 |
+| media-neophema-pulchella-audio | XC328216 | Andrew Spencer / Xeno-canto | | https://xeno-canto.org/328216 | CC BY-NC-ND 4.0 |

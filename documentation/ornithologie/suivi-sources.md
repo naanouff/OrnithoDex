@@ -29,12 +29,12 @@ Plan : [plan-sources.md](../projet/plan-sources.md) · Sprints : [01](../projet/
 | cyanoramphus-auriceps | ok | ok | ok | ok | ok | na | ok | ok | ok | attente | NT; dimorphisme na; sprint 05 |
 | forpus-coelestis | ok | ok | ok | ok | ok | na | ok | na | ok | attente | régime/dimorphisme na; sprint 05 |
 | melopsittacus-undulatus | ok | ok | ok | ok | ok | ok | ok | ok | ok | attente | ADW; sprint 05 |
-| myiopsitta-monachus-monachus | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
-| neopsephotus-bourkii | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
-| neophema-elegans | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
-| neophema-pulchella | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
-| neophema-splendida | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
-| platycercus-eximius-eximius | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
+| myiopsitta-monachus-monachus | ok | ok | ok | ok | ok | ok | ok | ok | ok | attente | sous-esp. programme; ADW; sprint 06 |
+| neopsephotus-bourkii | ok | ok | ok | ok | ok | ok | ok | ok | ok | attente | ADW; sprint 06 |
+| neophema-elegans | ok | ok | ok | ok | ok | na | ok | na | ok | attente | dimorphisme/régime na; sprint 06 |
+| neophema-pulchella | ok | ok | ok | ok | ok | na | ok | ok | ok | attente | dimorphisme na; cape weed; sprint 06 |
+| neophema-splendida | ok | ok | ok | ok | ok | na | ok | na | ok | attente | dimorphisme/régime na; sprint 06 |
+| platycercus-eximius-eximius | ok | ok | ok | ok | ok | na | ok | na | ok | attente | sous-esp. programme; dimorphisme/régime na; sprint 06 |
 | platycercus-elegans | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
 | platycercus-icterotis | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
 | platycercus-adscitus | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
@@ -92,4 +92,4 @@ Plan : [plan-sources.md](../projet/plan-sources.md) · Sprints : [01](../projet/
 | serinus-mozambicus | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
 | serinus-canaria | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
 
-Dernière mise à jour : 2026-10-10 (sprint 05 — 6 Psittacidés A complete).
+Dernière mise à jour : 2026-10-10 (sprint 06 — 6 Psittacidés B complete).
