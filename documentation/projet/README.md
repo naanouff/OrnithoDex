@@ -15,6 +15,7 @@
 | [sprint-pedagogie-lot-06.md](sprint-pedagogie-lot-06.md) | **Sprint pédagogie** — lot 06 Cacatuides / Passériformes (6) |
 | [sprint-pedagogie-lot-07.md](sprint-pedagogie-lot-07.md) | **Sprint pédagogie** — lot 07 Estrildidés A (6) |
 | [sprint-pedagogie-lot-08.md](sprint-pedagogie-lot-08.md) | **Sprint pédagogie** — lot 08 Estrildidés B (6) |
+| [sprint-pedagogie-lot-09.md](sprint-pedagogie-lot-09.md) | **Sprint pédagogie** — lot 09 Lonchura A (6) |
 | [plan-design.md](plan-design.md) | **Plan design** — charte + maquettes (direction artistique) |
 | [sprint-01-sources.md](sprint-01-sources.md) | **Sprint 01** — collecte lot pilote (6 espèces) |
 | [sprint-02-sources.md](sprint-02-sources.md) | **Sprint 02** — Columbiformes (6) |

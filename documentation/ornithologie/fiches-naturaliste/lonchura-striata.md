@@ -43,7 +43,13 @@ Enregistrement XC1160466 (Nishant Bhagwat — CC BY-NC-ND 4.0) : https://xeno-ca
 
 ## Points de cours à retenir
 
-*En attente ingénieur pédagogique / supports de cours.*
+<!-- Aides à la mémorisation (pas un polycopié enseignant). -->
+
+- **[programme]** Capucin domino ↔ *Lonchura striata* ; Passériformes ; Estrildidés
+- **[programme]** Confusion : moineau du Japon (*L. striata domestiqua*) — forme **domestique** du même taxon
+- **[sourcé]** Least Concern ; tendance stable ; savane / fourrés / cultures
+- **[sourcé]** Non migrateur ; EOO vaste (≈ 14,5 M km²)
+- **[sourcé]** Fortement présent dans le commerce (compagnie + usage alimentaire)
 
 ## Médias
 
