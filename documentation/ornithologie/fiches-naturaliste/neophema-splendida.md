@@ -15,27 +15,27 @@
 
 ## Description
 
-Évalué **Least Concern** (2024). Endémique nicheur d’Australie ; EOO ≈ 1 280 000 km² ; tendance globale **stable** ; population fluctuante, capable de croître rapidement en conditions favorables.  
+Évalué **Least Concern** (2024). Endémique nicheur d’Australie ; EOO ≈ 1 280 000 km² ; tendance **stable** (population fluctuante selon conditions favorables).  
 *Source : birdlife-neophema-splendida.*
 
 ## Dimorphisme sexuel
 
 *Non détaillé dans les sources consultées (BirdLife).*  
-*Valeur suivi : `na`.*
+*Sources : na.*
 
 ## Habitat d’origine
 
-Mallee ou mulga du sud semi-aride intérieur ; forêt et fourrés secs ; statut **nomade**. Cœur d’aire : Grand Désert de Victoria ; population résidente signalée à Gluepot (Australie-Méridionale).  
+Mallee / mulga du sud semi-aride intérieur ; forêt et fourrés tropicaux/subtropicaux secs ; statut **nomade**. Cœur d’aire : Great Victoria Desert ; petite population résidente (Gluepot, Australie-Méridionale).  
 *Source : birdlife-neophema-splendida.*
 
 ## Régime alimentaire
 
 *Non détaillé dans les sources consultées (BirdLife).*  
-*Valeur suivi : `na`.*
+*Sources : na.*
 
 ## Comportement
 
-Nomade / irruptions épisodiques hors du cœur d’aire ; coexiste avec *Neopsephotus bourkii* sur une grande partie de l’aire.  
+Nomade ; irruptions hors du cœur d’aire possibles ; cohabite souvent avec la perruche de Bourke.  
 *Source : birdlife-neophema-splendida.*
 
 ## Chant et vocalisations
