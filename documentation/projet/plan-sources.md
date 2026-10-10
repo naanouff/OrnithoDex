@@ -106,7 +106,8 @@ Valeurs : `ok` | `manquant` | `na` | `lien` (audio page espèce seulement — à
 | **11** | Passériformes C / Estrildidés (6) | Fait — [sprint-11-sources.md](sprint-11-sources.md) |
 | **12** | Lonchura A (6) | Fait — [sprint-12-sources.md](sprint-12-sources.md) |
 | **13** | Lonchura B / Estrildidés AU (6) | Fait — [sprint-13-sources.md](sprint-13-sources.md) |
-| 14+ | Passériformes (suite) | Ensuite |
+| **14** | Estrildidés / Vidua (6) | Fait — [sprint-14-sources.md](sprint-14-sources.md) |
+| 15+ | Vidua / Serinus (reste) | Ensuite |
 
 ## Livrables de cette phase
 

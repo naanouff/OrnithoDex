@@ -81,12 +81,12 @@ Plan : [plan-sources.md](../projet/plan-sources.md) · Sprints : [01](../projet/
 | neochmia-ruficauda | ok | ok | ok | ok | ok | na | ok | na | ok | attente | XC: Bathilda ruficauda |
 | stagonopleura-guttata | ok | ok | ok | ok | ok | na | ok | na | ok | attente | VU |
 | taeniopygia-bichenovii | ok | ok | ok | ok | ok | na | ok | na | ok | attente | XC: Stizoptera bichenovii |
-| taeniopygia-guttata-castanotis | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
-| uraeginthus-bengalus | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
-| uraeginthus-cyanocephalus | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
-| poephila-acuticauda | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
-| vidua-chalybeata | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
-| vidua-macroura | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
+| taeniopygia-guttata-castanotis | ok | ok | ok | ok | ok | na | ok | na | ok | attente | BirdLife: T. castanotis |
+| uraeginthus-bengalus | ok | ok | ok | ok | ok | na | ok | na | ok | attente | |
+| uraeginthus-cyanocephalus | ok | ok | ok | ok | ok | na | ok | na | ok | attente | |
+| poephila-acuticauda | ok | ok | ok | ok | ok | na | ok | na | ok | attente | |
+| vidua-chalybeata | ok | ok | ok | ok | ok | na | ok | na | ok | attente | |
+| vidua-macroura | ok | ok | ok | ok | ok | na | ok | na | ok | attente | |
 | vidua-orientalis | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
 | serinus-leucopygius | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
 | serinus-mozambicus | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
