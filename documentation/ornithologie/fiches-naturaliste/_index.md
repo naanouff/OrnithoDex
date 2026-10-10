@@ -85,7 +85,7 @@ Générés le 2026-10-10. Lots en `complete` (sprint 03a) : Galliformes, Anséri
 | [poephila-acuticauda](poephila-acuticauda.md) | Diamant à longue queue | complete |
 | [vidua-chalybeata](vidua-chalybeata.md) | Combassou | complete |
 | [vidua-macroura](vidua-macroura.md) | Veuve dominicaine | complete |
-| [vidua-orientalis](vidua-orientalis.md) | Veuve à collier d'or | liste_seule |
-| [serinus-leucopygius](serinus-leucopygius.md) | Chanteur d'Afrique | liste_seule |
-| [serinus-mozambicus](serinus-mozambicus.md) | Serin du Mozambique | liste_seule |
-| [serinus-canaria](serinus-canaria.md) | Serin des canaries | liste_seule |
+| [vidua-orientalis](vidua-orientalis.md) | Veuve à collier d'or | complete |
+| [serinus-leucopygius](serinus-leucopygius.md) | Chanteur d'Afrique | complete |
+| [serinus-mozambicus](serinus-mozambicus.md) | Serin du Mozambique | complete |
+| [serinus-canaria](serinus-canaria.md) | Serin des canaries | complete |

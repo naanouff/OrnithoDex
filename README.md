@@ -25,7 +25,7 @@ Le cadrage et le plan complets sont dans [`documentation/`](documentation/) :
 
 ## Statut
 
-Sources : méthode [plan-sources.md](documentation/projet/plan-sources.md) · [01](documentation/projet/sprint-01-sources.md) · [02](documentation/projet/sprint-02-sources.md) · **[03a](documentation/projet/sprint-03a-sources.md)** (12 fiches `complete`) · suivi [suivi-sources.md](documentation/ornithologie/suivi-sources.md).  
+Sources : méthode [plan-sources.md](documentation/projet/plan-sources.md) · sprints [01](documentation/projet/sprint-01-sources.md)–**[15](documentation/projet/sprint-15-sources.md)** — **85/85** fiches `complete` (biologie + médias) · suivi [suivi-sources.md](documentation/ornithologie/suivi-sources.md).  
 Points de cours : plan consigné dans [plan-pedagogie.md](documentation/projet/plan-pedagogie.md) (exécution cadre + contenu à venir ; pas de polycopié enseignant). Développement applicatif (Vite / React / TypeScript / Tailwind) ensuite.
 
 Licence du code : **MIT** — voir [`LICENSE`](LICENSE).
@@ -222,3 +222,11 @@ Fiches espèce BirdLife / ADW / Avibase (sprints 01–07) : détail dans chaque 
 | `vidua-chalybeata` | Audio | Julien Birard | CC BY-NC-SA 4.0 | https://xeno-canto.org/982686 |
 | `vidua-macroura` | Image | Charles J. Sharp | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Pin-tailed_whydah_(Vidua_macroura)_breeding_male.jpg |
 | `vidua-macroura` | Audio | African Bioacoustics Community | CC BY-NC-SA 4.0 | https://xeno-canto.org/1183545 |
+| `vidua-orientalis` | Image | Pobpob11 | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Sahel_Paradise_Whydah.jpg |
+| `vidua-orientalis` | Audio | Bram Piot | CC BY-NC-SA 4.0 | https://xeno-canto.org/436008 |
+| `serinus-leucopygius` | Image | Francesco Veronesi | CC BY-SA 2.0 | https://commons.wikimedia.org/wiki/File:White-rumped_Seedeater_-_Gambia_(32270398890).jpg |
+| `serinus-leucopygius` | Audio | Bram Piot | CC BY-NC-SA 4.0 | https://xeno-canto.org/469496 |
+| `serinus-mozambicus` | Image | Charles J. Sharp | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Yellow-fronted_canary_(Crithagra_mozambica_granti)_male_Kruger.jpg |
+| `serinus-mozambicus` | Audio | Marna Buys | CC BY-NC-SA 4.0 | https://xeno-canto.org/1140446 |
+| `serinus-canaria` | Image | Eduardo Martínez | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Serinus_canaria_-_Canary_-_Wild.jpg |
+| `serinus-canaria` | Audio | Radek Grochowski | CC BY-NC-SA 4.0 | https://xeno-canto.org/1156694 |

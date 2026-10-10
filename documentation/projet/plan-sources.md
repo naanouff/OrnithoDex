@@ -107,13 +107,13 @@ Valeurs : `ok` | `manquant` | `na` | `lien` (audio page espèce seulement — à
 | **12** | Lonchura A (6) | Fait — [sprint-12-sources.md](sprint-12-sources.md) |
 | **13** | Lonchura B / Estrildidés AU (6) | Fait — [sprint-13-sources.md](sprint-13-sources.md) |
 | **14** | Estrildidés / Vidua (6) | Fait — [sprint-14-sources.md](sprint-14-sources.md) |
-| 15+ | Vidua / Serinus (reste) | Ensuite |
+| **15** | Vidua / Serinus (4) — fin lot | Fait — [sprint-15-sources.md](sprint-15-sources.md) |
 
 ## Livrables de cette phase
 
 - [x] `catalogue-sources.md` + MAJ `sources.md`
 - [x] `suivi-sources.md` (85 espèces, colonnes comportement / points_cours)
-- [ ] Fiches enrichies lot par lot vers `complete`
+- [x] Fiches enrichies lot par lot vers `complete` (85/85 biologie + médias ; points de cours `attente`)
 - [x] Section **Sources** du README (bases génériques + médias)
 - [x] Entrées journal à chaque lot / révision de méthode
 

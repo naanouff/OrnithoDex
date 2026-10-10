@@ -87,9 +87,9 @@ Plan : [plan-sources.md](../projet/plan-sources.md) · Sprints : [01](../projet/
 | poephila-acuticauda | ok | ok | ok | ok | ok | na | ok | na | ok | attente | |
 | vidua-chalybeata | ok | ok | ok | ok | ok | na | ok | na | ok | attente | |
 | vidua-macroura | ok | ok | ok | ok | ok | na | ok | na | ok | attente | |
-| vidua-orientalis | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
-| serinus-leucopygius | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
-| serinus-mozambicus | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
-| serinus-canaria | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
+| vidua-orientalis | ok | ok | ok | ok | ok | na | ok | na | ok | attente | Sahel Paradise-whydah |
+| serinus-leucopygius | ok | ok | ok | ok | ok | na | ok | na | ok | attente | BirdLife: Crithagra leucopygia |
+| serinus-mozambicus | ok | ok | ok | ok | ok | na | ok | na | ok | attente | BirdLife: Crithagra mozambica |
+| serinus-canaria | ok | ok | ok | ok | ok | na | ok | na | ok | attente | forme sauvage Island Canary |
 
 Dernière mise à jour : 2026-10-10 (sprint 07 — 6 Psittacidés C complete).
