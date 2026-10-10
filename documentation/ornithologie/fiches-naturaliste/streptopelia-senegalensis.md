@@ -1,7 +1,7 @@
 ﻿# Colombe maillée
 
 - **Slug** : `streptopelia-senegalensis`
-- **Statut documentation** : `partielle`
+- **Statut documentation** : `complete`
 - **Dernière vérification** : 2026-10-10
 
 ## Identité
@@ -16,16 +16,16 @@
 
 ## Description
 
-Évaluée **Least Concern** (2018). EOO ≈ 64 400 000 km² ; estimation préliminaire de population ≈ 2,4–8,2 millions d’individus matures ; tendance suspectée **stable**. Associée aux cultures, aux arbres (hors forêt dense) et à l’habitat humain.  
+Évaluée **Least Concern** (2018). EOO ≈ 64 400 000 km² ; population ≈ 2,4–8,2 millions d’individus matures ; tendance suspectée **stable**.  
 *Source : birdlife-spilopelia-senegalensis.*
 
 ## Dimorphisme sexuel
 
-*Non documenté dans les sources consultées pour ce sprint.*
+*Non documenté dans BirdLife / ADW consultés — `na`.*
 
 ## Habitat d’origine
 
-Terres cultivées (majeur), jardins, zones urbaines, pâturages, prairies, savane sèche (suitable).  
+Terres cultivées (majeur), jardins, zones urbaines, pâturages, prairies, savane sèche. Associée aux cultures, aux arbres (hors forêt dense) et à l’habitat humain.  
 *Source : birdlife-spilopelia-senegalensis.*
 
 ## Régime alimentaire
@@ -33,25 +33,31 @@ Terres cultivées (majeur), jardins, zones urbaines, pâturages, prairies, savan
 Petites graines ; aussi fruits, nectar d’*Aloe* et quelques insectes.  
 *Source : birdlife-spilopelia-senegalensis (citant Baptista et al. 1997).*
 
+## Comportement
+
+Espèce commensale des milieux agricoles et urbains ; tendance de population suspectée stable.  
+*Source : birdlife-spilopelia-senegalensis.*
+
 ## Chant et vocalisations
 
-https://xeno-canto.org/species/Spilopelia-senegalensis
+Enregistrement XC1183962 (African Bioacoustics Community — CC BY-NC-SA 4.0) : https://xeno-canto.org/1183962
 
 ## Points de cours à retenir
 
-*En attente de supports de cours.*
+*En attente ingénieur pédagogique / supports de cours.*
 
 ## Médias
 
 | Type | Fichier / URL | Crédit / licence | Source README |
 |------|--------------|------------------|---------------|
 | Image | https://commons.wikimedia.org/wiki/File:Spilopelia_senegalensis_-_Laughing_Dove_-_K%C3%BC%C3%A7%C3%BCk_kumru_02.JPG | Zeynel Cebeci — CC BY-SA 4.0 | media-streptopelia-senegalensis-img |
-| Audio | https://xeno-canto.org/species/Spilopelia-senegalensis | page espèce | xeno-canto |
+| Audio | https://xeno-canto.org/1183962 | African Bioacoustics Community — CC BY-NC-SA 4.0 | media-streptopelia-senegalensis-audio |
 
 ## Sources
 
 | Id | Titre | Éditeur / auteur | Année | URL | Note |
 |----|-------|------------------|-------|-----|------|
 | bac-pro-tcva-liste | Liste des oiseaux – BAC PRO TCVA (MP6) | Support de cours | 2009 | | Identité programme |
-| birdlife-spilopelia-senegalensis | Laughing Dove Spilopelia senegalensis — Species Factsheet | BirdLife International DataZone | 2018 | https://datazone.birdlife.org/species/factsheet/laughing-dove-spilopelia-senegalensis | Syn. Streptopelia senegalensis ; consulté 2026-10-10 |
-| media-streptopelia-senegalensis-img | File:Spilopelia senegalensis - Laughing Dove - Küçük kumru 02.JPG | Zeynel Cebeci / Wikimedia Commons | 2015 | https://commons.wikimedia.org/wiki/File:Spilopelia_senegalensis_-_Laughing_Dove_-_K%C3%BC%C3%A7%C3%BCk_kumru_02.JPG | CC BY-SA 4.0 |
+| birdlife-spilopelia-senegalensis | Laughing Dove Spilopelia senegalensis — Species Factsheet | BirdLife International | 2018 | https://datazone.birdlife.org/species/factsheet/laughing-dove-spilopelia-senegalensis | Syn. Streptopelia senegalensis |
+| media-streptopelia-senegalensis-img | File:Spilopelia senegalensis… | Zeynel Cebeci / Wikimedia Commons | 2015 | https://commons.wikimedia.org/wiki/File:Spilopelia_senegalensis_-_Laughing_Dove_-_K%C3%BC%C3%A7%C3%BCk_kumru_02.JPG | CC BY-SA 4.0 |
+| media-streptopelia-senegalensis-audio | XC1183962 | African Bioacoustics Community / Xeno-canto | | https://xeno-canto.org/1183962 | CC BY-NC-SA 4.0 |

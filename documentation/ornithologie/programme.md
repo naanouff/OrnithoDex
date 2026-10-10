@@ -2,6 +2,8 @@
 
 ## Cadre
 
+- Diplôme : BAC PRO **Technicien conseil vente en animalerie** (TCVA)
+- **Public prioritaire du projet** : élèves de **seconde professionnelle** TCVA
 - Module : **MP6 – TCVA – Ornithologie**
 - Intitulé : *Les oiseaux de cage et de volière — Guide des espèces à connaître*
 - Référence réglementaire citée dans le support de cours : **arrêtés du 02 juillet 2009** + espèces domestiques

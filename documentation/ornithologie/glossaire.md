@@ -4,6 +4,8 @@ Termes utiles pour le projet et le cours. Définitions courtes ; enrichir unique
 
 | Terme | Sens dans ce projet |
 |-------|---------------------|
+| TCVA | BAC PRO Technicien conseil vente en animalerie |
+| Seconde pro | Première année du BAC PRO ; **cible prioritaire** d’OrnithoDex |
 | Ordre | Rang taxonomique regroupant des familles (ex. Psittaciformes) |
 | Famille | Rang sous l’ordre (ex. Psittacidés, Estrildidés) |
 | Nom scientifique | Binôme latin (genre + espèce), parfois avec sous-espèce |

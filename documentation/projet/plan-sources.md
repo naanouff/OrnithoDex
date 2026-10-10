@@ -7,7 +7,7 @@ Complète le [plan projet V1](plan.md). Toute évolution de méthode doit mettre
 
 Enrichissement systématique des **85 fiches du naturaliste** vers le statut `complete` (7 sections biologie/médias), avec registre dans le [README racine](../../README.md).
 
-**Points de cours** : hors phase — en attente d’un **ingénieur pédagogique** / supports de cours. Ils ne bloquent pas le statut `complete` naturaliste.
+**Points de cours** : traités dans le [plan pédagogie](plan-pedagogie.md) (pas de polycopié enseignant ; aides à la rétention dérivées de la liste programme + faits sourcés). Ils ne bloquent pas le statut `complete` naturaliste.
 
 ## Périmètre retenu
 
@@ -15,7 +15,7 @@ Pour chaque espèce du référentiel ([especes.md](../ornithologie/especes.md)) 
 
 | Inclus (viser `complete`) | Exclu / différé |
 |---------------------------|-----------------|
-| Description | Points de cours BAC PRO (ingénieur pédagogique) |
+| Description | Points de cours → [plan-pedagogie.md](plan-pedagogie.md) |
 | Dimorphisme sexuel | Scaffold applicatif Vite/React |
 | Habitat d’origine | Copie locale massive dans `public/` avant validation licence |
 | Régime alimentaire | |
@@ -69,7 +69,7 @@ flowchart TD
 | Dimorphisme | BirdLife / ADW | Présence/absence ou description ; `na` si sources indiquent absence |
 | Chant | Xeno-canto | **1 fichier** (pas seule page espèce) + crédit licence |
 | Médias | Commons + XC | 1 image + 1 audio, crédits README |
-| Points de cours | — | `attente` (ingénieur pédagogique) — ne bloque pas `complete` |
+| Points de cours | — | `attente` jusqu’exécution du [plan pédagogie](plan-pedagogie.md) — ne bloque pas `complete` |
 
 1. Résoudre le nom scientifique (Avibase).
 2. Ouvrir BirdLife ; noter URL + date de consultation.

@@ -4,7 +4,7 @@
 
 ## Problème
 
-Les étudiants en BAC PRO TCVA (module MP6 – Ornithologie) doivent mémoriser un référentiel d’espèces d’oiseaux de cage et de volière. L’apprentissage purement scolaire (liste, polycopiés) manque souvent d’entraînement interactif adapté au smartphone.
+Les élèves de **seconde professionnelle** du BAC PRO **Technicien conseil vente en animalerie** (TCVA, module MP6 – Ornithologie) doivent mémoriser un référentiel d’espèces d’oiseaux de cage et de volière. L’apprentissage purement scolaire (liste, polycopiés) manque souvent d’entraînement interactif adapté au smartphone.
 
 ## Solution
 
@@ -17,8 +17,8 @@ Un site pédagogique **open source**, version numérique augmentée d’un jeu d
 
 ## Public
 
-- Prioritaire : élèves / étudiants BAC PRO TCVA, usage **smartphone portrait**
-- Secondaire : toute personne souhaitant apprendre ces espèces domestiques et de volière
+- **Prioritaire** : élèves de **seconde pro** BAC PRO **Technicien conseil vente en animalerie** (TCVA), module MP6 – Ornithologie ; usage **smartphone portrait**
+- Secondaire : autres niveaux du même BAC PRO, puis toute personne souhaitant apprendre ces espèces domestiques et de volière
 
 ## Principes
 
@@ -29,4 +29,4 @@ Un site pédagogique **open source**, version numérique augmentée d’un jeu d
 
 ## Périmètre
 
-Voir [plan.md](plan.md) (objectif V1 / hors V1) et [cahier-des-charges.md](cahier-des-charges.md).
+Voir [plan.md](plan.md) (objectif V1 / hors V1), [cahier-des-charges.md](cahier-des-charges.md) et [plan-pedagogie.md](plan-pedagogie.md) (rétention / points de cours).

@@ -1,7 +1,7 @@
 ﻿# Colin de Virginie
 
 - **Slug** : `colinus-virginianus`
-- **Statut documentation** : `partielle`
+- **Statut documentation** : `complete`
 - **Dernière vérification** : 2026-10-10
 
 ## Identité
@@ -15,43 +15,50 @@
 
 ## Description
 
-Évalué **Near Threatened** (Quasi menacé) sur la Liste rouge (BirdLife). Population estimée ≈ 5 800 000 individus matures (2016) ; tendance **en diminution** (déclin nord-américain marqué sur plusieurs décennies). Non migrateur.  
+Évalué **Near Threatened**. Population ≈ 5 800 000 individus matures (2016) ; tendance **en diminution**. Non migrateur.  
 *Source : birdlife-colinus-virginianus.*
 
 ## Dimorphisme sexuel
 
-*Non documenté dans le détail morphologique par BirdLife sur la fiche consultée ; à compléter avec source dédiée.*
+Oui : mâle à face et gorge blanches contrastées ; femelle et juvéniles à gorge chamois ; couvertures alaires et base du bec diffèrent aussi.  
+*Source : adw-colinus-virginianus.*
 
 ## Habitat d’origine
 
-Végétation de début de succession (feu, agriculture, exploitation forestière) ; paysages agricoles, prairies, forêts ouvertes et fourrés. Habitats artificiels (pâturages, terres cultivées) classés suitable.  
-*Source : birdlife-colinus-virginianus (citant Brennan et al. 2020 ; classification habitats BirdLife).*
+Végétation de début de succession (feu, agriculture, coupe) ; paysages agricoles, prairies, forêts ouvertes et fourrés.  
+*Sources : birdlife-colinus-virginianus ; adw-colinus-virginianus.*
 
 ## Régime alimentaire
 
-Se nourrit principalement de graines ; les insectes constituent une part importante du régime en été.  
-*Source : birdlife-colinus-virginianus (citant del Hoyo et al. 1994).*
+Principalement graines ; insectes importants en été (BirdLife citant del Hoyo et al. 1994). ADW : ≈ 85 % végétaux / 15 % animal selon saison.  
+*Sources : birdlife-colinus-virginianus ; adw-colinus-virginianus.*
+
+## Comportement
+
+Diurne, surtout terrestre ; forme des compagnies (coveys) hors saison de reproduction ; hiérarchie sociale mâle ; populations généralement sédentaires.  
+*Source : adw-colinus-virginianus.*
 
 ## Chant et vocalisations
 
-https://xeno-canto.org/species/Colinus-virginianus
+Enregistrement XC919215 (FREDERIC Lionel — CC BY-NC-SA 4.0) : https://xeno-canto.org/919215
 
 ## Points de cours à retenir
 
-*En attente de supports de cours.*
+*En attente ingénieur pédagogique / supports de cours.*
 
 ## Médias
 
 | Type | Fichier / URL | Crédit / licence | Source README |
 |------|--------------|------------------|---------------|
 | Image | https://commons.wikimedia.org/wiki/File:Northern_Bobwhite_female_RWD.jpg | DickDaniels — CC BY-SA 3.0 | media-colinus-virginianus-img |
-| Audio | https://xeno-canto.org/species/Colinus-virginianus | page espèce | xeno-canto |
+| Audio | https://xeno-canto.org/919215 | FREDERIC Lionel — CC BY-NC-SA 4.0 | media-colinus-virginianus-audio |
 
 ## Sources
 
 | Id | Titre | Éditeur / auteur | Année | URL | Note |
 |----|-------|------------------|-------|-----|------|
 | bac-pro-tcva-liste | Liste des oiseaux – BAC PRO TCVA (MP6) | Support de cours | 2009 | | Identité programme |
-| birdlife-colinus-virginianus | Northern Bobwhite Colinus virginianus — Species Factsheet | BirdLife International DataZone | | https://datazone.birdlife.org/species/factsheet/northern-bobwhite-colinus-virginianus | Consulté 2026-10-10 |
-| avibase-colinus-virginianus | Colinus virginianus | Avibase | | https://avibase.bsc-eoc.org/species.jsp?avibaseid=91CCBC71 | Contrôle taxonomique |
+| birdlife-colinus-virginianus | Northern Bobwhite Colinus virginianus — Species Factsheet | BirdLife International | | https://datazone.birdlife.org/species/factsheet/northern-bobwhite-colinus-virginianus | Consulté 2026-10-10 |
+| adw-colinus-virginianus | Colinus virginianus (northern bobwhite) | Animal Diversity Web / Matthew Chumchal | | https://animaldiversity.org/accounts/Colinus_virginianus/ | Consulté 2026-10-10 |
 | media-colinus-virginianus-img | File:Northern Bobwhite female RWD.jpg | DickDaniels / Wikimedia Commons | 2012 | https://commons.wikimedia.org/wiki/File:Northern_Bobwhite_female_RWD.jpg | CC BY-SA 3.0 |
+| media-colinus-virginianus-audio | XC919215 | FREDERIC Lionel / Xeno-canto | | https://xeno-canto.org/919215 | CC BY-NC-SA 4.0 |

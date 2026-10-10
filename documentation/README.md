@@ -1,6 +1,6 @@
 # Documentation
 
-Base documentaire du projet **OrnithoDex** (MP6 – BAC PRO TCVA).
+Base documentaire du projet **OrnithoDex** (MP6 – BAC PRO TCVA ; cible prioritaire : **seconde pro** Technicien conseil vente en animalerie).
 
 ## Contenu
 
@@ -14,5 +14,6 @@ Base documentaire du projet **OrnithoDex** (MP6 – BAC PRO TCVA).
 
 1. Lire le [plan du projet](projet/plan.md) — décisions et feuille de route V1.
 2. Lire le [plan sources](projet/plan-sources.md) — enrichissement des fiches (biologie + médias).
-3. Consulter la [politique de sources](ornithologie/sources.md) — règle d’intégrité scientifique.
-4. Voir le [README racine](../README.md) pour le registre public de toutes les sources (projet open source).
+3. Lire le [plan pédagogie](projet/plan-pedagogie.md) — cadre ingénieur pédagogue + points de cours.
+4. Consulter la [politique de sources](ornithologie/sources.md) — règle d’intégrité scientifique.
+5. Voir le [README racine](../README.md) pour le registre public de toutes les sources (projet open source).
