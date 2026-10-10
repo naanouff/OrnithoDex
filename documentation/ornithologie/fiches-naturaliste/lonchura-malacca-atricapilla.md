@@ -44,7 +44,13 @@ Enregistrement XC1141729 (Joan Theng — CC BY-NC-SA 4.0) : https://xeno-canto.o
 
 ## Points de cours à retenir
 
-*En attente ingénieur pédagogique / supports de cours.*
+<!-- Aides à la mémorisation (pas un polycopié enseignant). -->
+
+- **[programme]** Capucin à tête noire ↔ *Lonchura malacca atricapilla* ; Passériformes ; Estrildidés
+- **[programme]** Confusion : tricolore (*L. malacca malacca*) — BirdLife : espèce *L. atricapilla*
+- **[sourcé]** Least Concern ; EOO large (≈ 13,2 M km²) ; tendance stable
+- **[sourcé]** Non migrateur ; zones humides intérieures (majeur)
+- **[sourcé]** Habitats proches du tricolore (fourrés, cultures, canaux)
 
 ## Médias
 

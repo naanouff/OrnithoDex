@@ -66,12 +66,12 @@ Plan sources : [plan-sources.md](../projet/plan-sources.md) (85/85 `complete`) Â
 | estrilda-melpoda | ok | ok | ok | ok | ok | na | ok | na | ok | ok | |
 | estrilda-troglodytes | ok | ok | ok | ok | ok | na | ok | na | ok | ok | |
 | lagonosticta-senegala | ok | ok | ok | ok | ok | na | ok | na | ok | ok | |
-| lagonosticta-larvata-vinacea | ok | ok | ok | ok | ok | na | ok | na | ok | attente | BirdLife: L. vinacea |
-| lonchura-striata | ok | ok | ok | ok | ok | na | ok | na | ok | attente | |
-| lonchura-striata-domestiqua | ok | ok | ok | ok | ok | na | ok | na | ok | attente | forme domestique ; audio sauvage |
-| lonchura-malacca-malacca | ok | ok | ok | ok | ok | na | ok | na | ok | attente | BirdLife: L. malacca |
-| lonchura-malacca-atricapilla | ok | ok | ok | ok | ok | na | ok | na | ok | attente | BirdLife: L. atricapilla |
-| lonchura-cantans | ok | ok | ok | ok | ok | na | ok | na | ok | attente | BirdLife: Euodice cantans |
+| lagonosticta-larvata-vinacea | ok | ok | ok | ok | ok | na | ok | na | ok | ok | BirdLife: L. vinacea |
+| lonchura-striata | ok | ok | ok | ok | ok | na | ok | na | ok | ok | |
+| lonchura-striata-domestiqua | ok | ok | ok | ok | ok | na | ok | na | ok | ok | forme domestique ; audio sauvage |
+| lonchura-malacca-malacca | ok | ok | ok | ok | ok | na | ok | na | ok | ok | BirdLife: L. malacca |
+| lonchura-malacca-atricapilla | ok | ok | ok | ok | ok | na | ok | na | ok | ok | BirdLife: L. atricapilla |
+| lonchura-cantans | ok | ok | ok | ok | ok | na | ok | na | ok | ok | BirdLife: Euodice cantans |
 | lonchura-cucullata | ok | ok | ok | ok | ok | na | ok | na | ok | attente | BirdLife: Spermestes cucullata |
 | lonchura-maja | ok | ok | ok | ok | ok | na | ok | na | ok | attente | |
 | lonchura-malabarica | ok | ok | ok | ok | ok | na | ok | na | ok | attente | BirdLife: Euodice malabarica |

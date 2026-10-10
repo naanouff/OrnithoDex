@@ -44,7 +44,13 @@ Enregistrement XC1160466 (*Lonchura striata* sauvage, Nishant Bhagwat — CC BY-
 
 ## Points de cours à retenir
 
-*En attente ingénieur pédagogique / supports de cours.*
+<!-- Aides à la mémorisation (pas un polycopié enseignant). -->
+
+- **[programme]** Moineau du Japon ↔ *Lonchura striata domestiqua* ; Passériformes ; Estrildidés
+- **[programme]** Forme **domestique** — ne pas confondre avec le capucin domino sauvage (*L. striata*)
+- **[sourcé]** Dérivée du taxon sauvage *L. striata* (Least Concern, tendance stable)
+- **[sourcé]** Pas d’aire sauvage propre : élevage / compagnie
+- **[sourcé]** Audio de référence = enregistrement du taxon sauvage (même espèce)
 
 ## Médias
 
