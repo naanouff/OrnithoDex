@@ -44,7 +44,13 @@ Enregistrement XC1137635 (Simon Gillings — CC BY-NC-SA 4.0) : https://xeno-can
 
 ## Points de cours à retenir
 
-*En attente ingénieur pédagogique / supports de cours.*
+<!-- Aides à la mémorisation (pas un polycopié enseignant). -->
+
+- **[programme]** Canard mandarin ↔ *Aix galericulata* ; Ansériformes ; Anatidés
+- **[programme]** Même genre que le canard carolin (*Aix sponsa*) — ne pas confondre les mâles
+- **[sourcé]** Dimorphisme fort : mâle à « voiles » dorsales et crête ; femelle grise + trait blanc
+- **[sourcé]** Migrateur (Asie) ; nid en cavité d’arbre ; forêts / lacs
+- **[sourcé]** Least Concern ; tendance en diminution
 
 ## Médias
 

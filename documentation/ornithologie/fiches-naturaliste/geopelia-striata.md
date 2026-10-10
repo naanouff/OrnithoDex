@@ -42,7 +42,13 @@ Enregistrement XC1081912 (Arend Wassink — CC BY-NC-SA 4.0) : https://xeno-cant
 
 ## Points de cours à retenir
 
-*En attente ingénieur pédagogique / supports de cours.*
+<!-- Aides à la mémorisation (pas un polycopié enseignant). -->
+
+- **[programme]** Colombe zébrée ↔ *Geopelia striata* ; Columbiformes ; Columbidés
+- **[programme]** Confusion : colombe diamant (*G. cuneata*) — même genre *Geopelia*
+- **[sourcé]** Non migratrice ; Least Concern ; tendance stable
+- **[sourcé]** Habitats anthropisés (jardins, villes) et fourrés
+- **[sourcé]** Nombreuses introductions hors aire native (BirdLife)
 
 ## Médias
 

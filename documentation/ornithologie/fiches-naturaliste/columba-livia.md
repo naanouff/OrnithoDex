@@ -44,7 +44,13 @@ Enregistrement XC977797 (Pietro Bonanno — CC BY-NC-SA 4.0) : https://xeno-cant
 
 ## Points de cours à retenir
 
-*En attente ingénieur pédagogique / supports de cours.*
+<!-- Aides à la mémorisation (pas un polycopié enseignant). -->
+
+- **[programme]** Pigeon biset ↔ *Columba livia* ; Columbiformes ; Columbidés
+- **[programme]** Genre *Columba* — distinct des tourterelles / colombes *Geopelia* du programme
+- **[sourcé]** Least Concern ; formes naturelles et **férales** urbaines
+- **[sourcé]** Habitat type : falaises / corniches ; en ville = bâtiments
+- **[sourcé]** Régime surtout graines au sol ; dimorphisme faible
 
 ## Médias
 
