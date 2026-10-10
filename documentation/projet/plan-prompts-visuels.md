@@ -107,9 +107,9 @@ flowchart LR
   birdsTs --> ficheUI
 ```
 
-## Hors périmètre
+## Hors périmètre (sprint code)
 
-- Génération effective Meshy / Inkscape des 85 × 2 assets (PNG / GLB)
+- Génération effective des 85 × 2 assets (PNG / GLB) — **passe illustration** : [plan-suivi-illustrations.md](plan-suivi-illustrations.md)
 - Shapefiles / polygones BirdLife
 - Refonte maquette globale (maquettes non validées séparément)
 
@@ -126,6 +126,7 @@ flowchart LR
 ## Documents liés
 
 - [Sprint](sprint-prompts-visuels.md)
+- [Suivi illustrations](plan-suivi-illustrations.md)
 - [Plan projet](plan.md)
 - [Architecture](architecture.md)
 - [Charte design](design.md)
