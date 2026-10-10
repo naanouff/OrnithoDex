@@ -26,4 +26,4 @@
 - [x] 5 fiches en `complete`
 - [x] Image Commons + XC précis
 - [x] `suivi-sources.md` + README + `_index.md`
-- [ ] Journal + PR vers `develop`
+- [x] Journal + PR vers `develop` (#7)
