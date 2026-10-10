@@ -1,0 +1,25 @@
+{
+  "name": "OrnithoDex",
+  "short_name": "OrnithoDex",
+  "description": "Mémoriser les oiseaux de cage et de volière (BAC PRO TCVA).",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fff8e8",
+  "theme_color": "#1b365d",
+  "lang": "fr",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/brand/logo-ornithodex.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any"
+    }
+  ]
+}
