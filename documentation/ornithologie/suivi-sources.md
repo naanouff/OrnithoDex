@@ -2,7 +2,7 @@
 
 Tableau de progression pour les 85 espèces du programme. Valeurs : `ok` | `manquant` | `na` | `lien` (page espèce média sans fichier précis encore).
 
-Plan : [plan-sources.md](../projet/plan-sources.md) · Sprint : [sprint-01-sources.md](../projet/sprint-01-sources.md)
+Plan : [plan-sources.md](../projet/plan-sources.md) · Sprints : [01](../projet/sprint-01-sources.md) · [02](../projet/sprint-02-sources.md)
 
 | slug | iucn | birdlife | image | audio | description | dimorphisme | habitat | regime | notes |
 |------|------|----------|-------|-------|-------------|-------------|---------|--------|-------|
@@ -12,12 +12,12 @@ Plan : [plan-sources.md](../projet/plan-sources.md) · Sprint : [sprint-01-sourc
 | callipepla-californica | ok | ok | ok | lien | ok | manquant | manquant | manquant | LC BirdLife; habitat détail à compléter; sprint 01 |
 | aix-galericulata | ok | ok | ok | lien | ok | manquant | ok | manquant | sprint 01 |
 | aix-sponsa | ok | ok | ok | lien | ok | manquant | ok | manquant | sprint 01 |
-| geopelia-cuneata | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | |
-| geopelia-striata | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | |
-| oena-capensis | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | |
-| streptopelia-senegalensis | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | |
-| streptopelia-risoria | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | |
-| columba-livia | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | |
+| geopelia-cuneata | ok | ok | ok | lien | ok | manquant | ok | manquant | LC BirdLife; sprint 02 |
+| geopelia-striata | ok | ok | ok | lien | ok | manquant | ok | manquant | LC BirdLife; sprint 02 |
+| oena-capensis | ok | ok | ok | lien | ok | manquant | ok | manquant | LC BirdLife; sprint 02 |
+| streptopelia-senegalensis | ok | ok | ok | lien | ok | manquant | ok | ok | Taxon actuel Spilopelia senegalensis; sprint 02 |
+| streptopelia-risoria | na | ok | ok | lien | ok | manquant | ok | manquant | Forme domestique; taxon sauvage S. roseogrisea; sprint 02 |
+| columba-livia | ok | ok | ok | lien | ok | manquant | ok | ok | LC BirdLife; formes sauvages/férales; sprint 02 |
 | agapornis-roseicollis | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | |
 | agapornis-fischeri | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | |
 | agapornis-personatus | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | |
@@ -92,4 +92,4 @@ Plan : [plan-sources.md](../projet/plan-sources.md) · Sprint : [sprint-01-sourc
 | serinus-mozambicus | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | |
 | serinus-canaria | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | |
 
-Dernière mise à jour : 2026-10-10 (sprint 01 — lot pilote).
+Dernière mise à jour : 2026-10-10 (sprint 02 — Columbiformes).

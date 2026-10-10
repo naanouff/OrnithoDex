@@ -71,8 +71,8 @@ Valeurs : `ok` / `manquant` / `na` (ex. audio indisponible pour une forme domest
 
 Par lots taxonomiques :
 
-1. **Lot pilote** (6) : Galliformes + Ansériformes — valide le gabarit de citation et le flux README
-2. Columbiformes (6)
+1. **Lot pilote** (6) : Galliformes + Ansériformes — valide le gabarit de citation et le flux README ✅
+2. Columbiformes (6) ✅
 3. Psittaciformes – Cacatuides (4) puis Psittacidés (sous-groupes de ~8)
 4. Passériformes (par familles)
 
