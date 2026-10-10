@@ -44,7 +44,13 @@ Enregistrement XC1093291 (Azens — CC BY-NC-SA 4.0) : https://xeno-canto.org/10
 
 ## Points de cours à retenir
 
-*En attente ingénieur pédagogique / supports de cours.*
+<!-- Aides à la mémorisation (pas un polycopié enseignant). -->
+
+- **[programme]** Youyou du Sénégal ↔ *Poicephalus senegalus* ; Psittaciformes ; Psittacidés
+- **[programme]** Genre *Poicephalus* — Afrique ; distinct des *Platycercus* / *Polytelis* australiens
+- **[sourcé]** Least Concern ; tête grise, corps vert, ventre jaune à orange
+- **[sourcé]** Fruits, graines, grains ; peut fréquenter les cultures
+- **[sourcé]** Dimorphisme difficile ; très commercialisé (BirdLife)
 
 ## Médias
 

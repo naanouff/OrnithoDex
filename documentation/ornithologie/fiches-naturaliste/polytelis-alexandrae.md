@@ -44,7 +44,13 @@ Enregistrement XC488068 (Mark Carter — CC BY-NC-SA 4.0) : https://xeno-canto.o
 
 ## Points de cours à retenir
 
-*En attente ingénieur pédagogique / supports de cours.*
+<!-- Aides à la mémorisation (pas un polycopié enseignant). -->
+
+- **[programme]** Perruche princesse de Galles / calotte bleue ↔ *Polytelis alexandrae* ; Psittaciformes ; Psittacidés
+- **[programme]** Confusion : *P. anthopeplus* (mélanure) — princesse = **Near Threatened**, désert
+- **[sourcé]** NT (D1) ; 900–10 000 adultes ; population parfois < 1 000
+- **[sourcé]** Nomade / irruptive ; déserts arides australiens
+- **[sourcé]** Régime : graines, fleurs, fruits, feuillage ; nid en cavités
 
 ## Médias
 

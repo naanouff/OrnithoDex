@@ -45,7 +45,13 @@ Enregistrement XC692681 (Marc Anderson — CC BY-NC-ND 4.0) : https://xeno-canto
 
 ## Points de cours à retenir
 
-*En attente ingénieur pédagogique / supports de cours.*
+<!-- Aides à la mémorisation (pas un polycopié enseignant). -->
+
+- **[programme]** Perruche à croupion rouge ↔ *Psephotus haematonotus haematonotus* ; Psittaciformes ; Psittacidés
+- **[programme]** Genre *Psephotus* — sous-espèce nominale du programme ; distinct des *Platycercus*
+- **[sourcé]** Least Concern ; Australie ; tendance en **augmentation**
+- **[sourcé]** Non migratrice ; savane, fourrés, jardins, zones urbaines
+- **[sourcé]** Hausse liée à de nouvelles zones favorables (dégradation d’habitat)
 
 ## Médias
 
