@@ -15,27 +15,27 @@
 
 ## Description
 
-Évalué **Least Concern** (2024) au rang d’espèce *Platycercus eximius*. Endémique nicheur d’Australie (introduit en Nouvelle-Zélande) ; EOO ≈ 1 580 000 km² ; tendance **en augmentation** ; extrêmement commun sur une grande partie de l’aire. Trois sous-espèces reconnues ; le programme cible *P. e. eximius*. 0–1 540 m.  
+Évalué **Least Concern** (2024) au rang d’espèce *P. eximius*. Endémique nicheur d’Australie (introduite en Nouvelle-Zélande) ; EOO ≈ 1 580 000 km² ; tendance **en augmentation** ; extrêmement commune sur une grande partie de l’aire. Forme programme : sous-espèce nominale. Trois sous-espèces reconnues par BirdLife. 0–1 540 m.  
 *Source : birdlife-platycercus-eximius.*
 
 ## Dimorphisme sexuel
 
 *Non détaillé dans les sources consultées (BirdLife).*  
-*Valeur suivi : `na`.*
+*Sources : na.*
 
 ## Habitat d’origine
 
-Jardins ruraux, plantations, pâturages, cultures, forêt sèche, savanes humide et sèche, fourrés secs et humides. Non migrant.  
+Forêt sèche, savanes humides et sèches, fourrés, cultures, pâturages, plantations, jardins ruraux.  
 *Source : birdlife-platycercus-eximius.*
 
 ## Régime alimentaire
 
 *Non détaillé dans les sources consultées (BirdLife).*  
-*Valeur suivi : `na`.*
+*Sources : na.*
 
 ## Comportement
 
-Population en hausse liée à l’ouverture / dégradation d’habitats créant de nouvelles zones favorables ; espèce très présente en milieux anthropisés.  
+Non migrateur ; très commun ; population soupçonnée en hausse avec la dégradation/ouverture d’habitats.  
 *Source : birdlife-platycercus-eximius.*
 
 ## Chant et vocalisations
