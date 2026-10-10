@@ -1,7 +1,7 @@
 ﻿# Kakariki à front rouge
 
 - **Slug** : `cyanoramphus-novaezelandiae`
-- **Statut documentation** : `liste_seule`
+- **Statut documentation** : `complete`
 - **Dernière vérification** : 2026-10-10
 
 ## Identité
@@ -15,27 +15,50 @@
 
 ## Description
 
+Évalué **Least Concern**. EOO ≈ 5 540 000 km² ; tendance **en diminution** sans atteindre le seuil Vulnerable. Nouvelle-Zélande et îles / taxons associés (ex. Norfolk, Nouvelle-Calédonie selon le traitement taxonomique BirdLife).  
+*Source : birdlife-cyanoramphus-novaezelandiae.*
+
 ## Dimorphisme sexuel
+
+`na` — non décrit dans la fiche BirdLife consultée.  
+*Source : birdlife-cyanoramphus-novaezelandiae.*
 
 ## Habitat d’origine
 
+Forêts denses à milieux boisés modifiés, cultures et zones ouvertes selon sous-espèces ; habitats majeurs : forêts humides de basse altitude, forêts tempérées, prairies subantarctiques, fourrés tempérés.  
+*Source : birdlife-cyanoramphus-novaezelandiae.*
+
 ## Régime alimentaire
+
+`na` — non détaillé dans le paragraphe écologie BirdLife consulté.  
+*Source : birdlife-cyanoramphus-novaezelandiae.*
 
 ## Comportement
 
+Menaces historiques et actuelles liées aux prédateurs introduits (rats, chats) sur certaines populations insulaires ; souvent plus commun que *C. auriceps* sur les îles.  
+*Sources : birdlife-cyanoramphus-novaezelandiae ; birdlife-cyanoramphus-auriceps.*
+
 ## Chant et vocalisations
+
+Enregistrement XC956617 (Meena Haribal — CC BY-NC-SA 4.0) : https://xeno-canto.org/956617
 
 ## Points de cours à retenir
 
+*En attente ingénieur pédagogique / supports de cours.*
+
 ## Médias
 
-| Type | Fichier | Crédit / licence | Source README |
-|------|---------|------------------|---------------|
-| Image | `/images/birds/cyanoramphus-novaezelandiae.webp` | *à fournir* | |
-| Audio | `/audio/birds/cyanoramphus-novaezelandiae.mp3` | *à fournir* | |
+| Type | Fichier / URL | Crédit / licence | Source README |
+|------|--------------|------------------|---------------|
+| Image | https://commons.wikimedia.org/wiki/File:Kakariki,_the_red-crowned_parakeet.(Cyanoramphus_novaezelandiae)_(9118899767).jpg | Bernard Spragg. NZ — CC0 | media-cyanoramphus-novaezelandiae-img |
+| Audio | https://xeno-canto.org/956617 | Meena Haribal — CC BY-NC-SA 4.0 | media-cyanoramphus-novaezelandiae-audio |
 
 ## Sources
 
 | Id | Titre | Éditeur / auteur | Année | URL | Note |
 |----|-------|------------------|-------|-----|------|
-| bac-pro-tcva-liste | Liste des oiseaux – BAC PRO TCVA (MP6) | Support de cours / arrêtés 02/07/2009 + domestiques | 2009 | | Identité programme |
+| bac-pro-tcva-liste | Liste des oiseaux – BAC PRO TCVA (MP6) | Support de cours | 2009 | | Identité programme |
+| birdlife-cyanoramphus-novaezelandiae | Red-fronted Parakeet Cyanoramphus novaezelandiae — Species Factsheet | BirdLife International | 2018 | https://datazone.birdlife.org/species/factsheet/red-fronted-parakeet-cyanoramphus-novaezelandiae | Consulté 2026-10-10 |
+| birdlife-cyanoramphus-auriceps | Yellow-fronted Parakeet Cyanoramphus auriceps — Species Factsheet | BirdLife International | 2022 | https://datazone.birdlife.org/species/factsheet/yellow-fronted-parakeet-cyanoramphus-auriceps | Comparaison îles |
+| media-cyanoramphus-novaezelandiae-img | File:Kakariki, the red-crowned parakeet…jpg | Bernard Spragg. NZ / Wikimedia Commons | 2011 | https://commons.wikimedia.org/wiki/File:Kakariki,_the_red-crowned_parakeet.(Cyanoramphus_novaezelandiae)_(9118899767).jpg | CC0 |
+| media-cyanoramphus-novaezelandiae-audio | XC956617 | Meena Haribal / Xeno-canto | | https://xeno-canto.org/956617 | CC BY-NC-SA 4.0 |

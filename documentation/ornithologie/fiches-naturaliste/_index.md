@@ -21,12 +21,12 @@ Générés le 2026-10-10. Lots en `complete` (sprint 03a) : Galliformes, Anséri
 | [agapornis-personatus](agapornis-personatus.md) | Inséparable masqué ou à tête noire | complete |
 | [agapornis-lilianae](agapornis-lilianae.md) | Inséparable de Liliane | complete |
 | [agapornis-nigrigenis](agapornis-nigrigenis.md) | Inséparable nigrigenis | complete |
-| [amazona-aestiva](amazona-aestiva.md) | Amazone à front bleu | liste_seule |
-| [bolborhynchus-lineola-lineola](bolborhynchus-lineola-lineola.md) | Perruche Catherine ou rayée | liste_seule |
-| [cyanoramphus-novaezelandiae](cyanoramphus-novaezelandiae.md) | Kakariki à front rouge | liste_seule |
-| [cyanoramphus-auriceps](cyanoramphus-auriceps.md) | Kakariki à front jaune | liste_seule |
-| [forpus-coelestis](forpus-coelestis.md) | Perruche céleste | liste_seule |
-| [melopsittacus-undulatus](melopsittacus-undulatus.md) | Perruche ondulée | liste_seule |
+| [amazona-aestiva](amazona-aestiva.md) | Amazone à front bleu | complete |
+| [bolborhynchus-lineola-lineola](bolborhynchus-lineola-lineola.md) | Perruche Catherine ou rayée | complete |
+| [cyanoramphus-novaezelandiae](cyanoramphus-novaezelandiae.md) | Kakariki à front rouge | complete |
+| [cyanoramphus-auriceps](cyanoramphus-auriceps.md) | Kakariki à front jaune | complete |
+| [forpus-coelestis](forpus-coelestis.md) | Perruche céleste | complete |
+| [melopsittacus-undulatus](melopsittacus-undulatus.md) | Perruche ondulée | complete |
 | [myiopsitta-monachus-monachus](myiopsitta-monachus-monachus.md) | Perruche souris | liste_seule |
 | [neopsephotus-bourkii](neopsephotus-bourkii.md) | Perruche de Bourke | liste_seule |
 | [neophema-elegans](neophema-elegans.md) | Perruche élégante | liste_seule |

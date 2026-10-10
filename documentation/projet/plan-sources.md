@@ -97,7 +97,8 @@ Valeurs : `ok` | `manquant` | `na` | `lien` (audio page espèce seulement — à
 | **03a** | Backlog : 12 fiches `partielle` → `complete` | Préparé — [sprint-03a-sources.md](sprint-03a-sources.md) |
 | **03b** | Cacatuides (4) | Fait — [sprint-03b-sources.md](sprint-03b-sources.md) |
 | **04** | Agapornis (5) | Fait — [sprint-04-sources.md](sprint-04-sources.md) |
-| 05+ | Autres Psittacidés (~5–8), puis Passériformes | Ensuite |
+| **05** | Psittacidés A (6) | Fait — [sprint-05-sources.md](sprint-05-sources.md) |
+| 06+ | Autres Psittacidés (~5–8), puis Passériformes | Ensuite |
 
 ## Livrables de cette phase
 
