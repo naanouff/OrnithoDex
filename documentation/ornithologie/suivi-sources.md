@@ -23,12 +23,12 @@ Plan : [plan-sources.md](../projet/plan-sources.md) · Sprints : [01](../projet/
 | agapornis-personatus | ok | ok | ok | ok | ok | na | ok | na | ok | attente | régime/dimorphisme na; sprint 04 |
 | agapornis-lilianae | ok | ok | ok | ok | ok | na | ok | ok | ok | attente | NT; dimorphisme na; sprint 04 |
 | agapornis-nigrigenis | ok | ok | ok | ok | ok | na | ok | ok | ok | attente | VU; spécimen Naturalis; sprint 04 |
-| amazona-aestiva | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
-| bolborhynchus-lineola-lineola | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
-| cyanoramphus-novaezelandiae | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
-| cyanoramphus-auriceps | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
-| forpus-coelestis | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
-| melopsittacus-undulatus | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
+| amazona-aestiva | ok | ok | ok | ok | ok | ok | ok | ok | ok | attente | NT; ADW; sprint 05 |
+| bolborhynchus-lineola-lineola | ok | ok | ok | ok | ok | na | ok | na | ok | attente | sous-esp. programme; régime na; sprint 05 |
+| cyanoramphus-novaezelandiae | ok | ok | ok | ok | ok | na | ok | na | ok | attente | régime na; sprint 05 |
+| cyanoramphus-auriceps | ok | ok | ok | ok | ok | na | ok | ok | ok | attente | NT; dimorphisme na; sprint 05 |
+| forpus-coelestis | ok | ok | ok | ok | ok | na | ok | na | ok | attente | régime/dimorphisme na; sprint 05 |
+| melopsittacus-undulatus | ok | ok | ok | ok | ok | ok | ok | ok | ok | attente | ADW; sprint 05 |
 | myiopsitta-monachus-monachus | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
 | neopsephotus-bourkii | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
 | neophema-elegans | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
@@ -92,4 +92,4 @@ Plan : [plan-sources.md](../projet/plan-sources.md) · Sprints : [01](../projet/
 | serinus-mozambicus | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
 | serinus-canaria | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
 
-Dernière mise à jour : 2026-10-10 (sprint 04 — 5 Agapornis complete).
+Dernière mise à jour : 2026-10-10 (sprint 05 — 6 Psittacidés A complete).

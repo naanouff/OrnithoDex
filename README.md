@@ -54,9 +54,9 @@ Registre public de **toutes** les sources utilisées dans le projet. Toute nouve
 | `xeno-canto` | Xeno-canto | Xeno-canto Foundation | https://xeno-canto.org/ | Enregistrement audio précis (auteur + licence) |
 | `wikimedia-commons` | Wikimedia Commons | Wikimedia | https://commons.wikimedia.org/ | Images libres (licence par fichier) |
 
-Fiches espèce BirdLife / ADW / Avibase (sprints 01–04) : détail dans chaque [fiche du naturaliste](documentation/ornithologie/fiches-naturaliste/).
+Fiches espèce BirdLife / ADW / Avibase (sprints 01–05) : détail dans chaque [fiche du naturaliste](documentation/ornithologie/fiches-naturaliste/).
 
-### Médias retenus (sprints 01–04 — liens ; copie locale plus tard)
+### Médias retenus (sprints 01–05 — liens ; copie locale plus tard)
 
 | Espèce (slug) | Type | Auteur | Licence | URL |
 |---------------|------|--------|---------|-----|
@@ -102,3 +102,15 @@ Fiches espèce BirdLife / ADW / Avibase (sprints 01–04) : détail dans chaque 
 | `agapornis-lilianae` | Audio | Magnus Wadstein | CC BY-NC-SA 4.0 | https://xeno-canto.org/933097 |
 | `agapornis-nigrigenis` | Image | Huub Veldhuijzen van Zanten / Naturalis | CC BY-SA | https://commons.wikimedia.org/wiki/File:Naturalis_Biodiversity_Center_-_ZMA.AVES.56942_-_Agapornis_nigrigenis_Sclater,_W.L.,_1906_-_Psittacidae_-_skin_specimen.jpeg |
 | `agapornis-nigrigenis` | Audio | Dries Van de Loock | CC BY-NC-SA 4.0 | https://xeno-canto.org/585260 |
+| `amazona-aestiva` | Image | H. Zell | CC BY-SA 3.0 | https://commons.wikimedia.org/wiki/File:Amazona_aestiva_-_Maroparque_01.jpg |
+| `amazona-aestiva` | Audio | Ricardo José Mitidieri | CC BY-NC-SA 4.0 | https://xeno-canto.org/554117 |
+| `bolborhynchus-lineola-lineola` | Image | thibaudaronson | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Barred_Parakeet,_Oxapampa,_Pasco,_Peru_1.jpg |
+| `bolborhynchus-lineola-lineola` | Audio | José | CC BY-NC-SA 4.0 | https://xeno-canto.org/1060162 |
+| `cyanoramphus-novaezelandiae` | Image | Bernard Spragg. NZ | CC0 | https://commons.wikimedia.org/wiki/File:Kakariki,_the_red-crowned_parakeet.(Cyanoramphus_novaezelandiae)_(9118899767).jpg |
+| `cyanoramphus-novaezelandiae` | Audio | Meena Haribal | CC BY-NC-SA 4.0 | https://xeno-canto.org/956617 |
+| `cyanoramphus-auriceps` | Image | Alexeyevitch | Domaine public | https://commons.wikimedia.org/wiki/File:Yellow-crowned_parakeet_-_K%C4%81k%C4%81riki.jpg |
+| `cyanoramphus-auriceps` | Audio | James Lidster | CC BY-NC-SA 4.0 | https://xeno-canto.org/526622 |
+| `forpus-coelestis` | Image | Ruth Rogers | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Forpus_coelestis_(normal_and_American_white)_-AFA_show_bird-8a.jpg |
+| `forpus-coelestis` | Audio | Hans Matheve | CC BY-NC-ND 4.0 | https://xeno-canto.org/512761 |
+| `melopsittacus-undulatus` | Image | Lip Kee | CC BY-SA 2.0 | https://commons.wikimedia.org/wiki/File:Budgerigars_at_water,_Karratha,_Western_Aaustralia_(7857257686).jpg |
+| `melopsittacus-undulatus` | Audio | Samantha Aguirre | CC BY-NC-SA 4.0 | https://xeno-canto.org/940888 |

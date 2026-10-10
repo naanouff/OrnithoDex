@@ -11,6 +11,7 @@
 | [sprint-03a-sources.md](sprint-03a-sources.md) | **Sprint 03a** — backlog 12 fiches → `complete` |
 | [sprint-03b-sources.md](sprint-03b-sources.md) | **Sprint 03b** — Cacatuides (4) → `complete` |
 | [sprint-04-sources.md](sprint-04-sources.md) | **Sprint 04** — Agapornis (5) → `complete` |
+| [sprint-05-sources.md](sprint-05-sources.md) | **Sprint 05** — Psittacidés A (6) → `complete` |
 | [vision.md](vision.md) | Problème, solution, public, principes |
 | [cahier-des-charges.md](cahier-des-charges.md) | Spécifications fonctionnelles |
 | [architecture.md](architecture.md) | Stack, structure, flux, déploiement |

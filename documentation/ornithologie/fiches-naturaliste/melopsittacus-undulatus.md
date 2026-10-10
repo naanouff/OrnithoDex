@@ -1,7 +1,7 @@
 ﻿# Perruche ondulée
 
 - **Slug** : `melopsittacus-undulatus`
-- **Statut documentation** : `liste_seule`
+- **Statut documentation** : `complete`
 - **Dernière vérification** : 2026-10-10
 
 ## Identité
@@ -15,27 +15,50 @@
 
 ## Description
 
+Évalué **Least Concern** (2018). Endémique nicheur d’Australie ; EOO ≈ 7 160 000 km² ; abondant ; tendance **en augmentation**. ≈ 18–20 cm. Forme sauvage : front jaune, tête barrée jaune/noir, corps vert.  
+*Sources : birdlife-melopsittacus-undulatus ; adw-melopsittacus-undulatus.*
+
 ## Dimorphisme sexuel
+
+Léger : chez la femelle en reproduction, cire beige/brun clair ; sinon cire bleue (souvent associée au mâle / hors reproduction).  
+*Source : adw-melopsittacus-undulatus (citant Forshaw 1977).*
 
 ## Habitat d’origine
 
+BirdLife : savane sèche, prairies, fourrés, désert chaud, forêts sèches, cultures, pâturages, jardins (suitable) ; statut **nomade**. ADW : semi-aride / intérieur australien.  
+*Sources : birdlife-melopsittacus-undulatus ; adw-melopsittacus-undulatus.*
+
 ## Régime alimentaire
+
+Granivore au sol : graines de graminées (spinifex, touffes) et cultures ; boit ≈ 5,5 % de sa masse corporelle par jour.  
+*Source : adw-melopsittacus-undulatus.*
 
 ## Comportement
 
+Très social, grands vols ; diurne ; nomade ; reproduction liée à l’abondance de graines / pluies ; nid en cavités.  
+*Sources : birdlife-melopsittacus-undulatus ; adw-melopsittacus-undulatus.*
+
 ## Chant et vocalisations
+
+Enregistrement XC940888 (Samantha Aguirre — CC BY-NC-SA 4.0) : https://xeno-canto.org/940888
 
 ## Points de cours à retenir
 
+*En attente ingénieur pédagogique / supports de cours.*
+
 ## Médias
 
-| Type | Fichier | Crédit / licence | Source README |
-|------|---------|------------------|---------------|
-| Image | `/images/birds/melopsittacus-undulatus.webp` | *à fournir* | |
-| Audio | `/audio/birds/melopsittacus-undulatus.mp3` | *à fournir* | |
+| Type | Fichier / URL | Crédit / licence | Source README |
+|------|--------------|------------------|---------------|
+| Image | https://commons.wikimedia.org/wiki/File:Budgerigars_at_water,_Karratha,_Western_Aaustralia_(7857257686).jpg | Lip Kee — CC BY-SA 2.0 | media-melopsittacus-undulatus-img |
+| Audio | https://xeno-canto.org/940888 | Samantha Aguirre — CC BY-NC-SA 4.0 | media-melopsittacus-undulatus-audio |
 
 ## Sources
 
 | Id | Titre | Éditeur / auteur | Année | URL | Note |
 |----|-------|------------------|-------|-----|------|
-| bac-pro-tcva-liste | Liste des oiseaux – BAC PRO TCVA (MP6) | Support de cours / arrêtés 02/07/2009 + domestiques | 2009 | | Identité programme |
+| bac-pro-tcva-liste | Liste des oiseaux – BAC PRO TCVA (MP6) | Support de cours | 2009 | | Identité programme |
+| birdlife-melopsittacus-undulatus | Budgerigar Melopsittacus undulatus — Species Factsheet | BirdLife International | 2018 | https://datazone.birdlife.org/species/factsheet/budgerigar-melopsittacus-undulatus | Consulté 2026-10-10 |
+| adw-melopsittacus-undulatus | Melopsittacus undulatus (budgerigar) | Animal Diversity Web / Kelly Sims | | https://animaldiversity.org/accounts/Melopsittacus_undulatus/ | Consulté 2026-10-10 |
+| media-melopsittacus-undulatus-img | File:Budgerigars at water, Karratha…jpg | Lip Kee / Wikimedia Commons | | https://commons.wikimedia.org/wiki/File:Budgerigars_at_water,_Karratha,_Western_Aaustralia_(7857257686).jpg | CC BY-SA 2.0 |
+| media-melopsittacus-undulatus-audio | XC940888 | Samantha Aguirre / Xeno-canto | | https://xeno-canto.org/940888 | CC BY-NC-SA 4.0 |
