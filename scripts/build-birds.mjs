@@ -5,6 +5,15 @@
 import fs from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
+import {
+  cells,
+  extractSection,
+  extractWildRange,
+  parseIdentity,
+  parseSourcedSection,
+  splitTableRows,
+  stripMarkdownLite,
+} from './lib/fiche-parse.mjs'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const root = path.resolve(__dirname, '..')
@@ -21,46 +30,6 @@ const SECTION_KEYS = [
   ['Chant et vocalisations', 'chant'],
 ]
 
-function splitTableRows(block) {
-  return block
-    .split('\n')
-    .map((l) => l.trim())
-    .filter((l) => l.startsWith('|') && !/^\|\s*-+/.test(l) && !/^\|\s*Champ\s*\|/i.test(l) && !/^\|\s*Type\s*\|/i.test(l) && !/^\|\s*Id\s*\|/i.test(l))
-}
-
-function cells(line) {
-  return line
-    .replace(/^\|/, '')
-    .replace(/\|$/, '')
-    .split('|')
-    .map((c) => c.trim())
-}
-
-function extractSection(md, title) {
-  const re = new RegExp(
-    `## ${title.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\s*\\n([\\s\\S]*?)(?=\\n## |$)`,
-  )
-  const m = md.match(re)
-  return m ? m[1].trim() : ''
-}
-
-function parseIdentity(block) {
-  const map = {}
-  for (const line of splitTableRows(block)) {
-    const [champ, valeur] = cells(line)
-    if (!champ || valeur === undefined) continue
-    map[champ] = valeur
-  }
-  const scientificName =
-    map['Nom scientifique (programme)'] || map['Nom scientifique'] || ''
-  return {
-    scientificName,
-    commonName: map['Nom commun'] || '',
-    order: map['Ordre'] || '',
-    family: map['Famille'] || '',
-  }
-}
-
 function parseCoursePoints(block) {
   const points = []
   for (const line of block.split('\n')) {
@@ -76,7 +45,6 @@ function parseMedia(block) {
   let imageCredit
   let imageSourceId
   const audio = []
-  const audioCredits = []
   for (const line of splitTableRows(block)) {
     const [type, url, credit, sourceId] = cells(line)
     if (!type || !url || url === '—' || url === '-') continue
@@ -86,12 +54,9 @@ function parseMedia(block) {
       imageSourceId = sourceId || undefined
     } else if (/^audio$/i.test(type)) {
       audio.push(url)
-      if (credit || sourceId) {
-        audioCredits.push({ url, credit: credit || '', sourceId: sourceId || '' })
-      }
     }
   }
-  return { image, imageCredit, imageSourceId, audio, audioCredits }
+  return { image, imageCredit, imageSourceId, audio }
 }
 
 function parseSources(block) {
@@ -109,25 +74,43 @@ function parseSources(block) {
   return sources
 }
 
-function parseSourcedSection(body) {
-  if (!body) return null
-  const sourceLine = body.match(/\*Sources? : ([^*]+)\.\*/)
-  let text = body
-  if (sourceLine) {
-    text = body.slice(0, sourceLine.index).trim()
+function parseRepartitionTable(block) {
+  if (!block) return null
+  const map = {}
+  for (const line of splitTableRows(block)) {
+    const [champ, valeur, source] = cells(line)
+    if (!champ || !valeur || valeur === 'na' || valeur === '—') continue
+    map[champ.toLowerCase()] = { valeur, source }
   }
-  text = text.replace(/\n+/g, ' ').replace(/\s+/g, ' ').trim()
-  if (!text || /^na\b/i.test(text) || text === '—' || text === '-') {
-    return null
-  }
+  const regionsRaw =
+    map['régions / pays']?.valeur ||
+    map['regions / pays']?.valeur ||
+    map['régions']?.valeur
+  if (!regionsRaw) return null
+  const regions = regionsRaw
+    .split(/[,;]/)
+    .map((r) => r.trim())
+    .filter(Boolean)
+  if (!regions.length) return null
+  const hemRaw = (map['hémisphère / realm']?.valeur || map['hemisphere / realm']?.valeur || '')
+    .trim()
+    .toUpperCase()
+  const allowed = new Set(['AF', 'AU', 'AS', 'AM', 'EU', 'MULTI'])
+  const hemisphere = allowed.has(hemRaw)
+    ? hemRaw === 'MULTI'
+      ? 'multi'
+      : hemRaw
+    : undefined
   const sourceIds = []
-  if (sourceLine) {
-    for (const part of sourceLine[1].split(/[;,]|\bet\b/)) {
-      const id = part.trim().replace(/\.$/, '')
-      if (id && id !== 'na') sourceIds.push(id)
-    }
+  for (const row of Object.values(map)) {
+    if (row.source) sourceIds.push(row.source)
   }
-  return { text, sourceIds }
+  return {
+    regions,
+    ...(hemisphere ? { hemisphere } : {}),
+    ...(map['note']?.valeur ? { summary: map['note'].valeur } : {}),
+    sourceIds: [...new Set(sourceIds)],
+  }
 }
 
 function findLocalMedia(slug, kind, exts) {
@@ -168,13 +151,24 @@ function parseFiche(filePath) {
   }))
 
   const sections = []
+  const rangeTexts = []
+  const rangeSourceIds = []
   for (const [title] of SECTION_KEYS) {
     const body = extractSection(md, title)
     const sourced = parseSourcedSection(body)
-    if (sourced) sections.push(sourced)
+    if (sourced) {
+      sections.push(sourced)
+      if (title.startsWith('Description') || title.startsWith('Habitat')) {
+        rangeTexts.push(sourced.text)
+        rangeSourceIds.push(...sourced.sourceIds)
+      }
+    }
   }
 
-  /** @type {import('../src/types/bird.ts').Bird} */
+  const fromTable = parseRepartitionTable(extractSection(md, 'Répartition sauvage'))
+  const fromText = extractWildRange(rangeTexts.map(stripMarkdownLite), rangeSourceIds)
+  const wildRange = fromTable || fromText
+
   const bird = {
     id: slugMatch[1],
     scientificName: identity.scientificName,
@@ -189,6 +183,8 @@ function parseFiche(filePath) {
     coursePoints,
     sources,
   }
+
+  if (wildRange) bird.wildRange = wildRange
 
   if (media.imageCredit) bird.imageCredit = media.imageCredit
   if (media.imageSourceId) bird.imageSourceId = media.imageSourceId
@@ -227,6 +223,7 @@ function main() {
     .sort()
 
   const birds = files.map((f) => parseFiche(path.join(fichesDir, f)))
+  const withRange = birds.filter((b) => b.wildRange?.regions?.length).length
 
   const header = `/* eslint-disable */
 /**
@@ -241,7 +238,9 @@ import type { Bird } from '../types/bird'
   const body = `export const birds: Bird[] = ${JSON.stringify(birds, null, 2)}\n`
 
   fs.writeFileSync(outFile, header + body, 'utf8')
-  console.log(`OK — ${birds.length} espèces → ${path.relative(root, outFile)}`)
+  console.log(
+    `OK — ${birds.length} espèces (${withRange} avec wildRange) → ${path.relative(root, outFile)}`,
+  )
 }
 
 main()

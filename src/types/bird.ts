@@ -4,6 +4,8 @@ export type SheetStatus = 'liste_seule' | 'partielle' | 'complete'
 
 export type CoursePointLevel = 'programme' | 'sourcé'
 
+export type HemisphereCode = 'AF' | 'AU' | 'AS' | 'AM' | 'EU' | 'multi'
+
 export type SourceRef = {
   id: string
   title: string
@@ -25,6 +27,14 @@ export type CoursePoint = {
   sourceIds: string[]
 }
 
+/** Répartition sauvage — uniquement si documentée dans la fiche. */
+export type WildRange = {
+  regions: string[]
+  hemisphere?: HemisphereCode
+  summary?: string
+  sourceIds: string[]
+}
+
 export type Bird = {
   id: string
   scientificName: string
@@ -42,6 +52,7 @@ export type Bird = {
   audio?: string[]
   /** Pages XC d’origine si `audio` est local. */
   audioRemote?: string[]
+  wildRange?: WildRange
   sheet: {
     status: SheetStatus
     sections: SourcedText[]

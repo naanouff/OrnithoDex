@@ -115,13 +115,13 @@ flowchart LR
 
 ## Critères de done
 
-- [ ] 85 fichiers prompts + `_index.md`
-- [ ] Type + dataset `wildRange` (vide autorisé)
-- [ ] 3 SVG hémisphère + composant fiche
-- [ ] Gabarit fiche mis à jour
-- [ ] `npm run build` OK
-- [ ] Journal + PR → `develop`
-- [ ] Aucune géographie inventée affichée comme fait
+- [x] 85 fichiers prompts + `_index.md`
+- [x] Type + dataset `wildRange` (vide autorisé)
+- [x] 3 SVG hémisphère + composant fiche
+- [x] Gabarit fiche mis à jour
+- [x] `npm run build` OK
+- [x] Journal + PR → `develop`
+- [x] Aucune géographie inventée affichée comme fait
 
 ## Documents liés
 

@@ -139,6 +139,16 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-ND 4.0"
       }
     ],
+    "wildRange": {
+      "regions": [
+        "Tanzanie"
+      ],
+      "hemisphere": "AF",
+      "sourceIds": [
+        "birdlife-agapornis-fischeri",
+        "adw-agapornis-fischeri"
+      ]
+    },
     "imageCredit": "Peter Békési — CC BY-SA 2.0",
     "imageSourceId": "media-agapornis-fischeri-img",
     "image": "/images/birds/agapornis-fischeri.webp",
@@ -268,6 +278,15 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
+    "wildRange": {
+      "regions": [
+        "Tanzanie"
+      ],
+      "hemisphere": "AF",
+      "sourceIds": [
+        "birdlife-agapornis-lilianae"
+      ]
+    },
     "imageCredit": "Lip Kee — CC BY-SA 2.0",
     "imageSourceId": "media-agapornis-lilianae-img",
     "image": "/images/birds/agapornis-lilianae.webp",
@@ -533,6 +552,15 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-ND 4.0"
       }
     ],
+    "wildRange": {
+      "regions": [
+        "Tanzanie"
+      ],
+      "hemisphere": "AF",
+      "sourceIds": [
+        "birdlife-agapornis-personatus"
+      ]
+    },
     "imageCredit": "Becky Matsubara — CC BY 2.0",
     "imageSourceId": "media-agapornis-personatus-img",
     "image": "/images/birds/agapornis-personatus.webp",
@@ -675,6 +703,19 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
+    "wildRange": {
+      "regions": [
+        "Afrique",
+        "Afrique du Sud",
+        "Namibie",
+        "Angola"
+      ],
+      "hemisphere": "AF",
+      "sourceIds": [
+        "birdlife-agapornis-roseicollis",
+        "adw-agapornis-roseicollis"
+      ]
+    },
     "imageCredit": "Charles J. Sharp — CC BY-SA 4.0",
     "imageSourceId": "media-agapornis-roseicollis-img",
     "image": "/images/birds/agapornis-roseicollis.webp",
@@ -813,6 +854,20 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
+    "wildRange": {
+      "regions": [
+        "Chine",
+        "Asie",
+        "Asie de l’Est",
+        "Japon",
+        "Europe"
+      ],
+      "hemisphere": "multi",
+      "sourceIds": [
+        "birdlife-aix-galericulata",
+        "adw-aix-galericulata"
+      ]
+    },
     "imageCredit": "Alexis Lours — CC BY 4.0",
     "imageSourceId": "media-aix-galericulata-img",
     "image": "/images/birds/aix-galericulata.webp",
@@ -1340,6 +1395,15 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-ND 4.0"
       }
     ],
+    "wildRange": {
+      "regions": [
+        "Afrique"
+      ],
+      "hemisphere": "AF",
+      "sourceIds": [
+        "birdlife-amandava-subflava"
+      ]
+    },
     "imageCredit": "Alan Manson — CC BY-SA 2.0",
     "imageSourceId": "media-amandava-subflava-img",
     "image": "/images/birds/amandava-subflava.webp",
@@ -1479,6 +1543,17 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
+    "wildRange": {
+      "regions": [
+        "Brésil"
+      ],
+      "hemisphere": "AM",
+      "sourceIds": [
+        "birdlife-amazona-aestiva",
+        "birdlife-amazona-aestiva (citant Collar",
+        "al. 2019)"
+      ]
+    },
     "imageCredit": "H. Zell — CC BY-SA 3.0",
     "imageSourceId": "media-amazona-aestiva-img",
     "image": "/images/birds/amazona-aestiva.webp",
@@ -1605,6 +1680,16 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
+    "wildRange": {
+      "regions": [
+        "Amérique du Sud",
+        "Mexique"
+      ],
+      "hemisphere": "AM",
+      "sourceIds": [
+        "birdlife-bolborhynchus-lineola"
+      ]
+    },
     "imageCredit": "thibaudaronson — CC BY-SA 4.0",
     "imageSourceId": "media-bolborhynchus-lineola-img",
     "image": "/images/birds/bolborhynchus-lineola-lineola.webp",
@@ -1869,6 +1954,18 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
+    "wildRange": {
+      "regions": [
+        "Australie",
+        "Indonésie",
+        "Nouvelle-Guinée"
+      ],
+      "hemisphere": "multi",
+      "sourceIds": [
+        "birdlife-cacatua-galerita",
+        "birdlife-au-sulphur-crested"
+      ]
+    },
     "imageCredit": "Charles J. Sharp — CC BY-SA 4.0",
     "imageSourceId": "media-cacatua-galerita-img",
     "image": "/images/birds/cacatua-galerita.webp",
@@ -2553,6 +2650,15 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
+    "wildRange": {
+      "regions": [
+        "Nouvelle-Zélande"
+      ],
+      "hemisphere": "AU",
+      "sourceIds": [
+        "birdlife-cyanoramphus-auriceps"
+      ]
+    },
     "imageCredit": "Alexeyevitch — domaine public",
     "imageSourceId": "media-cyanoramphus-auriceps-img",
     "image": "/images/birds/cyanoramphus-auriceps.webp",
@@ -2691,6 +2797,15 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
+    "wildRange": {
+      "regions": [
+        "Nouvelle-Zélande"
+      ],
+      "hemisphere": "AU",
+      "sourceIds": [
+        "birdlife-cyanoramphus-novaezelandiae"
+      ]
+    },
     "imageCredit": "Bernard Spragg. NZ — CC0",
     "imageSourceId": "media-cyanoramphus-novaezelandiae-img",
     "image": "/images/birds/cyanoramphus-novaezelandiae.webp",
@@ -2834,6 +2949,16 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-ND 4.0"
       }
     ],
+    "wildRange": {
+      "regions": [
+        "Australie"
+      ],
+      "hemisphere": "AU",
+      "sourceIds": [
+        "birdlife-eolophus-roseicapilla",
+        "birdlife-au-galah"
+      ]
+    },
     "imageCredit": "Tatiana Gerus — CC BY 2.0",
     "imageSourceId": "media-eolophus-roseicapilla-img",
     "image": "/images/birds/eolophus-roseicapilla.webp",
@@ -2960,6 +3085,15 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
+    "wildRange": {
+      "regions": [
+        "Australie"
+      ],
+      "hemisphere": "AU",
+      "sourceIds": [
+        "birdlife-chloebia-gouldiae"
+      ]
+    },
     "imageCredit": "Kym Nicolson — CC BY 4.0",
     "imageSourceId": "media-erythrura-gouldiae-img",
     "image": "/images/birds/erythrura-gouldiae.webp",
@@ -3208,6 +3342,17 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
+    "wildRange": {
+      "regions": [
+        "Australie",
+        "Indonésie",
+        "Nouvelle-Guinée"
+      ],
+      "hemisphere": "multi",
+      "sourceIds": [
+        "birdlife-erythrura-trichroa"
+      ]
+    },
     "imageCredit": "Peter Halasz — CC BY-SA 2.5 / 3.0",
     "imageSourceId": "media-erythrura-trichroa-img",
     "image": "/images/birds/erythrura-trichroa.webp",
@@ -3350,6 +3495,16 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
+    "wildRange": {
+      "regions": [
+        "Afrique"
+      ],
+      "hemisphere": "AF",
+      "sourceIds": [
+        "birdlife-estrilda-astrild",
+        "adw-estrilda-astrild"
+      ]
+    },
     "imageCredit": "Derek Keats — CC BY 2.0",
     "imageSourceId": "media-estrilda-astrild-img",
     "image": "/images/birds/estrilda-astrild.webp",
@@ -3474,6 +3629,15 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-ND 4.0"
       }
     ],
+    "wildRange": {
+      "regions": [
+        "Afrique"
+      ],
+      "hemisphere": "AF",
+      "sourceIds": [
+        "birdlife-glaucestrilda-coerulescens"
+      ]
+    },
     "imageCredit": "Charles J. Sharp — CC BY-SA 4.0",
     "imageSourceId": "media-estrilda-caerulescens-img",
     "image": "/images/birds/estrilda-caerulescens.webp",
@@ -4232,6 +4396,15 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 3.0"
       }
     ],
+    "wildRange": {
+      "regions": [
+        "Australie"
+      ],
+      "hemisphere": "AU",
+      "sourceIds": [
+        "birdlife-geopelia-cuneata"
+      ]
+    },
     "imageCredit": "Maurice van Bruggen — CC BY-SA 3.0",
     "imageSourceId": "media-geopelia-cuneata-img",
     "image": "/images/birds/geopelia-cuneata.webp",
@@ -4614,6 +4787,15 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0 ; catalogué *L. larvata* (IOC)"
       }
     ],
+    "wildRange": {
+      "regions": [
+        "Sénégal"
+      ],
+      "hemisphere": "AF",
+      "sourceIds": [
+        "birdlife-lagonosticta-vinacea"
+      ]
+    },
     "imageCredit": "Francesco Veronesi — CC BY-SA 2.0",
     "imageSourceId": "media-lagonosticta-larvata-vinacea-img",
     "image": "/images/birds/lagonosticta-larvata-vinacea.webp",
@@ -5850,6 +6032,15 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-ND 4.0 ; taxon sauvage"
       }
     ],
+    "wildRange": {
+      "regions": [
+        "Japon"
+      ],
+      "hemisphere": "AS",
+      "sourceIds": [
+        "birdlife-lonchura-striata"
+      ]
+    },
     "imageCredit": "Anil Kumar — CC BY-SA 4.0",
     "imageSourceId": "media-lonchura-striata-domestiqua-img",
     "image": "/images/birds/lonchura-striata-domestiqua.webp",
@@ -6112,6 +6303,16 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
+    "wildRange": {
+      "regions": [
+        "Australie"
+      ],
+      "hemisphere": "AU",
+      "sourceIds": [
+        "birdlife-melopsittacus-undulatus",
+        "adw-melopsittacus-undulatus"
+      ]
+    },
     "imageCredit": "Lip Kee — CC BY-SA 2.0",
     "imageSourceId": "media-melopsittacus-undulatus-img",
     "image": "/images/birds/melopsittacus-undulatus.webp",
@@ -6250,6 +6451,17 @@ export const birds: Bird[] = [
         "note": "CC BY-SA 4.0"
       }
     ],
+    "wildRange": {
+      "regions": [
+        "Amérique du Sud",
+        "Brésil"
+      ],
+      "hemisphere": "AM",
+      "sourceIds": [
+        "birdlife-myiopsitta-monachus",
+        "adw-myiopsitta-monachus"
+      ]
+    },
     "imageCredit": "Juan Emilio — CC BY-SA 2.0",
     "imageSourceId": "media-myiopsitta-monachus-monachus-img",
     "image": "/images/birds/myiopsitta-monachus-monachus.webp",
@@ -6374,6 +6586,15 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0 ; XC: Aidemosyne modesta"
       }
     ],
+    "wildRange": {
+      "regions": [
+        "Australie"
+      ],
+      "hemisphere": "AU",
+      "sourceIds": [
+        "birdlife-neochmia-modesta"
+      ]
+    },
     "imageCredit": "Greg Miles — CC BY-SA 2.0",
     "imageSourceId": "media-neochmia-modesta-img",
     "image": "/images/birds/neochmia-modesta.webp",
@@ -6498,6 +6719,15 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-ND 4.0 ; XC: Bathilda ruficauda"
       }
     ],
+    "wildRange": {
+      "regions": [
+        "Australie"
+      ],
+      "hemisphere": "AU",
+      "sourceIds": [
+        "birdlife-neochmia-ruficauda"
+      ]
+    },
     "imageCredit": "HaraldW1954 — CC BY-SA 4.0",
     "imageSourceId": "media-neochmia-ruficauda-img",
     "image": "/images/birds/neochmia-ruficauda.webp",
@@ -6619,6 +6849,15 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
+    "wildRange": {
+      "regions": [
+        "Australie"
+      ],
+      "hemisphere": "AU",
+      "sourceIds": [
+        "birdlife-neophema-elegans"
+      ]
+    },
     "imageCredit": "Ron Knight — CC BY 2.0",
     "imageSourceId": "media-neophema-elegans-img",
     "image": "/images/birds/neophema-elegans.webp",
@@ -6742,6 +6981,15 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-ND 4.0"
       }
     ],
+    "wildRange": {
+      "regions": [
+        "Australie"
+      ],
+      "hemisphere": "AU",
+      "sourceIds": [
+        "birdlife-neophema-pulchella"
+      ]
+    },
     "imageCredit": "stephen jones — CC BY 2.0",
     "imageSourceId": "media-neophema-pulchella-img",
     "image": "/images/birds/neophema-pulchella.webp",
@@ -6863,6 +7111,15 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
+    "wildRange": {
+      "regions": [
+        "Australie"
+      ],
+      "hemisphere": "AU",
+      "sourceIds": [
+        "birdlife-neophema-splendida"
+      ]
+    },
     "imageCredit": "Ltshears — Domaine public",
     "imageSourceId": "media-neophema-splendida-img",
     "image": "/images/birds/neophema-splendida.webp",
@@ -7001,6 +7258,16 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-ND 4.0"
       }
     ],
+    "wildRange": {
+      "regions": [
+        "Australie"
+      ],
+      "hemisphere": "AU",
+      "sourceIds": [
+        "birdlife-neopsephotus-bourkii",
+        "adw-neopsephotus-bourkii"
+      ]
+    },
     "imageCredit": "Ljosa — Domaine public",
     "imageSourceId": "media-neopsephotus-bourkii-img",
     "image": "/images/birds/neopsephotus-bourkii.webp",
@@ -7142,6 +7409,16 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
+    "wildRange": {
+      "regions": [
+        "Australie"
+      ],
+      "hemisphere": "AU",
+      "sourceIds": [
+        "birdlife-nymphicus-hollandicus",
+        "adw-nymphicus-hollandicus"
+      ]
+    },
     "imageCredit": "Zefry — CC BY 2.0",
     "imageSourceId": "media-nymphicus-hollandicus-img",
     "image": "/images/birds/nymphicus-hollandicus.webp",
@@ -7509,6 +7786,15 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
+    "wildRange": {
+      "regions": [
+        "Australie"
+      ],
+      "hemisphere": "AU",
+      "sourceIds": [
+        "birdlife-platycercus-adscitus"
+      ]
+    },
     "imageCredit": "JJ Harrison — CC BY-SA 4.0",
     "imageSourceId": "media-platycercus-adscitus-img",
     "image": "/images/birds/platycercus-adscitus.webp",
@@ -7751,6 +8037,16 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
+    "wildRange": {
+      "regions": [
+        "Australie",
+        "Nouvelle-Zélande"
+      ],
+      "hemisphere": "AU",
+      "sourceIds": [
+        "birdlife-platycercus-eximius"
+      ]
+    },
     "imageCredit": "Murdock Grewar — CC BY-SA 4.0",
     "imageSourceId": "media-platycercus-eximius-eximius-img",
     "image": "/images/birds/platycercus-eximius-eximius.webp",
@@ -7872,6 +8168,15 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-ND 4.0"
       }
     ],
+    "wildRange": {
+      "regions": [
+        "Australie"
+      ],
+      "hemisphere": "AU",
+      "sourceIds": [
+        "birdlife-platycercus-icterotis"
+      ]
+    },
     "imageCredit": "Robert Young — CC BY 2.0",
     "imageSourceId": "media-platycercus-icterotis-img",
     "image": "/images/birds/platycercus-icterotis.webp",
@@ -8120,6 +8425,15 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-ND 4.0"
       }
     ],
+    "wildRange": {
+      "regions": [
+        "Australie"
+      ],
+      "hemisphere": "AU",
+      "sourceIds": [
+        "birdlife-poephila-acuticauda"
+      ]
+    },
     "imageCredit": "Lip Kee Yap — CC BY-SA 2.0",
     "imageSourceId": "media-poephila-acuticauda-img",
     "image": "/images/birds/poephila-acuticauda.webp",
@@ -8258,6 +8572,16 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
+    "wildRange": {
+      "regions": [
+        "Afrique"
+      ],
+      "hemisphere": "AF",
+      "sourceIds": [
+        "birdlife-poicephalus-senegalus",
+        "adw-poicephalus-senegalus"
+      ]
+    },
     "imageCredit": "ThomHasi / Thomas J. Haslam — CC BY 2.5",
     "imageSourceId": "media-poicephalus-senegalus-img",
     "image": "/images/birds/poicephalus-senegalus.webp",
@@ -8381,6 +8705,15 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
+    "wildRange": {
+      "regions": [
+        "Australie"
+      ],
+      "hemisphere": "AU",
+      "sourceIds": [
+        "birdlife-polytelis-alexandrae"
+      ]
+    },
     "imageCredit": "PG Palmer — CC BY 2.0",
     "imageSourceId": "media-polytelis-alexandrae-img",
     "image": "/images/birds/polytelis-alexandrae.webp",
@@ -8502,6 +8835,15 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
+    "wildRange": {
+      "regions": [
+        "Australie"
+      ],
+      "hemisphere": "AU",
+      "sourceIds": [
+        "birdlife-polytelis-anthopeplus"
+      ]
+    },
     "imageCredit": "David Cook Wildlife Photography — CC BY 2.0",
     "imageSourceId": "media-polytelis-anthopeplus-img",
     "image": "/images/birds/polytelis-anthopeplus.webp",
@@ -8626,6 +8968,15 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-ND 4.0"
       }
     ],
+    "wildRange": {
+      "regions": [
+        "Australie"
+      ],
+      "hemisphere": "AU",
+      "sourceIds": [
+        "birdlife-psephotus-haematonotus"
+      ]
+    },
     "imageCredit": "Toby Hudson — CC BY-SA 3.0",
     "imageSourceId": "media-psephotus-haematonotus-img",
     "image": "/images/birds/psephotus-haematonotus-haematonotus.webp",
@@ -8750,6 +9101,15 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-ND 4.0"
       }
     ],
+    "wildRange": {
+      "regions": [
+        "Inde"
+      ],
+      "hemisphere": "AS",
+      "sourceIds": [
+        "birdlife-himalayapsitta-cyanocephala"
+      ]
+    },
     "imageCredit": "J.M.Garg — CC BY-SA 4.0",
     "imageSourceId": "media-psittacula-cyanocephala-img",
     "image": "/images/birds/psittacula-cyanocephala.webp",
@@ -8876,6 +9236,15 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
+    "wildRange": {
+      "regions": [
+        "Inde"
+      ],
+      "hemisphere": "AS",
+      "sourceIds": [
+        "birdlife-palaeornis-eupatria"
+      ]
+    },
     "imageCredit": "Hari K Patibanda — CC BY 2.0",
     "imageSourceId": "media-psittacula-eupatria-img",
     "image": "/images/birds/psittacula-eupatria.webp",
@@ -9303,6 +9672,16 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
+    "wildRange": {
+      "regions": [
+        "Brésil"
+      ],
+      "hemisphere": "AM",
+      "sourceIds": [
+        "birdlife-pyrrhura-molinae",
+        "adw-pyrrhura-molinae"
+      ]
+    },
     "imageCredit": "Dan Muntz — CC BY-SA 2.0",
     "imageSourceId": "media-pyrrhura-molinae-img",
     "image": "/images/birds/pyrrhura-molinae.webp",
@@ -9799,6 +10178,15 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-ND 4.0"
       }
     ],
+    "wildRange": {
+      "regions": [
+        "Australie"
+      ],
+      "hemisphere": "AU",
+      "sourceIds": [
+        "birdlife-stagonopleura-guttata"
+      ]
+    },
     "imageCredit": "JJ Harrison — CC BY-SA 4.0",
     "imageSourceId": "media-stagonopleura-guttata-img",
     "image": "/images/birds/stagonopleura-guttata.webp",
@@ -10186,6 +10574,15 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-ND 4.0 ; XC: Stizoptera bichenovii"
       }
     ],
+    "wildRange": {
+      "regions": [
+        "Australie"
+      ],
+      "hemisphere": "AU",
+      "sourceIds": [
+        "birdlife-taeniopygia-bichenovii"
+      ]
+    },
     "imageCredit": "JJ Harrison — CC BY-SA 4.0",
     "imageSourceId": "media-taeniopygia-bichenovii-img",
     "image": "/images/birds/taeniopygia-bichenovii.webp",
@@ -10310,6 +10707,15 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-ND 4.0"
       }
     ],
+    "wildRange": {
+      "regions": [
+        "Australie"
+      ],
+      "hemisphere": "AU",
+      "sourceIds": [
+        "birdlife-taeniopygia-castanotis"
+      ]
+    },
     "imageCredit": "JJ Harrison — CC BY-SA 3.0",
     "imageSourceId": "media-taeniopygia-guttata-castanotis-img",
     "image": "/images/birds/taeniopygia-guttata-castanotis.webp",

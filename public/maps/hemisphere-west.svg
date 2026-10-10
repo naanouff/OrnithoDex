@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" role="img" aria-label="Hémisphère Ouest">
+  <defs>
+    <clipPath id="disk"><circle cx="160" cy="160" r="148"/></clipPath>
+  </defs>
+  <circle cx="160" cy="160" r="150" fill="#e8f7fc" stroke="#1b365d" stroke-width="4"/>
+  <g clip-path="url(#disk)" fill="#2eb7e6" fill-opacity="0.35" stroke="#1b365d" stroke-width="2">
+    <!-- North America-ish -->
+    <path id="realm-AM-N" d="M120 60c28-12 56 0 64 28 8 24-2 50-20 68-10 10-12 28-4 40-22 2-42-10-52-28-12-22-10-48 2-68 6-12 8-28 10-40z"/>
+    <!-- South America-ish -->
+    <path id="realm-AM-S" d="M150 175c16-4 28 10 30 26 4 22-6 48-20 64-12 14-14 30-6 42-18 0-32-14-36-30-6-24 0-50 12-70 6-10 12-22 20-32z"/>
+  </g>
+  <circle cx="160" cy="160" r="150" fill="none" stroke="#1b365d" stroke-width="4"/>
+</svg>

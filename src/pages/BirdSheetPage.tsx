@@ -1,5 +1,6 @@
 import { Link, useParams } from 'react-router-dom'
 import { BirdImage } from '../components/BirdImage'
+import { WildRangeMap } from '../components/WildRangeMap'
 import { getBirdById } from '../lib/birds'
 import { orderAccent } from '../lib/orders'
 
@@ -61,6 +62,8 @@ export function BirdSheetPage() {
           </span>
         </div>
       </header>
+
+      <WildRangeMap bird={bird} />
 
       <section aria-labelledby="points-cours" className="space-y-2">
         <h2 id="points-cours" className="font-display text-xl font-bold text-navy">
