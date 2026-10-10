@@ -46,7 +46,13 @@ ADW : cris aigus pour le stress / alerte ; chants de parade chez le mâle ; imit
 
 ## Points de cours à retenir
 
-*En attente ingénieur pédagogique / supports de cours.*
+<!-- Aides à la mémorisation (pas un polycopié enseignant). -->
+
+- **[programme]** Calopsitte ↔ *Nymphicus hollandicus* ; Psittaciformes ; **Cacatuides**
+- **[programme]** Confusion : rosalbin / *Cacatua* — calopsitte = plus petit cacatoès, huppe + joues orange
+- **[sourcé]** Least Concern ; Australie ; tendance stable ; statut **nomade**
+- **[sourcé]** Dimorphisme : joues orange vif bordées de blanc (♂) vs terne sans bordure (♀)
+- **[sourcé]** Presque exclusivement granivore au sol ; très sociale
 
 ## Médias
 

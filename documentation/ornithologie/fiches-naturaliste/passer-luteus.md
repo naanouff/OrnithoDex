@@ -45,7 +45,13 @@ Enregistrement XC985452 (Oscar Campbell — CC BY-NC-ND 4.0) : https://xeno-cant
 
 ## Points de cours à retenir
 
-*En attente ingénieur pédagogique / supports de cours.*
+<!-- Aides à la mémorisation (pas un polycopié enseignant). -->
+
+- **[programme]** Moineau doré ↔ *Passer luteus* ; Passériformes ; Passéridés
+- **[programme]** Confusion : tisserin gendarme (*Ploceus*) — autre famille (Plocéidés / Ploceidae)
+- **[sourcé]** Least Concern ; tendance stable ; commune à abondante
+- **[sourcé]** Statut **nomade** ; savane sèche, cultures, jardins, urbain
+- **[sourcé]** EOO très vaste (≈ 6,7 M km²)
 
 ## Médias
 

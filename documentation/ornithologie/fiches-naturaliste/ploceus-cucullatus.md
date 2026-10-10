@@ -45,7 +45,13 @@ Enregistrement XC1080073 (JJSUN — CC BY-NC-SA 4.0) : https://xeno-canto.org/10
 
 ## Points de cours à retenir
 
-*En attente ingénieur pédagogique / supports de cours.*
+<!-- Aides à la mémorisation (pas un polycopié enseignant). -->
+
+- **[programme]** Tisserin gendarme ↔ *Ploceus cucullatus* ; Passériformes ; Ploceidae
+- **[programme]** Confusion : moineau doré (*Passer*) — tisserin = famille des plocéidés
+- **[sourcé]** Least Concern ; tendance stable ; généralement abondant
+- **[sourcé]** Non migrateur ; jardins ruraux (majeur), cultures, savane
+- **[sourcé]** EOO très vaste (≈ 23,9 M km²)
 
 ## Médias
 

@@ -48,12 +48,12 @@ Plan sources : [plan-sources.md](../projet/plan-sources.md) (85/85 `complete`) �
 | psittacus-erithacus | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok | EN; ADW; sprint 08 |
 | pyrrhura-molinae | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok | ADW; sprint 08 |
 | eolophus-roseicapilla | ok | ok | ok | ok | ok | na | ok | ok | ok | ok | BirdLife AU; dimorphisme na; sprint 03b |
-| nymphicus-hollandicus | ok | ok | ok | ok | ok | ok | ok | ok | ok | attente | ADW; sprint 03b |
-| cacatua-alba | ok | ok | ok | ok | ok | na | ok | ok | ok | attente | EN; dimorphisme na; sprint 03b |
-| cacatua-galerita | ok | ok | ok | ok | ok | ok | ok | ok | ok | attente | BirdLife AU; sprint 03b |
-| gracula-religiosa | ok | ok | ok | ok | ok | na | ok | ok | ok | attente | ADW; sprint 09 |
-| passer-luteus | ok | ok | ok | ok | ok | na | ok | na | ok | attente | nomade; dimorphisme/régime na; sprint 09 |
-| ploceus-cucullatus | ok | ok | ok | ok | ok | na | ok | na | ok | attente | dimorphisme/régime na; sprint 09 |
+| nymphicus-hollandicus | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok | ADW; sprint 03b |
+| cacatua-alba | ok | ok | ok | ok | ok | na | ok | ok | ok | ok | EN; dimorphisme na; sprint 03b |
+| cacatua-galerita | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok | BirdLife AU; sprint 03b |
+| gracula-religiosa | ok | ok | ok | ok | ok | na | ok | ok | ok | ok | ADW; sprint 09 |
+| passer-luteus | ok | ok | ok | ok | ok | na | ok | na | ok | ok | nomade; dimorphisme/régime na; sprint 09 |
+| ploceus-cucullatus | ok | ok | ok | ok | ok | na | ok | na | ok | ok | dimorphisme/régime na; sprint 09 |
 | euplectes-orix | ok | ok | ok | ok | ok | na | ok | na | ok | attente | dimorphisme/régime na; sprint 09 |
 | amadina-fasciata | ok | ok | ok | ok | ok | na | ok | na | ok | attente | dimorphisme/régime na; sprint 09 |
 | amandava-amandava | ok | ok | ok | ok | ok | ok | ok | ok | ok | attente | ADW; sprint 09 |
