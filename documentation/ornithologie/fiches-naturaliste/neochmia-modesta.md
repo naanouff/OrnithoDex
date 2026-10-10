@@ -43,7 +43,13 @@ Enregistrement XC605889 (Liam Manderson — CC BY-NC-SA 4.0) : https://xeno-cant
 
 ## Points de cours à retenir
 
-*En attente ingénieur pédagogique / supports de cours.*
+<!-- Aides à la mémorisation (pas un polycopié enseignant). -->
+
+- **[programme]** Diamant modeste ↔ *Neochmia modesta* ; Passériformes ; Estrildidés
+- **[programme]** Genre *Neochmia* (Australie) — distinct des *Lonchura* / *Padda*
+- **[sourcé]** Least Concern ; endémique Australie ; tendance stable
+- **[sourcé]** Non migrateur ; savane sèche, fourrés, zones humides
+- **[sourcé]** Commerce signalé à faible prévalence
 
 ## Médias
 

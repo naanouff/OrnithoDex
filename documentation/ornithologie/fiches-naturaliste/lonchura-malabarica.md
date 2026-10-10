@@ -44,7 +44,13 @@ Enregistrement XC1182208 (David Darrell-Lambert — CC BY-NC-SA 4.0) : https://x
 
 ## Points de cours à retenir
 
-*En attente ingénieur pédagogique / supports de cours.*
+<!-- Aides à la mémorisation (pas un polycopié enseignant). -->
+
+- **[programme]** Bec de plomb ↔ *Lonchura malabarica* ; Passériformes ; Estrildidés
+- **[programme]** Confusion : bec d'argent (*L. cantans* / *Euodice cantans*) — BirdLife *Euodice malabarica*
+- **[sourcé]** Least Concern ; tendance stable ; savane et fourrés secs
+- **[sourcé]** Non migrateur ; aussi forêts sèches, cultures, pâturages
+- **[sourcé]** Commerce (nourriture + compagnie) à échelle nationale / subsistance
 
 ## Médias
 

@@ -43,7 +43,13 @@ Enregistrement XC1069340 (David Darrell-Lambert — CC BY-NC-SA 4.0) : https://x
 
 ## Points de cours à retenir
 
-*En attente ingénieur pédagogique / supports de cours.*
+<!-- Aides à la mémorisation (pas un polycopié enseignant). -->
+
+- **[programme]** Damier ↔ *Lonchura punctulata* ; Passériformes ; Estrildidés
+- **[programme]** Confusion : autres *Lonchura* — damier = tendance en **augmentation**, très abondant
+- **[sourcé]** Least Concern ; > 50 M matures estimés ; EOO énorme
+- **[sourcé]** Non migrateur ; cultures, jardins, urbain, forêts, prairies
+- **[sourcé]** Commerce signalé à forte prévalence
 
 ## Médias
 
