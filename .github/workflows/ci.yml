@@ -24,24 +24,41 @@ jobs:
       - run: npm run build
 
   # Preview Vercel : push develop + PR (même dépôt). Pas de prod ici.
+  # secrets n’est pas autorisé dans un if de job : le token est testé dans l’étape.
   preview:
     needs: build
     runs-on: ubuntu-latest
-    if: ${{ secrets.VERCEL_TOKEN != '' && ((github.event_name == 'push' && github.ref == 'refs/heads/develop') || (github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository)) }}
+    if: (github.event_name == 'push' && github.ref == 'refs/heads/develop') || (github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository)
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: npm
+      - name: Token Vercel présent
+        id: vercel
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+        run: |
+          if [ -n "$VERCEL_TOKEN" ]; then
+            echo "ready=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "ready=false" >> "$GITHUB_OUTPUT"
+            echo "VERCEL_TOKEN absent — preview ignorée"
+          fi
       - run: npm ci
+        if: steps.vercel.outputs.ready == 'true'
       - name: Install Vercel CLI
+        if: steps.vercel.outputs.ready == 'true'
         run: npm install -g vercel@latest
       - name: Pull Vercel environment (preview)
+        if: steps.vercel.outputs.ready == 'true'
         run: vercel pull --yes --environment=preview
       - name: Build for Vercel
+        if: steps.vercel.outputs.ready == 'true'
         run: vercel build
       - name: Deploy preview
+        if: steps.vercel.outputs.ready == 'true'
         id: deploy
         run: |
           url=$(vercel deploy --prebuilt)
