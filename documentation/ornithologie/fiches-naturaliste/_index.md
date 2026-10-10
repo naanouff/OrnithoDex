@@ -61,12 +61,12 @@ Générés le 2026-10-10. Lots en `complete` (sprint 03a) : Galliformes, Anséri
 | [erythrura-psittacea](erythrura-psittacea.md) | Pape de Nouméa | complete |
 | [estrilda-astrild](estrilda-astrild.md) | Astrild de Sainte Hélène | complete |
 | [estrilda-caerulescens](estrilda-caerulescens.md) | Queue de vinaigre | complete |
-| [estrilda-melpoda](estrilda-melpoda.md) | Joues orange | liste_seule |
-| [estrilda-troglodytes](estrilda-troglodytes.md) | Bec de corail | liste_seule |
-| [lagonosticta-senegala](lagonosticta-senegala.md) | Amaranthe à bec rouge | liste_seule |
-| [lagonosticta-larvata-vinacea](lagonosticta-larvata-vinacea.md) | Amaranthe vineuse | liste_seule |
-| [lonchura-striata](lonchura-striata.md) | Capucin domino | liste_seule |
-| [lonchura-striata-domestiqua](lonchura-striata-domestiqua.md) | Moineau du Japon | liste_seule |
+| [estrilda-melpoda](estrilda-melpoda.md) | Joues orange | complete |
+| [estrilda-troglodytes](estrilda-troglodytes.md) | Bec de corail | complete |
+| [lagonosticta-senegala](lagonosticta-senegala.md) | Amaranthe à bec rouge | complete |
+| [lagonosticta-larvata-vinacea](lagonosticta-larvata-vinacea.md) | Amaranthe vineuse | complete |
+| [lonchura-striata](lonchura-striata.md) | Capucin domino | complete |
+| [lonchura-striata-domestiqua](lonchura-striata-domestiqua.md) | Moineau du Japon | complete |
 | [lonchura-malacca-malacca](lonchura-malacca-malacca.md) | Capucin tricolore | liste_seule |
 | [lonchura-malacca-atricapilla](lonchura-malacca-atricapilla.md) | Capucin à tête noire | liste_seule |
 | [lonchura-cantans](lonchura-cantans.md) | Bec d'argent | liste_seule |
