@@ -22,5 +22,6 @@ Chronique courte des sessions de travail : décisions, avancement, blocages.
 | 2026-10-10 | [2026-10-10-9.md](2026-10-10-9.md) — Plan fiches complètes + préparation sprint 03a |
 | 2026-10-10 | [2026-10-10-10.md](2026-10-10-10.md) — Sprint 03a backlog (12 fiches complete) |
 | 2026-10-10 | [2026-10-10-12.md](2026-10-10-12.md) — Plan design + sprint 03b Cacatuides |
+| 2026-10-10 | [2026-10-10-13.md](2026-10-10-13.md) — Sprint 04 Agapornis (5 fiches complete) |
 | 2026-10-10 | [2026-10-10-10.md](2026-10-10-10.md) — Consignation plan pédagogie |
 | 2026-10-10 | [2026-10-10-11.md](2026-10-10-11.md) — Public prioritaire seconde pro TCVA |

@@ -54,9 +54,9 @@ Registre public de **toutes** les sources utilisées dans le projet. Toute nouve
 | `xeno-canto` | Xeno-canto | Xeno-canto Foundation | https://xeno-canto.org/ | Enregistrement audio précis (auteur + licence) |
 | `wikimedia-commons` | Wikimedia Commons | Wikimedia | https://commons.wikimedia.org/ | Images libres (licence par fichier) |
 
-Fiches espèce BirdLife / ADW / Avibase (sprints 01–03b) : détail dans chaque [fiche du naturaliste](documentation/ornithologie/fiches-naturaliste/).
+Fiches espèce BirdLife / ADW / Avibase (sprints 01–04) : détail dans chaque [fiche du naturaliste](documentation/ornithologie/fiches-naturaliste/).
 
-### Médias retenus (sprints 01–03b — liens ; copie locale plus tard)
+### Médias retenus (sprints 01–04 — liens ; copie locale plus tard)
 
 | Espèce (slug) | Type | Auteur | Licence | URL |
 |---------------|------|--------|---------|-----|
@@ -92,3 +92,13 @@ Fiches espèce BirdLife / ADW / Avibase (sprints 01–03b) : détail dans chaque
 | `cacatua-alba` | Audio | Richard E. Webster | CC BY-NC-SA 4.0 | https://xeno-canto.org/1074294 |
 | `cacatua-galerita` | Image | Charles J. Sharp | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Sulphur-crested_cockatoo_(Cacatua_galerita_galerita)_Sydney.jpg |
 | `cacatua-galerita` | Audio | AK | CC BY-NC-SA 4.0 | https://xeno-canto.org/1177819 |
+| `agapornis-roseicollis` | Image | Charles J. Sharp | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Rosy-faced_lovebird_(Agapornis_roseicollis_roseicollis)_flock.jpg |
+| `agapornis-roseicollis` | Audio | African Bioacoustics Community | CC BY-NC-SA 4.0 | https://xeno-canto.org/1101865 |
+| `agapornis-fischeri` | Image | Peter Békési | CC BY-SA 2.0 | https://commons.wikimedia.org/wiki/File:Fischer%27s_Lovebird,_(Agapornis_fischeri)_perching_on_a_box.jpg |
+| `agapornis-fischeri` | Audio | Peter Boesman | CC BY-NC-ND 4.0 | https://xeno-canto.org/947900 |
+| `agapornis-personatus` | Image | Becky Matsubara | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Yellow-collared_Lovebird_(27582137244).jpg |
+| `agapornis-personatus` | Audio | Peter Boesman | CC BY-NC-ND 4.0 | https://xeno-canto.org/509849 |
+| `agapornis-lilianae` | Image | Lip Kee | CC BY-SA 2.0 | https://commons.wikimedia.org/wiki/File:Lilian%27s_Lovebird_(Agapornis_lilianae)_(23710441211).jpg |
+| `agapornis-lilianae` | Audio | Magnus Wadstein | CC BY-NC-SA 4.0 | https://xeno-canto.org/933097 |
+| `agapornis-nigrigenis` | Image | Huub Veldhuijzen van Zanten / Naturalis | CC BY-SA | https://commons.wikimedia.org/wiki/File:Naturalis_Biodiversity_Center_-_ZMA.AVES.56942_-_Agapornis_nigrigenis_Sclater,_W.L.,_1906_-_Psittacidae_-_skin_specimen.jpeg |
+| `agapornis-nigrigenis` | Audio | Dries Van de Loock | CC BY-NC-SA 4.0 | https://xeno-canto.org/585260 |
