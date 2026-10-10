@@ -43,7 +43,13 @@ Enregistrement XC668759 (James Lambert — CC BY-NC-ND 4.0) : https://xeno-canto
 
 ## Points de cours à retenir
 
-*En attente ingénieur pédagogique / supports de cours.*
+<!-- Aides à la mémorisation (pas un polycopié enseignant). -->
+
+- **[programme]** Diamant à longue queue ↔ *Poephila acuticauda* ; Passériformes ; Estrildidés
+- **[programme]** Genre *Poephila* — distinct des *Taeniopygia* / *Neochmia* australiens
+- **[sourcé]** Least Concern ; endémique Australie ; tendance stable
+- **[sourcé]** Non migrateur ; forêts et savanes sèches
+- **[sourcé]** Commerce signalé à forte prévalence
 
 ## Médias
 

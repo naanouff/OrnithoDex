@@ -43,7 +43,13 @@ Enregistrement XC1156694 (Radek Grochowski — CC BY-NC-SA 4.0) : https://xeno-c
 
 ## Points de cours à retenir
 
-*En attente ingénieur pédagogique / supports de cours.*
+<!-- Aides à la mémorisation (pas un polycopié enseignant). -->
+
+- **[programme]** Serin des canaries ↔ *Serinus canaria* ; Passériformes ; Fringillidés
+- **[programme]** Confusion : serins africains (*Crithagra*) — canaria = forme sauvage des îles + élevage
+- **[sourcé]** Least Concern (forme sauvage Island Canary) ; 3–5 M matures ; tendance stable
+- **[sourcé]** IUCN = taxon **sauvage** ; formes domestiques très élevées en captivité
+- **[sourcé]** Non migrateur ; forêts tempérées, fourrés méditerranéens, jardins
 
 ## Médias
 

@@ -84,12 +84,12 @@ Plan sources : [plan-sources.md](../projet/plan-sources.md) (85/85 `complete`) �
 | taeniopygia-guttata-castanotis | ok | ok | ok | ok | ok | na | ok | na | ok | ok | BirdLife: T. castanotis |
 | uraeginthus-bengalus | ok | ok | ok | ok | ok | na | ok | na | ok | ok | |
 | uraeginthus-cyanocephalus | ok | ok | ok | ok | ok | na | ok | na | ok | ok | |
-| poephila-acuticauda | ok | ok | ok | ok | ok | na | ok | na | ok | attente | |
-| vidua-chalybeata | ok | ok | ok | ok | ok | na | ok | na | ok | attente | |
-| vidua-macroura | ok | ok | ok | ok | ok | na | ok | na | ok | attente | |
-| vidua-orientalis | ok | ok | ok | ok | ok | na | ok | na | ok | attente | Sahel Paradise-whydah |
-| serinus-leucopygius | ok | ok | ok | ok | ok | na | ok | na | ok | attente | BirdLife: Crithagra leucopygia |
-| serinus-mozambicus | ok | ok | ok | ok | ok | na | ok | na | ok | attente | BirdLife: Crithagra mozambica |
-| serinus-canaria | ok | ok | ok | ok | ok | na | ok | na | ok | attente | forme sauvage Island Canary |
+| poephila-acuticauda | ok | ok | ok | ok | ok | na | ok | na | ok | ok | |
+| vidua-chalybeata | ok | ok | ok | ok | ok | na | ok | na | ok | ok | |
+| vidua-macroura | ok | ok | ok | ok | ok | na | ok | na | ok | ok | |
+| vidua-orientalis | ok | ok | ok | ok | ok | na | ok | na | ok | ok | Sahel Paradise-whydah |
+| serinus-leucopygius | ok | ok | ok | ok | ok | na | ok | na | ok | ok | BirdLife: Crithagra leucopygia |
+| serinus-mozambicus | ok | ok | ok | ok | ok | na | ok | na | ok | ok | BirdLife: Crithagra mozambica |
+| serinus-canaria | ok | ok | ok | ok | ok | na | ok | na | ok | ok | forme sauvage Island Canary |
 
 Dernière mise à jour : 2026-10-10 (sprint 07 — 6 Psittacidés C complete).

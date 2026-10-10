@@ -47,5 +47,6 @@ Chronique courte des sessions de travail : décisions, avancement, blocages.
 | 2026-10-10 | [2026-10-10-35.md](2026-10-10-35.md) — Pédagogie lot 09 Lonchura A (6) |
 | 2026-10-10 | [2026-10-10-36.md](2026-10-10-36.md) — Pédagogie lot 10 Lonchura B (6) |
 | 2026-10-10 | [2026-10-10-37.md](2026-10-10-37.md) — Pédagogie lot 11 Estrildidés C (6) |
+| 2026-10-10 | [2026-10-10-38.md](2026-10-10-38.md) — Pédagogie lot 12 fin (7, 85/85) |
 | 2026-10-10 | [2026-10-10-10.md](2026-10-10-10.md) — Consignation plan pédagogie |
 | 2026-10-10 | [2026-10-10-11.md](2026-10-10-11.md) — Public prioritaire seconde pro TCVA |
