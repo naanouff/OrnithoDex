@@ -44,7 +44,13 @@ Enregistrement XC919215 (FREDERIC Lionel — CC BY-NC-SA 4.0) : https://xeno-can
 
 ## Points de cours à retenir
 
-*En attente ingénieur pédagogique / supports de cours.*
+<!-- Aides à la mémorisation (pas un polycopié enseignant). -->
+
+- **[programme]** Colin de Virginie ↔ *Colinus virginianus* ; Galliformes ; **Odontophoridés**
+- **[programme]** Confusion : colin de Californie (*Callipepla*) — autre genre, même famille
+- **[sourcé]** Statut BirdLife : **Near Threatened** ; population en diminution
+- **[sourcé]** Dimorphisme : mâle gorge blanche ; femelle gorge chamois
+- **[sourcé]** Terrestre ; compagnies (coveys) hors reproduction ; surtout graines
 
 ## Médias
 

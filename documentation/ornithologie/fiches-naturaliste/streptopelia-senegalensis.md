@@ -44,7 +44,13 @@ Enregistrement XC1183962 (African Bioacoustics Community — CC BY-NC-SA 4.0) : 
 
 ## Points de cours à retenir
 
-*En attente ingénieur pédagogique / supports de cours.*
+<!-- Aides à la mémorisation (pas un polycopié enseignant). -->
+
+- **[programme]** Colombe maillée ↔ *Streptopelia senegalensis* ; Columbiformes ; Columbidés
+- **[programme]** Confusion : tourterelle rieuse (*S. risoria*) — autre entrée *Streptopelia* du programme
+- **[sourcé]** Taxonomie actuelle BirdLife : *Spilopelia senegalensis*
+- **[sourcé]** Commensale : cultures, jardins, villes ; régime surtout petites graines
+- **[sourcé]** Least Concern ; population estimée en millions ; tendance stable
 
 ## Médias
 

@@ -42,7 +42,13 @@ Enregistrement XC951388 (Stanislas Wroza — CC BY-NC-SA 4.0) : https://xeno-can
 
 ## Points de cours à retenir
 
-*En attente ingénieur pédagogique / supports de cours.*
+<!-- Aides à la mémorisation (pas un polycopié enseignant). -->
+
+- **[programme]** Tourterelle masque de fer ↔ *Oena capensis* ; Columbiformes ; Columbidés
+- **[programme]** Genre *Oena* seul dans le programme — distinct des *Geopelia* / *Streptopelia*
+- **[sourcé]** **Migrateur complet** (contrairement à beaucoup de colombes du lot)
+- **[sourcé]** Least Concern ; tendance suspectée en augmentation
+- **[sourcé]** Savane sèche, prairies, cultures et jardins
 
 ## Médias
 

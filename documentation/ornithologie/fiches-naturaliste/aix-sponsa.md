@@ -44,7 +44,13 @@ Enregistrement XC1173163 (Don Profota — CC BY-NC-SA 4.0) : https://xeno-canto.
 
 ## Points de cours à retenir
 
-*En attente ingénieur pédagogique / supports de cours.*
+<!-- Aides à la mémorisation (pas un polycopié enseignant). -->
+
+- **[programme]** Canard carolin ↔ *Aix sponsa* ; Ansériformes ; Anatidés
+- **[programme]** Confusion : canard mandarin (*A. galericulata*) — même genre *Aix*
+- **[sourcé]** Mâle tête irisée vert/bleu/violet ; femelle anneau oculaire blanc
+- **[sourcé]** Migrateur ; nid en cavité près de l’eau ; omnivore
+- **[sourcé]** Least Concern ; tendance en **augmentation**
 
 ## Médias
 

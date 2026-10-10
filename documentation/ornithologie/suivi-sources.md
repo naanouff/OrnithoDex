@@ -6,18 +6,18 @@ Plan sources : [plan-sources.md](../projet/plan-sources.md) (85/85 `complete`) �
 
 | slug | iucn | birdlife | image | audio | description | dimorphisme | habitat | regime | comportement | points_cours | notes |
 |------|------|----------|-------|-------|-------------|-------------|---------|--------|--------------|--------------|-------|
-| coturnix-chinensis | ok | ok | ok | ok | ok | ok | ok | ok | ok | attente | Synoicus chinensis; ADW; sprint 03a |
-| gallus-gallus-domesticus | na | ok | ok | ok | ok | ok | ok | ok | ok | attente | Forme domestique; ADW Gallus gallus; sprint 03a |
-| colinus-virginianus | ok | ok | ok | ok | ok | ok | ok | ok | ok | attente | NT BirdLife; ADW; sprint 03a |
-| callipepla-californica | ok | ok | ok | ok | ok | ok | ok | ok | ok | attente | ADW; sprint 03a |
-| aix-galericulata | ok | ok | ok | ok | ok | ok | ok | ok | ok | attente | ADW; sprint 03a |
-| aix-sponsa | ok | ok | ok | ok | ok | ok | ok | ok | ok | attente | ADW; sprint 03a |
-| geopelia-cuneata | ok | ok | ok | ok | ok | na | ok | na | ok | attente | dimorphisme/régime na (sources); sprint 03a |
-| geopelia-striata | ok | ok | ok | ok | ok | na | ok | na | ok | attente | dimorphisme/régime na; sprint 03a |
-| oena-capensis | ok | ok | ok | ok | ok | na | ok | na | ok | attente | dimorphisme/régime na; sprint 03a |
-| streptopelia-senegalensis | ok | ok | ok | ok | ok | na | ok | ok | ok | attente | Spilopelia; dimorphisme na; sprint 03a |
-| streptopelia-risoria | na | ok | ok | ok | ok | ok | ok | ok | ok | attente | Forme domestique; ADW S. roseogrisea; sprint 03a |
-| columba-livia | ok | ok | ok | ok | ok | ok | ok | ok | ok | attente | ADW; sprint 03a |
+| coturnix-chinensis | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok | Synoicus chinensis; ADW; sprint 03a |
+| gallus-gallus-domesticus | na | ok | ok | ok | ok | ok | ok | ok | ok | ok | Forme domestique; ADW Gallus gallus; sprint 03a |
+| colinus-virginianus | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok | NT BirdLife; ADW; sprint 03a |
+| callipepla-californica | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok | ADW; sprint 03a |
+| aix-galericulata | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok | ADW; sprint 03a |
+| aix-sponsa | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok | ADW; sprint 03a |
+| geopelia-cuneata | ok | ok | ok | ok | ok | na | ok | na | ok | ok | dimorphisme/régime na (sources); sprint 03a |
+| geopelia-striata | ok | ok | ok | ok | ok | na | ok | na | ok | ok | dimorphisme/régime na; sprint 03a |
+| oena-capensis | ok | ok | ok | ok | ok | na | ok | na | ok | ok | dimorphisme/régime na; sprint 03a |
+| streptopelia-senegalensis | ok | ok | ok | ok | ok | na | ok | ok | ok | ok | Spilopelia; dimorphisme na; sprint 03a |
+| streptopelia-risoria | na | ok | ok | ok | ok | ok | ok | ok | ok | ok | Forme domestique; ADW S. roseogrisea; sprint 03a |
+| columba-livia | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok | ADW; sprint 03a |
 | agapornis-roseicollis | ok | ok | ok | ok | ok | ok | ok | ok | ok | attente | ADW; sprint 04 |
 | agapornis-fischeri | ok | ok | ok | ok | ok | ok | ok | ok | ok | attente | NT; ADW; sprint 04 |
 | agapornis-personatus | ok | ok | ok | ok | ok | na | ok | na | ok | attente | régime/dimorphisme na; sprint 04 |

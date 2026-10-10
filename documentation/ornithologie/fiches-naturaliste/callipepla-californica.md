@@ -44,7 +44,13 @@ Enregistrement XC570687 (Ron Overholtz — CC BY-NC-SA 4.0) : https://xeno-canto
 
 ## Points de cours à retenir
 
-*En attente ingénieur pédagogique / supports de cours.*
+<!-- Aides à la mémorisation (pas un polycopié enseignant). -->
+
+- **[programme]** Colin de Californie ↔ *Callipepla californica* ; Galliformes ; Odontophoridés
+- **[programme]** Confusion : colin de Virginie (*Colinus*) — panache / gorge noire = Californie
+- **[sourcé]** Least Concern ; tendance en **augmentation** (contrairement au Virginie NT)
+- **[sourcé]** Dimorphisme : mâle gorge noire ; femelle gorge grisâtre striée
+- **[sourcé]** Compagnies sociales en automne ; surtout graines
 
 ## Médias
 

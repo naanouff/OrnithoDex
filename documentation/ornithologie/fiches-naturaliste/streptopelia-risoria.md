@@ -45,7 +45,13 @@ Enregistrement XC1163976 (*Streptopelia roseogrisea*, Zsombor Károlyi — CC BY
 
 ## Points de cours à retenir
 
-*En attente ingénieur pédagogique / supports de cours.*
+<!-- Aides à la mémorisation (pas un polycopié enseignant). -->
+
+- **[programme]** Tourterelle rieuse ↔ *Streptopelia risoria* ; Columbiformes ; Columbidés
+- **[programme]** Forme **domestique** — ne pas confondre avec la colombe maillée (*S. senegalensis*)
+- **[sourcé]** Liée au taxon sauvage *S. roseogrisea* (Least Concern)
+- **[sourcé]** Sauvage : savane / prairies sèches ; graines au sol
+- **[sourcé]** Dimorphisme faible (taille) chez le sauvage ; plumage proche entre sexes
 
 ## Médias
 

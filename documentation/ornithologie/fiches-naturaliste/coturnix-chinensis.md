@@ -45,7 +45,13 @@ Enregistrement XC1076265 (Richard E. Webster — CC BY-NC-SA 4.0) : https://xeno
 
 ## Points de cours à retenir
 
-*En attente ingénieur pédagogique / supports de cours.*
+<!-- Aides à la mémorisation (pas un polycopié enseignant). -->
+
+- **[programme]** Caille peinte de Chine ↔ *Coturnix chinensis* ; Galliformes ; Phasianidés
+- **[programme]** Ne pas confondre avec les colins (Odontophoridés) du même ordre
+- **[sourcé]** Dimorphisme fort : mâle poitrine gris-bleu / ventre rouille ; femelle brune
+- **[sourcé]** Vit au sol (prairies, rizières) ; omnivore surtout graines
+- **[sourcé]** BirdLife : Least Concern ; taxonomie actuelle *Synoicus chinensis*
 
 ## Médias
 

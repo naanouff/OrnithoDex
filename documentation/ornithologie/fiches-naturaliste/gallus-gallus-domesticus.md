@@ -45,7 +45,13 @@ Enregistrement XC1181554 (*Gallus gallus*, Maria Ulfah — CC BY-NC-SA 4.0) : ht
 
 ## Points de cours à retenir
 
-*En attente ingénieur pédagogique / supports de cours.*
+<!-- Aides à la mémorisation (pas un polycopié enseignant). -->
+
+- **[programme]** Poule domestique ↔ *Gallus gallus domesticus* ; Galliformes ; Phasianidés
+- **[programme]** Forme domestique — distincte des cailles / colins du programme
+- **[sourcé]** Issue du coq bankiva (*Gallus gallus*) ; ne pas confondre statut sauvage et élevage
+- **[sourcé]** Fort dimorphisme (mâle coloré / femelle plus discrète chez le taxon sauvage)
+- **[sourcé]** Hiérarchie sociale (« pecking order ») séparée mâles / femelles
 
 ## Médias
 
