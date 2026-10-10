@@ -54,9 +54,9 @@ Registre public de **toutes** les sources utilisées dans le projet. Toute nouve
 | `xeno-canto` | Xeno-canto | Xeno-canto Foundation | https://xeno-canto.org/ | Enregistrement audio précis (auteur + licence) |
 | `wikimedia-commons` | Wikimedia Commons | Wikimedia | https://commons.wikimedia.org/ | Images libres (licence par fichier) |
 
-Fiches espèce BirdLife / ADW / Avibase (sprints 01–03a) : détail dans chaque [fiche du naturaliste](documentation/ornithologie/fiches-naturaliste/).
+Fiches espèce BirdLife / ADW / Avibase (sprints 01–03b) : détail dans chaque [fiche du naturaliste](documentation/ornithologie/fiches-naturaliste/).
 
-### Médias retenus (sprints 01–03a — liens ; copie locale plus tard)
+### Médias retenus (sprints 01–03b — liens ; copie locale plus tard)
 
 | Espèce (slug) | Type | Auteur | Licence | URL |
 |---------------|------|--------|---------|-----|
@@ -84,3 +84,11 @@ Fiches espèce BirdLife / ADW / Avibase (sprints 01–03a) : détail dans chaque
 | `streptopelia-risoria` | Audio | Zsombor Károlyi | CC BY-NC-SA 4.0 | https://xeno-canto.org/1163976 |
 | `columba-livia` | Image | Charles J. Sharp | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Rock_dove_(Columba_livia).jpg |
 | `columba-livia` | Audio | Pietro Bonanno | CC BY-NC-SA 4.0 | https://xeno-canto.org/977797 |
+| `eolophus-roseicapilla` | Image | Tatiana Gerus | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Eolophus_roseicapilla_-_a_pair_of_Galahs_-Australia.jpg |
+| `eolophus-roseicapilla` | Audio | Khristos Nizamis | CC BY-NC-ND 4.0 | https://xeno-canto.org/1181679 |
+| `nymphicus-hollandicus` | Image | Zefry | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Cockatiel_Parakeet_(Nymphicus_hollandicus)9.jpg |
+| `nymphicus-hollandicus` | Audio | Thierry THOMAS | CC BY-NC-SA 4.0 | https://xeno-canto.org/1163859 |
+| `cacatua-alba` | Image | Kevin T | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Cacatua_alba_-Coconuts_Bar_-Cozumel_-Mexico-8a.jpg |
+| `cacatua-alba` | Audio | Richard E. Webster | CC BY-NC-SA 4.0 | https://xeno-canto.org/1074294 |
+| `cacatua-galerita` | Image | Charles J. Sharp | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Sulphur-crested_cockatoo_(Cacatua_galerita_galerita)_Sydney.jpg |
+| `cacatua-galerita` | Audio | AK | CC BY-NC-SA 4.0 | https://xeno-canto.org/1177819 |

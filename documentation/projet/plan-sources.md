@@ -95,7 +95,7 @@ Valeurs : `ok` | `manquant` | `na` | `lien` (audio page espèce seulement — à
 | 01 | Lot pilote Galliformes + Ansériformes (6) — `partielle` | ✅ |
 | 02 | Columbiformes (6) — `partielle` | ✅ |
 | **03a** | Backlog : 12 fiches `partielle` → `complete` | Préparé — [sprint-03a-sources.md](sprint-03a-sources.md) |
-| **03b** | Cacatuides (4) | Ensuite |
+| **03b** | Cacatuides (4) | Fait — [sprint-03b-sources.md](sprint-03b-sources.md) |
 | 04+ | Psittacidés par sous-lots (~5–8), puis Passériformes | Ensuite |
 
 ## Livrables de cette phase

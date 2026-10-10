@@ -47,10 +47,10 @@ Plan : [plan-sources.md](../projet/plan-sources.md) · Sprints : [01](../projet/
 | psittacula-eupatria | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
 | psittacus-erithacus | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
 | pyrrhura-molinae | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
-| eolophus-roseicapilla | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
-| nymphicus-hollandicus | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
-| cacatua-alba | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
-| cacatua-galerita | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
+| eolophus-roseicapilla | ok | ok | ok | ok | ok | na | ok | ok | ok | attente | BirdLife AU; dimorphisme na; sprint 03b |
+| nymphicus-hollandicus | ok | ok | ok | ok | ok | ok | ok | ok | ok | attente | ADW; sprint 03b |
+| cacatua-alba | ok | ok | ok | ok | ok | na | ok | ok | ok | attente | EN; dimorphisme na; sprint 03b |
+| cacatua-galerita | ok | ok | ok | ok | ok | ok | ok | ok | ok | attente | BirdLife AU; sprint 03b |
 | gracula-religiosa | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
 | passer-luteus | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
 | ploceus-cucullatus | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
@@ -92,4 +92,4 @@ Plan : [plan-sources.md](../projet/plan-sources.md) · Sprints : [01](../projet/
 | serinus-mozambicus | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
 | serinus-canaria | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
 
-Dernière mise à jour : 2026-10-10 (sprint 03a — backlog complete).
+Dernière mise à jour : 2026-10-10 (sprint 03b — 4 Cacatuides complete).
