@@ -1,8 +1,8 @@
 # Suivi des sources — OrnithoDex
 
-Tableau de progression pour les 85 espèces du programme. Valeurs : `ok` | `manquant` | `na` | `lien` (page espèce audio sans fichier précis) | `attente` (points de cours).
+Tableau de progression pour les 85 espèces du programme. Valeurs biologie/médias : `ok` | `manquant` | `na` | `lien`. Colonne `points_cours` : `attente` | `minimal` (identité seule) | `ok` (3–5 puces conformes) — charte [pedagogie.md](../projet/pedagogie.md).
 
-Plan : [plan-sources.md](../projet/plan-sources.md) · Sprints : [01](../projet/sprint-01-sources.md) · [02](../projet/sprint-02-sources.md) · [03a](../projet/sprint-03a-sources.md)
+Plan sources : [plan-sources.md](../projet/plan-sources.md) (85/85 `complete`) · Plan pédagogie : [plan-pedagogie.md](../projet/plan-pedagogie.md)
 
 | slug | iucn | birdlife | image | audio | description | dimorphisme | habitat | regime | comportement | points_cours | notes |
 |------|------|----------|-------|-------|-------------|-------------|---------|--------|--------------|--------------|-------|

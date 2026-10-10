@@ -10,7 +10,8 @@ Institutionnaliser le rôle d’**ingénieur pédagogue senior** (charte + règl
 
 - Public prioritaire : élèves de **seconde pro** BAC PRO **Technicien conseil vente en animalerie** (TCVA), MP6, smartphone ; objectif = **mémoriser ~85 espèces** (identité + ID visuelle / sonore).
 - Matériel disponible : **liste des spécimens uniquement** (pas de polycopié enseignant). Les points de cours seront des **aides à la rétention** dérivées de l’identité programme + faits sourcés des fiches — explicitement **pas** des consignes d’un enseignant.
-- État au moment de la consignation : 85 fiches (12 `partielle`, 73 `liste_seule`), section « Points de cours » vide ; aucune règle Cursor pédagogique ; app non scaffoldée.
+- État (après sprint 15 sources) : **85/85** fiches naturaliste en `complete` ; section « Points de cours » encore `attente` ; Livrable A (cadre) en cours / fait selon checklist ; app non scaffoldée.
+- Ordre contenu (Livrable B) : pilote = les **12** premières (Galliformes / Ansériformes / Columbiformes), puis lots de ~6 sur le reste — même si toutes sont `complete` côté biologie.
 
 Voir aussi : [vision.md](vision.md), [plan.md](plan.md), [plan-sources.md](plan-sources.md).
 
@@ -87,19 +88,19 @@ Exemple de cible pour une fiche riche (ex. [coturnix-chinensis.md](../ornitholog
 
 ## Critères de done
 
-- [`pedagogie.md`](pedagogie.md) + règle Cursor + gabarit à jour
-- 85 fiches avec section points de cours conforme (pilote sourcé là où possible ; reste minimal programme)
-- Aucun fait nouveau non sourcé introduit
-- Journal + liens docs mis à jour
+- [x] [`pedagogie.md`](pedagogie.md) + règle Cursor + gabarit à jour (**Livrable A**)
+- [ ] 85 fiches avec section points de cours conforme (pilote sourcé là où possible ; reste minimal programme)
+- [ ] Aucun fait nouveau non sourcé introduit (à vérifier à chaque lot contenu)
+- [x] Journal + liens docs mis à jour (cadre)
 
 ## Checklist d’exécution
 
-- [ ] Créer `pedagogie.md` (objectifs, parcours, briefs archi / dev / design, contrat points de cours)
-- [ ] Ajouter `.cursor/rules/ingenieur-pedagogue.mdc` (`alwaysApply`)
-- [ ] Mettre à jour modèle fiche, glossaire, `suivi-sources.md` (format `programme` | `sourcé`)
-- [ ] Rédiger les points de cours des 12 fiches `partielle`
-- [ ] Rédiger les points de cours programme-only des 73 fiches `liste_seule`
-- [ ] Journal + README : clarifier que les points de cours compensent l’absence de polycopié sans le remplacer
+- [x] Créer `pedagogie.md` (objectifs, parcours, briefs archi / dev / design, contrat points de cours)
+- [x] Ajouter `.cursor/rules/ingenieur-pedagogue.mdc` (`alwaysApply`)
+- [x] Mettre à jour modèle fiche, glossaire, `suivi-sources.md` (format `programme` | `sourcé`)
+- [ ] Rédiger les points de cours du **pilote 12** (Galliformes / Ansériformes / Columbiformes) — faits `sourcé` là où possible
+- [ ] Rédiger les points de cours des **73** autres (lots) — `programme` + `sourcé` si utile
+- [x] Journal + README : clarifier que les points de cours compensent l’absence de polycopié sans le remplacer
 
 ## Documents liés
 

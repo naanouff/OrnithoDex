@@ -29,4 +29,4 @@ Un site pédagogique **open source**, version numérique augmentée d’un jeu d
 
 ## Périmètre
 
-Voir [plan.md](plan.md) (objectif V1 / hors V1), [cahier-des-charges.md](cahier-des-charges.md) et [plan-pedagogie.md](plan-pedagogie.md) (rétention / points de cours).
+Voir [plan.md](plan.md) (objectif V1 / hors V1), [cahier-des-charges.md](cahier-des-charges.md), [plan-pedagogie.md](plan-pedagogie.md) et [pedagogie.md](pedagogie.md) (rétention / points de cours).

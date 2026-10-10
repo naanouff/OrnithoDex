@@ -5,6 +5,7 @@
 | [plan.md](plan.md) | **Plan consolidé** — décisions et feuille de route V1 |
 | [plan-sources.md](plan-sources.md) | **Plan sources** — méthode `complete` (7 sections), catalogue, lots |
 | [plan-pedagogie.md](plan-pedagogie.md) | **Plan pédagogie** — cadre ingénieur pédagogue + points de cours |
+| [pedagogie.md](pedagogie.md) | **Charte pédagogique** — objectifs, parcours, contrat points de cours, briefs |
 | [plan-design.md](plan-design.md) | **Plan design** — charte + maquettes (direction artistique) |
 | [sprint-01-sources.md](sprint-01-sources.md) | **Sprint 01** — collecte lot pilote (6 espèces) |
 | [sprint-02-sources.md](sprint-02-sources.md) | **Sprint 02** — Columbiformes (6) |
