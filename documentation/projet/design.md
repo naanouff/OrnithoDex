@@ -17,7 +17,7 @@ Document de référence du **Livrable A** ([plan-design.md](plan-design.md)). An
 | Assets versionnés | [`assets/logo-ornithodex.svg`](assets/logo-ornithodex.svg) · [`assets/logo-ornithodex.jpg`](assets/logo-ornithodex.jpg) |
 | Style logo | Illustration plate, contours navy épais, palette vive (navy / orange / sky / lime) |
 
-Redraw géométrique éditable (SVG léger) = passe ultérieure ; le SVG actuel est une trace Potrace haute densité.
+Asset de travail en app : **JPG**. Pas de passe Inkscape / redraw SVG pour l’instant.
 
 ## Tokens
 

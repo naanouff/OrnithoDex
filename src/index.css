@@ -1,0 +1,108 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-display: 'Fredoka', system-ui, sans-serif;
+  --font-body: 'Nunito', system-ui, sans-serif;
+
+  --color-navy: #1b365d;
+  --color-navy-deep: #12243f;
+  --color-sky: #2eb7e6;
+  --color-sky-soft: #7ed4f5;
+  --color-orange: #ff8a1f;
+  --color-orange-deep: #f06a00;
+  --color-yellow: #ffd84d;
+  --color-lime: #7bcf3a;
+  --color-leaf: #3d9e2e;
+  --color-cream: #fff8e8;
+  --color-ink: #1b365d;
+  --color-muted: #5a6f8c;
+  --color-ok: #2f9e44;
+  --color-ko: #e03131;
+
+  --color-ordre-galliformes: #e6a817;
+  --color-ordre-anseriformes: #2eb7e6;
+  --color-ordre-columbiformes: #8b7ec8;
+  --color-ordre-psittaciformes: #ff8a1f;
+  --color-ordre-passeriformes: #7bcf3a;
+
+  --radius-card: 22px;
+  --radius-chip: 16px;
+  --shadow-press: 0 8px 0 rgb(27 54 93 / 0.18);
+  --shadow-press-active: 0 3px 0 rgb(27 54 93 / 0.18);
+}
+
+:root {
+  --navy: #1b365d;
+  --navy-deep: #12243f;
+  --sky: #2eb7e6;
+  --sky-soft: #7ed4f5;
+  --orange: #ff8a1f;
+  --orange-deep: #f06a00;
+  --yellow: #ffd84d;
+  --lime: #7bcf3a;
+  --leaf: #3d9e2e;
+  --cream: #fff8e8;
+  --ink: #1b365d;
+  --muted: #5a6f8c;
+  --white: #ffffff;
+  --ok: #2f9e44;
+  --ko: #e03131;
+  --stroke: 3px;
+  --radius: 22px;
+  --radius-sm: 16px;
+  --shadow: 0 8px 0 rgba(27, 54, 93, 0.18);
+  --shadow-press: 0 3px 0 rgba(27, 54, 93, 0.18);
+
+  --ordre-galliformes: #e6a817;
+  --ordre-anseriformes: #2eb7e6;
+  --ordre-columbiformes: #8b7ec8;
+  --ordre-psittaciformes: #ff8a1f;
+  --ordre-passeriformes: #7bcf3a;
+
+  color: var(--ink);
+  font-family: var(--font-body);
+  background-color: var(--cream);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background:
+    radial-gradient(120% 80% at 10% -10%, rgb(126 212 245 / 0.55), transparent 55%),
+    radial-gradient(100% 70% at 90% 0%, rgb(123 207 58 / 0.28), transparent 50%),
+    linear-gradient(180deg, #e8f7fc 0%, var(--cream) 42%, #f3fbe8 100%);
+}
+
+.app-shell {
+  width: min(100%, 28rem);
+  margin-inline: auto;
+  min-height: 100dvh;
+  padding:
+    max(1rem, env(safe-area-inset-top))
+    max(1rem, env(safe-area-inset-right))
+    max(1rem, env(safe-area-inset-bottom))
+    max(1rem, env(safe-area-inset-left));
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-body {
+  font-family: var(--font-body);
+}

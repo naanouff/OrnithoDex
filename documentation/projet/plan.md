@@ -200,8 +200,8 @@ Flux : feature → `develop` → `release/x.y.z` → `main` → tag + Release �
 
 ## Feuille de route d’implémentation
 
-0. Base documentaire (en cours / ce dossier)
-1. Scaffold Vite / React / TS / Tailwind
+0. Base documentaire — **fait**
+1. Scaffold Vite / React / TS / Tailwind — **fait**
 2. Types sourcés + dataset aligné sur les fiches
 3. UI Collection + fiche du naturaliste
 4. Quiz (2 modes)
