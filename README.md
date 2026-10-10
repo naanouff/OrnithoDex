@@ -29,7 +29,7 @@ Le cadrage et le plan complets sont dans [`documentation/`](documentation/) :
 
 Sources : méthode [plan-sources.md](documentation/projet/plan-sources.md) · sprints [01](documentation/projet/sprint-01-sources.md)–**[15](documentation/projet/sprint-15-sources.md)** — **85/85** fiches `complete` (biologie + médias) · suivi [suivi-sources.md](documentation/ornithologie/suivi-sources.md).  
 Points de cours : [charte](documentation/projet/pedagogie.md) · **[85/85](documentation/projet/plan-pedagogie.md)**. Design : [charte](documentation/projet/design.md) · [maquettes](documentation/projet/maquettes/).  
-App : **Vite / React / TypeScript / Tailwind** · dataset **85/85** · Collection / fiche / quiz (photo + chant) · logo **JPG**.
+App : **Vite / React / TypeScript / Tailwind** · dataset **85/85** · Collection / fiche / quiz · CI GitHub · déploiement Vercel (voir [deploiement.md](documentation/projet/deploiement.md)).
 
 Licence du code : **MIT** — voir [`LICENSE`](LICENSE).
 

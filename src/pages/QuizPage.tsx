@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
+import { BirdImage } from '../components/BirdImage'
 import {
   buildQuestion,
   birdsForMode,
@@ -119,15 +120,13 @@ export function QuizPage() {
           : 'Quelle espèce entends-tu ?'}
       </p>
 
-      {question?.mode === 'photo' && question.imageUrl ? (
-        <div className="relative mx-auto aspect-3/4 max-h-[260px] w-full overflow-hidden rounded-[var(--radius)] border-[3px] border-navy shadow-[var(--shadow)]">
-          <img
-            src={question.imageUrl}
-            alt="Espèce à identifier"
-            referrerPolicy="no-referrer"
-            className="h-full w-full object-cover"
-          />
-        </div>
+      {question?.mode === 'photo' ? (
+        <BirdImage
+          src={question.imageUrl ?? question.bird.image}
+          alt="Espèce à identifier"
+          order={question.bird.order}
+          className="mx-auto aspect-3/4 max-h-[260px] w-full rounded-[var(--radius)] border-[3px] border-navy shadow-[var(--shadow)]"
+        />
       ) : null}
 
       {question?.mode === 'chant' && question.audioEmbedUrl ? (
