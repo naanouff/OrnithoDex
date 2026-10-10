@@ -198,3 +198,15 @@ Fiches espèce BirdLife / ADW / Avibase (sprints 01–07) : détail dans chaque 
 | `lonchura-maja` | Audio | Joan Theng | CC BY-NC-SA 4.0 | https://xeno-canto.org/1106789 |
 | `lonchura-malabarica` | Image | Anagha devi | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Indian_silverbill-_Euodice_malabarica.jpg |
 | `lonchura-malabarica` | Audio | David Darrell-Lambert | CC BY-NC-SA 4.0 | https://xeno-canto.org/1182208 |
+| `lonchura-punctulata` | Image | Satdeep Gill | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Scaly-breasted_munia_or_spotted_munia_(Lonchura_punctulata)_at_Dehradun,_Uttarakhand_05.jpg |
+| `lonchura-punctulata` | Audio | David Darrell-Lambert | CC BY-NC-SA 4.0 | https://xeno-canto.org/1069340 |
+| `lonchura-oryzivora` | Image | Quartl | CC BY-SA 3.0 | https://commons.wikimedia.org/wiki/File:Padda_oryzivora_qtl1.jpg |
+| `lonchura-oryzivora` | Audio | Kim Chuah Lim | CC BY-NC-SA 4.0 | https://xeno-canto.org/793299 |
+| `neochmia-modesta` | Image | Greg Miles | CC BY-SA 2.0 | https://commons.wikimedia.org/wiki/File:Plum-headed_Finch-Neochmia_modesta.jpg |
+| `neochmia-modesta` | Audio | Liam Manderson | CC BY-NC-SA 4.0 | https://xeno-canto.org/605889 |
+| `neochmia-ruficauda` | Image | HaraldW1954 | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Star_Finch_(Neochmia_ruficauda_subclarescens)_Wyndham_WA.jpg |
+| `neochmia-ruficauda` | Audio | Marc Anderson | CC BY-NC-ND 4.0 | https://xeno-canto.org/436594 |
+| `stagonopleura-guttata` | Image | JJ Harrison | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Stagonopleura_guttata_1_-_Glen_Alice.jpg |
+| `stagonopleura-guttata` | Audio | Marc Anderson | CC BY-NC-ND 4.0 | https://xeno-canto.org/576505 |
+| `taeniopygia-bichenovii` | Image | JJ Harrison | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Taeniopygia_bichenovii_2_-_Glen_Davis.jpg |
+| `taeniopygia-bichenovii` | Audio | Marc Anderson | CC BY-NC-ND 4.0 | https://xeno-canto.org/816265 |

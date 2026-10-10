@@ -75,12 +75,12 @@ Plan : [plan-sources.md](../projet/plan-sources.md) · Sprints : [01](../projet/
 | lonchura-cucullata | ok | ok | ok | ok | ok | na | ok | na | ok | attente | BirdLife: Spermestes cucullata |
 | lonchura-maja | ok | ok | ok | ok | ok | na | ok | na | ok | attente | |
 | lonchura-malabarica | ok | ok | ok | ok | ok | na | ok | na | ok | attente | BirdLife: Euodice malabarica |
-| lonchura-punctulata | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
-| lonchura-oryzivora | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
-| neochmia-modesta | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
-| neochmia-ruficauda | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
-| stagonopleura-guttata | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
-| taeniopygia-bichenovii | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
+| lonchura-punctulata | ok | ok | ok | ok | ok | na | ok | na | ok | attente | |
+| lonchura-oryzivora | ok | ok | ok | ok | ok | na | ok | na | ok | attente | BirdLife: Padda oryzivora ; EN |
+| neochmia-modesta | ok | ok | ok | ok | ok | na | ok | na | ok | attente | XC: Aidemosyne modesta |
+| neochmia-ruficauda | ok | ok | ok | ok | ok | na | ok | na | ok | attente | XC: Bathilda ruficauda |
+| stagonopleura-guttata | ok | ok | ok | ok | ok | na | ok | na | ok | attente | VU |
+| taeniopygia-bichenovii | ok | ok | ok | ok | ok | na | ok | na | ok | attente | XC: Stizoptera bichenovii |
 | taeniopygia-guttata-castanotis | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
 | uraeginthus-bengalus | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
 | uraeginthus-cyanocephalus | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |

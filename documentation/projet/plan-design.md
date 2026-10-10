@@ -54,6 +54,8 @@ Après la charte (même passe, ordre strict) :
 - Les enregistrer sous [`maquettes/`](maquettes/) et les référencer dans `design.md`.
 - Pas de collage hero, pas de cards inutiles hors interaction ; photo espèce = ancrage réel sur Collection / Fiche / Quiz.
 
+**Brouillons locaux** (ignorés par git, pour ne pas croiser les sprints) : `documentation/mocup/` — ex. première proposition Accueil `accueil-v0.jpg`.
+
 ## Hors périmètre de cette passe
 
 - Scaffold React / implémentation Tailwind
