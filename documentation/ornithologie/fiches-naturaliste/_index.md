@@ -55,12 +55,12 @@ Générés le 2026-10-10. Lots en `complete` (sprint 03a) : Galliformes, Anséri
 | [euplectes-orix](euplectes-orix.md) | Euplecte ignicolore | complete |
 | [amadina-fasciata](amadina-fasciata.md) | Cou coupé | complete |
 | [amandava-amandava](amandava-amandava.md) | Bengali de Bombay | complete |
-| [amandava-subflava](amandava-subflava.md) | Ventre orange | liste_seule |
-| [erythrura-gouldiae](erythrura-gouldiae.md) | Diamant de Gould | liste_seule |
-| [erythrura-trichroa](erythrura-trichroa.md) | Diamant de Kittlitz | liste_seule |
-| [erythrura-psittacea](erythrura-psittacea.md) | Pape de Nouméa | liste_seule |
-| [estrilda-astrild](estrilda-astrild.md) | Astrild de Sainte Hélène | liste_seule |
-| [estrilda-caerulescens](estrilda-caerulescens.md) | Queue de vinaigre | liste_seule |
+| [amandava-subflava](amandava-subflava.md) | Ventre orange | complete |
+| [erythrura-gouldiae](erythrura-gouldiae.md) | Diamant de Gould | complete |
+| [erythrura-trichroa](erythrura-trichroa.md) | Diamant de Kittlitz | complete |
+| [erythrura-psittacea](erythrura-psittacea.md) | Pape de Nouméa | complete |
+| [estrilda-astrild](estrilda-astrild.md) | Astrild de Sainte Hélène | complete |
+| [estrilda-caerulescens](estrilda-caerulescens.md) | Queue de vinaigre | complete |
 | [estrilda-melpoda](estrilda-melpoda.md) | Joues orange | liste_seule |
 | [estrilda-troglodytes](estrilda-troglodytes.md) | Bec de corail | liste_seule |
 | [lagonosticta-senegala](lagonosticta-senegala.md) | Amaranthe à bec rouge | liste_seule |

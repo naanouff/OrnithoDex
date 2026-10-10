@@ -1,7 +1,7 @@
 ﻿# Ventre orange
 
 - **Slug** : `amandava-subflava`
-- **Statut documentation** : `liste_seule`
+- **Statut documentation** : `complete`
 - **Dernière vérification** : 2026-10-10
 
 ## Identité
@@ -15,27 +15,48 @@
 
 ## Description
 
+Évalué **Least Concern** (2018). EOO ≈ 20 800 000 km² ; population non quantifiée, décrite comme peu commune, parfois localement ou saisonnièrement commune (Clement 1999 *via* BirdLife) ; tendance **stable**. Altitude 250–2 000 m.  
+*Source : birdlife-amandava-subflava.*
+
 ## Dimorphisme sexuel
+
+*na — sources consultées silencieuses.*
 
 ## Habitat d’origine
 
+Non migrateur. Prairies (sèches ou saisonnièrement humides), savane sèche, zones humides intérieures (marais…), terres cultivées. Afrique subsaharienne (large répartition).  
+*Source : birdlife-amandava-subflava.*
+
 ## Régime alimentaire
+
+*na — sources consultées silencieuses.*
 
 ## Comportement
 
+Sédentaire (non migrateur). Commerce international d’animaux de compagnie signalé.  
+*Source : birdlife-amandava-subflava.*
+
 ## Chant et vocalisations
+
+Enregistrement XC872300 (Dries Van de Loock — CC BY-NC-ND 4.0) : https://xeno-canto.org/872300  
+*Source : media-amandava-subflava-audio.*
 
 ## Points de cours à retenir
 
+*En attente ingénieur pédagogique / supports de cours.*
+
 ## Médias
 
-| Type | Fichier | Crédit / licence | Source README |
-|------|---------|------------------|---------------|
-| Image | `/images/birds/amandava-subflava.webp` | *à fournir* | |
-| Audio | `/audio/birds/amandava-subflava.mp3` | *à fournir* | |
+| Type | Fichier / URL | Crédit / licence | Source README |
+|------|--------------|------------------|---------------|
+| Image | https://commons.wikimedia.org/wiki/File:Male_Zebra_Waxbill_(Sporaeginthus_subflavus).jpg | Alan Manson — CC BY-SA 2.0 | media-amandava-subflava-img |
+| Audio | https://xeno-canto.org/872300 | Dries Van de Loock — CC BY-NC-ND 4.0 | media-amandava-subflava-audio |
 
 ## Sources
 
 | Id | Titre | Éditeur / auteur | Année | URL | Note |
 |----|-------|------------------|-------|-----|------|
-| bac-pro-tcva-liste | Liste des oiseaux – BAC PRO TCVA (MP6) | Support de cours / arrêtés 02/07/2009 + domestiques | 2009 | | Identité programme |
+| bac-pro-tcva-liste | Liste des oiseaux – BAC PRO TCVA (MP6) | Support de cours | 2009 | | Identité programme |
+| birdlife-amandava-subflava | Zebra Waxbill Amandava subflava — Species Factsheet | BirdLife International | 2018 | https://datazone.birdlife.org/species/factsheet/zebra-waxbill-amandava-subflava | Consulté 2026-10-10 |
+| media-amandava-subflava-img | File:Male Zebra Waxbill (Sporaeginthus subflavus).jpg | Alan Manson / Wikimedia Commons | 2007 | https://commons.wikimedia.org/wiki/File:Male_Zebra_Waxbill_(Sporaeginthus_subflavus).jpg | CC BY-SA 2.0 |
+| media-amandava-subflava-audio | XC872300 | Dries Van de Loock / Xeno-canto | | https://xeno-canto.org/872300 | CC BY-NC-ND 4.0 |
