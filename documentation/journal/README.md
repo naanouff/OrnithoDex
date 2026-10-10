@@ -53,5 +53,6 @@ Chronique courte des sessions de travail : décisions, avancement, blocages.
 | 2026-10-10 | [2026-10-10-41.md](2026-10-10-41.md) — Scaffold Vite / React / TS / Tailwind |
 | 2026-10-10 | [2026-10-10-42.md](2026-10-10-42.md) — Dataset 85 espèces (générateur fiches → TS) |
 | 2026-10-10 | [2026-10-10-43.md](2026-10-10-43.md) — UI Collection + fiche du naturaliste |
+| 2026-10-10 | [2026-10-10-44.md](2026-10-10-44.md) — Quiz photo + chant |
 | 2026-10-10 | [2026-10-10-10.md](2026-10-10-10.md) — Consignation plan pédagogie |
 | 2026-10-10 | [2026-10-10-11.md](2026-10-10-11.md) — Public prioritaire seconde pro TCVA |
