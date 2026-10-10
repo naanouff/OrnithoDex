@@ -226,6 +226,7 @@ Flux : feature → `develop` → `release/x.y.z` → `main` → tag + Release �
 
 - [Plan sources](plan-sources.md) — enrichissement des fiches (sources publiques)
 - [Plan pédagogie](plan-pedagogie.md) — cadre ingénieur pédagogue + points de cours
+- [Plan design](plan-design.md) — charte + maquettes (direction artistique)
 - [Vision](vision.md)
 - [Cahier des charges](cahier-des-charges.md)
 - [Architecture](architecture.md)

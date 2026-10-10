@@ -45,10 +45,10 @@ Générés le 2026-10-10. Lots en `complete` (sprint 03a) : Galliformes, Anséri
 | [psittacula-eupatria](psittacula-eupatria.md) | Perruche grande alexandre | liste_seule |
 | [psittacus-erithacus](psittacus-erithacus.md) | Perroquet gris du Gabon ou jaco | liste_seule |
 | [pyrrhura-molinae](pyrrhura-molinae.md) | Conure de Molina | liste_seule |
-| [eolophus-roseicapilla](eolophus-roseicapilla.md) | Cacatoès rosalbin | liste_seule |
-| [nymphicus-hollandicus](nymphicus-hollandicus.md) | Calopsitte | liste_seule |
-| [cacatua-alba](cacatua-alba.md) | Cacatoès blanc | liste_seule |
-| [cacatua-galerita](cacatua-galerita.md) | Grand cacatoès à huppe jaune | liste_seule |
+| [eolophus-roseicapilla](eolophus-roseicapilla.md) | Cacatoès rosalbin | complete |
+| [nymphicus-hollandicus](nymphicus-hollandicus.md) | Calopsitte | complete |
+| [cacatua-alba](cacatua-alba.md) | Cacatoès blanc | complete |
+| [cacatua-galerita](cacatua-galerita.md) | Grand cacatoès à huppe jaune | complete |
 | [gracula-religiosa](gracula-religiosa.md) | Mainate religieux | liste_seule |
 | [passer-luteus](passer-luteus.md) | Moineau doré | liste_seule |
 | [ploceus-cucullatus](ploceus-cucullatus.md) | Tisserin gendarme | liste_seule |
