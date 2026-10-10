@@ -203,7 +203,7 @@ Flux : feature → `develop` → `release/x.y.z` → `main` → tag + Release �
 0. Base documentaire — **fait**
 1. Scaffold Vite / React / TS / Tailwind — **fait**
 2. Types sourcés + dataset aligné sur les fiches — **fait** (`npm run data:birds` → 85 espèces)
-3. UI Collection + fiche du naturaliste
+3. UI Collection + fiche du naturaliste — **fait** (quiz = étape suivante)
 4. Quiz (2 modes)
 5. Placeholders + README racine (registre sources)
 6. Gitflow + Vercel
