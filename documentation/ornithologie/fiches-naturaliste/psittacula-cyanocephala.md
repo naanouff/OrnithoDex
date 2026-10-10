@@ -45,7 +45,13 @@ Enregistrement XC809699 (Marc Anderson — CC BY-NC-ND 4.0) : https://xeno-canto
 
 ## Points de cours à retenir
 
-*En attente ingénieur pédagogique / supports de cours.*
+<!-- Aides à la mémorisation (pas un polycopié enseignant). -->
+
+- **[programme]** Perruche tête de prune ↔ *Psittacula cyanocephala* ; Psittaciformes ; Psittacidés
+- **[programme]** Confusion : collier d'Asie / grande alexandre — tête de prune = tête colorée distinctive
+- **[sourcé]** Least Concern ; BirdLife : *Himalayapsitta cyanocephala* ; tendance en diminution
+- **[sourcé]** Non migratrice ; forêts humides (basse altitude et montagnes)
+- **[sourcé]** Commune en Inde ; déclin soupçonné (perte de couvert forestier)
 
 ## Médias
 

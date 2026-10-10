@@ -42,12 +42,12 @@ Plan sources : [plan-sources.md](../projet/plan-sources.md) (85/85 `complete`) �
 | polytelis-alexandrae | ok | ok | ok | ok | ok | na | ok | ok | ok | ok | NT; sprint 07 |
 | polytelis-anthopeplus | ok | ok | ok | ok | ok | na | ok | na | ok | ok | déclin; sprint 07 |
 | psephotus-haematonotus-haematonotus | ok | ok | ok | ok | ok | na | ok | na | ok | ok | sous-esp. programme; dimorphisme/régime na; sprint 08 |
-| psittacula-krameri-manillensis | ok | ok | ok | ok | ok | ok | ok | ok | ok | attente | Alexandrinus; ADW; sous-esp. manillensis; sprint 08 |
-| psittacula-cyanocephala | ok | ok | ok | ok | ok | na | ok | na | ok | attente | Himalayapsitta; dimorphisme/régime na; sprint 08 |
-| psittacula-eupatria | ok | ok | ok | ok | ok | na | ok | ok | ok | attente | Palaeornis; nomade; dimorphisme na; sprint 08 |
-| psittacus-erithacus | ok | ok | ok | ok | ok | ok | ok | ok | ok | attente | EN; ADW; sprint 08 |
-| pyrrhura-molinae | ok | ok | ok | ok | ok | ok | ok | ok | ok | attente | ADW; sprint 08 |
-| eolophus-roseicapilla | ok | ok | ok | ok | ok | na | ok | ok | ok | attente | BirdLife AU; dimorphisme na; sprint 03b |
+| psittacula-krameri-manillensis | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok | Alexandrinus; ADW; sous-esp. manillensis; sprint 08 |
+| psittacula-cyanocephala | ok | ok | ok | ok | ok | na | ok | na | ok | ok | Himalayapsitta; dimorphisme/régime na; sprint 08 |
+| psittacula-eupatria | ok | ok | ok | ok | ok | na | ok | ok | ok | ok | Palaeornis; nomade; dimorphisme na; sprint 08 |
+| psittacus-erithacus | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok | EN; ADW; sprint 08 |
+| pyrrhura-molinae | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok | ADW; sprint 08 |
+| eolophus-roseicapilla | ok | ok | ok | ok | ok | na | ok | ok | ok | ok | BirdLife AU; dimorphisme na; sprint 03b |
 | nymphicus-hollandicus | ok | ok | ok | ok | ok | ok | ok | ok | ok | attente | ADW; sprint 03b |
 | cacatua-alba | ok | ok | ok | ok | ok | na | ok | ok | ok | attente | EN; dimorphisme na; sprint 03b |
 | cacatua-galerita | ok | ok | ok | ok | ok | ok | ok | ok | ok | attente | BirdLife AU; sprint 03b |

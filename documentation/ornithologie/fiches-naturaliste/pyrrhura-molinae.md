@@ -46,7 +46,13 @@ ADW : cris aigus et graves, sifflements, cris, babils, claquements de langue ; m
 
 ## Points de cours à retenir
 
-*En attente ingénieur pédagogique / supports de cours.*
+<!-- Aides à la mémorisation (pas un polycopié enseignant). -->
+
+- **[programme]** Conure de Molina ↔ *Pyrrhura molinae* ; Psittaciformes ; Psittacidés
+- **[programme]** Genre *Pyrrhura* (conure) — Amérique du Sud ; distinct des perruches asiatiques
+- **[sourcé]** Least Concern ; tendance en diminution ; sexes semblables
+- **[sourcé]** Forêt sèche (majeur) ; fruits, graines, nectar
+- **[sourcé]** Social (groupes ~10–20) ; généralement non migratrice
 
 ## Médias
 

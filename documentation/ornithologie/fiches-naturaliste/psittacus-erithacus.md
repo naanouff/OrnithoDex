@@ -46,7 +46,13 @@ ADW : cris d’alarme, de contact, de mendicité alimentaire, agonistiques ; coh
 
 ## Points de cours à retenir
 
-*En attente ingénieur pédagogique / supports de cours.*
+<!-- Aides à la mémorisation (pas un polycopié enseignant). -->
+
+- **[programme]** Perroquet gris / jaco ↔ *Psittacus erithacus* ; Psittaciformes ; Psittacidés
+- **[programme]** Genre seul — gris + queue **rouge** ; ne pas confondre avec les *Psittacula*
+- **[sourcé]** **Endangered** ; déclin (commerce + perte d’habitat)
+- **[sourcé]** Forêts humides d’Afrique ; fruits/noix ; très social, dortoirs
+- **[sourcé]** Cognition / mimétisme documentés ; couples monogames
 
 ## Médias
 

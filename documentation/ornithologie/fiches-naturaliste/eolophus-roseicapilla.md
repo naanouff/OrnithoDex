@@ -46,7 +46,13 @@ BirdLife Australia : cri aigu caractéristique « chi-chi ».
 
 ## Points de cours à retenir
 
-*En attente ingénieur pédagogique / supports de cours.*
+<!-- Aides à la mémorisation (pas un polycopié enseignant). -->
+
+- **[programme]** Cacatoès rosalbin ↔ *Eolophus roseicapilla* ; Psittaciformes ; **Cacatuides**
+- **[programme]** Famille Cacatuides — distincte des Psittacidés (*Psittacula*, jaco, conure)
+- **[sourcé]** Least Concern ; Australie ; tendance en **augmentation**
+- **[sourcé]** Rose-rosé + gris ; grands groupes ; graines au sol
+- **[sourcé]** Non migrateur ; dortoirs collectifs ; fréquent près des habitations
 
 ## Médias
 
