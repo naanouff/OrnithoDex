@@ -17,7 +17,7 @@ Application web **statique** pour mémoriser les oiseaux de cage et de volière 
 - Lecture audio (bouton prêt ; fichiers à brancher plus tard)
 - Modes quiz (photo → nom, chant → espèce)
 
-Public principal : adolescents / étudiants sur **téléphone** (usage une main, portrait). Desktop = bonus, pas la cible de design.
+Public prioritaire : élèves de **seconde pro** TCVA (**Technicien conseil vente en animalerie**) sur **téléphone** (usage une main, portrait). Desktop = bonus, pas la cible de design.
 
 **Hors V1** : PDF cartes physiques, compte utilisateur, backend, app store native.
 
@@ -225,6 +225,7 @@ Flux : feature → `develop` → `release/x.y.z` → `main` → tag + Release �
 ## Documents liés
 
 - [Plan sources](plan-sources.md) — enrichissement des fiches (sources publiques)
+- [Plan pédagogie](plan-pedagogie.md) — cadre ingénieur pédagogue + points de cours
 - [Vision](vision.md)
 - [Cahier des charges](cahier-des-charges.md)
 - [Architecture](architecture.md)

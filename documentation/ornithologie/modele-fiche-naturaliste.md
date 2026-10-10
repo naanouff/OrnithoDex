@@ -46,7 +46,7 @@ Les sections sans source restent **vides** (ne pas inventer). Méthode : [plan-s
 
 ## Points de cours à retenir
 
-*En attente ingénieur pédagogique / supports de cours.*
+*Plan : [plan-pedagogie.md](../projet/plan-pedagogie.md) — aides à la rétention (pas un polycopié enseignant) ; format `programme` | `sourcé` à appliquer lors de l’exécution.*
 
 ## Médias
 

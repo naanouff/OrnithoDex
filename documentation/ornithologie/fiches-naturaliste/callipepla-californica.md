@@ -1,7 +1,7 @@
 ﻿# Colin de Californie
 
 - **Slug** : `callipepla-californica`
-- **Statut documentation** : `partielle`
+- **Statut documentation** : `complete`
 - **Dernière vérification** : 2026-10-10
 
 ## Identité
@@ -15,40 +15,50 @@
 
 ## Description
 
-Évalué **Least Concern** (2021, BirdLife). Population globale estimée ≈ 5 800 000 individus matures ; tendance apparente **en augmentation**. EOO résident/reproduction ≈ 2 790 000 km² ; non migrateur.  
+Évalué **Least Concern** (2021). Population ≈ 5 800 000 individus matures ; tendance **en augmentation**. Non migrateur. EOO ≈ 2 790 000 km².  
 *Source : birdlife-callipepla-californica.*
 
 ## Dimorphisme sexuel
 
-*Non documenté dans les sources consultées pour ce sprint.*
+Oui : mâle à gorge noire ; femelle à gorge grisâtre striée de noir ; panache frontale caractéristique chez les deux sexes.  
+*Source : adw-callipepla-californica.*
 
 ## Habitat d’origine
 
-*Détail d’habitat non extrait de façon fiable sur la fiche BirdLife (chargement partiel) lors de la consultation 2026-10-10 — laisser vide plutôt qu’inventer. À compléter au sprint suivant.*
+BirdLife : pâturages, terres cultivées, désert chaud, forêts et prairies tempérées, fourrés secs et végétation méditerranéenne (suitable). ADW : bois ouverts, contreforts buissonnants, vallées, banlieues, chaparral.  
+*Sources : birdlife-callipepla-californica ; adw-callipepla-californica.*
 
 ## Régime alimentaire
 
-*Non documenté dans les sources consultées pour ce sprint.*
+Surtout graines de plantes à feuilles larges ; aussi fruits, baies et insectes si disponibles.  
+*Source : adw-callipepla-californica.*
+
+## Comportement
+
+Automne : compagnies sociales (souvent 25–40 oiseaux) ; au printemps les compagnies se dissocient pour la reproduction ; sédentaire ; territorial en saison nuptiale.  
+*Source : adw-callipepla-californica.*
 
 ## Chant et vocalisations
 
-https://xeno-canto.org/species/Callipepla-californica
+Enregistrement XC570687 (Ron Overholtz — CC BY-NC-SA 4.0) : https://xeno-canto.org/570687
 
 ## Points de cours à retenir
 
-*En attente de supports de cours.*
+*En attente ingénieur pédagogique / supports de cours.*
 
 ## Médias
 
 | Type | Fichier / URL | Crédit / licence | Source README |
 |------|--------------|------------------|---------------|
-| Image | https://commons.wikimedia.org/wiki/File:Valley_quail_myatt_(5489811278)_(cropped).jpg | Nick Myatt, Oregon Department of Fish and Wildlife — CC BY-SA 2.0 | media-callipepla-californica-img |
-| Audio | https://xeno-canto.org/species/Callipepla-californica | page espèce | xeno-canto |
+| Image | https://commons.wikimedia.org/wiki/File:Valley_quail_myatt_(5489811278)_(cropped).jpg | Nick Myatt / ODFW — CC BY-SA 2.0 | media-callipepla-californica-img |
+| Audio | https://xeno-canto.org/570687 | Ron Overholtz — CC BY-NC-SA 4.0 | media-callipepla-californica-audio |
 
 ## Sources
 
 | Id | Titre | Éditeur / auteur | Année | URL | Note |
 |----|-------|------------------|-------|-----|------|
 | bac-pro-tcva-liste | Liste des oiseaux – BAC PRO TCVA (MP6) | Support de cours | 2009 | | Identité programme |
-| birdlife-callipepla-californica | California Quail Callipepla californica — Species Factsheet | BirdLife International DataZone | 2021 | https://datazone.birdlife.org/species/factsheet/california-quail-callipepla-californica | Consulté 2026-10-10 |
+| birdlife-callipepla-californica | California Quail Callipepla californica — Species Factsheet | BirdLife International | 2021 | https://datazone.birdlife.org/species/factsheet/california-quail-callipepla-californica | Consulté 2026-10-10 |
+| adw-callipepla-californica | Callipepla californica (California quail) | Animal Diversity Web / Zebulon Price | | https://animaldiversity.org/accounts/Callipepla_californica/ | Consulté 2026-10-10 |
 | media-callipepla-californica-img | File:Valley quail myatt (5489811278) (cropped).jpg | Nick Myatt / ODFW / Wikimedia Commons | 2010 | https://commons.wikimedia.org/wiki/File:Valley_quail_myatt_(5489811278)_(cropped).jpg | CC BY-SA 2.0 |
+| media-callipepla-californica-audio | XC570687 | Ron Overholtz / Xeno-canto | | https://xeno-canto.org/570687 | CC BY-NC-SA 4.0 |

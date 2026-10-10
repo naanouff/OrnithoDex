@@ -1,21 +1,21 @@
 ﻿# Fiches du naturaliste
 
-Générés le 2026-10-10. Lots enrichis en `partielle` : sprint 01 (Galliformes/Ansériformes) + sprint 02 (Columbiformes). Aucune biologie inventée.
+Générés le 2026-10-10. Lots en `complete` (sprint 03a) : Galliformes, Ansériformes, Columbiformes (12). Points de cours en attente. Aucune biologie inventée.
 
 | Slug | Nom commun | Statut |
 |------|------------|--------|
-| [coturnix-chinensis](coturnix-chinensis.md) | Caille peinte de Chine | partielle |
-| [gallus-gallus-domesticus](gallus-gallus-domesticus.md) | Poule domestique | partielle |
-| [colinus-virginianus](colinus-virginianus.md) | Colin de Virginie | partielle |
-| [callipepla-californica](callipepla-californica.md) | Colin de Californie | partielle |
-| [aix-galericulata](aix-galericulata.md) | Canard mandarin | partielle |
-| [aix-sponsa](aix-sponsa.md) | Canard carolin | partielle |
-| [geopelia-cuneata](geopelia-cuneata.md) | Colombe diamant | partielle |
-| [geopelia-striata](geopelia-striata.md) | Colombe zébrée | partielle |
-| [oena-capensis](oena-capensis.md) | Tourterelle masque de fer | partielle |
-| [streptopelia-senegalensis](streptopelia-senegalensis.md) | Colombe maillée | partielle |
-| [streptopelia-risoria](streptopelia-risoria.md) | Tourterelle rieuse | partielle |
-| [columba-livia](columba-livia.md) | Pigeon biset | partielle |
+| [coturnix-chinensis](coturnix-chinensis.md) | Caille peinte de Chine | complete |
+| [gallus-gallus-domesticus](gallus-gallus-domesticus.md) | Poule domestique | complete |
+| [colinus-virginianus](colinus-virginianus.md) | Colin de Virginie | complete |
+| [callipepla-californica](callipepla-californica.md) | Colin de Californie | complete |
+| [aix-galericulata](aix-galericulata.md) | Canard mandarin | complete |
+| [aix-sponsa](aix-sponsa.md) | Canard carolin | complete |
+| [geopelia-cuneata](geopelia-cuneata.md) | Colombe diamant | complete |
+| [geopelia-striata](geopelia-striata.md) | Colombe zébrée | complete |
+| [oena-capensis](oena-capensis.md) | Tourterelle masque de fer | complete |
+| [streptopelia-senegalensis](streptopelia-senegalensis.md) | Colombe maillée | complete |
+| [streptopelia-risoria](streptopelia-risoria.md) | Tourterelle rieuse | complete |
+| [columba-livia](columba-livia.md) | Pigeon biset | complete |
 | [agapornis-roseicollis](agapornis-roseicollis.md) | Inséparable à face rose | liste_seule |
 | [agapornis-fischeri](agapornis-fischeri.md) | Inséparable de Fischer | liste_seule |
 | [agapornis-personatus](agapornis-personatus.md) | Inséparable masqué ou à tête noire | liste_seule |

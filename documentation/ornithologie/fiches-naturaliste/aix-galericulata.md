@@ -1,7 +1,7 @@
 ﻿# Canard mandarin
 
 - **Slug** : `aix-galericulata`
-- **Statut documentation** : `partielle`
+- **Statut documentation** : `complete`
 - **Dernière vérification** : 2026-10-10
 
 ## Identité
@@ -15,42 +15,50 @@
 
 ## Description
 
-Évalué **Least Concern** (2018). Migrateur complet. Population globale estimée ≈ 65 000–66 000 individus (Wetlands International 2006, cité par BirdLife) ; tendance globale **en diminution**. Aires natives notamment Chine, Japon, Corées, Russie asiatique ; populations introduites en Europe occidentale.  
-*Source : birdlife-aix-galericulata ; iucn-aix-galericulata.*
+Évalué **Least Concern** (2018). Migrateur complet. Population globale estimée ≈ 65 000–66 000 individus ; tendance **en diminution**. Aires natives Asie de l’Est ; populations introduites en Europe.  
+*Source : birdlife-aix-galericulata.*
 
 ## Dimorphisme sexuel
 
-*Non détaillé dans les champs BirdLife consultés ; à compléter avec source morphologique dédiée.*
+Fort : mâle en plumage nuptial avec « voiles » dorsales, crête orange/crème et bandeau oculaire blanc ; femelle plus terne, grise, avec trait blanc derrière l’œil.  
+*Source : adw-aix-galericulata.*
 
 ## Habitat d’origine
 
-Forêts tempérées (majeur, reproduction et hors reproduction) ; lacs d’eau douce permanents (majeur) ; rivières/ruisseaux et marais (suitable).  
-*Source : birdlife-aix-galericulata (classification habitats).*
+Forêts tempérées et lacs d’eau douce (majeurs, BirdLife) ; ADW : étangs boisés et cours d’eau rocheux rapides en Chine/Japon.  
+*Sources : birdlife-aix-galericulata ; adw-aix-galericulata.*
 
 ## Régime alimentaire
 
-*Non documenté dans les sources consultées pour ce sprint.*
+Plantes aquatiques, riz et autres grains.  
+*Source : adw-aix-galericulata.*
+
+## Comportement
+
+Migrateur en Extrême-Orient ; certaines populations britanniques sédentaires, d’autres capables de longs vols. Nidiation en cavité d’arbre ; parade nuptiale élaborée (ADW).  
+*Sources : adw-aix-galericulata ; birdlife-aix-galericulata (statut migrateur).*
 
 ## Chant et vocalisations
 
-https://xeno-canto.org/species/Aix-galericulata
+Enregistrement XC1137635 (Simon Gillings — CC BY-NC-SA 4.0) : https://xeno-canto.org/1137635
 
 ## Points de cours à retenir
 
-*En attente de supports de cours.*
+*En attente ingénieur pédagogique / supports de cours.*
 
 ## Médias
 
 | Type | Fichier / URL | Crédit / licence | Source README |
 |------|--------------|------------------|---------------|
 | Image | https://commons.wikimedia.org/wiki/File:Mandarin_duck_(Aix_galericulata).jpg | Alexis Lours — CC BY 4.0 | media-aix-galericulata-img |
-| Audio | https://xeno-canto.org/species/Aix-galericulata | page espèce | xeno-canto |
+| Audio | https://xeno-canto.org/1137635 | Simon Gillings — CC BY-NC-SA 4.0 | media-aix-galericulata-audio |
 
 ## Sources
 
 | Id | Titre | Éditeur / auteur | Année | URL | Note |
 |----|-------|------------------|-------|-----|------|
 | bac-pro-tcva-liste | Liste des oiseaux – BAC PRO TCVA (MP6) | Support de cours | 2009 | | Identité programme |
-| birdlife-aix-galericulata | Mandarin Duck Aix galericulata — Species Factsheet | BirdLife International DataZone | 2018 | https://datazone.birdlife.org/species/factsheet/mandarin-duck-aix-galericulata | Consulté 2026-10-10 |
-| iucn-aix-galericulata | Aix galericulata (Mandarin Duck) | IUCN Red List | 2018 | https://www.iucnredlist.org/species/22680107/131911544 | Consulté 2026-10-10 |
+| birdlife-aix-galericulata | Mandarin Duck Aix galericulata — Species Factsheet | BirdLife International | 2018 | https://datazone.birdlife.org/species/factsheet/mandarin-duck-aix-galericulata | Consulté 2026-10-10 |
+| adw-aix-galericulata | Aix galericulata (Mandarin duck) | Animal Diversity Web / Marie S. Harris | | https://animaldiversity.org/accounts/Aix_galericulata/ | Consulté 2026-10-10 |
 | media-aix-galericulata-img | File:Mandarin duck (Aix galericulata).jpg | Alexis Lours / Wikimedia Commons | 2021 | https://commons.wikimedia.org/wiki/File:Mandarin_duck_(Aix_galericulata).jpg | CC BY 4.0 |
+| media-aix-galericulata-audio | XC1137635 | Simon Gillings / Xeno-canto | | https://xeno-canto.org/1137635 | CC BY-NC-SA 4.0 |

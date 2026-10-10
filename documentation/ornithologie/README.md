@@ -16,6 +16,7 @@ Contenu pédagogique lié au programme **MP6 – TCVA – Ornithologie** (oiseau
 | [modele-fiche-naturaliste.md](modele-fiche-naturaliste.md) | Gabarit obligatoire |
 | [fiches-naturaliste/](fiches-naturaliste/) | Une fiche par espèce |
 | [Plan sources](../projet/plan-sources.md) | Méthode d’enrichissement |
+| [Plan pédagogie](../projet/plan-pedagogie.md) | Cadre ingénieur pédagogue + points de cours |
 | [Sprint 01](../projet/sprint-01-sources.md) | Lot pilote Galliformes + Ansériformes |
 | [Sprint 02](../projet/sprint-02-sources.md) | Columbiformes (6) |
 | [Sprint 03a](../projet/sprint-03a-sources.md) | Backlog 12 → `complete` |
@@ -24,4 +25,4 @@ Contenu pédagogique lié au programme **MP6 – TCVA – Ornithologie** (oiseau
 
 Aucune information biologique inventée. Voir [sources.md](sources.md) et le registre du [README racine](../../README.md).
 
-Enrichissement en cours selon le [plan sources](../projet/plan-sources.md) (biologie de base + médias ; pas de polycopié pour l’instant).
+Enrichissement en cours selon le [plan sources](../projet/plan-sources.md) (biologie de base + médias). Points de cours : [plan pédagogie](../projet/plan-pedagogie.md) (pas de polycopié enseignant ; aides dérivées de la liste + faits sourcés).

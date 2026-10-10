@@ -6,18 +6,18 @@ Plan : [plan-sources.md](../projet/plan-sources.md) · Sprints : [01](../projet/
 
 | slug | iucn | birdlife | image | audio | description | dimorphisme | habitat | regime | comportement | points_cours | notes |
 |------|------|----------|-------|-------|-------------|-------------|---------|--------|--------------|--------------|-------|
-| coturnix-chinensis | ok | ok | ok | lien | ok | manquant | ok | manquant | manquant | attente | Synonyme Synoicus chinensis; sprint 01 |
-| gallus-gallus-domesticus | na | ok | ok | lien | ok | manquant | ok | manquant | manquant | attente | Forme domestique; taxon sauvage Gallus gallus; sprint 01 |
-| colinus-virginianus | ok | ok | ok | lien | ok | manquant | ok | ok | manquant | attente | NT BirdLife; sprint 01 |
-| callipepla-californica | ok | ok | ok | lien | ok | manquant | manquant | manquant | manquant | attente | LC BirdLife; habitat détail à compléter; sprint 01 |
-| aix-galericulata | ok | ok | ok | lien | ok | manquant | ok | manquant | manquant | attente | sprint 01 |
-| aix-sponsa | ok | ok | ok | lien | ok | manquant | ok | manquant | manquant | attente | sprint 01 |
-| geopelia-cuneata | ok | ok | ok | lien | ok | manquant | ok | manquant | manquant | attente | LC BirdLife; sprint 02 |
-| geopelia-striata | ok | ok | ok | lien | ok | manquant | ok | manquant | manquant | attente | LC BirdLife; sprint 02 |
-| oena-capensis | ok | ok | ok | lien | ok | manquant | ok | manquant | manquant | attente | LC BirdLife; sprint 02 |
-| streptopelia-senegalensis | ok | ok | ok | lien | ok | manquant | ok | ok | manquant | attente | Taxon actuel Spilopelia senegalensis; sprint 02 |
-| streptopelia-risoria | na | ok | ok | lien | ok | manquant | ok | manquant | manquant | attente | Forme domestique; taxon sauvage S. roseogrisea; sprint 02 |
-| columba-livia | ok | ok | ok | lien | ok | manquant | ok | ok | manquant | attente | LC BirdLife; formes sauvages/férales; sprint 02 |
+| coturnix-chinensis | ok | ok | ok | ok | ok | ok | ok | ok | ok | attente | Synoicus chinensis; ADW; sprint 03a |
+| gallus-gallus-domesticus | na | ok | ok | ok | ok | ok | ok | ok | ok | attente | Forme domestique; ADW Gallus gallus; sprint 03a |
+| colinus-virginianus | ok | ok | ok | ok | ok | ok | ok | ok | ok | attente | NT BirdLife; ADW; sprint 03a |
+| callipepla-californica | ok | ok | ok | ok | ok | ok | ok | ok | ok | attente | ADW; sprint 03a |
+| aix-galericulata | ok | ok | ok | ok | ok | ok | ok | ok | ok | attente | ADW; sprint 03a |
+| aix-sponsa | ok | ok | ok | ok | ok | ok | ok | ok | ok | attente | ADW; sprint 03a |
+| geopelia-cuneata | ok | ok | ok | ok | ok | na | ok | na | ok | attente | dimorphisme/régime na (sources); sprint 03a |
+| geopelia-striata | ok | ok | ok | ok | ok | na | ok | na | ok | attente | dimorphisme/régime na; sprint 03a |
+| oena-capensis | ok | ok | ok | ok | ok | na | ok | na | ok | attente | dimorphisme/régime na; sprint 03a |
+| streptopelia-senegalensis | ok | ok | ok | ok | ok | na | ok | ok | ok | attente | Spilopelia; dimorphisme na; sprint 03a |
+| streptopelia-risoria | na | ok | ok | ok | ok | ok | ok | ok | ok | attente | Forme domestique; ADW S. roseogrisea; sprint 03a |
+| columba-livia | ok | ok | ok | ok | ok | ok | ok | ok | ok | attente | ADW; sprint 03a |
 | agapornis-roseicollis | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
 | agapornis-fischeri | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
 | agapornis-personatus | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
@@ -92,4 +92,4 @@ Plan : [plan-sources.md](../projet/plan-sources.md) · Sprints : [01](../projet/
 | serinus-mozambicus | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
 | serinus-canaria | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
 
-Dernière mise à jour : 2026-10-10 (plan fiches complètes + préparation sprint 03a).
+Dernière mise à jour : 2026-10-10 (sprint 03a — backlog complete).

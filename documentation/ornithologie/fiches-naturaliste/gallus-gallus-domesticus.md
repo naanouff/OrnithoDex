@@ -1,7 +1,7 @@
 ﻿# Poule domestique
 
 - **Slug** : `gallus-gallus-domesticus`
-- **Statut documentation** : `partielle`
+- **Statut documentation** : `complete`
 - **Dernière vérification** : 2026-10-10
 
 ## Identité
@@ -16,41 +16,50 @@
 
 ## Description
 
-**Forme domestique** du coq bankiva (*Gallus gallus*). L’espèce sauvage est évaluée **Least Concern** (2024) ; population non quantifiée, signalée comme répandue et commune à localement commune, avec tendance **en diminution** liée à la perte/dégradation d’habitat et à la chasse.  
+**Forme domestique** du coq bankiva (*Gallus gallus*). L’espèce sauvage est évaluée **Least Concern** (2024) ; population non quantifiée, tendance **en diminution** (habitat, chasse).  
 *Source : birdlife-gallus-gallus. Ne pas confondre statut sauvage et élevage domestique.*
 
 ## Dimorphisme sexuel
 
-*Non documenté dans les sources consultées pour ce sprint (hors standards d’élevage inventés).*
+Chez le taxon sauvage : mâle au plumage très coloré (or, rouge, marron, reflets métalliques) ; femelle plus svelte, plumage plus discret. Hiérarchie sociale distincte mâles/femelles.  
+*Source : adw-gallus-gallus (taxon sauvage ; la forme domestique conserve un fort dimorphisme selon races).*
 
 ## Habitat d’origine
 
-Pour le **taxon sauvage** *Gallus gallus* (référence d’origine) : forêts subtropicales/tropicales humides de basse altitude et de montagne, mangroves, pâturages (habitats « suitable » selon BirdLife). Aire native surtout Asie du Sud et du Sud-Est (Inde, Chine, Indochine, Insulinde, etc.).  
-*Source : birdlife-gallus-gallus.*
+Pour *Gallus gallus* sauvage : forêts secondaires denses / belukar ; clairières et zones ouvertes pour l’alimentation ; aussi plantations. Habitats BirdLife : forêts humides de basse altitude et de montagne, mangroves, pâturages (suitable).  
+*Sources : birdlife-gallus-gallus ; adw-gallus-gallus.*
 
 ## Régime alimentaire
 
-*Non documenté dans les sources consultées pour ce sprint.*
+Herbivore et insectivore : grains, soja, vers, herbes et divers graines au sol.  
+*Source : adw-gallus-gallus.*
+
+## Comportement
+
+Système social de **hiérarchie de dominance** (« pecking order ») séparée pour mâles et femelles ; postures de dominance/soumission.  
+*Source : adw-gallus-gallus.*
 
 ## Chant et vocalisations
 
-Page espèce Xeno-canto (*Gallus gallus*) : https://xeno-canto.org/species/Gallus-gallus
+Enregistrement XC1181554 (*Gallus gallus*, Maria Ulfah — CC BY-NC-SA 4.0) : https://xeno-canto.org/1181554
 
 ## Points de cours à retenir
 
-*En attente de supports de cours.*
+*En attente ingénieur pédagogique / supports de cours.*
 
 ## Médias
 
 | Type | Fichier / URL | Crédit / licence | Source README |
 |------|--------------|------------------|---------------|
 | Image | https://commons.wikimedia.org/wiki/File:Rooster_and_Hen.jpg | SimonWaldherr — CC BY 4.0 | media-gallus-domesticus-img |
-| Audio | https://xeno-canto.org/species/Gallus-gallus | page espèce | xeno-canto |
+| Audio | https://xeno-canto.org/1181554 | Maria Ulfah — CC BY-NC-SA 4.0 | media-gallus-domesticus-audio |
 
 ## Sources
 
 | Id | Titre | Éditeur / auteur | Année | URL | Note |
 |----|-------|------------------|-------|-----|------|
 | bac-pro-tcva-liste | Liste des oiseaux – BAC PRO TCVA (MP6) | Support de cours | 2009 | | Identité programme |
-| birdlife-gallus-gallus | Red Junglefowl Gallus gallus — Species Factsheet | BirdLife International DataZone | 2024 | https://datazone.birdlife.org/species/factsheet/red-junglefowl-gallus-gallus | Taxon sauvage ; consulté 2026-10-10 |
-| media-gallus-domesticus-img | File:Rooster and Hen.jpg | SimonWaldherr / Wikimedia Commons | 2017 | https://commons.wikimedia.org/wiki/File:Rooster_and_Hen.jpg | CC BY 4.0 ; forme domestique |
+| birdlife-gallus-gallus | Red Junglefowl Gallus gallus — Species Factsheet | BirdLife International | 2024 | https://datazone.birdlife.org/species/factsheet/red-junglefowl-gallus-gallus | Taxon sauvage |
+| adw-gallus-gallus | Gallus gallus (red junglefowl) | Animal Diversity Web / Zoe Gautier | | https://animaldiversity.org/accounts/Gallus_gallus/ | Consulté 2026-10-10 |
+| media-gallus-domesticus-img | File:Rooster and Hen.jpg | SimonWaldherr / Wikimedia Commons | 2017 | https://commons.wikimedia.org/wiki/File:Rooster_and_Hen.jpg | CC BY 4.0 |
+| media-gallus-domesticus-audio | XC1181554 | Maria Ulfah / Xeno-canto | | https://xeno-canto.org/1181554 | CC BY-NC-SA 4.0 |

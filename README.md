@@ -1,6 +1,6 @@
 # OrnithoDex
 
-Site pédagogique **open source** pour apprendre les oiseaux de cage et de volière du programme **MP6 – BAC PRO TCVA**.
+Site pédagogique **open source** pour apprendre les oiseaux de cage et de volière du programme **MP6 – BAC PRO TCVA**, destiné en priorité aux élèves de **seconde professionnelle Technicien conseil vente en animalerie**.
 
 **Nom de code** : OrnithoDex — utilisé pour le dépôt GitHub et le projet Vercel.
 
@@ -18,14 +18,15 @@ Le cadrage et le plan complets sont dans [`documentation/`](documentation/) :
 
 - **[Plan du projet](documentation/projet/plan.md)** — feuille de route V1
 - **[Plan sources](documentation/projet/plan-sources.md)** — enrichissement des fiches (biologie + médias)
+- **[Plan pédagogie](documentation/projet/plan-pedagogie.md)** — cadre ingénieur pédagogue + points de cours
 - [Vision](documentation/projet/vision.md) · [Cahier des charges](documentation/projet/cahier-des-charges.md) · [Architecture](documentation/projet/architecture.md)
 - [Journal de développement](documentation/journal/)
 - [Référentiel ornithologie](documentation/ornithologie/) · [Liste des espèces](documentation/ornithologie/especes.md)
 
 ## Statut
 
-Sources : méthode [plan-sources.md](documentation/projet/plan-sources.md) (fiches → `complete`) · [sprint 01](documentation/projet/sprint-01-sources.md) · [sprint 02](documentation/projet/sprint-02-sources.md) · **[sprint 03a](documentation/projet/sprint-03a-sources.md)** (backlog) · suivi [suivi-sources.md](documentation/ornithologie/suivi-sources.md).  
-Points de cours : en attente ingénieur pédagogique. Développement applicatif (Vite / React / TypeScript / Tailwind) ensuite.
+Sources : méthode [plan-sources.md](documentation/projet/plan-sources.md) · [01](documentation/projet/sprint-01-sources.md) · [02](documentation/projet/sprint-02-sources.md) · **[03a](documentation/projet/sprint-03a-sources.md)** (12 fiches `complete`) · suivi [suivi-sources.md](documentation/ornithologie/suivi-sources.md).  
+Points de cours : plan consigné dans [plan-pedagogie.md](documentation/projet/plan-pedagogie.md) (exécution cadre + contenu à venir ; pas de polycopié enseignant). Développement applicatif (Vite / React / TypeScript / Tailwind) ensuite.
 
 Licence du code : **MIT** — voir [`LICENSE`](LICENSE).
 
@@ -53,21 +54,33 @@ Registre public de **toutes** les sources utilisées dans le projet. Toute nouve
 | `xeno-canto` | Xeno-canto | Xeno-canto Foundation | https://xeno-canto.org/ | Enregistrement audio précis (auteur + licence) |
 | `wikimedia-commons` | Wikimedia Commons | Wikimedia | https://commons.wikimedia.org/ | Images libres (licence par fichier) |
 
-Fiches espèce BirdLife / IUCN / Avibase utilisées (sprints 01–02) : détail dans chaque [fiche du naturaliste](documentation/ornithologie/fiches-naturaliste/).
+Fiches espèce BirdLife / ADW / Avibase (sprints 01–03a) : détail dans chaque [fiche du naturaliste](documentation/ornithologie/fiches-naturaliste/).
 
-### Médias retenus (sprints 01–02 — liens ; copie locale plus tard)
+### Médias retenus (sprints 01–03a — liens ; copie locale plus tard)
 
 | Espèce (slug) | Type | Auteur | Licence | URL |
 |---------------|------|--------|---------|-----|
 | `coturnix-chinensis` | Image | DickDaniels | CC BY-SA 3.0 | https://commons.wikimedia.org/wiki/File:Chinese_Painted_Quail_RWD12a.jpg |
+| `coturnix-chinensis` | Audio | Richard E. Webster | CC BY-NC-SA 4.0 | https://xeno-canto.org/1076265 |
 | `gallus-gallus-domesticus` | Image | SimonWaldherr | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Rooster_and_Hen.jpg |
+| `gallus-gallus-domesticus` | Audio | Maria Ulfah | CC BY-NC-SA 4.0 | https://xeno-canto.org/1181554 |
 | `colinus-virginianus` | Image | DickDaniels | CC BY-SA 3.0 | https://commons.wikimedia.org/wiki/File:Northern_Bobwhite_female_RWD.jpg |
+| `colinus-virginianus` | Audio | FREDERIC Lionel | CC BY-NC-SA 4.0 | https://xeno-canto.org/919215 |
 | `callipepla-californica` | Image | Nick Myatt / ODFW | CC BY-SA 2.0 | https://commons.wikimedia.org/wiki/File:Valley_quail_myatt_(5489811278)_(cropped).jpg |
+| `callipepla-californica` | Audio | Ron Overholtz | CC BY-NC-SA 4.0 | https://xeno-canto.org/570687 |
 | `aix-galericulata` | Image | Alexis Lours | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Mandarin_duck_(Aix_galericulata).jpg |
+| `aix-galericulata` | Audio | Simon Gillings | CC BY-NC-SA 4.0 | https://xeno-canto.org/1137635 |
 | `aix-sponsa` | Image | Dick Daniels | CC BY-SA 3.0 | https://commons.wikimedia.org/wiki/File:Wood_Duck_(Aix_sponsa).jpg |
+| `aix-sponsa` | Audio | Don Profota | CC BY-NC-SA 4.0 | https://xeno-canto.org/1173163 |
 | `geopelia-cuneata` | Image | Maurice van Bruggen | CC BY-SA 3.0 | https://commons.wikimedia.org/wiki/File:Geopelia_cuneata.JPG |
+| `geopelia-cuneata` | Audio | Nigel Jackett | CC BY-NC-SA 3.0 | https://xeno-canto.org/165147 |
 | `geopelia-striata` | Image | Angah hfz | CC BY-SA 3.0 | https://commons.wikimedia.org/wiki/File:Burung_Merbuk.JPG |
+| `geopelia-striata` | Audio | Arend Wassink | CC BY-NC-SA 4.0 | https://xeno-canto.org/1081912 |
 | `oena-capensis` | Image | Neil Strickland | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Oena_capensis_-Etosha_National_Park,_Namibia-8.jpg |
+| `oena-capensis` | Audio | Stanislas Wroza | CC BY-NC-SA 4.0 | https://xeno-canto.org/951388 |
 | `streptopelia-senegalensis` | Image | Zeynel Cebeci | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Spilopelia_senegalensis_-_Laughing_Dove_-_K%C3%BC%C3%A7%C3%BCk_kumru_02.JPG |
+| `streptopelia-senegalensis` | Audio | African Bioacoustics Community | CC BY-NC-SA 4.0 | https://xeno-canto.org/1183962 |
 | `streptopelia-risoria` | Image | Dick Daniels | CC BY-SA 3.0 | https://commons.wikimedia.org/wiki/File:Barbary_Dove_(Streptopelia_risoria)_RWD.jpg |
+| `streptopelia-risoria` | Audio | Zsombor Károlyi | CC BY-NC-SA 4.0 | https://xeno-canto.org/1163976 |
 | `columba-livia` | Image | Charles J. Sharp | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Rock_dove_(Columba_livia).jpg |
+| `columba-livia` | Audio | Pietro Bonanno | CC BY-NC-SA 4.0 | https://xeno-canto.org/977797 |

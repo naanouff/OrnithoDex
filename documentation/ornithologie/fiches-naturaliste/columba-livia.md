@@ -1,7 +1,7 @@
 ﻿# Pigeon biset
 
 - **Slug** : `columba-livia`
-- **Statut documentation** : `partielle`
+- **Statut documentation** : `complete`
 - **Dernière vérification** : 2026-10-10
 
 ## Identité
@@ -15,42 +15,50 @@
 
 ## Description
 
-Évalué **Least Concern**. Non migrateur. EOO ≈ 64 600 000 km² ; tendance globale **inconnue**. Formes naturelles et férales largement répandues ; confusion fréquente entre populations « sauvages » et férales.  
+Évalué **Least Concern**. Non migrateur. EOO ≈ 64 600 000 km² ; tendance globale **inconnue**. Formes naturelles et férales largement répandues.  
 *Source : birdlife-columba-livia.*
 
 ## Dimorphisme sexuel
 
-*Non documenté dans le détail sur la fiche BirdLife consultée.*
+Faible : femelles tendent à montrer moins d’irisations que les mâles (ADW). Nombreux phénotypes férals.  
+*Source : adw-columba-livia.*
 
 ## Habitat d’origine
 
-Habitat naturel : faces rocheuses, corniches de grottes et falaises marines pour la nidification. Forme férale commensale de l’homme, abondante en ville ; évite la végétation haute et dense.  
-*Source : birdlife-columba-livia (texte écologie + classification : zones rocheuses, grottes, terres agricoles, etc.).*
+Habitat naturel : falaises, grottes, corniches ; forme férale urbaine (bâtiments comme falaises). BirdLife : zones rocheuses, grottes, terres agricoles.  
+*Sources : birdlife-columba-livia ; adw-columba-livia.*
 
 ## Régime alimentaire
 
-Se nourrit typiquement de grains ; peut aussi prendre des invertébrés.  
-*Source : birdlife-columba-livia (citant Baptista et al. 1997).*
+Surtout graines au sol ; en ville aussi déchets alimentaires humains. BirdLife : grains, parfois invertébrés.  
+*Sources : birdlife-columba-livia ; adw-columba-livia.*
+
+## Comportement
+
+Diurne ; marche en hochement de tête ; vol direct ; vie en groupes pour repos et alimentation ; couples durables ; nidification coopérative (ADW).  
+*Source : adw-columba-livia.*
 
 ## Chant et vocalisations
 
-https://xeno-canto.org/species/Columba-livia
+Enregistrement XC977797 (Pietro Bonanno — CC BY-NC-SA 4.0) : https://xeno-canto.org/977797
 
 ## Points de cours à retenir
 
-*En attente de supports de cours.*
+*En attente ingénieur pédagogique / supports de cours.*
 
 ## Médias
 
 | Type | Fichier / URL | Crédit / licence | Source README |
 |------|--------------|------------------|---------------|
 | Image | https://commons.wikimedia.org/wiki/File:Rock_dove_(Columba_livia).jpg | Charles J. Sharp — CC BY-SA 4.0 | media-columba-livia-img |
-| Audio | https://xeno-canto.org/species/Columba-livia | page espèce | xeno-canto |
+| Audio | https://xeno-canto.org/977797 | Pietro Bonanno — CC BY-NC-SA 4.0 | media-columba-livia-audio |
 
 ## Sources
 
 | Id | Titre | Éditeur / auteur | Année | URL | Note |
 |----|-------|------------------|-------|-----|------|
 | bac-pro-tcva-liste | Liste des oiseaux – BAC PRO TCVA (MP6) | Support de cours | 2009 | | Identité programme |
-| birdlife-columba-livia | Rock Dove Columba livia — Species Factsheet | BirdLife International DataZone | | https://datazone.birdlife.org/species/factsheet/rock-dove-columba-livia | Consulté 2026-10-10 |
+| birdlife-columba-livia | Rock Dove Columba livia — Species Factsheet | BirdLife International | | https://datazone.birdlife.org/species/factsheet/rock-dove-columba-livia | Consulté 2026-10-10 |
+| adw-columba-livia | Columba livia (common pigeon) | Animal Diversity Web / Jennifer Roof | | https://animaldiversity.org/accounts/Columba_livia/ | Consulté 2026-10-10 |
 | media-columba-livia-img | File:Rock dove (Columba livia).jpg | Charles J. Sharp / Wikimedia Commons | 2016 | https://commons.wikimedia.org/wiki/File:Rock_dove_(Columba_livia).jpg | CC BY-SA 4.0 |
+| media-columba-livia-audio | XC977797 | Pietro Bonanno / Xeno-canto | | https://xeno-canto.org/977797 | CC BY-NC-SA 4.0 |
