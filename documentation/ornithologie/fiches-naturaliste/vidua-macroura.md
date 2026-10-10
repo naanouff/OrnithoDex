@@ -43,7 +43,13 @@ Enregistrement XC1183545 (African Bioacoustics Community — CC BY-NC-SA 4.0) : 
 
 ## Points de cours à retenir
 
-*En attente ingénieur pédagogique / supports de cours.*
+<!-- Aides à la mémorisation (pas un polycopié enseignant). -->
+
+- **[programme]** Veuve dominicaine ↔ *Vidua macroura* ; Passériformes ; Viduidés
+- **[programme]** Confusion : veuve à collier d'or (*V. orientalis*) / combassou — même genre *Vidua*
+- **[sourcé]** Least Concern ; tendance stable ; EOO très vaste
+- **[sourcé]** Non migratrice ; jardins et cultures (majeur), fourrés humides
+- **[sourcé]** Présente dans le commerce international d’animaux de compagnie
 
 ## Médias
 

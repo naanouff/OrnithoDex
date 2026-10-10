@@ -43,7 +43,13 @@ Enregistrement XC436008 (Bram Piot — CC BY-NC-SA 4.0) : https://xeno-canto.org
 
 ## Points de cours à retenir
 
-*En attente ingénieur pédagogique / supports de cours.*
+<!-- Aides à la mémorisation (pas un polycopié enseignant). -->
+
+- **[programme]** Veuve à collier d'or ↔ *Vidua orientalis* ; Passériformes ; Viduidés
+- **[programme]** Confusion : *V. macroura* / *V. togoensis* (hors programme) — Sahel Paradise-whydah
+- **[sourcé]** Least Concern ; tendance stable ; forêts et savanes sèches
+- **[sourcé]** Non migratrice ; commerce signalé à forte prévalence
+- **[sourcé]** BirdLife la distingue explicitement de *V. togoensis*
 
 ## Médias
 

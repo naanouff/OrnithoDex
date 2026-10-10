@@ -43,7 +43,13 @@ Enregistrement XC982686 (Julien Birard — CC BY-NC-SA 4.0) : https://xeno-canto
 
 ## Points de cours à retenir
 
-*En attente ingénieur pédagogique / supports de cours.*
+<!-- Aides à la mémorisation (pas un polycopié enseignant). -->
+
+- **[programme]** Combassou ↔ *Vidua chalybeata* ; Passériformes ; **Viduidés**
+- **[programme]** Confusion : veuves (*V. macroura*, *V. orientalis*) — même famille, autre espèce
+- **[sourcé]** Least Concern ; EOO très vaste ; tendance stable
+- **[sourcé]** Non migrateur ; savane sèche (majeur), jardins, cultures
+- **[sourcé]** Présent dans le commerce international d’animaux de compagnie
 
 ## Médias
 
