@@ -1,16 +1,11 @@
 import { Link } from 'react-router-dom'
+import { ParallaxLogo } from '../components/ParallaxLogo'
 
 export function HomePage() {
   return (
     <section className="screen screen--home" aria-label="Accueil">
       <header className="brand">
-        <img
-          className="logo"
-          src="/brand/logo-ornithodex.jpg"
-          width={280}
-          height={280}
-          alt="OrnithoDex — L'encyclopédie des oiseaux"
-        />
+        <ParallaxLogo />
         <p className="tagline-home">Apprends les oiseaux en t’amusant</p>
       </header>
       <div className="cta">

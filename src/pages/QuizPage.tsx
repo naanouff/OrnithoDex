@@ -108,6 +108,7 @@ export function QuizPage() {
             src={question.imageUrl ?? question.bird.image}
             alt="Espèce à identifier"
             order={question.bird.order}
+            loading="eager"
           />
         </div>
       ) : null}

@@ -6,13 +6,21 @@ import { resolveBirdImageUrl } from '../lib/media'
 
 type Props = {
   bird: Bird
+  /** Ligne dans la grille, pour le décalage du fondu. */
+  row?: number
+  reveal?: boolean
+  onReady?: () => void
 }
 
-export function BirdCard({ bird }: Props) {
+export function BirdCard({ bird, row = 0, reveal = true, onReady }: Props) {
   const hasPhoto = Boolean(resolveBirdImageUrl(bird.image))
 
   return (
-    <Link to={`/espece/${bird.id}`} className="card">
+    <Link
+      to={`/espece/${bird.id}`}
+      className="card"
+      style={{ '--row': row } as React.CSSProperties}
+    >
       <div
         className="card__media"
         style={hasPhoto ? undefined : { background: orderMediaStyle(bird.order) }}
@@ -22,6 +30,9 @@ export function BirdCard({ bird }: Props) {
           alt=""
           order={bird.order}
           label={bird.commonName}
+          loading="eager"
+          reveal={reveal}
+          onReady={onReady}
         />
       </div>
       <div className="card__meta">

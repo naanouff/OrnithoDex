@@ -34,7 +34,7 @@ export function BirdSheetPage() {
         className="sheet__media"
         style={hasPhoto ? undefined : { background: orderMediaStyle(bird.order) }}
       >
-        <BirdImage src={bird.image} alt={bird.commonName} order={bird.order} />
+        <BirdImage src={bird.image} alt={bird.commonName} order={bird.order} loading="eager" />
       </div>
       <h3>{bird.commonName}</h3>
       <p className="latin">{bird.scientificName}</p>
