@@ -1,7 +1,7 @@
 ﻿# Capucin à tête blanche
 
 - **Slug** : `lonchura-maja`
-- **Statut documentation** : `liste_seule`
+- **Statut documentation** : `complete`
 - **Dernière vérification** : 2026-10-10
 
 ## Identité
@@ -15,27 +15,48 @@
 
 ## Description
 
+Évalué **Least Concern** (2025). EOO ≈ 2 770 000 km² ; assez commune ou localement commune (Clement 1999 *via* BirdLife) ; tendance **stable**. Commerce signalé à forte prévalence.  
+*Source : birdlife-lonchura-maja.*
+
 ## Dimorphisme sexuel
+
+*na — sources consultées silencieuses.*
 
 ## Habitat d’origine
 
+Non migrateur. Zones humides intérieures (majeur) ; terres cultivées et plantations (suitable) ; jardins ruraux (marginal).  
+*Source : birdlife-lonchura-maja.*
+
 ## Régime alimentaire
+
+*na — sources consultées silencieuses.*
 
 ## Comportement
 
+Sédentaire (non migrateur). Présent dans le commerce d’animaux de compagnie.  
+*Source : birdlife-lonchura-maja.*
+
 ## Chant et vocalisations
+
+Enregistrement XC1106789 (Joan Theng — CC BY-NC-SA 4.0) : https://xeno-canto.org/1106789  
+*Source : media-lonchura-maja-audio.*
 
 ## Points de cours à retenir
 
+*En attente ingénieur pédagogique / supports de cours.*
+
 ## Médias
 
-| Type | Fichier | Crédit / licence | Source README |
-|------|---------|------------------|---------------|
-| Image | `/images/birds/lonchura-maja.webp` | *à fournir* | |
-| Audio | `/audio/birds/lonchura-maja.mp3` | *à fournir* | |
+| Type | Fichier / URL | Crédit / licence | Source README |
+|------|--------------|------------------|---------------|
+| Image | https://commons.wikimedia.org/wiki/File:Lonchura_maja_by_Michael_MK_Khor.jpg | Michael MK Khor — CC BY 2.0 | media-lonchura-maja-img |
+| Audio | https://xeno-canto.org/1106789 | Joan Theng — CC BY-NC-SA 4.0 | media-lonchura-maja-audio |
 
 ## Sources
 
 | Id | Titre | Éditeur / auteur | Année | URL | Note |
 |----|-------|------------------|-------|-----|------|
-| bac-pro-tcva-liste | Liste des oiseaux – BAC PRO TCVA (MP6) | Support de cours / arrêtés 02/07/2009 + domestiques | 2009 | | Identité programme |
+| bac-pro-tcva-liste | Liste des oiseaux – BAC PRO TCVA (MP6) | Support de cours | 2009 | | Identité programme |
+| birdlife-lonchura-maja | White-headed Munia Lonchura maja — Species Factsheet | BirdLife International | 2025 | https://datazone.birdlife.org/species/factsheet/white-headed-munia-lonchura-maja | Consulté 2026-10-10 |
+| media-lonchura-maja-img | File:Lonchura maja by Michael MK Khor.jpg | Michael MK Khor / Wikimedia Commons | 2014 | https://commons.wikimedia.org/wiki/File:Lonchura_maja_by_Michael_MK_Khor.jpg | CC BY 2.0 |
+| media-lonchura-maja-audio | XC1106789 | Joan Theng / Xeno-canto | | https://xeno-canto.org/1106789 | CC BY-NC-SA 4.0 |

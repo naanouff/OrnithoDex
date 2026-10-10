@@ -67,12 +67,12 @@ Générés le 2026-10-10. Lots en `complete` (sprint 03a) : Galliformes, Anséri
 | [lagonosticta-larvata-vinacea](lagonosticta-larvata-vinacea.md) | Amaranthe vineuse | complete |
 | [lonchura-striata](lonchura-striata.md) | Capucin domino | complete |
 | [lonchura-striata-domestiqua](lonchura-striata-domestiqua.md) | Moineau du Japon | complete |
-| [lonchura-malacca-malacca](lonchura-malacca-malacca.md) | Capucin tricolore | liste_seule |
-| [lonchura-malacca-atricapilla](lonchura-malacca-atricapilla.md) | Capucin à tête noire | liste_seule |
-| [lonchura-cantans](lonchura-cantans.md) | Bec d'argent | liste_seule |
-| [lonchura-cucullata](lonchura-cucullata.md) | Nonnette ou spermète | liste_seule |
-| [lonchura-maja](lonchura-maja.md) | Capucin à tête blanche | liste_seule |
-| [lonchura-malabarica](lonchura-malabarica.md) | Bec de plomb | liste_seule |
+| [lonchura-malacca-malacca](lonchura-malacca-malacca.md) | Capucin tricolore | complete |
+| [lonchura-malacca-atricapilla](lonchura-malacca-atricapilla.md) | Capucin à tête noire | complete |
+| [lonchura-cantans](lonchura-cantans.md) | Bec d'argent | complete |
+| [lonchura-cucullata](lonchura-cucullata.md) | Nonnette ou spermète | complete |
+| [lonchura-maja](lonchura-maja.md) | Capucin à tête blanche | complete |
+| [lonchura-malabarica](lonchura-malabarica.md) | Bec de plomb | complete |
 | [lonchura-punctulata](lonchura-punctulata.md) | Damier | liste_seule |
 | [lonchura-oryzivora](lonchura-oryzivora.md) | Calfat ou padda | liste_seule |
 | [neochmia-modesta](neochmia-modesta.md) | Diamant modeste | liste_seule |
