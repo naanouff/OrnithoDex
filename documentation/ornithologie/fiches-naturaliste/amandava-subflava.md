@@ -43,7 +43,13 @@ Enregistrement XC872300 (Dries Van de Loock — CC BY-NC-ND 4.0) : https://xeno-
 
 ## Points de cours à retenir
 
-*En attente ingénieur pédagogique / supports de cours.*
+<!-- Aides à la mémorisation (pas un polycopié enseignant). -->
+
+- **[programme]** Ventre orange ↔ *Amandava subflava* ; Passériformes ; Estrildidés
+- **[programme]** Confusion : bengali de Bombay (*A. amandava*) — même genre, autre espèce
+- **[sourcé]** Least Concern ; tendance stable ; Afrique subsaharienne
+- **[sourcé]** Non migrateur ; prairies, savane sèche, zones humides, cultures
+- **[sourcé]** Commerce international d’animaux de compagnie signalé
 
 ## Médias
 

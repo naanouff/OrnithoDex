@@ -44,7 +44,13 @@ Enregistrement XC960939 (Louis Masarei — CC BY-NC-SA 4.0) : https://xeno-canto
 
 ## Points de cours à retenir
 
-*En attente ingénieur pédagogique / supports de cours.*
+<!-- Aides à la mémorisation (pas un polycopié enseignant). -->
+
+- **[programme]** Diamant de Gould ↔ *Erythrura gouldiae* ; Passériformes ; Estrildidés
+- **[programme]** Confusion : *E. trichroa* (Kittlitz) — Gould = endémique nord AU ; BirdLife *Chloebia*
+- **[sourcé]** Least Concern ; ~5 000–50 000 matures ; tendance stable
+- **[sourcé]** Graines de graminées ; nid en cavités d’arbres
+- **[sourcé]** Non migrateur mais très mobile (juvéniles jusqu’à ~200 km)
 
 ## Médias
 

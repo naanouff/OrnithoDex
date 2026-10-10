@@ -45,7 +45,13 @@ Enregistrement XC1183523 (African Bioacoustics Community — CC BY-NC-SA 4.0) : 
 
 ## Points de cours à retenir
 
-*En attente ingénieur pédagogique / supports de cours.*
+<!-- Aides à la mémorisation (pas un polycopié enseignant). -->
+
+- **[programme]** Euplecte ignicolore ↔ *Euplectes orix* ; Passériformes ; Ploceidae
+- **[programme]** Confusion : tisserin gendarme (*Ploceus*) — même famille des plocéidés, autre genre
+- **[sourcé]** Least Concern ; tendance stable ; commune à abondante
+- **[sourcé]** Non migrateur ; cultures et prairies sèches (majeurs)
+- **[sourcé]** EOO vaste (≈ 7,9 M km²)
 
 ## Médias
 

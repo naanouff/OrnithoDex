@@ -54,12 +54,12 @@ Plan sources : [plan-sources.md](../projet/plan-sources.md) (85/85 `complete`) �
 | gracula-religiosa | ok | ok | ok | ok | ok | na | ok | ok | ok | ok | ADW; sprint 09 |
 | passer-luteus | ok | ok | ok | ok | ok | na | ok | na | ok | ok | nomade; dimorphisme/régime na; sprint 09 |
 | ploceus-cucullatus | ok | ok | ok | ok | ok | na | ok | na | ok | ok | dimorphisme/régime na; sprint 09 |
-| euplectes-orix | ok | ok | ok | ok | ok | na | ok | na | ok | attente | dimorphisme/régime na; sprint 09 |
-| amadina-fasciata | ok | ok | ok | ok | ok | na | ok | na | ok | attente | dimorphisme/régime na; sprint 09 |
-| amandava-amandava | ok | ok | ok | ok | ok | ok | ok | ok | ok | attente | ADW; sprint 09 |
-| amandava-subflava | ok | ok | ok | ok | ok | na | ok | na | ok | attente | |
-| erythrura-gouldiae | ok | ok | ok | ok | ok | na | ok | ok | ok | attente | BirdLife: Chloebia gouldiae |
-| erythrura-trichroa | ok | ok | ok | ok | ok | na | ok | na | ok | attente | |
+| euplectes-orix | ok | ok | ok | ok | ok | na | ok | na | ok | ok | dimorphisme/régime na; sprint 09 |
+| amadina-fasciata | ok | ok | ok | ok | ok | na | ok | na | ok | ok | dimorphisme/régime na; sprint 09 |
+| amandava-amandava | ok | ok | ok | ok | ok | ok | ok | ok | ok | ok | ADW; sprint 09 |
+| amandava-subflava | ok | ok | ok | ok | ok | na | ok | na | ok | ok | |
+| erythrura-gouldiae | ok | ok | ok | ok | ok | na | ok | ok | ok | ok | BirdLife: Chloebia gouldiae |
+| erythrura-trichroa | ok | ok | ok | ok | ok | na | ok | na | ok | ok | |
 | erythrura-psittacea | ok | ok | ok | ok | ok | na | ok | na | ok | attente | Endémique NC |
 | estrilda-astrild | ok | ok | ok | ok | ok | ok | ok | ok | ok | attente | ADW |
 | estrilda-caerulescens | ok | ok | ok | ok | ok | na | ok | na | ok | attente | BirdLife: Glaucestrilda coerulescens |
