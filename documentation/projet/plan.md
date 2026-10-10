@@ -144,7 +144,7 @@ type SourcedText = {
 
 ## UI / UX — mobile-first portrait
 
-Thème **naturaliste pédagogique** (verts forêt / bleus ciel / accents par ordre), typographie expressive, fond texturé léger.
+Thème et tokens : voir **[design.md](design.md)** (DA logo : navy / orange / sky / lime ; accents par ordre). Typographie expressive (Fredoka + Nunito), fond texturé léger.
 
 Contraintes smartphone :
 
@@ -227,6 +227,7 @@ Flux : feature → `develop` → `release/x.y.z` → `main` → tag + Release �
 - [Plan sources](plan-sources.md) — enrichissement des fiches (sources publiques)
 - [Plan pédagogie](plan-pedagogie.md) — cadre ingénieur pédagogue + points de cours
 - [Plan design](plan-design.md) — charte + maquettes (direction artistique)
+- [Charte design](design.md) — tokens, composants, specs écrans
 - [Vision](vision.md)
 - [Cahier des charges](cahier-des-charges.md)
 - [Architecture](architecture.md)

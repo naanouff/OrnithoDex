@@ -20,6 +20,7 @@
 | [sprint-pedagogie-lot-11.md](sprint-pedagogie-lot-11.md) | **Sprint pédagogie** — lot 11 Estrildidés C (6) |
 | [sprint-pedagogie-lot-12.md](sprint-pedagogie-lot-12.md) | **Sprint pédagogie** — lot 12 fin Vidua / Serinus (7) |
 | [plan-design.md](plan-design.md) | **Plan design** — charte + maquettes (direction artistique) |
+| [design.md](design.md) | **Charte design** — tokens, typo, composants, specs 4 écrans |
 | [sprint-01-sources.md](sprint-01-sources.md) | **Sprint 01** — collecte lot pilote (6 espèces) |
 | [sprint-02-sources.md](sprint-02-sources.md) | **Sprint 02** — Columbiformes (6) |
 | [sprint-03a-sources.md](sprint-03a-sources.md) | **Sprint 03a** — backlog 12 fiches → `complete` |
