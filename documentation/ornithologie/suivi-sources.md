@@ -35,12 +35,12 @@ Plan : [plan-sources.md](../projet/plan-sources.md) · Sprints : [01](../projet/
 | neophema-pulchella | ok | ok | ok | ok | ok | na | ok | ok | ok | attente | dimorphisme na; cape weed; sprint 06 |
 | neophema-splendida | ok | ok | ok | ok | ok | na | ok | na | ok | attente | dimorphisme/régime na; sprint 06 |
 | platycercus-eximius-eximius | ok | ok | ok | ok | ok | na | ok | na | ok | attente | sous-esp. programme; dimorphisme/régime na; sprint 06 |
-| platycercus-elegans | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
-| platycercus-icterotis | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
-| platycercus-adscitus | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
-| poicephalus-senegalus | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
-| polytelis-alexandrae | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
-| polytelis-anthopeplus | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
+| platycercus-elegans | ok | ok | ok | ok | ok | na | ok | na | ok | attente | déclin habitat; sprint 07 |
+| platycercus-icterotis | ok | ok | ok | ok | ok | na | ok | na | ok | attente | déclin; sprint 07 |
+| platycercus-adscitus | ok | ok | ok | ok | ok | na | ok | na | ok | attente | sprint 07 |
+| poicephalus-senegalus | ok | ok | ok | ok | ok | ok | ok | ok | ok | attente | ADW; commerce; sprint 07 |
+| polytelis-alexandrae | ok | ok | ok | ok | ok | na | ok | ok | ok | attente | NT; sprint 07 |
+| polytelis-anthopeplus | ok | ok | ok | ok | ok | na | ok | na | ok | attente | déclin; sprint 07 |
 | psephotus-haematonotus-haematonotus | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
 | psittacula-krameri-manillensis | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
 | psittacula-cyanocephala | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
@@ -92,4 +92,4 @@ Plan : [plan-sources.md](../projet/plan-sources.md) · Sprints : [01](../projet/
 | serinus-mozambicus | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
 | serinus-canaria | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | manquant | attente | |
 
-Dernière mise à jour : 2026-10-10 (sprint 06 — 6 Psittacidés B complete).
+Dernière mise à jour : 2026-10-10 (sprint 07 — 6 Psittacidés C complete).

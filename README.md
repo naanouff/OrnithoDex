@@ -54,9 +54,9 @@ Registre public de **toutes** les sources utilisées dans le projet. Toute nouve
 | `xeno-canto` | Xeno-canto | Xeno-canto Foundation | https://xeno-canto.org/ | Enregistrement audio précis (auteur + licence) |
 | `wikimedia-commons` | Wikimedia Commons | Wikimedia | https://commons.wikimedia.org/ | Images libres (licence par fichier) |
 
-Fiches espèce BirdLife / ADW / Avibase (sprints 01–06) : détail dans chaque [fiche du naturaliste](documentation/ornithologie/fiches-naturaliste/).
+Fiches espèce BirdLife / ADW / Avibase (sprints 01–07) : détail dans chaque [fiche du naturaliste](documentation/ornithologie/fiches-naturaliste/).
 
-### Médias retenus (sprints 01–06 — liens ; copie locale plus tard)
+### Médias retenus (sprints 01–07 — liens ; copie locale plus tard)
 
 | Espèce (slug) | Type | Auteur | Licence | URL |
 |---------------|------|--------|---------|-----|
@@ -126,3 +126,15 @@ Fiches espèce BirdLife / ADW / Avibase (sprints 01–06) : détail dans chaque 
 | `neophema-splendida` | Audio | Louis Masarei | CC BY-NC-SA 4.0 | https://xeno-canto.org/924874 |
 | `platycercus-eximius-eximius` | Image | Murdock Grewar | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Female_Eastern_Rosella_(Platycercus_eximius).jpg |
 | `platycercus-eximius-eximius` | Audio | Romuald Mikusek | CC BY-NC-SA 4.0 | https://xeno-canto.org/1173636 |
+| `platycercus-elegans` | Image | John Poulakis | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Platycercus_elegans_-Blue_Mountains_-side-8a.jpg |
+| `platycercus-elegans` | Audio | Romuald Mikusek | CC BY-NC-SA 4.0 | https://xeno-canto.org/1173944 |
+| `platycercus-icterotis` | Image | Robert Young | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Western_Rosella_(Platycercus_icterotis)_-eating_bread.jpg |
+| `platycercus-icterotis` | Audio | Marc Anderson | CC BY-NC-ND 4.0 | https://xeno-canto.org/382800 |
+| `platycercus-adscitus` | Image | JJ Harrison | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Pale-headed_Rosella_-_Herbaton.jpg |
+| `platycercus-adscitus` | Audio | James Lambert | CC BY-NC-SA 4.0 | https://xeno-canto.org/593967 |
+| `poicephalus-senegalus` | Image | ThomHasi / Thomas J. Haslam | CC BY 2.5 | https://commons.wikimedia.org/wiki/File:Senegal_Parrots_-two_on_branch_in_Africa.jpg |
+| `poicephalus-senegalus` | Audio | Azens | CC BY-NC-SA 4.0 | https://xeno-canto.org/1093291 |
+| `polytelis-alexandrae` | Image | PG Palmer | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Polytelis_alexandrae_-Australia-8.jpg |
+| `polytelis-alexandrae` | Audio | Mark Carter | CC BY-NC-SA 4.0 | https://xeno-canto.org/488068 |
+| `polytelis-anthopeplus` | Image | David Cook Wildlife Photography | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Polytelis_anthopeplus_-Wyperfeld_National_Park_-Australia-8.jpg |
+| `polytelis-anthopeplus` | Audio | Drew Davison | CC BY-NC-SA 4.0 | https://xeno-canto.org/638864 |
