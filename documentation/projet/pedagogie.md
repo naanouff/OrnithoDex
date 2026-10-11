@@ -90,6 +90,8 @@ Règles :
 | Document | Rôle |
 |----------|------|
 | [plan-pedagogie.md](plan-pedagogie.md) | Plan d’exécution (cadre puis contenu) |
+| [analyse-pedagogique-0.2.0.md](analyse-pedagogique-0.2.0.md) | Critique v0.2.0 |
+| [plan-remediation-pedagogie-0.3.md](plan-remediation-pedagogie-0.3.md) | Remédiation 0.3.x |
 | [plan.md](plan.md) | Feuille de route V1 |
 | [plan-design.md](plan-design.md) | Direction artistique / écrans |
 | [modele-fiche-naturaliste.md](../ornithologie/modele-fiche-naturaliste.md) | Gabarit fiche |

@@ -34,7 +34,7 @@ flowchart LR
 3. Fiche : résoudre prev/next ; extrémités = no-op
 4. Gesture touch maison (seuil ~50–70 px, axe horizontal dominant) ; `navigate(..., { replace: true })`
 5. Fallback catalogue si pas de contexte
-6. Desktop V1 : pas de drag souris ni flèches clavier
+6. Desktop : drag pointeur livré avec le swipe ; flèches clavier → [plan-ui-ux-ergonomie.md](plan-ui-ux-ergonomie.md) (lot 2)
 
 ## Risques
 

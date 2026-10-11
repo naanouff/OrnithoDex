@@ -47,10 +47,11 @@ Enregistrement XC940888 (Samantha Aguirre — CC BY-NC-SA 4.0) : https://xeno-ca
 <!-- Aides à la mémorisation (pas un polycopié enseignant). -->
 
 - **[programme]** Perruche ondulée ↔ *Melopsittacus undulatus* ; Psittaciformes ; Psittacidés
-- **[programme]** Genre seul dans le programme — très courant en animalerie (forme sauvage = base)
+- **[programme]** Genre seul dans le programme
+- **[sourcé]** très courant en animalerie (forme sauvage = base)
 - **[sourcé]** Least Concern ; endémique Australie ; tendance en **augmentation**
-- **[sourcé]** Nomade ; granivore au sol ; très social, grands vols
-- **[sourcé]** Dimorphisme léger : cire (beige/brun ♀ en repro. vs bleue souvent ♂)
+- **[sourcé]** Nomade ; granivore au sol ; très social, grands vols ; Dimorphisme léger : cire (beige/brun ♀ en repro. vs bleue souvent ♂)
+
 
 ## Médias
 

@@ -49,10 +49,11 @@ ADW : cris rapides « kew-kew-kew », cris de menace « krrrr », agrégatifs do
 <!-- Aides à la mémorisation (pas un polycopié enseignant). -->
 
 - **[programme]** Perruche à collier d'Asie ↔ *Psittacula krameri manillensis* ; Psittaciformes ; Psittacidés
-- **[programme]** Confusion : *P. eupatria* (grande alexandre) / *P. cyanocephala* (tête de prune) — collier = sous-espèce *manillensis*
+- **[programme]** Confusion : *P. eupatria* (grande alexandre) / *P. cyanocephala*
+- **[sourcé]** collier = sous-espèce *manillensis*
 - **[sourcé]** Least Concern ; BirdLife : *Alexandrinus krameri* ; tendance en augmentation
-- **[sourcé]** Dimorphisme : mâle collier/dague à maturité ; ♀/immatures sans collier rose
-- **[sourcé]** Surtout granivore ; social ; nicheur en cavités
+- **[sourcé]** Dimorphisme : mâle collier/dague à maturité ; ♀/immatures sans collier rose ; Surtout granivore ; social ; nicheur en cavités
+
 
 ## Médias
 

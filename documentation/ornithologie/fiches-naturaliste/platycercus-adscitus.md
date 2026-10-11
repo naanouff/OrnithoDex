@@ -47,10 +47,11 @@ Enregistrement XC593967 (James Lambert — CC BY-NC-SA 4.0) : https://xeno-canto
 <!-- Aides à la mémorisation (pas un polycopié enseignant). -->
 
 - **[programme]** Perruche palliceps ↔ *Platycercus adscitus* ; Psittaciformes ; Psittacidés
-- **[programme]** Confusion : *P. icterotis* (Stanley) — palliceps = tendance en **augmentation**, aire large
+- **[programme]** Confusion : *P. icterotis* (Stanley)
+- **[sourcé]** palliceps = tendance en **augmentation**, aire large
 - **[sourcé]** Least Concern ; endémique Australie ; abondante
-- **[sourcé]** Non migratrice ; forêts, savane, jardins, cultures
-- **[sourcé]** Hausse soupçonnée avec l’ouverture / dégradation d’habitats
+- **[sourcé]** Non migratrice ; forêts, savane, jardins, cultures ; Hausse soupçonnée avec l’ouverture / dégradation d’habitats
+
 
 ## Médias
 

@@ -47,10 +47,11 @@ Enregistrement XC956617 (Meena Haribal — CC BY-NC-SA 4.0) : https://xeno-canto
 <!-- Aides à la mémorisation (pas un polycopié enseignant). -->
 
 - **[programme]** Kakariki à front rouge ↔ *Cyanoramphus novaezelandiae* ; Psittaciformes ; Psittacidés
-- **[programme]** Confusion : kakariki à front **jaune** (*C. auriceps*) — repère = couleur du front
+- **[sourcé]** Confusion : kakariki à front **jaune** (*C. auriceps*) — repère = couleur du front
 - **[sourcé]** Least Concern ; tendance en diminution (prédateurs introduits)
 - **[sourcé]** Nouvelle-Zélande et îles associées ; forêts / milieux boisés
 - **[sourcé]** Souvent plus commun que *C. auriceps* sur les îles
+
 
 ## Médias
 

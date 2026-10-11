@@ -47,11 +47,12 @@ Enregistrement XC509854 (Peter Boesman — CC BY-NC-ND 4.0) : https://xeno-canto
 
 <!-- Aides à la mémorisation (pas un polycopié enseignant). -->
 
-- **[programme]** Cou coupé ↔ *Amadina fasciata* ; Passériformes ; **Estrildidés**
-- **[programme]** Entrée Estrildidés — distinct des Plocéidés (*Ploceus*, *Euplectes*)
-- **[sourcé]** Least Concern ; tendance stable ; savane sèche (majeur)
+- **[programme]** Cou coupé ↔ *Amadina fasciata* ; Passériformes ; Estrildidés
+- **[programme]** Estrildidé — distinct des Ploceidae (*Ploceus*, *Euplectes*) du programme
+- **[sourcé]** Préoccupation mineure ; tendance stable ; savane sèche (majeur)
 - **[sourcé]** Non migrateur ; EOO très vaste (≈ 23,9 M km²)
 - **[sourcé]** Commerce d’oiseaux signalé à prévalence élevée (BirdLife)
+
 
 ## Médias
 

@@ -6,6 +6,10 @@
 | [plan-sources.md](plan-sources.md) | **Plan sources** — méthode `complete` (7 sections), catalogue, lots |
 | [plan-pedagogie.md](plan-pedagogie.md) | **Plan pédagogie** — cadre ingénieur pédagogue + points de cours |
 | [pedagogie.md](pedagogie.md) | **Charte pédagogique** — objectifs, parcours, contrat points de cours, briefs |
+| [analyse-pedagogique-0.2.0.md](analyse-pedagogique-0.2.0.md) | **Analyse pédagogique** — critique qualité v0.2.0 |
+| [plan-remediation-pedagogie-0.3.md](plan-remediation-pedagogie-0.3.md) | **Plan remédiation** — backlog P0 / P1 / P2 (cible 0.3.x) |
+| [sprint-remediation-pedagogie-0.3.md](sprint-remediation-pedagogie-0.3.md) | **Sprint remédiation** — P0 + fiche + feedback quiz |
+| [suivi-controle-illustrations.md](suivi-controle-illustrations.md) | **Contrôle illustrations** — protocole + échantillon 12 |
 | [sprint-pedagogie-pilote-12.md](sprint-pedagogie-pilote-12.md) | **Sprint pédagogie** — pilote 12 points de cours |
 | [sprint-pedagogie-lot-01.md](sprint-pedagogie-lot-01.md) | **Sprint pédagogie** — lot 01 Agapornis / Amazona (6) |
 | [sprint-pedagogie-lot-02.md](sprint-pedagogie-lot-02.md) | **Sprint pédagogie** — lot 02 Psittacidés A (6) |
@@ -29,6 +33,8 @@
 | [sprint-ui-equiv-maquette.md](sprint-ui-equiv-maquette.md) | **Sprint** — porter PNG/prototype dans React |
 | [plan-swipe-fiches.md](plan-swipe-fiches.md) | **Plan swipe fiches** — parcours horizontal sans retour liste |
 | [sprint-swipe-fiches.md](sprint-swipe-fiches.md) | **Sprint** — maquette swipe → intégration React |
+| [plan-ui-ux-ergonomie.md](plan-ui-ux-ergonomie.md) | **Plan UI/UX** — passe critique ergonomie 0.2.0 (4 lots) |
+| [sprint-ui-ux-ergonomie.md](sprint-ui-ux-ergonomie.md) | **Sprint** — quiz → fiche → collection → séries |
 | [sprint-cols-localstorage.md](sprint-cols-localstorage.md) | **Sprint** — densité Collection en `localStorage` |
 | [design.md](design.md) | **Charte design** — tokens, typo, composants, specs 4 écrans |
 | [maquettes/](maquettes/) | **Maquettes** — captures + prototype interactif portrait |

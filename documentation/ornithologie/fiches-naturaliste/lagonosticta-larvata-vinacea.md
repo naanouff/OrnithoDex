@@ -48,10 +48,11 @@ Xeno-canto suit la taxonomie IOC (lumping sous *L. larvata*) ; enregistrement de
 <!-- Aides à la mémorisation (pas un polycopié enseignant). -->
 
 - **[programme]** Amaranthe vineuse ↔ *Lagonosticta larvata vinacea* ; Passériformes ; Estrildidés
-- **[programme]** Confusion : amaranthe à bec rouge (*L. senegala*) — vineuse = sous-espèce programme ; BirdLife *L. vinacea*
+- **[programme]** Confusion : amaranthe à bec rouge (*L. senegala*)
+- **[sourcé]** vineuse = sous-espèce programme ; BirdLife *L. vinacea*
 - **[sourcé]** Least Concern ; EOO ≈ 322 000 km² ; tendance stable
-- **[sourcé]** Non migratrice ; savane sèche (majeur) ; Afrique de l’Ouest
-- **[sourcé]** Commerce international signalé à faible prévalence
+- **[sourcé]** Non migratrice ; savane sèche (majeur) ; Afrique de l’Ouest ; Commerce international signalé à faible prévalence
+
 
 ## Médias
 

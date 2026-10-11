@@ -46,10 +46,11 @@ Enregistrement XC1003825 (Chi-Hsuan Shao — CC BY-NC-SA 4.0) : https://xeno-can
 <!-- Aides à la mémorisation (pas un polycopié enseignant). -->
 
 - **[programme]** Diamant de Kittlitz ↔ *Erythrura trichroa* ; Passériformes ; Estrildidés
-- **[programme]** Confusion : diamant de Gould (*E. gouldiae*) — Kittlitz = large aire Pacifique / AU
+- **[programme]** Confusion : diamant de Gould (*E. gouldiae*)
+- **[sourcé]** Kittlitz = large aire Pacifique / AU
 - **[sourcé]** Least Concern ; ~13 000 matures ; tendance stable
-- **[sourcé]** Non migrateur ; forêts et fourrés ; 1 000–3 000 m
-- **[sourcé]** Commerce international d’animaux de compagnie signalé
+- **[sourcé]** Non migrateur ; forêts et fourrés ; 1 000–3 000 m ; Commerce international d’animaux de compagnie signalé
+
 
 ## Médias
 

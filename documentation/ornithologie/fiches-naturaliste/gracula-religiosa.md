@@ -47,11 +47,12 @@ Enregistrement XC1157137 (Ding Li Yong — CC BY-NC-ND 4.0) : https://xeno-canto
 
 <!-- Aides à la mémorisation (pas un polycopié enseignant). -->
 
-- **[programme]** Mainate religieux ↔ *Gracula religiosa* ; **Passériformes** ; Sturnidés
-- **[programme]** Premier Passériforme du lot — distinct des Cacatuides / Psittacidés
-- **[sourcé]** Least Concern ; tendance en diminution ; noir brillant + caroncules jaunes
+- **[programme]** Mainate religieux ↔ *Gracula religiosa* ; Passériformes ; Sturnidés
+- **[programme]** Seul Sturnidé du référentiel — distinct des Cacatuides / Psittacidés
+- **[sourcé]** Préoccupation mineure ; tendance en diminution ; noir brillant + caroncules jaunes
 - **[sourcé]** Surtout frugivore arboricole ; forêts humides
 - **[sourcé]** Connu pour le mimétisme (sons, parole)
+
 
 ## Médias
 

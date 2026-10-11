@@ -47,10 +47,11 @@ Enregistrement XC1140446 (Marna Buys — CC BY-NC-SA 4.0) : https://xeno-canto.o
 <!-- Aides à la mémorisation (pas un polycopié enseignant). -->
 
 - **[programme]** Serin du Mozambique ↔ *Serinus mozambicus* ; Passériformes ; Fringillidés
-- **[programme]** Confusion : chanteur d'Afrique / serin des canaries — BirdLife *Crithagra mozambica*
+- **[programme]** Confusion : chanteur d'Afrique / serin des canaries
+- **[sourcé]** BirdLife *Crithagra mozambica*
 - **[sourcé]** Least Concern ; tendance en **diminution** (liée au commerce)
-- **[sourcé]** > 2,6 M oiseaux sauvages déclarés au commerce depuis 1985 (CITES *via* BirdLife)
-- **[sourcé]** Non migrateur ; savane sèche, prairies, jardins, cultures
+- **[sourcé]** > 2,6 M oiseaux sauvages déclarés au commerce depuis 1985 (CITES *via* BirdLife) ; Non migrateur ; savane sèche, prairies, jardins, cultures
+
 
 ## Médias
 

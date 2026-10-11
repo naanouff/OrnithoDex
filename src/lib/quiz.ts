@@ -17,6 +17,8 @@ export type QuizQuestion = {
   audioPageUrl?: string
 }
 
+export type SeriesSize = 10 | 20
+
 const SCORE_KEY = 'ornithodex.quiz.score'
 
 export type QuizScore = {
@@ -57,17 +59,25 @@ export function resetQuizScore(): void {
   localStorage.removeItem(SCORE_KEY)
 }
 
+export function parseSeriesSize(raw: string | null): SeriesSize | null {
+  if (raw === '10') return 10
+  if (raw === '20') return 20
+  return null
+}
+
 export function xenoCantoEmbedUrl(pageUrl: string): string | undefined {
   const m = pageUrl.match(/xeno-canto\.org\/(\d+)/i)
   if (!m) return undefined
   return `https://xeno-canto.org/${m[1]}/embed`
 }
 
+/**
+ * Quiz chant : uniquement audio **local** (`/audio/…`).
+ * Les embeds Xeno-canto distants peuvent afficher le nom de l’espèce (fuite de réponse) —
+ * exclus jusqu’à fichier local (P0.4 remédiation 0.3).
+ */
 function hasPlayableAudio(bird: Bird): boolean {
-  const primary = bird.audio?.[0]
-  if (!primary) return false
-  if (primary.startsWith('/audio/')) return true
-  return Boolean(xenoCantoEmbedUrl(primary))
+  return Boolean(bird.audio?.some((a) => a.startsWith('/audio/')))
 }
 
 export function birdsForMode(mode: QuizMode): Bird[] {
@@ -79,20 +89,33 @@ export function birdsForMode(mode: QuizMode): Bird[] {
 
 export function buildQuestion(
   mode: QuizMode,
-  excludeId?: string,
+  excludeIds: string[] = [],
 ): QuizQuestion | null {
-  const pool = birdsForMode(mode).filter((bird) => bird.id !== excludeId)
-  if (pool.length < 4) return null
+  const excluded = new Set(excludeIds)
+  const pool = birdsForMode(mode).filter((bird) => !excluded.has(bird.id))
+  if (pool.length < 4) {
+    /* Fin de série : trop peu d’espèces restantes pour 4 choix. */
+    const fallback = birdsForMode(mode).filter((bird) => !excluded.has(bird.id))
+    if (fallback.length === 0) return null
+    /* Si < 4 restantes mais encore des oiseaux : élargir distracteurs hors exclusion. */
+    if (pool.length < 1) return null
+  }
 
-  const bird = pool[Math.floor(Math.random() * pool.length)]
-  const sameOrder = pool.filter(
-    (candidate) => candidate.order === bird.order && candidate.id !== bird.id,
-  )
-  const others = pool.filter((candidate) => candidate.id !== bird.id)
+  const pickPool =
+    pool.length >= 4
+      ? pool
+      : birdsForMode(mode).filter((bird) => !excluded.has(bird.id))
+  if (pickPool.length < 1) return null
+
+  const bird = pickPool[Math.floor(Math.random() * pickPool.length)]!
+  const distractorPool = birdsForMode(mode).filter((candidate) => candidate.id !== bird.id)
+
+  const sameOrder = distractorPool.filter((candidate) => candidate.order === bird.order)
+  const others = distractorPool.filter((candidate) => candidate.order !== bird.order)
 
   const distractorSource = [
     ...shuffleInPlace([...sameOrder]),
-    ...shuffleInPlace([...others.filter((b) => b.order !== bird.order)]),
+    ...shuffleInPlace([...others]),
   ]
   const distractors: Bird[] = []
   for (const candidate of distractorSource) {
@@ -115,16 +138,13 @@ export function buildQuestion(
   if (mode === 'photo') {
     question.imageUrl = resolveBirdImageUrl(bird.image)
   } else {
-    const primary = bird.audio?.[0]
-    const remote = bird.audioRemote?.[0] ?? primary
-    if (primary?.startsWith('/audio/')) {
-      question.audioUrl = primary
-      if (remote && remote.includes('xeno-canto')) {
+    const local = bird.audio?.find((a) => a.startsWith('/audio/'))
+    if (local) {
+      question.audioUrl = local
+      const remote = bird.audioRemote?.[0]
+      if (remote?.includes('xeno-canto')) {
         question.audioPageUrl = remote
       }
-    } else if (primary) {
-      question.audioPageUrl = primary
-      question.audioEmbedUrl = xenoCantoEmbedUrl(primary)
     }
   }
 

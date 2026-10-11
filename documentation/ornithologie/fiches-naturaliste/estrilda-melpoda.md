@@ -46,10 +46,11 @@ Enregistrement XC1081191 (Peter Boesman — CC BY-NC-ND 4.0) : https://xeno-cant
 <!-- Aides à la mémorisation (pas un polycopié enseignant). -->
 
 - **[programme]** Joues orange ↔ *Estrilda melpoda* ; Passériformes ; Estrildidés
-- **[programme]** Confusion : bec de corail / Sainte Hélène — repère = joues **orange**
+- **[programme]** Confusion : bec de corail / Sainte Hélène
+- **[sourcé]** repère = joues **orange**
 - **[sourcé]** Least Concern ; tendance stable ; non migrateur
-- **[sourcé]** Savane, prairies, fourrés, forêts humides, jardins, marais
-- **[sourcé]** Présent dans le commerce international d’animaux de compagnie
+- **[sourcé]** Savane, prairies, fourrés, forêts humides, jardins, marais ; Présent dans le commerce international d’animaux de compagnie
+
 
 ## Médias
 
