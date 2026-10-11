@@ -29,6 +29,7 @@
 | [sprint-ui-equiv-maquette.md](sprint-ui-equiv-maquette.md) | **Sprint** — porter PNG/prototype dans React |
 | [plan-swipe-fiches.md](plan-swipe-fiches.md) | **Plan swipe fiches** — parcours horizontal sans retour liste |
 | [sprint-swipe-fiches.md](sprint-swipe-fiches.md) | **Sprint** — maquette swipe → intégration React |
+| [sprint-cols-localstorage.md](sprint-cols-localstorage.md) | **Sprint** — densité Collection en `localStorage` |
 | [design.md](design.md) | **Charte design** — tokens, typo, composants, specs 4 écrans |
 | [maquettes/](maquettes/) | **Maquettes** — captures + prototype interactif portrait |
 | [sprint-01-sources.md](sprint-01-sources.md) | **Sprint 01** — collecte lot pilote (6 espèces) |
