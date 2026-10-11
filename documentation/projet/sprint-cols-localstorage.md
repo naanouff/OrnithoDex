@@ -30,4 +30,4 @@ Aujourd’hui : `sessionStorage` (`ornithodex.collection.cols`).
 - [x] `CollectionPage` → `localStorage` + migration
 - [x] Journal + index docs
 - [x] Build
-- [ ] PR
+- [x] PR — https://github.com/naanouff/OrnithoDex/pull/50
