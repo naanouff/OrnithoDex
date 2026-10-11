@@ -63,11 +63,13 @@ export function xenoCantoEmbedUrl(pageUrl: string): string | undefined {
   return `https://xeno-canto.org/${m[1]}/embed`
 }
 
+/**
+ * Quiz chant : uniquement audio **local** (`/audio/…`).
+ * Les embeds Xeno-canto distants peuvent afficher le nom de l’espèce (fuite de réponse) —
+ * exclus jusqu’à fichier local (P0.4 remédiation 0.3).
+ */
 function hasPlayableAudio(bird: Bird): boolean {
-  const primary = bird.audio?.[0]
-  if (!primary) return false
-  if (primary.startsWith('/audio/')) return true
-  return Boolean(xenoCantoEmbedUrl(primary))
+  return Boolean(bird.audio?.some((a) => a.startsWith('/audio/')))
 }
 
 export function birdsForMode(mode: QuizMode): Bird[] {
@@ -115,16 +117,13 @@ export function buildQuestion(
   if (mode === 'photo') {
     question.imageUrl = resolveBirdImageUrl(bird.image)
   } else {
-    const primary = bird.audio?.[0]
-    const remote = bird.audioRemote?.[0] ?? primary
-    if (primary?.startsWith('/audio/')) {
-      question.audioUrl = primary
-      if (remote && remote.includes('xeno-canto')) {
+    const local = bird.audio?.find((a) => a.startsWith('/audio/'))
+    if (local) {
+      question.audioUrl = local
+      const remote = bird.audioRemote?.[0]
+      if (remote?.includes('xeno-canto')) {
         question.audioPageUrl = remote
       }
-    } else if (primary) {
-      question.audioPageUrl = primary
-      question.audioEmbedUrl = xenoCantoEmbedUrl(primary)
     }
   }
 

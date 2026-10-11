@@ -6,6 +6,7 @@ import { resolveBrowse } from '../lib/browse'
 import { getBirdById } from '../lib/birds'
 import { orderAccent, orderMediaStyle } from '../lib/orders'
 import { resolveBirdImageUrl } from '../lib/media'
+import type { CoursePoint, SourceRef } from '../types/bird'
 
 export function BirdSheetPage() {
   const { slug = '' } = useParams()
@@ -51,11 +52,10 @@ export function BirdSheetPage() {
     (photoSource
       ? [photoSource.title, photoSource.note].filter(Boolean).join(' — ')
       : undefined)
-  const programSource = bird.sources.find((s) => s.id === bird.programSourceId)
-  const sourceLine = programSource
-    ? `Source identité : ${programSource.title}${programSource.id ? ` (${programSource.id})` : ''}`
-    : 'Source identité : liste BAC PRO TCVA'
   const posLabel = `${browse.index + 1} / ${browse.ids.length}`
+  const sections = bird.sheet.sections.filter((s) => s.text.trim().length > 0)
+  const localAudio = bird.audio?.find((a) => a.startsWith('/audio/'))
+  const sourceById = new Map(bird.sources.map((s) => [s.id, s]))
 
   return (
     <div
@@ -97,14 +97,39 @@ export function BirdSheetPage() {
       </div>
       <ul className="points">
         {bird.coursePoints.map((point) => (
-          <li key={`${point.level}-${point.text}`}>
-            <strong>[{point.level}]</strong>
-            {' — '}
-            {renderInlineMarkdown(point.text)}
-          </li>
+          <CoursePointItem
+            key={`${point.level}-${point.text}`}
+            point={point}
+            sourceById={sourceById}
+          />
         ))}
       </ul>
-      <p className="sources">{sourceLine}</p>
+      {localAudio ? (
+        <div className="sheet__audio">
+          <p className="sheet__audio-label">Écouter</p>
+          <audio controls preload="metadata" src={localAudio}>
+            Lecteur audio non supporté
+          </audio>
+        </div>
+      ) : null}
+      {sections.length > 0 ? (
+        <div className="sheet__sections">
+          {sections.map((section) => (
+            <section
+              key={`${section.label ?? 'section'}-${section.text.slice(0, 24)}`}
+              className="sheet__section"
+            >
+              {section.label ? <h4>{section.label}</h4> : null}
+              <p>{renderInlineMarkdown(section.text)}</p>
+              {section.sourceIds.length > 0 ? (
+                <p className="sheet__section-src">
+                  {formatSourceIds(section.sourceIds, sourceById)}
+                </p>
+              ) : null}
+            </section>
+          ))}
+        </div>
+      ) : null}
       {hasPhoto ? (
         <figure className="sheet__photo">
           <div className="sheet__photo-frame">
@@ -124,14 +149,74 @@ export function BirdSheetPage() {
           </figcaption>
         </figure>
       ) : null}
+      <SourcesBlock sources={bird.sources} />
     </div>
   )
 }
 
-/** Italiques markdown simples (*texte*) — pas de HTML inventé. */
+function CoursePointItem({
+  point,
+  sourceById,
+}: {
+  point: CoursePoint
+  sourceById: Map<string, SourceRef>
+}) {
+  const srcLine =
+    point.level === 'sourcé' ? formatSourceIds(point.sourceIds, sourceById) : ''
+
+  return (
+    <li>
+      <strong>[{point.level}]</strong>
+      {' — '}
+      {renderInlineMarkdown(point.text)}
+      {srcLine ? <span className="point__src">{srcLine}</span> : null}
+    </li>
+  )
+}
+
+function SourcesBlock({ sources }: { sources: SourceRef[] }) {
+  if (!sources.length) return null
+  return (
+    <div className="sheet__sources-block">
+      <h4>Sources</h4>
+      <ul>
+        {sources.map((source) => (
+          <li key={source.id}>
+            <span className="sheet__sources-id">{source.id}</span>
+            {' — '}
+            {source.url ? (
+              <a href={source.url} target="_blank" rel="noreferrer">
+                {source.title}
+              </a>
+            ) : (
+              source.title
+            )}
+            {source.note ? (
+              <span className="sheet__sources-note"> ({source.note})</span>
+            ) : null}
+          </li>
+        ))}
+      </ul>
+    </div>
+  )
+}
+
+function formatSourceIds(
+  ids: string[],
+  sourceById: Map<string, SourceRef>,
+): string {
+  if (!ids.length) return ''
+  const labels = ids.map((id) => sourceById.get(id)?.id ?? id)
+  return labels.join(' · ')
+}
+
+/** Gras / italiques markdown simples — pas de HTML inventé. */
 function renderInlineMarkdown(text: string) {
-  const parts = text.split(/(\*[^*]+\*)/g)
+  const parts = text.split(/(\*\*[^*]+\*\*|\*[^*]+\*)/g)
   return parts.map((part, index) => {
+    if (part.startsWith('**') && part.endsWith('**') && part.length > 4) {
+      return <strong key={index}>{part.slice(2, -2)}</strong>
+    }
     if (part.startsWith('*') && part.endsWith('*') && part.length > 2) {
       return <em key={index}>{part.slice(1, -1)}</em>
     }

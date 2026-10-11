@@ -47,10 +47,11 @@ Enregistrement XC1163939 (Zsombor Károlyi — CC BY-NC-SA 4.0) : https://xeno-c
 <!-- Aides à la mémorisation (pas un polycopié enseignant). -->
 
 - **[programme]** Bec d'argent ↔ *Lonchura cantans* ; Passériformes ; Estrildidés
-- **[programme]** BirdLife : *Euodice cantans* — distinct des *Lonchura malacca* / *striata*
+- **[sourcé]** BirdLife : *Euodice cantans* — distinct des *Lonchura malacca* / *striata*
 - **[sourcé]** Least Concern ; tendance stable ; EOO vaste
 - **[sourcé]** Non migrateur ; savane sèche et fourrés secs (majeurs)
 - **[sourcé]** Présent dans le commerce international d’animaux de compagnie
+
 
 ## Médias
 

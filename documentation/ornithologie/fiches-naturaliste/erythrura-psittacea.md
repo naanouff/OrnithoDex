@@ -46,10 +46,11 @@ Enregistrement XC40164 (Patrik Åberg — CC BY-NC-SA 3.0) : https://xeno-canto.
 <!-- Aides à la mémorisation (pas un polycopié enseignant). -->
 
 - **[programme]** Pape de Nouméa ↔ *Erythrura psittacea* ; Passériformes ; Estrildidés
-- **[programme]** Confusion : Gould / Kittlitz (*Erythrura*) — pape = **endémique Nouvelle-Calédonie**
+- **[programme]** Confusion : Gould / Kittlitz (*Erythrura*)
+- **[sourcé]** pape = **endémique Nouvelle-Calédonie**
 - **[sourcé]** Least Concern ; EOO petite (≈ 22 600 km²) ; tendance stable
-- **[sourcé]** Non migrateur ; forêt humide, fourrés, plantations
-- **[sourcé]** Commerce international d’animaux de compagnie signalé
+- **[sourcé]** Non migrateur ; forêt humide, fourrés, plantations ; Commerce international d’animaux de compagnie signalé
+
 
 ## Médias
 

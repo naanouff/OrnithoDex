@@ -47,10 +47,11 @@ Enregistrement XC1165783 (Jonathan Onongo — CC BY-NC-SA 4.0) : https://xeno-ca
 <!-- Aides à la mémorisation (pas un polycopié enseignant). -->
 
 - **[programme]** Nonnette / spermète ↔ *Lonchura cucullata* ; Passériformes ; Estrildidés
-- **[programme]** BirdLife : *Spermestes cucullata* — distincte des *Lonchura* asiatiques du lot
+- **[sourcé]** BirdLife : *Spermestes cucullata* — distincte des *Lonchura* asiatiques du lot
 - **[sourcé]** Least Concern ; EOO très vaste ; tendance stable
 - **[sourcé]** Non migratrice ; prairies, fourrés, forêts, cultures, zones humides
 - **[sourcé]** Fortement présente dans le commerce
+
 
 ## Médias
 

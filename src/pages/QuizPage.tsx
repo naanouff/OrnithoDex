@@ -17,6 +17,17 @@ function isQuizMode(value: string | undefined): value is QuizMode {
   return value === 'photo' || value === 'chant'
 }
 
+function contrastHint(question: QuizQuestion): string | undefined {
+  const contrast = question.bird.coursePoints.find(
+    (p) =>
+      p.level === 'programme' &&
+      /confusion|ne pas confondre|même genre|forme/i.test(p.text),
+  )
+  if (contrast) return contrast.text.replace(/\*\*/g, '')
+  const sourced = question.bird.coursePoints.find((p) => p.level === 'sourcé')
+  return sourced?.text.replace(/\*\*/g, '')
+}
+
 export function QuizPage() {
   const { mode: modeParam } = useParams()
   const mode = isQuizMode(modeParam) ? modeParam : null
@@ -67,6 +78,7 @@ export function QuizPage() {
   const hasPhoto =
     question?.mode === 'photo' &&
     Boolean(resolveBirdImageUrl(question.imageUrl ?? question.bird.image))
+  const hint = answered && question && !isCorrect ? contrastHint(question) : undefined
 
   function onPick(index: number) {
     if (!question || answered) return
@@ -114,26 +126,17 @@ export function QuizPage() {
         </div>
       ) : null}
 
-      {question?.mode === 'chant' && (question.audioUrl || question.audioEmbedUrl) ? (
+      {question?.mode === 'chant' && question.audioUrl ? (
         <div className="stimulus" style={{ background: orderMediaStyle(question.bird.order) }}>
-          {question.audioUrl ? (
-            <audio
-              key={question.audioUrl}
-              controls
-              preload="metadata"
-              src={question.audioUrl}
-              style={{ width: '90%', margin: 'auto' }}
-            >
-              Lecteur audio non supporté
-            </audio>
-          ) : (
-            <iframe
-              title="Enregistrement Xeno-canto"
-              src={question.audioEmbedUrl}
-              style={{ width: '100%', height: 140, border: 0 }}
-              loading="lazy"
-            />
-          )}
+          <audio
+            key={question.audioUrl}
+            controls
+            preload="metadata"
+            src={question.audioUrl}
+            style={{ width: '90%', margin: 'auto' }}
+          >
+            Lecteur audio non supporté
+          </audio>
         </div>
       ) : null}
 
@@ -174,10 +177,21 @@ export function QuizPage() {
           : ''}
       </p>
 
-      {answered ? (
-        <button type="button" className="btn btn--next" onClick={nextQuestion}>
-          Question suivante
-        </button>
+      {answered && question && !isCorrect && hint ? (
+        <p className="quiz-hint">{hint}</p>
+      ) : null}
+
+      {answered && question ? (
+        <div className="quiz-actions">
+          {!isCorrect ? (
+            <Link className="btn btn--ghost" to={`/espece/${question.bird.id}`}>
+              Revoir la fiche
+            </Link>
+          ) : null}
+          <button type="button" className="btn btn--next" onClick={nextQuestion}>
+            Question suivante
+          </button>
+        </div>
       ) : null}
     </section>
   )

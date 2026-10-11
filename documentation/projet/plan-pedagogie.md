@@ -102,6 +102,16 @@ Exemple de cible pour une fiche riche (ex. [coturnix-chinensis.md](../ornitholog
 - [x] Rédiger les points de cours des 85 fiches — lots 01–12 ([01](sprint-pedagogie-lot-01.md)–[12](sprint-pedagogie-lot-12.md)) + [pilote](sprint-pedagogie-pilote-12.md)
 - [x] Journal + README : clarifier que les points de cours compensent l’absence de polycopié sans le remplacer
 
+## Suite — remédiation post-v0.2.0
+
+Après livraison des points de cours et de l’app **0.2.0**, une analyse critique a montré des écarts (sources invisibles, étiquettes `programme`/`sourcé`, fiche sous-exploité, quiz limité au nom commun).
+
+| Document | Rôle |
+|----------|------|
+| [analyse-pedagogique-0.2.0.md](analyse-pedagogique-0.2.0.md) | Diagnostic |
+| [plan-remediation-pedagogie-0.3.md](plan-remediation-pedagogie-0.3.md) | Backlog P0 / P1 / P2 |
+| [sprint-remediation-pedagogie-0.3.md](sprint-remediation-pedagogie-0.3.md) | Premier sprint de correction |
+
 ## Documents liés
 
 | Document | Rôle |

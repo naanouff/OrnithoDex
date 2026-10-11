@@ -47,10 +47,11 @@ Enregistrement XC407796 (Frank Lambert — CC BY-NC-ND 4.0) : https://xeno-canto
 <!-- Aides à la mémorisation (pas un polycopié enseignant). -->
 
 - **[programme]** Diamant Mandarin ↔ *Taeniopygia guttata castanotis* ; Passériformes ; Estrildidés
-- **[programme]** BirdLife : *T. castanotis* (espèce) ≠ *T. guttata* (Timor) ; confusion Bichenow
+- **[sourcé]** BirdLife : *T. castanotis* (espèce) ≠ *T. guttata* (Timor) ; confusion Bichenow
 - **[sourcé]** Least Concern ; vaste Australie continentale ; tendance stable
 - **[sourcé]** Non migrateur ; cultures, urbain, savanes/fourrés secs
 - **[sourcé]** Très courant en animalerie ; commerce sauvage à faible prévalence
+
 
 ## Médias
 

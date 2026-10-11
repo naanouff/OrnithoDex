@@ -47,10 +47,11 @@ Enregistrement XC1074294 (Richard E. Webster — CC BY-NC-SA 4.0) : https://xeno
 <!-- Aides à la mémorisation (pas un polycopié enseignant). -->
 
 - **[programme]** Cacatoès blanc ↔ *Cacatua alba* ; Psittaciformes ; Cacatuides
-- **[programme]** Confusion : *C. galerita* (huppe jaune) — *alba* = entièrement blanc, **Endangered**
+- **[programme]** Confusion : *C. galerita*
+- **[sourcé]** *alba* = entièrement blanc, **Endangered**
 - **[sourcé]** EN ; endémique ; déclin (commerce + déforestation)
-- **[sourcé]** Forêt primaire / secondaire ; graines et fruits arboricoles
-- **[sourcé]** Non migrateur ; menace principale = capture pour la cage
+- **[sourcé]** Forêt primaire / secondaire ; graines et fruits arboricoles ; Non migrateur ; menace principale = capture pour la cage
+
 
 ## Médias
 

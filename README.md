@@ -19,6 +19,7 @@ Le cadrage et le plan complets sont dans [`documentation/`](documentation/) :
 - **[Plan du projet](documentation/projet/plan.md)** — feuille de route V1
 - **[Plan sources](documentation/projet/plan-sources.md)** — enrichissement des fiches (biologie + médias)
 - **[Plan pédagogie](documentation/projet/plan-pedagogie.md)** — cadre ingénieur pédagogue + points de cours
+- **[Analyse pédagogique 0.2.0](documentation/projet/analyse-pedagogique-0.2.0.md)** · [remédiation 0.3](documentation/projet/plan-remediation-pedagogie-0.3.md) · [sprint](documentation/projet/sprint-remediation-pedagogie-0.3.md)
 - **[Charte pédagogique](documentation/projet/pedagogie.md)** — objectifs, parcours, contrat points de cours (aides projet, pas polycopié enseignant)
 - **[Charte design](documentation/projet/design.md)** — DA logo, tokens, specs 4 écrans mobile
 - [Vision](documentation/projet/vision.md) · [Cahier des charges](documentation/projet/cahier-des-charges.md) · [Architecture](documentation/projet/architecture.md)
@@ -28,7 +29,7 @@ Le cadrage et le plan complets sont dans [`documentation/`](documentation/) :
 ## Statut
 
 Sources : méthode [plan-sources.md](documentation/projet/plan-sources.md) · sprints [01](documentation/projet/sprint-01-sources.md)–**[15](documentation/projet/sprint-15-sources.md)** — **85/85** fiches `complete` (biologie + médias) · suivi [suivi-sources.md](documentation/ornithologie/suivi-sources.md).  
-Points de cours : [charte](documentation/projet/pedagogie.md) · **[85/85](documentation/projet/plan-pedagogie.md)**. Design : [charte](documentation/projet/design.md) · [maquettes](documentation/projet/maquettes/).  
+Points de cours : [charte](documentation/projet/pedagogie.md) · **[85/85](documentation/projet/plan-pedagogie.md)**. Remédiation post-0.2.0 : [analyse](documentation/projet/analyse-pedagogique-0.2.0.md) · [sprint 0.3](documentation/projet/sprint-remediation-pedagogie-0.3.md). Design : [charte](documentation/projet/design.md) · [maquettes](documentation/projet/maquettes/).  
 App : **Vite / React / TypeScript / Tailwind** · dataset **85/85** · médias locaux (**85** images, **81** sons ; 4 XC restreints en embed) · Collection / fiche / quiz · CI · Vercel ([deploiement.md](documentation/projet/deploiement.md)).  
 Commandes : `npm run media:fetch` · `npm run data:birds`.
 

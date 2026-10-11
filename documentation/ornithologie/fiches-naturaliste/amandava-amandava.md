@@ -49,10 +49,11 @@ ADW : cris de localisation longs ; cris aigus d’alarme.
 <!-- Aides à la mémorisation (pas un polycopié enseignant). -->
 
 - **[programme]** Bengali de Bombay ↔ *Amandava amandava* ; Passériformes ; Estrildidés
-- **[programme]** Confusion : ventre orange (*A. subflava*) — même genre *Amandava*
+- **[sourcé]** Confusion : ventre orange (*A. subflava*) — même genre *Amandava*
 - **[sourcé]** Least Concern ; mâle nuptial rouge vif à points blancs
 - **[sourcé]** Dimorphisme fort en nuptial ; surtout granivore au sol
 - **[sourcé]** Social ; grands groupes hors reproduction ; non migrateur
+
 
 ## Médias
 

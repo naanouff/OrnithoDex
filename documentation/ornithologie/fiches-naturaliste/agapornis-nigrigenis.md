@@ -47,10 +47,11 @@ Enregistrement XC585260 (Dries Van de Loock — CC BY-NC-SA 4.0) : https://xeno-
 <!-- Aides à la mémorisation (pas un polycopié enseignant). -->
 
 - **[programme]** Inséparable nigrigenis ↔ *Agapornis nigrigenis* ; Psittaciformes ; Psittacidés
-- **[programme]** Confusion : *A. lilianae* — nigrigenis = **Vulnerable**, aire très restreinte (Zambie)
+- **[programme]** Confusion : *A. lilianae*
+- **[sourcé]** nigrigenis = **Vulnerable**, aire très restreinte (Zambie)
 - **[sourcé]** ≈ 8 000–11 500 matures ; EOO ≈ 19 800 km² ; en diminution
-- **[sourcé]** Bois à mopane avec eau permanente ; niche en cavités
-- **[sourcé]** Régime surtout graines (graminées / cultures) ; grands rassemblements en saison sèche
+- **[sourcé]** Bois à mopane avec eau permanente ; niche en cavités ; Régime surtout graines (graminées / cultures) ; grands rassemblements en saison sèche
+
 
 ## Médias
 
