@@ -3,6 +3,7 @@ import { birds } from '../data/birds'
 import { BirdCard } from '../components/BirdCard'
 import { setBrowseIds } from '../lib/browse'
 import { COLLECTION_ORDER_CHIPS } from '../lib/orders'
+import { foldSearch } from '../lib/text'
 
 const COLS_KEY = 'ornithodex.collection.cols'
 const COLS = [2, 3, 4] as const
@@ -36,25 +37,38 @@ function loadCols(): Cols {
 export function CollectionPage() {
   const [query, setQuery] = useState('')
   const [order, setOrder] = useState('all')
+  const [family, setFamily] = useState('all')
   const [cols, setCols] = useState<Cols>(loadCols)
   const [revealed, setRevealed] = useState(false)
   const readyRef = useRef(new Set<string>())
   const paintedRef = useRef(false)
 
+  const families = useMemo(() => {
+    const set = new Set<string>()
+    for (const bird of birds) {
+      if (order !== 'all' && bird.order !== order) continue
+      set.add(bird.family)
+    }
+    return [...set].sort((a, b) => a.localeCompare(b, 'fr'))
+  }, [order])
+
   const filtered = useMemo(() => {
-    const q = query.trim().toLowerCase()
+    const q = foldSearch(query.trim())
     return birds.filter((bird) => {
       const orderOk = order === 'all' || bird.order === order
       if (!orderOk) return false
+      const familyOk = family === 'all' || bird.family === family
+      if (!familyOk) return false
       if (!q) return true
       return (
-        bird.commonName.toLowerCase().includes(q) ||
-        bird.scientificName.toLowerCase().includes(q)
+        foldSearch(bird.commonName).includes(q) ||
+        foldSearch(bird.scientificName).includes(q)
       )
     })
-  }, [query, order])
+  }, [query, order, family])
 
-  const listKey = filtered.map((bird) => bird.id).join('|')
+  const firstRowCount = Math.min(filtered.length, cols)
+  const listKey = `${filtered.map((bird) => bird.id).join('|')}|${cols}`
   const [listStamp, setListStamp] = useState(listKey)
 
   if (listStamp !== listKey) {
@@ -66,20 +80,32 @@ export function CollectionPage() {
 
   function markReady(id: string) {
     readyRef.current.add(id)
-    if (paintedRef.current && readyRef.current.size >= filtered.length) {
+    const firstRowIds = filtered.slice(0, firstRowCount).map((b) => b.id)
+    const firstRowReady = firstRowIds.every((bid) => readyRef.current.has(bid))
+    if (paintedRef.current && (firstRowReady || readyRef.current.size >= filtered.length)) {
       setRevealed(true)
     }
   }
 
   useEffect(() => {
     paintedRef.current = true
-    if (filtered.length === 0 || readyRef.current.size >= filtered.length) {
+    const firstRowIds = filtered.slice(0, firstRowCount).map((b) => b.id)
+    const firstRowReady =
+      firstRowIds.length === 0 ||
+      firstRowIds.every((bid) => readyRef.current.has(bid))
+    if (filtered.length === 0 || firstRowReady) {
       setRevealed(true)
     }
     return () => {
       paintedRef.current = false
     }
-  }, [listStamp, filtered.length])
+  }, [listStamp, filtered, firstRowCount])
+
+  useEffect(() => {
+    if (family !== 'all' && !families.includes(family)) {
+      setFamily('all')
+    }
+  }, [families, family])
 
   function onCols(next: Cols) {
     setCols(next)
@@ -91,6 +117,11 @@ export function CollectionPage() {
     }
   }
 
+  function onOrder(next: string) {
+    setOrder(next || 'all')
+    setFamily('all')
+  }
+
   return (
     <section className="screen" aria-label="Collection">
       <header className="screen-head">
@@ -98,27 +129,33 @@ export function CollectionPage() {
           <h2>Collection</h2>
           <p>Tes cartes d’espèces — cherche et filtre</p>
         </div>
-        <label
-          htmlFor="search"
-          style={{
-            position: 'absolute',
-            width: 1,
-            height: 1,
-            overflow: 'hidden',
-            clip: 'rect(0,0,0,0)',
-          }}
-        >
+        <label htmlFor="search" className="sr-only">
           Rechercher
         </label>
-        <input
-          className="search"
-          id="search"
-          type="search"
-          value={query}
-          onChange={(e) => setQuery(e.target.value)}
-          placeholder="Nom commun ou latin…"
-          autoComplete="off"
-        />
+        <div className="search-wrap">
+          <input
+            className="search"
+            id="search"
+            type="search"
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+            placeholder="Nom commun ou latin…"
+            autoComplete="off"
+          />
+          {query ? (
+            <button
+              type="button"
+              className="search-clear"
+              aria-label="Effacer la recherche"
+              onClick={() => setQuery('')}
+            >
+              ×
+            </button>
+          ) : null}
+        </div>
+        <p className="collection-count" aria-live="polite">
+          {filtered.length} espèce{filtered.length === 1 ? '' : 's'}
+        </p>
         <div className="filter-row">
           <div className="filter-field">
             <label htmlFor="filter-order">Ordre</label>
@@ -127,7 +164,7 @@ export function CollectionPage() {
               id="filter-order"
               aria-label="Filtrer par ordre"
               value={order}
-              onChange={(e) => setOrder(e.target.value || 'all')}
+              onChange={(e) => onOrder(e.target.value || 'all')}
             >
               {COLLECTION_ORDER_CHIPS.map((chip) => (
                 <option key={chip.id} value={chip.id}>
@@ -141,6 +178,23 @@ export function CollectionPage() {
             <DensityButton cols={3} current={cols} onCols={onCols} />
             <DensityButton cols={4} current={cols} onCols={onCols} />
           </div>
+        </div>
+        <div className="filter-field">
+          <label htmlFor="filter-family">Famille</label>
+          <select
+            className="filter-select"
+            id="filter-family"
+            aria-label="Filtrer par famille"
+            value={family}
+            onChange={(e) => setFamily(e.target.value || 'all')}
+          >
+            <option value="all">Toutes les familles</option>
+            {families.map((name) => (
+              <option key={name} value={name}>
+                {name}
+              </option>
+            ))}
+          </select>
         </div>
       </header>
       <div
@@ -157,6 +211,7 @@ export function CollectionPage() {
               bird={bird}
               row={Math.floor(index / cols)}
               reveal={revealed}
+              loading={index < cols * 2 ? 'eager' : 'lazy'}
               onReady={() => markReady(bird.id)}
               onOpen={() => setBrowseIds(filtered.map((b) => b.id))}
             />

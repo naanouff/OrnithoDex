@@ -213,6 +213,7 @@ Flux : feature → `develop` → `release/x.y.z` → `main` → tag + Release �
 9. UI/UX équivalente à la maquette (zéro écart) — [plan](plan-ui-equiv-maquette.md) · [sprint](sprint-ui-equiv-maquette.md)
 10. Swipe entre fiches (sans retour Collection) — [plan](plan-swipe-fiches.md) · [sprint](sprint-swipe-fiches.md) *(intégré sur `feature/swipe-fiches`)*
 11. Densité Collection en `localStorage` — [sprint](sprint-cols-localstorage.md)
+12. Passe critique UI/UX / ergonomie (quiz → fiche → collection → séries) — [plan](plan-ui-ux-ergonomie.md) · [sprint](sprint-ui-ux-ergonomie.md)
 
 ## Critères de done V1
 
@@ -236,6 +237,7 @@ Flux : feature → `develop` → `release/x.y.z` → `main` → tag + Release �
 - [Plan prompts visuels](plan-prompts-visuels.md) — illustration / 3D / carte hémisphère
 - [Plan UI ≡ maquette](plan-ui-equiv-maquette.md) — porter le chrome Livrable B dans l’app
 - [Plan swipe fiches](plan-swipe-fiches.md) — parcours horizontal Collection filtrée
+- [Plan UI/UX ergonomie](plan-ui-ux-ergonomie.md) — passe critique 0.2.0 · [sprint](sprint-ui-ux-ergonomie.md)
 - [Charte design](design.md) — tokens, composants, specs écrans
 - [Vision](vision.md)
 - [Cahier des charges](cahier-des-charges.md)

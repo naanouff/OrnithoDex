@@ -1,16 +1,25 @@
-import { useCallback, useMemo, useRef } from 'react'
-import { Link, useNavigate, useParams } from 'react-router-dom'
+import { useCallback, useEffect, useMemo, useRef } from 'react'
+import { Link, useLocation, useNavigate, useParams } from 'react-router-dom'
 import { BirdImage } from '../components/BirdImage'
 import { useSheetBrowseSwipe } from '../hooks/useSheetBrowseSwipe'
 import { resolveBrowse } from '../lib/browse'
 import { getBirdById } from '../lib/birds'
 import { orderAccent, orderMediaStyle } from '../lib/orders'
 import { resolveBirdImageUrl } from '../lib/media'
+import { renderInlineMarkdown, shortSourceLabel } from '../lib/text'
 import type { CoursePoint, SourceRef } from '../types/bird'
+
+type LocationState = { from?: string }
 
 export function BirdSheetPage() {
   const { slug = '' } = useParams()
   const navigate = useNavigate()
+  const location = useLocation()
+  const from =
+    typeof (location.state as LocationState | null)?.from === 'string'
+      ? (location.state as LocationState).from
+      : undefined
+  const fromQuiz = Boolean(from?.startsWith('/entrainement/'))
   const sheetRef = useRef<HTMLDivElement>(null)
   const bird = getBirdById(slug)
   const browse = useMemo(() => resolveBrowse(slug), [slug])
@@ -24,18 +33,33 @@ export function BirdSheetPage() {
   }, [browse.nextId, navigate])
 
   useSheetBrowseSwipe(sheetRef, {
-    enabled: Boolean(bird),
+    enabled: Boolean(bird) && !fromQuiz,
     onPrev: goPrev,
     onNext: goNext,
     canPrev: Boolean(browse.prevId),
     canNext: Boolean(browse.nextId),
   })
 
+  useEffect(() => {
+    if (!bird || fromQuiz) return
+    function onKey(e: KeyboardEvent) {
+      if (e.key === 'ArrowLeft') {
+        e.preventDefault()
+        goPrev()
+      } else if (e.key === 'ArrowRight') {
+        e.preventDefault()
+        goNext()
+      }
+    }
+    window.addEventListener('keydown', onKey)
+    return () => window.removeEventListener('keydown', onKey)
+  }, [bird, fromQuiz, goPrev, goNext])
+
   if (!bird) {
     return (
       <div className="sheet" aria-hidden="false">
-        <Link to="/collection" className="sheet__back">
-          ← Collection
+        <Link to={from ?? '/collection'} className="sheet__back">
+          {fromQuiz ? '← Quiz' : '← Collection'}
         </Link>
         <p className="sources">Espèce introuvable.</p>
       </div>
@@ -64,12 +88,14 @@ export function BirdSheetPage() {
       aria-hidden="false"
       style={{ '--ordre': orderAccent(bird.order) } as React.CSSProperties}
     >
-      <Link to="/collection" className="sheet__back">
-        ← Collection
+      <Link to={from ?? '/collection'} className="sheet__back">
+        {fromQuiz ? '← Quiz' : '← Collection'}
       </Link>
-      <p className="sheet__pos" aria-label="Position dans la liste">
-        {posLabel}
-      </p>
+      {!fromQuiz ? (
+        <p className="sheet__pos" aria-label="Position dans la liste">
+          {posLabel}
+        </p>
+      ) : null}
       <p className="sheet__live" aria-live="polite">
         {bird.commonName}
       </p>
@@ -113,22 +139,25 @@ export function BirdSheetPage() {
         </div>
       ) : null}
       {sections.length > 0 ? (
-        <div className="sheet__sections">
-          {sections.map((section) => (
-            <section
-              key={`${section.label ?? 'section'}-${section.text.slice(0, 24)}`}
-              className="sheet__section"
-            >
-              {section.label ? <h4>{section.label}</h4> : null}
-              <p>{renderInlineMarkdown(section.text)}</p>
-              {section.sourceIds.length > 0 ? (
-                <p className="sheet__section-src">
-                  {formatSourceIds(section.sourceIds, sourceById)}
-                </p>
-              ) : null}
-            </section>
-          ))}
-        </div>
+        <details className="sheet__more">
+          <summary>En savoir plus</summary>
+          <div className="sheet__sections">
+            {sections.map((section) => (
+              <section
+                key={`${section.label ?? 'section'}-${section.text.slice(0, 24)}`}
+                className="sheet__section"
+              >
+                {section.label ? <h4>{section.label}</h4> : null}
+                <p>{renderInlineMarkdown(section.text)}</p>
+                {section.sourceIds.length > 0 ? (
+                  <p className="sheet__section-src">
+                    {formatSourceIds(section.sourceIds, sourceById)}
+                  </p>
+                ) : null}
+              </section>
+            ))}
+          </div>
+        </details>
       ) : null}
       {hasPhoto ? (
         <figure className="sheet__photo">
@@ -163,13 +192,30 @@ function CoursePointItem({
 }) {
   const srcLine =
     point.level === 'sourcé' ? formatSourceIds(point.sourceIds, sourceById) : ''
+  const badgeLabel = point.level === 'programme' ? 'Programme' : 'Sourcé'
+  const badgeClass =
+    point.level === 'programme' ? 'point__badge point__badge--programme' : 'point__badge point__badge--source'
 
   return (
     <li>
-      <strong>[{point.level}]</strong>
-      {' — '}
-      {renderInlineMarkdown(point.text)}
-      {srcLine ? <span className="point__src">{srcLine}</span> : null}
+      <span className={badgeClass} title={badgeLabel}>
+        <span className="sr-only">{badgeLabel}</span>
+        {point.level === 'programme' ? (
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true">
+            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
+            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" />
+          </svg>
+        ) : (
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true">
+            <circle cx="11" cy="11" r="7" />
+            <path d="m20 20-3.5-3.5" />
+          </svg>
+        )}
+      </span>
+      <span className="point__body">
+        {renderInlineMarkdown(point.text)}
+        {srcLine ? <span className="point__src">{srcLine}</span> : null}
+      </span>
     </li>
   )
 }
@@ -182,7 +228,9 @@ function SourcesBlock({ sources }: { sources: SourceRef[] }) {
       <ul>
         {sources.map((source) => (
           <li key={source.id}>
-            <span className="sheet__sources-id">{source.id}</span>
+            <span className="sheet__sources-id">
+              {shortSourceLabel(source, source.id)}
+            </span>
             {' — '}
             {source.url ? (
               <a href={source.url} target="_blank" rel="noreferrer">
@@ -206,20 +254,6 @@ function formatSourceIds(
   sourceById: Map<string, SourceRef>,
 ): string {
   if (!ids.length) return ''
-  const labels = ids.map((id) => sourceById.get(id)?.id ?? id)
-  return labels.join(' · ')
-}
-
-/** Gras / italiques markdown simples — pas de HTML inventé. */
-function renderInlineMarkdown(text: string) {
-  const parts = text.split(/(\*\*[^*]+\*\*|\*[^*]+\*)/g)
-  return parts.map((part, index) => {
-    if (part.startsWith('**') && part.endsWith('**') && part.length > 4) {
-      return <strong key={index}>{part.slice(2, -2)}</strong>
-    }
-    if (part.startsWith('*') && part.endsWith('*') && part.length > 2) {
-      return <em key={index}>{part.slice(1, -1)}</em>
-    }
-    return <span key={index}>{part}</span>
-  })
+  const labels = ids.map((id) => shortSourceLabel(sourceById.get(id), id))
+  return [...new Set(labels)].join(' · ')
 }

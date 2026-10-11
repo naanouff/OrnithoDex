@@ -143,15 +143,17 @@ Pastilles / filtres stables — une couleur par ordre du programme :
   - Parcours = liste filtrée Collection
   - Indicateur discret `n / N` (position dans la liste filtrée)
   - **Pas** de libellé « Glisser », ni boutons prev/next
-  - Retour « ← Collection » inchangé
+  - Retour « ← Collection » inchangé (sauf arrivée depuis quiz → « ← Quiz », [plan-ui-ux-ergonomie.md](plan-ui-ux-ergonomie.md))
+  - Flèches clavier ← → : *prévu* sprint UI/UX (pas de chrome visible)
 
 ### Quiz (photo → nom ; chant → espèce)
 
 - **Job** : s’entraîner
-- Stimulus (**photo** sourcée ou lecteur audio) — pas l’illustration de collection
+- Stimulus (**photo** sourcée ou lecteur audio) — pas l’illustration de collection ; **ne pas écraser** après feedback
 - 4 réponses empilées
-- Feedback immédiat + score discret
+- Feedback immédiat + score discret ; indice = contraste sourcé uniquement (ou rien)
 - Pas de question si média / fait absent ([pedagogie.md](pedagogie.md))
+- Séries + bilan : [plan-ui-ux-ergonomie.md](plan-ui-ux-ergonomie.md)
 
 ## Motion (présence, pas bruit)
 
@@ -184,6 +186,7 @@ Logo dans les captures : **JPG** versionné (SVG en cours d’amélioration — 
 | [plan-design.md](plan-design.md) | Plan d’exécution charte → maquettes |
 | [plan-ui-equiv-maquette.md](plan-ui-equiv-maquette.md) | Porter le chrome maquette dans l’app |
 | [plan-swipe-fiches.md](plan-swipe-fiches.md) | Swipe entre fiches (maquette → app) |
+| [plan-ui-ux-ergonomie.md](plan-ui-ux-ergonomie.md) | Passe critique UI/UX / ergonomie |
 | [plan.md](plan.md) | Feuille de route V1 + UI/UX |
 | [pedagogie.md](pedagogie.md) | Charge cognitive / points de cours |
 | [cahier-des-charges.md](cahier-des-charges.md) | Specs fonctionnelles |

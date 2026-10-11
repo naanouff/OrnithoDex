@@ -17,6 +17,8 @@ export type QuizQuestion = {
   audioPageUrl?: string
 }
 
+export type SeriesSize = 10 | 20
+
 const SCORE_KEY = 'ornithodex.quiz.score'
 
 export type QuizScore = {
@@ -57,6 +59,12 @@ export function resetQuizScore(): void {
   localStorage.removeItem(SCORE_KEY)
 }
 
+export function parseSeriesSize(raw: string | null): SeriesSize | null {
+  if (raw === '10') return 10
+  if (raw === '20') return 20
+  return null
+}
+
 export function xenoCantoEmbedUrl(pageUrl: string): string | undefined {
   const m = pageUrl.match(/xeno-canto\.org\/(\d+)/i)
   if (!m) return undefined
@@ -81,20 +89,33 @@ export function birdsForMode(mode: QuizMode): Bird[] {
 
 export function buildQuestion(
   mode: QuizMode,
-  excludeId?: string,
+  excludeIds: string[] = [],
 ): QuizQuestion | null {
-  const pool = birdsForMode(mode).filter((bird) => bird.id !== excludeId)
-  if (pool.length < 4) return null
+  const excluded = new Set(excludeIds)
+  const pool = birdsForMode(mode).filter((bird) => !excluded.has(bird.id))
+  if (pool.length < 4) {
+    /* Fin de série : trop peu d’espèces restantes pour 4 choix. */
+    const fallback = birdsForMode(mode).filter((bird) => !excluded.has(bird.id))
+    if (fallback.length === 0) return null
+    /* Si < 4 restantes mais encore des oiseaux : élargir distracteurs hors exclusion. */
+    if (pool.length < 1) return null
+  }
 
-  const bird = pool[Math.floor(Math.random() * pool.length)]
-  const sameOrder = pool.filter(
-    (candidate) => candidate.order === bird.order && candidate.id !== bird.id,
-  )
-  const others = pool.filter((candidate) => candidate.id !== bird.id)
+  const pickPool =
+    pool.length >= 4
+      ? pool
+      : birdsForMode(mode).filter((bird) => !excluded.has(bird.id))
+  if (pickPool.length < 1) return null
+
+  const bird = pickPool[Math.floor(Math.random() * pickPool.length)]!
+  const distractorPool = birdsForMode(mode).filter((candidate) => candidate.id !== bird.id)
+
+  const sameOrder = distractorPool.filter((candidate) => candidate.order === bird.order)
+  const others = distractorPool.filter((candidate) => candidate.order !== bird.order)
 
   const distractorSource = [
     ...shuffleInPlace([...sameOrder]),
-    ...shuffleInPlace([...others.filter((b) => b.order !== bird.order)]),
+    ...shuffleInPlace([...others]),
   ]
   const distractors: Bird[] = []
   for (const candidate of distractorSource) {
