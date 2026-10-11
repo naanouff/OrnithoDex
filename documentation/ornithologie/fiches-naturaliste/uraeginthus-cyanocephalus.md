@@ -46,10 +46,11 @@ Enregistrement XC1030357 (Martin Tlustos — CC BY-NC-SA 4.0) : https://xeno-can
 <!-- Aides à la mémorisation (pas un polycopié enseignant). -->
 
 - **[programme]** Cap bleu ↔ *Uraeginthus cyanocephalus* ; Passériformes ; Estrildidés
-- **[programme]** Confusion : cordon bleu (*U. bengalus*) — cap bleu = déserts / fourrés plus arides
+- **[programme]** Confusion : cordon bleu (*U. bengalus*)
+- **[sourcé]** cap bleu = déserts / fourrés plus arides
 - **[sourcé]** Least Concern ; EOO plus restreinte (≈ 1,7 M km²) ; tendance stable
-- **[sourcé]** Non migrateur ; déserts chauds, prairies et fourrés secs
-- **[sourcé]** Présent dans le commerce d’animaux de compagnie
+- **[sourcé]** Non migrateur ; déserts chauds, prairies et fourrés secs ; Présent dans le commerce d’animaux de compagnie
+
 
 ## Médias
 

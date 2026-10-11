@@ -47,10 +47,11 @@ Enregistrement XC469496 (Bram Piot — CC BY-NC-SA 4.0) : https://xeno-canto.org
 <!-- Aides à la mémorisation (pas un polycopié enseignant). -->
 
 - **[programme]** Chanteur d'Afrique ↔ *Serinus leucopygius* ; Passériformes ; **Fringillidés**
-- **[programme]** Confusion : autres *Serinus* du programme — BirdLife *Crithagra leucopygia*
+- **[programme]** Confusion : autres *Serinus* du programme
+- **[sourcé]** BirdLife *Crithagra leucopygia*
 - **[sourcé]** Least Concern ; tendance stable ; savane sèche (majeur)
-- **[sourcé]** Non migrateur ; aussi jardins, pâturages, cultures
-- **[sourcé]** Commerce signalé à forte prévalence
+- **[sourcé]** Non migrateur ; aussi jardins, pâturages, cultures ; Commerce signalé à forte prévalence
+
 
 ## Médias
 

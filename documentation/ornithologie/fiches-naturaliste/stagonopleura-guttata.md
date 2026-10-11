@@ -46,10 +46,11 @@ Enregistrement XC576505 (Marc Anderson — CC BY-NC-ND 4.0) : https://xeno-canto
 <!-- Aides à la mémorisation (pas un polycopié enseignant). -->
 
 - **[programme]** Diamant à gouttelettes ↔ *Stagonopleura guttata* ; Passériformes ; Estrildidés
-- **[programme]** Genre seul dans le programme — **Vulnerable**, ne pas confondre avec *Neochmia* LC
+- **[programme]** Genre seul dans le programme
+- **[sourcé]** **Vulnerable**, ne pas confondre avec *Neochmia* LC
 - **[sourcé]** VU ; 68 000–272 000 matures ; tendance en diminution
-- **[sourcé]** Endémique Australie ; prairies et savanes sèches (majeur)
-- **[sourcé]** Déclins liés au défrichement / dégradation d’habitats
+- **[sourcé]** Endémique Australie ; prairies et savanes sèches (majeur) ; Déclins liés au défrichement / dégradation d’habitats
+
 
 ## Médias
 

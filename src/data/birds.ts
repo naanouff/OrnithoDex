@@ -22,41 +22,47 @@ export const birds: Bird[] = [
           "sourceIds": [
             "birdlife-agapornis-fischeri",
             "adw-agapornis-fischeri"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "Sexes semblables (plumage).",
           "sourceIds": [
             "adw-agapornis-fischeri"
-          ]
+          ],
+          "label": "Dimorphisme"
         },
         {
           "text": "Bois semi-arides à *Acacia*, *Adansonia*, *Commiphora* (1 100–2 200 m) ; savane à palmiers, cultures, forêt riveraine en saison sèche ; savane sèche (major).",
           "sourceIds": [
             "birdlife-agapornis-fischeri",
             "adw-agapornis-fischeri"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "Surtout granivore (têtes de graines et sol) ; aussi graines d’*Acacia* en arbre ; fruits (petites figues) ; boit quotidiennement.",
           "sourceIds": [
             "birdlife-agapornis-fischeri",
             "adw-agapornis-fischeri"
-          ]
+          ],
+          "label": "Régime"
         },
         {
           "text": "Non migrateur. Groupes serrés (10–20 à plusieurs centaines) ; couples à vie ; hybridation possible avec *A. personatus*.",
           "sourceIds": [
             "birdlife-agapornis-fischeri",
             "adw-agapornis-fischeri"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC947900 (Peter Boesman — CC BY-NC-ND 4.0) : https://xeno-canto.org/947900 ADW : séries de gazouillis aigus et forts.",
           "sourceIds": [
             "media-agapornis-fischeri-audio",
             "adw-agapornis-fischeri"
-          ]
+          ],
+          "label": "Chant"
         }
       ]
     },
@@ -70,9 +76,17 @@ export const birds: Bird[] = [
       },
       {
         "level": "programme",
-        "text": "Confusion : *A. personatus* (tête noire) — Fischer = face **orange**, anneau oculaire blanc",
+        "text": "Confusion : *A. personatus*",
         "sourceIds": [
           "bac-pro-tcva-liste"
+        ]
+      },
+      {
+        "level": "sourcé",
+        "text": "Fischer = face **orange**, anneau oculaire blanc",
+        "sourceIds": [
+          "birdlife-agapornis-fischeri",
+          "adw-agapornis-fischeri"
         ]
       },
       {
@@ -85,15 +99,7 @@ export const birds: Bird[] = [
       },
       {
         "level": "sourcé",
-        "text": "Sexes semblables ; granivore ; groupes serrés",
-        "sourceIds": [
-          "birdlife-agapornis-fischeri",
-          "adw-agapornis-fischeri"
-        ]
-      },
-      {
-        "level": "sourcé",
-        "text": "Hybridation possible avec *A. personatus*",
+        "text": "Sexes semblables ; granivore ; groupes serrés ; Hybridation possible avec *A. personatus*",
         "sourceIds": [
           "birdlife-agapornis-fischeri",
           "adw-agapornis-fischeri"
@@ -176,19 +182,22 @@ export const birds: Bird[] = [
           "text": "Évalué **Near Threatened** (2018 ; C1). EOO ≈ 539 000 km² ; ≈ 6 000–15 000 individus matures ; tendance **en diminution**. Vallée du Zambèze (Mozambique, Zimbabwe), Luangwa (Zambie, Tanzanie sud), Shire (Malawi).",
           "sourceIds": [
             "birdlife-agapornis-lilianae"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "`na` — non décrit dans la fiche BirdLife consultée.",
           "sourceIds": [
             "birdlife-agapornis-lilianae"
-          ]
+          ],
+          "label": "Dimorphisme"
         },
         {
           "text": "Forte association au mopane (*Colophospermum mopane*) au sud ; aussi *Acacia* sur alluvions, forêt riveraine, figuiers au nord ; à Liwonde (Malawi) surtout prairies humides. Habitats : savane sèche (major), forêts sèches et humides de basse altitude, cultures (suitable).",
           "sourceIds": [
             "birdlife-agapornis-lilianae"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "Graines de graminées (*Hyparrhenia*, mil, riz sauvage *Oryza perennis*) ; aussi fleurs, graines et fruits d’autres plantes.",
@@ -197,17 +206,20 @@ export const birds: Bird[] = [
             "al. 1997",
             "Mzumara",
             "al. 2014)"
-          ]
+          ],
+          "label": "Régime"
         },
         {
           "text": "Non migrateur. Nid couvert dans crevasses de mopane ; reproduction janvier–mars et juin–juillet (Zambie). Menaces : capture pour le commerce, inondations de barrages, statut de ravageur agricole.",
           "sourceIds": [
             "birdlife-agapornis-lilianae"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC933097 (Magnus Wadstein — CC BY-NC-SA 4.0) : https://xeno-canto.org/933097",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Chant"
         }
       ]
     },
@@ -220,10 +232,10 @@ export const birds: Bird[] = [
         ]
       },
       {
-        "level": "programme",
+        "level": "sourcé",
         "text": "Confusion : *A. nigrigenis* (aussi mopane / Zambèze) — Liliane = NT, aire plus large",
         "sourceIds": [
-          "bac-pro-tcva-liste"
+          "birdlife-agapornis-lilianae"
         ]
       },
       {
@@ -316,36 +328,42 @@ export const birds: Bird[] = [
           "text": "Évalué **Vulnerable** (évaluation BirdLife 2025). EOO ≈ 19 800 km² ; ≈ 8 000–11 500 individus matures ; tendance **en diminution**. Distribution patchy sud-ouest Zambie (entre Kafue et Zambèze). Non migrateur ; 600–1 000 m.",
           "sourceIds": [
             "birdlife-agapornis-nigrigenis"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "`na` — non décrit dans la fiche BirdLife consultée.",
           "sourceIds": [
             "birdlife-agapornis-nigrigenis"
-          ]
+          ],
+          "label": "Dimorphisme"
         },
         {
           "text": "Bois décidus à mopane (*Colophospermum*) avec eau de surface permanente ; déplacements vers végétation riveraine et cultures pour s’alimenter et boire ; boit deux fois par jour. Habitats : forêt sèche et cultures (major).",
           "sourceIds": [
             "birdlife-agapornis-nigrigenis"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "Surtout graines de graminées annuelles et d’herbes, graines de cultures (mil, sorgho) ; aussi invertébrés, feuilles, fleurs, nectar, écorce, lichen, résine et sol.",
           "sourceIds": [
             "birdlife-agapornis-nigrigenis (citant Dodman",
             "Warburton & Perrin)"
-          ]
+          ],
+          "label": "Régime"
         },
         {
           "text": "En saison sèche, rassemblements jusqu’à 800+ individus ; évite points d’eau régulièrement dérangés ; niche en cavités de mopanes matures (janvier–mai) ; dortoirs en cavités naturelles.",
           "sourceIds": [
             "birdlife-agapornis-nigrigenis"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC585260 (Dries Van de Loock — CC BY-NC-SA 4.0) : https://xeno-canto.org/585260",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Chant"
         }
       ]
     },
@@ -359,9 +377,16 @@ export const birds: Bird[] = [
       },
       {
         "level": "programme",
-        "text": "Confusion : *A. lilianae* — nigrigenis = **Vulnerable**, aire très restreinte (Zambie)",
+        "text": "Confusion : *A. lilianae*",
         "sourceIds": [
           "bac-pro-tcva-liste"
+        ]
+      },
+      {
+        "level": "sourcé",
+        "text": "nigrigenis = **Vulnerable**, aire très restreinte (Zambie)",
+        "sourceIds": [
+          "birdlife-agapornis-nigrigenis"
         ]
       },
       {
@@ -373,14 +398,7 @@ export const birds: Bird[] = [
       },
       {
         "level": "sourcé",
-        "text": "Bois à mopane avec eau permanente ; niche en cavités",
-        "sourceIds": [
-          "birdlife-agapornis-nigrigenis"
-        ]
-      },
-      {
-        "level": "sourcé",
-        "text": "Régime surtout graines (graminées / cultures) ; grands rassemblements en saison sèche",
+        "text": "Bois à mopane avec eau permanente ; niche en cavités ; Régime surtout graines (graminées / cultures) ; grands rassemblements en saison sèche",
         "sourceIds": [
           "birdlife-agapornis-nigrigenis"
         ]
@@ -445,36 +463,42 @@ export const birds: Bird[] = [
           "text": "Évalué **Least Concern** (2018). Endémique nicheur Tanzanie ; EOO ≈ 226 000 km² ; localement commun ; tendance **stable**. Non migrateur. Elevation typique 1 100–1 800 m.",
           "sourceIds": [
             "birdlife-agapornis-personatus"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "`na` — non décrit dans la fiche BirdLife consultée.",
           "sourceIds": [
             "birdlife-agapornis-personatus"
-          ]
+          ],
+          "label": "Dimorphisme"
         },
         {
           "text": "Savane sèche (major).",
           "sourceIds": [
             "birdlife-agapornis-personatus"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "`na` — non détaillé dans la fiche BirdLife consultée.",
           "sourceIds": [
             "birdlife-agapornis-personatus"
-          ]
+          ],
+          "label": "Régime"
         },
         {
           "text": "Non migrateur ; population suspectée stable. Hybridation avec *A. fischeri* documentée (populations sauvages / échappés).",
           "sourceIds": [
             "birdlife-agapornis-personatus",
             "birdlife-agapornis-fischeri"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC509849 (Peter Boesman — CC BY-NC-ND 4.0) : https://xeno-canto.org/509849",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Chant"
         }
       ]
     },
@@ -488,9 +512,17 @@ export const birds: Bird[] = [
       },
       {
         "level": "programme",
-        "text": "Confusion : *A. fischeri* — personatus = tête **noire** (masque)",
+        "text": "Confusion : *A. fischeri*",
         "sourceIds": [
           "bac-pro-tcva-liste"
+        ]
+      },
+      {
+        "level": "sourcé",
+        "text": "personatus = tête **noire** (masque)",
+        "sourceIds": [
+          "birdlife-agapornis-personatus",
+          "birdlife-agapornis-fischeri"
         ]
       },
       {
@@ -503,15 +535,7 @@ export const birds: Bird[] = [
       },
       {
         "level": "sourcé",
-        "text": "Savane sèche ; non migrateur",
-        "sourceIds": [
-          "birdlife-agapornis-personatus",
-          "birdlife-agapornis-fischeri"
-        ]
-      },
-      {
-        "level": "sourcé",
-        "text": "Hybridation documentée avec *A. fischeri*",
+        "text": "Savane sèche ; non migrateur ; Hybridation documentée avec *A. fischeri*",
         "sourceIds": [
           "birdlife-agapornis-personatus",
           "birdlife-agapornis-fischeri"
@@ -595,40 +619,46 @@ export const birds: Bird[] = [
           "sourceIds": [
             "birdlife-agapornis-roseicollis",
             "adw-agapornis-roseicollis"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "Faible : femelle un peu plus grande et plumage légèrement plus terne ; mâle un peu plus coloré.",
           "sourceIds": [
             "adw-agapornis-roseicollis"
-          ]
+          ],
+          "label": "Dimorphisme"
         },
         {
           "text": "BirdLife : savane sèche (major), fourrés secs, zones rocheuses (suitable). ADW : régions sèches près d’eau permanente, lisières désertiques et boisements clairsemés, 0–1 500 m.",
           "sourceIds": [
             "birdlife-agapornis-roseicollis",
             "adw-agapornis-roseicollis"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "Surtout graines (*Albizia*, *Acacia*, etc.) au sol ou sur plantes ; aussi fleurs (pétales, étamines) ; boit plusieurs fois par jour.",
           "sourceIds": [
             "adw-agapornis-roseicollis"
-          ]
+          ],
+          "label": "Régime"
         },
         {
           "text": "Non migrateur. Très social : groupes typiques 5–20, parfois ≈ 100 ; diurne ; dort dans nids de tisserins ; couples monogames précoces.",
           "sourceIds": [
             "birdlife-agapornis-roseicollis",
             "adw-agapornis-roseicollis"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC1101865 (African Bioacoustics Community — CC BY-NC-SA 4.0) : https://xeno-canto.org/1101865 ADW : cris aigus / séries de cris ; frottement de mandibules.",
           "sourceIds": [
             "media-agapornis-roseicollis-audio",
             "adw-agapornis-roseicollis"
-          ]
+          ],
+          "label": "Chant"
         }
       ]
     },
@@ -642,9 +672,17 @@ export const birds: Bird[] = [
       },
       {
         "level": "programme",
-        "text": "Confusion : autres *Agapornis* du programme — repère = face / poitrine **rose**",
+        "text": "Confusion : autres *Agapornis* du programme",
         "sourceIds": [
           "bac-pro-tcva-liste"
+        ]
+      },
+      {
+        "level": "sourcé",
+        "text": "repère = face / poitrine **rose**",
+        "sourceIds": [
+          "birdlife-agapornis-roseicollis",
+          "adw-agapornis-roseicollis"
         ]
       },
       {
@@ -657,15 +695,7 @@ export const birds: Bird[] = [
       },
       {
         "level": "sourcé",
-        "text": "Savane sèche près de l’eau ; surtout graines ; boit souvent",
-        "sourceIds": [
-          "birdlife-agapornis-roseicollis",
-          "adw-agapornis-roseicollis"
-        ]
-      },
-      {
-        "level": "sourcé",
-        "text": "Très social (groupes) ; couples monogames ; dimorphisme faible",
+        "text": "Savane sèche près de l’eau ; surtout graines ; boit souvent ; Très social (groupes) ; couples monogames ; dimorphisme faible",
         "sourceIds": [
           "birdlife-agapornis-roseicollis",
           "adw-agapornis-roseicollis"
@@ -751,37 +781,43 @@ export const birds: Bird[] = [
           "text": "Évalué **Least Concern** (2018). Migrateur complet. Population globale estimée ≈ 65 000–66 000 individus ; tendance **en diminution**. Aires natives Asie de l’Est ; populations introduites en Europe.",
           "sourceIds": [
             "birdlife-aix-galericulata"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "Mâle en plumage complet : paire de plumes « voiles » dressées verticalement au-dessus du dos, crête orange et crème, large bandeau oculaire blanc bordé au-dessus et au-dessous par des plumes plus sombres. Femelle plus terne, aspect général gris, trait blanc courbe derrière l’œil, taches blanches sur les parties inférieures. En vol, les deux sexes montrent un speculum irisé bleu-vert.",
           "sourceIds": [
             "adw-aix-galericulata"
-          ]
+          ],
+          "label": "Dimorphisme"
         },
         {
           "text": "Forêts tempérées et lacs d’eau douce (majeurs, BirdLife) ; ADW : étangs boisés et cours d’eau rocheux rapides en Chine/Japon.",
           "sourceIds": [
             "birdlife-aix-galericulata",
             "adw-aix-galericulata"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "Plantes aquatiques, riz et autres grains.",
           "sourceIds": [
             "adw-aix-galericulata"
-          ]
+          ],
+          "label": "Régime"
         },
         {
           "text": "Migrateur en Extrême-Orient ; certaines populations britanniques sédentaires, d’autres capables de longs vols. Nidiation en cavité d’arbre ; parade nuptiale élaborée (ADW).",
           "sourceIds": [
             "adw-aix-galericulata",
             "birdlife-aix-galericulata (statut migrateur)"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC1137635 (Simon Gillings — CC BY-NC-SA 4.0) : https://xeno-canto.org/1137635",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Chant"
         }
       ]
     },
@@ -905,36 +941,42 @@ export const birds: Bird[] = [
           "text": "Évalué **Least Concern** (2021). Migrateur complet. Population ≈ 4 600 000 individus matures ; tendance **en augmentation**.",
           "sourceIds": [
             "birdlife-aix-sponsa"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "Fort : mâle à tête irisée vert/bleu/violet, poitrine rouille, flancs bronze ; femelle brun-gris avec anneau oculaire blanc.",
           "sourceIds": [
             "adw-aix-sponsa"
-          ]
+          ],
+          "label": "Dimorphisme"
         },
         {
           "text": "Forêts tempérées et lacs (majeurs, BirdLife) ; ADW : zones boisées le long de lacs, rivières, étangs et zones humides ; cavités de nidification près de l’eau.",
           "sourceIds": [
             "birdlife-aix-sponsa",
             "adw-aix-sponsa"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "Omnivore : glands, noix, graines, plantes aquatiques, insectes et autres invertébrés.",
           "sourceIds": [
             "adw-aix-sponsa"
-          ]
+          ],
+          "label": "Régime"
         },
         {
           "text": "Diurne, social ; marche, nage et vol ; monogamie sérielle ; nid en cavité ; femelle seule élève les jeunes.",
           "sourceIds": [
             "adw-aix-sponsa"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC1173163 (Don Profota — CC BY-NC-SA 4.0) : https://xeno-canto.org/1173163",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Chant"
         }
       ]
     },
@@ -1044,54 +1086,60 @@ export const birds: Bird[] = [
           "text": "Évalué **Least Concern** (2024). EOO ≈ 23 900 000 km² ; population non quantifiée, commune ou localement commune (Clement 1999 *via* BirdLife) ; tendance **stable**. Altitude 0–2 150 m. Commerce d’oiseaux signalé à prévalence élevée (Donald *et al.* 2024 *via* BirdLife).",
           "sourceIds": [
             "birdlife-amadina-fasciata"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "*Non détaillé dans les sources consultées (BirdLife).*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Dimorphisme"
         },
         {
           "text": "Non migrateur. Savane sèche (majeur) ; prairies et fourrés secs (adaptés).",
           "sourceIds": [
             "birdlife-amadina-fasciata"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "*Non détaillé dans les sources consultées (BirdLife).*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Régime"
         },
         {
           "text": "Non migrateur.",
           "sourceIds": [
             "birdlife-amadina-fasciata"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC509854 (Peter Boesman — CC BY-NC-ND 4.0) : https://xeno-canto.org/509854",
           "sourceIds": [
             "media-amadina-fasciata-audio"
-          ]
+          ],
+          "label": "Chant"
         }
       ]
     },
     "coursePoints": [
       {
         "level": "programme",
-        "text": "Cou coupé ↔ *Amadina fasciata* ; Passériformes ; **Estrildidés**",
+        "text": "Cou coupé ↔ *Amadina fasciata* ; Passériformes ; Estrildidés",
         "sourceIds": [
           "bac-pro-tcva-liste"
         ]
       },
       {
         "level": "programme",
-        "text": "Entrée Estrildidés — distinct des Plocéidés (*Ploceus*, *Euplectes*)",
+        "text": "Estrildidé — distinct des Ploceidae (*Ploceus*, *Euplectes*) du programme",
         "sourceIds": [
           "bac-pro-tcva-liste"
         ]
       },
       {
         "level": "sourcé",
-        "text": "Least Concern ; tendance stable ; savane sèche (majeur)",
+        "text": "Préoccupation mineure ; tendance stable ; savane sèche (majeur)",
         "sourceIds": [
           "birdlife-amadina-fasciata"
         ]
@@ -1171,40 +1219,46 @@ export const birds: Bird[] = [
           "sourceIds": [
             "birdlife-amandava-amandava",
             "adw-amandava-amandava"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "Mâle nuptial plus coloré (rouge intense) ; femelle et mâle hors nuptial plus bruns / jaunâtres.",
           "sourceIds": [
             "adw-amandava-amandava"
-          ]
+          ],
+          "label": "Dimorphisme"
         },
         {
           "text": "Non migrateur. Prairies et zones herbeuses, fourrés humides, marais, cultures, plantations, forêts humides de basse altitude.",
           "sourceIds": [
             "birdlife-amandava-amandava",
             "adw-amandava-amandava"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "Surtout granivore (graines au sol) ; insectes (larves, chenilles…) pour nourrir les jeunes.",
           "sourceIds": [
             "adw-amandava-amandava"
-          ]
+          ],
+          "label": "Régime"
         },
         {
           "text": "Sédentaire et social ; grands groupes hors reproduction (jusqu’à ~100) ; diurne ; monogame saisonnier.",
           "sourceIds": [
             "birdlife-amandava-amandava",
             "adw-amandava-amandava"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC698326 (Ding Li Yong — CC BY-NC-ND 4.0) : https://xeno-canto.org/698326 ADW : cris de localisation longs ; cris aigus d’alarme.",
           "sourceIds": [
             "media-amandava-amandava-audio",
             "adw-amandava-amandava"
-          ]
+          ],
+          "label": "Chant"
         }
       ]
     },
@@ -1217,10 +1271,11 @@ export const birds: Bird[] = [
         ]
       },
       {
-        "level": "programme",
+        "level": "sourcé",
         "text": "Confusion : ventre orange (*A. subflava*) — même genre *Amandava*",
         "sourceIds": [
-          "bac-pro-tcva-liste"
+          "birdlife-amandava-amandava",
+          "adw-amandava-amandava"
         ]
       },
       {
@@ -1314,33 +1369,39 @@ export const birds: Bird[] = [
           "text": "Évalué **Least Concern** (2018). EOO ≈ 20 800 000 km² ; population non quantifiée, décrite comme peu commune, parfois localement ou saisonnièrement commune (Clement 1999 *via* BirdLife) ; tendance **stable**. Altitude 250–2 000 m.",
           "sourceIds": [
             "birdlife-amandava-subflava"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "*na — sources consultées silencieuses.*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Dimorphisme"
         },
         {
           "text": "Non migrateur. Prairies (sèches ou saisonnièrement humides), savane sèche, zones humides intérieures (marais…), terres cultivées. Afrique subsaharienne (large répartition).",
           "sourceIds": [
             "birdlife-amandava-subflava"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "*na — sources consultées silencieuses.*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Régime"
         },
         {
           "text": "Sédentaire (non migrateur). Commerce international d’animaux de compagnie signalé.",
           "sourceIds": [
             "birdlife-amandava-subflava"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC872300 (Dries Van de Loock — CC BY-NC-ND 4.0) : https://xeno-canto.org/872300",
           "sourceIds": [
             "media-amandava-subflava-audio"
-          ]
+          ],
+          "label": "Chant"
         }
       ]
     },
@@ -1449,38 +1510,44 @@ export const birds: Bird[] = [
           "text": "Évalué **Near Threatened** (2019 ; A2bcd+3bcd+4bcd). EOO ≈ 7 940 000 km² ; tendance **en diminution** (capture + perte d’habitat). Brésil, Bolivie, Paraguay, Argentine, etc.",
           "sourceIds": [
             "birdlife-amazona-aestiva"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "Sexes semblables (plumage).",
           "sourceIds": [
             "adw-amazona-aestiva"
-          ]
+          ],
+          "label": "Dimorphisme"
         },
         {
           "text": "Fourrés (Cerrado, Chaco), savane, palmeraies, forêts-galeries, boisements subtropicaux, zones urbaines ; besoin de grands arbres pour nicher.",
           "sourceIds": [
             "birdlife-amazona-aestiva (citant Collar",
             "al. 2019)"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "Fruits et graines d’un large éventail de plantes (*Melia*, *Prosopis*, *Citrus*, etc.), fruits de cactus et de palmiers ; aussi maïs et tournesol. ADW : graines, fruits, noix, pousses, fleurs.",
           "sourceIds": [
             "birdlife-amazona-aestiva",
             "adw-amazona-aestiva"
-          ]
+          ],
+          "label": "Régime"
         },
         {
           "text": "Surtout résident ; partie de la population du Chaco argentin migre vers les piémonts andins en hiver ; dortoirs collectifs ; couples monogames ; nidification en cavités.",
           "sourceIds": [
             "birdlife-amazona-aestiva",
             "adw-amazona-aestiva"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC554117 (Ricardo José Mitidieri — CC BY-NC-SA 4.0) : https://xeno-canto.org/554117",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Chant"
         }
       ]
     },
@@ -1601,35 +1668,41 @@ export const birds: Bird[] = [
           "text": "Taxon programme = sous-espèce *lineola*. Espèce *B. lineola* évaluée **Least Concern** (2022). EOO ≈ 6 810 000 km² ; ≈ 50 000–499 999 individus matures ; tendance **stable**. Mexique à Amérique du Sud andine.",
           "sourceIds": [
             "birdlife-bolborhynchus-lineola"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "`na` — non décrit dans la fiche BirdLife consultée.",
           "sourceIds": [
             "birdlife-bolborhynchus-lineola"
-          ]
+          ],
+          "label": "Dimorphisme"
         },
         {
           "text": "Forêts humides de montagne et de basse altitude, milieux fortement dégradés (suitable) ; 0–3 900 m ; aussi lisières et habitats secondaires.",
           "sourceIds": [
             "birdlife-bolborhynchus-lineola"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "`na` — non détaillé dans la fiche BirdLife consultée.",
           "sourceIds": [
             "birdlife-bolborhynchus-lineola"
-          ]
+          ],
+          "label": "Régime"
         },
         {
           "text": "Statut migratoire BirdLife : **nomade**. Pas de preuve de pression de capture significative.",
           "sourceIds": [
             "birdlife-bolborhynchus-lineola"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC1060162 (José — CC BY-NC-SA 4.0) : https://xeno-canto.org/1060162",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Chant"
         }
       ]
     },
@@ -1739,35 +1812,41 @@ export const birds: Bird[] = [
           "text": "Évalué **Endangered** (2021 ; critères A2bcd+4bcd). EOO ≈ 51 700 km² ; endémique nicheur ; non migrateur ; tendance **en diminution** (capture pour le commerce + déforestation). Population autrefois estimée ≈ 43 000–183 000 individus (Lambert 1993).",
           "sourceIds": [
             "birdlife-cacatua-alba"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "`na` — non décrit dans la fiche BirdLife consultée.",
           "sourceIds": [
             "birdlife-cacatua-alba"
-          ]
+          ],
+          "label": "Dimorphisme"
         },
         {
           "text": "Résident en forêt primaire, exploitée et secondaire jusqu’à 600 m ; aussi mangroves, plantations (dont cocotiers) et terres agricoles ; densités maximales en forêt primaire ; grands arbres pour nidification et dortoirs. Habitats BirdLife : forêt humide de basse altitude (major), mangrove, plantations, cultures (suitable).",
           "sourceIds": [
             "birdlife-cacatua-alba"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "Surtout graines et fruits arboricoles (Rowley et Boesman 2020 *via* BirdLife).",
           "sourceIds": [
             "birdlife-cacatua-alba"
-          ]
+          ],
+          "label": "Régime"
         },
         {
           "text": "Résident (éventuels petits mouvements nomades) ; tolère une certaine modification d’habitat ; menace principale = capture non durable pour le commerce d’oiseaux de cage (légal et illégal), aggravée par l’accès via routes forestières.",
           "sourceIds": [
             "birdlife-cacatua-alba"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC1074294 (Richard E. Webster — CC BY-NC-SA 4.0) : https://xeno-canto.org/1074294",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Chant"
         }
       ]
     },
@@ -1781,9 +1860,16 @@ export const birds: Bird[] = [
       },
       {
         "level": "programme",
-        "text": "Confusion : *C. galerita* (huppe jaune) — *alba* = entièrement blanc, **Endangered**",
+        "text": "Confusion : *C. galerita*",
         "sourceIds": [
           "bac-pro-tcva-liste"
+        ]
+      },
+      {
+        "level": "sourcé",
+        "text": "*alba* = entièrement blanc, **Endangered**",
+        "sourceIds": [
+          "birdlife-cacatua-alba"
         ]
       },
       {
@@ -1795,14 +1881,7 @@ export const birds: Bird[] = [
       },
       {
         "level": "sourcé",
-        "text": "Forêt primaire / secondaire ; graines et fruits arboricoles",
-        "sourceIds": [
-          "birdlife-cacatua-alba"
-        ]
-      },
-      {
-        "level": "sourcé",
-        "text": "Non migrateur ; menace principale = capture pour la cage",
+        "text": "Forêt primaire / secondaire ; graines et fruits arboricoles ; Non migrateur ; menace principale = capture pour la cage",
         "sourceIds": [
           "birdlife-cacatua-alba"
         ]
@@ -1865,39 +1944,45 @@ export const birds: Bird[] = [
           "sourceIds": [
             "birdlife-cacatua-galerita",
             "birdlife-au-sulphur-crested"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "Plumage similaire ; à courte distance, iris rouge-brun chez la femelle, brun plus foncé chez le mâle.",
           "sourceIds": [
             "birdlife-au-sulphur-crested"
-          ]
+          ],
+          "label": "Dimorphisme"
         },
         {
           "text": "BirdLife : forêts humides et sèches, cultures, milieux fortement dégradés (suitable) ; non migrateur. BirdLife Australia : habitats boisés variés et zones habitées (urbain, woodland, forest, wetland, coastal) ; sédentaire.",
           "sourceIds": [
             "birdlife-cacatua-galerita",
             "birdlife-au-sulphur-crested"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "Baies, graines, noix et racines ; accepte aussi des restes humains ; recherche au sol en groupes, avec sentinelles perchées.",
           "sourceIds": [
             "birdlife-au-sulphur-crested"
-          ]
+          ],
+          "label": "Régime"
         },
         {
           "text": "Espèce grégaire : nourrissage et dortoirs collectifs ; sentinelles pendant l’alimentation ; peut endommager le bois en milieu urbain (bec puissant) ; coupe de rameaux sans les manger (entretien du bec).",
           "sourceIds": [
             "birdlife-au-sulphur-crested"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC1177819 (AK — CC BY-NC-SA 4.0) : https://xeno-canto.org/1177819 BirdLife Australia : cri fort caractéristique se terminant par une légère montée.",
           "sourceIds": [
             "media-cacatua-galerita-audio",
             "birdlife-au-sulphur-crested"
-          ]
+          ],
+          "label": "Chant"
         }
       ]
     },
@@ -1911,9 +1996,17 @@ export const birds: Bird[] = [
       },
       {
         "level": "programme",
-        "text": "Confusion : *C. alba* (EN, blanc) — galerita = huppe **jaune**, Least Concern",
+        "text": "Confusion : *C. alba*",
         "sourceIds": [
           "bac-pro-tcva-liste"
+        ]
+      },
+      {
+        "level": "sourcé",
+        "text": "galerita = huppe **jaune**, Least Concern",
+        "sourceIds": [
+          "birdlife-cacatua-galerita",
+          "birdlife-au-sulphur-crested"
         ]
       },
       {
@@ -1926,15 +2019,7 @@ export const birds: Bird[] = [
       },
       {
         "level": "sourcé",
-        "text": "Dimorphisme discret : iris ♀ rouge-brun vs ♂ plus foncé",
-        "sourceIds": [
-          "birdlife-cacatua-galerita",
-          "birdlife-au-sulphur-crested"
-        ]
-      },
-      {
-        "level": "sourcé",
-        "text": "Grégaire ; baies, graines, noix ; sentinelles pendant l’alimentation",
+        "text": "Dimorphisme discret : iris ♀ rouge-brun vs ♂ plus foncé ; Grégaire ; baies, graines, noix ; sentinelles pendant l’alimentation",
         "sourceIds": [
           "birdlife-cacatua-galerita",
           "birdlife-au-sulphur-crested"
@@ -2019,36 +2104,42 @@ export const birds: Bird[] = [
           "text": "Évalué **Least Concern** (2021). Population ≈ 5 800 000 individus matures ; tendance **en augmentation**. Non migrateur. EOO ≈ 2 790 000 km².",
           "sourceIds": [
             "birdlife-callipepla-californica"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "Oui : mâle à gorge noire ; femelle à gorge grisâtre striée de noir ; panache frontale caractéristique chez les deux sexes.",
           "sourceIds": [
             "adw-callipepla-californica"
-          ]
+          ],
+          "label": "Dimorphisme"
         },
         {
           "text": "BirdLife : pâturages, terres cultivées, désert chaud, forêts et prairies tempérées, fourrés secs et végétation méditerranéenne (suitable). ADW : bois ouverts, contreforts buissonnants, vallées, banlieues, chaparral.",
           "sourceIds": [
             "birdlife-callipepla-californica",
             "adw-callipepla-californica"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "Surtout graines de plantes à feuilles larges ; aussi fruits, baies et insectes si disponibles.",
           "sourceIds": [
             "adw-callipepla-californica"
-          ]
+          ],
+          "label": "Régime"
         },
         {
           "text": "Automne : compagnies sociales (souvent 25–40 oiseaux) ; au printemps les compagnies se dissocient pour la reproduction ; sédentaire ; territorial en saison nuptiale.",
           "sourceIds": [
             "adw-callipepla-californica"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC570687 (Ron Overholtz — CC BY-NC-SA 4.0) : https://xeno-canto.org/570687",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Chant"
         }
       ]
     },
@@ -2158,37 +2249,43 @@ export const birds: Bird[] = [
           "text": "Évalué **Near Threatened**. Population ≈ 5 800 000 individus matures (2016) ; tendance **en diminution**. Non migrateur.",
           "sourceIds": [
             "birdlife-colinus-virginianus"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "Oui : mâle à face et gorge blanches contrastées ; femelle et juvéniles à gorge chamois ; couvertures alaires et base du bec diffèrent aussi.",
           "sourceIds": [
             "adw-colinus-virginianus"
-          ]
+          ],
+          "label": "Dimorphisme"
         },
         {
           "text": "Végétation de début de succession (feu, agriculture, coupe) ; paysages agricoles, prairies, forêts ouvertes et fourrés.",
           "sourceIds": [
             "birdlife-colinus-virginianus",
             "adw-colinus-virginianus"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "Principalement graines ; insectes importants en été (BirdLife citant del Hoyo et al. 1994). ADW : ≈ 85 % végétaux / 15 % animal selon saison.",
           "sourceIds": [
             "birdlife-colinus-virginianus",
             "adw-colinus-virginianus"
-          ]
+          ],
+          "label": "Régime"
         },
         {
           "text": "Diurne, surtout terrestre ; forme des compagnies (coveys) hors saison de reproduction ; hiérarchie sociale mâle ; populations généralement sédentaires.",
           "sourceIds": [
             "adw-colinus-virginianus"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC919215 (FREDERIC Lionel — CC BY-NC-SA 4.0) : https://xeno-canto.org/919215",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Chant"
         }
       ]
     },
@@ -2297,37 +2394,43 @@ export const birds: Bird[] = [
           "text": "Évalué **Least Concern**. Non migrateur. EOO ≈ 64 600 000 km² ; tendance globale **inconnue**. Formes naturelles et férales largement répandues.",
           "sourceIds": [
             "birdlife-columba-livia"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "Faible : femelles tendent à montrer moins d’irisations que les mâles (ADW). Nombreux phénotypes férals.",
           "sourceIds": [
             "adw-columba-livia"
-          ]
+          ],
+          "label": "Dimorphisme"
         },
         {
           "text": "Habitat naturel : falaises, grottes, corniches ; forme férale urbaine (bâtiments comme falaises). BirdLife : zones rocheuses, grottes, terres agricoles.",
           "sourceIds": [
             "birdlife-columba-livia",
             "adw-columba-livia"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "Surtout graines au sol ; en ville aussi déchets alimentaires humains. BirdLife : grains, parfois invertébrés.",
           "sourceIds": [
             "birdlife-columba-livia",
             "adw-columba-livia"
-          ]
+          ],
+          "label": "Régime"
         },
         {
           "text": "Diurne ; marche en hochement de tête ; vol direct ; vie en groupes pour repos et alimentation ; couples durables ; nidification coopérative (ADW).",
           "sourceIds": [
             "adw-columba-livia"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC977797 (Pietro Bonanno — CC BY-NC-SA 4.0) : https://xeno-canto.org/977797",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Chant"
         }
       ]
     },
@@ -2436,36 +2539,42 @@ export const birds: Bird[] = [
           "text": "Espèce évaluée **Least Concern** (BirdLife 2025). Aire très vaste (EOO ≈ 35 200 000 km²) ; tendance suspectée **stable**. Non migratrice. Noms anglais : Asian Blue Quail, King Quail.",
           "sourceIds": [
             "birdlife-synoicus-chinensis"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "Oui : sexes colorés différemment ; femelle plus grande. Mâle : poitrine gris-bleu ardoise, ventre rouille/châtaigne, gorge noire bordée de blanc ; femelle brune sans ces motifs vifs.",
           "sourceIds": [
             "adw-coturnix-chinensis"
-          ]
+          ],
+          "label": "Dimorphisme"
         },
         {
           "text": "Prairies subtropicales/tropicales sèches (majeur) ; fourrés humides, zones humides intérieures et terres cultivées (suitable). ADW : régions humides, herbes denses, rizières ; nidification au sol.",
           "sourceIds": [
             "birdlife-synoicus-chinensis",
             "adw-coturnix-chinensis"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "Omnivore : surtout graines de graminées ; aussi végétaux verts ; en quantité limitée vers et insectes (dont termites).",
           "sourceIds": [
             "adw-coturnix-chinensis"
-          ]
+          ],
+          "label": "Régime"
         },
         {
           "text": "En couples ou compagnies ; mâles agressifs entre eux. Marche au sol, peu percheuse, vols peu fréquents ; bains de poussière. Difficile à débusquer.",
           "sourceIds": [
             "adw-coturnix-chinensis"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC1076265 (Richard E. Webster — CC BY-NC-SA 4.0) : https://xeno-canto.org/1076265",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Chant"
         }
       ]
     },
@@ -2585,35 +2694,41 @@ export const birds: Bird[] = [
           "text": "Évalué **Near Threatened** (2022 ; A2ce). Endémique Nouvelle-Zélande ; EOO ≈ 550 000 km² ; ≈ 10 000–30 000 individus matures ; tendance **en diminution** (prédateurs introduits).",
           "sourceIds": [
             "birdlife-cyanoramphus-auriceps"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "`na` — non décrit dans la fiche BirdLife consultée.",
           "sourceIds": [
             "birdlife-cyanoramphus-auriceps"
-          ]
+          ],
+          "label": "Dimorphisme"
         },
         {
           "text": "Forêts mixtes *Nothofagus*-*Podocarpus*, souvent plus en altitude que *C. novaezelandiae* ; forêts denses ininterrompues sur petites îles ; rarement forêts secondaires. Habitats majeurs : forêts humides montagnardes et de basse altitude.",
           "sourceIds": [
             "birdlife-cyanoramphus-auriceps"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "Graines, baies, fleurs et racines ; insectes pris sur les arbres = part importante du régime (Greene 1998 *via* BirdLife) ; au sol en zones sans prédateurs.",
           "sourceIds": [
             "birdlife-cyanoramphus-auriceps"
-          ]
+          ],
+          "label": "Régime"
         },
         {
           "text": "Non migrateur. Reproduction surtout octobre–décembre. Fluctuations liées aux cycles de mast de hêtre et aux pics de prédateurs.",
           "sourceIds": [
             "birdlife-cyanoramphus-auriceps"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC526622 (James Lidster — CC BY-NC-SA 4.0) : https://xeno-canto.org/526622",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Chant"
         }
       ]
     },
@@ -2627,9 +2742,16 @@ export const birds: Bird[] = [
       },
       {
         "level": "programme",
-        "text": "Confusion : *C. novaezelandiae* (front rouge) — même genre, statut différent",
+        "text": "Confusion : *C. novaezelandiae*",
         "sourceIds": [
           "bac-pro-tcva-liste"
+        ]
+      },
+      {
+        "level": "sourcé",
+        "text": "même genre, statut différent",
+        "sourceIds": [
+          "birdlife-cyanoramphus-auriceps"
         ]
       },
       {
@@ -2641,14 +2763,7 @@ export const birds: Bird[] = [
       },
       {
         "level": "sourcé",
-        "text": "Forêts mixtes, souvent plus en altitude que le front rouge",
-        "sourceIds": [
-          "birdlife-cyanoramphus-auriceps"
-        ]
-      },
-      {
-        "level": "sourcé",
-        "text": "Régime : graines, baies, fleurs + insectes sur les arbres",
+        "text": "Forêts mixtes, souvent plus en altitude que le front rouge ; Régime : graines, baies, fleurs + insectes sur les arbres",
         "sourceIds": [
           "birdlife-cyanoramphus-auriceps"
         ]
@@ -2722,36 +2837,42 @@ export const birds: Bird[] = [
           "text": "Évalué **Least Concern**. EOO ≈ 5 540 000 km² ; tendance **en diminution** sans atteindre le seuil Vulnerable. Nouvelle-Zélande et îles / taxons associés (ex. Norfolk, Nouvelle-Calédonie selon le traitement taxonomique BirdLife).",
           "sourceIds": [
             "birdlife-cyanoramphus-novaezelandiae"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "`na` — non décrit dans la fiche BirdLife consultée.",
           "sourceIds": [
             "birdlife-cyanoramphus-novaezelandiae"
-          ]
+          ],
+          "label": "Dimorphisme"
         },
         {
           "text": "Forêts denses à milieux boisés modifiés, cultures et zones ouvertes selon sous-espèces ; habitats majeurs : forêts humides de basse altitude, forêts tempérées, prairies subantarctiques, fourrés tempérés.",
           "sourceIds": [
             "birdlife-cyanoramphus-novaezelandiae"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "`na` — non détaillé dans le paragraphe écologie BirdLife consulté.",
           "sourceIds": [
             "birdlife-cyanoramphus-novaezelandiae"
-          ]
+          ],
+          "label": "Régime"
         },
         {
           "text": "Menaces historiques et actuelles liées aux prédateurs introduits (rats, chats) sur certaines populations insulaires ; souvent plus commun que *C. auriceps* sur les îles.",
           "sourceIds": [
             "birdlife-cyanoramphus-novaezelandiae",
             "birdlife-cyanoramphus-auriceps"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC956617 (Meena Haribal — CC BY-NC-SA 4.0) : https://xeno-canto.org/956617",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Chant"
         }
       ]
     },
@@ -2764,10 +2885,11 @@ export const birds: Bird[] = [
         ]
       },
       {
-        "level": "programme",
+        "level": "sourcé",
         "text": "Confusion : kakariki à front **jaune** (*C. auriceps*) — repère = couleur du front",
         "sourceIds": [
-          "bac-pro-tcva-liste"
+          "birdlife-cyanoramphus-novaezelandiae",
+          "birdlife-cyanoramphus-auriceps"
         ]
       },
       {
@@ -2872,41 +2994,47 @@ export const birds: Bird[] = [
           "sourceIds": [
             "birdlife-eolophus-roseicapilla",
             "birdlife-au-galah"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "`na` — non décrit dans les sources consultées (BirdLife International, BirdLife Australia).",
           "sourceIds": [
             "birdlife-eolophus-roseicapilla",
             "birdlife-au-galah"
-          ]
+          ],
+          "label": "Dimorphisme"
         },
         {
           "text": "BirdLife : milieux artificiels (urbain, jardins, plantations, pâturages, cultures), prairies sèches, fourrés secs et humides (suitable). BirdLife Australia : grands groupes dans habitats boisés variés, en général près de l’eau (woodland, forest, wetland, coastal, urban).",
           "sourceIds": [
             "birdlife-eolophus-roseicapilla",
             "birdlife-au-galah"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "Graines surtout au sol (graminées et cultures) ; peut être nuisible aux cultures ; déplacements parfois longs vers les zones d’alimentation.",
           "sourceIds": [
             "birdlife-au-galah"
-          ]
+          ],
+          "label": "Régime"
         },
         {
           "text": "Non migrateur (BirdLife). Grands groupes bruyants ; couples durables ; abondance croissante près des habitations (nourriture et eau) ; repos diurne à l’ombre ; dortoirs nocturnes collectifs.",
           "sourceIds": [
             "birdlife-eolophus-roseicapilla",
             "birdlife-au-galah"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC1181679 (Khristos Nizamis — CC BY-NC-ND 4.0) : https://xeno-canto.org/1181679 BirdLife Australia : cri aigu caractéristique « chi-chi ».",
           "sourceIds": [
             "media-eolophus-roseicapilla-audio",
             "birdlife-au-galah"
-          ]
+          ],
+          "label": "Chant"
         }
       ]
     },
@@ -3026,35 +3154,41 @@ export const birds: Bird[] = [
           "text": "Évalué **Least Concern** (2022). BirdLife / IOC : *Chloebia gouldiae* (syn. *Erythrura gouldiae*). EOO ≈ 1 780 000 km² ; ~5 000–50 000 individus matures (meilleure estimation ~25 000, 2020) ; tendance **stable**. Endémique reproducteur d’Australie (nord). Altitude 0–370 m.",
           "sourceIds": [
             "birdlife-chloebia-gouldiae"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "*na — sources consultées silencieuses sur le dimorphisme (polymorphisme de couleur de tête connu hors sources retenues ici).*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Dimorphisme"
         },
         {
           "text": "Non migrateur. Bois tropicaux ouverts à sous-bois herbeux ; nidification presque exclusivement dans des cavités d’arbres ; collines rocheuses avec *Eucalyptus* près de points d’eau permanents en saison sèche. Nord de l’Australie.",
           "sourceIds": [
             "birdlife-chloebia-gouldiae"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "Surtout graines de graminées toute l’année ; parfois invertébrés.",
           "sourceIds": [
             "birdlife-chloebia-gouldiae"
-          ]
+          ],
+          "label": "Régime"
         },
         {
           "text": "Sédentaire (non migrateur) ; très mobile (déplacements de juvéniles bandés jusqu’à ~200 km) ; niche dans des cavités.",
           "sourceIds": [
             "birdlife-chloebia-gouldiae"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC960939 (Louis Masarei — CC BY-NC-SA 4.0) : https://xeno-canto.org/960939",
           "sourceIds": [
             "media-erythrura-gouldiae-audio"
-          ]
+          ],
+          "label": "Chant"
         }
       ]
     },
@@ -3068,9 +3202,16 @@ export const birds: Bird[] = [
       },
       {
         "level": "programme",
-        "text": "Confusion : *E. trichroa* (Kittlitz) — Gould = endémique nord AU ; BirdLife *Chloebia*",
+        "text": "Confusion : *E. trichroa* (Kittlitz)",
         "sourceIds": [
           "bac-pro-tcva-liste"
+        ]
+      },
+      {
+        "level": "sourcé",
+        "text": "Gould = endémique nord AU ; BirdLife *Chloebia*",
+        "sourceIds": [
+          "birdlife-chloebia-gouldiae"
         ]
       },
       {
@@ -3082,14 +3223,7 @@ export const birds: Bird[] = [
       },
       {
         "level": "sourcé",
-        "text": "Graines de graminées ; nid en cavités d’arbres",
-        "sourceIds": [
-          "birdlife-chloebia-gouldiae"
-        ]
-      },
-      {
-        "level": "sourcé",
-        "text": "Non migrateur mais très mobile (juvéniles jusqu’à ~200 km)",
+        "text": "Graines de graminées ; nid en cavités d’arbres ; Non migrateur mais très mobile (juvéniles jusqu’à ~200 km)",
         "sourceIds": [
           "birdlife-chloebia-gouldiae"
         ]
@@ -3163,33 +3297,39 @@ export const birds: Bird[] = [
           "text": "Évalué **Least Concern** (2018). EOO ≈ 22 600 km² ; population non quantifiée, décrite comme répandue et assez commune (Clement 1999 *via* BirdLife) ; tendance **stable**. Endémique reproducteur de Nouvelle-Calédonie. Dépendance forestière faible.",
           "sourceIds": [
             "birdlife-erythrura-psittacea"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "*na — sources consultées silencieuses.*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Dimorphisme"
         },
         {
           "text": "Non migrateur. Forêt humide de basse altitude, fourrés humides, plantations ; jardins ruraux (marginal). Nouvelle-Calédonie (France).",
           "sourceIds": [
             "birdlife-erythrura-psittacea"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "*na — sources consultées silencieuses.*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Régime"
         },
         {
           "text": "Sédentaire (non migrateur). Commerce international d’animaux de compagnie signalé.",
           "sourceIds": [
             "birdlife-erythrura-psittacea"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC40164 (Patrik Åberg — CC BY-NC-SA 3.0) : https://xeno-canto.org/40164",
           "sourceIds": [
             "media-erythrura-psittacea-audio"
-          ]
+          ],
+          "label": "Chant"
         }
       ]
     },
@@ -3203,9 +3343,16 @@ export const birds: Bird[] = [
       },
       {
         "level": "programme",
-        "text": "Confusion : Gould / Kittlitz (*Erythrura*) — pape = **endémique Nouvelle-Calédonie**",
+        "text": "Confusion : Gould / Kittlitz (*Erythrura*)",
         "sourceIds": [
           "bac-pro-tcva-liste"
+        ]
+      },
+      {
+        "level": "sourcé",
+        "text": "pape = **endémique Nouvelle-Calédonie**",
+        "sourceIds": [
+          "birdlife-erythrura-psittacea"
         ]
       },
       {
@@ -3217,14 +3364,7 @@ export const birds: Bird[] = [
       },
       {
         "level": "sourcé",
-        "text": "Non migrateur ; forêt humide, fourrés, plantations",
-        "sourceIds": [
-          "birdlife-erythrura-psittacea"
-        ]
-      },
-      {
-        "level": "sourcé",
-        "text": "Commerce international d’animaux de compagnie signalé",
+        "text": "Non migrateur ; forêt humide, fourrés, plantations ; Commerce international d’animaux de compagnie signalé",
         "sourceIds": [
           "birdlife-erythrura-psittacea"
         ]
@@ -3289,33 +3429,39 @@ export const birds: Bird[] = [
           "text": "Évalué **Least Concern** (2018). EOO ≈ 12 500 000 km² ; ~13 000 individus matures (estimation ≥ 20 000 individus totaux, S. T. Garnett *in litt.* 2008 *via* BirdLife) ; tendance **stable**. Altitude 1 000–3 000 m. Dépendance forestière moyenne.",
           "sourceIds": [
             "birdlife-erythrura-trichroa"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "*na — sources consultées silencieuses.*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Dimorphisme"
         },
         {
           "text": "Non migrateur. Forêts (humides de basse altitude, sèches, mangrove), fourrés humides, prairies sèches, cultures et pâturages. Australie, Indonésie, Papouasie-Nouvelle-Guinée, îles du Pacifique (Micronésie, Palau, Salomon, Vanuatu, Nouvelle-Calédonie…).",
           "sourceIds": [
             "birdlife-erythrura-trichroa"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "*na — sources consultées silencieuses.*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Régime"
         },
         {
           "text": "Sédentaire (non migrateur). Commerce international d’animaux de compagnie signalé.",
           "sourceIds": [
             "birdlife-erythrura-trichroa"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC1003825 (Chi-Hsuan Shao — CC BY-NC-SA 4.0) : https://xeno-canto.org/1003825",
           "sourceIds": [
             "media-erythrura-trichroa-audio"
-          ]
+          ],
+          "label": "Chant"
         }
       ]
     },
@@ -3329,9 +3475,16 @@ export const birds: Bird[] = [
       },
       {
         "level": "programme",
-        "text": "Confusion : diamant de Gould (*E. gouldiae*) — Kittlitz = large aire Pacifique / AU",
+        "text": "Confusion : diamant de Gould (*E. gouldiae*)",
         "sourceIds": [
           "bac-pro-tcva-liste"
+        ]
+      },
+      {
+        "level": "sourcé",
+        "text": "Kittlitz = large aire Pacifique / AU",
+        "sourceIds": [
+          "birdlife-erythrura-trichroa"
         ]
       },
       {
@@ -3343,14 +3496,7 @@ export const birds: Bird[] = [
       },
       {
         "level": "sourcé",
-        "text": "Non migrateur ; forêts et fourrés ; 1 000–3 000 m",
-        "sourceIds": [
-          "birdlife-erythrura-trichroa"
-        ]
-      },
-      {
-        "level": "sourcé",
-        "text": "Commerce international d’animaux de compagnie signalé",
+        "text": "Non migrateur ; forêts et fourrés ; 1 000–3 000 m ; Commerce international d’animaux de compagnie signalé",
         "sourceIds": [
           "birdlife-erythrura-trichroa"
         ]
@@ -3427,40 +3573,46 @@ export const birds: Bird[] = [
           "sourceIds": [
             "birdlife-estrilda-astrild",
             "adw-estrilda-astrild"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "Femelle plus pâle, moins de rouge sur le ventre ; mâle plus coloré.",
           "sourceIds": [
             "adw-estrilda-astrild"
-          ]
+          ],
+          "label": "Dimorphisme"
         },
         {
           "text": "Non migrateur. Zones herbeuses humides près des zones humides, roseaux, cultures, jardins, plantations, savane sèche. Natif d’Afrique subsaharienne ; introduit ailleurs (Amériques, bassin méditerranéen, Océanie…).",
           "sourceIds": [
             "birdlife-estrilda-astrild",
             "adw-estrilda-astrild"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "Granivore (graines de graminées, millets…) ; fourrage en groupes.",
           "sourceIds": [
             "adw-estrilda-astrild"
-          ]
+          ],
+          "label": "Régime"
         },
         {
           "text": "Très social ; vols diurnes de 20–40 ; monogame ; nid sphérique en herbes près du sol ; souvent parasité par *Vidua macroura*.",
           "sourceIds": [
             "birdlife-estrilda-astrild",
             "adw-estrilda-astrild"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC1155179 (Walter Wallner — CC BY-NC-SA 4.0) : https://xeno-canto.org/1155179 ADW : chant doux et simple ; parade avec « révérence » et exhibition du ventre rouge.",
           "sourceIds": [
             "media-estrilda-astrild-audio",
             "adw-estrilda-astrild"
-          ]
+          ],
+          "label": "Chant"
         }
       ]
     },
@@ -3474,9 +3626,17 @@ export const birds: Bird[] = [
       },
       {
         "level": "programme",
-        "text": "Confusion : autres *Estrilda* (queue de vinaigre, joues orange, bec de corail)",
+        "text": "Confusion : autres *Estrilda*",
         "sourceIds": [
           "bac-pro-tcva-liste"
+        ]
+      },
+      {
+        "level": "sourcé",
+        "text": "Confusion : autres *Estrilda* (queue de vinaigre, joues orange, bec de corail)",
+        "sourceIds": [
+          "birdlife-estrilda-astrild",
+          "adw-estrilda-astrild"
         ]
       },
       {
@@ -3489,15 +3649,7 @@ export const birds: Bird[] = [
       },
       {
         "level": "sourcé",
-        "text": "Dimorphisme : ♀ plus pâle, moins de rouge ventral",
-        "sourceIds": [
-          "birdlife-estrilda-astrild",
-          "adw-estrilda-astrild"
-        ]
-      },
-      {
-        "level": "sourcé",
-        "text": "Granivore ; social ; souvent parasité par *Vidua macroura*",
+        "text": "Dimorphisme : ♀ plus pâle, moins de rouge ventral ; Granivore ; social ; souvent parasité par *Vidua macroura*",
         "sourceIds": [
           "birdlife-estrilda-astrild",
           "adw-estrilda-astrild"
@@ -3580,33 +3732,39 @@ export const birds: Bird[] = [
           "text": "Évalué **Least Concern** (2018). BirdLife : *Glaucestrilda coerulescens* (syn. *Estrilda caerulescens*). EOO ≈ 2 360 000 km² ; population non quantifiée, peu commune à commune (Fry & Keith 2004 *via* BirdLife) ; tendance **stable**. Afrique de l’Ouest / Sahel.",
           "sourceIds": [
             "birdlife-glaucestrilda-coerulescens"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "*na — sources consultées silencieuses.*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Dimorphisme"
         },
         {
           "text": "Non migrateur. Savane sèche, fourrés secs, pâturages et terres cultivées.",
           "sourceIds": [
             "birdlife-glaucestrilda-coerulescens"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "*na — sources consultées silencieuses.*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Régime"
         },
         {
           "text": "Sédentaire (non migrateur). Commerce international d’animaux de compagnie signalé.",
           "sourceIds": [
             "birdlife-glaucestrilda-coerulescens"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC1081214 (Peter Boesman — CC BY-NC-ND 4.0) : https://xeno-canto.org/1081214",
           "sourceIds": [
             "media-estrilda-caerulescens-audio"
-          ]
+          ],
+          "label": "Chant"
         }
       ]
     },
@@ -3620,9 +3778,16 @@ export const birds: Bird[] = [
       },
       {
         "level": "programme",
-        "text": "Confusion : autres *Estrilda* — BirdLife : *Glaucestrilda coerulescens*",
+        "text": "Confusion : autres *Estrilda*",
         "sourceIds": [
           "bac-pro-tcva-liste"
+        ]
+      },
+      {
+        "level": "sourcé",
+        "text": "BirdLife : *Glaucestrilda coerulescens*",
+        "sourceIds": [
+          "birdlife-glaucestrilda-coerulescens"
         ]
       },
       {
@@ -3634,14 +3799,7 @@ export const birds: Bird[] = [
       },
       {
         "level": "sourcé",
-        "text": "Non migrateur ; savane sèche, fourrés, cultures",
-        "sourceIds": [
-          "birdlife-glaucestrilda-coerulescens"
-        ]
-      },
-      {
-        "level": "sourcé",
-        "text": "Commerce international d’animaux de compagnie signalé",
+        "text": "Non migrateur ; savane sèche, fourrés, cultures ; Commerce international d’animaux de compagnie signalé",
         "sourceIds": [
           "birdlife-glaucestrilda-coerulescens"
         ]
@@ -3715,33 +3873,39 @@ export const birds: Bird[] = [
           "text": "Évalué **Least Concern**. EOO ≈ 9 820 000 km² ; tendance **stable**. Non migrateur. Commerce international d’animaux de compagnie signalé.",
           "sourceIds": [
             "birdlife-estrilda-melpoda"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "*na — sources consultées silencieuses.*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Dimorphisme"
         },
         {
           "text": "Non migrateur. Savane sèche, prairies sèches, fourrés humides, forêts humides de basse altitude, jardins ruraux, zones humides intérieures (marais…).",
           "sourceIds": [
             "birdlife-estrilda-melpoda"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "*na — sources consultées silencieuses.*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Régime"
         },
         {
           "text": "Sédentaire (non migrateur). Présent dans le commerce international d’animaux de compagnie.",
           "sourceIds": [
             "birdlife-estrilda-melpoda"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC1081191 (Peter Boesman — CC BY-NC-ND 4.0) : https://xeno-canto.org/1081191",
           "sourceIds": [
             "media-estrilda-melpoda-audio"
-          ]
+          ],
+          "label": "Chant"
         }
       ]
     },
@@ -3755,9 +3919,16 @@ export const birds: Bird[] = [
       },
       {
         "level": "programme",
-        "text": "Confusion : bec de corail / Sainte Hélène — repère = joues **orange**",
+        "text": "Confusion : bec de corail / Sainte Hélène",
         "sourceIds": [
           "bac-pro-tcva-liste"
+        ]
+      },
+      {
+        "level": "sourcé",
+        "text": "repère = joues **orange**",
+        "sourceIds": [
+          "birdlife-estrilda-melpoda"
         ]
       },
       {
@@ -3769,14 +3940,7 @@ export const birds: Bird[] = [
       },
       {
         "level": "sourcé",
-        "text": "Savane, prairies, fourrés, forêts humides, jardins, marais",
-        "sourceIds": [
-          "birdlife-estrilda-melpoda"
-        ]
-      },
-      {
-        "level": "sourcé",
-        "text": "Présent dans le commerce international d’animaux de compagnie",
+        "text": "Savane, prairies, fourrés, forêts humides, jardins, marais ; Présent dans le commerce international d’animaux de compagnie",
         "sourceIds": [
           "birdlife-estrilda-melpoda"
         ]
@@ -3840,33 +4004,39 @@ export const birds: Bird[] = [
           "text": "Évalué **Least Concern** (2018). EOO ≈ 8 660 000 km² ; tendance **stable**. Non migrateur. Commerce international d’animaux de compagnie signalé.",
           "sourceIds": [
             "birdlife-estrilda-troglodytes"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "*na — sources consultées silencieuses.*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Dimorphisme"
         },
         {
           "text": "Non migrateur. Savane sèche et fourrés secs (majeurs) ; terres cultivées (marginal).",
           "sourceIds": [
             "birdlife-estrilda-troglodytes"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "*na — sources consultées silencieuses.*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Régime"
         },
         {
           "text": "Sédentaire (non migrateur). Présent dans le commerce international d’animaux de compagnie.",
           "sourceIds": [
             "birdlife-estrilda-troglodytes"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC1154517 (Sébastien Birard — CC BY-NC-SA 4.0) : https://xeno-canto.org/1154517",
           "sourceIds": [
             "media-estrilda-troglodytes-audio"
-          ]
+          ],
+          "label": "Chant"
         }
       ]
     },
@@ -3880,9 +4050,16 @@ export const birds: Bird[] = [
       },
       {
         "level": "programme",
-        "text": "Confusion : autres *Estrilda* — habitat surtout savane / fourrés **secs**",
+        "text": "Confusion : autres *Estrilda*",
         "sourceIds": [
           "bac-pro-tcva-liste"
+        ]
+      },
+      {
+        "level": "sourcé",
+        "text": "habitat surtout savane / fourrés **secs**",
+        "sourceIds": [
+          "birdlife-estrilda-troglodytes"
         ]
       },
       {
@@ -3894,14 +4071,7 @@ export const birds: Bird[] = [
       },
       {
         "level": "sourcé",
-        "text": "Savane sèche et fourrés secs (majeurs) ; cultures marginales",
-        "sourceIds": [
-          "birdlife-estrilda-troglodytes"
-        ]
-      },
-      {
-        "level": "sourcé",
-        "text": "Présent dans le commerce international d’animaux de compagnie",
+        "text": "Savane sèche et fourrés secs (majeurs) ; cultures marginales ; Présent dans le commerce international d’animaux de compagnie",
         "sourceIds": [
           "birdlife-estrilda-troglodytes"
         ]
@@ -3966,33 +4136,39 @@ export const birds: Bird[] = [
           "text": "Évalué **Least Concern** (2018). EOO ≈ 7 870 000 km² ; population non quantifiée, commune à abondante (Fry & Keith 2004 *via* BirdLife) ; tendance **stable**.",
           "sourceIds": [
             "birdlife-euplectes-orix"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "*Non détaillé dans les sources consultées (BirdLife).*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Dimorphisme"
         },
         {
           "text": "Non migrateur. Cultures (majeur) et prairies sèches tropicales/subtropicales (majeur).",
           "sourceIds": [
             "birdlife-euplectes-orix"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "*Non détaillé dans les sources consultées (BirdLife).*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Régime"
         },
         {
           "text": "Non migrateur.",
           "sourceIds": [
             "birdlife-euplectes-orix"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC1183523 (African Bioacoustics Community — CC BY-NC-SA 4.0) : https://xeno-canto.org/1183523",
           "sourceIds": [
             "media-euplectes-orix-audio"
-          ]
+          ],
+          "label": "Chant"
         }
       ]
     },
@@ -4092,35 +4268,41 @@ export const birds: Bird[] = [
           "text": "Évalué **Least Concern** (2024). EOO ≈ 277 000 km² ; natif Équateur et Pérou ; décrit comme commun ; tendance **en diminution** (perte de couvert forestier estimée 1–19 % / 10 ans, mesure de précaution).",
           "sourceIds": [
             "birdlife-forpus-coelestis"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "`na` — non décrit dans la fiche BirdLife consultée.",
           "sourceIds": [
             "birdlife-forpus-coelestis"
-          ]
+          ],
+          "label": "Dimorphisme"
         },
         {
           "text": "Forêt sèche (major) ; aussi forêts humides de basse altitude et de montagne, fourrés secs, milieux fortement dégradés (suitable).",
           "sourceIds": [
             "birdlife-forpus-coelestis"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "`na` — non détaillé dans la fiche BirdLife consultée.",
           "sourceIds": [
             "birdlife-forpus-coelestis"
-          ]
+          ],
+          "label": "Régime"
         },
         {
           "text": "Non migrateur. Fortement présent dans le commerce d’oiseaux (Donald et al. 2024 *via* BirdLife).",
           "sourceIds": [
             "birdlife-forpus-coelestis"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC512761 (Hans Matheve — CC BY-NC-ND 4.0) : https://xeno-canto.org/512761",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Chant"
         }
       ]
     },
@@ -4221,37 +4403,43 @@ export const birds: Bird[] = [
           "sourceIds": [
             "birdlife-gallus-gallus. Ne pas confondre statut sauvage",
             "élevage domestique"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "Chez le taxon sauvage : mâle au plumage très coloré (or, rouge, marron, reflets métalliques) ; femelle plus svelte, plumage plus discret. Hiérarchie sociale distincte mâles/femelles.",
           "sourceIds": [
             "adw-gallus-gallus (taxon sauvage",
             "la forme domestique conserve un fort dimorphisme selon races)"
-          ]
+          ],
+          "label": "Dimorphisme"
         },
         {
           "text": "Pour *Gallus gallus* sauvage : forêts secondaires denses / belukar ; clairières et zones ouvertes pour l’alimentation ; aussi plantations. Habitats BirdLife : forêts humides de basse altitude et de montagne, mangroves, pâturages (suitable).",
           "sourceIds": [
             "birdlife-gallus-gallus",
             "adw-gallus-gallus"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "Herbivore et insectivore : grains, soja, vers, herbes et divers graines au sol.",
           "sourceIds": [
             "adw-gallus-gallus"
-          ]
+          ],
+          "label": "Régime"
         },
         {
           "text": "Système social de **hiérarchie de dominance** (« pecking order ») séparée pour mâles et femelles ; postures de dominance/soumission.",
           "sourceIds": [
             "adw-gallus-gallus"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC1181554 (*Gallus gallus*, Maria Ulfah — CC BY-NC-SA 4.0) : https://xeno-canto.org/1181554",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Chant"
         }
       ]
     },
@@ -4361,31 +4549,37 @@ export const birds: Bird[] = [
           "text": "Évaluée **Least Concern** (2024). Endémique nicheur d’Australie ; statut migratoire BirdLife : **nomade**. EOO ≈ 7 860 000 km² ; population non quantifiée, décrite comme commune ; tendance suspectée **stable**.",
           "sourceIds": [
             "birdlife-geopelia-cuneata"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "*Non documenté dans BirdLife ni dans un compte-rendu ADW espèce (classification seule) — `na`.*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Dimorphisme"
         },
         {
           "text": "Désert chaud et zones humides intérieures (sources/oasis) — suitable (résident). Altitude 0–790 m.",
           "sourceIds": [
             "birdlife-geopelia-cuneata"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "*Non documenté dans les sources catalogue consultées (BirdLife sans paragraphe régime ; pas de fiche ADW complète) — `na`.*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Régime"
         },
         {
           "text": "Espèce **nomade** selon BirdLife ; décrite comme commune ; utilisée/commercialisée (animaux de compagnie, nourriture) à forte prévalence dans les jeux de données commerce évalués (Donald et al. 2024, cité BirdLife).",
           "sourceIds": [
             "birdlife-geopelia-cuneata"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC165147 (Nigel Jackett — CC BY-NC-SA 3.0) : https://xeno-canto.org/165147",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Chant"
         }
       ]
     },
@@ -4399,9 +4593,16 @@ export const birds: Bird[] = [
       },
       {
         "level": "programme",
-        "text": "Même genre que la colombe zébrée (*G. striata*) — distinguer au plumage / aire",
+        "text": "Même genre que la colombe zébrée (*G. striata*)",
         "sourceIds": [
           "bac-pro-tcva-liste"
+        ]
+      },
+      {
+        "level": "sourcé",
+        "text": "distinguer au plumage / aire",
+        "sourceIds": [
+          "birdlife-geopelia-cuneata"
         ]
       },
       {
@@ -4413,14 +4614,7 @@ export const birds: Bird[] = [
       },
       {
         "level": "sourcé",
-        "text": "Least Concern ; habitats désert chaud / oasis",
-        "sourceIds": [
-          "birdlife-geopelia-cuneata"
-        ]
-      },
-      {
-        "level": "sourcé",
-        "text": "Présente dans le commerce d’animaux de compagnie (donnée BirdLife)",
+        "text": "Least Concern ; habitats désert chaud / oasis ; Présente dans le commerce d’animaux de compagnie (donnée BirdLife)",
         "sourceIds": [
           "birdlife-geopelia-cuneata"
         ]
@@ -4494,31 +4688,37 @@ export const birds: Bird[] = [
           "text": "Évaluée **Least Concern** (2025). Non migratrice. EOO ≈ 6 960 000 km² ; population non quantifiée, généralement commune ; tendance suspectée **stable**. Nombreuses introductions hors aire native.",
           "sourceIds": [
             "birdlife-geopelia-striata"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "*Non documenté dans BirdLife / ADW consultés — `na`.*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Dimorphisme"
         },
         {
           "text": "Fourrés secs et humides ; terres cultivées, jardins ruraux, zones urbaines, forêts dégradées (suitable, résident).",
           "sourceIds": [
             "birdlife-geopelia-striata"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "*Non documenté dans les sources catalogue consultées — `na`.*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Régime"
         },
         {
           "text": "Non migratrice ; associée aux habitats anthropisés (jardins, villes) comme aux fourrés ; présente dans le commerce d’animaux de compagnie (Donald et al. 2024, cité BirdLife).",
           "sourceIds": [
             "birdlife-geopelia-striata"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC1081912 (Arend Wassink — CC BY-NC-SA 4.0) : https://xeno-canto.org/1081912",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Chant"
         }
       ]
     },
@@ -4619,58 +4819,64 @@ export const birds: Bird[] = [
           "sourceIds": [
             "birdlife-gracula-religiosa",
             "adw-gracula-religiosa"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "*Non détaillé dans les sources consultées (BirdLife ; ADW).*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Dimorphisme"
         },
         {
           "text": "Non migrateur. Forêts humides de basse altitude et montagnardes (majeurs) ; mangroves, plantations. Préfère jungles et forêts décidues humides, lisières et cultures (ex. café).",
           "sourceIds": [
             "birdlife-gracula-religiosa",
             "adw-gracula-religiosa"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "Surtout frugivore arboricole (figues, baies, graines) ; aussi nectar, insectes et parfois lézards.",
           "sourceIds": [
             "adw-gracula-religiosa"
-          ]
+          ],
+          "label": "Régime"
         },
         {
           "text": "Presque entièrement arboricole ; couples monogames ; grands groupes hors reproduction ; connu pour le mimétisme (sons, parole humaine).",
           "sourceIds": [
             "birdlife-gracula-religiosa",
             "adw-gracula-religiosa"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC1157137 (Ding Li Yong — CC BY-NC-ND 4.0) : https://xeno-canto.org/1157137",
           "sourceIds": [
             "media-gracula-religiosa-audio"
-          ]
+          ],
+          "label": "Chant"
         }
       ]
     },
     "coursePoints": [
       {
         "level": "programme",
-        "text": "Mainate religieux ↔ *Gracula religiosa* ; **Passériformes** ; Sturnidés",
+        "text": "Mainate religieux ↔ *Gracula religiosa* ; Passériformes ; Sturnidés",
         "sourceIds": [
           "bac-pro-tcva-liste"
         ]
       },
       {
         "level": "programme",
-        "text": "Premier Passériforme du lot — distinct des Cacatuides / Psittacidés",
+        "text": "Seul Sturnidé du référentiel — distinct des Cacatuides / Psittacidés",
         "sourceIds": [
           "bac-pro-tcva-liste"
         ]
       },
       {
         "level": "sourcé",
-        "text": "Least Concern ; tendance en diminution ; noir brillant + caroncules jaunes",
+        "text": "Préoccupation mineure ; tendance en diminution ; noir brillant + caroncules jaunes",
         "sourceIds": [
           "birdlife-gracula-religiosa",
           "adw-gracula-religiosa"
@@ -4756,33 +4962,39 @@ export const birds: Bird[] = [
           "text": "BirdLife traite *L. vinacea* comme espèce distincte (autrefois réunie sous *L. larvata*). Évalué **Least Concern** (2024). EOO ≈ 322 000 km² ; tendance **stable**. Altitude 0–1 700 m. Répartition : Sénégal, Gambie, Guinée-Bissau jusqu’au nord de la Guinée et à l’ouest du Mali.",
           "sourceIds": [
             "birdlife-lagonosticta-vinacea"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "*na — sources consultées silencieuses.*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Dimorphisme"
         },
         {
           "text": "Non migrateur. Savane sèche (majeur) ; fourrés secs (suitable).",
           "sourceIds": [
             "birdlife-lagonosticta-vinacea"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "*na — sources consultées silencieuses.*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Régime"
         },
         {
           "text": "Sédentaire (non migrateur). Commerce international d’animaux de compagnie signalé à faible prévalence.",
           "sourceIds": [
             "birdlife-lagonosticta-vinacea"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC405752 (*Lagonosticta larvata*, Sénégal — Bram Piot — CC BY-NC-SA 4.0) : https://xeno-canto.org/405752 Xeno-canto suit la taxonomie IOC (lumping sous *L. larvata*) ; enregistrement de Kédougou (Sénégal), dans l’aire BirdLife de *L. vinacea*.",
           "sourceIds": [
             "media-lagonosticta-larvata-vinacea-audio"
-          ]
+          ],
+          "label": "Chant"
         }
       ]
     },
@@ -4796,9 +5008,16 @@ export const birds: Bird[] = [
       },
       {
         "level": "programme",
-        "text": "Confusion : amaranthe à bec rouge (*L. senegala*) — vineuse = sous-espèce programme ; BirdLife *L. vinacea*",
+        "text": "Confusion : amaranthe à bec rouge (*L. senegala*)",
         "sourceIds": [
           "bac-pro-tcva-liste"
+        ]
+      },
+      {
+        "level": "sourcé",
+        "text": "vineuse = sous-espèce programme ; BirdLife *L. vinacea*",
+        "sourceIds": [
+          "birdlife-lagonosticta-vinacea"
         ]
       },
       {
@@ -4810,14 +5029,7 @@ export const birds: Bird[] = [
       },
       {
         "level": "sourcé",
-        "text": "Non migratrice ; savane sèche (majeur) ; Afrique de l’Ouest",
-        "sourceIds": [
-          "birdlife-lagonosticta-vinacea"
-        ]
-      },
-      {
-        "level": "sourcé",
-        "text": "Commerce international signalé à faible prévalence",
+        "text": "Non migratrice ; savane sèche (majeur) ; Afrique de l’Ouest ; Commerce international signalé à faible prévalence",
         "sourceIds": [
           "birdlife-lagonosticta-vinacea"
         ]
@@ -4891,33 +5103,39 @@ export const birds: Bird[] = [
           "text": "Évalué **Least Concern**. EOO ≈ 25 600 000 km² ; tendance **stable**. Non migrateur. Commerce d’animaux de compagnie signalé (échelle nationale / de subsistance).",
           "sourceIds": [
             "birdlife-lagonosticta-senegala"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "*na — sources consultées silencieuses (image mâle choisie pour illustration).*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Dimorphisme"
         },
         {
           "text": "Non migrateur. Savane sèche, fourrés secs ou humides, terres cultivées, pâturages, jardins ruraux et zones urbaines.",
           "sourceIds": [
             "birdlife-lagonosticta-senegala"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "*na — sources consultées silencieuses.*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Régime"
         },
         {
           "text": "Sédentaire (non migrateur). Présent dans le commerce d’animaux de compagnie.",
           "sourceIds": [
             "birdlife-lagonosticta-senegala"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC1145629 (African Bioacoustics Community — CC BY-NC-SA 4.0) : https://xeno-canto.org/1145629",
           "sourceIds": [
             "media-lagonosticta-senegala-audio"
-          ]
+          ],
+          "label": "Chant"
         }
       ]
     },
@@ -5016,33 +5234,39 @@ export const birds: Bird[] = [
           "text": "BirdLife place l’espèce dans *Euodice* (ex-*Lonchura*). Évalué **Least Concern** (2018). EOO ≈ 16 600 000 km² ; tendance **stable**. Altitude 0–1 600 m. Commerce international d’animaux de compagnie signalé.",
           "sourceIds": [
             "birdlife-euodice-cantans"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "*na — sources consultées silencieuses.*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Dimorphisme"
         },
         {
           "text": "Non migrateur. Savane sèche et fourrés secs (majeurs) ; terres cultivées et pâturages (suitable).",
           "sourceIds": [
             "birdlife-euodice-cantans"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "*na — sources consultées silencieuses.*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Régime"
         },
         {
           "text": "Sédentaire (non migrateur). Présent dans le commerce international d’animaux de compagnie.",
           "sourceIds": [
             "birdlife-euodice-cantans"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC1163939 (Zsombor Károlyi — CC BY-NC-SA 4.0) : https://xeno-canto.org/1163939",
           "sourceIds": [
             "media-lonchura-cantans-audio"
-          ]
+          ],
+          "label": "Chant"
         }
       ]
     },
@@ -5055,10 +5279,10 @@ export const birds: Bird[] = [
         ]
       },
       {
-        "level": "programme",
+        "level": "sourcé",
         "text": "BirdLife : *Euodice cantans* — distinct des *Lonchura malacca* / *striata*",
         "sourceIds": [
-          "bac-pro-tcva-liste"
+          "birdlife-euodice-cantans"
         ]
       },
       {
@@ -5142,33 +5366,39 @@ export const birds: Bird[] = [
           "text": "BirdLife place l’espèce dans *Spermestes* (ex-*Lonchura*). Évalué **Least Concern** (2024). EOO ≈ 23 600 000 km² ; commune et largement répandue (Clement 1999 *via* BirdLife) ; tendance **stable**. Altitude 0–2 150 m. Commerce signalé à forte prévalence.",
           "sourceIds": [
             "birdlife-spermestes-cucullata"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "*na — sources consultées silencieuses.*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Dimorphisme"
         },
         {
           "text": "Non migrateur. Prairies sèches, fourrés secs, forêts sèches ou humides de basse altitude, terres cultivées, pâturages, zones humides intérieures.",
           "sourceIds": [
             "birdlife-spermestes-cucullata"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "*na — sources consultées silencieuses.*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Régime"
         },
         {
           "text": "Sédentaire (non migrateur). Fortement présent dans le commerce.",
           "sourceIds": [
             "birdlife-spermestes-cucullata"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC1165783 (Jonathan Onongo — CC BY-NC-SA 4.0) : https://xeno-canto.org/1165783",
           "sourceIds": [
             "media-lonchura-cucullata-audio"
-          ]
+          ],
+          "label": "Chant"
         }
       ]
     },
@@ -5181,10 +5411,10 @@ export const birds: Bird[] = [
         ]
       },
       {
-        "level": "programme",
+        "level": "sourcé",
         "text": "BirdLife : *Spermestes cucullata* — distincte des *Lonchura* asiatiques du lot",
         "sourceIds": [
-          "bac-pro-tcva-liste"
+          "birdlife-spermestes-cucullata"
         ]
       },
       {
@@ -5268,33 +5498,39 @@ export const birds: Bird[] = [
           "text": "Évalué **Least Concern** (2025). EOO ≈ 2 770 000 km² ; assez commune ou localement commune (Clement 1999 *via* BirdLife) ; tendance **stable**. Commerce signalé à forte prévalence.",
           "sourceIds": [
             "birdlife-lonchura-maja"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "*na — sources consultées silencieuses.*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Dimorphisme"
         },
         {
           "text": "Non migrateur. Zones humides intérieures (majeur) ; terres cultivées et plantations (suitable) ; jardins ruraux (marginal).",
           "sourceIds": [
             "birdlife-lonchura-maja"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "*na — sources consultées silencieuses.*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Régime"
         },
         {
           "text": "Sédentaire (non migrateur). Présent dans le commerce d’animaux de compagnie.",
           "sourceIds": [
             "birdlife-lonchura-maja"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC1106789 (Joan Theng — CC BY-NC-SA 4.0) : https://xeno-canto.org/1106789",
           "sourceIds": [
             "media-lonchura-maja-audio"
-          ]
+          ],
+          "label": "Chant"
         }
       ]
     },
@@ -5307,10 +5543,10 @@ export const birds: Bird[] = [
         ]
       },
       {
-        "level": "programme",
+        "level": "sourcé",
         "text": "Confusion : capucin à tête noire (*atricapilla*) — repère = tête **blanche**",
         "sourceIds": [
-          "bac-pro-tcva-liste"
+          "birdlife-lonchura-maja"
         ]
       },
       {
@@ -5394,33 +5630,39 @@ export const birds: Bird[] = [
           "text": "BirdLife place l’espèce dans *Euodice* (ex-*Lonchura*). Évalué **Least Concern** (2018). EOO ≈ 11 300 000 km² ; commune ou localement commune (Clement 1999 *via* BirdLife) ; tendance **stable**. Commerce (nourriture + animaux de compagnie) signalé à échelle nationale / de subsistance.",
           "sourceIds": [
             "birdlife-euodice-malabarica"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "*na — sources consultées silencieuses.*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Dimorphisme"
         },
         {
           "text": "Non migrateur. Savane sèche, prairies sèches, fourrés secs, forêts sèches, terres cultivées, pâturages.",
           "sourceIds": [
             "birdlife-euodice-malabarica"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "*na — sources consultées silencieuses.*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Régime"
         },
         {
           "text": "Sédentaire (non migrateur). Présent dans le commerce.",
           "sourceIds": [
             "birdlife-euodice-malabarica"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC1182208 (David Darrell-Lambert — CC BY-NC-SA 4.0) : https://xeno-canto.org/1182208",
           "sourceIds": [
             "media-lonchura-malabarica-audio"
-          ]
+          ],
+          "label": "Chant"
         }
       ]
     },
@@ -5433,10 +5675,10 @@ export const birds: Bird[] = [
         ]
       },
       {
-        "level": "programme",
+        "level": "sourcé",
         "text": "Confusion : bec d'argent (*L. cantans* / *Euodice cantans*) — BirdLife *Euodice malabarica*",
         "sourceIds": [
-          "bac-pro-tcva-liste"
+          "birdlife-euodice-malabarica"
         ]
       },
       {
@@ -5520,33 +5762,39 @@ export const birds: Bird[] = [
           "text": "BirdLife traite *L. atricapilla* (Chestnut Munia) comme espèce distincte de *L. malacca*. Évalué **Least Concern** (2024). EOO ≈ 13 200 000 km² ; tendance **stable**. Altitude 0–2 100 m.",
           "sourceIds": [
             "birdlife-lonchura-atricapilla"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "*na — sources consultées silencieuses.*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Dimorphisme"
         },
         {
           "text": "Non migrateur. Zones humides intérieures (majeur) ; fourrés humides, terres cultivées, plantations, canaux d’irrigation ; forêt humide de basse altitude (marginal).",
           "sourceIds": [
             "birdlife-lonchura-atricapilla"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "*na — sources consultées silencieuses.*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Régime"
         },
         {
           "text": "Sédentaire (non migrateur).",
           "sourceIds": [
             "birdlife-lonchura-atricapilla"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC1141729 (Joan Theng — CC BY-NC-SA 4.0) : https://xeno-canto.org/1141729",
           "sourceIds": [
             "media-lonchura-malacca-atricapilla-audio"
-          ]
+          ],
+          "label": "Chant"
         }
       ]
     },
@@ -5560,9 +5808,16 @@ export const birds: Bird[] = [
       },
       {
         "level": "programme",
-        "text": "Confusion : tricolore (*L. malacca malacca*) — BirdLife : espèce *L. atricapilla*",
+        "text": "Confusion : tricolore (*L. malacca malacca*)",
         "sourceIds": [
           "bac-pro-tcva-liste"
+        ]
+      },
+      {
+        "level": "sourcé",
+        "text": "BirdLife : espèce *L. atricapilla*",
+        "sourceIds": [
+          "birdlife-lonchura-atricapilla"
         ]
       },
       {
@@ -5574,14 +5829,7 @@ export const birds: Bird[] = [
       },
       {
         "level": "sourcé",
-        "text": "Non migrateur ; zones humides intérieures (majeur)",
-        "sourceIds": [
-          "birdlife-lonchura-atricapilla"
-        ]
-      },
-      {
-        "level": "sourcé",
-        "text": "Habitats proches du tricolore (fourrés, cultures, canaux)",
+        "text": "Non migrateur ; zones humides intérieures (majeur) ; Habitats proches du tricolore (fourrés, cultures, canaux)",
         "sourceIds": [
           "birdlife-lonchura-atricapilla"
         ]
@@ -5646,33 +5894,39 @@ export const birds: Bird[] = [
           "text": "Évalué **Least Concern** (2018). EOO ≈ 1 850 000 km² ; population non quantifiée, localement commune (Clement 1999 *via* BirdLife) ; tendance **stable**. Altitude 0–1 500 m. Commerce (nourriture humaine + animaux de compagnie) signalé.",
           "sourceIds": [
             "birdlife-lonchura-malacca"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "*na — sources consultées silencieuses.*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Dimorphisme"
         },
         {
           "text": "Non migrateur. Zones humides intérieures (majeur) ; fourrés humides, terres cultivées, plantations, canaux d’irrigation ; forêt humide de basse altitude (marginal).",
           "sourceIds": [
             "birdlife-lonchura-malacca"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "*na — sources consultées silencieuses.*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Régime"
         },
         {
           "text": "Sédentaire (non migrateur). Présent dans le commerce international d’animaux de compagnie et usage alimentaire.",
           "sourceIds": [
             "birdlife-lonchura-malacca"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC1160217 (Nishant Bhagwat — CC BY-NC-ND 4.0) : https://xeno-canto.org/1160217",
           "sourceIds": [
             "media-lonchura-malacca-malacca-audio"
-          ]
+          ],
+          "label": "Chant"
         }
       ]
     },
@@ -5685,10 +5939,10 @@ export const birds: Bird[] = [
         ]
       },
       {
-        "level": "programme",
+        "level": "sourcé",
         "text": "Confusion : capucin à tête noire (*L. malacca atricapilla*) — BirdLife sépare *L. atricapilla*",
         "sourceIds": [
-          "bac-pro-tcva-liste"
+          "birdlife-lonchura-malacca"
         ]
       },
       {
@@ -5772,33 +6026,39 @@ export const birds: Bird[] = [
           "text": "Évalué **Endangered** (2021). EOO ≈ 148 000 km² ; 1 000–2 499 individus matures ; tendance **en diminution**. Endémique nicheur de Java, Bali et probablement Madura ; largement introduit ailleurs. Déclin lié au piégeage pour le commerce d’oiseaux de cage. CITES Annexe II.",
           "sourceIds": [
             "birdlife-lonchura-oryzivora"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "*na — sources consultées silencieuses.*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Dimorphisme"
         },
         {
           "text": "Non migrateur. Zones urbaines, jardins ruraux, terres cultivées ; prairies sèches, savane sèche et fourrés secs. Espèce de basse altitude (surtout < 500 m, localement jusqu’à 1 500 m).",
           "sourceIds": [
             "birdlife-lonchura-oryzivora"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "*na — sources consultées silencieuses.*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Régime"
         },
         {
           "text": "Sédentaire (non migrateur). Grégaire hors reproduction ; mouvements locaux liés aux ressources alimentaires. Très présent dans le commerce d’animaux de compagnie.",
           "sourceIds": [
             "birdlife-lonchura-oryzivora"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC793299 (Kim Chuah Lim — CC BY-NC-SA 4.0) : https://xeno-canto.org/793299",
           "sourceIds": [
             "media-lonchura-oryzivora-audio"
-          ]
+          ],
+          "label": "Chant"
         }
       ]
     },
@@ -5811,10 +6071,10 @@ export const birds: Bird[] = [
         ]
       },
       {
-        "level": "programme",
+        "level": "sourcé",
         "text": "BirdLife : *Padda oryzivora* — seul **Endangered** du lot Lonchura",
         "sourceIds": [
-          "bac-pro-tcva-liste"
+          "birdlife-lonchura-oryzivora"
         ]
       },
       {
@@ -5895,33 +6155,39 @@ export const birds: Bird[] = [
           "text": "Évalué **Least Concern** (2025). EOO ≈ 23 000 000 km² ; population considérée > 50 000 000 individus matures (Partners in Flight 2024 *via* BirdLife) ; tendance **en augmentation**. Commerce signalé à forte prévalence.",
           "sourceIds": [
             "birdlife-lonchura-punctulata"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "*na — sources consultées silencieuses.*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Dimorphisme"
         },
         {
           "text": "Non migrateur. Terres irriguées, cultures, jardins ruraux et zones urbaines ; forêts sèches ou humides de basse altitude ; prairies sèches ou saisonnièrement inondées ; fourrés humides.",
           "sourceIds": [
             "birdlife-lonchura-punctulata"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "*na — sources consultées silencieuses.*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Régime"
         },
         {
           "text": "Sédentaire (non migrateur). Présent dans le commerce d’animaux de compagnie.",
           "sourceIds": [
             "birdlife-lonchura-punctulata"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC1069340 (David Darrell-Lambert — CC BY-NC-SA 4.0) : https://xeno-canto.org/1069340",
           "sourceIds": [
             "media-lonchura-punctulata-audio"
-          ]
+          ],
+          "label": "Chant"
         }
       ]
     },
@@ -5935,9 +6201,16 @@ export const birds: Bird[] = [
       },
       {
         "level": "programme",
-        "text": "Confusion : autres *Lonchura* — damier = tendance en **augmentation**, très abondant",
+        "text": "Confusion : autres *Lonchura*",
         "sourceIds": [
           "bac-pro-tcva-liste"
+        ]
+      },
+      {
+        "level": "sourcé",
+        "text": "damier = tendance en **augmentation**, très abondant",
+        "sourceIds": [
+          "birdlife-lonchura-punctulata"
         ]
       },
       {
@@ -5949,14 +6222,7 @@ export const birds: Bird[] = [
       },
       {
         "level": "sourcé",
-        "text": "Non migrateur ; cultures, jardins, urbain, forêts, prairies",
-        "sourceIds": [
-          "birdlife-lonchura-punctulata"
-        ]
-      },
-      {
-        "level": "sourcé",
-        "text": "Commerce signalé à forte prévalence",
+        "text": "Non migrateur ; cultures, jardins, urbain, forêts, prairies ; Commerce signalé à forte prévalence",
         "sourceIds": [
           "birdlife-lonchura-punctulata"
         ]
@@ -6021,33 +6287,39 @@ export const birds: Bird[] = [
           "text": "**Forme domestique** (Society Finch / moineau du Japon), dérivée du capucin domino sauvage. Taxon sauvage *L. striata* : **Least Concern** (2024) ; EOO ≈ 14 500 000 km² ; tendance **stable**.",
           "sourceIds": [
             "birdlife-lonchura-striata"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "*na — sources consultées silencieuses pour le taxon sauvage ; forme domestique non détaillée.*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Dimorphisme"
         },
         {
           "text": "Taxon sauvage : non migrateur ; savane sèche, prairies sèches, fourrés secs, forêts sèches, terres cultivées. Forme domestique : animale d’élevage / de compagnie (pas d’aire sauvage propre).",
           "sourceIds": [
             "birdlife-lonchura-striata"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "*na — sources consultées silencieuses.*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Régime"
         },
         {
           "text": "Taxon sauvage sédentaire ; fortement présent dans le commerce d’animaux de compagnie — contexte historique de la forme domestique.",
           "sourceIds": [
             "birdlife-lonchura-striata"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC1160466 (*Lonchura striata* sauvage, Nishant Bhagwat — CC BY-NC-ND 4.0) : https://xeno-canto.org/1160466",
           "sourceIds": [
             "media-lonchura-striata-domestiqua-audio"
-          ]
+          ],
+          "label": "Chant"
         }
       ]
     },
@@ -6068,21 +6340,21 @@ export const birds: Bird[] = [
       },
       {
         "level": "sourcé",
-        "text": "Dérivée du taxon sauvage *L. striata* (Least Concern, tendance stable)",
+        "text": "Dérivée du taxon sauvage *L. striata* (préoccupation mineure, tendance stable)",
         "sourceIds": [
           "birdlife-lonchura-striata"
         ]
       },
       {
         "level": "sourcé",
-        "text": "Pas d’aire sauvage propre : élevage / compagnie",
+        "text": "Pas d'aire sauvage propre : élevage / compagnie",
         "sourceIds": [
           "birdlife-lonchura-striata"
         ]
       },
       {
         "level": "sourcé",
-        "text": "Audio de référence = enregistrement du taxon sauvage (même espèce)",
+        "text": "En volière : même espèce biologique que le capucin domino ; chant de référence = forme sauvage",
         "sourceIds": [
           "birdlife-lonchura-striata"
         ]
@@ -6156,33 +6428,39 @@ export const birds: Bird[] = [
           "text": "Évalué **Least Concern** (2024). EOO ≈ 14 500 000 km² ; population non quantifiée, commune ou localement commune (Clement 1999 *via* BirdLife) ; tendance **stable**. Altitude 0–2 500 m. Commerce signalé à forte prévalence (animaux de compagnie + usage alimentaire).",
           "sourceIds": [
             "birdlife-lonchura-striata"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "*na — sources consultées silencieuses.*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Dimorphisme"
         },
         {
           "text": "Non migrateur. Savane sèche, prairies sèches, fourrés secs, forêts sèches, terres cultivées.",
           "sourceIds": [
             "birdlife-lonchura-striata"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "*na — sources consultées silencieuses (usage alimentaire humain signalé dans le commerce, pas le régime de l’oiseau).*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Régime"
         },
         {
           "text": "Sédentaire (non migrateur). Fortement présent dans le commerce (animaux de compagnie international ; nourriture humaine à échelle nationale / de subsistance).",
           "sourceIds": [
             "birdlife-lonchura-striata"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC1160466 (Nishant Bhagwat — CC BY-NC-ND 4.0) : https://xeno-canto.org/1160466",
           "sourceIds": [
             "media-lonchura-striata-audio"
-          ]
+          ],
+          "label": "Chant"
         }
       ]
     },
@@ -6283,37 +6561,43 @@ export const birds: Bird[] = [
           "sourceIds": [
             "birdlife-melopsittacus-undulatus",
             "adw-melopsittacus-undulatus"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "Léger : chez la femelle en reproduction, cire beige/brun clair ; sinon cire bleue (souvent associée au mâle / hors reproduction).",
           "sourceIds": [
             "adw-melopsittacus-undulatus (citant Forshaw 1977)"
-          ]
+          ],
+          "label": "Dimorphisme"
         },
         {
           "text": "BirdLife : savane sèche, prairies, fourrés, désert chaud, forêts sèches, cultures, pâturages, jardins (suitable) ; statut **nomade**. ADW : semi-aride / intérieur australien.",
           "sourceIds": [
             "birdlife-melopsittacus-undulatus",
             "adw-melopsittacus-undulatus"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "Granivore au sol : graines de graminées (spinifex, touffes) et cultures ; boit ≈ 5,5 % de sa masse corporelle par jour.",
           "sourceIds": [
             "adw-melopsittacus-undulatus"
-          ]
+          ],
+          "label": "Régime"
         },
         {
           "text": "Très social, grands vols ; diurne ; nomade ; reproduction liée à l’abondance de graines / pluies ; nid en cavités.",
           "sourceIds": [
             "birdlife-melopsittacus-undulatus",
             "adw-melopsittacus-undulatus"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC940888 (Samantha Aguirre — CC BY-NC-SA 4.0) : https://xeno-canto.org/940888",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Chant"
         }
       ]
     },
@@ -6327,9 +6611,17 @@ export const birds: Bird[] = [
       },
       {
         "level": "programme",
-        "text": "Genre seul dans le programme — très courant en animalerie (forme sauvage = base)",
+        "text": "Genre seul dans le programme",
         "sourceIds": [
           "bac-pro-tcva-liste"
+        ]
+      },
+      {
+        "level": "sourcé",
+        "text": "très courant en animalerie (forme sauvage = base)",
+        "sourceIds": [
+          "birdlife-melopsittacus-undulatus",
+          "adw-melopsittacus-undulatus"
         ]
       },
       {
@@ -6342,15 +6634,7 @@ export const birds: Bird[] = [
       },
       {
         "level": "sourcé",
-        "text": "Nomade ; granivore au sol ; très social, grands vols",
-        "sourceIds": [
-          "birdlife-melopsittacus-undulatus",
-          "adw-melopsittacus-undulatus"
-        ]
-      },
-      {
-        "level": "sourcé",
-        "text": "Dimorphisme léger : cire (beige/brun ♀ en repro. vs bleue souvent ♂)",
+        "text": "Nomade ; granivore au sol ; très social, grands vols ; Dimorphisme léger : cire (beige/brun ♀ en repro. vs bleue souvent ♂)",
         "sourceIds": [
           "birdlife-melopsittacus-undulatus",
           "adw-melopsittacus-undulatus"
@@ -6433,37 +6717,43 @@ export const birds: Bird[] = [
           "sourceIds": [
             "birdlife-myiopsitta-monachus",
             "adw-myiopsitta-monachus"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "Absent (mâles et femelles non dimorphes).",
           "sourceIds": [
             "adw-myiopsitta-monachus (citant Greeson 1995)"
-          ]
+          ],
+          "label": "Dimorphisme"
         },
         {
           "text": "Savane sèche, forêt tropicale humide de basse altitude (suitable), zones artificialisées majeures (forêt dégradée, cultures, pâturages, jardins, urbain). Natif Amérique du Sud (Argentine, Bolivie, Brésil, Paraguay, Uruguay) ; nombreuses populations introduites.",
           "sourceIds": [
             "birdlife-myiopsitta-monachus",
             "adw-myiopsitta-monachus"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "Varié : graines, fruits, fleurs, insectes, bourgeons, chardons, graminées ; près des humains aussi cultures (maïs, sorgho, agrumes, etc.).",
           "sourceIds": [
             "adw-myiopsitta-monachus"
-          ]
+          ],
+          "label": "Régime"
         },
         {
           "text": "Très social ; construit ses propres nids collectifs en rameaux (unique chez les perroquets) ; non migrateur au sens BirdLife ; colonies urbaines et rurales.",
           "sourceIds": [
             "birdlife-myiopsitta-monachus",
             "adw-myiopsitta-monachus"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC1143450 (Tanguy Loïs — CC BY-SA 4.0) : https://xeno-canto.org/1143450",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Chant"
         }
       ]
     },
@@ -6477,9 +6767,17 @@ export const birds: Bird[] = [
       },
       {
         "level": "programme",
-        "text": "Sous-espèce nominale du programme — vert + gris, front bleu-gris",
+        "text": "Sous-espèce nominale du programme",
         "sourceIds": [
           "bac-pro-tcva-liste"
+        ]
+      },
+      {
+        "level": "sourcé",
+        "text": "vert + gris, front bleu-gris",
+        "sourceIds": [
+          "birdlife-myiopsitta-monachus",
+          "adw-myiopsitta-monachus"
         ]
       },
       {
@@ -6492,15 +6790,7 @@ export const birds: Bird[] = [
       },
       {
         "level": "sourcé",
-        "text": "Construit des **nids collectifs** en rameaux (unique chez les perroquets)",
-        "sourceIds": [
-          "birdlife-myiopsitta-monachus",
-          "adw-myiopsitta-monachus"
-        ]
-      },
-      {
-        "level": "sourcé",
-        "text": "Natif Amérique du Sud ; nombreuses populations introduites ; régime varié",
+        "text": "Construit des **nids collectifs** en rameaux (unique chez les perroquets) ; Natif Amérique du Sud ; nombreuses populations introduites ; régime varié",
         "sourceIds": [
           "birdlife-myiopsitta-monachus",
           "adw-myiopsitta-monachus"
@@ -6583,33 +6873,39 @@ export const birds: Bird[] = [
           "text": "Évalué **Least Concern** (2024). EOO ≈ 1 850 000 km² ; population non quantifiée, décrite comme rare à localement commune (Clement 1999 *via* BirdLife) ; tendance **stable**. Endémique nicheur d’Australie. Commerce signalé à faible prévalence.",
           "sourceIds": [
             "birdlife-neochmia-modesta"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "*na — sources consultées silencieuses.*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Dimorphisme"
         },
         {
           "text": "Non migrateur. Savane sèche et fourrés secs subtropicaux/tropicaux ; zones humides intérieures (marais, tourbières).",
           "sourceIds": [
             "birdlife-neochmia-modesta"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "*na — sources consultées silencieuses.*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Régime"
         },
         {
           "text": "Sédentaire (non migrateur). Présent dans le commerce d’animaux de compagnie (faible prévalence).",
           "sourceIds": [
             "birdlife-neochmia-modesta"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC605889 (Liam Manderson — CC BY-NC-SA 4.0) : https://xeno-canto.org/605889",
           "sourceIds": [
             "media-neochmia-modesta-audio"
-          ]
+          ],
+          "label": "Chant"
         }
       ]
     },
@@ -6623,9 +6919,16 @@ export const birds: Bird[] = [
       },
       {
         "level": "programme",
-        "text": "Genre *Neochmia* (Australie) — distinct des *Lonchura* / *Padda*",
+        "text": "Genre *Neochmia* (Australie)",
         "sourceIds": [
           "bac-pro-tcva-liste"
+        ]
+      },
+      {
+        "level": "sourcé",
+        "text": "distinct des *Lonchura* / *Padda*",
+        "sourceIds": [
+          "birdlife-neochmia-modesta"
         ]
       },
       {
@@ -6637,14 +6940,7 @@ export const birds: Bird[] = [
       },
       {
         "level": "sourcé",
-        "text": "Non migrateur ; savane sèche, fourrés, zones humides",
-        "sourceIds": [
-          "birdlife-neochmia-modesta"
-        ]
-      },
-      {
-        "level": "sourcé",
-        "text": "Commerce signalé à faible prévalence",
+        "text": "Non migrateur ; savane sèche, fourrés, zones humides ; Commerce signalé à faible prévalence",
         "sourceIds": [
           "birdlife-neochmia-modesta"
         ]
@@ -6718,33 +7014,39 @@ export const birds: Bird[] = [
           "text": "Évalué **Least Concern** (2018). EOO ≈ 3 380 000 km² ; tendance **en diminution** mais populations importantes encore stables ; endémique nicheur d’Australie. Surpâturage près de l’eau cité comme menace principale pour certaines sous-espèces.",
           "sourceIds": [
             "birdlife-neochmia-ruficauda"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "*na — sources consultées silencieuses.*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Dimorphisme"
         },
         {
           "text": "Non migrateur. Terres irriguées, zones urbaines et cultivées ; savane humide et fourrés humides ; zones humides intérieures (marais, fourrés riverains).",
           "sourceIds": [
             "birdlife-neochmia-ruficauda"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "*na — sources consultées silencieuses.*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Régime"
         },
         {
           "text": "Sédentaire (non migrateur).",
           "sourceIds": [
             "birdlife-neochmia-ruficauda"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC436594 (Marc Anderson — CC BY-NC-ND 4.0) : https://xeno-canto.org/436594",
           "sourceIds": [
             "media-neochmia-ruficauda-audio"
-          ]
+          ],
+          "label": "Chant"
         }
       ]
     },
@@ -6853,31 +7155,37 @@ export const birds: Bird[] = [
           "text": "Évalué **Least Concern** (2024). Endémique nicheur d’Australie ; EOO ≈ 3 240 000 km² ; tendance **en augmentation** ; rapportée commune.",
           "sourceIds": [
             "birdlife-neophema-elegans"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "*Non détaillé dans les sources consultées (BirdLife).*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Dimorphisme"
         },
         {
           "text": "Prairies, savane sèche et fourrés tropicaux/subtropicaux secs ; statut **nomade**.",
           "sourceIds": [
             "birdlife-neophema-elegans"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "*Non détaillé dans les sources consultées (BirdLife).*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Régime"
         },
         {
           "text": "Nomade ; endémique Australie ; population soupçonnée en hausse avec l’ouverture d’habitats.",
           "sourceIds": [
             "birdlife-neophema-elegans"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC755583 (Eddy Smith — CC BY-NC-SA 4.0) : https://xeno-canto.org/755583",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Chant"
         }
       ]
     },
@@ -6985,33 +7293,39 @@ export const birds: Bird[] = [
           "text": "Évalué **Least Concern** (2024). Endémique nicheur d’Australie (sud-est) ; EOO ≈ 771 000 km² ; tendance **stable** ; ≈ 20 000 individus (estimation). Aire historiquement contractée (Queensland, NSW, Victoria).",
           "sourceIds": [
             "birdlife-neophema-pulchella"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "*Non détaillé dans les sources consultées (BirdLife).*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Dimorphisme"
         },
         {
           "text": "Forêt tropicale/subtropicale sèche, prairies et fourrés secs ; terres cultivées (non-breeding, suitable) ; 0–1 130 m ; non migrateur. Sous-bois herbeux requis (menaces : brûlis inadaptés, perte de cavités).",
           "sourceIds": [
             "birdlife-neophema-pulchella"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "BirdLife : en Victoria, adaptation à une nouvelle source alimentaire — graines de *cape weed* (rapporté dans le justifiant de tendance). Autres détails alimentaires non listés.",
           "sourceIds": [
             "birdlife-neophema-pulchella"
-          ]
+          ],
+          "label": "Régime"
         },
         {
           "text": "Résident ; endémique Australie ; population globalement stable.",
           "sourceIds": [
             "birdlife-neophema-pulchella"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC328216 (Andrew Spencer — CC BY-NC-ND 4.0) : https://xeno-canto.org/328216",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Chant"
         }
       ]
     },
@@ -7025,9 +7339,16 @@ export const birds: Bird[] = [
       },
       {
         "level": "programme",
-        "text": "Confusion : *N. elegans* / *N. splendida* — turquoisine = sud-est AU, **non migratrice**",
+        "text": "Confusion : *N. elegans* / *N. splendida*",
         "sourceIds": [
           "bac-pro-tcva-liste"
+        ]
+      },
+      {
+        "level": "sourcé",
+        "text": "turquoisine = sud-est AU, **non migratrice**",
+        "sourceIds": [
+          "birdlife-neophema-pulchella"
         ]
       },
       {
@@ -7039,14 +7360,7 @@ export const birds: Bird[] = [
       },
       {
         "level": "sourcé",
-        "text": "Forêt sèche, prairies, fourrés ; besoin de sous-bois herbeux",
-        "sourceIds": [
-          "birdlife-neophema-pulchella"
-        ]
-      },
-      {
-        "level": "sourcé",
-        "text": "Menaces citées : brûlis inadaptés, perte de cavités",
+        "text": "Forêt sèche, prairies, fourrés ; besoin de sous-bois herbeux ; Menaces citées : brûlis inadaptés, perte de cavités",
         "sourceIds": [
           "birdlife-neophema-pulchella"
         ]
@@ -7119,31 +7433,37 @@ export const birds: Bird[] = [
           "text": "Évalué **Least Concern** (2024). Endémique nicheur d’Australie ; EOO ≈ 1 280 000 km² ; tendance **stable** (population fluctuante selon conditions favorables).",
           "sourceIds": [
             "birdlife-neophema-splendida"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "*Non détaillé dans les sources consultées (BirdLife).*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Dimorphisme"
         },
         {
           "text": "Mallee / mulga du sud semi-aride intérieur ; forêt et fourrés tropicaux/subtropicaux secs ; statut **nomade**. Cœur d’aire : Great Victoria Desert ; petite population résidente (Gluepot, Australie-Méridionale).",
           "sourceIds": [
             "birdlife-neophema-splendida"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "*Non détaillé dans les sources consultées (BirdLife).*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Régime"
         },
         {
           "text": "Nomade ; irruptions hors du cœur d’aire possibles ; cohabite souvent avec la perruche de Bourke.",
           "sourceIds": [
             "birdlife-neophema-splendida"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC924874 (Louis Masarei — CC BY-NC-SA 4.0) : https://xeno-canto.org/924874",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Chant"
         }
       ]
     },
@@ -7157,9 +7477,16 @@ export const birds: Bird[] = [
       },
       {
         "level": "programme",
-        "text": "Confusion : autres *Neophema* — splendide = mallee / désert, **nomade**",
+        "text": "Confusion : autres *Neophema*",
         "sourceIds": [
           "bac-pro-tcva-liste"
+        ]
+      },
+      {
+        "level": "sourcé",
+        "text": "splendide = mallee / désert, **nomade**",
+        "sourceIds": [
+          "birdlife-neophema-splendida"
         ]
       },
       {
@@ -7171,14 +7498,7 @@ export const birds: Bird[] = [
       },
       {
         "level": "sourcé",
-        "text": "Cœur d’aire : Great Victoria Desert ; irruptions possibles",
-        "sourceIds": [
-          "birdlife-neophema-splendida"
-        ]
-      },
-      {
-        "level": "sourcé",
-        "text": "Cohabite souvent avec la perruche de Bourke",
+        "text": "Cœur d’aire : Great Victoria Desert ; irruptions possibles ; Cohabite souvent avec la perruche de Bourke",
         "sourceIds": [
           "birdlife-neophema-splendida"
         ]
@@ -7252,37 +7572,43 @@ export const birds: Bird[] = [
           "sourceIds": [
             "birdlife-neopsephotus-bourkii",
             "adw-neopsephotus-bourkii"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "Présent : bande frontale bleue prononcée chez le mâle, réduite ou absente chez la femelle ; femelle un peu plus petite.",
           "sourceIds": [
             "adw-neopsephotus-bourkii"
-          ]
+          ],
+          "label": "Dimorphisme"
         },
         {
           "text": "Savane sèche et fourrés tropicaux/subtropicaux secs ; mulga / acacia, plaines à spinifex ; statut **nomade**.",
           "sourceIds": [
             "birdlife-neopsephotus-bourkii",
             "adw-neopsephotus-bourkii"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "Granivore : graines de graminées, herbacées, acacias et pousses vertes ; se nourrit surtout à l’aube et au crépuscule.",
           "sourceIds": [
             "adw-neopsephotus-bourkii"
-          ]
+          ],
+          "label": "Régime"
         },
         {
           "text": "Social (petits groupes à vols plus larges) ; vol bas et rapide ; souvent au sol ; sédentaire/nomade selon conditions ; nid en cavité (mulga/acacia).",
           "sourceIds": [
             "birdlife-neopsephotus-bourkii",
             "adw-neopsephotus-bourkii"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC681342 (Marc Anderson — CC BY-NC-ND 4.0) : https://xeno-canto.org/681342",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Chant"
         }
       ]
     },
@@ -7402,39 +7728,45 @@ export const birds: Bird[] = [
           "sourceIds": [
             "birdlife-nymphicus-hollandicus",
             "adw-nymphicus-hollandicus"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "Oui : mâle à plumage plus contrasté, joues orange vif bordées de blanc ; femelle à joues orange terne sans bordure blanche ; dessous de queue plus barré chez la femelle.",
           "sourceIds": [
             "adw-nymphicus-hollandicus"
-          ]
+          ],
+          "label": "Dimorphisme"
         },
         {
           "text": "BirdLife : savane sèche, forêts sèches, prairies, fourrés, milieux agricoles et jardins (suitable) ; statut migratoire **nomade**. ADW : intérieur australien près de l’eau douce ; bois ouverts et savanes ; cavités dans eucalyptus morts.",
           "sourceIds": [
             "birdlife-nymphicus-hollandicus",
             "adw-nymphicus-hollandicus"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "Presque exclusivement granivore au sol (graines de graminées, arbustes, arbres) ; aussi fruits, baies et parfois petits insectes.",
           "sourceIds": [
             "adw-nymphicus-hollandicus"
-          ]
+          ],
+          "label": "Régime"
         },
         {
           "text": "Très social : couples précoces, groupes de quelques individus à plusieurs milliers ; nomade au nord, migrations saisonnières au sud ; fuite en vol face au danger ; huppe et plumage exprimant l’état émotionnel.",
           "sourceIds": [
             "adw-nymphicus-hollandicus"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC1163859 (Thierry THOMAS — CC BY-NC-SA 4.0) : https://xeno-canto.org/1163859 ADW : cris aigus pour le stress / alerte ; chants de parade chez le mâle ; imitation de mélodies possible, pas la voix humaine.",
           "sourceIds": [
             "media-nymphicus-hollandicus-audio",
             "adw-nymphicus-hollandicus"
-          ]
+          ],
+          "label": "Chant"
         }
       ]
     },
@@ -7448,9 +7780,17 @@ export const birds: Bird[] = [
       },
       {
         "level": "programme",
-        "text": "Confusion : rosalbin / *Cacatua* — calopsitte = plus petit cacatoès, huppe + joues orange",
+        "text": "Confusion : rosalbin / *Cacatua*",
         "sourceIds": [
           "bac-pro-tcva-liste"
+        ]
+      },
+      {
+        "level": "sourcé",
+        "text": "calopsitte = plus petit cacatoès, huppe + joues orange",
+        "sourceIds": [
+          "birdlife-nymphicus-hollandicus",
+          "adw-nymphicus-hollandicus"
         ]
       },
       {
@@ -7463,15 +7803,7 @@ export const birds: Bird[] = [
       },
       {
         "level": "sourcé",
-        "text": "Dimorphisme : joues orange vif bordées de blanc (♂) vs terne sans bordure (♀)",
-        "sourceIds": [
-          "birdlife-nymphicus-hollandicus",
-          "adw-nymphicus-hollandicus"
-        ]
-      },
-      {
-        "level": "sourcé",
-        "text": "Presque exclusivement granivore au sol ; très sociale",
+        "text": "Dimorphisme : joues orange vif bordées de blanc (♂) vs terne sans bordure (♀) ; Presque exclusivement granivore au sol ; très sociale",
         "sourceIds": [
           "birdlife-nymphicus-hollandicus",
           "adw-nymphicus-hollandicus"
@@ -7554,31 +7886,37 @@ export const birds: Bird[] = [
           "text": "Évaluée **Least Concern** (2024). **Migrateur complet**. EOO ≈ 40 800 000 km² ; population non quantifiée, commune à abondante ; tendance suspectée **en augmentation**.",
           "sourceIds": [
             "birdlife-oena-capensis"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "*Non documenté en détail sur la fiche BirdLife consultée — `na`.*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Dimorphisme"
         },
         {
           "text": "Savane sèche, prairies tempérées et sèches, fourrés secs, terres cultivées et jardins (suitable).",
           "sourceIds": [
             "birdlife-oena-capensis"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "*Non documenté dans les sources catalogue consultées — `na`.*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Régime"
         },
         {
           "text": "Migrateur complet ; extension d’aire signalée (ex. Israël / Arabie depuis le milieu des années 1970, BirdLife citant del Hoyo et al. 1997).",
           "sourceIds": [
             "birdlife-oena-capensis"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC951388 (Stanislas Wroza — CC BY-NC-SA 4.0) : https://xeno-canto.org/951388",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Chant"
         }
       ]
     },
@@ -7678,33 +8016,39 @@ export const birds: Bird[] = [
           "text": "Évalué **Least Concern** (2018). EOO ≈ 6 720 000 km² ; population non quantifiée, commune à abondante (Clement 1999 *via* BirdLife) ; tendance **stable**.",
           "sourceIds": [
             "birdlife-passer-luteus"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "*Non détaillé dans les sources consultées (BirdLife).*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Dimorphisme"
         },
         {
           "text": "Statut **nomade**. Savane sèche, fourrés et prairies secs, cultures, jardins, zones urbaines (habitats résidents adaptés).",
           "sourceIds": [
             "birdlife-passer-luteus"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "*Non détaillé dans les sources consultées (BirdLife).*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Régime"
         },
         {
           "text": "Nomade.",
           "sourceIds": [
             "birdlife-passer-luteus"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC985452 (Oscar Campbell — CC BY-NC-ND 4.0) : https://xeno-canto.org/985452",
           "sourceIds": [
             "media-passer-luteus-audio"
-          ]
+          ],
+          "label": "Chant"
         }
       ]
     },
@@ -7718,7 +8062,7 @@ export const birds: Bird[] = [
       },
       {
         "level": "programme",
-        "text": "Confusion : tisserin gendarme (*Ploceus*) — autre famille (Plocéidés / Ploceidae)",
+        "text": "Confusion : tisserin gendarme (*Ploceus*) — autre famille (Ploceidae / Ploceidae)",
         "sourceIds": [
           "bac-pro-tcva-liste"
         ]
@@ -7804,31 +8148,37 @@ export const birds: Bird[] = [
           "text": "Évalué **Least Concern** (2024). Endémique nicheur d’Australie ; EOO ≈ 2 190 000 km² ; abondant sur une grande partie de l’aire ; tendance **en augmentation**. Non migrant. Deux sous-espèces reconnues.",
           "sourceIds": [
             "birdlife-platycercus-adscitus"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "*Non détaillé dans les sources consultées (BirdLife).*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Dimorphisme"
         },
         {
           "text": "Forêts dégradées, jardins, pâturages, cultures ; forêts marécageuses, humides de basse altitude et sèches ; savane sèche ; fourrés humides et secs.",
           "sourceIds": [
             "birdlife-platycercus-adscitus"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "*Non détaillé dans les sources consultées (BirdLife).*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Régime"
         },
         {
           "text": "Non migrateur ; population soupçonnée en hausse avec l’ouverture / dégradation d’habitats.",
           "sourceIds": [
             "birdlife-platycercus-adscitus"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC593967 (James Lambert — CC BY-NC-SA 4.0) : https://xeno-canto.org/593967",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Chant"
         }
       ]
     },
@@ -7842,9 +8192,16 @@ export const birds: Bird[] = [
       },
       {
         "level": "programme",
-        "text": "Confusion : *P. icterotis* (Stanley) — palliceps = tendance en **augmentation**, aire large",
+        "text": "Confusion : *P. icterotis* (Stanley)",
         "sourceIds": [
           "bac-pro-tcva-liste"
+        ]
+      },
+      {
+        "level": "sourcé",
+        "text": "palliceps = tendance en **augmentation**, aire large",
+        "sourceIds": [
+          "birdlife-platycercus-adscitus"
         ]
       },
       {
@@ -7856,14 +8213,7 @@ export const birds: Bird[] = [
       },
       {
         "level": "sourcé",
-        "text": "Non migratrice ; forêts, savane, jardins, cultures",
-        "sourceIds": [
-          "birdlife-platycercus-adscitus"
-        ]
-      },
-      {
-        "level": "sourcé",
-        "text": "Hausse soupçonnée avec l’ouverture / dégradation d’habitats",
+        "text": "Non migratrice ; forêts, savane, jardins, cultures ; Hausse soupçonnée avec l’ouverture / dégradation d’habitats",
         "sourceIds": [
           "birdlife-platycercus-adscitus"
         ]
@@ -7936,31 +8286,37 @@ export const birds: Bird[] = [
           "text": "Évalué **Least Concern** (2018). EOO ≈ 2 600 000 km² ; tendance **en diminution** (destruction d’habitat) sans atteindre les seuils de vulnérabilité.",
           "sourceIds": [
             "birdlife-platycercus-elegans"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "*Non détaillé dans les sources consultées (BirdLife).*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Dimorphisme"
         },
         {
           "text": "Zones urbaines, jardins ruraux, plantations ; forêts humides montagnardes et de basse altitude, forêt sèche, fourrés humides (résident).",
           "sourceIds": [
             "birdlife-platycercus-elegans"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "*Non détaillé dans les sources consultées (BirdLife).*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Régime"
         },
         {
           "text": "Population soupçonnée en déclin avec la destruction continue d’habitat.",
           "sourceIds": [
             "birdlife-platycercus-elegans"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC1173944 (Romuald Mikusek — CC BY-NC-SA 4.0) : https://xeno-canto.org/1173944",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Chant"
         }
       ]
     },
@@ -7974,9 +8330,16 @@ export const birds: Bird[] = [
       },
       {
         "level": "programme",
-        "text": "Confusion : omnicolore (*P. eximius*) — Pennant = tendance en **diminution**",
+        "text": "Confusion : omnicolore (*P. eximius*)",
         "sourceIds": [
           "bac-pro-tcva-liste"
+        ]
+      },
+      {
+        "level": "sourcé",
+        "text": "Pennant = tendance en **diminution**",
+        "sourceIds": [
+          "birdlife-platycercus-elegans"
         ]
       },
       {
@@ -7988,14 +8351,7 @@ export const birds: Bird[] = [
       },
       {
         "level": "sourcé",
-        "text": "Forêts, fourrés, aussi zones urbaines / jardins / plantations",
-        "sourceIds": [
-          "birdlife-platycercus-elegans"
-        ]
-      },
-      {
-        "level": "sourcé",
-        "text": "Habitat résident (non détaillé comme migrateur)",
+        "text": "Forêts, fourrés, aussi zones urbaines / jardins / plantations ; Habitat résident (non détaillé comme migrateur)",
         "sourceIds": [
           "birdlife-platycercus-elegans"
         ]
@@ -8059,31 +8415,37 @@ export const birds: Bird[] = [
           "text": "Évalué **Least Concern** (2024) au rang d’espèce *P. eximius*. Endémique nicheur d’Australie (introduite en Nouvelle-Zélande) ; EOO ≈ 1 580 000 km² ; tendance **en augmentation** ; extrêmement commune sur une grande partie de l’aire. Forme programme : sous-espèce nominale. Trois sous-espèces reconnues par BirdLife. 0–1 540 m.",
           "sourceIds": [
             "birdlife-platycercus-eximius"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "*Non détaillé dans les sources consultées (BirdLife).*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Dimorphisme"
         },
         {
           "text": "Forêt sèche, savanes humides et sèches, fourrés, cultures, pâturages, plantations, jardins ruraux.",
           "sourceIds": [
             "birdlife-platycercus-eximius"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "*Non détaillé dans les sources consultées (BirdLife).*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Régime"
         },
         {
           "text": "Non migrateur ; très commun ; population soupçonnée en hausse avec la dégradation/ouverture d’habitats.",
           "sourceIds": [
             "birdlife-platycercus-eximius"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC1173636 (Romuald Mikusek — CC BY-NC-SA 4.0) : https://xeno-canto.org/1173636",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Chant"
         }
       ]
     },
@@ -8192,31 +8554,37 @@ export const birds: Bird[] = [
           "text": "Évalué **Least Concern** (2024). Endémique nicheur d’Australie ; EOO ≈ 308 000 km² ; relativement commun ; tendance **en diminution** (pertes d’habitat, extinctions locales). Non migrant.",
           "sourceIds": [
             "birdlife-platycercus-icterotis"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "*Non détaillé dans les sources consultées (BirdLife).*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Dimorphisme"
         },
         {
           "text": "Forêts dégradées, jardins, plantations, pâturages, cultures, forêt sèche, savane sèche, fourrés secs.",
           "sourceIds": [
             "birdlife-platycercus-icterotis"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "*Non détaillé dans les sources consultées (BirdLife).*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Régime"
         },
         {
           "text": "Non migrateur ; déclin soupçonné lié à la perte d’habitat.",
           "sourceIds": [
             "birdlife-platycercus-icterotis"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC382800 (Marc Anderson — CC BY-NC-ND 4.0) : https://xeno-canto.org/382800",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Chant"
         }
       ]
     },
@@ -8230,9 +8598,16 @@ export const birds: Bird[] = [
       },
       {
         "level": "programme",
-        "text": "Confusion : autres *Platycercus* (omnicolore, Pennant, palliceps) — Stanley = EOO plus restreinte",
+        "text": "Confusion : autres *Platycercus* (omnicolore, Pennant, palliceps)",
         "sourceIds": [
           "bac-pro-tcva-liste"
+        ]
+      },
+      {
+        "level": "sourcé",
+        "text": "Stanley = EOO plus restreinte",
+        "sourceIds": [
+          "birdlife-platycercus-icterotis"
         ]
       },
       {
@@ -8244,14 +8619,7 @@ export const birds: Bird[] = [
       },
       {
         "level": "sourcé",
-        "text": "Non migratrice ; forêts dégradées, jardins, pâturages, cultures",
-        "sourceIds": [
-          "birdlife-platycercus-icterotis"
-        ]
-      },
-      {
-        "level": "sourcé",
-        "text": "Extinctions locales signalées (BirdLife)",
+        "text": "Non migratrice ; forêts dégradées, jardins, pâturages, cultures ; Extinctions locales signalées (BirdLife)",
         "sourceIds": [
           "birdlife-platycercus-icterotis"
         ]
@@ -8324,33 +8692,39 @@ export const birds: Bird[] = [
           "text": "Évalué **Least Concern** (2018). EOO ≈ 23 900 000 km² ; population non quantifiée, généralement abondante (Fry & Keith 2004 *via* BirdLife) ; tendance **stable**.",
           "sourceIds": [
             "birdlife-ploceus-cucullatus"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "*Non détaillé dans les sources consultées (BirdLife ; ADW stub).*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Dimorphisme"
         },
         {
           "text": "Non migrateur. Jardins ruraux (majeur) ; plantations, cultures, forêts sèches et humides de basse altitude, savane sèche, cours d’eau.",
           "sourceIds": [
             "birdlife-ploceus-cucullatus"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "*Non détaillé dans les sources consultées (BirdLife ; ADW stub).*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Régime"
         },
         {
           "text": "Non migrateur.",
           "sourceIds": [
             "birdlife-ploceus-cucullatus"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC1080073 (JJSUN — CC BY-NC-SA 4.0) : https://xeno-canto.org/1080073",
           "sourceIds": [
             "media-ploceus-cucullatus-audio"
-          ]
+          ],
+          "label": "Chant"
         }
       ]
     },
@@ -8450,33 +8824,39 @@ export const birds: Bird[] = [
           "text": "Évalué **Least Concern** (2024). EOO ≈ 1 420 000 km² ; population non quantifiée ; tendance **stable**. Endémique nicheur d’Australie. Commerce signalé à forte prévalence.",
           "sourceIds": [
             "birdlife-poephila-acuticauda"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "*na — sources consultées silencieuses.*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Dimorphisme"
         },
         {
           "text": "Non migrateur. Forêts et savanes sèches subtropicales/tropicales.",
           "sourceIds": [
             "birdlife-poephila-acuticauda"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "*na — sources consultées silencieuses.*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Régime"
         },
         {
           "text": "Sédentaire (non migrateur). Présent dans le commerce d’animaux de compagnie.",
           "sourceIds": [
             "birdlife-poephila-acuticauda"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC668759 (James Lambert — CC BY-NC-ND 4.0) : https://xeno-canto.org/668759",
           "sourceIds": [
             "media-poephila-acuticauda-audio"
-          ]
+          ],
+          "label": "Chant"
         }
       ]
     },
@@ -8586,37 +8966,43 @@ export const birds: Bird[] = [
           "sourceIds": [
             "birdlife-poicephalus-senegalus",
             "adw-poicephalus-senegalus"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "Difficile à distinguer à coup sûr ; indices possibles (taille de tête/bec, étendue du « V » pectoral) — sexage ADN/chirurgical souvent requis.",
           "sourceIds": [
             "adw-poicephalus-senegalus"
-          ]
+          ],
+          "label": "Dimorphisme"
         },
         {
           "text": "BirdLife : cultures, plantations, jardins, forêt sèche et humide de basse altitude, savane sèche. ADW : lisières de savane, nidification en arbres ; Afrique de l’Ouest / centre-ouest. Non migrant.",
           "sourceIds": [
             "birdlife-poicephalus-senegalus",
             "adw-poicephalus-senegalus"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "Fruits, graines et grains ; aussi caroubes (*locust beans*) et jeunes bourgeons ; peut fréquenter cultures (maïs, mil, arachides).",
           "sourceIds": [
             "adw-poicephalus-senegalus"
-          ]
+          ],
+          "label": "Régime"
         },
         {
           "text": "Seul, en couple ou petits groupes (10–20 hors saison) ; cris courts / sifflements ; très commercialisé (commerce international massif signalé par BirdLife).",
           "sourceIds": [
             "birdlife-poicephalus-senegalus",
             "adw-poicephalus-senegalus"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC1093291 (Azens — CC BY-NC-SA 4.0) : https://xeno-canto.org/1093291",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Chant"
         }
       ]
     },
@@ -8735,33 +9121,39 @@ export const birds: Bird[] = [
           "text": "Évalué **Near Threatened** (2022, critère D1). Endémique nicheur d’Australie ; EOO ≈ 1 995 000 km² ; 900–10 000 adultes matures estimés ; population variable selon conditions, parfois < 1 000 au minimum ; tendance **stable**.",
           "sourceIds": [
             "birdlife-polytelis-alexandrae"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "*Non détaillé dans les sources consultées (BirdLife).*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Dimorphisme"
         },
         {
           "text": "Désert chaud, prairies sèches (majeur), fourrés secs (majeur) ; statut **nomade**. Zone aride (Grands Déserts de Sable, Gibson, Tanami, Victoria, etc.) ; souvent dans les dépressions entre dunes.",
           "sourceIds": [
             "birdlife-polytelis-alexandrae"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "Variété de graines, fleurs, fruits et feuillage d’arbustes et d’arbres ; associé notamment aux gommier marbre (*Eucalyptus gongylocarpa*) dans le Grand Désert de Victoria.",
           "sourceIds": [
             "birdlife-polytelis-alexandrae"
-          ]
+          ],
+          "label": "Régime"
         },
         {
           "text": "Nomade / irruptif ; nidification en cavités (ex. marble gums) ; se reproduit en années humides dans le cœur d’aire puis peut se disperser.",
           "sourceIds": [
             "birdlife-polytelis-alexandrae"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC488068 (Mark Carter — CC BY-NC-SA 4.0) : https://xeno-canto.org/488068",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Chant"
         }
       ]
     },
@@ -8775,9 +9167,16 @@ export const birds: Bird[] = [
       },
       {
         "level": "programme",
-        "text": "Confusion : *P. anthopeplus* (mélanure) — princesse = **Near Threatened**, désert",
+        "text": "Confusion : *P. anthopeplus* (mélanure)",
         "sourceIds": [
           "bac-pro-tcva-liste"
+        ]
+      },
+      {
+        "level": "sourcé",
+        "text": "princesse = **Near Threatened**, désert",
+        "sourceIds": [
+          "birdlife-polytelis-alexandrae"
         ]
       },
       {
@@ -8789,14 +9188,7 @@ export const birds: Bird[] = [
       },
       {
         "level": "sourcé",
-        "text": "Nomade / irruptive ; déserts arides australiens",
-        "sourceIds": [
-          "birdlife-polytelis-alexandrae"
-        ]
-      },
-      {
-        "level": "sourcé",
-        "text": "Régime : graines, fleurs, fruits, feuillage ; nid en cavités",
+        "text": "Nomade / irruptive ; déserts arides australiens ; Régime : graines, fleurs, fruits, feuillage ; nid en cavités",
         "sourceIds": [
           "birdlife-polytelis-alexandrae"
         ]
@@ -8869,31 +9261,37 @@ export const birds: Bird[] = [
           "text": "Évalué **Least Concern** (2024). Endémique nicheur d’Australie ; EOO ≈ 1 520 000 km² ; ≈ 21 500 individus (estimation) ; tendance globale **en diminution**. Deux populations disjointes : *anthopeplus* (sud-ouest OA) ≈ 20 000 ; *monarchoides* (sud-est) ≈ 1 500, peut-être en déclin.",
           "sourceIds": [
             "birdlife-polytelis-anthopeplus"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "*Non détaillé dans les sources consultées (BirdLife).*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Dimorphisme"
         },
         {
           "text": "Forêts marécageuses et sèches, savane humide, fourrés secs ; cultures en hors-reproduction ; statut **nomade**.",
           "sourceIds": [
             "birdlife-polytelis-anthopeplus"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "*Non détaillé dans les sources consultées (BirdLife).*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Régime"
         },
         {
           "text": "Nomade ; compétition pour cavités (abeilles férales, rosalbin) citée parmi les menaces.",
           "sourceIds": [
             "birdlife-polytelis-anthopeplus"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC638864 (Drew Davison — CC BY-NC-SA 4.0) : https://xeno-canto.org/638864",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Chant"
         }
       ]
     },
@@ -8906,10 +9304,10 @@ export const birds: Bird[] = [
         ]
       },
       {
-        "level": "programme",
+        "level": "sourcé",
         "text": "Confusion : *P. alexandrae* (princesse NT) — mélanure = LC, deux populations disjointes",
         "sourceIds": [
-          "bac-pro-tcva-liste"
+          "birdlife-polytelis-anthopeplus"
         ]
       },
       {
@@ -9001,33 +9399,39 @@ export const birds: Bird[] = [
           "text": "Évalué **Least Concern** (2024). Endémique nicheur d’Australie ; EOO ≈ 1 930 000 km² ; population non quantifiée, rapportée commune à abondante (del Hoyo *et al.* 1997 *via* BirdLife) ; tendance **en augmentation** (dégradation d’habitat créant de nouvelles zones favorables). Altitude 0–1 100 m.",
           "sourceIds": [
             "birdlife-psephotus-haematonotus"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "*Non détaillé dans les sources consultées (BirdLife ; ADW stub).*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Dimorphisme"
         },
         {
           "text": "Non migrateur. Savane sèche, fourrés et prairies secs, forêt sèche, mangroves, jardins et zones urbaines (habitats résidents adaptés).",
           "sourceIds": [
             "birdlife-psephotus-haematonotus"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "*Non détaillé dans les sources consultées (BirdLife ; ADW stub).*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Régime"
         },
         {
           "text": "Non migrateur ; endémique nicheur Australie.",
           "sourceIds": [
             "birdlife-psephotus-haematonotus"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC692681 (Marc Anderson — CC BY-NC-ND 4.0) : https://xeno-canto.org/692681",
           "sourceIds": [
             "media-psephotus-haematonotus-audio"
-          ]
+          ],
+          "label": "Chant"
         }
       ]
     },
@@ -9136,33 +9540,39 @@ export const birds: Bird[] = [
           "text": "Évalué **Least Concern** (2024) sous le nom BirdLife *Himalayapsitta cyanocephala* (ex-*Psittacula cyanocephala*). EOO ≈ 4 010 000 km² ; population non quantifiée, généralement commune en Inde et assez commune au Népal (del Hoyo *et al.* 1997 *via* BirdLife) ; tendance **en diminution** (perte de couvert forestier ~6 % sur trois générations, déclin populationnel suspecté 1–19 %). Altitude 0–2 410 m.",
           "sourceIds": [
             "birdlife-himalayapsitta-cyanocephala"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "*Non détaillé dans les sources consultées (BirdLife).*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Dimorphisme"
         },
         {
           "text": "Non migrateur. Forêts humides de basse altitude et montagnardes ; terres cultivées (habitats résidents adaptés).",
           "sourceIds": [
             "birdlife-himalayapsitta-cyanocephala"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "*Non détaillé dans les sources consultées (BirdLife).*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Régime"
         },
         {
           "text": "Non migrateur.",
           "sourceIds": [
             "birdlife-himalayapsitta-cyanocephala"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC809699 (Marc Anderson — CC BY-NC-ND 4.0) : https://xeno-canto.org/809699",
           "sourceIds": [
             "media-psittacula-cyanocephala-audio"
-          ]
+          ],
+          "label": "Chant"
         }
       ]
     },
@@ -9176,9 +9586,16 @@ export const birds: Bird[] = [
       },
       {
         "level": "programme",
-        "text": "Confusion : collier d'Asie / grande alexandre — tête de prune = tête colorée distinctive",
+        "text": "Confusion : collier d'Asie / grande alexandre",
         "sourceIds": [
           "bac-pro-tcva-liste"
+        ]
+      },
+      {
+        "level": "sourcé",
+        "text": "tête de prune = tête colorée distinctive",
+        "sourceIds": [
+          "birdlife-himalayapsitta-cyanocephala"
         ]
       },
       {
@@ -9190,14 +9607,7 @@ export const birds: Bird[] = [
       },
       {
         "level": "sourcé",
-        "text": "Non migratrice ; forêts humides (basse altitude et montagnes)",
-        "sourceIds": [
-          "birdlife-himalayapsitta-cyanocephala"
-        ]
-      },
-      {
-        "level": "sourcé",
-        "text": "Commune en Inde ; déclin soupçonné (perte de couvert forestier)",
+        "text": "Non migratrice ; forêts humides (basse altitude et montagnes) ; Commune en Inde ; déclin soupçonné (perte de couvert forestier)",
         "sourceIds": [
           "birdlife-himalayapsitta-cyanocephala"
         ]
@@ -9271,35 +9681,41 @@ export const birds: Bird[] = [
           "text": "Évalué **Least Concern** (2025) sous le nom BirdLife *Palaeornis eupatria* (ex-*Psittacula eupatria*). EOO ≈ 9 010 000 km² ; taille de population inconnue ; localement commune et en forte hausse en Inde (SoIB 2023 *via* BirdLife) ; tendance globale **en augmentation** ; rare ou localisé en Indochine. Altitude 0–900 m.",
           "sourceIds": [
             "birdlife-palaeornis-eupatria"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "*Non détaillé dans les sources consultées (BirdLife).*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Dimorphisme"
         },
         {
           "text": "Statut **nomade**. Forêts sèches et humides de basse altitude (majeurs) ; mangroves, fourrés, plantations, jardins, forêt dégradée, désert chaud (adaptés).",
           "sourceIds": [
             "birdlife-palaeornis-eupatria"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "Fruits, graines, pétales, nectar et bourgeons foliaires (Juniper & Parr 1998, Rasmussen & Anderton 2012, Collar & Boesman 2020 *via* BirdLife) ; peut être ravageur des cultures (jusqu’à ~70 % du régime en zones agricoles du Pakistan).",
           "sourceIds": [
             "birdlife-palaeornis-eupatria"
-          ]
+          ],
+          "label": "Régime"
         },
         {
           "text": "Nomade.",
           "sourceIds": [
             "birdlife-palaeornis-eupatria"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC1182205 (David Darrell-Lambert — CC BY-NC-SA 4.0) : https://xeno-canto.org/1182205",
           "sourceIds": [
             "media-psittacula-eupatria-audio"
-          ]
+          ],
+          "label": "Chant"
         }
       ]
     },
@@ -9313,9 +9729,16 @@ export const birds: Bird[] = [
       },
       {
         "level": "programme",
-        "text": "Confusion : collier d'Asie (*krameri*) — grande alexandre = plus grande, statut **nomade**",
+        "text": "Confusion : collier d'Asie (*krameri*)",
         "sourceIds": [
           "bac-pro-tcva-liste"
+        ]
+      },
+      {
+        "level": "sourcé",
+        "text": "grande alexandre = plus grande, statut **nomade**",
+        "sourceIds": [
+          "birdlife-palaeornis-eupatria"
         ]
       },
       {
@@ -9327,14 +9750,7 @@ export const birds: Bird[] = [
       },
       {
         "level": "sourcé",
-        "text": "Fruits, graines, nectar, bourgeons ; peut ravageur des cultures",
-        "sourceIds": [
-          "birdlife-palaeornis-eupatria"
-        ]
-      },
-      {
-        "level": "sourcé",
-        "text": "Forêts sèches/humides de basse altitude (majeurs)",
+        "text": "Fruits, graines, nectar, bourgeons ; peut ravageur des cultures ; Forêts sèches/humides de basse altitude (majeurs)",
         "sourceIds": [
           "birdlife-palaeornis-eupatria"
         ]
@@ -9409,40 +9825,46 @@ export const birds: Bird[] = [
           "sourceIds": [
             "birdlife-alexandrinus-krameri",
             "adw-psittacula-krameri"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "Mâle : collier / dague sombre à maturité (~3 ans) ; femelle et immatures sans collier rose ou avec ombre grise.",
           "sourceIds": [
             "adw-psittacula-krameri"
-          ]
+          ],
+          "label": "Dimorphisme"
         },
         {
           "text": "Non migrateur. Savane sèche, fourrés et prairies secs, forêts humides de basse altitude, mangroves, cultures, jardins, zones humides (marais, tourbières).",
           "sourceIds": [
             "birdlife-alexandrinus-krameri",
             "adw-psittacula-krameri"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "Surtout granivore (~80 % graines/grains) ; aussi fruits, nectar et insectes.",
           "sourceIds": [
             "adw-psittacula-krameri"
-          ]
+          ],
+          "label": "Régime"
         },
         {
           "text": "Sédentaire et social ; diurne ; nicheur secondaire en cavités (souvent trous de pics) ; couples monogames.",
           "sourceIds": [
             "birdlife-alexandrinus-krameri",
             "adw-psittacula-krameri"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC1180800 (Sam Hambly — CC BY-NC-SA 4.0) : https://xeno-canto.org/1180800 ADW : cris rapides « kew-kew-kew », cris de menace « krrrr », agrégatifs doux.",
           "sourceIds": [
             "media-psittacula-krameri-audio",
             "adw-psittacula-krameri"
-          ]
+          ],
+          "label": "Chant"
         }
       ]
     },
@@ -9456,9 +9878,17 @@ export const birds: Bird[] = [
       },
       {
         "level": "programme",
-        "text": "Confusion : *P. eupatria* (grande alexandre) / *P. cyanocephala* (tête de prune) — collier = sous-espèce *manillensis*",
+        "text": "Confusion : *P. eupatria* (grande alexandre) / *P. cyanocephala*",
         "sourceIds": [
           "bac-pro-tcva-liste"
+        ]
+      },
+      {
+        "level": "sourcé",
+        "text": "collier = sous-espèce *manillensis*",
+        "sourceIds": [
+          "birdlife-alexandrinus-krameri",
+          "adw-psittacula-krameri"
         ]
       },
       {
@@ -9471,15 +9901,7 @@ export const birds: Bird[] = [
       },
       {
         "level": "sourcé",
-        "text": "Dimorphisme : mâle collier/dague à maturité ; ♀/immatures sans collier rose",
-        "sourceIds": [
-          "birdlife-alexandrinus-krameri",
-          "adw-psittacula-krameri"
-        ]
-      },
-      {
-        "level": "sourcé",
-        "text": "Surtout granivore ; social ; nicheur en cavités",
+        "text": "Dimorphisme : mâle collier/dague à maturité ; ♀/immatures sans collier rose ; Surtout granivore ; social ; nicheur en cavités",
         "sourceIds": [
           "birdlife-alexandrinus-krameri",
           "adw-psittacula-krameri"
@@ -9553,41 +9975,47 @@ export const birds: Bird[] = [
           "sourceIds": [
             "birdlife-psittacus-erithacus",
             "adw-psittacus-erithacus"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "ADW indique un dimorphisme sexuel possible (sexes colorés/patternés différemment) ; détails du plumage peu marqués chez le jaco.",
           "sourceIds": [
             "adw-psittacus-erithacus"
-          ]
+          ],
+          "label": "Dimorphisme"
         },
         {
           "text": "Non migrateur. Forêts humides de basse altitude et marécageuses (majeurs) ; aussi forêts sèches, mangroves, savane sèche, plantations, jardins, zones urbaines.",
           "sourceIds": [
             "birdlife-psittacus-erithacus",
             "adw-psittacus-erithacus"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "Herbivore : surtout noix et fruits (dont palmier à huile *Elaeis*), feuilles, écorce, fleurs ; aussi insectes. Sur le terrain : fruits et graines en petits groupes (≤ ~30).",
           "sourceIds": [
             "birdlife-psittacus-erithacus",
             "adw-psittacus-erithacus"
-          ]
+          ],
+          "label": "Régime"
         },
         {
           "text": "Très social ; dortoirs bruyants (matins/soirs) ; couples monogames à vie ; nid en cavité d’arbre (10–30 m) ; diurne. Cognition complexe documentée (mimétisme, apprentissage social).",
           "sourceIds": [
             "birdlife-psittacus-erithacus",
             "adw-psittacus-erithacus"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC1137653 (Antoine Ede — CC BY-NC-SA 4.0) : https://xeno-canto.org/1137653 ADW : cris d’alarme, de contact, de mendicité alimentaire, agonistiques ; cohésion du groupe via cris de contact.",
           "sourceIds": [
             "media-psittacus-erithacus-audio",
             "adw-psittacus-erithacus"
-          ]
+          ],
+          "label": "Chant"
         }
       ]
     },
@@ -9601,9 +10029,17 @@ export const birds: Bird[] = [
       },
       {
         "level": "programme",
-        "text": "Genre seul — gris + queue **rouge** ; ne pas confondre avec les *Psittacula*",
+        "text": "Genre seul",
         "sourceIds": [
           "bac-pro-tcva-liste"
+        ]
+      },
+      {
+        "level": "sourcé",
+        "text": "gris + queue **rouge** ; ne pas confondre avec les *Psittacula*",
+        "sourceIds": [
+          "birdlife-psittacus-erithacus",
+          "adw-psittacus-erithacus"
         ]
       },
       {
@@ -9616,15 +10052,7 @@ export const birds: Bird[] = [
       },
       {
         "level": "sourcé",
-        "text": "Forêts humides d’Afrique ; fruits/noix ; très social, dortoirs",
-        "sourceIds": [
-          "birdlife-psittacus-erithacus",
-          "adw-psittacus-erithacus"
-        ]
-      },
-      {
-        "level": "sourcé",
-        "text": "Cognition / mimétisme documentés ; couples monogames",
+        "text": "Forêts humides d’Afrique ; fruits/noix ; très social, dortoirs ; Cognition / mimétisme documentés ; couples monogames",
         "sourceIds": [
           "birdlife-psittacus-erithacus",
           "adw-psittacus-erithacus"
@@ -9698,40 +10126,46 @@ export const birds: Bird[] = [
           "sourceIds": [
             "birdlife-pyrrhura-molinae",
             "adw-pyrrhura-molinae"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "Sexes semblables (plumage).",
           "sourceIds": [
             "adw-pyrrhura-molinae"
-          ]
+          ],
+          "label": "Dimorphisme"
         },
         {
           "text": "Forêt sèche tropicale/subtropicale (majeur) ; aussi forêt humide montagnarde et forêt dégradée. Nidification en cavités d’arbres ; forêts décidues, galeries, secondaires (Paraguay, Argentine, Bolivie, Brésil).",
           "sourceIds": [
             "birdlife-pyrrhura-molinae",
             "adw-pyrrhura-molinae"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "Fruits (figues, mangues, papaye, oranges…), graines, noix, nectar et fleurs.",
           "sourceIds": [
             "adw-pyrrhura-molinae"
-          ]
+          ],
+          "label": "Régime"
         },
         {
           "text": "Social (groupes ~10–20) ; diurne, arboricole ; généralement non migrateur (migrations altitudinales locales possibles).",
           "sourceIds": [
             "birdlife-pyrrhura-molinae",
             "adw-pyrrhura-molinae"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC1180569 (Bo Shunqi 薄顺奇 — CC BY-NC-SA 4.0) : https://xeno-canto.org/1180569 ADW : cris aigus et graves, sifflements, cris, babils, claquements de langue ; mimétisme possible.",
           "sourceIds": [
             "media-pyrrhura-molinae-audio",
             "adw-pyrrhura-molinae"
-          ]
+          ],
+          "label": "Chant"
         }
       ]
     },
@@ -9851,33 +10285,39 @@ export const birds: Bird[] = [
           "text": "Évalué **Least Concern** (2018) pour la forme sauvage (Island Canary). EOO ≈ 612 000 km² ; 3 000 000–5 050 000 individus matures ; tendance **stable**. Très largement élevé en captivité (formes domestiques) ; evaluation IUCN = taxon sauvage.",
           "sourceIds": [
             "birdlife-serinus-canaria"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "*na — sources consultées silencieuses.*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Dimorphisme"
         },
         {
           "text": "Non migrateur. Forêts tempérées ; fourrés secs et méditerranéens ; jardins, pâturages et cultures.",
           "sourceIds": [
             "birdlife-serinus-canaria"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "*na — sources consultées silencieuses.*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Régime"
         },
         {
           "text": "Sédentaire (non migrateur). Présent dans le commerce international d’animaux de compagnie.",
           "sourceIds": [
             "birdlife-serinus-canaria"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC1156694 (Radek Grochowski — CC BY-NC-SA 4.0) : https://xeno-canto.org/1156694",
           "sourceIds": [
             "media-serinus-canaria-audio"
-          ]
+          ],
+          "label": "Chant"
         }
       ]
     },
@@ -9890,10 +10330,10 @@ export const birds: Bird[] = [
         ]
       },
       {
-        "level": "programme",
+        "level": "sourcé",
         "text": "Confusion : serins africains (*Crithagra*) — canaria = forme sauvage des îles + élevage",
         "sourceIds": [
-          "bac-pro-tcva-liste"
+          "birdlife-serinus-canaria"
         ]
       },
       {
@@ -9977,33 +10417,39 @@ export const birds: Bird[] = [
           "text": "Évalué **Least Concern** (2024). EOO ≈ 7 330 000 km² ; population non quantifiée ; tendance **stable**. Commerce signalé à forte prévalence. BirdLife / HBW : *Crithagra leucopygia* (ex-*Serinus*).",
           "sourceIds": [
             "birdlife-serinus-leucopygius"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "*na — sources consultées silencieuses.*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Dimorphisme"
         },
         {
           "text": "Non migrateur. Savane sèche (majeur) ; jardins ruraux, pâturages et cultures (suitable).",
           "sourceIds": [
             "birdlife-serinus-leucopygius"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "*na — sources consultées silencieuses.*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Régime"
         },
         {
           "text": "Sédentaire (non migrateur). Présent dans le commerce d’animaux de compagnie.",
           "sourceIds": [
             "birdlife-serinus-leucopygius"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC469496 (Bram Piot — CC BY-NC-SA 4.0) : https://xeno-canto.org/469496",
           "sourceIds": [
             "media-serinus-leucopygius-audio"
-          ]
+          ],
+          "label": "Chant"
         }
       ]
     },
@@ -10017,9 +10463,16 @@ export const birds: Bird[] = [
       },
       {
         "level": "programme",
-        "text": "Confusion : autres *Serinus* du programme — BirdLife *Crithagra leucopygia*",
+        "text": "Confusion : autres *Serinus* du programme",
         "sourceIds": [
           "bac-pro-tcva-liste"
+        ]
+      },
+      {
+        "level": "sourcé",
+        "text": "BirdLife *Crithagra leucopygia*",
+        "sourceIds": [
+          "birdlife-serinus-leucopygius"
         ]
       },
       {
@@ -10031,14 +10484,7 @@ export const birds: Bird[] = [
       },
       {
         "level": "sourcé",
-        "text": "Non migrateur ; aussi jardins, pâturages, cultures",
-        "sourceIds": [
-          "birdlife-serinus-leucopygius"
-        ]
-      },
-      {
-        "level": "sourcé",
-        "text": "Commerce signalé à forte prévalence",
+        "text": "Non migrateur ; aussi jardins, pâturages, cultures ; Commerce signalé à forte prévalence",
         "sourceIds": [
           "birdlife-serinus-leucopygius"
         ]
@@ -10103,33 +10549,39 @@ export const birds: Bird[] = [
           "text": "Évalué **Least Concern** (2018). EOO ≈ 22 300 000 km² ; population non quantifiée ; tendance **en diminution** (suspectée, liée au commerce). Plus de 2,6 millions d’oiseaux sauvages déclarés dans le commerce international depuis 1985 (CITES *via* BirdLife). BirdLife : *Crithagra mozambica* (ex-*Serinus*).",
           "sourceIds": [
             "birdlife-serinus-mozambicus"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "*na — sources consultées silencieuses.*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Dimorphisme"
         },
         {
           "text": "Non migrateur. Savane sèche (majeur) ; prairies et fourrés secs ; jardins, pâturages et cultures.",
           "sourceIds": [
             "birdlife-serinus-mozambicus"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "*na — sources consultées silencieuses.*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Régime"
         },
         {
           "text": "Sédentaire (non migrateur). Présent dans le commerce d’animaux de compagnie.",
           "sourceIds": [
             "birdlife-serinus-mozambicus"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC1140446 (Marna Buys — CC BY-NC-SA 4.0) : https://xeno-canto.org/1140446",
           "sourceIds": [
             "media-serinus-mozambicus-audio"
-          ]
+          ],
+          "label": "Chant"
         }
       ]
     },
@@ -10143,9 +10595,16 @@ export const birds: Bird[] = [
       },
       {
         "level": "programme",
-        "text": "Confusion : chanteur d'Afrique / serin des canaries — BirdLife *Crithagra mozambica*",
+        "text": "Confusion : chanteur d'Afrique / serin des canaries",
         "sourceIds": [
           "bac-pro-tcva-liste"
+        ]
+      },
+      {
+        "level": "sourcé",
+        "text": "BirdLife *Crithagra mozambica*",
+        "sourceIds": [
+          "birdlife-serinus-mozambicus"
         ]
       },
       {
@@ -10157,14 +10616,7 @@ export const birds: Bird[] = [
       },
       {
         "level": "sourcé",
-        "text": "> 2,6 M oiseaux sauvages déclarés au commerce depuis 1985 (CITES *via* BirdLife)",
-        "sourceIds": [
-          "birdlife-serinus-mozambicus"
-        ]
-      },
-      {
-        "level": "sourcé",
-        "text": "Non migrateur ; savane sèche, prairies, jardins, cultures",
+        "text": "> 2,6 M oiseaux sauvages déclarés au commerce depuis 1985 (CITES *via* BirdLife) ; Non migrateur ; savane sèche, prairies, jardins, cultures",
         "sourceIds": [
           "birdlife-serinus-mozambicus"
         ]
@@ -10229,33 +10681,39 @@ export const birds: Bird[] = [
           "text": "Évalué **Vulnerable** (2022). EOO ≈ 1 175 000 km² ; 68 000–272 000 individus matures ; tendance **en diminution**. Endémique nicheur d’Australie. Déclins récents liés au défrichement et à la dégradation des habitats.",
           "sourceIds": [
             "birdlife-stagonopleura-guttata"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "*na — sources consultées silencieuses.*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Dimorphisme"
         },
         {
           "text": "Non migrateur. Prairies et savanes sèches (majeur) ; forêts sèches subtropicales/tropicales (suitable).",
           "sourceIds": [
             "birdlife-stagonopleura-guttata"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "*na — sources consultées silencieuses.*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Régime"
         },
         {
           "text": "Sédentaire (non migrateur).",
           "sourceIds": [
             "birdlife-stagonopleura-guttata"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC576505 (Marc Anderson — CC BY-NC-ND 4.0) : https://xeno-canto.org/576505",
           "sourceIds": [
             "media-stagonopleura-guttata-audio"
-          ]
+          ],
+          "label": "Chant"
         }
       ]
     },
@@ -10269,9 +10727,16 @@ export const birds: Bird[] = [
       },
       {
         "level": "programme",
-        "text": "Genre seul dans le programme — **Vulnerable**, ne pas confondre avec *Neochmia* LC",
+        "text": "Genre seul dans le programme",
         "sourceIds": [
           "bac-pro-tcva-liste"
+        ]
+      },
+      {
+        "level": "sourcé",
+        "text": "**Vulnerable**, ne pas confondre avec *Neochmia* LC",
+        "sourceIds": [
+          "birdlife-stagonopleura-guttata"
         ]
       },
       {
@@ -10283,14 +10748,7 @@ export const birds: Bird[] = [
       },
       {
         "level": "sourcé",
-        "text": "Endémique Australie ; prairies et savanes sèches (majeur)",
-        "sourceIds": [
-          "birdlife-stagonopleura-guttata"
-        ]
-      },
-      {
-        "level": "sourcé",
-        "text": "Déclins liés au défrichement / dégradation d’habitats",
+        "text": "Endémique Australie ; prairies et savanes sèches (majeur) ; Déclins liés au défrichement / dégradation d’habitats",
         "sourceIds": [
           "birdlife-stagonopleura-guttata"
         ]
@@ -10364,37 +10822,43 @@ export const birds: Bird[] = [
           "text": "**Forme domestique** (Barbary / ringed turtle dove). Taxon sauvage apparenté *S. roseogrisea* : **Least Concern** (2018) ; population non quantifiée, commune à localement abondante ; tendance suspectée **stable**.",
           "sourceIds": [
             "birdlife-streptopelia-roseogrisea"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "Chez le taxon sauvage : mâle un peu plus grand (ailes légèrement plus longues) ; plumage globalement semblable.",
           "sourceIds": [
             "adw-streptopelia-roseogrisea"
-          ]
+          ],
+          "label": "Dimorphisme"
         },
         {
           "text": "Taxon sauvage : savane sèche et prairies sèches (majeur) ; désert chaud, fourrés secs, terres cultivées (suitable). ADW : scrub aride à acacias près de points d’eau, aussi cultures, parcs, mangroves.",
           "sourceIds": [
             "birdlife-streptopelia-roseogrisea",
             "adw-streptopelia-roseogrisea"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "Taxon sauvage : graines de graminées et plantes cultivées au sol ; aussi baies, insectes et escargots.",
           "sourceIds": [
             "adw-streptopelia-roseogrisea"
-          ]
+          ],
+          "label": "Régime"
         },
         {
           "text": "Taxon sauvage : social (dortoirs et abreuvoirs parfois en grands groupes) ; migrations saisonnières locales signalées (Gibbs et al. 2001 via ADW) ; monogame ; parade avec inclinaisons et vol nuptial. Forme domestique dérivée de ce stock sauvage (ADW citant Goodwin 1983).",
           "sourceIds": [
             "adw-streptopelia-roseogrisea",
             "birdlife-streptopelia-roseogrisea"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC1163976 (*Streptopelia roseogrisea*, Zsombor Károlyi — CC BY-NC-SA 4.0) : https://xeno-canto.org/1163976",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Chant"
         }
       ]
     },
@@ -10504,34 +10968,40 @@ export const birds: Bird[] = [
           "text": "Évaluée **Least Concern** (2018). EOO ≈ 64 400 000 km² ; population ≈ 2,4–8,2 millions d’individus matures ; tendance suspectée **stable**.",
           "sourceIds": [
             "birdlife-spilopelia-senegalensis"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "*Non documenté dans BirdLife / ADW consultés — `na`.*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Dimorphisme"
         },
         {
           "text": "Terres cultivées (majeur), jardins, zones urbaines, pâturages, prairies, savane sèche. Associée aux cultures, aux arbres (hors forêt dense) et à l’habitat humain.",
           "sourceIds": [
             "birdlife-spilopelia-senegalensis"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "Petites graines ; aussi fruits, nectar d’*Aloe* et quelques insectes.",
           "sourceIds": [
             "birdlife-spilopelia-senegalensis (citant Baptista",
             "al. 1997)"
-          ]
+          ],
+          "label": "Régime"
         },
         {
           "text": "Espèce commensale des milieux agricoles et urbains ; tendance de population suspectée stable.",
           "sourceIds": [
             "birdlife-spilopelia-senegalensis"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC1183962 (African Bioacoustics Community — CC BY-NC-SA 4.0) : https://xeno-canto.org/1183962",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Chant"
         }
       ]
     },
@@ -10631,33 +11101,39 @@ export const birds: Bird[] = [
           "text": "Évalué **Least Concern** (2024). EOO ≈ 5 450 000 km² ; population non quantifiée ; tendance **stable**. Endémique nicheur d’Australie. Commerce signalé à forte prévalence.",
           "sourceIds": [
             "birdlife-taeniopygia-bichenovii"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "*na — sources consultées silencieuses.*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Dimorphisme"
         },
         {
           "text": "Non migrateur. Zones urbaines, jardins, cultures et pâturages ; forêts, savanes et fourrés secs ; prairies.",
           "sourceIds": [
             "birdlife-taeniopygia-bichenovii"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "*na — sources consultées silencieuses.*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Régime"
         },
         {
           "text": "Sédentaire (non migrateur). Présent dans le commerce d’animaux de compagnie.",
           "sourceIds": [
             "birdlife-taeniopygia-bichenovii"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC816265 (Marc Anderson — CC BY-NC-ND 4.0) : https://xeno-canto.org/816265",
           "sourceIds": [
             "media-taeniopygia-bichenovii-audio"
-          ]
+          ],
+          "label": "Chant"
         }
       ]
     },
@@ -10766,33 +11242,39 @@ export const birds: Bird[] = [
           "text": "Évalué **Least Concern** (2024). EOO ≈ 7 510 000 km² ; population non quantifiée, décrite comme commune ou localement abondante (Clement 1999 *via* BirdLife) ; tendance **stable**. Présent sur la plus grande partie de l’Australie continentale. Commerce signalé à faible prévalence. BirdLife traite *T. castanotis* comme espèce distincte de *T. guttata* (Timor).",
           "sourceIds": [
             "birdlife-taeniopygia-castanotis"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "*na — sources consultées silencieuses.*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Dimorphisme"
         },
         {
           "text": "Non migrateur. Cultures, pâturages, jardins et zones urbaines ; forêts, savanes et fourrés secs ; prairies ; marais salés (suitable).",
           "sourceIds": [
             "birdlife-taeniopygia-castanotis"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "*na — sources consultées silencieuses.*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Régime"
         },
         {
           "text": "Sédentaire (non migrateur). Présent dans le commerce d’animaux de compagnie (faible prévalence).",
           "sourceIds": [
             "birdlife-taeniopygia-castanotis"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC407796 (Frank Lambert — CC BY-NC-ND 4.0) : https://xeno-canto.org/407796",
           "sourceIds": [
             "media-taeniopygia-guttata-castanotis-audio"
-          ]
+          ],
+          "label": "Chant"
         }
       ]
     },
@@ -10805,10 +11287,10 @@ export const birds: Bird[] = [
         ]
       },
       {
-        "level": "programme",
+        "level": "sourcé",
         "text": "BirdLife : *T. castanotis* (espèce) ≠ *T. guttata* (Timor) ; confusion Bichenow",
         "sourceIds": [
-          "bac-pro-tcva-liste"
+          "birdlife-taeniopygia-castanotis"
         ]
       },
       {
@@ -10898,33 +11380,39 @@ export const birds: Bird[] = [
           "text": "Évalué **Least Concern** (2018). EOO ≈ 15 900 000 km² ; population non quantifiée, décrite comme commune à abondante (Clement 1999 *via* BirdLife) ; tendance **stable**. Signalé dans le commerce d’animaux de compagnie.",
           "sourceIds": [
             "birdlife-uraeginthus-bengalus"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "*na — sources consultées silencieuses.*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Dimorphisme"
         },
         {
           "text": "Non migrateur. Jardins ruraux, pâturages et cultures ; prairies, savanes et fourrés secs.",
           "sourceIds": [
             "birdlife-uraeginthus-bengalus"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "*na — sources consultées silencieuses.*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Régime"
         },
         {
           "text": "Sédentaire (non migrateur). Présent dans le commerce d’animaux de compagnie.",
           "sourceIds": [
             "birdlife-uraeginthus-bengalus"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC405791 (Bram Piot — CC BY-NC-SA 4.0) : https://xeno-canto.org/405791",
           "sourceIds": [
             "media-uraeginthus-bengalus-audio"
-          ]
+          ],
+          "label": "Chant"
         }
       ]
     },
@@ -11024,33 +11512,39 @@ export const birds: Bird[] = [
           "text": "Évalué **Least Concern** (2018). EOO ≈ 1 740 000 km² ; population non quantifiée ; tendance **stable**. Signalé dans le commerce d’animaux de compagnie.",
           "sourceIds": [
             "birdlife-uraeginthus-cyanocephalus"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "*na — sources consultées silencieuses.*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Dimorphisme"
         },
         {
           "text": "Non migrateur. Déserts chauds ; prairies et fourrés secs subtropicaux/tropicaux.",
           "sourceIds": [
             "birdlife-uraeginthus-cyanocephalus"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "*na — sources consultées silencieuses.*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Régime"
         },
         {
           "text": "Sédentaire (non migrateur). Présent dans le commerce d’animaux de compagnie.",
           "sourceIds": [
             "birdlife-uraeginthus-cyanocephalus"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC1030357 (Martin Tlustos — CC BY-NC-SA 4.0) : https://xeno-canto.org/1030357",
           "sourceIds": [
             "media-uraeginthus-cyanocephalus-audio"
-          ]
+          ],
+          "label": "Chant"
         }
       ]
     },
@@ -11064,9 +11558,16 @@ export const birds: Bird[] = [
       },
       {
         "level": "programme",
-        "text": "Confusion : cordon bleu (*U. bengalus*) — cap bleu = déserts / fourrés plus arides",
+        "text": "Confusion : cordon bleu (*U. bengalus*)",
         "sourceIds": [
           "bac-pro-tcva-liste"
+        ]
+      },
+      {
+        "level": "sourcé",
+        "text": "cap bleu = déserts / fourrés plus arides",
+        "sourceIds": [
+          "birdlife-uraeginthus-cyanocephalus"
         ]
       },
       {
@@ -11078,14 +11579,7 @@ export const birds: Bird[] = [
       },
       {
         "level": "sourcé",
-        "text": "Non migrateur ; déserts chauds, prairies et fourrés secs",
-        "sourceIds": [
-          "birdlife-uraeginthus-cyanocephalus"
-        ]
-      },
-      {
-        "level": "sourcé",
-        "text": "Présent dans le commerce d’animaux de compagnie",
+        "text": "Non migrateur ; déserts chauds, prairies et fourrés secs ; Présent dans le commerce d’animaux de compagnie",
         "sourceIds": [
           "birdlife-uraeginthus-cyanocephalus"
         ]
@@ -11150,33 +11644,39 @@ export const birds: Bird[] = [
           "text": "Évalué **Least Concern** (2018). EOO ≈ 24 500 000 km² ; population non quantifiée, rapportée comme commune à locale ; tendance **stable**. Signalé dans le commerce international d’animaux de compagnie.",
           "sourceIds": [
             "birdlife-vidua-chalybeata"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "*na — sources consultées silencieuses.*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Dimorphisme"
         },
         {
           "text": "Non migrateur. Savane sèche (majeur) ; jardins, plantations, pâturages et cultures ; fourrés secs.",
           "sourceIds": [
             "birdlife-vidua-chalybeata"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "*na — sources consultées silencieuses.*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Régime"
         },
         {
           "text": "Sédentaire (non migrateur). Présent dans le commerce d’animaux de compagnie.",
           "sourceIds": [
             "birdlife-vidua-chalybeata"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC982686 (Julien Birard — CC BY-NC-SA 4.0) : https://xeno-canto.org/982686",
           "sourceIds": [
             "media-vidua-chalybeata-audio"
-          ]
+          ],
+          "label": "Chant"
         }
       ]
     },
@@ -11276,33 +11776,39 @@ export const birds: Bird[] = [
           "text": "Évalué **Least Concern** (2018). EOO ≈ 26 600 000 km² ; population non quantifiée, décrite comme peu commune (Borrow & Demey 2001 *via* BirdLife) ; tendance **stable**. Signalé dans le commerce international d’animaux de compagnie.",
           "sourceIds": [
             "birdlife-vidua-macroura"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "*na — sources consultées silencieuses.*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Dimorphisme"
         },
         {
           "text": "Non migrateur. Jardins ruraux et cultures (majeur) ; pâturages ; fourrés humides (majeur) ; cours d’eau permanents (suitable).",
           "sourceIds": [
             "birdlife-vidua-macroura"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "*na — sources consultées silencieuses.*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Régime"
         },
         {
           "text": "Sédentaire (non migrateur). Présent dans le commerce d’animaux de compagnie.",
           "sourceIds": [
             "birdlife-vidua-macroura"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC1183545 (African Bioacoustics Community — CC BY-NC-SA 4.0) : https://xeno-canto.org/1183545",
           "sourceIds": [
             "media-vidua-macroura-audio"
-          ]
+          ],
+          "label": "Chant"
         }
       ]
     },
@@ -11402,33 +11908,39 @@ export const birds: Bird[] = [
           "text": "Évalué **Least Concern** (2024). EOO ≈ 5 390 000 km² ; population non quantifiée ; tendance **stable**. Commerce signalé à forte prévalence. BirdLife : Sahel Paradise-whydah (*V. orientalis*), distincte de *V. togoensis* (Exclamatory).",
           "sourceIds": [
             "birdlife-vidua-orientalis"
-          ]
+          ],
+          "label": "Description"
         },
         {
           "text": "*na — sources consultées silencieuses.*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Dimorphisme"
         },
         {
           "text": "Non migrateur. Forêts et savanes sèches (majeur) ; zones rocheuses (suitable).",
           "sourceIds": [
             "birdlife-vidua-orientalis"
-          ]
+          ],
+          "label": "Habitat"
         },
         {
           "text": "*na — sources consultées silencieuses.*",
-          "sourceIds": []
+          "sourceIds": [],
+          "label": "Régime"
         },
         {
           "text": "Sédentaire (non migrateur). Présent dans le commerce international d’animaux de compagnie.",
           "sourceIds": [
             "birdlife-vidua-orientalis"
-          ]
+          ],
+          "label": "Comportement"
         },
         {
           "text": "Enregistrement XC436008 (Bram Piot — CC BY-NC-SA 4.0) : https://xeno-canto.org/436008",
           "sourceIds": [
             "media-vidua-orientalis-audio"
-          ]
+          ],
+          "label": "Chant"
         }
       ]
     },
@@ -11442,14 +11954,14 @@ export const birds: Bird[] = [
       },
       {
         "level": "programme",
-        "text": "Confusion : *V. macroura* / *V. togoensis* (hors programme) — Sahel Paradise-whydah",
+        "text": "Confusion : *V. macroura* (programme) — *V. togoensis* hors programme",
         "sourceIds": [
           "bac-pro-tcva-liste"
         ]
       },
       {
         "level": "sourcé",
-        "text": "Least Concern ; tendance stable ; forêts et savanes sèches",
+        "text": "Préoccupation mineure ; tendance stable ; forêts et savanes sèches",
         "sourceIds": [
           "birdlife-vidua-orientalis"
         ]

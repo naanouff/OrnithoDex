@@ -19,6 +19,8 @@ export type SourcedText = {
   text: string
   /** Obligatoire dès que `text` est non vide. */
   sourceIds: string[]
+  /** Libellé section fiche (Description, Habitat…). */
+  label?: string
 }
 
 export type CoursePoint = {

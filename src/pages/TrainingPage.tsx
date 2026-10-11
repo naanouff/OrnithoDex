@@ -33,13 +33,9 @@ export function TrainingPage() {
             <span>Identifie l’oiseau à l’écoute</span>
           </Link>
         ) : (
-          <div
-            className="mode is-disabled"
-            aria-disabled="true"
-            title="Maquette : audio à brancher plus tard"
-          >
+          <div className="mode is-disabled" aria-disabled="true">
             <strong>Chant → espèce</strong>
-            <span>Bientôt — quand les sons seront là</span>
+            <span>Pas assez d’audio local pour ce mode</span>
           </div>
         )}
       </div>

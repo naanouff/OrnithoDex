@@ -47,10 +47,11 @@ Enregistrement XC933097 (Magnus Wadstein — CC BY-NC-SA 4.0) : https://xeno-can
 <!-- Aides à la mémorisation (pas un polycopié enseignant). -->
 
 - **[programme]** Inséparable de Liliane ↔ *Agapornis lilianae* ; Psittaciformes ; Psittacidés
-- **[programme]** Confusion : *A. nigrigenis* (aussi mopane / Zambèze) — Liliane = NT, aire plus large
+- **[sourcé]** Confusion : *A. nigrigenis* (aussi mopane / Zambèze) — Liliane = NT, aire plus large
 - **[sourcé]** **Near Threatened** ; population ≈ 6 000–15 000 matures ; en diminution
 - **[sourcé]** Forte association au mopane ; graines de graminées (+ fleurs / fruits)
 - **[sourcé]** Menaces : commerce, barrages, statut de ravageur agricole
+
 
 ## Médias
 

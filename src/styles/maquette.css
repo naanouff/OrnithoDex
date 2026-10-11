@@ -885,11 +885,133 @@ body {
   box-shadow: 0 4px 0 rgba(27, 54, 93, 0.1);
 }
 
+.point__src {
+  display: block;
+  margin-top: 6px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--muted);
+}
+
 .sources {
   margin-top: 16px;
   font-size: 0.82rem;
   font-weight: 700;
   color: var(--muted);
+}
+
+.sheet__audio {
+  margin: 16px 0 0;
+  padding: 14px;
+  border-radius: 16px;
+  border: 2.5px solid var(--navy);
+  background: var(--white);
+}
+
+.sheet__audio-label {
+  margin: 0 0 8px;
+  font-size: 0.85rem;
+  font-weight: 800;
+  color: var(--navy);
+}
+
+.sheet__audio audio {
+  width: 100%;
+}
+
+.sheet__sections {
+  margin-top: 18px;
+  display: grid;
+  gap: 12px;
+}
+
+.sheet__section {
+  padding: 12px 14px;
+  border-radius: 16px;
+  background: color-mix(in srgb, var(--cream) 70%, var(--white));
+  border: 2px solid color-mix(in srgb, var(--navy) 25%, transparent);
+}
+
+.sheet__section h4 {
+  margin: 0 0 6px;
+  font-family: Fredoka, system-ui, sans-serif;
+  font-size: 0.95rem;
+  color: var(--navy);
+}
+
+.sheet__section p {
+  margin: 0;
+  font-size: 0.9rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--ink);
+}
+
+.sheet__section-src {
+  margin-top: 8px !important;
+  font-size: 0.72rem !important;
+  font-weight: 700 !important;
+  color: var(--muted) !important;
+}
+
+.sheet__sources-block {
+  margin-top: 20px;
+  padding: 14px;
+  border-radius: 16px;
+  border: 2.5px solid var(--navy);
+  background: var(--white);
+}
+
+.sheet__sources-block h4 {
+  margin: 0 0 10px;
+  font-family: Fredoka, system-ui, sans-serif;
+  font-size: 1rem;
+  color: var(--navy);
+}
+
+.sheet__sources-block ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 8px;
+}
+
+.sheet__sources-block li {
+  font-size: 0.78rem;
+  font-weight: 600;
+  line-height: 1.35;
+  color: var(--ink);
+}
+
+.sheet__sources-id {
+  font-weight: 800;
+  color: var(--muted);
+}
+
+.sheet__sources-block a {
+  color: var(--navy);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.sheet__sources-note {
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.quiz-hint {
+  margin: 0 4px 8px;
+  font-size: 0.88rem;
+  font-weight: 700;
+  line-height: 1.35;
+  color: var(--muted);
+}
+
+.quiz-actions {
+  display: grid;
+  gap: 10px;
+  margin-top: 4px;
 }
 
 .sheet__photo {

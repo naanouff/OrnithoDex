@@ -49,10 +49,11 @@ ADW : séries de gazouillis aigus et forts.
 <!-- Aides à la mémorisation (pas un polycopié enseignant). -->
 
 - **[programme]** Inséparable de Fischer ↔ *Agapornis fischeri* ; Psittaciformes ; Psittacidés
-- **[programme]** Confusion : *A. personatus* (tête noire) — Fischer = face **orange**, anneau oculaire blanc
+- **[programme]** Confusion : *A. personatus*
+- **[sourcé]** Fischer = face **orange**, anneau oculaire blanc
 - **[sourcé]** **Near Threatened** ; endémique Tanzanie ; population en diminution
-- **[sourcé]** Sexes semblables ; granivore ; groupes serrés
-- **[sourcé]** Hybridation possible avec *A. personatus*
+- **[sourcé]** Sexes semblables ; granivore ; groupes serrés ; Hybridation possible avec *A. personatus*
+
 
 ## Médias
 

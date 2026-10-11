@@ -47,10 +47,11 @@ Enregistrement XC638864 (Drew Davison — CC BY-NC-SA 4.0) : https://xeno-canto.
 <!-- Aides à la mémorisation (pas un polycopié enseignant). -->
 
 - **[programme]** Perruche mélanure ↔ *Polytelis anthopeplus* ; Psittaciformes ; Psittacidés
-- **[programme]** Confusion : *P. alexandrae* (princesse NT) — mélanure = LC, deux populations disjointes
+- **[sourcé]** Confusion : *P. alexandrae* (princesse NT) — mélanure = LC, deux populations disjointes
 - **[sourcé]** Least Concern ; ≈ 21 500 individus ; tendance en diminution
 - **[sourcé]** Nomade ; sud-ouest (≈ 20 000) + sud-est (≈ 1 500)
 - **[sourcé]** Menace citée : compétition pour cavités (abeilles férales, rosalbin)
+
 
 ## Médias
 

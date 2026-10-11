@@ -175,7 +175,17 @@ function parseFiche(filePath) {
     const body = extractSection(md, title)
     const sourced = parseSourcedSection(body)
     if (sourced) {
-      sections.push(sourced)
+      const label =
+        title === "Habitat d'origine" || title === 'Habitat d’origine'
+          ? 'Habitat'
+          : title === 'Dimorphisme sexuel'
+            ? 'Dimorphisme'
+            : title === 'Régime alimentaire'
+              ? 'Régime'
+              : title === 'Chant et vocalisations'
+                ? 'Chant'
+                : title
+      sections.push({ ...sourced, label })
       if (title.startsWith('Description') || title.startsWith('Habitat')) {
         rangeTexts.push(sourced.text)
         rangeSourceIds.push(...sourced.sourceIds)

@@ -46,10 +46,11 @@ Enregistrement XC1106789 (Joan Theng — CC BY-NC-SA 4.0) : https://xeno-canto.o
 <!-- Aides à la mémorisation (pas un polycopié enseignant). -->
 
 - **[programme]** Capucin à tête blanche ↔ *Lonchura maja* ; Passériformes ; Estrildidés
-- **[programme]** Confusion : capucin à tête noire (*atricapilla*) — repère = tête **blanche**
+- **[sourcé]** Confusion : capucin à tête noire (*atricapilla*) — repère = tête **blanche**
 - **[sourcé]** Least Concern ; tendance stable ; zones humides (majeur)
 - **[sourcé]** Non migrateur ; aussi cultures et plantations
 - **[sourcé]** Commerce signalé à forte prévalence
+
 
 ## Médias
 

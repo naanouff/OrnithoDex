@@ -46,10 +46,11 @@ Enregistrement XC1154517 (Sébastien Birard — CC BY-NC-SA 4.0) : https://xeno-
 <!-- Aides à la mémorisation (pas un polycopié enseignant). -->
 
 - **[programme]** Bec de corail ↔ *Estrilda troglodytes* ; Passériformes ; Estrildidés
-- **[programme]** Confusion : autres *Estrilda* — habitat surtout savane / fourrés **secs**
+- **[programme]** Confusion : autres *Estrilda*
+- **[sourcé]** habitat surtout savane / fourrés **secs**
 - **[sourcé]** Least Concern ; tendance stable ; non migrateur
-- **[sourcé]** Savane sèche et fourrés secs (majeurs) ; cultures marginales
-- **[sourcé]** Présent dans le commerce international d’animaux de compagnie
+- **[sourcé]** Savane sèche et fourrés secs (majeurs) ; cultures marginales ; Présent dans le commerce international d’animaux de compagnie
+
 
 ## Médias
 

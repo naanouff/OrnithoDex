@@ -47,10 +47,11 @@ Enregistrement XC1143450 (Tanguy Loïs — CC BY-SA 4.0) : https://xeno-canto.or
 <!-- Aides à la mémorisation (pas un polycopié enseignant). -->
 
 - **[programme]** Perruche souris ↔ *Myiopsitta monachus monachus* ; Psittaciformes ; Psittacidés
-- **[programme]** Sous-espèce nominale du programme — vert + gris, front bleu-gris
+- **[programme]** Sous-espèce nominale du programme
+- **[sourcé]** vert + gris, front bleu-gris
 - **[sourcé]** Least Concern ; tendance en **augmentation** ; pas de dimorphisme
-- **[sourcé]** Construit des **nids collectifs** en rameaux (unique chez les perroquets)
-- **[sourcé]** Natif Amérique du Sud ; nombreuses populations introduites ; régime varié
+- **[sourcé]** Construit des **nids collectifs** en rameaux (unique chez les perroquets) ; Natif Amérique du Sud ; nombreuses populations introduites ; régime varié
+
 
 ## Médias
 

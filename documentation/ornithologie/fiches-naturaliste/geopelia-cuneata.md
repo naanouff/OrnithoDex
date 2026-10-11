@@ -45,10 +45,11 @@ Enregistrement XC165147 (Nigel Jackett — CC BY-NC-SA 3.0) : https://xeno-canto
 <!-- Aides à la mémorisation (pas un polycopié enseignant). -->
 
 - **[programme]** Colombe diamant ↔ *Geopelia cuneata* ; Columbiformes ; Columbidés
-- **[programme]** Même genre que la colombe zébrée (*G. striata*) — distinguer au plumage / aire
+- **[programme]** Même genre que la colombe zébrée (*G. striata*)
+- **[sourcé]** distinguer au plumage / aire
 - **[sourcé]** Endémique d’Australie ; BirdLife : statut **nomade**
-- **[sourcé]** Least Concern ; habitats désert chaud / oasis
-- **[sourcé]** Présente dans le commerce d’animaux de compagnie (donnée BirdLife)
+- **[sourcé]** Least Concern ; habitats désert chaud / oasis ; Présente dans le commerce d’animaux de compagnie (donnée BirdLife)
+
 
 ## Médias
 

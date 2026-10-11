@@ -47,10 +47,11 @@ Enregistrement XC382800 (Marc Anderson — CC BY-NC-ND 4.0) : https://xeno-canto
 <!-- Aides à la mémorisation (pas un polycopié enseignant). -->
 
 - **[programme]** Perruche de Stanley ↔ *Platycercus icterotis* ; Psittaciformes ; Psittacidés
-- **[programme]** Confusion : autres *Platycercus* (omnicolore, Pennant, palliceps) — Stanley = EOO plus restreinte
+- **[programme]** Confusion : autres *Platycercus* (omnicolore, Pennant, palliceps)
+- **[sourcé]** Stanley = EOO plus restreinte
 - **[sourcé]** Least Concern ; Australie ; tendance en **diminution** (habitat)
-- **[sourcé]** Non migratrice ; forêts dégradées, jardins, pâturages, cultures
-- **[sourcé]** Extinctions locales signalées (BirdLife)
+- **[sourcé]** Non migratrice ; forêts dégradées, jardins, pâturages, cultures ; Extinctions locales signalées (BirdLife)
+
 
 ## Médias
 
