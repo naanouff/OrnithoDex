@@ -1,7 +1,8 @@
 # Sprint — Remédiation pédagogique 0.3 (P0 + fiche + feedback)
 
-**Branche prévue** : `feature/remediation-pedagogie-0.3` → PR vers `develop`  
-**Dates** : préparation 2026-10-11 ; **exécution démarrée** sur `feature/remediation-pedagogie-0.3`  
+**Branche** : `feature/remediation-pedagogie-0.3` → PR vers `develop`  
+**PR** : https://github.com/naanouff/OrnithoDex/pull/54  
+**Dates** : préparation 2026-10-11 ; exécution 2026-10-11  
 **Réf.** : [analyse-pedagogique-0.2.0.md](analyse-pedagogique-0.2.0.md) · [plan-remediation-pedagogie-0.3.md](plan-remediation-pedagogie-0.3.md) · [pedagogie.md](pedagogie.md) · [design.md](design.md)
 
 ## Objectif
@@ -59,7 +60,7 @@ Corriger les écarts **véracité** et les manques **fiche / feedback** identifi
 - [x] P1.3 : lien fiche + contraste après erreur quiz
 - [x] P0.3 : échantillon 12 + protocole — [suivi-controle-illustrations.md](suivi-controle-illustrations.md)
 - [x] Journal + liens docs
-- [ ] PR vers `develop` (branche `feature/remediation-pedagogie-0.3`)
+- [x] PR vers `develop` — https://github.com/naanouff/OrnithoDex/pull/54
 
 ## Fichiers touchés (prévision)
 
