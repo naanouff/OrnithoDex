@@ -772,11 +772,15 @@ body {
   gap: 8px;
   margin-bottom: 10px;
   flex-shrink: 0;
+  width: 100%;
+  min-width: 0;
 }
 
 .quiz-bar .btn--ghost {
-  flex-shrink: 0;
+  width: auto;
+  flex: 0 0 auto;
   justify-content: flex-start;
+  padding-left: 0;
 }
 
 .quiz-bar .score {
