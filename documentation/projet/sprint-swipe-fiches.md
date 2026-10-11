@@ -52,7 +52,7 @@ Aucune intégration React tant que la **proposition maquette** n’est pas **val
 - [x] Gesture + navigate sur fiche (`useSheetBrowseSwipe`)
 - [x] Polish a11y / extrémités / fallback + index `n / N`
 - [x] `npm run build` + journal
-- [ ] PR vers `develop`
+- [x] PR vers `develop` — https://github.com/naanouff/OrnithoDex/pull/49
 
 ## Notes maquette (validées)
 
