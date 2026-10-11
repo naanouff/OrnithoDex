@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { birds } from '../data/birds'
 import { BirdCard } from '../components/BirdCard'
+import { setBrowseIds } from '../lib/browse'
 import { COLLECTION_ORDER_CHIPS } from '../lib/orders'
 
 const COLS_KEY = 'ornithodex.collection.cols'
@@ -142,6 +143,7 @@ export function CollectionPage() {
               row={Math.floor(index / cols)}
               reveal={revealed}
               onReady={() => markReady(bird.id)}
+              onOpen={() => setBrowseIds(filtered.map((b) => b.id))}
             />
           ))
         )}

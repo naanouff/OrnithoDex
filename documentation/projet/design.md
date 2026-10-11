@@ -135,6 +135,12 @@ Pastilles / filtres stables — une couleur par ordre du programme :
 - Points de cours (`programme` / `sourcé`)
 - Audio si disponible
 - Bloc Sources en bas
+- **Swipe horizontal** (*validé 2026-10-11*, [plan-swipe-fiches.md](plan-swipe-fiches.md)) :
+  - Gauche → espèce suivante ; droite → précédente
+  - Parcours = liste filtrée Collection
+  - Indicateur discret `n / N` (position dans la liste filtrée)
+  - **Pas** de libellé « Glisser », ni boutons prev/next
+  - Retour « ← Collection » inchangé
 
 ### Quiz (photo → nom ; chant → espèce)
 
@@ -160,7 +166,7 @@ Portraits ~390×844 sous [`maquettes/`](maquettes/) :
 |-------|---------|-----------|
 | Accueil | [accueil.png](maquettes/accueil.png) | [prototype.html](maquettes/prototype.html)#accueil |
 | Collection | [collection.png](maquettes/collection.png) | …#collection |
-| Fiche | [fiche.png](maquettes/fiche.png) | ouvrir une carte |
+| Fiche | [fiche.png](maquettes/fiche.png) | ouvrir une carte ; glisser ←→ (*swipe validé, sans hint UI*) |
 | Quiz photo | [quiz.png](maquettes/quiz.png) | …#entrainement → Photo → nom |
 
 Prototype interactif : [`maquettes/README.md`](maquettes/README.md).  
@@ -174,6 +180,7 @@ Logo dans les captures : **JPG** versionné (SVG en cours d’amélioration — 
 |----------|------|
 | [plan-design.md](plan-design.md) | Plan d’exécution charte → maquettes |
 | [plan-ui-equiv-maquette.md](plan-ui-equiv-maquette.md) | Porter le chrome maquette dans l’app |
+| [plan-swipe-fiches.md](plan-swipe-fiches.md) | Swipe entre fiches (maquette → app) |
 | [plan.md](plan.md) | Feuille de route V1 + UI/UX |
 | [pedagogie.md](pedagogie.md) | Charge cognitive / points de cours |
 | [cahier-des-charges.md](cahier-des-charges.md) | Specs fonctionnelles |

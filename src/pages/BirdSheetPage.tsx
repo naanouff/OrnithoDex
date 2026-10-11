@@ -1,12 +1,34 @@
-import { Link, useParams } from 'react-router-dom'
+import { useCallback, useMemo, useRef } from 'react'
+import { Link, useNavigate, useParams } from 'react-router-dom'
 import { BirdImage } from '../components/BirdImage'
+import { useSheetBrowseSwipe } from '../hooks/useSheetBrowseSwipe'
+import { resolveBrowse } from '../lib/browse'
 import { getBirdById } from '../lib/birds'
 import { orderAccent, orderMediaStyle } from '../lib/orders'
 import { resolveBirdImageUrl } from '../lib/media'
 
 export function BirdSheetPage() {
   const { slug = '' } = useParams()
+  const navigate = useNavigate()
+  const sheetRef = useRef<HTMLDivElement>(null)
   const bird = getBirdById(slug)
+  const browse = useMemo(() => resolveBrowse(slug), [slug])
+
+  const goPrev = useCallback(() => {
+    if (browse.prevId) navigate(`/espece/${browse.prevId}`, { replace: true })
+  }, [browse.prevId, navigate])
+
+  const goNext = useCallback(() => {
+    if (browse.nextId) navigate(`/espece/${browse.nextId}`, { replace: true })
+  }, [browse.nextId, navigate])
+
+  useSheetBrowseSwipe(sheetRef, {
+    enabled: Boolean(bird),
+    onPrev: goPrev,
+    onNext: goNext,
+    canPrev: Boolean(browse.prevId),
+    canNext: Boolean(browse.nextId),
+  })
 
   if (!bird) {
     return (
@@ -24,12 +46,19 @@ export function BirdSheetPage() {
   const sourceLine = programSource
     ? `Source identité : ${programSource.title}${programSource.id ? ` (${programSource.id})` : ''}`
     : 'Source identité : liste BAC PRO TCVA'
+  const posLabel = `${browse.index + 1} / ${browse.ids.length}`
 
   return (
-    <div className="sheet" aria-hidden="false">
+    <div className="sheet" ref={sheetRef} aria-hidden="false">
       <Link to="/collection" className="sheet__back">
         ← Collection
       </Link>
+      <p className="sheet__pos" aria-label="Position dans la liste">
+        {posLabel}
+      </p>
+      <p className="sheet__live" aria-live="polite">
+        {bird.commonName}
+      </p>
       <div
         className="sheet__media"
         style={hasPhoto ? undefined : { background: orderMediaStyle(bird.order) }}
