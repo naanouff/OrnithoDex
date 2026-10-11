@@ -42,12 +42,16 @@ export type Bird = {
   order: string
   family: string
   programSourceId: string
-  /** Chemin local `/images/birds/…` ou URL Commons. */
+  /** Photo sourcée — fiche + quiz. Chemin local `/images/birds/…` ou URL Commons. */
   image?: string
   /** URL Commons d’origine si `image` est local. */
   imageRemote?: string
   imageCredit?: string
   imageSourceId?: string
+  /** Illustration naturaliste — tuiles Collection. `/images/illustrations/{id}.webp`. */
+  illustration?: string
+  /** Fond uni échantillonné sur la planche (hex), pour le cadre portrait. */
+  illustrationBg?: string
   /** Chemins locaux `/audio/birds/…` ou URLs Xeno-canto. */
   audio?: string[]
   /** Pages XC d’origine si `audio` est local. */
