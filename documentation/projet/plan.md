@@ -212,6 +212,7 @@ Flux : feature → `develop` → `release/x.y.z` → `main` → tag + Release �
 9. Prompts visuels (illustration + 3D) + carte hémisphère répartition — [plan](plan-prompts-visuels.md) · [sprint](sprint-prompts-visuels.md)
 9. UI/UX équivalente à la maquette (zéro écart) — [plan](plan-ui-equiv-maquette.md) · [sprint](sprint-ui-equiv-maquette.md)
 10. Swipe entre fiches (sans retour Collection) — [plan](plan-swipe-fiches.md) · [sprint](sprint-swipe-fiches.md) *(intégré sur `feature/swipe-fiches`)*
+11. Densité Collection en `localStorage` — [sprint](sprint-cols-localstorage.md)
 
 ## Critères de done V1
 

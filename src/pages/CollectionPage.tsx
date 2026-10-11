@@ -9,12 +9,26 @@ const COLS = [2, 3, 4] as const
 
 type Cols = (typeof COLS)[number]
 
+function parseCols(raw: string | null): Cols | null {
+  const n = Number(raw)
+  if (n === 2 || n === 3 || n === 4) return n
+  return null
+}
+
+/** Préférence durable ; migre une éventuelle valeur `sessionStorage`. */
 function loadCols(): Cols {
   try {
-    const n = Number(sessionStorage.getItem(COLS_KEY) || 2)
-    if (n === 2 || n === 3 || n === 4) return n
+    const fromLocal = parseCols(localStorage.getItem(COLS_KEY))
+    if (fromLocal !== null) return fromLocal
+
+    const fromSession = parseCols(sessionStorage.getItem(COLS_KEY))
+    if (fromSession !== null) {
+      localStorage.setItem(COLS_KEY, String(fromSession))
+      sessionStorage.removeItem(COLS_KEY)
+      return fromSession
+    }
   } catch {
-    /* sessionStorage indisponible */
+    /* storage indisponible */
   }
   return 2
 }
@@ -70,7 +84,8 @@ export function CollectionPage() {
   function onCols(next: Cols) {
     setCols(next)
     try {
-      sessionStorage.setItem(COLS_KEY, String(next))
+      localStorage.setItem(COLS_KEY, String(next))
+      sessionStorage.removeItem(COLS_KEY)
     } catch {
       /* ignore */
     }
