@@ -153,12 +153,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-agapornis-fischeri-img",
     "image": "/images/birds/agapornis-fischeri.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Fischer%27s_Lovebird,_(Agapornis_fischeri)_perching_on_a_box.jpg",
+    "illustration": "/images/illustrations/agapornis-fischeri.webp",
     "audio": [
       "/audio/birds/agapornis-fischeri.mp3"
     ],
     "audioRemote": [
       "https://xeno-canto.org/947900"
-    ]
+    ],
+    "illustrationBg": "#fbf5e1"
   },
   {
     "id": "agapornis-lilianae",
@@ -291,12 +293,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-agapornis-lilianae-img",
     "image": "/images/birds/agapornis-lilianae.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Lilian%27s_Lovebird_(Agapornis_lilianae)_(23710441211).jpg",
+    "illustration": "/images/illustrations/agapornis-lilianae.webp",
     "audio": [
       "/audio/birds/agapornis-lilianae.mp3"
     ],
     "audioRemote": [
       "https://xeno-canto.org/933097"
-    ]
+    ],
+    "illustrationBg": "#f9f0d4"
   },
   {
     "id": "agapornis-nigrigenis",
@@ -418,12 +422,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-agapornis-nigrigenis-img",
     "image": "/images/birds/agapornis-nigrigenis.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Naturalis_Biodiversity_Center_-_ZMA.AVES.56942_-_Agapornis_nigrigenis_Sclater,_W.L.,_1906_-_Psittacidae_-_skin_specimen.jpeg",
+    "illustration": "/images/illustrations/agapornis-nigrigenis.webp",
     "audio": [
       "/audio/birds/agapornis-nigrigenis.mp3"
     ],
     "audioRemote": [
       "https://xeno-canto.org/585260"
-    ]
+    ],
+    "illustrationBg": "#f9f1db"
   },
   {
     "id": "agapornis-personatus",
@@ -565,12 +571,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-agapornis-personatus-img",
     "image": "/images/birds/agapornis-personatus.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Yellow-collared_Lovebird_(27582137244).jpg",
+    "illustration": "/images/illustrations/agapornis-personatus.webp",
     "audio": [
       "/audio/birds/agapornis-personatus.mp3"
     ],
     "audioRemote": [
       "https://xeno-canto.org/509849"
-    ]
+    ],
+    "illustrationBg": "#f5ebd1"
   },
   {
     "id": "agapornis-roseicollis",
@@ -720,12 +728,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-agapornis-roseicollis-img",
     "image": "/images/birds/agapornis-roseicollis.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Rosy-faced_lovebird_(Agapornis_roseicollis_roseicollis)_flock.jpg",
+    "illustration": "/images/illustrations/agapornis-roseicollis.webp",
     "audio": [
       "/audio/birds/agapornis-roseicollis.wav"
     ],
     "audioRemote": [
       "https://xeno-canto.org/1101865"
-    ]
+    ],
+    "illustrationBg": "#ffffff"
   },
   {
     "id": "aix-galericulata",
@@ -744,7 +754,7 @@ export const birds: Bird[] = [
           ]
         },
         {
-          "text": "Fort : mâle en plumage nuptial avec « voiles » dorsales, crête orange/crème et bandeau oculaire blanc ; femelle plus terne, grise, avec trait blanc derrière l’œil.",
+          "text": "Mâle en plumage complet : paire de plumes « voiles » dressées verticalement au-dessus du dos, crête orange et crème, large bandeau oculaire blanc bordé au-dessus et au-dessous par des plumes plus sombres. Femelle plus terne, aspect général gris, trait blanc courbe derrière l’œil, taches blanches sur les parties inférieures. En vol, les deux sexes montrent un speculum irisé bleu-vert.",
           "sourceIds": [
             "adw-aix-galericulata"
           ]
@@ -872,12 +882,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-aix-galericulata-img",
     "image": "/images/birds/aix-galericulata.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Mandarin_duck_(Aix_galericulata).jpg",
+    "illustration": "/images/illustrations/aix-galericulata.webp",
     "audio": [
       "/audio/birds/aix-galericulata.wav"
     ],
     "audioRemote": [
       "https://xeno-canto.org/1137635"
-    ]
+    ],
+    "illustrationBg": "#f6ebcf"
   },
   {
     "id": "aix-sponsa",
@@ -1009,12 +1021,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-aix-sponsa-img",
     "image": "/images/birds/aix-sponsa.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Wood_Duck_(Aix_sponsa).jpg",
+    "illustration": "/images/illustrations/aix-sponsa.webp",
     "audio": [
       "/audio/birds/aix-sponsa.wav"
     ],
     "audioRemote": [
       "https://xeno-canto.org/1173163"
-    ]
+    ],
+    "illustrationBg": "#f9f1df"
   },
   {
     "id": "amadina-fasciata",
@@ -1133,12 +1147,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-amadina-fasciata-img",
     "image": "/images/birds/amadina-fasciata.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Cut-throat_Finch_(Amadina_fasciata,_male_-_Djenn%C3%A9,_Mali,_2008).jpg",
+    "illustration": "/images/illustrations/amadina-fasciata.webp",
     "audio": [
       "/audio/birds/amadina-fasciata.mp3"
     ],
     "audioRemote": [
       "https://xeno-canto.org/509854"
-    ]
+    ],
+    "illustrationBg": "#f6ebd1"
   },
   {
     "id": "amandava-amandava",
@@ -1275,12 +1291,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-amandava-amandava-img",
     "image": "/images/birds/amandava-amandava.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Red_Avadavat_(26082788247).jpg",
+    "illustration": "/images/illustrations/amandava-amandava.webp",
     "audio": [
       "/audio/birds/amandava-amandava.mp3"
     ],
     "audioRemote": [
       "https://xeno-canto.org/698326"
-    ]
+    ],
+    "illustrationBg": "#f8efde"
   },
   {
     "id": "amandava-subflava",
@@ -1408,12 +1426,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-amandava-subflava-img",
     "image": "/images/birds/amandava-subflava.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Male_Zebra_Waxbill_(Sporaeginthus_subflavus).jpg",
+    "illustration": "/images/illustrations/amandava-subflava.webp",
     "audio": [
       "/audio/birds/amandava-subflava.mp3"
     ],
     "audioRemote": [
       "https://xeno-canto.org/872300"
-    ]
+    ],
+    "illustrationBg": "#f7efd6"
   },
   {
     "id": "amazona-aestiva",
@@ -1558,12 +1578,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-amazona-aestiva-img",
     "image": "/images/birds/amazona-aestiva.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Amazona_aestiva_-_Maroparque_01.jpg",
+    "illustration": "/images/illustrations/amazona-aestiva.webp",
     "audio": [
       "/audio/birds/amazona-aestiva.mp3"
     ],
     "audioRemote": [
       "https://xeno-canto.org/554117"
-    ]
+    ],
+    "illustrationBg": "#faeed2"
   },
   {
     "id": "bolborhynchus-lineola-lineola",
@@ -1694,12 +1716,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-bolborhynchus-lineola-img",
     "image": "/images/birds/bolborhynchus-lineola-lineola.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Barred_Parakeet,_Oxapampa,_Pasco,_Peru_1.jpg",
+    "illustration": "/images/illustrations/bolborhynchus-lineola-lineola.webp",
     "audio": [
       "/audio/birds/bolborhynchus-lineola-lineola.wav"
     ],
     "audioRemote": [
       "https://xeno-canto.org/1060162"
-    ]
+    ],
+    "illustrationBg": "#fcf5e8"
   },
   {
     "id": "cacatua-alba",
@@ -1820,9 +1844,11 @@ export const birds: Bird[] = [
     "imageSourceId": "media-cacatua-alba-img",
     "image": "/images/birds/cacatua-alba.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Cacatua_alba_-Coconuts_Bar_-Cozumel_-Mexico-8a.jpg",
+    "illustration": "/images/illustrations/cacatua-alba.webp",
     "audio": [
       "https://xeno-canto.org/1074294"
-    ]
+    ],
+    "illustrationBg": "#fdf7e5"
   },
   {
     "id": "cacatua-galerita",
@@ -1970,12 +1996,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-cacatua-galerita-img",
     "image": "/images/birds/cacatua-galerita.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Sulphur-crested_cockatoo_(Cacatua_galerita_galerita)_Sydney.jpg",
+    "illustration": "/images/illustrations/cacatua-galerita.webp",
     "audio": [
       "/audio/birds/cacatua-galerita.mp3"
     ],
     "audioRemote": [
       "https://xeno-canto.org/1177819"
-    ]
+    ],
+    "illustrationBg": "#fef5e4"
   },
   {
     "id": "callipepla-californica",
@@ -2107,12 +2135,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-callipepla-californica-img",
     "image": "/images/birds/callipepla-californica.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Valley_quail_myatt_(5489811278)_(cropped).jpg",
+    "illustration": "/images/illustrations/callipepla-californica.webp",
     "audio": [
       "/audio/birds/callipepla-californica.mp3"
     ],
     "audioRemote": [
       "https://xeno-canto.org/570687"
-    ]
+    ],
+    "illustrationBg": "#f8eedb"
   },
   {
     "id": "colinus-virginianus",
@@ -2244,12 +2274,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-colinus-virginianus-img",
     "image": "/images/birds/colinus-virginianus.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Northern_Bobwhite_female_RWD.jpg",
+    "illustration": "/images/illustrations/colinus-virginianus.webp",
     "audio": [
       "/audio/birds/colinus-virginianus.mp3"
     ],
     "audioRemote": [
       "https://xeno-canto.org/919215"
-    ]
+    ],
+    "illustrationBg": "#f6f0df"
   },
   {
     "id": "columba-livia",
@@ -2381,12 +2413,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-columba-livia-img",
     "image": "/images/birds/columba-livia.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Rock_dove_(Columba_livia).jpg",
+    "illustration": "/images/illustrations/columba-livia.webp",
     "audio": [
       "/audio/birds/columba-livia.mp3"
     ],
     "audioRemote": [
       "https://xeno-canto.org/977797"
-    ]
+    ],
+    "illustrationBg": "#faf4e1"
   },
   {
     "id": "coturnix-chinensis",
@@ -2528,12 +2562,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-coturnix-chinensis-img",
     "image": "/images/birds/coturnix-chinensis.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Chinese_Painted_Quail_RWD12a.jpg",
+    "illustration": "/images/illustrations/coturnix-chinensis.webp",
     "audio": [
       "/audio/birds/coturnix-chinensis.mp3"
     ],
     "audioRemote": [
       "https://xeno-canto.org/1076265"
-    ]
+    ],
+    "illustrationBg": "#f7f1e3"
   },
   {
     "id": "cyanoramphus-auriceps",
@@ -2663,12 +2699,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-cyanoramphus-auriceps-img",
     "image": "/images/birds/cyanoramphus-auriceps.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Yellow-crowned_parakeet_-_K%C4%81k%C4%81riki.jpg",
+    "illustration": "/images/illustrations/cyanoramphus-auriceps.webp",
     "audio": [
       "/audio/birds/cyanoramphus-auriceps.mp3"
     ],
     "audioRemote": [
       "https://xeno-canto.org/526622"
-    ]
+    ],
+    "illustrationBg": "#f6f0de"
   },
   {
     "id": "cyanoramphus-novaezelandiae",
@@ -2810,12 +2848,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-cyanoramphus-novaezelandiae-img",
     "image": "/images/birds/cyanoramphus-novaezelandiae.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Kakariki,_the_red-crowned_parakeet.(Cyanoramphus_novaezelandiae)_(9118899767).jpg",
+    "illustration": "/images/illustrations/cyanoramphus-novaezelandiae.webp",
     "audio": [
       "/audio/birds/cyanoramphus-novaezelandiae.wav"
     ],
     "audioRemote": [
       "https://xeno-canto.org/956617"
-    ]
+    ],
+    "illustrationBg": "#faf2e3"
   },
   {
     "id": "eolophus-roseicapilla",
@@ -2963,12 +3003,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-eolophus-roseicapilla-img",
     "image": "/images/birds/eolophus-roseicapilla.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Eolophus_roseicapilla_-_a_pair_of_Galahs_-Australia.jpg",
+    "illustration": "/images/illustrations/eolophus-roseicapilla.webp",
     "audio": [
       "/audio/birds/eolophus-roseicapilla.mp3"
     ],
     "audioRemote": [
       "https://xeno-canto.org/1181679"
-    ]
+    ],
+    "illustrationBg": "#f6f0e0"
   },
   {
     "id": "erythrura-gouldiae",
@@ -3098,12 +3140,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-erythrura-gouldiae-img",
     "image": "/images/birds/erythrura-gouldiae.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Chloebia_gouldiae,_Elsey,_Northern_Territory,_Australia_1.jpg",
+    "illustration": "/images/illustrations/erythrura-gouldiae.webp",
     "audio": [
       "/audio/birds/erythrura-gouldiae.wav"
     ],
     "audioRemote": [
       "https://xeno-canto.org/960939"
-    ]
+    ],
+    "illustrationBg": "#f9f2e0"
   },
   {
     "id": "erythrura-psittacea",
@@ -3222,12 +3266,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-erythrura-psittacea-img",
     "image": "/images/birds/erythrura-psittacea.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Red-throated_Parrotfinch_0A2A5145.jpg",
+    "illustration": "/images/illustrations/erythrura-psittacea.webp",
     "audio": [
       "/audio/birds/erythrura-psittacea.mp3"
     ],
     "audioRemote": [
       "https://xeno-canto.org/40164"
-    ]
+    ],
+    "illustrationBg": "#f9efde"
   },
   {
     "id": "erythrura-trichroa",
@@ -3357,12 +3403,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-erythrura-trichroa-img",
     "image": "/images/birds/erythrura-trichroa.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Blue-faced_Parrot-finch_Pengo.jpg",
+    "illustration": "/images/illustrations/erythrura-trichroa.webp",
     "audio": [
       "/audio/birds/erythrura-trichroa.wav"
     ],
     "audioRemote": [
       "https://xeno-canto.org/1003825"
-    ]
+    ],
+    "illustrationBg": "#faf3e3"
   },
   {
     "id": "estrilda-astrild",
@@ -3509,12 +3557,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-estrilda-astrild-img",
     "image": "/images/birds/estrilda-astrild.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Common_waxbill_(26408344029).jpg",
+    "illustration": "/images/illustrations/estrilda-astrild.webp",
     "audio": [
       "/audio/birds/estrilda-astrild.wav"
     ],
     "audioRemote": [
       "https://xeno-canto.org/1155179"
-    ]
+    ],
+    "illustrationBg": "#fcf4e6"
   },
   {
     "id": "estrilda-caerulescens",
@@ -3642,12 +3692,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-estrilda-caerulescens-img",
     "image": "/images/birds/estrilda-caerulescens.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Lavender_waxbill_(Estrilda_caerulescens).jpg",
+    "illustration": "/images/illustrations/estrilda-caerulescens.webp",
     "audio": [
       "/audio/birds/estrilda-caerulescens.mp3"
     ],
     "audioRemote": [
       "https://xeno-canto.org/1081214"
-    ]
+    ],
+    "illustrationBg": "#faf3e4"
   },
   {
     "id": "estrilda-melpoda",
@@ -3765,12 +3817,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-estrilda-melpoda-img",
     "image": "/images/birds/estrilda-melpoda.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Orange-cheeked_Waxbill.jpg",
+    "illustration": "/images/illustrations/estrilda-melpoda.webp",
     "audio": [
       "/audio/birds/estrilda-melpoda.mp3"
     ],
     "audioRemote": [
       "https://xeno-canto.org/1081191"
-    ]
+    ],
+    "illustrationBg": "#faf3e4"
   },
   {
     "id": "estrilda-troglodytes",
@@ -3889,12 +3943,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-estrilda-troglodytes-img",
     "image": "/images/birds/estrilda-troglodytes.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Black-rumped_Waxbill_-_Gambia_(31806634704).jpg",
+    "illustration": "/images/illustrations/estrilda-troglodytes.webp",
     "audio": [
       "/audio/birds/estrilda-troglodytes.wav"
     ],
     "audioRemote": [
       "https://xeno-canto.org/1154517"
-    ]
+    ],
+    "illustrationBg": "#faf3e5"
   },
   {
     "id": "euplectes-orix",
@@ -4013,12 +4069,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-euplectes-orix-img",
     "image": "/images/birds/euplectes-orix.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Southern_Red_Bishop_(Euplectes_orix)_male_..._(52656476541).jpg",
+    "illustration": "/images/illustrations/euplectes-orix.webp",
     "audio": [
       "/audio/birds/euplectes-orix.wav"
     ],
     "audioRemote": [
       "https://xeno-canto.org/1183523"
-    ]
+    ],
+    "illustrationBg": "#f7efde"
   },
   {
     "id": "forpus-coelestis",
@@ -4139,12 +4197,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-forpus-coelestis-img",
     "image": "/images/birds/forpus-coelestis.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Forpus_coelestis_(normal_and_American_white)_-AFA_show_bird-8a.jpg",
+    "illustration": "/images/illustrations/forpus-coelestis.webp",
     "audio": [
       "/audio/birds/forpus-coelestis.mp3"
     ],
     "audioRemote": [
       "https://xeno-canto.org/512761"
-    ]
+    ],
+    "illustrationBg": "#f9f2e0"
   },
   {
     "id": "gallus-gallus-domesticus",
@@ -4278,12 +4338,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-gallus-domesticus-img",
     "image": "/images/birds/gallus-gallus-domesticus.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Rooster_and_Hen.jpg",
+    "illustration": "/images/illustrations/gallus-gallus-domesticus.webp",
     "audio": [
       "/audio/birds/gallus-gallus-domesticus.wav"
     ],
     "audioRemote": [
       "https://xeno-canto.org/1181554"
-    ]
+    ],
+    "illustrationBg": "#f6f0de"
   },
   {
     "id": "geopelia-cuneata",
@@ -4409,12 +4471,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-geopelia-cuneata-img",
     "image": "/images/birds/geopelia-cuneata.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Geopelia_cuneata.JPG",
+    "illustration": "/images/illustrations/geopelia-cuneata.webp",
     "audio": [
       "/audio/birds/geopelia-cuneata.mp3"
     ],
     "audioRemote": [
       "https://xeno-canto.org/165147"
-    ]
+    ],
+    "illustrationBg": "#faf2e3"
   },
   {
     "id": "geopelia-striata",
@@ -4531,12 +4595,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-geopelia-striata-img",
     "image": "/images/birds/geopelia-striata.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Burung_Merbuk.JPG",
+    "illustration": "/images/illustrations/geopelia-striata.webp",
     "audio": [
       "/audio/birds/geopelia-striata.wav"
     ],
     "audioRemote": [
       "https://xeno-canto.org/1081912"
-    ]
+    ],
+    "illustrationBg": "#f7f0e1"
   },
   {
     "id": "gracula-religiosa",
@@ -4670,9 +4736,11 @@ export const birds: Bird[] = [
     "imageSourceId": "media-gracula-religiosa-img",
     "image": "/images/birds/gracula-religiosa.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Hill_Myna_(Gracula_religiosa_intermedia),_Thrigby_Hall.jpg",
+    "illustration": "/images/illustrations/gracula-religiosa.webp",
     "audio": [
       "https://xeno-canto.org/1157137"
-    ]
+    ],
+    "illustrationBg": "#fbf4e4"
   },
   {
     "id": "lagonosticta-larvata-vinacea",
@@ -4800,12 +4868,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-lagonosticta-larvata-vinacea-img",
     "image": "/images/birds/lagonosticta-larvata-vinacea.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Vinaceous_Firefinch.jpg",
+    "illustration": "/images/illustrations/lagonosticta-larvata-vinacea.webp",
     "audio": [
       "/audio/birds/lagonosticta-larvata-vinacea.mp3"
     ],
     "audioRemote": [
       "https://xeno-canto.org/405752"
-    ]
+    ],
+    "illustrationBg": "#faf2e4"
   },
   {
     "id": "lagonosticta-senegala",
@@ -4923,12 +4993,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-lagonosticta-senegala-img",
     "image": "/images/birds/lagonosticta-senegala.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Red-billed_firefinch_(Lagonosticta_senegala_senegala)_male.jpg",
+    "illustration": "/images/illustrations/lagonosticta-senegala.webp",
     "audio": [
       "/audio/birds/lagonosticta-senegala.wav"
     ],
     "audioRemote": [
       "https://xeno-canto.org/1145629"
-    ]
+    ],
+    "illustrationBg": "#faf2e3"
   },
   {
     "id": "lonchura-cantans",
@@ -5047,12 +5119,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-lonchura-cantans-img",
     "image": "/images/birds/lonchura-cantans.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Silberschn%C3%A4belchen_(Lonchura_cantans).JPG",
+    "illustration": "/images/illustrations/lonchura-cantans.webp",
     "audio": [
       "/audio/birds/lonchura-cantans.mp3"
     ],
     "audioRemote": [
       "https://xeno-canto.org/1163939"
-    ]
+    ],
+    "illustrationBg": "#f8f1e2"
   },
   {
     "id": "lonchura-cucullata",
@@ -5171,12 +5245,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-lonchura-cucullata-img",
     "image": "/images/birds/lonchura-cucullata.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Bronze_mannikin_(Lonchura_cucullata_cucullata).jpg",
+    "illustration": "/images/illustrations/lonchura-cucullata.webp",
     "audio": [
       "/audio/birds/lonchura-cucullata.wav"
     ],
     "audioRemote": [
       "https://xeno-canto.org/1165783"
-    ]
+    ],
+    "illustrationBg": "#fbf4e4"
   },
   {
     "id": "lonchura-maja",
@@ -5295,12 +5371,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-lonchura-maja-img",
     "image": "/images/birds/lonchura-maja.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Lonchura_maja_by_Michael_MK_Khor.jpg",
+    "illustration": "/images/illustrations/lonchura-maja.webp",
     "audio": [
       "/audio/birds/lonchura-maja.mp3"
     ],
     "audioRemote": [
       "https://xeno-canto.org/1106789"
-    ]
+    ],
+    "illustrationBg": "#faf2e3"
   },
   {
     "id": "lonchura-malabarica",
@@ -5419,12 +5497,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-lonchura-malabarica-img",
     "image": "/images/birds/lonchura-malabarica.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Indian_silverbill-_Euodice_malabarica.jpg",
+    "illustration": "/images/illustrations/lonchura-malabarica.webp",
     "audio": [
       "/audio/birds/lonchura-malabarica.wav"
     ],
     "audioRemote": [
       "https://xeno-canto.org/1182208"
-    ]
+    ],
+    "illustrationBg": "#fbf4e6"
   },
   {
     "id": "lonchura-malacca-atricapilla",
@@ -5543,12 +5623,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-lonchura-malacca-atricapilla-img",
     "image": "/images/birds/lonchura-malacca-atricapilla.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Bondol_rawa_(Lonchura_atricapilla).jpg",
+    "illustration": "/images/illustrations/lonchura-malacca-atricapilla.webp",
     "audio": [
       "/audio/birds/lonchura-malacca-atricapilla.mp3"
     ],
     "audioRemote": [
       "https://xeno-canto.org/1141729"
-    ]
+    ],
+    "illustrationBg": "#faf3e5"
   },
   {
     "id": "lonchura-malacca-malacca",
@@ -5667,12 +5749,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-lonchura-malacca-malacca-img",
     "image": "/images/birds/lonchura-malacca-malacca.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Tri_colored_munia.jpg",
+    "illustration": "/images/illustrations/lonchura-malacca-malacca.webp",
     "audio": [
       "/audio/birds/lonchura-malacca-malacca.wav"
     ],
     "audioRemote": [
       "https://xeno-canto.org/1160217"
-    ]
+    ],
+    "illustrationBg": "#faf3e3"
   },
   {
     "id": "lonchura-oryzivora",
@@ -5791,9 +5875,11 @@ export const birds: Bird[] = [
     "imageSourceId": "media-lonchura-oryzivora-img",
     "image": "/images/birds/lonchura-oryzivora.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Padda_oryzivora_qtl1.jpg",
+    "illustration": "/images/illustrations/lonchura-oryzivora.webp",
     "audio": [
       "https://xeno-canto.org/793299"
-    ]
+    ],
+    "illustrationBg": "#faf3e4"
   },
   {
     "id": "lonchura-punctulata",
@@ -5912,12 +5998,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-lonchura-punctulata-img",
     "image": "/images/birds/lonchura-punctulata.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Scaly-breasted_munia_or_spotted_munia_(Lonchura_punctulata)_at_Dehradun,_Uttarakhand_05.jpg",
+    "illustration": "/images/illustrations/lonchura-punctulata.webp",
     "audio": [
       "/audio/birds/lonchura-punctulata.wav"
     ],
     "audioRemote": [
       "https://xeno-canto.org/1069340"
-    ]
+    ],
+    "illustrationBg": "#faf3e3"
   },
   {
     "id": "lonchura-striata-domestiqua",
@@ -6045,12 +6133,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-lonchura-striata-domestiqua-img",
     "image": "/images/birds/lonchura-striata-domestiqua.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Society_Finch.jpg",
+    "illustration": "/images/illustrations/lonchura-striata-domestiqua.webp",
     "audio": [
       "/audio/birds/lonchura-striata-domestiqua.wav"
     ],
     "audioRemote": [
       "https://xeno-canto.org/1160466"
-    ]
+    ],
+    "illustrationBg": "#f9efde"
   },
   {
     "id": "lonchura-striata",
@@ -6169,12 +6259,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-lonchura-striata-img",
     "image": "/images/birds/lonchura-striata.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:White-rumped_Munia_(Lonchura_striata)_(32024349690).jpg",
+    "illustration": "/images/illustrations/lonchura-striata.webp",
     "audio": [
       "/audio/birds/lonchura-striata.wav"
     ],
     "audioRemote": [
       "https://xeno-canto.org/1160466"
-    ]
+    ],
+    "illustrationBg": "#fcf5e8"
   },
   {
     "id": "melopsittacus-undulatus",
@@ -6317,12 +6409,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-melopsittacus-undulatus-img",
     "image": "/images/birds/melopsittacus-undulatus.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Budgerigars_at_water,_Karratha,_Western_Aaustralia_(7857257686).jpg",
+    "illustration": "/images/illustrations/melopsittacus-undulatus.webp",
     "audio": [
       "/audio/birds/melopsittacus-undulatus.mp3"
     ],
     "audioRemote": [
       "https://xeno-canto.org/940888"
-    ]
+    ],
+    "illustrationBg": "#faf4e1"
   },
   {
     "id": "myiopsitta-monachus-monachus",
@@ -6466,12 +6560,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-myiopsitta-monachus-monachus-img",
     "image": "/images/birds/myiopsitta-monachus-monachus.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Myiopsitta_monachus_-Gran_Canaria,_Canary_Islands,_Spain-8.jpg",
+    "illustration": "/images/illustrations/myiopsitta-monachus-monachus.webp",
     "audio": [
       "/audio/birds/myiopsitta-monachus-monachus.wav"
     ],
     "audioRemote": [
       "https://xeno-canto.org/1143450"
-    ]
+    ],
+    "illustrationBg": "#f7f1df"
   },
   {
     "id": "neochmia-modesta",
@@ -6599,12 +6695,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-neochmia-modesta-img",
     "image": "/images/birds/neochmia-modesta.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Plum-headed_Finch-Neochmia_modesta.jpg",
+    "illustration": "/images/illustrations/neochmia-modesta.webp",
     "audio": [
       "/audio/birds/neochmia-modesta.mp3"
     ],
     "audioRemote": [
       "https://xeno-canto.org/605889"
-    ]
+    ],
+    "illustrationBg": "#f9f2e2"
   },
   {
     "id": "neochmia-ruficauda",
@@ -6732,12 +6830,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-neochmia-ruficauda-img",
     "image": "/images/birds/neochmia-ruficauda.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Star_Finch_(Neochmia_ruficauda_subclarescens)_Wyndham_WA.jpg",
+    "illustration": "/images/illustrations/neochmia-ruficauda.webp",
     "audio": [
       "/audio/birds/neochmia-ruficauda.mp3"
     ],
     "audioRemote": [
       "https://xeno-canto.org/436594"
-    ]
+    ],
+    "illustrationBg": "#faf2e3"
   },
   {
     "id": "neophema-elegans",
@@ -6862,12 +6962,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-neophema-elegans-img",
     "image": "/images/birds/neophema-elegans.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Elegant_Parrot_(Neophema_elegans)_(8079612251).jpg",
+    "illustration": "/images/illustrations/neophema-elegans.webp",
     "audio": [
       "/audio/birds/neophema-elegans.wav"
     ],
     "audioRemote": [
       "https://xeno-canto.org/755583"
-    ]
+    ],
+    "illustrationBg": "#f9f3e1"
   },
   {
     "id": "neophema-pulchella",
@@ -6994,12 +7096,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-neophema-pulchella-img",
     "image": "/images/birds/neophema-pulchella.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Neophema_pulchella_-Twycross_Zoo,_Leicestershire,_England-8a.jpg",
+    "illustration": "/images/illustrations/neophema-pulchella.webp",
     "audio": [
       "/audio/birds/neophema-pulchella.mp3"
     ],
     "audioRemote": [
       "https://xeno-canto.org/328216"
-    ]
+    ],
+    "illustrationBg": "#faf3e3"
   },
   {
     "id": "neophema-splendida",
@@ -7124,12 +7228,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-neophema-splendida-img",
     "image": "/images/birds/neophema-splendida.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Scarlet_Chested_Parakeet.jpg",
+    "illustration": "/images/illustrations/neophema-splendida.webp",
     "audio": [
       "/audio/birds/neophema-splendida.wav"
     ],
     "audioRemote": [
       "https://xeno-canto.org/924874"
-    ]
+    ],
+    "illustrationBg": "#faf2e3"
   },
   {
     "id": "neopsephotus-bourkii",
@@ -7272,12 +7378,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-neopsephotus-bourkii-img",
     "image": "/images/birds/neopsephotus-bourkii.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Bourkes_Parrot_(Neopsephotus_bourkii)9.jpg",
+    "illustration": "/images/illustrations/neopsephotus-bourkii.webp",
     "audio": [
       "/audio/birds/neopsephotus-bourkii.mp3"
     ],
     "audioRemote": [
       "https://xeno-canto.org/681342"
-    ]
+    ],
+    "illustrationBg": "#faf3e3"
   },
   {
     "id": "nymphicus-hollandicus",
@@ -7423,12 +7531,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-nymphicus-hollandicus-img",
     "image": "/images/birds/nymphicus-hollandicus.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Cockatiel_Parakeet_(Nymphicus_hollandicus)9.jpg",
+    "illustration": "/images/illustrations/nymphicus-hollandicus.webp",
     "audio": [
       "/audio/birds/nymphicus-hollandicus.mp3"
     ],
     "audioRemote": [
       "https://xeno-canto.org/1163859"
-    ]
+    ],
+    "illustrationBg": "#fcf5e6"
   },
   {
     "id": "oena-capensis",
@@ -7545,12 +7655,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-oena-capensis-img",
     "image": "/images/birds/oena-capensis.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Oena_capensis_-Etosha_National_Park,_Namibia-8.jpg",
+    "illustration": "/images/illustrations/oena-capensis.webp",
     "audio": [
       "/audio/birds/oena-capensis.wav"
     ],
     "audioRemote": [
       "https://xeno-canto.org/951388"
-    ]
+    ],
+    "illustrationBg": "#f7f0e1"
   },
   {
     "id": "passer-luteus",
@@ -7669,12 +7781,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-passer-luteus-img",
     "image": "/images/birds/passer-luteus.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Passer_luteus_-_Barry_Stewart_-_661030168.jpeg",
+    "illustration": "/images/illustrations/passer-luteus.webp",
     "audio": [
       "/audio/birds/passer-luteus.wav"
     ],
     "audioRemote": [
       "https://xeno-canto.org/985452"
-    ]
+    ],
+    "illustrationBg": "#faf3e1"
   },
   {
     "id": "platycercus-adscitus",
@@ -7799,12 +7913,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-platycercus-adscitus-img",
     "image": "/images/birds/platycercus-adscitus.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Pale-headed_Rosella_-_Herbaton.jpg",
+    "illustration": "/images/illustrations/platycercus-adscitus.webp",
     "audio": [
       "/audio/birds/platycercus-adscitus.mp3"
     ],
     "audioRemote": [
       "https://xeno-canto.org/593967"
-    ]
+    ],
+    "illustrationBg": "#f6efde"
   },
   {
     "id": "platycercus-elegans",
@@ -7920,12 +8036,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-platycercus-elegans-img",
     "image": "/images/birds/platycercus-elegans.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Platycercus_elegans_-Blue_Mountains_-side-8a.jpg",
+    "illustration": "/images/illustrations/platycercus-elegans.webp",
     "audio": [
       "/audio/birds/platycercus-elegans.mp3"
     ],
     "audioRemote": [
       "https://xeno-canto.org/1173944"
-    ]
+    ],
+    "illustrationBg": "#f8f1df"
   },
   {
     "id": "platycercus-eximius-eximius",
@@ -8051,12 +8169,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-platycercus-eximius-eximius-img",
     "image": "/images/birds/platycercus-eximius-eximius.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Female_Eastern_Rosella_(Platycercus_eximius).jpg",
+    "illustration": "/images/illustrations/platycercus-eximius-eximius.webp",
     "audio": [
       "/audio/birds/platycercus-eximius-eximius.mp3"
     ],
     "audioRemote": [
       "https://xeno-canto.org/1173636"
-    ]
+    ],
+    "illustrationBg": "#f6f0de"
   },
   {
     "id": "platycercus-icterotis",
@@ -8181,12 +8301,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-platycercus-icterotis-img",
     "image": "/images/birds/platycercus-icterotis.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Western_Rosella_(Platycercus_icterotis)_-eating_bread.jpg",
+    "illustration": "/images/illustrations/platycercus-icterotis.webp",
     "audio": [
       "/audio/birds/platycercus-icterotis.mp3"
     ],
     "audioRemote": [
       "https://xeno-canto.org/382800"
-    ]
+    ],
+    "illustrationBg": "#f6f0df"
   },
   {
     "id": "ploceus-cucullatus",
@@ -8305,12 +8427,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-ploceus-cucullatus-img",
     "image": "/images/birds/ploceus-cucullatus.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Village_weaver_(Ploceus_cucullatus_cucullatus)_female_and_male.jpg",
+    "illustration": "/images/illustrations/ploceus-cucullatus.webp",
     "audio": [
       "/audio/birds/ploceus-cucullatus.mp3"
     ],
     "audioRemote": [
       "https://xeno-canto.org/1080073"
-    ]
+    ],
+    "illustrationBg": "#f7f1df"
   },
   {
     "id": "poephila-acuticauda",
@@ -8438,12 +8562,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-poephila-acuticauda-img",
     "image": "/images/birds/poephila-acuticauda.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Poephila_acuticauda_-Wulagi,_Darwin,_Australia-8a.jpg",
+    "illustration": "/images/illustrations/poephila-acuticauda.webp",
     "audio": [
       "/audio/birds/poephila-acuticauda.mp3"
     ],
     "audioRemote": [
       "https://xeno-canto.org/668759"
-    ]
+    ],
+    "illustrationBg": "#fcf5e8"
   },
   {
     "id": "poicephalus-senegalus",
@@ -8586,12 +8712,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-poicephalus-senegalus-img",
     "image": "/images/birds/poicephalus-senegalus.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Senegal_Parrots_-two_on_branch_in_Africa.jpg",
+    "illustration": "/images/illustrations/poicephalus-senegalus.webp",
     "audio": [
       "/audio/birds/poicephalus-senegalus.mp3"
     ],
     "audioRemote": [
       "https://xeno-canto.org/1093291"
-    ]
+    ],
+    "illustrationBg": "#f9f7e8"
   },
   {
     "id": "polytelis-alexandrae",
@@ -8718,12 +8846,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-polytelis-alexandrae-img",
     "image": "/images/birds/polytelis-alexandrae.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Polytelis_alexandrae_-Australia-8.jpg",
+    "illustration": "/images/illustrations/polytelis-alexandrae.webp",
     "audio": [
       "/audio/birds/polytelis-alexandrae.mp3"
     ],
     "audioRemote": [
       "https://xeno-canto.org/488068"
-    ]
+    ],
+    "illustrationBg": "#faf3e3"
   },
   {
     "id": "polytelis-anthopeplus",
@@ -8848,12 +8978,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-polytelis-anthopeplus-img",
     "image": "/images/birds/polytelis-anthopeplus.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Polytelis_anthopeplus_-Wyperfeld_National_Park_-Australia-8.jpg",
+    "illustration": "/images/illustrations/polytelis-anthopeplus.webp",
     "audio": [
       "/audio/birds/polytelis-anthopeplus.mp3"
     ],
     "audioRemote": [
       "https://xeno-canto.org/638864"
-    ]
+    ],
+    "illustrationBg": "#f8f1e0"
   },
   {
     "id": "psephotus-haematonotus-haematonotus",
@@ -8981,12 +9113,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-psephotus-haematonotus-img",
     "image": "/images/birds/psephotus-haematonotus-haematonotus.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Red_Rumped_Parrot_Males.jpg",
+    "illustration": "/images/illustrations/psephotus-haematonotus-haematonotus.webp",
     "audio": [
       "/audio/birds/psephotus-haematonotus-haematonotus.mp3"
     ],
     "audioRemote": [
       "https://xeno-canto.org/692681"
-    ]
+    ],
+    "illustrationBg": "#f8f1e0"
   },
   {
     "id": "psittacula-cyanocephala",
@@ -9114,12 +9248,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-psittacula-cyanocephala-img",
     "image": "/images/birds/psittacula-cyanocephala.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Plum-headed_Parakeet_(Psittacula_cyanocephala)_in_Hyderabad_W_IMG_4536.jpg",
+    "illustration": "/images/illustrations/psittacula-cyanocephala.webp",
     "audio": [
       "/audio/birds/psittacula-cyanocephala.mp3"
     ],
     "audioRemote": [
       "https://xeno-canto.org/809699"
-    ]
+    ],
+    "illustrationBg": "#f9f2e1"
   },
   {
     "id": "psittacula-eupatria",
@@ -9249,12 +9385,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-psittacula-eupatria-img",
     "image": "/images/birds/psittacula-eupatria.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:A_Male_with_another_-_Alexandrine_Parakeets_(51005695606).jpg",
+    "illustration": "/images/illustrations/psittacula-eupatria.webp",
     "audio": [
       "/audio/birds/psittacula-eupatria.wav"
     ],
     "audioRemote": [
       "https://xeno-canto.org/1182205"
-    ]
+    ],
+    "illustrationBg": "#f7f1df"
   },
   {
     "id": "psittacula-krameri-manillensis",
@@ -9391,12 +9529,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-psittacula-krameri-img",
     "image": "/images/birds/psittacula-krameri-manillensis.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Indian_Ringneck_parrot._(Psittacula_krameri),_(9779826796).jpg",
+    "illustration": "/images/illustrations/psittacula-krameri-manillensis.webp",
     "audio": [
       "/audio/birds/psittacula-krameri-manillensis.wav"
     ],
     "audioRemote": [
       "https://xeno-canto.org/1180800"
-    ]
+    ],
+    "illustrationBg": "#f9f2e0"
   },
   {
     "id": "psittacus-erithacus",
@@ -9534,12 +9674,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-psittacus-erithacus-img",
     "image": "/images/birds/psittacus-erithacus.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:African-Grey-Parrot.jpg",
+    "illustration": "/images/illustrations/psittacus-erithacus.webp",
     "audio": [
       "/audio/birds/psittacus-erithacus.wav"
     ],
     "audioRemote": [
       "https://xeno-canto.org/1137653"
-    ]
+    ],
+    "illustrationBg": "#f5efdd"
   },
   {
     "id": "pyrrhura-molinae",
@@ -9686,12 +9828,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-pyrrhura-molinae-img",
     "image": "/images/birds/pyrrhura-molinae.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Green_Cheecked_Conure.jpg",
+    "illustration": "/images/illustrations/pyrrhura-molinae.webp",
     "audio": [
       "/audio/birds/pyrrhura-molinae.mp3"
     ],
     "audioRemote": [
       "https://xeno-canto.org/1180569"
-    ]
+    ],
+    "illustrationBg": "#f8f1df"
   },
   {
     "id": "serinus-canaria",
@@ -9810,12 +9954,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-serinus-canaria-img",
     "image": "/images/birds/serinus-canaria.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Serinus_canaria_-_Canary_-_Wild.jpg",
+    "illustration": "/images/illustrations/serinus-canaria.webp",
     "audio": [
       "/audio/birds/serinus-canaria.mp3"
     ],
     "audioRemote": [
       "https://xeno-canto.org/1156694"
-    ]
+    ],
+    "illustrationBg": "#faf3e3"
   },
   {
     "id": "serinus-leucopygius",
@@ -9934,12 +10080,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-serinus-leucopygius-img",
     "image": "/images/birds/serinus-leucopygius.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:White-rumped_Seedeater_-_Gambia_(32270398890).jpg",
+    "illustration": "/images/illustrations/serinus-leucopygius.webp",
     "audio": [
       "/audio/birds/serinus-leucopygius.mp3"
     ],
     "audioRemote": [
       "https://xeno-canto.org/469496"
-    ]
+    ],
+    "illustrationBg": "#f7f0de"
   },
   {
     "id": "serinus-mozambicus",
@@ -10058,12 +10206,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-serinus-mozambicus-img",
     "image": "/images/birds/serinus-mozambicus.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Yellow-fronted_canary_(Crithagra_mozambica_granti)_male_Kruger.jpg",
+    "illustration": "/images/illustrations/serinus-mozambicus.webp",
     "audio": [
       "/audio/birds/serinus-mozambicus.mp3"
     ],
     "audioRemote": [
       "https://xeno-canto.org/1140446"
-    ]
+    ],
+    "illustrationBg": "#faf4e1"
   },
   {
     "id": "stagonopleura-guttata",
@@ -10191,12 +10341,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-stagonopleura-guttata-img",
     "image": "/images/birds/stagonopleura-guttata.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Stagonopleura_guttata_1_-_Glen_Alice.jpg",
+    "illustration": "/images/illustrations/stagonopleura-guttata.webp",
     "audio": [
       "/audio/birds/stagonopleura-guttata.mp3"
     ],
     "audioRemote": [
       "https://xeno-canto.org/576505"
-    ]
+    ],
+    "illustrationBg": "#faf3e3"
   },
   {
     "id": "streptopelia-risoria",
@@ -10329,12 +10481,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-streptopelia-risoria-img",
     "image": "/images/birds/streptopelia-risoria.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Barbary_Dove_(Streptopelia_risoria)_RWD.jpg",
+    "illustration": "/images/illustrations/streptopelia-risoria.webp",
     "audio": [
       "/audio/birds/streptopelia-risoria.mp3"
     ],
     "audioRemote": [
       "https://xeno-canto.org/1163976"
-    ]
+    ],
+    "illustrationBg": "#faf3e6"
   },
   {
     "id": "streptopelia-senegalensis",
@@ -10454,12 +10608,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-streptopelia-senegalensis-img",
     "image": "/images/birds/streptopelia-senegalensis.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Spilopelia_senegalensis_-_Laughing_Dove_-_K%C3%BC%C3%A7%C3%BCk_kumru_02.JPG",
+    "illustration": "/images/illustrations/streptopelia-senegalensis.webp",
     "audio": [
       "/audio/birds/streptopelia-senegalensis.wav"
     ],
     "audioRemote": [
       "https://xeno-canto.org/1183962"
-    ]
+    ],
+    "illustrationBg": "#f8f0de"
   },
   {
     "id": "taeniopygia-bichenovii",
@@ -10587,12 +10743,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-taeniopygia-bichenovii-img",
     "image": "/images/birds/taeniopygia-bichenovii.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Taeniopygia_bichenovii_2_-_Glen_Davis.jpg",
+    "illustration": "/images/illustrations/taeniopygia-bichenovii.webp",
     "audio": [
       "/audio/birds/taeniopygia-bichenovii.mp3"
     ],
     "audioRemote": [
       "https://xeno-canto.org/816265"
-    ]
+    ],
+    "illustrationBg": "#f8f2e0"
   },
   {
     "id": "taeniopygia-guttata-castanotis",
@@ -10720,9 +10878,11 @@ export const birds: Bird[] = [
     "imageSourceId": "media-taeniopygia-guttata-castanotis-img",
     "image": "/images/birds/taeniopygia-guttata-castanotis.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Australian_Zebra_Finch_0A2A3013.jpg",
+    "illustration": "/images/illustrations/taeniopygia-guttata-castanotis.webp",
     "audio": [
       "https://xeno-canto.org/407796"
-    ]
+    ],
+    "illustrationBg": "#faf3e5"
   },
   {
     "id": "uraeginthus-bengalus",
@@ -10841,12 +11001,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-uraeginthus-bengalus-img",
     "image": "/images/birds/uraeginthus-bengalus.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Red-cheeked_cordon-bleu_(Uraeginthus_bengalus_bengalus)_male.jpg",
+    "illustration": "/images/illustrations/uraeginthus-bengalus.webp",
     "audio": [
       "/audio/birds/uraeginthus-bengalus.mp3"
     ],
     "audioRemote": [
       "https://xeno-canto.org/405791"
-    ]
+    ],
+    "illustrationBg": "#faf3e4"
   },
   {
     "id": "uraeginthus-cyanocephalus",
@@ -10965,12 +11127,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-uraeginthus-cyanocephalus-img",
     "image": "/images/birds/uraeginthus-cyanocephalus.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Blue-capped_Cordon-bleu,_Ngorongoro.jpg",
+    "illustration": "/images/illustrations/uraeginthus-cyanocephalus.webp",
     "audio": [
       "/audio/birds/uraeginthus-cyanocephalus.wav"
     ],
     "audioRemote": [
       "https://xeno-canto.org/1030357"
-    ]
+    ],
+    "illustrationBg": "#f9f2e2"
   },
   {
     "id": "vidua-chalybeata",
@@ -11089,12 +11253,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-vidua-chalybeata-img",
     "image": "/images/birds/vidua-chalybeata.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Village_indigobird_(Vidua_chalybeata_okavangoensis)_male_Zimbabwe.jpg",
+    "illustration": "/images/illustrations/vidua-chalybeata.webp",
     "audio": [
       "/audio/birds/vidua-chalybeata.wav"
     ],
     "audioRemote": [
       "https://xeno-canto.org/982686"
-    ]
+    ],
+    "illustrationBg": "#f7f1df"
   },
   {
     "id": "vidua-macroura",
@@ -11213,12 +11379,14 @@ export const birds: Bird[] = [
     "imageSourceId": "media-vidua-macroura-img",
     "image": "/images/birds/vidua-macroura.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Pin-tailed_whydah_(Vidua_macroura)_breeding_male.jpg",
+    "illustration": "/images/illustrations/vidua-macroura.webp",
     "audio": [
       "/audio/birds/vidua-macroura.wav"
     ],
     "audioRemote": [
       "https://xeno-canto.org/1183545"
-    ]
+    ],
+    "illustrationBg": "#f6f0de"
   },
   {
     "id": "vidua-orientalis",
@@ -11337,11 +11505,13 @@ export const birds: Bird[] = [
     "imageSourceId": "media-vidua-orientalis-img",
     "image": "/images/birds/vidua-orientalis.webp",
     "imageRemote": "https://commons.wikimedia.org/wiki/File:Sahel_Paradise_Whydah.jpg",
+    "illustration": "/images/illustrations/vidua-orientalis.webp",
     "audio": [
       "/audio/birds/vidua-orientalis.mp3"
     ],
     "audioRemote": [
       "https://xeno-canto.org/436008"
-    ]
+    ],
+    "illustrationBg": "#fcf5e8"
   }
 ]

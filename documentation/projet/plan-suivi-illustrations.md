@@ -26,9 +26,9 @@ Rôles :
 | Reprise | On ne fournit pas l’espèce suivante tant que l’image en cours n’est pas validée |
 | Progression | À chaque tour : `validées / 85`, espèce en cours, suivante |
 | Stockage validation | `documentation/ornithologie/prompts-visuels/references/{slug}-illustration.jpg` (ou `.png` / `.webp`) |
-| Usage app | **Collection** = illustrations ; **fiche + quiz** = photos Commons (inchangé) |
+| Usage app | **Collection + cadre fiche** = illustrations ; **bas de fiche + quiz** = photos Commons |
 | Publication app | Après validation : copier vers `public/images/illustrations/{slug}.webp` (pas dans `images/birds/`) |
-| App pendant la passe | Pas d’intégration `public/` tant que l’espèce n’est pas validée ; fallback collection = placeholder / dégradé ordre |
+| App pendant la passe | ~~Pas d’intégration~~ → **fait** : `pnpm media:illustrations` + Collection via `bird.illustration` ; fallback = dégradé ordre |
 | Commit | Uniquement sur demande explicite |
 
 ## Boucle par espèce
@@ -66,10 +66,11 @@ flowchart LR
 | Surface | Visuel |
 |---------|--------|
 | **Collection** (tuiles) | Illustration naturaliste validée |
-| **Fiche** | Photo sourcée (Commons / local `images/birds/`) |
+| **Fiche — cadre haut** | Illustration (1:1, sans crop tête) |
+| **Fiche — bas** | Photo sourcée + crédit |
 | **Quiz photo → nom** | Photo sourcée |
 
-Conséquence : le cadrage « focus tête » sur photo ne s’applique pas aux tuiles collection (illustrations carrées 1:1, déjà composées pour la lisibilité).
+Conséquence : le cadrage « focus tête » s’applique à la photo (bas de fiche / quiz), pas aux illustrations.
 
 ## Hors périmètre
 

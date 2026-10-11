@@ -3,23 +3,23 @@
 - **Slug** : `platycercus-eximius-eximius`
 - **Latin** : *Platycercus eximius eximius*
 - **Ordre / famille** : Psittaciformes / Psittacidés
-- **Plumage sourcé** : non — génération bloquée (ne pas inventer)
+- **Plumage sourcé** : oui — photo fiche (Murdock Grewar, Commons)
 
 ## Prompt — illustration naturaliste (EN)
 
 ```
-GENERATION BLOCKED for Perruche omnicolore (Platycercus eximius eximius). The species sheet has no sourced plumage or morphology. Do not generate an illustration. Do not invent colors, bill, crest, or sexual dimorphism.
+Square 1:1 naturalist field-guide illustration of Perruche omnicolore (Platycercus eximius eximius), Psittaciformes, Psittacidae. Side three-quarter view, clear readable silhouette, soft warm cream background ONLY (approx #fbf5e1 — never pure white #ffffff, never cool grey-white). Flat illustrative style, thick navy blue outlines only (color #1b365d, never black). Educational poster look, no photorealism, no drop shadow, no outer border or frame. Single adult matching the photo. Photo plumage reference — match colors and diagnostic marks exactly (bright red head and upper breast, distinct white cheek patch, yellow back feathers with black scalloped centers — yellow edges not inverted, deep blue on wings, lime-green lower belly, red vent, pale horn-grey beak, long blue-green tail): https://commons.wikimedia.org/wiki/Special:FilePath/Female_Eastern_Rosella_(Platycercus_eximius).jpg Pose: perched on a simple thin brown branch; do not copy the photo’s grass ground. Avoid: pure white background, off-white studio white, text, watermark, logo, human, hand, cage, perch label, extra birds, inverted black-on-yellow scallops, rectangular border, picture frame, drop shadow, black outlines, photorealism, cartoon eyes, blurry, low-res, landscape background.
 ```
 
 ## Prompt — modèle 3D réaliste (EN)
 
 ```
-GENERATION BLOCKED for Perruche omnicolore (Platycercus eximius eximius). No sourced plumage on the sheet. Do not generate a 3D model. Do not invent colors.
+GENERATION BLOCKED for this pass — illustration only.
 ```
 
 ## Garde-fous (negative)
 
-`text, watermark, logo, human, hand, cage, perch label, extra birds, invented subspecies colors, cartoon eyes, blurry, low-res`
+`pure white background, #ffffff background, text, watermark, logo, border, frame, drop shadow, black outlines, human, hand, cage, perch label, extra birds, inverted scallops, invented colors, cartoon eyes, blurry, low-res, photorealism, landscape`
 
 ## Faits repris (FR, source fiche)
 
