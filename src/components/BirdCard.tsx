@@ -10,9 +10,11 @@ type Props = {
   row?: number
   reveal?: boolean
   onReady?: () => void
+  /** Avant navigation : persister le contexte de parcours swipe. */
+  onOpen?: () => void
 }
 
-export function BirdCard({ bird, row = 0, reveal = true, onReady }: Props) {
+export function BirdCard({ bird, row = 0, reveal = true, onReady, onOpen }: Props) {
   const hasPhoto = Boolean(resolveBirdImageUrl(bird.image))
 
   return (
@@ -20,6 +22,7 @@ export function BirdCard({ bird, row = 0, reveal = true, onReady }: Props) {
       to={`/espece/${bird.id}`}
       className="card"
       style={{ '--row': row } as React.CSSProperties}
+      onClick={() => onOpen?.()}
     >
       <div
         className="card__media"

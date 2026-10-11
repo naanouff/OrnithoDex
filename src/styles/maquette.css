@@ -715,6 +715,12 @@ body {
   overflow: auto;
   padding: 16px 16px calc(24px + var(--safe-b));
   animation: pop-in 0.28s ease-out both;
+  touch-action: pan-y;
+}
+
+.sheet.is-dragging {
+  animation: none;
+  transition: transform 0.05s linear;
 }
 
 .sheet__back {
@@ -730,6 +736,26 @@ body {
   font-weight: 700;
   cursor: pointer;
   padding: 0 0 8px;
+}
+
+.sheet__pos {
+  margin: 0 0 10px;
+  font-family: Fredoka, Nunito, sans-serif;
+  font-size: 0.82rem;
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+  color: var(--muted);
+}
+
+.sheet__live {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
 }
 
 .sheet__media {

@@ -27,6 +27,8 @@
 | [sprint-image-focus.md](sprint-image-focus.md) | **Sprint** — outil `npm run focus:tool` + lecture rendu |
 | [plan-ui-equiv-maquette.md](plan-ui-equiv-maquette.md) | **Plan UI ≡ maquette** — zéro écart chrome Livrable B |
 | [sprint-ui-equiv-maquette.md](sprint-ui-equiv-maquette.md) | **Sprint** — porter PNG/prototype dans React |
+| [plan-swipe-fiches.md](plan-swipe-fiches.md) | **Plan swipe fiches** — parcours horizontal sans retour liste |
+| [sprint-swipe-fiches.md](sprint-swipe-fiches.md) | **Sprint** — maquette swipe → intégration React |
 | [design.md](design.md) | **Charte design** — tokens, typo, composants, specs 4 écrans |
 | [maquettes/](maquettes/) | **Maquettes** — captures + prototype interactif portrait |
 | [sprint-01-sources.md](sprint-01-sources.md) | **Sprint 01** — collecte lot pilote (6 espèces) |
