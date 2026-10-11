@@ -71,5 +71,7 @@ Chronique courte des sessions de travail : décisions, avancement, blocages.
 | 2026-10-11 | [2026-10-11-2.md](2026-10-11-2.md) — Densité Collection → localStorage |
 | 2026-10-11 | [2026-10-11-3.md](2026-10-11-3.md) — Analyse pédagogique 0.2.0 + sprint remédiation |
 | 2026-10-11 | [2026-10-11-4.md](2026-10-11-4.md) — Exécution sprint remédiation 0.3 |
+| 2026-10-11 | [2026-10-11-5.md](2026-10-11-5.md) — Plan + sprint UI/UX ergonomie |
+| 2026-10-11 | [2026-10-11-6.md](2026-10-11-6.md) — Exécution sprint UI/UX (4 lots) |
 | 2026-10-10 | [2026-10-10-10.md](2026-10-10-10.md) — Consignation plan pédagogie |
 | 2026-10-10 | [2026-10-10-11.md](2026-10-10-11.md) — Public prioritaire seconde pro TCVA |

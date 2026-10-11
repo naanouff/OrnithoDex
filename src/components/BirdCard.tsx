@@ -9,12 +9,20 @@ type Props = {
   /** Ligne dans la grille, pour le décalage du fondu. */
   row?: number
   reveal?: boolean
+  loading?: 'lazy' | 'eager'
   onReady?: () => void
   /** Avant navigation : persister le contexte de parcours swipe. */
   onOpen?: () => void
 }
 
-export function BirdCard({ bird, row = 0, reveal = true, onReady, onOpen }: Props) {
+export function BirdCard({
+  bird,
+  row = 0,
+  reveal = true,
+  loading = 'eager',
+  onReady,
+  onOpen,
+}: Props) {
   const illustrationUrl = resolveBirdImageUrl(bird.illustration)
   const hasIllustration = Boolean(illustrationUrl)
 
@@ -45,7 +53,7 @@ export function BirdCard({ bird, row = 0, reveal = true, onReady, onOpen }: Prop
             variant="illustration"
             alt=""
             order={bird.order}
-            loading="eager"
+            loading={loading}
             reveal={reveal}
             onReady={onReady}
           />
