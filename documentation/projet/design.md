@@ -91,8 +91,8 @@ Pastilles / filtres stables — une couleur par ordre du programme :
 
 | Composant | Spec |
 |-----------|------|
-| **Carte espèce** | Recto : **illustration** dominante + nom commun ; pastilles ordre/famille ; pas de card décorative hors interaction |
-| **Pastille** | Pill ordre (couleur token) + famille en texte secondaire |
+| **Carte espèce** | Illustration pleine, sans voile ni texte par-dessus ; nom et pastille ordre dans un bandeau sous le dessin ; bordure, filet et fond du bandeau = couleur d’ordre |
+| **Pastille** | Pill ordre **remplie** par le token ; famille en pill navy/blanc |
 | **Nav basse** | 3 onglets : Accueil · Collection · Entraînement ; hauteur ~68 px + safe-area |
 | **CTA** | Pleine largeur, min-height 56 px, bordure navy 3 px, ombre « pressable » |
 | **CTA primaire** | Dégradé yellow → orange |
@@ -125,16 +125,25 @@ Pastilles / filtres stables — une couleur par ordre du programme :
 - Recherche + filtres Ordre / Famille
 - Liste cartes en colonne (max 2 colonnes sur grand téléphone)
 - **Illustration** naturaliste = ancrage de la tuile (pas la photo Commons) ; pas de collage hero
+- **Ordre dans le bandeau** sous l’illustration (pastille remplie) ; bordure, filet et fond léger du bandeau = token `--ordre-*`. Le dessin reste entier : pas de voile, pas de pastille sur la tête, pas de bandeau sur les pattes
 - Sans illustration validée : placeholder / dégradé ordre — ne pas inventer un visuel
 
 ### Fiche du naturaliste
 
 - **Job** : mémoriser l’identité
-- **Photo** sourcée dominante dans la zone média (pas l’illustration de collection)
-- Noms (commun + latin), ordre / famille
+- **Illustration** naturaliste dans le cadre média haut (même asset que Collection)
+- Noms (commun + latin) ; pastille ordre **remplie** du token ; famille en pill neutre
+- Cadres illustration et photo, filet gauche des points de cours : même couleur d’ordre
 - Points de cours (`programme` / `sourcé`)
 - Audio si disponible
-- Bloc Sources en bas
+- Bloc Sources + **photo sourcée** en bas de fiche (crédit / licence visibles)
+- Quiz reste sur la **photo** (pas l’illustration)
+- **Swipe horizontal** (*validé 2026-10-11*, [plan-swipe-fiches.md](plan-swipe-fiches.md)) :
+  - Gauche → espèce suivante ; droite → précédente
+  - Parcours = liste filtrée Collection
+  - Indicateur discret `n / N` (position dans la liste filtrée)
+  - **Pas** de libellé « Glisser », ni boutons prev/next
+  - Retour « ← Collection » inchangé
 
 ### Quiz (photo → nom ; chant → espèce)
 
@@ -160,7 +169,7 @@ Portraits ~390×844 sous [`maquettes/`](maquettes/) :
 |-------|---------|-----------|
 | Accueil | [accueil.png](maquettes/accueil.png) | [prototype.html](maquettes/prototype.html)#accueil |
 | Collection | [collection.png](maquettes/collection.png) | …#collection |
-| Fiche | [fiche.png](maquettes/fiche.png) | ouvrir une carte |
+| Fiche | [fiche.png](maquettes/fiche.png) | ouvrir une carte ; glisser ←→ (*swipe validé, sans hint UI*) |
 | Quiz photo | [quiz.png](maquettes/quiz.png) | …#entrainement → Photo → nom |
 
 Prototype interactif : [`maquettes/README.md`](maquettes/README.md).  
@@ -174,6 +183,7 @@ Logo dans les captures : **JPG** versionné (SVG en cours d’amélioration — 
 |----------|------|
 | [plan-design.md](plan-design.md) | Plan d’exécution charte → maquettes |
 | [plan-ui-equiv-maquette.md](plan-ui-equiv-maquette.md) | Porter le chrome maquette dans l’app |
+| [plan-swipe-fiches.md](plan-swipe-fiches.md) | Swipe entre fiches (maquette → app) |
 | [plan.md](plan.md) | Feuille de route V1 + UI/UX |
 | [pedagogie.md](pedagogie.md) | Charge cognitive / points de cours |
 | [cahier-des-charges.md](cahier-des-charges.md) | Specs fonctionnelles |

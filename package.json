@@ -1,7 +1,7 @@
 {
   "name": "ornithodex",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.2.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,7 +10,8 @@
     "data:birds": "node scripts/build-birds.mjs",
     "data:prompts": "node scripts/build-visual-prompts.mjs",
     "media:fetch": "node scripts/fetch-media.mjs",
-    "media:refresh": "node scripts/fetch-media.mjs && node scripts/build-birds.mjs",
+    "media:illustrations": "node scripts/publish-illustrations.mjs",
+    "media:refresh": "node scripts/fetch-media.mjs && node scripts/publish-illustrations.mjs && node scripts/build-birds.mjs",
     "focus:tool": "node tools/image-focus/server.mjs"
   },
   "dependencies": {

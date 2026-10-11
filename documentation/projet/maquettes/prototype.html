@@ -511,6 +511,12 @@
 
     .sheet.is-open { display: block; }
 
+    .sheet.is-dragging {
+      animation: none;
+      transition: transform 0.05s linear;
+      touch-action: pan-y;
+    }
+
     .sheet__back {
       display: inline-flex;
       align-items: center;
@@ -524,6 +530,26 @@
       font-weight: 700;
       cursor: pointer;
       padding: 0 0 8px;
+    }
+
+    .sheet__pos {
+      margin: 0 0 10px;
+      font-family: Fredoka, Nunito, sans-serif;
+      font-size: 0.82rem;
+      font-weight: 800;
+      font-variant-numeric: tabular-nums;
+      color: var(--muted);
+    }
+
+    .sheet__live {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      border: 0;
     }
 
     .sheet__media {
@@ -769,6 +795,8 @@
 
         <div class="sheet" id="sheet" aria-hidden="true">
           <button type="button" class="sheet__back" id="sheet-back">← Collection</button>
+          <p class="sheet__pos" id="sheet-pos" aria-label="Position dans la liste">1 / 1</p>
+          <p class="sheet__live" id="sheet-live" aria-live="polite"></p>
           <div class="sheet__media" id="sheet-media"></div>
           <h3 id="sheet-common"></h3>
           <p class="latin" id="sheet-latin"></p>
@@ -846,6 +874,11 @@
 
     let activeOrder = "all";
     let quiz = { score: 0, total: 0, current: null, locked: false };
+    /** Liste filtrée au moment de l’ouverture (parcours swipe). */
+    let browseList = [];
+    let browseIndex = 0;
+    const swipe = { x0: 0, y0: 0, active: false, axis: null };
+    const SWIPE_THRESHOLD = 60;
 
     function mediaStyle(order) {
       const [a, b] = ORDER_COLORS[order] || ["#7ed4f5", "#2eb7e6"];
@@ -905,7 +938,7 @@
       `).join("");
     }
 
-    function openSheet(bird) {
+    function fillSheet(bird) {
       document.getElementById("sheet-media").style.cssText = mediaStyle(bird.order);
       document.getElementById("sheet-common").textContent = bird.common;
       document.getElementById("sheet-latin").textContent = bird.latin;
@@ -919,6 +952,17 @@
         <li>[programme] — identité liste BAC PRO · [sourcé] si fait déjà en fiche</li>
       `;
       document.getElementById("sheet-sources").textContent = "Source identité : liste BAC PRO TCVA (bac-pro-tcva-liste)";
+      document.getElementById("sheet-pos").textContent = `${browseIndex + 1} / ${browseList.length}`;
+      document.getElementById("sheet-live").textContent = bird.common;
+      sheet.style.transform = "";
+      sheet.classList.remove("is-dragging");
+    }
+
+    function openSheet(bird, list) {
+      browseList = list && list.length ? list : [bird];
+      browseIndex = Math.max(0, browseList.indexOf(bird));
+      if (browseIndex < 0) browseIndex = 0;
+      fillSheet(browseList[browseIndex]);
       sheet.classList.add("is-open");
       sheet.setAttribute("aria-hidden", "false");
     }
@@ -926,6 +970,87 @@
     function closeSheet() {
       sheet.classList.remove("is-open");
       sheet.setAttribute("aria-hidden", "true");
+      sheet.style.transform = "";
+      sheet.classList.remove("is-dragging");
+      browseList = [];
+      browseIndex = 0;
+    }
+
+    function goBrowse(delta) {
+      const next = browseIndex + delta;
+      if (next < 0 || next >= browseList.length) return false;
+      browseIndex = next;
+      fillSheet(browseList[browseIndex]);
+      return true;
+    }
+
+    function beginSwipe(x, y) {
+      if (!sheet.classList.contains("is-open")) return;
+      swipe.x0 = x;
+      swipe.y0 = y;
+      swipe.active = true;
+      swipe.axis = null;
+    }
+
+    function moveSwipe(x, y, ev) {
+      if (!swipe.active) return;
+      const dx = x - swipe.x0;
+      const dy = y - swipe.y0;
+      if (!swipe.axis) {
+        if (Math.abs(dx) < 10 && Math.abs(dy) < 10) return;
+        swipe.axis = Math.abs(dx) > Math.abs(dy) ? "x" : "y";
+      }
+      if (swipe.axis !== "x") return;
+      if (ev && ev.cancelable) ev.preventDefault();
+      const atStart = browseIndex === 0 && dx > 0;
+      const atEnd = browseIndex >= browseList.length - 1 && dx < 0;
+      const resist = atStart || atEnd ? 0.25 : 1;
+      sheet.classList.add("is-dragging");
+      sheet.style.transform = `translateX(${dx * resist}px)`;
+    }
+
+    function endSwipe(x) {
+      if (!swipe.active) return;
+      const dx = x - swipe.x0;
+      const axis = swipe.axis;
+      swipe.active = false;
+      swipe.axis = null;
+      sheet.classList.remove("is-dragging");
+      sheet.style.transform = "";
+      if (axis !== "x") return;
+      if (dx <= -SWIPE_THRESHOLD) goBrowse(1);
+      else if (dx >= SWIPE_THRESHOLD) goBrowse(-1);
+    }
+
+    function onSheetTouchStart(e) {
+      if (e.touches.length !== 1) return;
+      beginSwipe(e.touches[0].clientX, e.touches[0].clientY);
+    }
+
+    function onSheetTouchMove(e) {
+      if (e.touches.length !== 1) return;
+      moveSwipe(e.touches[0].clientX, e.touches[0].clientY, e);
+    }
+
+    function onSheetTouchEnd(e) {
+      endSwipe(e.changedTouches[0].clientX);
+    }
+
+    function onSheetPointerDown(e) {
+      if (e.pointerType === "touch") return;
+      if (e.target.closest(".sheet__back")) return;
+      sheet.setPointerCapture(e.pointerId);
+      beginSwipe(e.clientX, e.clientY);
+    }
+
+    function onSheetPointerMove(e) {
+      if (e.pointerType === "touch" || !swipe.active) return;
+      moveSwipe(e.clientX, e.clientY, e);
+    }
+
+    function onSheetPointerUp(e) {
+      if (e.pointerType === "touch") return;
+      endSwipe(e.clientX);
     }
 
     function shuffle(arr) {
@@ -1008,10 +1133,19 @@
     grid.addEventListener("click", (e) => {
       const card = e.target.closest(".card");
       if (!card) return;
-      openSheet(BIRDS[+card.dataset.index]);
+      const bird = BIRDS[+card.dataset.index];
+      openSheet(bird, filteredBirds());
     });
 
     document.getElementById("sheet-back").addEventListener("click", closeSheet);
+    sheet.addEventListener("touchstart", onSheetTouchStart, { passive: true });
+    sheet.addEventListener("touchmove", onSheetTouchMove, { passive: false });
+    sheet.addEventListener("touchend", onSheetTouchEnd, { passive: true });
+    sheet.addEventListener("touchcancel", () => endSwipe(swipe.x0));
+    sheet.addEventListener("pointerdown", onSheetPointerDown);
+    sheet.addEventListener("pointermove", onSheetPointerMove);
+    sheet.addEventListener("pointerup", onSheetPointerUp);
+    sheet.addEventListener("pointercancel", () => endSwipe(swipe.x0));
     document.getElementById("mode-photo").addEventListener("click", startQuiz);
     document.getElementById("quiz-back").addEventListener("click", showTrainHub);
     document.getElementById("quiz-next").addEventListener("click", nextQuestion);

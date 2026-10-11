@@ -8,16 +8,35 @@ type Props = {
   src?: string
   alt: string
   order: string
-  /** Slug espèce — focus tête + bbox (photos). */
+  /** Slug espèce — focus tête + bbox (photos uniquement). */
   birdId?: string
   /** Nom affiché en overlay (cartes collection). */
   label?: string
+  /**
+   * `photo` : crop focus tête (fiche / quiz).
+   * `illustration` : image entière, fond crème planche (collection / fiche).
+   */
+  variant?: 'photo' | 'illustration'
   /** lazy sur les grilles ; eager sur la fiche. */
   loading?: 'lazy' | 'eager'
   /** false : garder le voile jusqu’au signal de la grille. */
   reveal?: boolean
   /** Appelé une fois l’image décodée, absente ou en échec. */
   onReady?: () => void
+}
+
+/** Contours cream des planches (~#fbf5e1) — pas de crop. */
+const ILLUSTRATION_FIT: CSSProperties = {
+  objectFit: 'contain',
+  objectPosition: 'center',
+  width: '100%',
+  height: '100%',
+  left: 0,
+  top: 0,
+  right: 'auto',
+  bottom: 'auto',
+  maxWidth: 'none',
+  maxHeight: 'none',
 }
 
 /** Image espèce — voile animé pendant le chargement, crop intelligent si focus labellisé. */
@@ -27,12 +46,13 @@ export function BirdImage({
   order,
   birdId,
   label,
+  variant = 'photo',
   loading = 'lazy',
   reveal = true,
   onReady,
 }: Props) {
   const resolved = resolveBirdImageUrl(src)
-  const focus = getImageFocus(birdId)
+  const focus = variant === 'photo' ? getImageFocus(birdId) : undefined
   const imgRef = useRef<HTMLImageElement>(null)
   const onReadyRef = useRef(onReady)
   const reported = useRef(false)
@@ -88,13 +108,10 @@ export function BirdImage({
 
   const showImage = Boolean(resolved) && !failed
   const visible = reveal && loaded
-  const cropStyle: CSSProperties = focusToCropStyle(
-    focus,
-    natural.w,
-    natural.h,
-    frame.w,
-    frame.h,
-  )
+  const cropStyle: CSSProperties =
+    variant === 'illustration' || !focus
+      ? ILLUSTRATION_FIT
+      : focusToCropStyle(focus, natural.w, natural.h, frame.w, frame.h)
 
   return (
     <>

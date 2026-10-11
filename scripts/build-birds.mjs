@@ -124,6 +124,24 @@ function findLocalMedia(slug, kind, exts) {
   return undefined
 }
 
+function findIllustration(slug) {
+  const file = path.join(root, 'public/images/illustrations', `${slug}.webp`)
+  if (fs.existsSync(file) && fs.statSync(file).size > 500) {
+    return `/images/illustrations/${slug}.webp`
+  }
+  return undefined
+}
+
+function loadIllustrationBg() {
+  const file = path.join(root, 'src/data/illustration-bg.json')
+  if (!fs.existsSync(file)) return {}
+  try {
+    return JSON.parse(fs.readFileSync(file, 'utf8'))
+  } catch {
+    return {}
+  }
+}
+
 function parseFiche(filePath) {
   const md = fs.readFileSync(filePath, 'utf8').replace(/\r\n/g, '\n')
   const slugMatch = md.match(/\*\*Slug\*\*\s*:\s*`([^`]+)`/)
@@ -191,6 +209,7 @@ function parseFiche(filePath) {
 
   const localImg = findLocalMedia(bird.id, 'images', ['.webp', '.jpg', '.jpeg', '.png'])
   const localAud = findLocalMedia(bird.id, 'audio', ['.mp3', '.ogg', '.wav'])
+  const illustration = findIllustration(bird.id)
 
   if (localImg) {
     bird.image = localImg
@@ -198,6 +217,8 @@ function parseFiche(filePath) {
   } else if (media.image) {
     bird.image = media.image
   }
+
+  if (illustration) bird.illustration = illustration
 
   if (localAud) {
     bird.audio = [localAud]
@@ -222,8 +243,17 @@ function main() {
     .filter((f) => f.endsWith('.md') && f !== '_index.md')
     .sort()
 
-  const birds = files.map((f) => parseFiche(path.join(fichesDir, f)))
+  const illustrationBg = loadIllustrationBg()
+  const birds = files.map((f) => {
+    const bird = parseFiche(path.join(fichesDir, f))
+    const bg = illustrationBg[bird.id]
+    if (bird.illustration && typeof bg === 'string' && /^#[0-9a-fA-F]{6}$/.test(bg)) {
+      bird.illustrationBg = bg.toLowerCase()
+    }
+    return bird
+  })
   const withRange = birds.filter((b) => b.wildRange?.regions?.length).length
+  const withBg = birds.filter((b) => b.illustrationBg).length
 
   const header = `/* eslint-disable */
 /**
@@ -239,7 +269,7 @@ import type { Bird } from '../types/bird'
 
   fs.writeFileSync(outFile, header + body, 'utf8')
   console.log(
-    `OK — ${birds.length} espèces (${withRange} avec wildRange) → ${path.relative(root, outFile)}`,
+    `OK — ${birds.length} espèces (${withRange} avec wildRange, ${withBg} illustrationBg) → ${path.relative(root, outFile)}`,
   )
 }
 

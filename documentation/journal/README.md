@@ -67,5 +67,7 @@ Chronique courte des sessions de travail : décisions, avancement, blocages.
 | 2026-10-10 | [2026-10-10-59.md](2026-10-10-59.md) — Sprint focus photos (outil local démarré) |
 | 2026-10-10 | [2026-10-10-60.md](2026-10-10-60.md) — Focus photos : bbox + tête + crop |
 | 2026-10-10 | [2026-10-10-61.md](2026-10-10-61.md) — Focus photos labellisés 85/85 |
+| 2026-10-11 | [2026-10-11.md](2026-10-11.md) — Plan + sprint swipe fiches (maquette) |
+| 2026-10-11 | [2026-10-11-2.md](2026-10-11-2.md) — Densité Collection → localStorage |
 | 2026-10-10 | [2026-10-10-10.md](2026-10-10-10.md) — Consignation plan pédagogie |
 | 2026-10-10 | [2026-10-10-11.md](2026-10-10-11.md) — Public prioritaire seconde pro TCVA |
