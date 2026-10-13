@@ -74,19 +74,25 @@ function parseSources(block) {
   return sources
 }
 
-function parseRepartitionTable(block) {
-  if (!block) return null
+function parseKeyValueTable(block) {
+  if (!block) return {}
   const map = {}
   for (const line of splitTableRows(block)) {
     const [champ, valeur, source] = cells(line)
-    if (!champ || !valeur || valeur === 'na' || valeur === '—') continue
-    map[champ.toLowerCase()] = { valeur, source }
+    if (!champ || valeur === undefined) continue
+    map[champ.toLowerCase()] = { valeur: valeur.trim(), source: (source || '').trim() }
   }
+  return map
+}
+
+function parseRepartitionTable(block) {
+  if (!block) return null
+  const map = parseKeyValueTable(block)
   const regionsRaw =
     map['régions / pays']?.valeur ||
     map['regions / pays']?.valeur ||
     map['régions']?.valeur
-  if (!regionsRaw) return null
+  if (!regionsRaw || regionsRaw === 'na' || regionsRaw === '—') return null
   const regions = regionsRaw
     .split(/[,;]/)
     .map((r) => r.trim())
@@ -103,14 +109,50 @@ function parseRepartitionTable(block) {
     : undefined
   const sourceIds = []
   for (const row of Object.values(map)) {
-    if (row.source) sourceIds.push(row.source)
+    if (row.source && row.source !== 'na') sourceIds.push(row.source)
   }
   return {
     regions,
     ...(hemisphere ? { hemisphere } : {}),
-    ...(map['note']?.valeur ? { summary: map['note'].valeur } : {}),
+    ...(map['note']?.valeur && map['note'].valeur !== 'na'
+      ? { summary: map['note'].valeur }
+      : {}),
     sourceIds: [...new Set(sourceIds)],
   }
+}
+
+function parseIucnTable(block) {
+  const map = parseKeyValueTable(block)
+  const category = map['catégorie']?.valeur || map['categorie']?.valeur
+  if (!category || category === 'na' || category === '—') return null
+  const yearRaw = map['année évaluation']?.valeur || map['annee evaluation']?.valeur
+  const sourceIds = []
+  for (const row of Object.values(map)) {
+    if (row.source && row.source !== 'na') sourceIds.push(row.source)
+  }
+  const iucn = { category, sourceIds: [...new Set(sourceIds)] }
+  if (yearRaw && yearRaw !== 'na' && yearRaw !== '—') iucn.year = yearRaw
+  return iucn
+}
+
+function parseMensurationsTable(block) {
+  const map = parseKeyValueTable(block)
+  const measurements = {}
+  const size = map['taille adulte']
+  if (size?.valeur && size.valeur !== 'na' && size.valeur !== '—') {
+    measurements.adultSize = {
+      value: size.valeur,
+      sourceIds: size.source && size.source !== 'na' ? [size.source] : [],
+    }
+  }
+  const longev = map['longévité'] || map['longevite']
+  if (longev?.valeur && longev.valeur !== 'na' && longev.valeur !== '—') {
+    measurements.longevity = {
+      value: longev.valeur,
+      sourceIds: longev.source && longev.source !== 'na' ? [longev.source] : [],
+    }
+  }
+  return Object.keys(measurements).length ? measurements : null
 }
 
 function findLocalMedia(slug, kind, exts) {
@@ -196,6 +238,8 @@ function parseFiche(filePath) {
   const fromTable = parseRepartitionTable(extractSection(md, 'Répartition sauvage'))
   const fromText = extractWildRange(rangeTexts.map(stripMarkdownLite), rangeSourceIds)
   const wildRange = fromTable || fromText
+  const iucn = parseIucnTable(extractSection(md, 'Statut UICN'))
+  const measurements = parseMensurationsTable(extractSection(md, 'Mensurations'))
 
   const bird = {
     id: slugMatch[1],
@@ -213,6 +257,8 @@ function parseFiche(filePath) {
   }
 
   if (wildRange) bird.wildRange = wildRange
+  if (iucn) bird.iucn = iucn
+  if (measurements) bird.measurements = measurements
 
   if (media.imageCredit) bird.imageCredit = media.imageCredit
   if (media.imageSourceId) bird.imageSourceId = media.imageSourceId

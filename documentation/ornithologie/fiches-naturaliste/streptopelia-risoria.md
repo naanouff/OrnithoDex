@@ -2,7 +2,7 @@
 
 - **Slug** : `streptopelia-risoria`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -19,6 +19,22 @@
 **Forme domestique** (Barbary / ringed turtle dove). Taxon sauvage apparenté *S. roseogrisea* : **Least Concern** (2018) ; population non quantifiée, commune à localement abondante ; tendance suspectée **stable**.  
 *Source : birdlife-streptopelia-roseogrisea.*
 
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Préoccupation mineure (LC) | birdlife-streptopelia-roseogrisea |
+| Année évaluation | 2018 | birdlife-streptopelia-roseogrisea |
+
+
+## Mensurations
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Taille adulte | na | |
+| Longévité | na | |
+
+
 ## Dimorphisme sexuel
 
 Chez le taxon sauvage : mâle un peu plus grand (ailes légèrement plus longues) ; plumage globalement semblable.  
@@ -28,6 +44,15 @@ Chez le taxon sauvage : mâle un peu plus grand (ailes légèrement plus longues
 
 Taxon sauvage : savane sèche et prairies sèches (majeur) ; désert chaud, fourrés secs, terres cultivées (suitable). ADW : scrub aride à acacias près de points d’eau, aussi cultures, parcs, mangroves.  
 *Sources : birdlife-streptopelia-roseogrisea ; adw-streptopelia-roseogrisea.*
+
+## Répartition sauvage
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Régions / pays | Afrique (origine sauvage) | birdlife-streptopelia-roseogrisea |
+| Hémisphère / realm | AF | birdlife-streptopelia-roseogrisea |
+| Note | Forme domestique ; répartition sauvage = roseogrisea | birdlife-streptopelia-roseogrisea |
+
 
 ## Régime alimentaire
 

@@ -37,6 +37,19 @@ export type WildRange = {
   sourceIds: string[]
 }
 
+/** Statut UICN structuré — uniquement si section fiche remplie. */
+export type IucnStatus = {
+  category: string
+  year?: string
+  sourceIds: string[]
+}
+
+/** Mensurations scolaires — `na` omis côté data. */
+export type Measurements = {
+  adultSize?: { value: string; sourceIds: string[] }
+  longevity?: { value: string; sourceIds: string[] }
+}
+
 export type Bird = {
   id: string
   scientificName: string
@@ -59,6 +72,8 @@ export type Bird = {
   /** Pages XC d’origine si `audio` est local. */
   audioRemote?: string[]
   wildRange?: WildRange
+  iucn?: IucnStatus
+  measurements?: Measurements
   sheet: {
     status: SheetStatus
     sections: SourcedText[]

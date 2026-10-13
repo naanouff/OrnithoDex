@@ -2,7 +2,7 @@
 
 - **Slug** : `geopelia-cuneata`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -18,14 +18,41 @@
 Évaluée **Least Concern** (2024). Endémique nicheur d’Australie ; statut migratoire BirdLife : **nomade**. EOO ≈ 7 860 000 km² ; population non quantifiée, décrite comme commune ; tendance suspectée **stable**.  
 *Source : birdlife-geopelia-cuneata.*
 
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Préoccupation mineure (LC) | birdlife-geopelia-cuneata |
+| Année évaluation | 2024 | birdlife-geopelia-cuneata |
+
+
+## Mensurations
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Taille adulte | na | |
+| Longévité | na | |
+
+
 ## Dimorphisme sexuel
 
-*Non documenté dans BirdLife ni dans un compte-rendu ADW espèce (classification seule) — `na`.*
+*Non détaillé dans les sources consultées pour ce sprint.*  
+*Sources : na.*
+
 
 ## Habitat d’origine
 
 Désert chaud et zones humides intérieures (sources/oasis) — suitable (résident). Altitude 0–790 m.  
 *Source : birdlife-geopelia-cuneata.*
+
+## Répartition sauvage
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Régions / pays | Australie | birdlife-geopelia-cuneata |
+| Hémisphère / realm | AU | birdlife-geopelia-cuneata |
+| Note | Endémique nicheur ; statut migratoire : nomade | birdlife-geopelia-cuneata |
+
 
 ## Régime alimentaire
 

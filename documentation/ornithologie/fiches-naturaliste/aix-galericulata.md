@@ -2,7 +2,7 @@
 
 - **Slug** : `aix-galericulata`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -18,6 +18,22 @@
 Évalué **Least Concern** (2018). Migrateur complet. Population globale estimée ≈ 65 000–66 000 individus ; tendance **en diminution**. Aires natives Asie de l’Est ; populations introduites en Europe.  
 *Source : birdlife-aix-galericulata.*
 
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Préoccupation mineure (LC) | birdlife-aix-galericulata |
+| Année évaluation | 2018 | birdlife-aix-galericulata |
+
+
+## Mensurations
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Taille adulte | na | |
+| Longévité | na | |
+
+
 ## Dimorphisme sexuel
 
 Mâle en plumage complet : paire de plumes « voiles » dressées verticalement au-dessus du dos, crête orange et crème, large bandeau oculaire blanc bordé au-dessus et au-dessous par des plumes plus sombres. Femelle plus terne, aspect général gris, trait blanc courbe derrière l’œil, taches blanches sur les parties inférieures. En vol, les deux sexes montrent un speculum irisé bleu-vert.  
@@ -27,6 +43,15 @@ Mâle en plumage complet : paire de plumes « voiles » dressées verticalement 
 
 Forêts tempérées et lacs d’eau douce (majeurs, BirdLife) ; ADW : étangs boisés et cours d’eau rocheux rapides en Chine/Japon.  
 *Sources : birdlife-aix-galericulata ; adw-aix-galericulata.*
+
+## Répartition sauvage
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Régions / pays | Asie de l’Est | birdlife-aix-galericulata |
+| Hémisphère / realm | AS | birdlife-aix-galericulata |
+| Note | Migrateur ; aires natives Asie de l’Est | birdlife-aix-galericulata |
+
 
 ## Régime alimentaire
 

@@ -1,8 +1,9 @@
 # Sprint — Alignement template fiche scolaire (Lot A pilote + Lot B)
 
 **Branche** : `feature/alignement-template-scolaire` → PR vers `develop`  
-**PR** : https://github.com/naanouff/OrnithoDex/pull/61  
-**Dates** : préparation 2026-10-13 ; exécution à lancer (docs consignées)  
+**PR docs** : https://github.com/naanouff/OrnithoDex/pull/61  
+**PR exécution** : https://github.com/naanouff/OrnithoDex/pull/62  
+**Dates** : préparation 2026-10-13 ; exécution 2026-10-13  
 **Réf.** : [audit-template-fiche-scolaire.md](audit-template-fiche-scolaire.md) · [plan-alignement-template-scolaire.md](plan-alignement-template-scolaire.md) · [modele-fiche-naturaliste.md](../ornithologie/modele-fiche-naturaliste.md) · [plan-planisphere-fiche.md](plan-planisphere-fiche.md)
 
 ## Objectif
@@ -83,12 +84,12 @@ Pour chaque slug pilote :
 
 ## Checklist Definition of Done
 
-- [ ] Gabarit + types + parseur + UI (champs optionnels)
-- [ ] 12 fiches pilotes : UICN dédié + répartition si possible + mensurations `ok`/`na`
-- [ ] 22 dimorphismes traités (`ok` ou `na` justifié)
-- [ ] `suivi-template-scolaire.md` initialisé
-- [ ] Journal + liens docs
-- [ ] PR vers `develop`
+- [x] Gabarit + types + parseur + UI (champs optionnels)
+- [x] 12 fiches pilotes : UICN dédié + répartition + mensurations `na`
+- [x] 22 dimorphismes traités (`na` explicite)
+- [x] `suivi-template-scolaire.md` initialisé
+- [x] Journal + liens docs
+- [x] PR vers `develop` (#62)
 
 ## Suite après ce sprint
 

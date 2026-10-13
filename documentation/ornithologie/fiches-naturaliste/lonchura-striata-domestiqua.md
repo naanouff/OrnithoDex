@@ -2,7 +2,7 @@
 
 - **Slug** : `lonchura-striata-domestiqua`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -21,7 +21,9 @@
 
 ## Dimorphisme sexuel
 
-*na — sources consultées silencieuses pour le taxon sauvage ; forme domestique non détaillée.*
+*Non détaillé dans les sources consultées pour ce sprint.*  
+*Sources : na.*
+
 
 ## Habitat d’origine
 

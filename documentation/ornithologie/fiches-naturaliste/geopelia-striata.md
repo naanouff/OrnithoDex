@@ -2,7 +2,7 @@
 
 - **Slug** : `geopelia-striata`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -18,14 +18,41 @@
 Évaluée **Least Concern** (2025). Non migratrice. EOO ≈ 6 960 000 km² ; population non quantifiée, généralement commune ; tendance suspectée **stable**. Nombreuses introductions hors aire native.  
 *Source : birdlife-geopelia-striata.*
 
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Préoccupation mineure (LC) | birdlife-geopelia-striata |
+| Année évaluation | 2025 | birdlife-geopelia-striata |
+
+
+## Mensurations
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Taille adulte | na | |
+| Longévité | na | |
+
+
 ## Dimorphisme sexuel
 
-*Non documenté dans BirdLife / ADW consultés — `na`.*
+*Non détaillé dans les sources consultées pour ce sprint.*  
+*Sources : na.*
+
 
 ## Habitat d’origine
 
 Fourrés secs et humides ; terres cultivées, jardins ruraux, zones urbaines, forêts dégradées (suitable, résident).  
 *Source : birdlife-geopelia-striata.*
+
+## Répartition sauvage
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Régions / pays | Asie du Sud-Est | birdlife-geopelia-striata |
+| Hémisphère / realm | AS | birdlife-geopelia-striata |
+| Note | Non migratrice ; largement répandue | birdlife-geopelia-striata |
+
 
 ## Régime alimentaire
 

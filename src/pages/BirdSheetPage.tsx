@@ -120,7 +120,29 @@ export function BirdSheetPage() {
       <div className="pills">
         <span className="pill pill--order">{bird.order}</span>
         <span className="pill">{bird.family}</span>
+        {bird.iucn ? (
+          <span className="pill pill--iucn" title="Statut UICN">
+            UICN {bird.iucn.category}
+            {bird.iucn.year ? ` (${bird.iucn.year})` : ''}
+          </span>
+        ) : null}
       </div>
+      {bird.measurements?.adultSize || bird.measurements?.longevity ? (
+        <dl className="sheet__metrics">
+          {bird.measurements.adultSize ? (
+            <>
+              <dt>Taille adulte</dt>
+              <dd>{bird.measurements.adultSize.value}</dd>
+            </>
+          ) : null}
+          {bird.measurements.longevity ? (
+            <>
+              <dt>Longévité</dt>
+              <dd>{bird.measurements.longevity.value}</dd>
+            </>
+          ) : null}
+        </dl>
+      ) : null}
       <ul className="points">
         {bird.coursePoints.map((point) => (
           <CoursePointItem
