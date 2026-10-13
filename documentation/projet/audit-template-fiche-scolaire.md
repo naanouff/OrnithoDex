@@ -2,7 +2,8 @@
 
 Document de référence consigné le **2026-10-13**.  
 Source template : fiche papier type « Colin de Virginie » (support scolaire TCVA).  
-Suite : [plan-alignement-template-scolaire.md](plan-alignement-template-scolaire.md) · [sprint-alignement-template-scolaire.md](sprint-alignement-template-scolaire.md).
+Suite données : [plan-alignement-template-scolaire.md](plan-alignement-template-scolaire.md) · [sprint-alignement-template-scolaire.md](sprint-alignement-template-scolaire.md).  
+Suite écran : [plan-fiche-gabarit-cours.md](plan-fiche-gabarit-cours.md) · [sprint-fiche-gabarit-cours.md](sprint-fiche-gabarit-cours.md).
 
 ## Verdict
 
