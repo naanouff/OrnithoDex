@@ -19,6 +19,13 @@
 **Forme domestique** (Society Finch / moineau du Japon), dérivée du capucin domino sauvage. Taxon sauvage *L. striata* : **Least Concern** (2024) ; EOO ≈ 14 500 000 km² ; tendance **stable**.  
 *Source : birdlife-lonchura-striata.*
 
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Préoccupation mineure (LC) | birdlife-lonchura-striata |
+| Année évaluation | 2024 | birdlife-lonchura-striata |
+
 ## Dimorphisme sexuel
 
 *Non détaillé dans les sources consultées pour ce sprint.*  

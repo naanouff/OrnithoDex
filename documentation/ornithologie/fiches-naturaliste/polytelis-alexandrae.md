@@ -18,6 +18,20 @@
 Évalué **Near Threatened** (2022, critère D1). Endémique nicheur d’Australie ; EOO ≈ 1 995 000 km² ; 900–10 000 adultes matures estimés ; population variable selon conditions, parfois < 1 000 au minimum ; tendance **stable**.  
 *Source : birdlife-polytelis-alexandrae.*
 
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Quasi menacé (NT) | birdlife-polytelis-alexandrae. |
+| Année évaluation | 2022 | birdlife-polytelis-alexandrae. |
+
+## Mensurations
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Taille adulte | 45,72 cm | adw-polytelis-alexandrae |
+| Longévité | na |  |
+
 ## Dimorphisme sexuel
 
 *Non détaillé dans les sources consultées pour ce sprint.*  
@@ -69,3 +83,4 @@ Enregistrement XC488068 (Mark Carter — CC BY-NC-SA 4.0) : https://xeno-canto.o
 | birdlife-polytelis-alexandrae | Princess Parrot Polytelis alexandrae — Species Factsheet | BirdLife International | 2022 | https://datazone.birdlife.org/species/factsheet/princess-parrot-polytelis-alexandrae | Consulté 2026-10-10 ; NT |
 | media-polytelis-alexandrae-img | File:Polytelis alexandrae -Australia-8.jpg | PG Palmer / Wikimedia Commons | | https://commons.wikimedia.org/wiki/File:Polytelis_alexandrae_-Australia-8.jpg | CC BY 2.0 |
 | media-polytelis-alexandrae-audio | XC488068 | Mark Carter / Xeno-canto | | https://xeno-canto.org/488068 | CC BY-NC-SA 4.0 |
+| adw-polytelis-alexandrae | Polytelis alexandrae | Animal Diversity Web | | https://animaldiversity.org/accounts/Polytelis_alexandrae/ | Consulté 2026-10-13 |

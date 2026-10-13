@@ -2,7 +2,7 @@
 
 - **Slug** : `lonchura-cucullata`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -18,6 +18,13 @@
 
 BirdLife place l’espèce dans *Spermestes* (ex-*Lonchura*). Évalué **Least Concern** (2024). EOO ≈ 23 600 000 km² ; commune et largement répandue (Clement 1999 *via* BirdLife) ; tendance **stable**. Altitude 0–2 150 m. Commerce signalé à forte prévalence.  
 *Source : birdlife-spermestes-cucullata.*
+
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Préoccupation mineure (LC) | birdlife-spermestes-cucullata. |
+| Année évaluation | 2024 | birdlife-spermestes-cucullata. |
 
 ## Dimorphisme sexuel
 

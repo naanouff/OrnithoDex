@@ -2,7 +2,7 @@
 
 - **Slug** : `erythrura-gouldiae`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -17,6 +17,13 @@
 
 Évalué **Least Concern** (2022). BirdLife / IOC : *Chloebia gouldiae* (syn. *Erythrura gouldiae*). EOO ≈ 1 780 000 km² ; ~5 000–50 000 individus matures (meilleure estimation ~25 000, 2020) ; tendance **stable**. Endémique reproducteur d’Australie (nord). Altitude 0–370 m.  
 *Source : birdlife-chloebia-gouldiae.*
+
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Préoccupation mineure (LC) | birdlife-chloebia-gouldiae. |
+| Année évaluation | 2022 | birdlife-chloebia-gouldiae. |
 
 ## Dimorphisme sexuel
 

@@ -2,7 +2,7 @@
 
 - **Slug** : `agapornis-lilianae`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -17,6 +17,13 @@
 
 Évalué **Near Threatened** (2018 ; C1). EOO ≈ 539 000 km² ; ≈ 6 000–15 000 individus matures ; tendance **en diminution**. Vallée du Zambèze (Mozambique, Zimbabwe), Luangwa (Zambie, Tanzanie sud), Shire (Malawi).  
 *Source : birdlife-agapornis-lilianae.*
+
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Quasi menacé (NT) | birdlife-agapornis-lilianae. |
+| Année évaluation | 2018 | birdlife-agapornis-lilianae. |
 
 ## Dimorphisme sexuel
 

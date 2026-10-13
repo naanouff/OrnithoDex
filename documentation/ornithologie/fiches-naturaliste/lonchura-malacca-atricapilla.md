@@ -2,7 +2,7 @@
 
 - **Slug** : `lonchura-malacca-atricapilla`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -18,6 +18,13 @@
 
 BirdLife traite *L. atricapilla* (Chestnut Munia) comme espèce distincte de *L. malacca*. Évalué **Least Concern** (2024). EOO ≈ 13 200 000 km² ; tendance **stable**. Altitude 0–2 100 m.  
 *Source : birdlife-lonchura-atricapilla.*
+
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Préoccupation mineure (LC) | birdlife-lonchura-atricapilla. |
+| Année évaluation | 2024 | birdlife-lonchura-atricapilla. |
 
 ## Dimorphisme sexuel
 

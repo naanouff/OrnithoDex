@@ -31,7 +31,7 @@ Espèce évaluée **Least Concern** (BirdLife 2025). Aire très vaste (EOO ≈ 3
 
 | Champ | Valeur | Source |
 |-------|--------|--------|
-| Taille adulte | na | |
+| Taille adulte | 12,5–14 cm | adw-coturnix-chinensis |
 | Longévité | na | |
 
 

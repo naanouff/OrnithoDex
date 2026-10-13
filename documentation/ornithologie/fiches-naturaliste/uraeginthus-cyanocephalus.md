@@ -2,7 +2,7 @@
 
 - **Slug** : `uraeginthus-cyanocephalus`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -17,6 +17,13 @@
 
 Évalué **Least Concern** (2018). EOO ≈ 1 740 000 km² ; population non quantifiée ; tendance **stable**. Signalé dans le commerce d’animaux de compagnie.  
 *Source : birdlife-uraeginthus-cyanocephalus.*
+
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Préoccupation mineure (LC) | birdlife-uraeginthus-cyanocephalus. |
+| Année évaluation | 2018 | birdlife-uraeginthus-cyanocephalus. |
 
 ## Dimorphisme sexuel
 

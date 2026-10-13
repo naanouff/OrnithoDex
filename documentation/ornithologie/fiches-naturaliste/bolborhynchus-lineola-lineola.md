@@ -2,7 +2,7 @@
 
 - **Slug** : `bolborhynchus-lineola-lineola`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -17,6 +17,13 @@
 
 Taxon programme = sous-espèce *lineola*. Espèce *B. lineola* évaluée **Least Concern** (2022). EOO ≈ 6 810 000 km² ; ≈ 50 000–499 999 individus matures ; tendance **stable**. Mexique à Amérique du Sud andine.  
 *Source : birdlife-bolborhynchus-lineola.*
+
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Préoccupation mineure (LC) | birdlife-bolborhynchus-lineola |
+| Année évaluation | 2022 | birdlife-bolborhynchus-lineola |
 
 ## Dimorphisme sexuel
 

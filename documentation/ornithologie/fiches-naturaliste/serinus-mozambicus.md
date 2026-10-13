@@ -2,7 +2,7 @@
 
 - **Slug** : `serinus-mozambicus`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -18,6 +18,20 @@
 
 Évalué **Least Concern** (2018). EOO ≈ 22 300 000 km² ; population non quantifiée ; tendance **en diminution** (suspectée, liée au commerce). Plus de 2,6 millions d’oiseaux sauvages déclarés dans le commerce international depuis 1985 (CITES *via* BirdLife). BirdLife : *Crithagra mozambica* (ex-*Serinus*).  
 *Source : birdlife-serinus-mozambicus.*
+
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Préoccupation mineure (LC) | birdlife-serinus-mozambicus. |
+| Année évaluation | 2018 | birdlife-serinus-mozambicus. |
+
+## Mensurations
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Taille adulte | 11–13 cm | adw-serinus-mozambicus |
+| Longévité | 8,5 ans (sauvage, maximum cité) ; 4–15 ans (captivité) | adw-serinus-mozambicus |
 
 ## Dimorphisme sexuel
 
@@ -68,3 +82,4 @@ Enregistrement XC1140446 (Marna Buys — CC BY-NC-SA 4.0) : https://xeno-canto.o
 | birdlife-serinus-mozambicus | Yellow-fronted Canary Crithagra mozambica — Species Factsheet | BirdLife International | 2018 | https://datazone.birdlife.org/species/factsheet/yellow-fronted-canary-crithagra-mozambica | Consulté 2026-10-10 ; BirdLife: Crithagra |
 | media-serinus-mozambicus-img | File:Yellow-fronted canary (Crithagra mozambica granti) male Kruger.jpg | Charles J. Sharp / Wikimedia Commons | 2024 | https://commons.wikimedia.org/wiki/File:Yellow-fronted_canary_(Crithagra_mozambica_granti)_male_Kruger.jpg | CC BY-SA 4.0 |
 | media-serinus-mozambicus-audio | XC1140446 | Marna Buys / Xeno-canto | | https://xeno-canto.org/1140446 | CC BY-NC-SA 4.0 |
+| adw-serinus-mozambicus | Serinus mozambicus | Animal Diversity Web | | https://animaldiversity.org/accounts/Serinus_mozambicus/ | Consulté 2026-10-13 |

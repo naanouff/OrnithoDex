@@ -30,7 +30,7 @@
 
 | Champ | Valeur | Source |
 |-------|--------|--------|
-| Taille adulte | na | |
+| Taille adulte | 48–54 cm | adw-aix-sponsa |
 | Longévité | na | |
 
 

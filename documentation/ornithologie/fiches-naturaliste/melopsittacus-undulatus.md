@@ -2,7 +2,7 @@
 
 - **Slug** : `melopsittacus-undulatus`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -17,6 +17,20 @@
 
 Évalué **Least Concern** (2018). Endémique nicheur d’Australie ; EOO ≈ 7 160 000 km² ; abondant ; tendance **en augmentation**. ≈ 18–20 cm. Forme sauvage : front jaune, tête barrée jaune/noir, corps vert.  
 *Sources : birdlife-melopsittacus-undulatus ; adw-melopsittacus-undulatus.*
+
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Préoccupation mineure (LC) | birdlife-melopsittacus-undulatus |
+| Année évaluation | 2018 | birdlife-melopsittacus-undulatus |
+
+## Mensurations
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Taille adulte | 18–20 cm | birdlife-melopsittacus-undulatus |
+| Longévité | na | |
 
 ## Dimorphisme sexuel
 

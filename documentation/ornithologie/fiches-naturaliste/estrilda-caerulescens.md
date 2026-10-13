@@ -2,7 +2,7 @@
 
 - **Slug** : `estrilda-caerulescens`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -17,6 +17,13 @@
 
 Évalué **Least Concern** (2018). BirdLife : *Glaucestrilda coerulescens* (syn. *Estrilda caerulescens*). EOO ≈ 2 360 000 km² ; population non quantifiée, peu commune à commune (Fry & Keith 2004 *via* BirdLife) ; tendance **stable**. Afrique de l’Ouest / Sahel.  
 *Source : birdlife-glaucestrilda-coerulescens.*
+
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Préoccupation mineure (LC) | birdlife-glaucestrilda-coerulescens. |
+| Année évaluation | 2018 | birdlife-glaucestrilda-coerulescens. |
 
 ## Dimorphisme sexuel
 

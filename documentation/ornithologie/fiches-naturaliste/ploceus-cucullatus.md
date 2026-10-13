@@ -18,6 +18,13 @@
 Évalué **Least Concern** (2018). EOO ≈ 23 900 000 km² ; population non quantifiée, généralement abondante (Fry & Keith 2004 *via* BirdLife) ; tendance **stable**.  
 *Source : birdlife-ploceus-cucullatus.*
 
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Préoccupation mineure (LC) | birdlife-ploceus-cucullatus. |
+| Année évaluation | 2018 | birdlife-ploceus-cucullatus. |
+
 ## Dimorphisme sexuel
 
 *Non détaillé dans les sources consultées pour ce sprint.*  

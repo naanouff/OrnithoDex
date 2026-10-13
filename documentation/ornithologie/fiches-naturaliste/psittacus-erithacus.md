@@ -2,7 +2,7 @@
 
 - **Slug** : `psittacus-erithacus`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -17,6 +17,20 @@
 
 Évalué **Endangered** (2021 ; critères A2bcd+3bcd+4bcd). EOO ≈ 4 460 000 km² ; population globale estimée grossièrement 0,56–12,7 millions d’individus ; tendance **en diminution** (capture pour le commerce, perte d’habitat). Plumage gris à queue rouge distinctive ; ~33 cm, jusqu’à ~407 g. Altitude 0–2 200 m.  
 *Sources : birdlife-psittacus-erithacus ; adw-psittacus-erithacus.*
+
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | En danger (EN) | birdlife-psittacus-erithacus |
+| Année évaluation | 2021 | birdlife-psittacus-erithacus |
+
+## Mensurations
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Taille adulte | 33 cm | birdlife-psittacus-erithacus |
+| Longévité | 22,7 ans (sauvage, maximum cité) ; 40–60 ans (captivité) | adw-psittacus-erithacus |
 
 ## Dimorphisme sexuel
 

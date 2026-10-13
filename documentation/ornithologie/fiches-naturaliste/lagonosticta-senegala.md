@@ -2,7 +2,7 @@
 
 - **Slug** : `lagonosticta-senegala`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -17,6 +17,13 @@
 
 Évalué **Least Concern**. EOO ≈ 25 600 000 km² ; tendance **stable**. Non migrateur. Commerce d’animaux de compagnie signalé (échelle nationale / de subsistance).  
 *Source : birdlife-lagonosticta-senegala.*
+
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Préoccupation mineure (LC) | birdlife-lagonosticta-senegala. |
+| Année évaluation | na |  |
 
 ## Dimorphisme sexuel
 

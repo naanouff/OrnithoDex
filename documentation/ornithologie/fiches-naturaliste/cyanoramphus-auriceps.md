@@ -2,7 +2,7 @@
 
 - **Slug** : `cyanoramphus-auriceps`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -17,6 +17,13 @@
 
 Évalué **Near Threatened** (2022 ; A2ce). Endémique Nouvelle-Zélande ; EOO ≈ 550 000 km² ; ≈ 10 000–30 000 individus matures ; tendance **en diminution** (prédateurs introduits).  
 *Source : birdlife-cyanoramphus-auriceps.*
+
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Quasi menacé (NT) | birdlife-cyanoramphus-auriceps. |
+| Année évaluation | 2022 | birdlife-cyanoramphus-auriceps. |
 
 ## Dimorphisme sexuel
 

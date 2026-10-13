@@ -2,7 +2,7 @@
 
 - **Slug** : `estrilda-astrild`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -17,6 +17,20 @@
 
 Évalué **Least Concern** (2018). EOO ≈ 22 200 000 km² ; population non quantifiée, répandue et commune (Clement 1999 *via* BirdLife) ; tendance **stable**. ~11,5 cm ; ~8,9 g ; bec conique rouge et masque rouge. Altitude 0–1 000 m.  
 *Sources : birdlife-estrilda-astrild ; adw-estrilda-astrild.*
+
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Préoccupation mineure (LC) | birdlife-estrilda-astrild |
+| Année évaluation | 2018 | birdlife-estrilda-astrild |
+
+## Mensurations
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Taille adulte | 11,5 cm | birdlife-estrilda-astrild |
+| Longévité | 4 ans (sauvage, maximum cité) | adw-estrilda-astrild |
 
 ## Dimorphisme sexuel
 

@@ -2,7 +2,7 @@
 
 - **Slug** : `psittacula-krameri-manillensis`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -17,6 +17,20 @@
 
 Évalué **Least Concern** (2024) sous le nom BirdLife *Alexandrinus krameri* (ex-*Psittacula krameri*). EOO ≈ 28 400 000 km² ; population non quantifiée, commune à abondante dans l’aire naturelle (del Hoyo *et al.* 1997 *via* BirdLife) ; tendance **en augmentation**. Altitude 0–2 000 m. Corps vert, bec rougeâtre, longue queue ; mâle adulte : dague / collier rose-noir.  
 *Sources : birdlife-alexandrinus-krameri ; adw-psittacula-krameri.*
+
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Préoccupation mineure (LC) | birdlife-alexandrinus-krameri |
+| Année évaluation | 2024 | birdlife-alexandrinus-krameri |
+
+## Mensurations
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Taille adulte | 38–42 cm | adw-psittacula-krameri |
+| Longévité | na | |
 
 ## Dimorphisme sexuel
 

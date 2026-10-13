@@ -2,7 +2,7 @@
 
 - **Slug** : `uraeginthus-bengalus`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -17,6 +17,13 @@
 
 Évalué **Least Concern** (2018). EOO ≈ 15 900 000 km² ; population non quantifiée, décrite comme commune à abondante (Clement 1999 *via* BirdLife) ; tendance **stable**. Signalé dans le commerce d’animaux de compagnie.  
 *Source : birdlife-uraeginthus-bengalus.*
+
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Préoccupation mineure (LC) | birdlife-uraeginthus-bengalus. |
+| Année évaluation | 2018 | birdlife-uraeginthus-bengalus. |
 
 ## Dimorphisme sexuel
 

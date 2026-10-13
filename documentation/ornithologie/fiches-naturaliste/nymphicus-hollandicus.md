@@ -2,7 +2,7 @@
 
 - **Slug** : `nymphicus-hollandicus`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -17,6 +17,20 @@
 
 Évalué **Least Concern** (2018). Endémique nicheur d’Australie ; EOO ≈ 7 850 000 km² ; population décrite comme abondante ; tendance **stable**. Plus petit cacatoès (≈ 80–90 g) ; queue pointue longue (~15 cm) ; huppe ~5 cm ; plumage sauvage gris-brun avec taches auriculaires orange.  
 *Sources : birdlife-nymphicus-hollandicus ; adw-nymphicus-hollandicus.*
+
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Préoccupation mineure (LC) | birdlife-nymphicus-hollandicus |
+| Année évaluation | 2018 | birdlife-nymphicus-hollandicus |
+
+## Mensurations
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Taille adulte | 15 cm | birdlife-nymphicus-hollandicus |
+| Longévité | 10–14 ans (captivité) | adw-nymphicus-hollandicus |
 
 ## Dimorphisme sexuel
 

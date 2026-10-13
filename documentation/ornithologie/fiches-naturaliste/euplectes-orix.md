@@ -18,6 +18,13 @@
 Évalué **Least Concern** (2018). EOO ≈ 7 870 000 km² ; population non quantifiée, commune à abondante (Fry & Keith 2004 *via* BirdLife) ; tendance **stable**.  
 *Source : birdlife-euplectes-orix.*
 
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Préoccupation mineure (LC) | birdlife-euplectes-orix. |
+| Année évaluation | 2018 | birdlife-euplectes-orix. |
+
 ## Dimorphisme sexuel
 
 *Non détaillé dans les sources consultées pour ce sprint.*  

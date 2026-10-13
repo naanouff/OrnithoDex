@@ -2,7 +2,7 @@
 
 - **Slug** : `erythrura-psittacea`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -17,6 +17,13 @@
 
 Évalué **Least Concern** (2018). EOO ≈ 22 600 km² ; population non quantifiée, décrite comme répandue et assez commune (Clement 1999 *via* BirdLife) ; tendance **stable**. Endémique reproducteur de Nouvelle-Calédonie. Dépendance forestière faible.  
 *Source : birdlife-erythrura-psittacea.*
+
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Préoccupation mineure (LC) | birdlife-erythrura-psittacea. |
+| Année évaluation | 2018 | birdlife-erythrura-psittacea. |
 
 ## Dimorphisme sexuel
 
