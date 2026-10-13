@@ -1,6 +1,7 @@
 # Sprint — Fiche au gabarit de cours (maquette)
 
 **Branche** : `feature/fiche-gabarit-cours` → PR vers `develop` (maquette d’abord ; React après validation propriétaire)  
+**PR docs** : https://github.com/naanouff/OrnithoDex/pull/63  
 **Dates** : préparation 2026-10-13 ; exécution → …  
 **Réf.** : [plan-fiche-gabarit-cours.md](plan-fiche-gabarit-cours.md)
 
