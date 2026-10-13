@@ -12,7 +12,7 @@ Rattraper la fiche du prototype sur l’app, puis la réorganiser comme le polyc
 
 ## Gate
 
-Aucun changement de `BirdSheetPage` tant que le propriétaire n’a pas validé le prototype.
+Maquette **validée** (PR #64) — portage React autorisé.
 
 ## Périmètre
 
@@ -40,12 +40,12 @@ Aucun changement de `BirdSheetPage` tant que le propriétaire n’a pas validé 
 - [x] Swipe + index conservés
 - [x] Spec dans [design.md](design.md)
 - [x] `fiche.png` recapturé
-- [ ] **Validation propriétaire**
+- [x] **Validation propriétaire**
 
 ### App (après validation)
 
 - [x] Branche `feature/fiche-gabarit-cours` depuis `develop`
-- [ ] `BirdSheetPage` + `maquette.css`
+- [x] `BirdSheetPage` + `maquette.css`
 - [ ] `npm run build` + PR → `develop`
 
 ## Espèce de démo
