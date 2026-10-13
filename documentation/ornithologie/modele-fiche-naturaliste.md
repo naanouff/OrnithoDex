@@ -2,7 +2,8 @@
 
 Chaque espèce a un fichier `fiches-naturaliste/{slug}.md` calqué sur ce gabarit.
 
-Les sections sans source restent **vides** (ne pas inventer). Méthode : [plan-sources.md](../projet/plan-sources.md).
+Les sections sans source restent **vides** (ne pas inventer). Méthode : [plan-sources.md](../projet/plan-sources.md).  
+Écart vs fiche scolaire TCVA : [audit-template-fiche-scolaire.md](../projet/audit-template-fiche-scolaire.md) · alignement : [sprint-alignement-template-scolaire.md](../projet/sprint-alignement-template-scolaire.md).
 
 ## Statuts
 
