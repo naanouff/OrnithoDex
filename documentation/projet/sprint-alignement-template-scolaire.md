@@ -1,7 +1,8 @@
 # Sprint — Alignement template fiche scolaire (Lot A pilote + Lot B)
 
-**Branche prévue** : `feature/alignement-template-scolaire` → PR vers `develop`  
-**Dates** : préparation 2026-10-13 ; exécution à lancer  
+**Branche** : `feature/alignement-template-scolaire` → PR vers `develop`  
+**PR** : https://github.com/naanouff/OrnithoDex/pull/61  
+**Dates** : préparation 2026-10-13 ; exécution à lancer (docs consignées)  
 **Réf.** : [audit-template-fiche-scolaire.md](audit-template-fiche-scolaire.md) · [plan-alignement-template-scolaire.md](plan-alignement-template-scolaire.md) · [modele-fiche-naturaliste.md](../ornithologie/modele-fiche-naturaliste.md) · [plan-planisphere-fiche.md](plan-planisphere-fiche.md)
 
 ## Objectif
