@@ -22,9 +22,10 @@ Réf. [plan-swipe-fiches.md](../plan-swipe-fiches.md) · [sprint-swipe-fiches.md
 4. Index discret `n / N` ; pas de libellé « Glisser »
 5. **Statut** : maquette validée → intégration React (sprint phases 1–4)
 
-Ouvrir le prototype :
+Ouvrir le prototype (racine du repo — médias `/public/...`) :
 
 ```bash
-npx --yes serve documentation/projet -p 4173
-# puis http://localhost:4173/maquettes/prototype.html
+npx --yes serve . -p 4173
+# puis http://localhost:4173/documentation/projet/maquettes/prototype.html
+# Démo gabarit : Collection → Colin de Virginie
 ```

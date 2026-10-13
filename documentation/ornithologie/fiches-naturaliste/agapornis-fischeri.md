@@ -2,7 +2,7 @@
 
 - **Slug** : `agapornis-fischeri`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -17,6 +17,20 @@
 
 Évalué **Near Threatened** (2021 ; A2bd). Endémique nicheur Tanzanie nord-centrale ; EOO ≈ 206 000 km² ; population estimée ≈ 290 000–1 002 000 individus ; tendance **en diminution** (capture passée, hybridation possible). Face orange, corps vert vif, anneau oculaire blanc, bec orange-rouge.  
 *Sources : birdlife-agapornis-fischeri ; adw-agapornis-fischeri.*
+
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Quasi menacé (NT) | birdlife-agapornis-fischeri |
+| Année évaluation | 2021 | birdlife-agapornis-fischeri |
+
+## Mensurations
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Taille adulte | 12,7–15 cm | adw-agapornis-fischeri |
+| Longévité | 12,6 ans (sauvage, maximum cité) ; 15–25 ans (captivité) | adw-agapornis-fischeri |
 
 ## Dimorphisme sexuel
 

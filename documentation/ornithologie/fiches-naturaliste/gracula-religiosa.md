@@ -2,7 +2,7 @@
 
 - **Slug** : `gracula-religiosa`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -18,10 +18,25 @@
 Évalué **Least Concern** (2024). EOO ≈ 12 500 000 km² ; population non quantifiée, commune à abondante (Feare & Craig 1998 *via* BirdLife) ; tendance **en diminution** (perte de couvert forestier ~14 %, déclin suspecté 1–19 %). Noir brillant, caroncules jaunes, tache blanche alaire ; ~27–30 cm. Altitude 0–2 000 m.  
 *Sources : birdlife-gracula-religiosa ; adw-gracula-religiosa.*
 
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Préoccupation mineure (LC) | birdlife-gracula-religiosa |
+| Année évaluation | 2024 | birdlife-gracula-religiosa |
+
+## Mensurations
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Taille adulte | 27–30 cm | birdlife-gracula-religiosa |
+| Longévité | na | |
+
 ## Dimorphisme sexuel
 
-*Non détaillé dans les sources consultées (BirdLife ; ADW).*  
+*Non détaillé dans les sources consultées pour ce sprint.*  
 *Sources : na.*
+
 
 ## Habitat d’origine
 

@@ -2,7 +2,7 @@
 
 - **Slug** : `colinus-virginianus`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -18,6 +18,22 @@
 Évalué **Near Threatened**. Population ≈ 5 800 000 individus matures (2016) ; tendance **en diminution**. Non migrateur.  
 *Source : birdlife-colinus-virginianus.*
 
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Quasi menacé (NT) | birdlife-colinus-virginianus |
+| Année évaluation | 2016 | birdlife-colinus-virginianus |
+
+
+## Mensurations
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Taille adulte | 20,3–24,7 cm | adw-colinus-virginianus |
+| Longévité | 6 ans (sauvage, maximum cité) | adw-colinus-virginianus |
+
+
 ## Dimorphisme sexuel
 
 Oui : mâle à face et gorge blanches contrastées ; femelle et juvéniles à gorge chamois ; couvertures alaires et base du bec diffèrent aussi.  
@@ -27,6 +43,15 @@ Oui : mâle à face et gorge blanches contrastées ; femelle et juvéniles à go
 
 Végétation de début de succession (feu, agriculture, coupe) ; paysages agricoles, prairies, forêts ouvertes et fourrés.  
 *Sources : birdlife-colinus-virginianus ; adw-colinus-virginianus.*
+
+## Répartition sauvage
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Régions / pays | Amérique du Nord | birdlife-colinus-virginianus |
+| Hémisphère / realm | AM | birdlife-colinus-virginianus |
+| Note | Population en diminution (BirdLife) | birdlife-colinus-virginianus |
+
 
 ## Régime alimentaire
 

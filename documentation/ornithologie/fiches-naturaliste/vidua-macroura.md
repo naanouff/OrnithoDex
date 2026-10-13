@@ -2,7 +2,7 @@
 
 - **Slug** : `vidua-macroura`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -17,6 +17,13 @@
 
 Évalué **Least Concern** (2018). EOO ≈ 26 600 000 km² ; population non quantifiée, décrite comme peu commune (Borrow & Demey 2001 *via* BirdLife) ; tendance **stable**. Signalé dans le commerce international d’animaux de compagnie.  
 *Source : birdlife-vidua-macroura.*
+
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Préoccupation mineure (LC) | birdlife-vidua-macroura. |
+| Année évaluation | 2018 | birdlife-vidua-macroura. |
 
 ## Dimorphisme sexuel
 

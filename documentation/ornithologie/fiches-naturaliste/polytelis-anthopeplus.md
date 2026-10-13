@@ -2,7 +2,7 @@
 
 - **Slug** : `polytelis-anthopeplus`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -18,10 +18,18 @@
 Évalué **Least Concern** (2024). Endémique nicheur d’Australie ; EOO ≈ 1 520 000 km² ; ≈ 21 500 individus (estimation) ; tendance globale **en diminution**. Deux populations disjointes : *anthopeplus* (sud-ouest OA) ≈ 20 000 ; *monarchoides* (sud-est) ≈ 1 500, peut-être en déclin.  
 *Source : birdlife-polytelis-anthopeplus.*
 
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Préoccupation mineure (LC) | birdlife-polytelis-anthopeplus. |
+| Année évaluation | 2024 | birdlife-polytelis-anthopeplus. |
+
 ## Dimorphisme sexuel
 
-*Non détaillé dans les sources consultées (BirdLife).*  
+*Non détaillé dans les sources consultées pour ce sprint.*  
 *Sources : na.*
+
 
 ## Habitat d’origine
 

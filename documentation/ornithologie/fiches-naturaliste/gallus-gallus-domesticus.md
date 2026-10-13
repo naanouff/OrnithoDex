@@ -2,7 +2,7 @@
 
 - **Slug** : `gallus-gallus-domesticus`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -19,6 +19,22 @@
 **Forme domestique** du coq bankiva (*Gallus gallus*). L’espèce sauvage est évaluée **Least Concern** (2024) ; population non quantifiée, tendance **en diminution** (habitat, chasse).  
 *Source : birdlife-gallus-gallus. Ne pas confondre statut sauvage et élevage domestique.*
 
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Préoccupation mineure (LC) | birdlife-gallus-gallus |
+| Année évaluation | 2024 | birdlife-gallus-gallus |
+
+
+## Mensurations
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Taille adulte | na | |
+| Longévité | na | |
+
+
 ## Dimorphisme sexuel
 
 Chez le taxon sauvage : mâle au plumage très coloré (or, rouge, marron, reflets métalliques) ; femelle plus svelte, plumage plus discret. Hiérarchie sociale distincte mâles/femelles.  
@@ -28,6 +44,15 @@ Chez le taxon sauvage : mâle au plumage très coloré (or, rouge, marron, refle
 
 Pour *Gallus gallus* sauvage : forêts secondaires denses / belukar ; clairières et zones ouvertes pour l’alimentation ; aussi plantations. Habitats BirdLife : forêts humides de basse altitude et de montagne, mangroves, pâturages (suitable).  
 *Sources : birdlife-gallus-gallus ; adw-gallus-gallus.*
+
+## Répartition sauvage
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Régions / pays | Asie (origine sauvage bankiva) | birdlife-gallus-gallus |
+| Hémisphère / realm | AS | birdlife-gallus-gallus |
+| Note | Forme domestique mondiale ; origine = coq bankiva | birdlife-gallus-gallus |
+
 
 ## Régime alimentaire
 

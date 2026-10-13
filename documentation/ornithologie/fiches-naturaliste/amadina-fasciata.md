@@ -2,7 +2,7 @@
 
 - **Slug** : `amadina-fasciata`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -18,10 +18,18 @@
 Évalué **Least Concern** (2024). EOO ≈ 23 900 000 km² ; population non quantifiée, commune ou localement commune (Clement 1999 *via* BirdLife) ; tendance **stable**. Altitude 0–2 150 m. Commerce d’oiseaux signalé à prévalence élevée (Donald *et al.* 2024 *via* BirdLife).  
 *Source : birdlife-amadina-fasciata.*
 
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Préoccupation mineure (LC) | birdlife-amadina-fasciata. |
+| Année évaluation | 2024 | birdlife-amadina-fasciata. |
+
 ## Dimorphisme sexuel
 
-*Non détaillé dans les sources consultées (BirdLife).*  
+*Non détaillé dans les sources consultées pour ce sprint.*  
 *Sources : na.*
+
 
 ## Habitat d’origine
 

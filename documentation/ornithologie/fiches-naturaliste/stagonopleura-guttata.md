@@ -2,7 +2,7 @@
 
 - **Slug** : `stagonopleura-guttata`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -17,6 +17,20 @@
 
 Évalué **Vulnerable** (2022). EOO ≈ 1 175 000 km² ; 68 000–272 000 individus matures ; tendance **en diminution**. Endémique nicheur d’Australie. Déclins récents liés au défrichement et à la dégradation des habitats.  
 *Source : birdlife-stagonopleura-guttata.*
+
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Vulnérable (VU) | birdlife-stagonopleura-guttata. |
+| Année évaluation | 2022 | birdlife-stagonopleura-guttata. |
+
+## Mensurations
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Taille adulte | 12 cm | adw-stagonopleura-guttata |
+| Longévité | 5–7 ans (captivité) | adw-stagonopleura-guttata |
 
 ## Dimorphisme sexuel
 
@@ -67,3 +81,4 @@ Enregistrement XC576505 (Marc Anderson — CC BY-NC-ND 4.0) : https://xeno-canto
 | birdlife-stagonopleura-guttata | Diamond Firetail Stagonopleura guttata — Species Factsheet | BirdLife International | 2022 | https://datazone.birdlife.org/species/factsheet/diamond-firetail-stagonopleura-guttata | Consulté 2026-10-10 |
 | media-stagonopleura-guttata-img | File:Stagonopleura guttata 1 - Glen Alice.jpg | JJ Harrison / Wikimedia Commons | 2019 | https://commons.wikimedia.org/wiki/File:Stagonopleura_guttata_1_-_Glen_Alice.jpg | CC BY-SA 4.0 |
 | media-stagonopleura-guttata-audio | XC576505 | Marc Anderson / Xeno-canto | | https://xeno-canto.org/576505 | CC BY-NC-ND 4.0 |
+| adw-stagonopleura-guttata | Stagonopleura guttata | Animal Diversity Web | | https://animaldiversity.org/accounts/Stagonopleura_guttata/ | Consulté 2026-10-13 |

@@ -2,7 +2,7 @@
 
 - **Slug** : `callipepla-californica`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -18,6 +18,22 @@
 Évalué **Least Concern** (2021). Population ≈ 5 800 000 individus matures ; tendance **en augmentation**. Non migrateur. EOO ≈ 2 790 000 km².  
 *Source : birdlife-callipepla-californica.*
 
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Préoccupation mineure (LC) | birdlife-callipepla-californica |
+| Année évaluation | 2021 | birdlife-callipepla-californica |
+
+
+## Mensurations
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Taille adulte | 25 cm | adw-callipepla-californica |
+| Longévité | na | |
+
+
 ## Dimorphisme sexuel
 
 Oui : mâle à gorge noire ; femelle à gorge grisâtre striée de noir ; panache frontale caractéristique chez les deux sexes.  
@@ -27,6 +43,15 @@ Oui : mâle à gorge noire ; femelle à gorge grisâtre striée de noir ; panach
 
 BirdLife : pâturages, terres cultivées, désert chaud, forêts et prairies tempérées, fourrés secs et végétation méditerranéenne (suitable). ADW : bois ouverts, contreforts buissonnants, vallées, banlieues, chaparral.  
 *Sources : birdlife-callipepla-californica ; adw-callipepla-californica.*
+
+## Répartition sauvage
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Régions / pays | Amérique du Nord | birdlife-callipepla-californica |
+| Hémisphère / realm | AM | birdlife-callipepla-californica |
+| Note | Tendance en augmentation (BirdLife) | birdlife-callipepla-californica |
+
 
 ## Régime alimentaire
 

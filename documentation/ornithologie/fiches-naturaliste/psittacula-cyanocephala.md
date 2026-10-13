@@ -2,7 +2,7 @@
 
 - **Slug** : `psittacula-cyanocephala`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -18,10 +18,18 @@
 Évalué **Least Concern** (2024) sous le nom BirdLife *Himalayapsitta cyanocephala* (ex-*Psittacula cyanocephala*). EOO ≈ 4 010 000 km² ; population non quantifiée, généralement commune en Inde et assez commune au Népal (del Hoyo *et al.* 1997 *via* BirdLife) ; tendance **en diminution** (perte de couvert forestier ~6 % sur trois générations, déclin populationnel suspecté 1–19 %). Altitude 0–2 410 m.  
 *Source : birdlife-himalayapsitta-cyanocephala.*
 
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Préoccupation mineure (LC) | birdlife-himalayapsitta-cyanocephala. |
+| Année évaluation | 2024 | birdlife-himalayapsitta-cyanocephala. |
+
 ## Dimorphisme sexuel
 
-*Non détaillé dans les sources consultées (BirdLife).*  
+*Non détaillé dans les sources consultées pour ce sprint.*  
 *Sources : na.*
+
 
 ## Habitat d’origine
 

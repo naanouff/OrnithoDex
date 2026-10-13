@@ -2,7 +2,7 @@
 
 - **Slug** : `neochmia-modesta`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -17,6 +17,13 @@
 
 Évalué **Least Concern** (2024). EOO ≈ 1 850 000 km² ; population non quantifiée, décrite comme rare à localement commune (Clement 1999 *via* BirdLife) ; tendance **stable**. Endémique nicheur d’Australie. Commerce signalé à faible prévalence.  
 *Source : birdlife-neochmia-modesta.*
+
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Préoccupation mineure (LC) | birdlife-neochmia-modesta. |
+| Année évaluation | 2024 | birdlife-neochmia-modesta. |
 
 ## Dimorphisme sexuel
 

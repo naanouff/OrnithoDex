@@ -2,7 +2,7 @@
 
 - **Slug** : `forpus-coelestis`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -17,6 +17,13 @@
 
 Évalué **Least Concern** (2024). EOO ≈ 277 000 km² ; natif Équateur et Pérou ; décrit comme commun ; tendance **en diminution** (perte de couvert forestier estimée 1–19 % / 10 ans, mesure de précaution).  
 *Source : birdlife-forpus-coelestis.*
+
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Préoccupation mineure (LC) | birdlife-forpus-coelestis. |
+| Année évaluation | 2024 | birdlife-forpus-coelestis. |
 
 ## Dimorphisme sexuel
 

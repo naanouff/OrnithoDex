@@ -2,7 +2,7 @@
 
 - **Slug** : `cyanoramphus-novaezelandiae`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -17,6 +17,13 @@
 
 Évalué **Least Concern**. EOO ≈ 5 540 000 km² ; tendance **en diminution** sans atteindre le seuil Vulnerable. Nouvelle-Zélande et îles / taxons associés (ex. Norfolk, Nouvelle-Calédonie selon le traitement taxonomique BirdLife).  
 *Source : birdlife-cyanoramphus-novaezelandiae.*
+
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Préoccupation mineure (LC) | birdlife-cyanoramphus-novaezelandiae. |
+| Année évaluation | na |  |
 
 ## Dimorphisme sexuel
 

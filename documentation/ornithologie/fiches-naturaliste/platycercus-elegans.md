@@ -2,7 +2,7 @@
 
 - **Slug** : `platycercus-elegans`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -18,10 +18,18 @@
 Évalué **Least Concern** (2018). EOO ≈ 2 600 000 km² ; tendance **en diminution** (destruction d’habitat) sans atteindre les seuils de vulnérabilité.  
 *Source : birdlife-platycercus-elegans.*
 
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Préoccupation mineure (LC) | birdlife-platycercus-elegans. |
+| Année évaluation | 2018 | birdlife-platycercus-elegans. |
+
 ## Dimorphisme sexuel
 
-*Non détaillé dans les sources consultées (BirdLife).*  
+*Non détaillé dans les sources consultées pour ce sprint.*  
 *Sources : na.*
+
 
 ## Habitat d’origine
 

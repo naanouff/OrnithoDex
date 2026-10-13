@@ -2,7 +2,7 @@
 
 - **Slug** : `lonchura-maja`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -17,6 +17,13 @@
 
 Évalué **Least Concern** (2025). EOO ≈ 2 770 000 km² ; assez commune ou localement commune (Clement 1999 *via* BirdLife) ; tendance **stable**. Commerce signalé à forte prévalence.  
 *Source : birdlife-lonchura-maja.*
+
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Préoccupation mineure (LC) | birdlife-lonchura-maja. |
+| Année évaluation | 2025 | birdlife-lonchura-maja. |
 
 ## Dimorphisme sexuel
 

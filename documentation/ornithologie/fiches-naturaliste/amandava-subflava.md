@@ -2,7 +2,7 @@
 
 - **Slug** : `amandava-subflava`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -17,6 +17,13 @@
 
 Évalué **Least Concern** (2018). EOO ≈ 20 800 000 km² ; population non quantifiée, décrite comme peu commune, parfois localement ou saisonnièrement commune (Clement 1999 *via* BirdLife) ; tendance **stable**. Altitude 250–2 000 m.  
 *Source : birdlife-amandava-subflava.*
+
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Préoccupation mineure (LC) | birdlife-amandava-subflava. |
+| Année évaluation | 2018 | birdlife-amandava-subflava. |
 
 ## Dimorphisme sexuel
 

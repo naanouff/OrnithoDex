@@ -130,21 +130,23 @@ Pastilles / filtres stables — une couleur par ordre du programme :
 
 ### Fiche du naturaliste
 
-- **Job** : mémoriser l’identité
-- **Illustration** naturaliste dans le cadre média haut (même asset que Collection)
-- Noms (commun + latin) ; pastille ordre **remplie** du token ; famille en pill neutre
-- Cadres illustration et photo, filet gauche des points de cours : même couleur d’ordre
-- Points de cours (`programme` / `sourcé`)
-- Audio si disponible
-- Bloc Sources + **photo sourcée** en bas de fiche (crédit / licence visibles)
-- Quiz reste sur la **photo** (pas l’illustration)
+- **Job** : mémoriser l’identité + lire le gabarit de cours (mobile)
+- **Ordre des cases** (maquette 2026-10-13, [plan-fiche-gabarit-cours.md](plan-fiche-gabarit-cours.md)) :
+  nom commun → latin → pastilles → points de cours → **photo grande** (crédit) → description morphologique → taille \| longévité → dimorphisme → comportement → habitat \| origine (planisphère si `wildRange`) → UICN \| CITES → alimentation captivité → conseils → compatibilité → audio → « En savoir plus » → sources
+- Case sans source : libellé visible + **Non documenté** (ne pas masquer la case)
+- Régime **sauvage** uniquement dans « En savoir plus » — jamais dans « alimentation en captivité »
+- Texte statut / effectifs ≠ description morphologique
+- UICN en case seulement si déjà écrit dans la fiche ; CITES / captivité / conseils / compatibilité / morphologie / taille / longévité → Non documenté tant qu’aucune source
+- Pastille ordre **remplie** du token ; famille en pill neutre ; filet gauche des points = couleur d’ordre
+- Quiz reste sur la **photo** (pas l’illustration Collection)
 - **Swipe horizontal** (*validé 2026-10-11*, [plan-swipe-fiches.md](plan-swipe-fiches.md)) :
   - Gauche → espèce suivante ; droite → précédente
   - Parcours = liste filtrée Collection
   - Indicateur discret `n / N` (position dans la liste filtrée)
   - **Pas** de libellé « Glisser », ni boutons prev/next
   - Retour « ← Collection » inchangé (sauf arrivée depuis quiz → « ← Quiz », [plan-ui-ux-ergonomie.md](plan-ui-ux-ergonomie.md))
-  - Flèches clavier ← → : *prévu* sprint UI/UX (pas de chrome visible)
+  - Flèches clavier ← → disponibles (pas de chrome visible)
+  - Cibles interactives (`summary`, `audio`, liens) : hors capture swipe
 
 ### Quiz (photo → nom ; chant → espèce)
 

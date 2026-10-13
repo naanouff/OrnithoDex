@@ -2,7 +2,7 @@
 
 - **Slug** : `estrilda-melpoda`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -17,6 +17,13 @@
 
 Évalué **Least Concern**. EOO ≈ 9 820 000 km² ; tendance **stable**. Non migrateur. Commerce international d’animaux de compagnie signalé.  
 *Source : birdlife-estrilda-melpoda.*
+
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Préoccupation mineure (LC) | birdlife-estrilda-melpoda. |
+| Année évaluation | na |  |
 
 ## Dimorphisme sexuel
 

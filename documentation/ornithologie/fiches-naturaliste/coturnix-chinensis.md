@@ -2,7 +2,7 @@
 
 - **Slug** : `coturnix-chinensis`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -19,6 +19,22 @@
 Espèce évaluée **Least Concern** (BirdLife 2025). Aire très vaste (EOO ≈ 35 200 000 km²) ; tendance suspectée **stable**. Non migratrice. Noms anglais : Asian Blue Quail, King Quail.  
 *Source : birdlife-synoicus-chinensis.*
 
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Préoccupation mineure (LC) | birdlife-synoicus-chinensis |
+| Année évaluation | 2025 | birdlife-synoicus-chinensis |
+
+
+## Mensurations
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Taille adulte | 12,5–14 cm | adw-coturnix-chinensis |
+| Longévité | na | |
+
+
 ## Dimorphisme sexuel
 
 Oui : sexes colorés différemment ; femelle plus grande. Mâle : poitrine gris-bleu ardoise, ventre rouille/châtaigne, gorge noire bordée de blanc ; femelle brune sans ces motifs vifs.  
@@ -28,6 +44,15 @@ Oui : sexes colorés différemment ; femelle plus grande. Mâle : poitrine gris-
 
 Prairies subtropicales/tropicales sèches (majeur) ; fourrés humides, zones humides intérieures et terres cultivées (suitable). ADW : régions humides, herbes denses, rizières ; nidification au sol.  
 *Sources : birdlife-synoicus-chinensis ; adw-coturnix-chinensis.*
+
+## Répartition sauvage
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Régions / pays | Asie du Sud-Est, Chine, Australie | birdlife-synoicus-chinensis |
+| Hémisphère / realm | multi | birdlife-synoicus-chinensis |
+| Note | Aire très vaste (BirdLife) | birdlife-synoicus-chinensis |
+
 
 ## Régime alimentaire
 

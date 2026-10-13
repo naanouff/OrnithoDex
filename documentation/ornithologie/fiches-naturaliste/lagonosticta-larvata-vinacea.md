@@ -2,7 +2,7 @@
 
 - **Slug** : `lagonosticta-larvata-vinacea`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -18,6 +18,13 @@
 
 BirdLife traite *L. vinacea* comme espèce distincte (autrefois réunie sous *L. larvata*). Évalué **Least Concern** (2024). EOO ≈ 322 000 km² ; tendance **stable**. Altitude 0–1 700 m. Répartition : Sénégal, Gambie, Guinée-Bissau jusqu’au nord de la Guinée et à l’ouest du Mali.  
 *Source : birdlife-lagonosticta-vinacea.*
+
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Préoccupation mineure (LC) | birdlife-lagonosticta-vinacea. |
+| Année évaluation | 2024 | birdlife-lagonosticta-vinacea. |
 
 ## Dimorphisme sexuel
 

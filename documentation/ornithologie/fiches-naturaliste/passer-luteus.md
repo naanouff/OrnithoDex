@@ -2,7 +2,7 @@
 
 - **Slug** : `passer-luteus`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -18,10 +18,18 @@
 Évalué **Least Concern** (2018). EOO ≈ 6 720 000 km² ; population non quantifiée, commune à abondante (Clement 1999 *via* BirdLife) ; tendance **stable**.  
 *Source : birdlife-passer-luteus.*
 
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Préoccupation mineure (LC) | birdlife-passer-luteus. |
+| Année évaluation | 2018 | birdlife-passer-luteus. |
+
 ## Dimorphisme sexuel
 
-*Non détaillé dans les sources consultées (BirdLife).*  
+*Non détaillé dans les sources consultées pour ce sprint.*  
 *Sources : na.*
+
 
 ## Habitat d’origine
 

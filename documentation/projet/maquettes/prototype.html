@@ -627,6 +627,261 @@
       color: var(--muted);
     }
 
+    .pill--order {
+      background: var(--ordre, var(--white));
+    }
+
+    .pill--iucn {
+      background: color-mix(in srgb, var(--lime) 35%, var(--white));
+    }
+
+    .points li {
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+      border-left: 6px solid var(--ordre, var(--navy));
+    }
+
+    .point__badge {
+      flex-shrink: 0;
+      display: grid;
+      place-items: center;
+      width: 28px;
+      height: 28px;
+      border-radius: 8px;
+      border: 2px solid var(--navy);
+      font-size: 0.65rem;
+      font-weight: 800;
+      background: var(--cream);
+      color: var(--navy);
+    }
+
+    .point__badge--programme {
+      background: color-mix(in srgb, var(--ordre, var(--orange)) 22%, white);
+    }
+
+    .point__src {
+      display: block;
+      margin-top: 6px;
+      font-size: 0.72rem;
+      font-weight: 700;
+      color: var(--muted);
+    }
+
+    .sheet__photo {
+      margin: 4px 0 16px;
+      padding: 0;
+    }
+
+    .sheet__photo-frame {
+      aspect-ratio: 4 / 3;
+      width: 100%;
+      border-radius: var(--radius);
+      overflow: hidden;
+      border: var(--stroke) solid var(--ordre, var(--navy));
+      box-shadow: var(--shadow);
+      background: #e8eef5;
+    }
+
+    .sheet__photo-frame img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .sheet__photo-credit {
+      margin: 8px 2px 0;
+      font-size: 0.78rem;
+      font-weight: 700;
+      color: var(--muted);
+      line-height: 1.35;
+    }
+
+    .sheet__fields {
+      display: grid;
+      gap: 10px;
+      margin: 0 0 8px;
+    }
+
+    .sheet__pair {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+
+    .sheet__field {
+      margin: 0;
+      padding: 12px 14px;
+      border-radius: 16px;
+      border: 2.5px solid var(--navy);
+      background: var(--white);
+      box-shadow: 0 4px 0 rgba(27, 54, 93, 0.08);
+    }
+
+    .sheet__field dt {
+      margin: 0 0 6px;
+      font-family: Fredoka, Nunito, sans-serif;
+      font-size: 0.82rem;
+      font-weight: 800;
+      color: var(--navy);
+    }
+
+    .sheet__field dd {
+      margin: 0;
+      font-size: 0.9rem;
+      font-weight: 700;
+      line-height: 1.35;
+      color: var(--ink);
+    }
+
+    .sheet__field dd.is-empty {
+      color: var(--muted);
+      font-style: italic;
+      font-weight: 700;
+    }
+
+    .sheet__range {
+      margin-top: 8px;
+      padding: 10px;
+      border-radius: 12px;
+      border: 2px solid color-mix(in srgb, var(--navy) 35%, transparent);
+      background: #d7f1fa;
+    }
+
+    .sheet__range-svg {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 8px;
+    }
+
+    .sheet__range-land {
+      fill: #8ea0b8;
+      fill-opacity: 0.55;
+      stroke: var(--navy);
+      stroke-width: 0.6;
+    }
+
+    .sheet__range-land.is-active {
+      fill: var(--lime);
+      fill-opacity: 0.9;
+    }
+
+    .sheet__range-regions {
+      list-style: none;
+      margin: 8px 0 0;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .sheet__range-regions li {
+      margin: 0;
+      padding: 3px 8px;
+      border-radius: 999px;
+      border: 2px solid var(--navy);
+      background: var(--cream);
+      font-size: 0.72rem;
+      font-weight: 800;
+      color: var(--navy);
+    }
+
+    .sheet__audio {
+      margin: 16px 0 0;
+      padding: 14px;
+      border-radius: 16px;
+      border: 2.5px solid var(--navy);
+      background: var(--white);
+    }
+
+    .sheet__audio-label {
+      margin: 0 0 8px;
+      font-size: 0.85rem;
+      font-weight: 800;
+      font-family: Fredoka, Nunito, sans-serif;
+      color: var(--navy);
+    }
+
+    .sheet__audio audio { width: 100%; }
+
+    .sheet__more {
+      margin: 16px 0 0;
+      border-radius: 16px;
+      border: 2.5px solid var(--navy);
+      background: var(--white);
+      box-shadow: 0 4px 0 rgba(27, 54, 93, 0.1);
+      overflow: hidden;
+    }
+
+    .sheet__more > summary {
+      cursor: pointer;
+      list-style: none;
+      padding: 14px 16px;
+      font-family: Fredoka, Nunito, sans-serif;
+      font-weight: 700;
+      color: var(--navy);
+    }
+
+    .sheet__more > summary::-webkit-details-marker { display: none; }
+
+    .sheet__more[open] > summary {
+      border-bottom: 2px solid rgba(27, 54, 93, 0.12);
+    }
+
+    .sheet__sections {
+      padding: 12px 14px 16px;
+      display: grid;
+      gap: 12px;
+    }
+
+    .sheet__section h4 {
+      margin: 0 0 6px;
+      font-family: Fredoka, system-ui, sans-serif;
+      font-size: 0.95rem;
+      color: var(--navy);
+    }
+
+    .sheet__section p {
+      margin: 0;
+      font-size: 0.9rem;
+      font-weight: 600;
+      line-height: 1.4;
+    }
+
+    .sheet__sources-block {
+      margin-top: 20px;
+      padding-top: 4px;
+    }
+
+    .sheet__sources-block h4 {
+      margin: 0 0 10px;
+      font-family: Fredoka, system-ui, sans-serif;
+      font-size: 1rem;
+      color: var(--navy);
+    }
+
+    .sheet__sources-block ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: grid;
+      gap: 8px;
+    }
+
+    .sheet__sources-block li {
+      font-size: 0.82rem;
+      font-weight: 700;
+      line-height: 1.35;
+      color: var(--muted);
+    }
+
+    .sheet__sources-block a {
+      color: var(--navy);
+      font-weight: 800;
+    }
+
     nav.tabbar {
       position: absolute;
       left: 0;
@@ -797,12 +1052,26 @@
           <button type="button" class="sheet__back" id="sheet-back">← Collection</button>
           <p class="sheet__pos" id="sheet-pos" aria-label="Position dans la liste">1 / 1</p>
           <p class="sheet__live" id="sheet-live" aria-live="polite"></p>
-          <div class="sheet__media" id="sheet-media"></div>
           <h3 id="sheet-common"></h3>
           <p class="latin" id="sheet-latin"></p>
           <div class="pills" id="sheet-pills"></div>
           <ul class="points" id="sheet-points"></ul>
-          <p class="sources" id="sheet-sources"></p>
+          <figure class="sheet__photo" id="sheet-photo-wrap" hidden>
+            <div class="sheet__photo-frame">
+              <img id="sheet-photo" alt="" />
+            </div>
+            <figcaption class="sheet__photo-credit" id="sheet-photo-credit"></figcaption>
+          </figure>
+          <div class="sheet__fields" id="sheet-fields"></div>
+          <div class="sheet__audio" id="sheet-audio-wrap" hidden>
+            <p class="sheet__audio-label">Écouter</p>
+            <audio id="sheet-audio" controls preload="metadata"></audio>
+          </div>
+          <details class="sheet__more" id="sheet-more" hidden>
+            <summary>En savoir plus</summary>
+            <div class="sheet__sections" id="sheet-more-body"></div>
+          </details>
+          <div class="sheet__sources-block" id="sheet-sources"></div>
         </div>
       </div>
 
@@ -830,6 +1099,7 @@
     </div>
   </div>
 
+  <script src="planisphere-land.js"></script>
   <script>
     const ORDERS = [
       { id: "all", label: "Tous" },
@@ -848,10 +1118,52 @@
       "Passériformes": ["#b6e87a", "#7bcf3a"],
     };
 
+    const EMPTY = "Non documenté";
+    const MEDIA = "/public";
+
     const BIRDS = [
       { common: "Caille peinte de Chine", latin: "Coturnix chinensis", order: "Galliformes", family: "Phasianidés" },
       { common: "Poule domestique", latin: "Gallus gallus domesticus", order: "Galliformes", family: "Phasianidés" },
-      { common: "Colin de Virginie", latin: "Colinus virginianus", order: "Galliformes", family: "Odontophoridés" },
+      {
+        common: "Colin de Virginie",
+        latin: "Colinus virginianus",
+        order: "Galliformes",
+        family: "Odontophoridés",
+        slug: "colinus-virginianus",
+        iucn: "Quasi menacé (NT)",
+        iucnYear: "2016",
+        photo: `${MEDIA}/images/birds/colinus-virginianus.webp`,
+        photoCredit: "DickDaniels — CC BY-SA 3.0",
+        audio: `${MEDIA}/audio/birds/colinus-virginianus.mp3`,
+        points: [
+          { level: "programme", text: "Colin de Virginie ↔ <em>Colinus virginianus</em> ; Galliformes ; <strong>Odontophoridés</strong>" },
+          { level: "programme", text: "Confusion : colin de Californie (<em>Callipepla</em>) — autre genre, même famille" },
+          { level: "sourcé", text: "Statut BirdLife : <strong>Near Threatened</strong> ; population en diminution", src: "BirdLife" },
+          { level: "sourcé", text: "Dimorphisme : mâle gorge blanche ; femelle gorge chamois", src: "ADW · BirdLife" },
+          { level: "sourcé", text: "Terrestre ; compagnies (coveys) hors reproduction ; surtout graines", src: "ADW · BirdLife" },
+        ],
+        morphologie: null,
+        taille: null,
+        longevite: null,
+        dimorphisme: "Oui : mâle à face et gorge blanches ; femelle et juvéniles à gorge chamois.",
+        comportement: "Diurne, surtout terrestre ; compagnies (coveys) hors saison de reproduction.",
+        habitat: "Prairies, forêts ouvertes, fourrés et paysages agricoles (début de succession).",
+        wildRange: { regions: ["Amérique du Nord"], note: "Population en diminution (BirdLife)" },
+        cites: null,
+        captivite: null,
+        conseils: null,
+        compatibilite: null,
+        more: [
+          { label: "Description (statut)", text: "Évalué Near Threatened. Population ≈ 5 800 000 individus matures (2016) ; tendance en diminution. Non migrateur." },
+          { label: "Régime (sauvage)", text: "Principalement graines ; insectes importants en été. Pas recopié dans « alimentation en captivité »." },
+        ],
+        sources: [
+          { id: "liste", title: "Liste BAC PRO TCVA (MP6)", note: "Identité programme" },
+          { id: "BirdLife", title: "Northern Bobwhite — Species Factsheet", url: "https://datazone.birdlife.org/species/factsheet/northern-bobwhite-colinus-virginianus" },
+          { id: "ADW", title: "Colinus virginianus (northern bobwhite)", url: "https://animaldiversity.org/accounts/Colinus_virginianus/" },
+          { id: "Photo", title: "DickDaniels — CC BY-SA 3.0", url: "https://commons.wikimedia.org/wiki/File:Northern_Bobwhite_female_RWD.jpg" },
+        ],
+      },
       { common: "Canard mandarin", latin: "Aix galericulata", order: "Ansériformes", family: "Anatidés" },
       { common: "Canard carolin", latin: "Aix sponsa", order: "Ansériformes", family: "Anatidés" },
       { common: "Colombe diamant", latin: "Geopelia cuneata", order: "Columbiformes", family: "Columbidés" },
@@ -883,6 +1195,85 @@
     function mediaStyle(order) {
       const [a, b] = ORDER_COLORS[order] || ["#7ed4f5", "#2eb7e6"];
       return `background: linear-gradient(145deg, ${a}, ${b});`;
+    }
+
+    function orderAccent(order) {
+      return (ORDER_COLORS[order] && ORDER_COLORS[order][1]) || "var(--sky)";
+    }
+
+    function fieldValue(value) {
+      const text = value && String(value).trim() ? value : EMPTY;
+      const empty = text === EMPTY;
+      return `<dd class="${empty ? "is-empty" : ""}">${text}</dd>`;
+    }
+
+    function fieldBlock(label, value) {
+      return `<dl class="sheet__field"><dt>${label}</dt>${fieldValue(value)}</dl>`;
+    }
+
+    function foldLabel(value) {
+      return String(value || "")
+        .normalize("NFD")
+        .replace(/\p{M}/gu, "")
+        .toLowerCase()
+        .replace(/['’]/g, "");
+    }
+
+    function rangeSvg(regions) {
+      const labels = (regions || []).map(foldLabel);
+      const realms = new Set();
+      const realmOf = {
+        afrique: ["AF"],
+        europe: ["EU"],
+        asie: ["AS"],
+        amerique: ["NA", "SA"],
+        "amerique du sud": ["SA"],
+        "amerique du nord": ["NA"],
+        oceanie: ["AU"],
+      };
+      labels.forEach((label) => (realmOf[label] || []).forEach((id) => realms.add(id)));
+      const names = new Set(labels);
+      const land = window.PLANISPHERE_LAND || [];
+      const countryHit = land.some((item) => names.has(foldLabel(item.name)));
+      const precise = countryHit || realms.size > 0;
+      const paths = land.map((item) => {
+        const on = names.has(foldLabel(item.name)) || realms.has(item.id);
+        return `<path class="sheet__range-land${on ? " is-active" : ""}" d="${item.d}"/>`;
+      }).join("");
+      return `
+        <div class="sheet__range">
+          <svg class="sheet__range-svg" viewBox="0 0 360 180" role="img" aria-label="Planisphère">
+            <rect width="360" height="180" fill="#d7f1fa" stroke="#1b365d" stroke-width="1.2" rx="4"/>
+            <g stroke="#1b365d" stroke-width="0.35" stroke-dasharray="2 2" opacity="0.35">
+              <line x1="0" y1="90" x2="360" y2="90"/>
+              <line x1="180" y1="0" x2="180" y2="180"/>
+            </g>
+            ${paths}
+          </svg>
+          <ul class="sheet__range-regions">${(regions || []).map((r) => `<li>${r}</li>`).join("")}</ul>
+        </div>`;
+    }
+
+    function defaultPoints(bird) {
+      return [
+        { level: "programme", text: `${bird.common} ↔ <em>${bird.latin}</em>` },
+        { level: "programme", text: `Ordre ${bird.order} · famille ${bird.family}` },
+        { level: "programme", text: "Identité liste BAC PRO TCVA" },
+      ];
+    }
+
+    function renderPoints(points) {
+      return points.map((p) => `
+        <li>
+          <span class="point__badge ${p.level === "programme" ? "point__badge--programme" : ""}" title="${p.level}">
+            ${p.level === "programme" ? "P" : "S"}
+          </span>
+          <span class="point__body">
+            ${p.text}
+            ${p.src ? `<span class="point__src">${p.src}</span>` : ""}
+          </span>
+        </li>
+      `).join("");
     }
 
     function setScreen(name) {
@@ -939,19 +1330,104 @@
     }
 
     function fillSheet(bird) {
-      document.getElementById("sheet-media").style.cssText = mediaStyle(bird.order);
+      sheet.style.setProperty("--ordre", orderAccent(bird.order));
       document.getElementById("sheet-common").textContent = bird.common;
       document.getElementById("sheet-latin").textContent = bird.latin;
       document.getElementById("sheet-pills").innerHTML = `
-        <span class="pill"><span class="dot" style="background:${ORDER_COLORS[bird.order]?.[1]}"></span>${bird.order}</span>
+        <span class="pill pill--order">${bird.order}</span>
         <span class="pill">${bird.family}</span>
+        ${bird.iucn ? `<span class="pill pill--iucn" title="Statut UICN">UICN ${bird.iucn}${bird.iucnYear ? ` (${bird.iucnYear})` : ""}</span>` : ""}
       `;
-      document.getElementById("sheet-points").innerHTML = `
-        <li><strong>[programme]</strong> — ${bird.common} ↔ <em>${bird.latin}</em></li>
-        <li><strong>[programme]</strong> — Ordre ${bird.order} · famille ${bird.family}</li>
-        <li>[programme] — identité liste BAC PRO · [sourcé] si fait déjà en fiche</li>
+      document.getElementById("sheet-points").innerHTML = renderPoints(bird.points || defaultPoints(bird));
+
+      const photoWrap = document.getElementById("sheet-photo-wrap");
+      const photo = document.getElementById("sheet-photo");
+      if (bird.photo) {
+        photoWrap.hidden = false;
+        photo.src = bird.photo;
+        photo.alt = `Photo — ${bird.common}`;
+        document.getElementById("sheet-photo-credit").textContent = bird.photoCredit
+          ? `Photo : ${bird.photoCredit}`
+          : "Photo sourcée (voir Sources)";
+      } else {
+        photoWrap.hidden = true;
+        photo.removeAttribute("src");
+      }
+
+      const hasRange = Boolean(bird.wildRange && bird.wildRange.regions && bird.wildRange.regions.length);
+      const originField = hasRange
+        ? `<dl class="sheet__field">
+            <dt>Origine géographique</dt>
+            <dd>
+              ${rangeSvg(bird.wildRange.regions)}
+              ${bird.wildRange.note ? `<p style="margin:8px 0 0;font-size:0.78rem;color:var(--muted)">${bird.wildRange.note}</p>` : ""}
+            </dd>
+          </dl>`
+        : fieldBlock("Origine géographique", null);
+
+      document.getElementById("sheet-fields").innerHTML = `
+        ${fieldBlock("Description morphologique", bird.morphologie)}
+        <div class="sheet__pair">
+          ${fieldBlock("Taille adulte", bird.taille)}
+          ${fieldBlock("Longévité", bird.longevite)}
+        </div>
+        ${fieldBlock("Dimorphisme sexuel", bird.dimorphisme)}
+        ${fieldBlock("Comportement", bird.comportement)}
+        <div class="sheet__pair">
+          ${fieldBlock("Habitat naturel", bird.habitat)}
+          ${originField}
+        </div>
+        <div class="sheet__pair">
+          ${fieldBlock("Statut UICN", bird.iucn ? `${bird.iucn}${bird.iucnYear ? ` (${bird.iucnYear})` : ""}` : null)}
+          ${fieldBlock("Statut CITES", bird.cites)}
+        </div>
+        ${fieldBlock("Alimentation en captivité", bird.captivite)}
+        ${fieldBlock("Conseils captivité", bird.conseils)}
+        ${fieldBlock("Compatibilité", bird.compatibilite)}
       `;
-      document.getElementById("sheet-sources").textContent = "Source identité : liste BAC PRO TCVA (bac-pro-tcva-liste)";
+
+      const audioWrap = document.getElementById("sheet-audio-wrap");
+      const audio = document.getElementById("sheet-audio");
+      if (bird.audio) {
+        audioWrap.hidden = false;
+        audio.src = bird.audio;
+      } else {
+        audioWrap.hidden = true;
+        audio.removeAttribute("src");
+      }
+
+      const more = document.getElementById("sheet-more");
+      const moreBody = document.getElementById("sheet-more-body");
+      if (bird.more && bird.more.length) {
+        more.hidden = false;
+        more.open = false;
+        moreBody.innerHTML = bird.more.map((s) => `
+          <section class="sheet__section">
+            <h4>${s.label}</h4>
+            <p>${s.text}</p>
+          </section>
+        `).join("");
+      } else {
+        more.hidden = true;
+        moreBody.innerHTML = "";
+      }
+
+      const sources = bird.sources || [
+        { id: "liste", title: "Liste BAC PRO TCVA (MP6)", note: "Identité programme" },
+      ];
+      document.getElementById("sheet-sources").innerHTML = `
+        <h4>Sources</h4>
+        <ul>
+          ${sources.map((s) => `
+            <li>
+              <strong>${s.id}</strong> —
+              ${s.url ? `<a href="${s.url}" target="_blank" rel="noreferrer">${s.title}</a>` : s.title}
+              ${s.note ? ` (${s.note})` : ""}
+            </li>
+          `).join("")}
+        </ul>
+      `;
+
       document.getElementById("sheet-pos").textContent = `${browseIndex + 1} / ${browseList.length}`;
       document.getElementById("sheet-live").textContent = bird.common;
       sheet.style.transform = "";
@@ -1038,7 +1514,7 @@
 
     function onSheetPointerDown(e) {
       if (e.pointerType === "touch") return;
-      if (e.target.closest(".sheet__back")) return;
+      if (e.target.closest("a, button, summary, details, audio, input, select, textarea, label")) return;
       sheet.setPointerCapture(e.pointerId);
       beginSwipe(e.clientX, e.clientY);
     }

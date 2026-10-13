@@ -2,7 +2,7 @@
 
 - **Slug** : `lonchura-striata`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -17,6 +17,13 @@
 
 Évalué **Least Concern** (2024). EOO ≈ 14 500 000 km² ; population non quantifiée, commune ou localement commune (Clement 1999 *via* BirdLife) ; tendance **stable**. Altitude 0–2 500 m. Commerce signalé à forte prévalence (animaux de compagnie + usage alimentaire).  
 *Source : birdlife-lonchura-striata.*
+
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Préoccupation mineure (LC) | birdlife-lonchura-striata. |
+| Année évaluation | 2024 | birdlife-lonchura-striata. |
 
 ## Dimorphisme sexuel
 

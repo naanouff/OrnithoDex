@@ -2,7 +2,7 @@
 
 - **Slug** : `neopsephotus-bourkii`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -17,6 +17,20 @@
 
 Évalué **Least Concern** (2024). Endémique nicheur d’Australie ; EOO ≈ 2 950 000 km² ; tendance **en augmentation** ; assez commune. ≈ 18–23 cm ; plumage brun-rosé / rose ventre ; bande frontale bleue plus marquée chez le mâle.  
 *Sources : birdlife-neopsephotus-bourkii ; adw-neopsephotus-bourkii.*
+
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Préoccupation mineure (LC) | birdlife-neopsephotus-bourkii |
+| Année évaluation | 2024 | birdlife-neopsephotus-bourkii |
+
+## Mensurations
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Taille adulte | 18–23 cm | birdlife-neopsephotus-bourkii |
+| Longévité | na | |
 
 ## Dimorphisme sexuel
 

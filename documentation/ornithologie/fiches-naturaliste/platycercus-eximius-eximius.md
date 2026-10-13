@@ -2,7 +2,7 @@
 
 - **Slug** : `platycercus-eximius-eximius`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -18,10 +18,18 @@
 Évalué **Least Concern** (2024) au rang d’espèce *P. eximius*. Endémique nicheur d’Australie (introduite en Nouvelle-Zélande) ; EOO ≈ 1 580 000 km² ; tendance **en augmentation** ; extrêmement commune sur une grande partie de l’aire. Forme programme : sous-espèce nominale. Trois sous-espèces reconnues par BirdLife. 0–1 540 m.  
 *Source : birdlife-platycercus-eximius.*
 
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Préoccupation mineure (LC) | birdlife-platycercus-eximius. |
+| Année évaluation | 2024 | birdlife-platycercus-eximius. |
+
 ## Dimorphisme sexuel
 
-*Non détaillé dans les sources consultées (BirdLife).*  
+*Non détaillé dans les sources consultées pour ce sprint.*  
 *Sources : na.*
+
 
 ## Habitat d’origine
 

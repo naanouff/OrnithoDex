@@ -2,7 +2,7 @@
 
 - **Slug** : `poicephalus-senegalus`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -17,6 +17,20 @@
 
 Évalué **Least Concern** (2019). EOO ≈ 3 590 000 km² ; abondant ; tendance **en diminution** soupçonnée. ≈ 20–25 cm ; tête grise, corps vert, ventre jaune à orange. Non endémique nicheur d’un seul pays.  
 *Sources : birdlife-poicephalus-senegalus ; adw-poicephalus-senegalus.*
+
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Préoccupation mineure (LC) | birdlife-poicephalus-senegalus |
+| Année évaluation | 2019 | birdlife-poicephalus-senegalus |
+
+## Mensurations
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Taille adulte | 20–25 cm | birdlife-poicephalus-senegalus |
+| Longévité | na | |
 
 ## Dimorphisme sexuel
 

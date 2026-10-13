@@ -2,7 +2,7 @@
 
 - **Slug** : `platycercus-adscitus`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -18,10 +18,18 @@
 Évalué **Least Concern** (2024). Endémique nicheur d’Australie ; EOO ≈ 2 190 000 km² ; abondant sur une grande partie de l’aire ; tendance **en augmentation**. Non migrant. Deux sous-espèces reconnues.  
 *Source : birdlife-platycercus-adscitus.*
 
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Préoccupation mineure (LC) | birdlife-platycercus-adscitus. |
+| Année évaluation | 2024 | birdlife-platycercus-adscitus. |
+
 ## Dimorphisme sexuel
 
-*Non détaillé dans les sources consultées (BirdLife).*  
+*Non détaillé dans les sources consultées pour ce sprint.*  
 *Sources : na.*
+
 
 ## Habitat d’origine
 

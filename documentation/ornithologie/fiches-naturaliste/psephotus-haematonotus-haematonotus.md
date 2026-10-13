@@ -2,7 +2,7 @@
 
 - **Slug** : `psephotus-haematonotus-haematonotus`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -18,10 +18,18 @@
 Évalué **Least Concern** (2024). Endémique nicheur d’Australie ; EOO ≈ 1 930 000 km² ; population non quantifiée, rapportée commune à abondante (del Hoyo *et al.* 1997 *via* BirdLife) ; tendance **en augmentation** (dégradation d’habitat créant de nouvelles zones favorables). Altitude 0–1 100 m.  
 *Source : birdlife-psephotus-haematonotus.*
 
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Préoccupation mineure (LC) | birdlife-psephotus-haematonotus. |
+| Année évaluation | 2024 | birdlife-psephotus-haematonotus. |
+
 ## Dimorphisme sexuel
 
-*Non détaillé dans les sources consultées (BirdLife ; ADW stub).*  
+*Non détaillé dans les sources consultées pour ce sprint.*  
 *Sources : na.*
+
 
 ## Habitat d’origine
 

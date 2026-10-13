@@ -2,7 +2,7 @@
 
 - **Slug** : `columba-livia`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -18,6 +18,22 @@
 Évalué **Least Concern**. Non migrateur. EOO ≈ 64 600 000 km² ; tendance globale **inconnue**. Formes naturelles et férales largement répandues.  
 *Source : birdlife-columba-livia.*
 
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Préoccupation mineure (LC) | birdlife-columba-livia |
+| Année évaluation | na | birdlife-columba-livia |
+
+
+## Mensurations
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Taille adulte | na | |
+| Longévité | na | |
+
+
 ## Dimorphisme sexuel
 
 Faible : femelles tendent à montrer moins d’irisations que les mâles (ADW). Nombreux phénotypes férals.  
@@ -27,6 +43,15 @@ Faible : femelles tendent à montrer moins d’irisations que les mâles (ADW). 
 
 Habitat naturel : falaises, grottes, corniches ; forme férale urbaine (bâtiments comme falaises). BirdLife : zones rocheuses, grottes, terres agricoles.  
 *Sources : birdlife-columba-livia ; adw-columba-livia.*
+
+## Répartition sauvage
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Régions / pays | Europe, Afrique, Asie (formes naturelles et férales) | birdlife-columba-livia |
+| Hémisphère / realm | multi | birdlife-columba-livia |
+| Note | Tendance globale inconnue (BirdLife) | birdlife-columba-livia |
+
 
 ## Régime alimentaire
 

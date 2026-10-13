@@ -20,6 +20,7 @@ Le cadrage et le plan complets sont dans [`documentation/`](documentation/) :
 - **[Plan sources](documentation/projet/plan-sources.md)** — enrichissement des fiches (biologie + médias)
 - **[Plan pédagogie](documentation/projet/plan-pedagogie.md)** — cadre ingénieur pédagogue + points de cours
 - **[Analyse pédagogique 0.2.0](documentation/projet/analyse-pedagogique-0.2.0.md)** · [remédiation 0.3](documentation/projet/plan-remediation-pedagogie-0.3.md) · [sprint](documentation/projet/sprint-remediation-pedagogie-0.3.md)
+- **[Audit template scolaire](documentation/projet/audit-template-fiche-scolaire.md)** · [plan alignement](documentation/projet/plan-alignement-template-scolaire.md) · [sprint](documentation/projet/sprint-alignement-template-scolaire.md)
 - **[Charte pédagogique](documentation/projet/pedagogie.md)** — objectifs, parcours, contrat points de cours (aides projet, pas polycopié enseignant)
 - **[Charte design](documentation/projet/design.md)** — DA logo, tokens, specs 4 écrans mobile
 - [Vision](documentation/projet/vision.md) · [Cahier des charges](documentation/projet/cahier-des-charges.md) · [Architecture](documentation/projet/architecture.md)

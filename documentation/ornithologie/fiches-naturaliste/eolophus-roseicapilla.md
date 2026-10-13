@@ -2,7 +2,7 @@
 
 - **Slug** : `eolophus-roseicapilla`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -17,6 +17,13 @@
 
 Évalué **Least Concern** (2018). Endémique nicheur d’Australie ; EOO ≈ 10 100 000 km² ; tendance de population **en augmentation** (nouveaux habitats favorables). Tête, cou et parties inférieures rose-rosé ; dos, ailes et sous-queue gris ; plumage plus pâle à l’ouest.  
 *Sources : birdlife-eolophus-roseicapilla ; birdlife-au-galah.*
+
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Préoccupation mineure (LC) | birdlife-eolophus-roseicapilla |
+| Année évaluation | 2018 | birdlife-eolophus-roseicapilla |
 
 ## Dimorphisme sexuel
 

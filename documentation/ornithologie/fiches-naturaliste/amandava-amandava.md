@@ -2,7 +2,7 @@
 
 - **Slug** : `amandava-amandava`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -17,6 +17,20 @@
 
 Évalué **Least Concern** (2024). EOO ≈ 16 300 000 km² ; population non quantifiée, commune ou localement commune (Clement 1999 *via* BirdLife) ; tendance **stable**. ~10 cm ; mâle en nuptial : rouge vif à points blancs. Altitude 0–2 400 m.  
 *Sources : birdlife-amandava-amandava ; adw-amandava-amandava.*
+
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Préoccupation mineure (LC) | birdlife-amandava-amandava |
+| Année évaluation | 2024 | birdlife-amandava-amandava |
+
+## Mensurations
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Taille adulte | 10 cm | birdlife-amandava-amandava |
+| Longévité | na | |
 
 ## Dimorphisme sexuel
 

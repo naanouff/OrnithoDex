@@ -2,7 +2,7 @@
 
 - **Slug** : `estrilda-troglodytes`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -17,6 +17,13 @@
 
 Évalué **Least Concern** (2018). EOO ≈ 8 660 000 km² ; tendance **stable**. Non migrateur. Commerce international d’animaux de compagnie signalé.  
 *Source : birdlife-estrilda-troglodytes.*
+
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Préoccupation mineure (LC) | birdlife-estrilda-troglodytes. |
+| Année évaluation | 2018 | birdlife-estrilda-troglodytes. |
 
 ## Dimorphisme sexuel
 

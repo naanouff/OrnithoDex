@@ -2,7 +2,7 @@
 
 - **Slug** : `neophema-elegans`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -18,10 +18,18 @@
 Évalué **Least Concern** (2024). Endémique nicheur d’Australie ; EOO ≈ 3 240 000 km² ; tendance **en augmentation** ; rapportée commune.  
 *Source : birdlife-neophema-elegans.*
 
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Préoccupation mineure (LC) | birdlife-neophema-elegans. |
+| Année évaluation | 2024 | birdlife-neophema-elegans. |
+
 ## Dimorphisme sexuel
 
-*Non détaillé dans les sources consultées (BirdLife).*  
+*Non détaillé dans les sources consultées pour ce sprint.*  
 *Sources : na.*
+
 
 ## Habitat d’origine
 

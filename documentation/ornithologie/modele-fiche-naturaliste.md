@@ -2,7 +2,8 @@
 
 Chaque espèce a un fichier `fiches-naturaliste/{slug}.md` calqué sur ce gabarit.
 
-Les sections sans source restent **vides** (ne pas inventer). Méthode : [plan-sources.md](../projet/plan-sources.md).
+Les sections sans source restent **vides** (ne pas inventer). Méthode : [plan-sources.md](../projet/plan-sources.md).  
+Écart vs fiche scolaire TCVA : [audit-template-fiche-scolaire.md](../projet/audit-template-fiche-scolaire.md) · alignement : [sprint-alignement-template-scolaire.md](../projet/sprint-alignement-template-scolaire.md).
 
 ## Statuts
 
@@ -31,6 +32,24 @@ Les sections sans source restent **vides** (ne pas inventer). Méthode : [plan-s
 ## Description
 
 <!-- Texte uniquement si sourcé. Sinon laisser vide. -->
+
+## Statut UICN
+
+<!-- Optionnel. Uniquement si déjà documenté (BirdLife / IUCN). Sinon section vide. -->
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Préoccupation mineure (LC) \| Quasi menacé (NT) \| … | … |
+| Année évaluation | YYYY ou na | … |
+
+## Mensurations
+
+<!-- Optionnel. Taille / longévité uniquement si sourcées. Sinon `na`. -->
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Taille adulte | … ou na | … |
+| Longévité | … ou na | … |
 
 ## Dimorphisme sexuel
 

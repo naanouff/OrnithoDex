@@ -2,7 +2,7 @@
 
 - **Slug** : `erythrura-trichroa`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -17,6 +17,13 @@
 
 Évalué **Least Concern** (2018). EOO ≈ 12 500 000 km² ; ~13 000 individus matures (estimation ≥ 20 000 individus totaux, S. T. Garnett *in litt.* 2008 *via* BirdLife) ; tendance **stable**. Altitude 1 000–3 000 m. Dépendance forestière moyenne.  
 *Source : birdlife-erythrura-trichroa.*
+
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Préoccupation mineure (LC) | birdlife-erythrura-trichroa. |
+| Année évaluation | 2018 | birdlife-erythrura-trichroa. |
 
 ## Dimorphisme sexuel
 

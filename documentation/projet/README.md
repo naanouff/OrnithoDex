@@ -10,6 +10,12 @@
 | [plan-remediation-pedagogie-0.3.md](plan-remediation-pedagogie-0.3.md) | **Plan remédiation** — backlog P0 / P1 / P2 (cible 0.3.x) |
 | [sprint-remediation-pedagogie-0.3.md](sprint-remediation-pedagogie-0.3.md) | **Sprint remédiation** — P0 + fiche + feedback quiz |
 | [suivi-controle-illustrations.md](suivi-controle-illustrations.md) | **Contrôle illustrations** — protocole + échantillon 12 |
+| [audit-template-fiche-scolaire.md](audit-template-fiche-scolaire.md) | **Audit** — template scolaire TCVA vs 85 fiches |
+| [plan-alignement-template-scolaire.md](plan-alignement-template-scolaire.md) | **Plan** — alignement gabarit (champs sourçables) |
+| [sprint-alignement-template-scolaire.md](sprint-alignement-template-scolaire.md) | **Sprint** — Lot A pilote 12 + Lot B dimorphisme 22 |
+| [plan-fiche-gabarit-cours.md](plan-fiche-gabarit-cours.md) | **Plan** — fiche UI au gabarit polycopié (maquette d’abord) |
+| [sprint-fiche-gabarit-cours.md](sprint-fiche-gabarit-cours.md) | **Sprint** — rattrapage maquette puis cases du cours |
+| [suivi-template-scolaire.md](../ornithologie/suivi-template-scolaire.md) | **Suivi** — couverture champs template scolaire |
 | [sprint-pedagogie-pilote-12.md](sprint-pedagogie-pilote-12.md) | **Sprint pédagogie** — pilote 12 points de cours |
 | [sprint-pedagogie-lot-01.md](sprint-pedagogie-lot-01.md) | **Sprint pédagogie** — lot 01 Agapornis / Amazona (6) |
 | [sprint-pedagogie-lot-02.md](sprint-pedagogie-lot-02.md) | **Sprint pédagogie** — lot 02 Psittacidés A (6) |

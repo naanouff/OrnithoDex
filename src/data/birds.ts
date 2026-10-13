@@ -155,6 +155,27 @@ export const birds: Bird[] = [
         "adw-agapornis-fischeri"
       ]
     },
+    "iucn": {
+      "category": "Quasi menacé (NT)",
+      "sourceIds": [
+        "birdlife-agapornis-fischeri"
+      ],
+      "year": "2021"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "12,7–15 cm",
+        "sourceIds": [
+          "adw-agapornis-fischeri"
+        ]
+      },
+      "longevity": {
+        "value": "12,6 ans (sauvage, maximum cité) ; 15–25 ans (captivité)",
+        "sourceIds": [
+          "adw-agapornis-fischeri"
+        ]
+      }
+    },
     "imageCredit": "Peter Békési — CC BY-SA 2.0",
     "imageSourceId": "media-agapornis-fischeri-img",
     "image": "/images/birds/agapornis-fischeri.webp",
@@ -301,6 +322,13 @@ export const birds: Bird[] = [
         "birdlife-agapornis-lilianae"
       ]
     },
+    "iucn": {
+      "category": "Quasi menacé (NT)",
+      "sourceIds": [
+        "birdlife-agapornis-lilianae."
+      ],
+      "year": "2018"
+    },
     "imageCredit": "Lip Kee — CC BY-SA 2.0",
     "imageSourceId": "media-agapornis-lilianae-img",
     "image": "/images/birds/agapornis-lilianae.webp",
@@ -436,6 +464,12 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
+    "iucn": {
+      "category": "Vulnérable (VU)",
+      "sourceIds": [
+        "birdlife-agapornis-nigrigenis."
+      ]
+    },
     "imageCredit": "Huub Veldhuijzen van Zanten / Naturalis — CC BY-SA",
     "imageSourceId": "media-agapornis-nigrigenis-img",
     "image": "/images/birds/agapornis-nigrigenis.webp",
@@ -522,7 +556,8 @@ export const birds: Bird[] = [
         "text": "personatus = tête **noire** (masque)",
         "sourceIds": [
           "birdlife-agapornis-personatus",
-          "birdlife-agapornis-fischeri"
+          "birdlife-agapornis-fischeri",
+          "adw-agapornis-personatus"
         ]
       },
       {
@@ -530,7 +565,8 @@ export const birds: Bird[] = [
         "text": "Least Concern ; endémique Tanzanie ; tendance stable",
         "sourceIds": [
           "birdlife-agapornis-personatus",
-          "birdlife-agapornis-fischeri"
+          "birdlife-agapornis-fischeri",
+          "adw-agapornis-personatus"
         ]
       },
       {
@@ -538,7 +574,8 @@ export const birds: Bird[] = [
         "text": "Savane sèche ; non migrateur ; Hybridation documentée avec *A. fischeri*",
         "sourceIds": [
           "birdlife-agapornis-personatus",
-          "birdlife-agapornis-fischeri"
+          "birdlife-agapornis-fischeri",
+          "adw-agapornis-personatus"
         ]
       }
     ],
@@ -580,6 +617,13 @@ export const birds: Bird[] = [
         "publisher": "Peter Boesman / Xeno-canto",
         "url": "https://xeno-canto.org/509849",
         "note": "CC BY-NC-ND 4.0"
+      },
+      {
+        "id": "adw-agapornis-personatus",
+        "title": "Agapornis personatus",
+        "publisher": "Animal Diversity Web",
+        "url": "https://animaldiversity.org/accounts/Agapornis_personatus/",
+        "note": "Consulté 2026-10-13"
       }
     ],
     "wildRange": {
@@ -590,6 +634,21 @@ export const birds: Bird[] = [
       "sourceIds": [
         "birdlife-agapornis-personatus"
       ]
+    },
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-agapornis-personatus."
+      ],
+      "year": "2018"
+    },
+    "measurements": {
+      "longevity": {
+        "value": "10–20 ans (captivité)",
+        "sourceIds": [
+          "adw-agapornis-personatus"
+        ]
+      }
     },
     "imageCredit": "Becky Matsubara — CC BY 2.0",
     "imageSourceId": "media-agapornis-personatus-img",
@@ -754,6 +813,27 @@ export const birds: Bird[] = [
         "adw-agapornis-roseicollis"
       ]
     },
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-agapornis-roseicollis"
+      ],
+      "year": "2018"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "15 cm",
+        "sourceIds": [
+          "birdlife-agapornis-roseicollis"
+        ]
+      },
+      "longevity": {
+        "value": "15–25 ans (captivité)",
+        "sourceIds": [
+          "adw-agapornis-roseicollis"
+        ]
+      }
+    },
     "imageCredit": "Charles J. Sharp — CC BY-SA 4.0",
     "imageSourceId": "media-agapornis-roseicollis-img",
     "image": "/images/birds/agapornis-roseicollis.webp",
@@ -902,17 +982,20 @@ export const birds: Bird[] = [
     ],
     "wildRange": {
       "regions": [
-        "Chine",
-        "Asie",
-        "Asie de l’Est",
-        "Japon",
-        "Europe"
+        "Asie de l’Est"
       ],
-      "hemisphere": "multi",
+      "hemisphere": "AS",
+      "summary": "Migrateur ; aires natives Asie de l’Est",
       "sourceIds": [
-        "birdlife-aix-galericulata",
-        "adw-aix-galericulata"
+        "birdlife-aix-galericulata"
       ]
+    },
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-aix-galericulata"
+      ],
+      "year": "2018"
     },
     "imageCredit": "Alexis Lours — CC BY 4.0",
     "imageSourceId": "media-aix-galericulata-img",
@@ -1059,6 +1142,31 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
+    "wildRange": {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "hemisphere": "AM",
+      "summary": "Migrateur complet",
+      "sourceIds": [
+        "birdlife-aix-sponsa"
+      ]
+    },
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-aix-sponsa"
+      ],
+      "year": "2021"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "48–54 cm",
+        "sourceIds": [
+          "adw-aix-sponsa"
+        ]
+      }
+    },
     "imageCredit": "Dick Daniels — CC BY-SA 3.0",
     "imageSourceId": "media-aix-sponsa-img",
     "image": "/images/birds/aix-sponsa.webp",
@@ -1090,7 +1198,7 @@ export const birds: Bird[] = [
           "label": "Description"
         },
         {
-          "text": "*Non détaillé dans les sources consultées (BirdLife).*",
+          "text": "*Non détaillé dans les sources consultées pour ce sprint.*",
           "sourceIds": [],
           "label": "Dimorphisme"
         },
@@ -1191,6 +1299,13 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-ND 4.0"
       }
     ],
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-amadina-fasciata."
+      ],
+      "year": "2024"
+    },
     "imageCredit": "David Boettger — Domaine public",
     "imageSourceId": "media-amadina-fasciata-img",
     "image": "/images/birds/amadina-fasciata.webp",
@@ -1342,6 +1457,21 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-ND 4.0"
       }
     ],
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-amandava-amandava"
+      ],
+      "year": "2024"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "10 cm",
+        "sourceIds": [
+          "birdlife-amandava-amandava"
+        ]
+      }
+    },
     "imageCredit": "Mike Prince — CC BY 2.0",
     "imageSourceId": "media-amandava-amandava-img",
     "image": "/images/birds/amandava-amandava.webp",
@@ -1482,6 +1612,13 @@ export const birds: Bird[] = [
       "sourceIds": [
         "birdlife-amandava-subflava"
       ]
+    },
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-amandava-subflava."
+      ],
+      "year": "2018"
     },
     "imageCredit": "Alan Manson — CC BY-SA 2.0",
     "imageSourceId": "media-amandava-subflava-img",
@@ -1641,6 +1778,21 @@ export const birds: Bird[] = [
         "al. 2019)"
       ]
     },
+    "iucn": {
+      "category": "Quasi menacé (NT)",
+      "sourceIds": [
+        "birdlife-amazona-aestiva."
+      ],
+      "year": "2019"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "33–38 cm",
+        "sourceIds": [
+          "adw-amazona-aestiva"
+        ]
+      }
+    },
     "imageCredit": "H. Zell — CC BY-SA 3.0",
     "imageSourceId": "media-amazona-aestiva-img",
     "image": "/images/birds/amazona-aestiva.webp",
@@ -1785,6 +1937,13 @@ export const birds: Bird[] = [
         "birdlife-bolborhynchus-lineola"
       ]
     },
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-bolborhynchus-lineola"
+      ],
+      "year": "2022"
+    },
     "imageCredit": "thibaudaronson — CC BY-SA 4.0",
     "imageSourceId": "media-bolborhynchus-lineola-img",
     "image": "/images/birds/bolborhynchus-lineola-lineola.webp",
@@ -1869,21 +2028,24 @@ export const birds: Bird[] = [
         "level": "sourcé",
         "text": "*alba* = entièrement blanc, **Endangered**",
         "sourceIds": [
-          "birdlife-cacatua-alba"
+          "birdlife-cacatua-alba",
+          "adw-cacatua-alba"
         ]
       },
       {
         "level": "sourcé",
         "text": "EN ; endémique ; déclin (commerce + déforestation)",
         "sourceIds": [
-          "birdlife-cacatua-alba"
+          "birdlife-cacatua-alba",
+          "adw-cacatua-alba"
         ]
       },
       {
         "level": "sourcé",
         "text": "Forêt primaire / secondaire ; graines et fruits arboricoles ; Non migrateur ; menace principale = capture pour la cage",
         "sourceIds": [
-          "birdlife-cacatua-alba"
+          "birdlife-cacatua-alba",
+          "adw-cacatua-alba"
         ]
       }
     ],
@@ -1917,8 +2079,36 @@ export const birds: Bird[] = [
         "publisher": "Richard E. Webster / Xeno-canto",
         "url": "https://xeno-canto.org/1074294",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "adw-cacatua-alba",
+        "title": "Cacatua alba",
+        "publisher": "Animal Diversity Web",
+        "url": "https://animaldiversity.org/accounts/Cacatua_alba/",
+        "note": "Consulté 2026-10-13"
       }
     ],
+    "iucn": {
+      "category": "En danger (EN)",
+      "sourceIds": [
+        "birdlife-cacatua-alba."
+      ],
+      "year": "2021"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "25–31 cm",
+        "sourceIds": [
+          "adw-cacatua-alba"
+        ]
+      },
+      "longevity": {
+        "value": "26,9 ans (sauvage, maximum cité)",
+        "sourceIds": [
+          "adw-cacatua-alba"
+        ]
+      }
+    },
     "imageCredit": "Kevin T — CC BY 2.0",
     "imageSourceId": "media-cacatua-alba-img",
     "image": "/images/birds/cacatua-alba.webp",
@@ -2006,7 +2196,8 @@ export const birds: Bird[] = [
         "text": "galerita = huppe **jaune**, Least Concern",
         "sourceIds": [
           "birdlife-cacatua-galerita",
-          "birdlife-au-sulphur-crested"
+          "birdlife-au-sulphur-crested",
+          "adw-cacatua-galerita"
         ]
       },
       {
@@ -2014,7 +2205,8 @@ export const birds: Bird[] = [
         "text": "LC ; Australie / PNG / Indonésie ; tendance en diminution (habitat)",
         "sourceIds": [
           "birdlife-cacatua-galerita",
-          "birdlife-au-sulphur-crested"
+          "birdlife-au-sulphur-crested",
+          "adw-cacatua-galerita"
         ]
       },
       {
@@ -2022,7 +2214,8 @@ export const birds: Bird[] = [
         "text": "Dimorphisme discret : iris ♀ rouge-brun vs ♂ plus foncé ; Grégaire ; baies, graines, noix ; sentinelles pendant l’alimentation",
         "sourceIds": [
           "birdlife-cacatua-galerita",
-          "birdlife-au-sulphur-crested"
+          "birdlife-au-sulphur-crested",
+          "adw-cacatua-galerita"
         ]
       }
     ],
@@ -2063,6 +2256,13 @@ export const birds: Bird[] = [
         "publisher": "AK / Xeno-canto",
         "url": "https://xeno-canto.org/1177819",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "adw-cacatua-galerita",
+        "title": "Cacatua galerita",
+        "publisher": "Animal Diversity Web",
+        "url": "https://animaldiversity.org/accounts/Cacatua_galerita/",
+        "note": "Consulté 2026-10-13"
       }
     ],
     "wildRange": {
@@ -2076,6 +2276,27 @@ export const birds: Bird[] = [
         "birdlife-cacatua-galerita",
         "birdlife-au-sulphur-crested"
       ]
+    },
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-cacatua-galerita"
+      ],
+      "year": "2018"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "50 cm",
+        "sourceIds": [
+          "adw-cacatua-galerita"
+        ]
+      },
+      "longevity": {
+        "value": "57 ans (sauvage, maximum cité)",
+        "sourceIds": [
+          "adw-cacatua-galerita"
+        ]
+      }
     },
     "imageCredit": "Charles J. Sharp — CC BY-SA 4.0",
     "imageSourceId": "media-cacatua-galerita-img",
@@ -2222,6 +2443,31 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
+    "wildRange": {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "hemisphere": "AM",
+      "summary": "Tendance en augmentation (BirdLife)",
+      "sourceIds": [
+        "birdlife-callipepla-californica"
+      ]
+    },
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-callipepla-californica"
+      ],
+      "year": "2021"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "25 cm",
+        "sourceIds": [
+          "adw-callipepla-californica"
+        ]
+      }
+    },
     "imageCredit": "Nick Myatt / ODFW — CC BY-SA 2.0",
     "imageSourceId": "media-callipepla-californica-img",
     "image": "/images/birds/callipepla-californica.webp",
@@ -2367,6 +2613,37 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
+    "wildRange": {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "hemisphere": "AM",
+      "summary": "Population en diminution (BirdLife)",
+      "sourceIds": [
+        "birdlife-colinus-virginianus"
+      ]
+    },
+    "iucn": {
+      "category": "Quasi menacé (NT)",
+      "sourceIds": [
+        "birdlife-colinus-virginianus"
+      ],
+      "year": "2016"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "20,3–24,7 cm",
+        "sourceIds": [
+          "adw-colinus-virginianus"
+        ]
+      },
+      "longevity": {
+        "value": "6 ans (sauvage, maximum cité)",
+        "sourceIds": [
+          "adw-colinus-virginianus"
+        ]
+      }
+    },
     "imageCredit": "DickDaniels — CC BY-SA 3.0",
     "imageSourceId": "media-colinus-virginianus-img",
     "image": "/images/birds/colinus-virginianus.webp",
@@ -2512,6 +2789,24 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
+    "wildRange": {
+      "regions": [
+        "Europe",
+        "Afrique",
+        "Asie (formes naturelles et férales)"
+      ],
+      "hemisphere": "multi",
+      "summary": "Tendance globale inconnue (BirdLife)",
+      "sourceIds": [
+        "birdlife-columba-livia"
+      ]
+    },
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-columba-livia"
+      ]
+    },
     "imageCredit": "Charles J. Sharp — CC BY-SA 4.0",
     "imageSourceId": "media-columba-livia-img",
     "image": "/images/birds/columba-livia.webp",
@@ -2667,6 +2962,33 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
+    "wildRange": {
+      "regions": [
+        "Asie du Sud-Est",
+        "Chine",
+        "Australie"
+      ],
+      "hemisphere": "multi",
+      "summary": "Aire très vaste (BirdLife)",
+      "sourceIds": [
+        "birdlife-synoicus-chinensis"
+      ]
+    },
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-synoicus-chinensis"
+      ],
+      "year": "2025"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "12,5–14 cm",
+        "sourceIds": [
+          "adw-coturnix-chinensis"
+        ]
+      }
+    },
     "imageCredit": "DickDaniels — CC BY-SA 3.0",
     "imageSourceId": "media-coturnix-chinensis-img",
     "image": "/images/birds/coturnix-chinensis.webp",
@@ -2809,6 +3131,13 @@ export const birds: Bird[] = [
       "sourceIds": [
         "birdlife-cyanoramphus-auriceps"
       ]
+    },
+    "iucn": {
+      "category": "Quasi menacé (NT)",
+      "sourceIds": [
+        "birdlife-cyanoramphus-auriceps."
+      ],
+      "year": "2022"
     },
     "imageCredit": "Alexeyevitch — domaine public",
     "imageSourceId": "media-cyanoramphus-auriceps-img",
@@ -2964,6 +3293,12 @@ export const birds: Bird[] = [
       "hemisphere": "AU",
       "sourceIds": [
         "birdlife-cyanoramphus-novaezelandiae"
+      ]
+    },
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-cyanoramphus-novaezelandiae."
       ]
     },
     "imageCredit": "Bernard Spragg. NZ — CC0",
@@ -3127,6 +3462,13 @@ export const birds: Bird[] = [
         "birdlife-au-galah"
       ]
     },
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-eolophus-roseicapilla"
+      ],
+      "year": "2018"
+    },
     "imageCredit": "Tatiana Gerus — CC BY 2.0",
     "imageSourceId": "media-eolophus-roseicapilla-img",
     "image": "/images/birds/eolophus-roseicapilla.webp",
@@ -3270,6 +3612,13 @@ export const birds: Bird[] = [
         "birdlife-chloebia-gouldiae"
       ]
     },
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-chloebia-gouldiae."
+      ],
+      "year": "2022"
+    },
     "imageCredit": "Kym Nicolson — CC BY 4.0",
     "imageSourceId": "media-erythrura-gouldiae-img",
     "image": "/images/birds/erythrura-gouldiae.webp",
@@ -3402,6 +3751,13 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 3.0"
       }
     ],
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-erythrura-psittacea."
+      ],
+      "year": "2018"
+    },
     "imageCredit": "JJ Harrison — CC BY-SA 3.0",
     "imageSourceId": "media-erythrura-psittacea-img",
     "image": "/images/birds/erythrura-psittacea.webp",
@@ -3544,6 +3900,13 @@ export const birds: Bird[] = [
       "sourceIds": [
         "birdlife-erythrura-trichroa"
       ]
+    },
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-erythrura-trichroa."
+      ],
+      "year": "2018"
     },
     "imageCredit": "Peter Halasz — CC BY-SA 2.5 / 3.0",
     "imageSourceId": "media-erythrura-trichroa-img",
@@ -3705,6 +4068,27 @@ export const birds: Bird[] = [
         "adw-estrilda-astrild"
       ]
     },
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-estrilda-astrild"
+      ],
+      "year": "2018"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "11,5 cm",
+        "sourceIds": [
+          "birdlife-estrilda-astrild"
+        ]
+      },
+      "longevity": {
+        "value": "4 ans (sauvage, maximum cité)",
+        "sourceIds": [
+          "adw-estrilda-astrild"
+        ]
+      }
+    },
     "imageCredit": "Derek Keats — CC BY 2.0",
     "imageSourceId": "media-estrilda-astrild-img",
     "image": "/images/birds/estrilda-astrild.webp",
@@ -3846,6 +4230,13 @@ export const birds: Bird[] = [
         "birdlife-glaucestrilda-coerulescens"
       ]
     },
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-glaucestrilda-coerulescens."
+      ],
+      "year": "2018"
+    },
     "imageCredit": "Charles J. Sharp — CC BY-SA 4.0",
     "imageSourceId": "media-estrilda-caerulescens-img",
     "image": "/images/birds/estrilda-caerulescens.webp",
@@ -3977,6 +4368,12 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-ND 4.0"
       }
     ],
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-estrilda-melpoda."
+      ]
+    },
     "imageCredit": "Pearly85 — CC BY 2.0",
     "imageSourceId": "media-estrilda-melpoda-img",
     "image": "/images/birds/estrilda-melpoda.webp",
@@ -4109,6 +4506,13 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-estrilda-troglodytes."
+      ],
+      "year": "2018"
+    },
     "imageCredit": "Francesco Veronesi — CC BY-SA 2.0",
     "imageSourceId": "media-estrilda-troglodytes-img",
     "image": "/images/birds/estrilda-troglodytes.webp",
@@ -4140,7 +4544,7 @@ export const birds: Bird[] = [
           "label": "Description"
         },
         {
-          "text": "*Non détaillé dans les sources consultées (BirdLife).*",
+          "text": "*Non détaillé dans les sources consultées pour ce sprint.*",
           "sourceIds": [],
           "label": "Dimorphisme"
         },
@@ -4241,6 +4645,13 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-euplectes-orix."
+      ],
+      "year": "2018"
+    },
     "imageCredit": "Bernard DUPONT — CC BY-SA 2.0",
     "imageSourceId": "media-euplectes-orix-img",
     "image": "/images/birds/euplectes-orix.webp",
@@ -4375,6 +4786,13 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-ND 4.0"
       }
     ],
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-forpus-coelestis."
+      ],
+      "year": "2024"
+    },
     "imageCredit": "Ruth Rogers — CC BY 2.0",
     "imageSourceId": "media-forpus-coelestis-img",
     "image": "/images/birds/forpus-coelestis.webp",
@@ -4522,6 +4940,23 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
+    "wildRange": {
+      "regions": [
+        "Asie (origine sauvage bankiva)"
+      ],
+      "hemisphere": "AS",
+      "summary": "Forme domestique mondiale ; origine = coq bankiva",
+      "sourceIds": [
+        "birdlife-gallus-gallus"
+      ]
+    },
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-gallus-gallus"
+      ],
+      "year": "2024"
+    },
     "imageCredit": "SimonWaldherr — CC BY 4.0",
     "imageSourceId": "media-gallus-domesticus-img",
     "image": "/images/birds/gallus-gallus-domesticus.webp",
@@ -4553,7 +4988,7 @@ export const birds: Bird[] = [
           "label": "Description"
         },
         {
-          "text": "*Non documenté dans BirdLife ni dans un compte-rendu ADW espèce (classification seule) — `na`.*",
+          "text": "*Non détaillé dans les sources consultées pour ce sprint.*",
           "sourceIds": [],
           "label": "Dimorphisme"
         },
@@ -4657,9 +5092,17 @@ export const birds: Bird[] = [
         "Australie"
       ],
       "hemisphere": "AU",
+      "summary": "Endémique nicheur ; statut migratoire : nomade",
       "sourceIds": [
         "birdlife-geopelia-cuneata"
       ]
+    },
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-geopelia-cuneata"
+      ],
+      "year": "2024"
     },
     "imageCredit": "Maurice van Bruggen — CC BY-SA 3.0",
     "imageSourceId": "media-geopelia-cuneata-img",
@@ -4692,7 +5135,7 @@ export const birds: Bird[] = [
           "label": "Description"
         },
         {
-          "text": "*Non documenté dans BirdLife / ADW consultés — `na`.*",
+          "text": "*Non détaillé dans les sources consultées pour ce sprint.*",
           "sourceIds": [],
           "label": "Dimorphisme"
         },
@@ -4791,6 +5234,23 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
+    "wildRange": {
+      "regions": [
+        "Asie du Sud-Est"
+      ],
+      "hemisphere": "AS",
+      "summary": "Non migratrice ; largement répandue",
+      "sourceIds": [
+        "birdlife-geopelia-striata"
+      ]
+    },
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-geopelia-striata"
+      ],
+      "year": "2025"
+    },
     "imageCredit": "Angah hfz — CC BY-SA 3.0",
     "imageSourceId": "media-geopelia-striata-img",
     "image": "/images/birds/geopelia-striata.webp",
@@ -4823,7 +5283,7 @@ export const birds: Bird[] = [
           "label": "Description"
         },
         {
-          "text": "*Non détaillé dans les sources consultées (BirdLife ; ADW).*",
+          "text": "*Non détaillé dans les sources consultées pour ce sprint.*",
           "sourceIds": [],
           "label": "Dimorphisme"
         },
@@ -4938,6 +5398,21 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-ND 4.0"
       }
     ],
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-gracula-religiosa"
+      ],
+      "year": "2024"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "27–30 cm",
+        "sourceIds": [
+          "birdlife-gracula-religiosa"
+        ]
+      }
+    },
     "imageCredit": "Spencer Wright — CC BY 2.0",
     "imageSourceId": "media-gracula-religiosa-img",
     "image": "/images/birds/gracula-religiosa.webp",
@@ -5076,6 +5551,13 @@ export const birds: Bird[] = [
         "birdlife-lagonosticta-vinacea"
       ]
     },
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-lagonosticta-vinacea."
+      ],
+      "year": "2024"
+    },
     "imageCredit": "Francesco Veronesi — CC BY-SA 2.0",
     "imageSourceId": "media-lagonosticta-larvata-vinacea-img",
     "image": "/images/birds/lagonosticta-larvata-vinacea.webp",
@@ -5207,6 +5689,12 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-lagonosticta-senegala."
+      ]
+    },
     "imageCredit": "Charles J. Sharp — CC BY-SA 4.0",
     "imageSourceId": "media-lagonosticta-senegala-img",
     "image": "/images/birds/lagonosticta-senegala.webp",
@@ -5339,6 +5827,13 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-euodice-cantans."
+      ],
+      "year": "2018"
+    },
     "imageCredit": "Edward Cwik — CC BY-SA 3.0",
     "imageSourceId": "media-lonchura-cantans-img",
     "image": "/images/birds/lonchura-cantans.webp",
@@ -5471,6 +5966,13 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-spermestes-cucullata."
+      ],
+      "year": "2024"
+    },
     "imageCredit": "Charles J. Sharp — CC BY-SA 4.0",
     "imageSourceId": "media-lonchura-cucullata-img",
     "image": "/images/birds/lonchura-cucullata.webp",
@@ -5603,6 +6105,13 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-lonchura-maja."
+      ],
+      "year": "2025"
+    },
     "imageCredit": "Michael MK Khor — CC BY 2.0",
     "imageSourceId": "media-lonchura-maja-img",
     "image": "/images/birds/lonchura-maja.webp",
@@ -5735,6 +6244,13 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-euodice-malabarica."
+      ],
+      "year": "2018"
+    },
     "imageCredit": "Anagha devi — CC BY-SA 4.0",
     "imageSourceId": "media-lonchura-malabarica-img",
     "image": "/images/birds/lonchura-malabarica.webp",
@@ -5867,6 +6383,13 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-lonchura-atricapilla."
+      ],
+      "year": "2024"
+    },
     "imageCredit": "Batin E. Tuwuilu — CC BY-SA 3.0",
     "imageSourceId": "media-lonchura-malacca-atricapilla-img",
     "image": "/images/birds/lonchura-malacca-atricapilla.webp",
@@ -5999,6 +6522,13 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-ND 4.0"
       }
     ],
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-lonchura-malacca."
+      ],
+      "year": "2018"
+    },
     "imageCredit": "Photosynthesis85 — CC BY-SA 4.0",
     "imageSourceId": "media-lonchura-malacca-malacca-img",
     "image": "/images/birds/lonchura-malacca-malacca.webp",
@@ -6131,6 +6661,13 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
+    "iucn": {
+      "category": "En danger (EN)",
+      "sourceIds": [
+        "birdlife-lonchura-oryzivora."
+      ],
+      "year": "2021"
+    },
     "imageCredit": "Quartl — CC BY-SA 3.0",
     "imageSourceId": "media-lonchura-oryzivora-img",
     "image": "/images/birds/lonchura-oryzivora.webp",
@@ -6260,6 +6797,13 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-lonchura-punctulata."
+      ],
+      "year": "2025"
+    },
     "imageCredit": "Satdeep Gill — CC BY-SA 4.0",
     "imageSourceId": "media-lonchura-punctulata-img",
     "image": "/images/birds/lonchura-punctulata.webp",
@@ -6291,7 +6835,7 @@ export const birds: Bird[] = [
           "label": "Description"
         },
         {
-          "text": "*na — sources consultées silencieuses pour le taxon sauvage ; forme domestique non détaillée.*",
+          "text": "*Non détaillé dans les sources consultées pour ce sprint.*",
           "sourceIds": [],
           "label": "Dimorphisme"
         },
@@ -6400,6 +6944,13 @@ export const birds: Bird[] = [
       "sourceIds": [
         "birdlife-lonchura-striata"
       ]
+    },
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-lonchura-striata"
+      ],
+      "year": "2024"
     },
     "imageCredit": "Anil Kumar — CC BY-SA 4.0",
     "imageSourceId": "media-lonchura-striata-domestiqua-img",
@@ -6533,6 +7084,13 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-ND 4.0"
       }
     ],
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-lonchura-striata."
+      ],
+      "year": "2024"
+    },
     "imageCredit": "Rison Thumboor — CC BY 2.0",
     "imageSourceId": "media-lonchura-striata-img",
     "image": "/images/birds/lonchura-striata.webp",
@@ -6688,6 +7246,21 @@ export const birds: Bird[] = [
         "birdlife-melopsittacus-undulatus",
         "adw-melopsittacus-undulatus"
       ]
+    },
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-melopsittacus-undulatus"
+      ],
+      "year": "2018"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "18–20 cm",
+        "sourceIds": [
+          "birdlife-melopsittacus-undulatus"
+        ]
+      }
     },
     "imageCredit": "Lip Kee — CC BY-SA 2.0",
     "imageSourceId": "media-melopsittacus-undulatus-img",
@@ -6846,6 +7419,21 @@ export const birds: Bird[] = [
         "adw-myiopsitta-monachus"
       ]
     },
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-myiopsitta-monachus"
+      ],
+      "year": "2018"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "28–33 cm",
+        "sourceIds": [
+          "birdlife-myiopsitta-monachus"
+        ]
+      }
+    },
     "imageCredit": "Juan Emilio — CC BY-SA 2.0",
     "imageSourceId": "media-myiopsitta-monachus-monachus-img",
     "image": "/images/birds/myiopsitta-monachus-monachus.webp",
@@ -6986,6 +7574,13 @@ export const birds: Bird[] = [
       "sourceIds": [
         "birdlife-neochmia-modesta"
       ]
+    },
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-neochmia-modesta."
+      ],
+      "year": "2024"
     },
     "imageCredit": "Greg Miles — CC BY-SA 2.0",
     "imageSourceId": "media-neochmia-modesta-img",
@@ -7128,6 +7723,13 @@ export const birds: Bird[] = [
         "birdlife-neochmia-ruficauda"
       ]
     },
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-neochmia-ruficauda."
+      ],
+      "year": "2018"
+    },
     "imageCredit": "HaraldW1954 — CC BY-SA 4.0",
     "imageSourceId": "media-neochmia-ruficauda-img",
     "image": "/images/birds/neochmia-ruficauda.webp",
@@ -7159,7 +7761,7 @@ export const birds: Bird[] = [
           "label": "Description"
         },
         {
-          "text": "*Non détaillé dans les sources consultées (BirdLife).*",
+          "text": "*Non détaillé dans les sources consultées pour ce sprint.*",
           "sourceIds": [],
           "label": "Dimorphisme"
         },
@@ -7266,6 +7868,13 @@ export const birds: Bird[] = [
         "birdlife-neophema-elegans"
       ]
     },
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-neophema-elegans."
+      ],
+      "year": "2024"
+    },
     "imageCredit": "Ron Knight — CC BY 2.0",
     "imageSourceId": "media-neophema-elegans-img",
     "image": "/images/birds/neophema-elegans.webp",
@@ -7297,7 +7906,7 @@ export const birds: Bird[] = [
           "label": "Description"
         },
         {
-          "text": "*Non détaillé dans les sources consultées (BirdLife).*",
+          "text": "*Non détaillé dans les sources consultées pour ce sprint.*",
           "sourceIds": [],
           "label": "Dimorphisme"
         },
@@ -7406,6 +8015,13 @@ export const birds: Bird[] = [
         "birdlife-neophema-pulchella"
       ]
     },
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-neophema-pulchella."
+      ],
+      "year": "2024"
+    },
     "imageCredit": "stephen jones — CC BY 2.0",
     "imageSourceId": "media-neophema-pulchella-img",
     "image": "/images/birds/neophema-pulchella.webp",
@@ -7437,7 +8053,7 @@ export const birds: Bird[] = [
           "label": "Description"
         },
         {
-          "text": "*Non détaillé dans les sources consultées (BirdLife).*",
+          "text": "*Non détaillé dans les sources consultées pour ce sprint.*",
           "sourceIds": [],
           "label": "Dimorphisme"
         },
@@ -7543,6 +8159,13 @@ export const birds: Bird[] = [
       "sourceIds": [
         "birdlife-neophema-splendida"
       ]
+    },
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-neophema-splendida."
+      ],
+      "year": "2024"
     },
     "imageCredit": "Ltshears — Domaine public",
     "imageSourceId": "media-neophema-splendida-img",
@@ -7699,6 +8322,21 @@ export const birds: Bird[] = [
         "birdlife-neopsephotus-bourkii",
         "adw-neopsephotus-bourkii"
       ]
+    },
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-neopsephotus-bourkii"
+      ],
+      "year": "2024"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "18–23 cm",
+        "sourceIds": [
+          "birdlife-neopsephotus-bourkii"
+        ]
+      }
     },
     "imageCredit": "Ljosa — Domaine public",
     "imageSourceId": "media-neopsephotus-bourkii-img",
@@ -7859,6 +8497,27 @@ export const birds: Bird[] = [
         "adw-nymphicus-hollandicus"
       ]
     },
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-nymphicus-hollandicus"
+      ],
+      "year": "2018"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "15 cm",
+        "sourceIds": [
+          "birdlife-nymphicus-hollandicus"
+        ]
+      },
+      "longevity": {
+        "value": "10–14 ans (captivité)",
+        "sourceIds": [
+          "adw-nymphicus-hollandicus"
+        ]
+      }
+    },
     "imageCredit": "Zefry — CC BY 2.0",
     "imageSourceId": "media-nymphicus-hollandicus-img",
     "image": "/images/birds/nymphicus-hollandicus.webp",
@@ -7890,7 +8549,7 @@ export const birds: Bird[] = [
           "label": "Description"
         },
         {
-          "text": "*Non documenté en détail sur la fiche BirdLife consultée — `na`.*",
+          "text": "*Non détaillé dans les sources consultées pour ce sprint.*",
           "sourceIds": [],
           "label": "Dimorphisme"
         },
@@ -7989,6 +8648,23 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
+    "wildRange": {
+      "regions": [
+        "Afrique"
+      ],
+      "hemisphere": "AF",
+      "summary": "Migrateur complet ; vaste EOO",
+      "sourceIds": [
+        "birdlife-oena-capensis"
+      ]
+    },
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-oena-capensis"
+      ],
+      "year": "2024"
+    },
     "imageCredit": "Neil Strickland — CC BY 2.0",
     "imageSourceId": "media-oena-capensis-img",
     "image": "/images/birds/oena-capensis.webp",
@@ -8020,7 +8696,7 @@ export const birds: Bird[] = [
           "label": "Description"
         },
         {
-          "text": "*Non détaillé dans les sources consultées (BirdLife).*",
+          "text": "*Non détaillé dans les sources consultées pour ce sprint.*",
           "sourceIds": [],
           "label": "Dimorphisme"
         },
@@ -8121,6 +8797,13 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-ND 4.0"
       }
     ],
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-passer-luteus."
+      ],
+      "year": "2018"
+    },
     "imageCredit": "Barry Stewart — CC BY 4.0",
     "imageSourceId": "media-passer-luteus-img",
     "image": "/images/birds/passer-luteus.webp",
@@ -8152,7 +8835,7 @@ export const birds: Bird[] = [
           "label": "Description"
         },
         {
-          "text": "*Non détaillé dans les sources consultées (BirdLife).*",
+          "text": "*Non détaillé dans les sources consultées pour ce sprint.*",
           "sourceIds": [],
           "label": "Dimorphisme"
         },
@@ -8259,6 +8942,13 @@ export const birds: Bird[] = [
         "birdlife-platycercus-adscitus"
       ]
     },
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-platycercus-adscitus."
+      ],
+      "year": "2024"
+    },
     "imageCredit": "JJ Harrison — CC BY-SA 4.0",
     "imageSourceId": "media-platycercus-adscitus-img",
     "image": "/images/birds/platycercus-adscitus.webp",
@@ -8290,7 +8980,7 @@ export const birds: Bird[] = [
           "label": "Description"
         },
         {
-          "text": "*Non détaillé dans les sources consultées (BirdLife).*",
+          "text": "*Non détaillé dans les sources consultées pour ce sprint.*",
           "sourceIds": [],
           "label": "Dimorphisme"
         },
@@ -8388,6 +9078,13 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-platycercus-elegans."
+      ],
+      "year": "2018"
+    },
     "imageCredit": "John Poulakis — CC BY 2.0",
     "imageSourceId": "media-platycercus-elegans-img",
     "image": "/images/birds/platycercus-elegans.webp",
@@ -8419,7 +9116,7 @@ export const birds: Bird[] = [
           "label": "Description"
         },
         {
-          "text": "*Non détaillé dans les sources consultées (BirdLife).*",
+          "text": "*Non détaillé dans les sources consultées pour ce sprint.*",
           "sourceIds": [],
           "label": "Dimorphisme"
         },
@@ -8527,6 +9224,13 @@ export const birds: Bird[] = [
         "birdlife-platycercus-eximius"
       ]
     },
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-platycercus-eximius."
+      ],
+      "year": "2024"
+    },
     "imageCredit": "Murdock Grewar — CC BY-SA 4.0",
     "imageSourceId": "media-platycercus-eximius-eximius-img",
     "image": "/images/birds/platycercus-eximius-eximius.webp",
@@ -8558,7 +9262,7 @@ export const birds: Bird[] = [
           "label": "Description"
         },
         {
-          "text": "*Non détaillé dans les sources consultées (BirdLife).*",
+          "text": "*Non détaillé dans les sources consultées pour ce sprint.*",
           "sourceIds": [],
           "label": "Dimorphisme"
         },
@@ -8665,6 +9369,13 @@ export const birds: Bird[] = [
         "birdlife-platycercus-icterotis"
       ]
     },
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-platycercus-icterotis."
+      ],
+      "year": "2024"
+    },
     "imageCredit": "Robert Young — CC BY 2.0",
     "imageSourceId": "media-platycercus-icterotis-img",
     "image": "/images/birds/platycercus-icterotis.webp",
@@ -8696,7 +9407,7 @@ export const birds: Bird[] = [
           "label": "Description"
         },
         {
-          "text": "*Non détaillé dans les sources consultées (BirdLife ; ADW stub).*",
+          "text": "*Non détaillé dans les sources consultées pour ce sprint.*",
           "sourceIds": [],
           "label": "Dimorphisme"
         },
@@ -8797,6 +9508,13 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-ploceus-cucullatus."
+      ],
+      "year": "2018"
+    },
     "imageCredit": "Charles J. Sharp — CC BY-SA 4.0",
     "imageSourceId": "media-ploceus-cucullatus-img",
     "image": "/images/birds/ploceus-cucullatus.webp",
@@ -8937,6 +9655,13 @@ export const birds: Bird[] = [
       "sourceIds": [
         "birdlife-poephila-acuticauda"
       ]
+    },
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-poephila-acuticauda."
+      ],
+      "year": "2024"
     },
     "imageCredit": "Lip Kee Yap — CC BY-SA 2.0",
     "imageSourceId": "media-poephila-acuticauda-img",
@@ -9094,6 +9819,21 @@ export const birds: Bird[] = [
         "adw-poicephalus-senegalus"
       ]
     },
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-poicephalus-senegalus"
+      ],
+      "year": "2019"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "20–25 cm",
+        "sourceIds": [
+          "birdlife-poicephalus-senegalus"
+        ]
+      }
+    },
     "imageCredit": "ThomHasi / Thomas J. Haslam — CC BY 2.5",
     "imageSourceId": "media-poicephalus-senegalus-img",
     "image": "/images/birds/poicephalus-senegalus.webp",
@@ -9125,7 +9865,7 @@ export const birds: Bird[] = [
           "label": "Description"
         },
         {
-          "text": "*Non détaillé dans les sources consultées (BirdLife).*",
+          "text": "*Non détaillé dans les sources consultées pour ce sprint.*",
           "sourceIds": [],
           "label": "Dimorphisme"
         },
@@ -9176,21 +9916,24 @@ export const birds: Bird[] = [
         "level": "sourcé",
         "text": "princesse = **Near Threatened**, désert",
         "sourceIds": [
-          "birdlife-polytelis-alexandrae"
+          "birdlife-polytelis-alexandrae",
+          "adw-polytelis-alexandrae"
         ]
       },
       {
         "level": "sourcé",
         "text": "NT (D1) ; 900–10 000 adultes ; population parfois < 1 000",
         "sourceIds": [
-          "birdlife-polytelis-alexandrae"
+          "birdlife-polytelis-alexandrae",
+          "adw-polytelis-alexandrae"
         ]
       },
       {
         "level": "sourcé",
         "text": "Nomade / irruptive ; déserts arides australiens ; Régime : graines, fleurs, fruits, feuillage ; nid en cavités",
         "sourceIds": [
-          "birdlife-polytelis-alexandrae"
+          "birdlife-polytelis-alexandrae",
+          "adw-polytelis-alexandrae"
         ]
       }
     ],
@@ -9223,6 +9966,13 @@ export const birds: Bird[] = [
         "publisher": "Mark Carter / Xeno-canto",
         "url": "https://xeno-canto.org/488068",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "adw-polytelis-alexandrae",
+        "title": "Polytelis alexandrae",
+        "publisher": "Animal Diversity Web",
+        "url": "https://animaldiversity.org/accounts/Polytelis_alexandrae/",
+        "note": "Consulté 2026-10-13"
       }
     ],
     "wildRange": {
@@ -9233,6 +9983,21 @@ export const birds: Bird[] = [
       "sourceIds": [
         "birdlife-polytelis-alexandrae"
       ]
+    },
+    "iucn": {
+      "category": "Quasi menacé (NT)",
+      "sourceIds": [
+        "birdlife-polytelis-alexandrae."
+      ],
+      "year": "2022"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "45,72 cm",
+        "sourceIds": [
+          "adw-polytelis-alexandrae"
+        ]
+      }
     },
     "imageCredit": "PG Palmer — CC BY 2.0",
     "imageSourceId": "media-polytelis-alexandrae-img",
@@ -9265,7 +10030,7 @@ export const birds: Bird[] = [
           "label": "Description"
         },
         {
-          "text": "*Non détaillé dans les sources consultées (BirdLife).*",
+          "text": "*Non détaillé dans les sources consultées pour ce sprint.*",
           "sourceIds": [],
           "label": "Dimorphisme"
         },
@@ -9372,6 +10137,13 @@ export const birds: Bird[] = [
         "birdlife-polytelis-anthopeplus"
       ]
     },
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-polytelis-anthopeplus."
+      ],
+      "year": "2024"
+    },
     "imageCredit": "David Cook Wildlife Photography — CC BY 2.0",
     "imageSourceId": "media-polytelis-anthopeplus-img",
     "image": "/images/birds/polytelis-anthopeplus.webp",
@@ -9403,7 +10175,7 @@ export const birds: Bird[] = [
           "label": "Description"
         },
         {
-          "text": "*Non détaillé dans les sources consultées (BirdLife ; ADW stub).*",
+          "text": "*Non détaillé dans les sources consultées pour ce sprint.*",
           "sourceIds": [],
           "label": "Dimorphisme"
         },
@@ -9513,6 +10285,13 @@ export const birds: Bird[] = [
         "birdlife-psephotus-haematonotus"
       ]
     },
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-psephotus-haematonotus."
+      ],
+      "year": "2024"
+    },
     "imageCredit": "Toby Hudson — CC BY-SA 3.0",
     "imageSourceId": "media-psephotus-haematonotus-img",
     "image": "/images/birds/psephotus-haematonotus-haematonotus.webp",
@@ -9544,7 +10323,7 @@ export const birds: Bird[] = [
           "label": "Description"
         },
         {
-          "text": "*Non détaillé dans les sources consultées (BirdLife).*",
+          "text": "*Non détaillé dans les sources consultées pour ce sprint.*",
           "sourceIds": [],
           "label": "Dimorphisme"
         },
@@ -9654,6 +10433,13 @@ export const birds: Bird[] = [
         "birdlife-himalayapsitta-cyanocephala"
       ]
     },
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-himalayapsitta-cyanocephala."
+      ],
+      "year": "2024"
+    },
     "imageCredit": "J.M.Garg — CC BY-SA 4.0",
     "imageSourceId": "media-psittacula-cyanocephala-img",
     "image": "/images/birds/psittacula-cyanocephala.webp",
@@ -9685,7 +10471,7 @@ export const birds: Bird[] = [
           "label": "Description"
         },
         {
-          "text": "*Non détaillé dans les sources consultées (BirdLife).*",
+          "text": "*Non détaillé dans les sources consultées pour ce sprint.*",
           "sourceIds": [],
           "label": "Dimorphisme"
         },
@@ -9796,6 +10582,13 @@ export const birds: Bird[] = [
       "sourceIds": [
         "birdlife-palaeornis-eupatria"
       ]
+    },
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-palaeornis-eupatria."
+      ],
+      "year": "2025"
     },
     "imageCredit": "Hari K Patibanda — CC BY 2.0",
     "imageSourceId": "media-psittacula-eupatria-img",
@@ -9947,6 +10740,21 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-alexandrinus-krameri"
+      ],
+      "year": "2024"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "38–42 cm",
+        "sourceIds": [
+          "adw-psittacula-krameri"
+        ]
+      }
+    },
     "imageCredit": "Bernard Spragg. NZ — CC0",
     "imageSourceId": "media-psittacula-krameri-img",
     "image": "/images/birds/psittacula-krameri-manillensis.webp",
@@ -10098,6 +10906,27 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
+    "iucn": {
+      "category": "En danger (EN)",
+      "sourceIds": [
+        "birdlife-psittacus-erithacus"
+      ],
+      "year": "2021"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "33 cm",
+        "sourceIds": [
+          "birdlife-psittacus-erithacus"
+        ]
+      },
+      "longevity": {
+        "value": "22,7 ans (sauvage, maximum cité) ; 40–60 ans (captivité)",
+        "sourceIds": [
+          "adw-psittacus-erithacus"
+        ]
+      }
+    },
     "imageCredit": "Nasimahmed01 — CC BY-SA 4.0",
     "imageSourceId": "media-psittacus-erithacus-img",
     "image": "/images/birds/psittacus-erithacus.webp",
@@ -10258,6 +11087,27 @@ export const birds: Bird[] = [
         "adw-pyrrhura-molinae"
       ]
     },
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-pyrrhura-molinae"
+      ],
+      "year": "2018"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "26 cm",
+        "sourceIds": [
+          "birdlife-pyrrhura-molinae"
+        ]
+      },
+      "longevity": {
+        "value": "25–30 ans (captivité)",
+        "sourceIds": [
+          "adw-pyrrhura-molinae"
+        ]
+      }
+    },
     "imageCredit": "Dan Muntz — CC BY-SA 2.0",
     "imageSourceId": "media-pyrrhura-molinae-img",
     "image": "/images/birds/pyrrhura-molinae.webp",
@@ -10390,6 +11240,13 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-serinus-canaria."
+      ],
+      "year": "2018"
+    },
     "imageCredit": "Eduardo Martínez — CC BY 2.0",
     "imageSourceId": "media-serinus-canaria-img",
     "image": "/images/birds/serinus-canaria.webp",
@@ -10522,6 +11379,13 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-serinus-leucopygius."
+      ],
+      "year": "2024"
+    },
     "imageCredit": "Francesco Veronesi — CC BY-SA 2.0",
     "imageSourceId": "media-serinus-leucopygius-img",
     "image": "/images/birds/serinus-leucopygius.webp",
@@ -10604,21 +11468,24 @@ export const birds: Bird[] = [
         "level": "sourcé",
         "text": "BirdLife *Crithagra mozambica*",
         "sourceIds": [
-          "birdlife-serinus-mozambicus"
+          "birdlife-serinus-mozambicus",
+          "adw-serinus-mozambicus"
         ]
       },
       {
         "level": "sourcé",
         "text": "Least Concern ; tendance en **diminution** (liée au commerce)",
         "sourceIds": [
-          "birdlife-serinus-mozambicus"
+          "birdlife-serinus-mozambicus",
+          "adw-serinus-mozambicus"
         ]
       },
       {
         "level": "sourcé",
         "text": "> 2,6 M oiseaux sauvages déclarés au commerce depuis 1985 (CITES *via* BirdLife) ; Non migrateur ; savane sèche, prairies, jardins, cultures",
         "sourceIds": [
-          "birdlife-serinus-mozambicus"
+          "birdlife-serinus-mozambicus",
+          "adw-serinus-mozambicus"
         ]
       }
     ],
@@ -10652,8 +11519,36 @@ export const birds: Bird[] = [
         "publisher": "Marna Buys / Xeno-canto",
         "url": "https://xeno-canto.org/1140446",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "adw-serinus-mozambicus",
+        "title": "Serinus mozambicus",
+        "publisher": "Animal Diversity Web",
+        "url": "https://animaldiversity.org/accounts/Serinus_mozambicus/",
+        "note": "Consulté 2026-10-13"
       }
     ],
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-serinus-mozambicus."
+      ],
+      "year": "2018"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "11–13 cm",
+        "sourceIds": [
+          "adw-serinus-mozambicus"
+        ]
+      },
+      "longevity": {
+        "value": "8,5 ans (sauvage, maximum cité) ; 4–15 ans (captivité)",
+        "sourceIds": [
+          "adw-serinus-mozambicus"
+        ]
+      }
+    },
     "imageCredit": "Charles J. Sharp — CC BY-SA 4.0",
     "imageSourceId": "media-serinus-mozambicus-img",
     "image": "/images/birds/serinus-mozambicus.webp",
@@ -10736,21 +11631,24 @@ export const birds: Bird[] = [
         "level": "sourcé",
         "text": "**Vulnerable**, ne pas confondre avec *Neochmia* LC",
         "sourceIds": [
-          "birdlife-stagonopleura-guttata"
+          "birdlife-stagonopleura-guttata",
+          "adw-stagonopleura-guttata"
         ]
       },
       {
         "level": "sourcé",
         "text": "VU ; 68 000–272 000 matures ; tendance en diminution",
         "sourceIds": [
-          "birdlife-stagonopleura-guttata"
+          "birdlife-stagonopleura-guttata",
+          "adw-stagonopleura-guttata"
         ]
       },
       {
         "level": "sourcé",
         "text": "Endémique Australie ; prairies et savanes sèches (majeur) ; Déclins liés au défrichement / dégradation d’habitats",
         "sourceIds": [
-          "birdlife-stagonopleura-guttata"
+          "birdlife-stagonopleura-guttata",
+          "adw-stagonopleura-guttata"
         ]
       }
     ],
@@ -10784,6 +11682,13 @@ export const birds: Bird[] = [
         "publisher": "Marc Anderson / Xeno-canto",
         "url": "https://xeno-canto.org/576505",
         "note": "CC BY-NC-ND 4.0"
+      },
+      {
+        "id": "adw-stagonopleura-guttata",
+        "title": "Stagonopleura guttata",
+        "publisher": "Animal Diversity Web",
+        "url": "https://animaldiversity.org/accounts/Stagonopleura_guttata/",
+        "note": "Consulté 2026-10-13"
       }
     ],
     "wildRange": {
@@ -10794,6 +11699,27 @@ export const birds: Bird[] = [
       "sourceIds": [
         "birdlife-stagonopleura-guttata"
       ]
+    },
+    "iucn": {
+      "category": "Vulnérable (VU)",
+      "sourceIds": [
+        "birdlife-stagonopleura-guttata."
+      ],
+      "year": "2022"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "12 cm",
+        "sourceIds": [
+          "adw-stagonopleura-guttata"
+        ]
+      },
+      "longevity": {
+        "value": "5–7 ans (captivité)",
+        "sourceIds": [
+          "adw-stagonopleura-guttata"
+        ]
+      }
     },
     "imageCredit": "JJ Harrison — CC BY-SA 4.0",
     "imageSourceId": "media-stagonopleura-guttata-img",
@@ -10941,6 +11867,23 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0 ; taxon sauvage"
       }
     ],
+    "wildRange": {
+      "regions": [
+        "Afrique (origine sauvage)"
+      ],
+      "hemisphere": "AF",
+      "summary": "Forme domestique ; répartition sauvage = roseogrisea",
+      "sourceIds": [
+        "birdlife-streptopelia-roseogrisea"
+      ]
+    },
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-streptopelia-roseogrisea"
+      ],
+      "year": "2018"
+    },
     "imageCredit": "Dick Daniels — CC BY-SA 3.0",
     "imageSourceId": "media-streptopelia-risoria-img",
     "image": "/images/birds/streptopelia-risoria.webp",
@@ -10972,7 +11915,7 @@ export const birds: Bird[] = [
           "label": "Description"
         },
         {
-          "text": "*Non documenté dans BirdLife / ADW consultés — `na`.*",
+          "text": "*Non détaillé dans les sources consultées pour ce sprint.*",
           "sourceIds": [],
           "label": "Dimorphisme"
         },
@@ -11074,6 +12017,24 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
+    "wildRange": {
+      "regions": [
+        "Afrique",
+        "Asie"
+      ],
+      "hemisphere": "multi",
+      "summary": "Très vaste EOO (BirdLife)",
+      "sourceIds": [
+        "birdlife-spilopelia-senegalensis"
+      ]
+    },
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-spilopelia-senegalensis"
+      ],
+      "year": "2018"
+    },
     "imageCredit": "Zeynel Cebeci — CC BY-SA 4.0",
     "imageSourceId": "media-streptopelia-senegalensis-img",
     "image": "/images/birds/streptopelia-senegalensis.webp",
@@ -11215,6 +12176,13 @@ export const birds: Bird[] = [
         "birdlife-taeniopygia-bichenovii"
       ]
     },
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-taeniopygia-bichenovii."
+      ],
+      "year": "2024"
+    },
     "imageCredit": "JJ Harrison — CC BY-SA 4.0",
     "imageSourceId": "media-taeniopygia-bichenovii-img",
     "image": "/images/birds/taeniopygia-bichenovii.webp",
@@ -11290,28 +12258,32 @@ export const birds: Bird[] = [
         "level": "sourcé",
         "text": "BirdLife : *T. castanotis* (espèce) ≠ *T. guttata* (Timor) ; confusion Bichenow",
         "sourceIds": [
-          "birdlife-taeniopygia-castanotis"
+          "birdlife-taeniopygia-castanotis",
+          "adw-taeniopygia-guttata-castanotis"
         ]
       },
       {
         "level": "sourcé",
         "text": "Least Concern ; vaste Australie continentale ; tendance stable",
         "sourceIds": [
-          "birdlife-taeniopygia-castanotis"
+          "birdlife-taeniopygia-castanotis",
+          "adw-taeniopygia-guttata-castanotis"
         ]
       },
       {
         "level": "sourcé",
         "text": "Non migrateur ; cultures, urbain, savanes/fourrés secs",
         "sourceIds": [
-          "birdlife-taeniopygia-castanotis"
+          "birdlife-taeniopygia-castanotis",
+          "adw-taeniopygia-guttata-castanotis"
         ]
       },
       {
         "level": "sourcé",
         "text": "Très courant en animalerie ; commerce sauvage à faible prévalence",
         "sourceIds": [
-          "birdlife-taeniopygia-castanotis"
+          "birdlife-taeniopygia-castanotis",
+          "adw-taeniopygia-guttata-castanotis"
         ]
       }
     ],
@@ -11345,6 +12317,13 @@ export const birds: Bird[] = [
         "publisher": "Frank Lambert / Xeno-canto",
         "url": "https://xeno-canto.org/407796",
         "note": "CC BY-NC-ND 4.0"
+      },
+      {
+        "id": "adw-taeniopygia-guttata-castanotis",
+        "title": "Taeniopygia guttata",
+        "publisher": "Animal Diversity Web",
+        "url": "https://animaldiversity.org/accounts/Taeniopygia_guttata/",
+        "note": "Consulté 2026-10-13"
       }
     ],
     "wildRange": {
@@ -11355,6 +12334,27 @@ export const birds: Bird[] = [
       "sourceIds": [
         "birdlife-taeniopygia-castanotis"
       ]
+    },
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-taeniopygia-castanotis."
+      ],
+      "year": "2024"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "10–11 cm",
+        "sourceIds": [
+          "adw-taeniopygia-guttata-castanotis"
+        ]
+      },
+      "longevity": {
+        "value": "4,5 ans (sauvage, maximum cité) ; 5–7 ans (captivité)",
+        "sourceIds": [
+          "adw-taeniopygia-guttata-castanotis"
+        ]
+      }
     },
     "imageCredit": "JJ Harrison — CC BY-SA 3.0",
     "imageSourceId": "media-taeniopygia-guttata-castanotis-img",
@@ -11485,6 +12485,13 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-uraeginthus-bengalus."
+      ],
+      "year": "2018"
+    },
     "imageCredit": "Charles J. Sharp — CC BY-SA 4.0",
     "imageSourceId": "media-uraeginthus-bengalus-img",
     "image": "/images/birds/uraeginthus-bengalus.webp",
@@ -11617,6 +12624,13 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-uraeginthus-cyanocephalus."
+      ],
+      "year": "2018"
+    },
     "imageCredit": "D. Gordon E. Robertson — CC BY-SA 3.0",
     "imageSourceId": "media-uraeginthus-cyanocephalus-img",
     "image": "/images/birds/uraeginthus-cyanocephalus.webp",
@@ -11749,6 +12763,13 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-vidua-chalybeata."
+      ],
+      "year": "2018"
+    },
     "imageCredit": "Charles J. Sharp — CC BY-SA 4.0",
     "imageSourceId": "media-vidua-chalybeata-img",
     "image": "/images/birds/vidua-chalybeata.webp",
@@ -11881,6 +12902,13 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-vidua-macroura."
+      ],
+      "year": "2018"
+    },
     "imageCredit": "Charles J. Sharp — CC BY-SA 4.0",
     "imageSourceId": "media-vidua-macroura-img",
     "image": "/images/birds/vidua-macroura.webp",
@@ -12013,6 +13041,13 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-vidua-orientalis."
+      ],
+      "year": "2024"
+    },
     "imageCredit": "Pobpob11 — CC BY-SA 4.0",
     "imageSourceId": "media-vidua-orientalis-img",
     "image": "/images/birds/vidua-orientalis.webp",
