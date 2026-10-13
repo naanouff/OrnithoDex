@@ -1318,31 +1318,31 @@ body {
   background: #d7f1fa;
 }
 
-.sheet__range-maps {
-  display: flex;
-  justify-content: center;
-  gap: 8px;
-}
-
 .sheet__range-svg {
-  width: min(100%, 200px);
+  width: 100%;
   height: auto;
   display: block;
-  flex: 1 1 140px;
-  max-width: 220px;
+  border-radius: 8px;
 }
 
 .sheet__range-ocean {
-  fill: #e8f7fc;
+  fill: #d7f1fa;
   stroke: var(--navy);
-  stroke-width: 4;
+  stroke-width: 1.2;
+}
+
+.sheet__range-grid {
+  stroke: var(--navy);
+  stroke-width: 0.35;
+  stroke-dasharray: 2 2;
+  opacity: 0.35;
 }
 
 .sheet__range-land {
   fill: #8ea0b8;
-  fill-opacity: 0.45;
+  fill-opacity: 0.55;
   stroke: var(--navy);
-  stroke-width: 2;
+  stroke-width: 0.35;
   stroke-linejoin: round;
 }
 
