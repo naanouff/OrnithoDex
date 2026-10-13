@@ -71,6 +71,7 @@ Chronique courte des sessions de travail : décisions, avancement, blocages.
 | 2026-10-11 | [2026-10-11-2.md](2026-10-11-2.md) — Densité Collection → localStorage |
 | 2026-10-13 | [2026-10-13.md](2026-10-13.md) — Fix « En savoir plus » (swipe vs details) |
 | 2026-10-13 | [2026-10-13-2.md](2026-10-13-2.md) — Audit template scolaire + sprint alignement |
+| 2026-10-13 | [2026-10-13-3.md](2026-10-13-3.md) — Exécution sprint alignement template scolaire |
 | 2026-10-11 | [2026-10-11-3.md](2026-10-11-3.md) — Analyse pédagogique 0.2.0 + sprint remédiation |
 | 2026-10-11 | [2026-10-11-4.md](2026-10-11-4.md) — Exécution sprint remédiation 0.3 |
 | 2026-10-11 | [2026-10-11-5.md](2026-10-11-5.md) — Plan + sprint UI/UX ergonomie |

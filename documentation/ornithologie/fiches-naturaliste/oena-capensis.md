@@ -2,7 +2,7 @@
 
 - **Slug** : `oena-capensis`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -18,14 +18,41 @@
 Évaluée **Least Concern** (2024). **Migrateur complet**. EOO ≈ 40 800 000 km² ; population non quantifiée, commune à abondante ; tendance suspectée **en augmentation**.  
 *Source : birdlife-oena-capensis.*
 
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Préoccupation mineure (LC) | birdlife-oena-capensis |
+| Année évaluation | 2024 | birdlife-oena-capensis |
+
+
+## Mensurations
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Taille adulte | na | |
+| Longévité | na | |
+
+
 ## Dimorphisme sexuel
 
-*Non documenté en détail sur la fiche BirdLife consultée — `na`.*
+*Non détaillé dans les sources consultées pour ce sprint.*  
+*Sources : na.*
+
 
 ## Habitat d’origine
 
 Savane sèche, prairies tempérées et sèches, fourrés secs, terres cultivées et jardins (suitable).  
 *Source : birdlife-oena-capensis.*
+
+## Répartition sauvage
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Régions / pays | Afrique | birdlife-oena-capensis |
+| Hémisphère / realm | AF | birdlife-oena-capensis |
+| Note | Migrateur complet ; vaste EOO | birdlife-oena-capensis |
+
 
 ## Régime alimentaire
 

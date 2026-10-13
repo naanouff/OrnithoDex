@@ -902,17 +902,20 @@ export const birds: Bird[] = [
     ],
     "wildRange": {
       "regions": [
-        "Chine",
-        "Asie",
-        "Asie de l’Est",
-        "Japon",
-        "Europe"
+        "Asie de l’Est"
       ],
-      "hemisphere": "multi",
+      "hemisphere": "AS",
+      "summary": "Migrateur ; aires natives Asie de l’Est",
       "sourceIds": [
-        "birdlife-aix-galericulata",
-        "adw-aix-galericulata"
+        "birdlife-aix-galericulata"
       ]
+    },
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-aix-galericulata"
+      ],
+      "year": "2018"
     },
     "imageCredit": "Alexis Lours — CC BY 4.0",
     "imageSourceId": "media-aix-galericulata-img",
@@ -1059,6 +1062,23 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
+    "wildRange": {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "hemisphere": "AM",
+      "summary": "Migrateur complet",
+      "sourceIds": [
+        "birdlife-aix-sponsa"
+      ]
+    },
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-aix-sponsa"
+      ],
+      "year": "2021"
+    },
     "imageCredit": "Dick Daniels — CC BY-SA 3.0",
     "imageSourceId": "media-aix-sponsa-img",
     "image": "/images/birds/aix-sponsa.webp",
@@ -1090,7 +1110,7 @@ export const birds: Bird[] = [
           "label": "Description"
         },
         {
-          "text": "*Non détaillé dans les sources consultées (BirdLife).*",
+          "text": "*Non détaillé dans les sources consultées pour ce sprint.*",
           "sourceIds": [],
           "label": "Dimorphisme"
         },
@@ -2222,6 +2242,23 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
+    "wildRange": {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "hemisphere": "AM",
+      "summary": "Tendance en augmentation (BirdLife)",
+      "sourceIds": [
+        "birdlife-callipepla-californica"
+      ]
+    },
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-callipepla-californica"
+      ],
+      "year": "2021"
+    },
     "imageCredit": "Nick Myatt / ODFW — CC BY-SA 2.0",
     "imageSourceId": "media-callipepla-californica-img",
     "image": "/images/birds/callipepla-californica.webp",
@@ -2367,6 +2404,23 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
+    "wildRange": {
+      "regions": [
+        "Amérique du Nord"
+      ],
+      "hemisphere": "AM",
+      "summary": "Population en diminution (BirdLife)",
+      "sourceIds": [
+        "birdlife-colinus-virginianus"
+      ]
+    },
+    "iucn": {
+      "category": "Quasi menacé (NT)",
+      "sourceIds": [
+        "birdlife-colinus-virginianus"
+      ],
+      "year": "2016"
+    },
     "imageCredit": "DickDaniels — CC BY-SA 3.0",
     "imageSourceId": "media-colinus-virginianus-img",
     "image": "/images/birds/colinus-virginianus.webp",
@@ -2512,6 +2566,24 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
+    "wildRange": {
+      "regions": [
+        "Europe",
+        "Afrique",
+        "Asie (formes naturelles et férales)"
+      ],
+      "hemisphere": "multi",
+      "summary": "Tendance globale inconnue (BirdLife)",
+      "sourceIds": [
+        "birdlife-columba-livia"
+      ]
+    },
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-columba-livia"
+      ]
+    },
     "imageCredit": "Charles J. Sharp — CC BY-SA 4.0",
     "imageSourceId": "media-columba-livia-img",
     "image": "/images/birds/columba-livia.webp",
@@ -2667,6 +2739,25 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
+    "wildRange": {
+      "regions": [
+        "Asie du Sud-Est",
+        "Chine",
+        "Australie"
+      ],
+      "hemisphere": "multi",
+      "summary": "Aire très vaste (BirdLife)",
+      "sourceIds": [
+        "birdlife-synoicus-chinensis"
+      ]
+    },
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-synoicus-chinensis"
+      ],
+      "year": "2025"
+    },
     "imageCredit": "DickDaniels — CC BY-SA 3.0",
     "imageSourceId": "media-coturnix-chinensis-img",
     "image": "/images/birds/coturnix-chinensis.webp",
@@ -4140,7 +4231,7 @@ export const birds: Bird[] = [
           "label": "Description"
         },
         {
-          "text": "*Non détaillé dans les sources consultées (BirdLife).*",
+          "text": "*Non détaillé dans les sources consultées pour ce sprint.*",
           "sourceIds": [],
           "label": "Dimorphisme"
         },
@@ -4522,6 +4613,23 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
+    "wildRange": {
+      "regions": [
+        "Asie (origine sauvage bankiva)"
+      ],
+      "hemisphere": "AS",
+      "summary": "Forme domestique mondiale ; origine = coq bankiva",
+      "sourceIds": [
+        "birdlife-gallus-gallus"
+      ]
+    },
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-gallus-gallus"
+      ],
+      "year": "2024"
+    },
     "imageCredit": "SimonWaldherr — CC BY 4.0",
     "imageSourceId": "media-gallus-domesticus-img",
     "image": "/images/birds/gallus-gallus-domesticus.webp",
@@ -4553,7 +4661,7 @@ export const birds: Bird[] = [
           "label": "Description"
         },
         {
-          "text": "*Non documenté dans BirdLife ni dans un compte-rendu ADW espèce (classification seule) — `na`.*",
+          "text": "*Non détaillé dans les sources consultées pour ce sprint.*",
           "sourceIds": [],
           "label": "Dimorphisme"
         },
@@ -4657,9 +4765,17 @@ export const birds: Bird[] = [
         "Australie"
       ],
       "hemisphere": "AU",
+      "summary": "Endémique nicheur ; statut migratoire : nomade",
       "sourceIds": [
         "birdlife-geopelia-cuneata"
       ]
+    },
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-geopelia-cuneata"
+      ],
+      "year": "2024"
     },
     "imageCredit": "Maurice van Bruggen — CC BY-SA 3.0",
     "imageSourceId": "media-geopelia-cuneata-img",
@@ -4692,7 +4808,7 @@ export const birds: Bird[] = [
           "label": "Description"
         },
         {
-          "text": "*Non documenté dans BirdLife / ADW consultés — `na`.*",
+          "text": "*Non détaillé dans les sources consultées pour ce sprint.*",
           "sourceIds": [],
           "label": "Dimorphisme"
         },
@@ -4791,6 +4907,23 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
+    "wildRange": {
+      "regions": [
+        "Asie du Sud-Est"
+      ],
+      "hemisphere": "AS",
+      "summary": "Non migratrice ; largement répandue",
+      "sourceIds": [
+        "birdlife-geopelia-striata"
+      ]
+    },
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-geopelia-striata"
+      ],
+      "year": "2025"
+    },
     "imageCredit": "Angah hfz — CC BY-SA 3.0",
     "imageSourceId": "media-geopelia-striata-img",
     "image": "/images/birds/geopelia-striata.webp",
@@ -4823,7 +4956,7 @@ export const birds: Bird[] = [
           "label": "Description"
         },
         {
-          "text": "*Non détaillé dans les sources consultées (BirdLife ; ADW).*",
+          "text": "*Non détaillé dans les sources consultées pour ce sprint.*",
           "sourceIds": [],
           "label": "Dimorphisme"
         },
@@ -6291,7 +6424,7 @@ export const birds: Bird[] = [
           "label": "Description"
         },
         {
-          "text": "*na — sources consultées silencieuses pour le taxon sauvage ; forme domestique non détaillée.*",
+          "text": "*Non détaillé dans les sources consultées pour ce sprint.*",
           "sourceIds": [],
           "label": "Dimorphisme"
         },
@@ -7159,7 +7292,7 @@ export const birds: Bird[] = [
           "label": "Description"
         },
         {
-          "text": "*Non détaillé dans les sources consultées (BirdLife).*",
+          "text": "*Non détaillé dans les sources consultées pour ce sprint.*",
           "sourceIds": [],
           "label": "Dimorphisme"
         },
@@ -7297,7 +7430,7 @@ export const birds: Bird[] = [
           "label": "Description"
         },
         {
-          "text": "*Non détaillé dans les sources consultées (BirdLife).*",
+          "text": "*Non détaillé dans les sources consultées pour ce sprint.*",
           "sourceIds": [],
           "label": "Dimorphisme"
         },
@@ -7437,7 +7570,7 @@ export const birds: Bird[] = [
           "label": "Description"
         },
         {
-          "text": "*Non détaillé dans les sources consultées (BirdLife).*",
+          "text": "*Non détaillé dans les sources consultées pour ce sprint.*",
           "sourceIds": [],
           "label": "Dimorphisme"
         },
@@ -7890,7 +8023,7 @@ export const birds: Bird[] = [
           "label": "Description"
         },
         {
-          "text": "*Non documenté en détail sur la fiche BirdLife consultée — `na`.*",
+          "text": "*Non détaillé dans les sources consultées pour ce sprint.*",
           "sourceIds": [],
           "label": "Dimorphisme"
         },
@@ -7989,6 +8122,23 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
+    "wildRange": {
+      "regions": [
+        "Afrique"
+      ],
+      "hemisphere": "AF",
+      "summary": "Migrateur complet ; vaste EOO",
+      "sourceIds": [
+        "birdlife-oena-capensis"
+      ]
+    },
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-oena-capensis"
+      ],
+      "year": "2024"
+    },
     "imageCredit": "Neil Strickland — CC BY 2.0",
     "imageSourceId": "media-oena-capensis-img",
     "image": "/images/birds/oena-capensis.webp",
@@ -8020,7 +8170,7 @@ export const birds: Bird[] = [
           "label": "Description"
         },
         {
-          "text": "*Non détaillé dans les sources consultées (BirdLife).*",
+          "text": "*Non détaillé dans les sources consultées pour ce sprint.*",
           "sourceIds": [],
           "label": "Dimorphisme"
         },
@@ -8152,7 +8302,7 @@ export const birds: Bird[] = [
           "label": "Description"
         },
         {
-          "text": "*Non détaillé dans les sources consultées (BirdLife).*",
+          "text": "*Non détaillé dans les sources consultées pour ce sprint.*",
           "sourceIds": [],
           "label": "Dimorphisme"
         },
@@ -8290,7 +8440,7 @@ export const birds: Bird[] = [
           "label": "Description"
         },
         {
-          "text": "*Non détaillé dans les sources consultées (BirdLife).*",
+          "text": "*Non détaillé dans les sources consultées pour ce sprint.*",
           "sourceIds": [],
           "label": "Dimorphisme"
         },
@@ -8419,7 +8569,7 @@ export const birds: Bird[] = [
           "label": "Description"
         },
         {
-          "text": "*Non détaillé dans les sources consultées (BirdLife).*",
+          "text": "*Non détaillé dans les sources consultées pour ce sprint.*",
           "sourceIds": [],
           "label": "Dimorphisme"
         },
@@ -8558,7 +8708,7 @@ export const birds: Bird[] = [
           "label": "Description"
         },
         {
-          "text": "*Non détaillé dans les sources consultées (BirdLife).*",
+          "text": "*Non détaillé dans les sources consultées pour ce sprint.*",
           "sourceIds": [],
           "label": "Dimorphisme"
         },
@@ -8696,7 +8846,7 @@ export const birds: Bird[] = [
           "label": "Description"
         },
         {
-          "text": "*Non détaillé dans les sources consultées (BirdLife ; ADW stub).*",
+          "text": "*Non détaillé dans les sources consultées pour ce sprint.*",
           "sourceIds": [],
           "label": "Dimorphisme"
         },
@@ -9125,7 +9275,7 @@ export const birds: Bird[] = [
           "label": "Description"
         },
         {
-          "text": "*Non détaillé dans les sources consultées (BirdLife).*",
+          "text": "*Non détaillé dans les sources consultées pour ce sprint.*",
           "sourceIds": [],
           "label": "Dimorphisme"
         },
@@ -9265,7 +9415,7 @@ export const birds: Bird[] = [
           "label": "Description"
         },
         {
-          "text": "*Non détaillé dans les sources consultées (BirdLife).*",
+          "text": "*Non détaillé dans les sources consultées pour ce sprint.*",
           "sourceIds": [],
           "label": "Dimorphisme"
         },
@@ -9403,7 +9553,7 @@ export const birds: Bird[] = [
           "label": "Description"
         },
         {
-          "text": "*Non détaillé dans les sources consultées (BirdLife ; ADW stub).*",
+          "text": "*Non détaillé dans les sources consultées pour ce sprint.*",
           "sourceIds": [],
           "label": "Dimorphisme"
         },
@@ -9544,7 +9694,7 @@ export const birds: Bird[] = [
           "label": "Description"
         },
         {
-          "text": "*Non détaillé dans les sources consultées (BirdLife).*",
+          "text": "*Non détaillé dans les sources consultées pour ce sprint.*",
           "sourceIds": [],
           "label": "Dimorphisme"
         },
@@ -9685,7 +9835,7 @@ export const birds: Bird[] = [
           "label": "Description"
         },
         {
-          "text": "*Non détaillé dans les sources consultées (BirdLife).*",
+          "text": "*Non détaillé dans les sources consultées pour ce sprint.*",
           "sourceIds": [],
           "label": "Dimorphisme"
         },
@@ -10941,6 +11091,23 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0 ; taxon sauvage"
       }
     ],
+    "wildRange": {
+      "regions": [
+        "Afrique (origine sauvage)"
+      ],
+      "hemisphere": "AF",
+      "summary": "Forme domestique ; répartition sauvage = roseogrisea",
+      "sourceIds": [
+        "birdlife-streptopelia-roseogrisea"
+      ]
+    },
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-streptopelia-roseogrisea"
+      ],
+      "year": "2018"
+    },
     "imageCredit": "Dick Daniels — CC BY-SA 3.0",
     "imageSourceId": "media-streptopelia-risoria-img",
     "image": "/images/birds/streptopelia-risoria.webp",
@@ -10972,7 +11139,7 @@ export const birds: Bird[] = [
           "label": "Description"
         },
         {
-          "text": "*Non documenté dans BirdLife / ADW consultés — `na`.*",
+          "text": "*Non détaillé dans les sources consultées pour ce sprint.*",
           "sourceIds": [],
           "label": "Dimorphisme"
         },
@@ -11074,6 +11241,24 @@ export const birds: Bird[] = [
         "note": "CC BY-NC-SA 4.0"
       }
     ],
+    "wildRange": {
+      "regions": [
+        "Afrique",
+        "Asie"
+      ],
+      "hemisphere": "multi",
+      "summary": "Très vaste EOO (BirdLife)",
+      "sourceIds": [
+        "birdlife-spilopelia-senegalensis"
+      ]
+    },
+    "iucn": {
+      "category": "Préoccupation mineure (LC)",
+      "sourceIds": [
+        "birdlife-spilopelia-senegalensis"
+      ],
+      "year": "2018"
+    },
     "imageCredit": "Zeynel Cebeci — CC BY-SA 4.0",
     "imageSourceId": "media-streptopelia-senegalensis-img",
     "image": "/images/birds/streptopelia-senegalensis.webp",

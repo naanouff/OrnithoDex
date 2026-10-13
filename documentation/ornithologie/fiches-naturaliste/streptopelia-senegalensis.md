@@ -2,7 +2,7 @@
 
 - **Slug** : `streptopelia-senegalensis`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -19,14 +19,41 @@
 Évaluée **Least Concern** (2018). EOO ≈ 64 400 000 km² ; population ≈ 2,4–8,2 millions d’individus matures ; tendance suspectée **stable**.  
 *Source : birdlife-spilopelia-senegalensis.*
 
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Préoccupation mineure (LC) | birdlife-spilopelia-senegalensis |
+| Année évaluation | 2018 | birdlife-spilopelia-senegalensis |
+
+
+## Mensurations
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Taille adulte | na | |
+| Longévité | na | |
+
+
 ## Dimorphisme sexuel
 
-*Non documenté dans BirdLife / ADW consultés — `na`.*
+*Non détaillé dans les sources consultées pour ce sprint.*  
+*Sources : na.*
+
 
 ## Habitat d’origine
 
 Terres cultivées (majeur), jardins, zones urbaines, pâturages, prairies, savane sèche. Associée aux cultures, aux arbres (hors forêt dense) et à l’habitat humain.  
 *Source : birdlife-spilopelia-senegalensis.*
+
+## Répartition sauvage
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Régions / pays | Afrique, Asie | birdlife-spilopelia-senegalensis |
+| Hémisphère / realm | multi | birdlife-spilopelia-senegalensis |
+| Note | Très vaste EOO (BirdLife) | birdlife-spilopelia-senegalensis |
+
 
 ## Régime alimentaire
 

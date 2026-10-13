@@ -2,7 +2,7 @@
 
 - **Slug** : `aix-sponsa`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -18,6 +18,22 @@
 Évalué **Least Concern** (2021). Migrateur complet. Population ≈ 4 600 000 individus matures ; tendance **en augmentation**.  
 *Source : birdlife-aix-sponsa.*
 
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Préoccupation mineure (LC) | birdlife-aix-sponsa |
+| Année évaluation | 2021 | birdlife-aix-sponsa |
+
+
+## Mensurations
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Taille adulte | na | |
+| Longévité | na | |
+
+
 ## Dimorphisme sexuel
 
 Fort : mâle à tête irisée vert/bleu/violet, poitrine rouille, flancs bronze ; femelle brun-gris avec anneau oculaire blanc.  
@@ -27,6 +43,15 @@ Fort : mâle à tête irisée vert/bleu/violet, poitrine rouille, flancs bronze 
 
 Forêts tempérées et lacs (majeurs, BirdLife) ; ADW : zones boisées le long de lacs, rivières, étangs et zones humides ; cavités de nidification près de l’eau.  
 *Sources : birdlife-aix-sponsa ; adw-aix-sponsa.*
+
+## Répartition sauvage
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Régions / pays | Amérique du Nord | birdlife-aix-sponsa |
+| Hémisphère / realm | AM | birdlife-aix-sponsa |
+| Note | Migrateur complet | birdlife-aix-sponsa |
+
 
 ## Régime alimentaire
 
