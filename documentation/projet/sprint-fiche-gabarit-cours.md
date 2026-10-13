@@ -3,7 +3,8 @@
 **Branche** : `feature/fiche-gabarit-cours` → PR vers `develop` (maquette d’abord ; React après validation propriétaire)  
 **PR docs** : https://github.com/naanouff/OrnithoDex/pull/63  
 **PR maquette** : https://github.com/naanouff/OrnithoDex/pull/64  
-**Dates** : préparation 2026-10-13 ; exécution maquette 2026-10-13  
+**PR React** : https://github.com/naanouff/OrnithoDex/pull/65  
+**Dates** : préparation 2026-10-13 ; exécution maquette + React 2026-10-13  
 **Réf.** : [plan-fiche-gabarit-cours.md](plan-fiche-gabarit-cours.md)
 
 ## Objectif
@@ -46,7 +47,7 @@ Maquette **validée** (PR #64) — portage React autorisé.
 
 - [x] Branche `feature/fiche-gabarit-cours` depuis `develop`
 - [x] `BirdSheetPage` + `maquette.css`
-- [ ] `npm run build` + PR → `develop`
+- [x] `npm run build` + PR → `develop` (#65)
 
 ## Espèce de démo
 
