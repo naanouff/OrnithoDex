@@ -2,7 +2,8 @@
 
 **Branche** : `feature/fiche-gabarit-cours` → PR vers `develop` (maquette d’abord ; React après validation propriétaire)  
 **PR docs** : https://github.com/naanouff/OrnithoDex/pull/63  
-**Dates** : préparation 2026-10-13 ; exécution → …  
+**PR maquette** : https://github.com/naanouff/OrnithoDex/pull/64  
+**Dates** : préparation 2026-10-13 ; exécution maquette 2026-10-13  
 **Réf.** : [plan-fiche-gabarit-cours.md](plan-fiche-gabarit-cours.md)
 
 ## Objectif
@@ -34,11 +35,11 @@ Aucun changement de `BirdSheetPage` tant que le propriétaire n’a pas validé 
 ### Maquette
 
 - [x] Plan lu ([plan-fiche-gabarit-cours.md](plan-fiche-gabarit-cours.md))
-- [ ] Prototype fiche rattrapé sur l’app (Colin de Virginie)
-- [ ] Gabarit de cours empilé, cases vides « Non documenté »
-- [ ] Swipe + index conservés
-- [ ] Spec dans [design.md](design.md)
-- [ ] `fiche.png` recapturé
+- [x] Prototype fiche rattrapé sur l’app (Colin de Virginie)
+- [x] Gabarit de cours empilé, cases vides « Non documenté »
+- [x] Swipe + index conservés
+- [x] Spec dans [design.md](design.md)
+- [x] `fiche.png` recapturé
 - [ ] **Validation propriétaire**
 
 ### App (après validation)
