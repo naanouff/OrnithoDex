@@ -2,12 +2,20 @@ import { useEffect, useRef, type RefObject } from 'react'
 
 const SWIPE_THRESHOLD = 60
 
+/** Contrôles où le swipe ne doit pas capturer le pointeur (sinon casse details/audio/liens). */
+const INTERACTIVE_SELECTOR =
+  'a, button, summary, details, audio, input, select, textarea, label, .sheet__more'
+
 type Options = {
   enabled: boolean
   onPrev: () => void
   onNext: () => void
   canPrev: boolean
   canNext: boolean
+}
+
+function isInteractiveTarget(target: EventTarget | null): boolean {
+  return target instanceof Element && Boolean(target.closest(INTERACTIVE_SELECTOR))
 }
 
 /** Swipe horizontal sur la fiche ; ignore le scroll vertical dominant. */
@@ -69,6 +77,7 @@ export function useSheetBrowseSwipe(
 
     function onTouchStart(e: TouchEvent) {
       if (e.touches.length !== 1) return
+      if (isInteractiveTarget(e.target)) return
       begin(e.touches[0]!.clientX, e.touches[0]!.clientY)
     }
 
@@ -83,7 +92,7 @@ export function useSheetBrowseSwipe(
 
     function onPointerDown(e: PointerEvent) {
       if (e.pointerType === 'touch') return
-      if ((e.target as Element).closest?.('.sheet__back')) return
+      if (isInteractiveTarget(e.target)) return
       el!.setPointerCapture(e.pointerId)
       begin(e.clientX, e.clientY)
     }
