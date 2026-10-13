@@ -1250,12 +1250,12 @@ body {
 }
 
 .sheet__photo {
-  margin: 20px 0 0;
+  margin: 4px 0 16px;
   padding: 0;
 }
 
 .sheet__photo-frame {
-  aspect-ratio: 1 / 1;
+  aspect-ratio: 4 / 3;
   width: 100%;
   max-height: none;
   height: auto;
@@ -1265,6 +1265,119 @@ body {
   border: var(--stroke) solid var(--ordre, var(--navy));
   box-shadow: 0 8px 0 color-mix(in srgb, var(--ordre, var(--navy)) 42%, transparent);
   background-color: #e8eef5;
+}
+
+.sheet__fields {
+  display: grid;
+  gap: 10px;
+  margin: 0 0 8px;
+}
+
+.sheet__pair {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.sheet__field {
+  margin: 0;
+  padding: 12px 14px;
+  border-radius: 16px;
+  border: 2.5px solid var(--navy);
+  background: var(--white);
+  box-shadow: 0 4px 0 rgba(27, 54, 93, 0.08);
+}
+
+.sheet__field dt {
+  margin: 0 0 6px;
+  font-family: Fredoka, Nunito, sans-serif;
+  font-size: 0.82rem;
+  font-weight: 800;
+  color: var(--navy);
+}
+
+.sheet__field dd {
+  margin: 0;
+  font-size: 0.9rem;
+  font-weight: 700;
+  line-height: 1.35;
+  color: var(--ink);
+}
+
+.sheet__field dd.is-empty {
+  color: var(--muted);
+  font-style: italic;
+  font-weight: 700;
+}
+
+.sheet__range {
+  margin: 0;
+  padding: 12px;
+  border-radius: 12px;
+  border: 2px solid color-mix(in srgb, var(--navy) 35%, transparent);
+  background: #d7f1fa;
+}
+
+.sheet__range-svg {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+
+.sheet__range-ocean {
+  fill: #d7f1fa;
+  stroke: var(--navy);
+  stroke-width: 1.2;
+}
+
+.sheet__range-grid {
+  stroke: var(--navy);
+  stroke-width: 0.35;
+  stroke-dasharray: 2 2;
+  opacity: 0.35;
+}
+
+.sheet__range-land {
+  fill: #8ea0b8;
+  fill-opacity: 0.55;
+  stroke: var(--navy);
+  stroke-width: 0.35;
+  stroke-linejoin: round;
+}
+
+.sheet__range-land.is-active {
+  fill: var(--lime);
+  fill-opacity: 0.92;
+}
+
+.sheet__range-regions {
+  list-style: none;
+  margin: 10px 0 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px;
+}
+
+.sheet__range-regions li {
+  margin: 0;
+  padding: 3px 8px;
+  border-radius: 999px;
+  border: 2px solid var(--navy);
+  background: var(--cream);
+  font-size: 0.72rem;
+  font-weight: 800;
+  color: var(--navy);
+}
+
+.sheet__range-src {
+  margin: 6px 0 0;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--muted);
+  text-align: center;
 }
 
 .sheet__photo-frame img {

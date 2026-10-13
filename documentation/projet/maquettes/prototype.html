@@ -1099,6 +1099,7 @@
     </div>
   </div>
 
+  <script src="planisphere-land.js"></script>
   <script>
     const ORDERS = [
       { id: "all", label: "Tous" },
@@ -1210,15 +1211,44 @@
       return `<dl class="sheet__field"><dt>${label}</dt>${fieldValue(value)}</dl>`;
     }
 
+    function foldLabel(value) {
+      return String(value || "")
+        .normalize("NFD")
+        .replace(/\p{M}/gu, "")
+        .toLowerCase()
+        .replace(/['’]/g, "");
+    }
+
     function rangeSvg(regions) {
-      const active = (regions || []).some((r) => /amérique|america|nord/i.test(r));
+      const labels = (regions || []).map(foldLabel);
+      const realms = new Set();
+      const realmOf = {
+        afrique: ["AF"],
+        europe: ["EU"],
+        asie: ["AS"],
+        amerique: ["NA", "SA"],
+        "amerique du sud": ["SA"],
+        "amerique du nord": ["NA"],
+        oceanie: ["AU"],
+      };
+      labels.forEach((label) => (realmOf[label] || []).forEach((id) => realms.add(id)));
+      const names = new Set(labels);
+      const land = window.PLANISPHERE_LAND || [];
+      const countryHit = land.some((item) => names.has(foldLabel(item.name)));
+      const precise = countryHit || realms.size > 0;
+      const paths = land.map((item) => {
+        const on = names.has(foldLabel(item.name)) || realms.has(item.id);
+        return `<path class="sheet__range-land${on ? " is-active" : ""}" d="${item.d}"/>`;
+      }).join("");
       return `
-        <div class="sheet__range" aria-hidden="true">
-          <svg class="sheet__range-svg" viewBox="0 0 200 120" role="img">
-            <rect width="200" height="120" fill="#d7f1fa" stroke="#1b365d" stroke-width="2" rx="8"/>
-            <path class="sheet__range-land ${active ? "is-active" : ""}" d="M28 38c18-16 42-18 62-10 14 6 22 18 18 32-6 18-28 28-48 24-22-4-38-26-32-46z"/>
-            <path class="sheet__range-land" d="M118 42c16-10 36-8 48 6 10 12 8 30-6 40-16 12-38 10-50-4-10-12-8-30 8-42z"/>
-            <line x1="100" y1="12" x2="100" y2="108" stroke="#1b365d" stroke-width="0.6" stroke-dasharray="2 2" opacity="0.35"/>
+        <div class="sheet__range">
+          <svg class="sheet__range-svg" viewBox="0 0 360 180" role="img" aria-label="Planisphère">
+            <rect width="360" height="180" fill="#d7f1fa" stroke="#1b365d" stroke-width="1.2" rx="4"/>
+            <g stroke="#1b365d" stroke-width="0.35" stroke-dasharray="2 2" opacity="0.35">
+              <line x1="0" y1="90" x2="360" y2="90"/>
+              <line x1="180" y1="0" x2="180" y2="180"/>
+            </g>
+            ${paths}
           </svg>
           <ul class="sheet__range-regions">${(regions || []).map((r) => `<li>${r}</li>`).join("")}</ul>
         </div>`;

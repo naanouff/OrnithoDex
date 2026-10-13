@@ -1,15 +1,24 @@
 import { useCallback, useEffect, useMemo, useRef } from 'react'
 import { Link, useLocation, useNavigate, useParams } from 'react-router-dom'
 import { BirdImage } from '../components/BirdImage'
+import { WildRangeMap } from '../components/WildRangeMap'
 import { useSheetBrowseSwipe } from '../hooks/useSheetBrowseSwipe'
 import { resolveBrowse } from '../lib/browse'
 import { getBirdById } from '../lib/birds'
-import { orderAccent, orderMediaStyle } from '../lib/orders'
+import { orderAccent } from '../lib/orders'
 import { resolveBirdImageUrl } from '../lib/media'
 import { renderInlineMarkdown, shortSourceLabel } from '../lib/text'
-import type { CoursePoint, SourceRef } from '../types/bird'
+import type { CoursePoint, SourceRef, SourcedText } from '../types/bird'
 
 type LocationState = { from?: string }
+
+const EMPTY = 'Non documenté'
+
+/** Sections affichées dans les cases du gabarit (pas dans « En savoir plus »). */
+const FIELD_SECTION_LABELS = new Set(['Dimorphisme', 'Comportement', 'Habitat'])
+
+/** Régime sauvage + description statut restent hors cases captivité / morphologie. */
+const MORE_SECTION_LABELS = new Set(['Description', 'Régime', 'Chant'])
 
 export function BirdSheetPage() {
   const { slug = '' } = useParams()
@@ -66,7 +75,6 @@ export function BirdSheetPage() {
     )
   }
 
-  const hasIllustration = Boolean(resolveBirdImageUrl(bird.illustration))
   const hasPhoto = Boolean(resolveBirdImageUrl(bird.image))
   const photoSource = bird.imageSourceId
     ? bird.sources.find((s) => s.id === bird.imageSourceId)
@@ -77,9 +85,18 @@ export function BirdSheetPage() {
       ? [photoSource.title, photoSource.note].filter(Boolean).join(' — ')
       : undefined)
   const posLabel = `${browse.index + 1} / ${browse.ids.length}`
-  const sections = bird.sheet.sections.filter((s) => s.text.trim().length > 0)
   const localAudio = bird.audio?.find((a) => a.startsWith('/audio/'))
   const sourceById = new Map(bird.sources.map((s) => [s.id, s]))
+  const byLabel = sectionMap(bird.sheet.sections)
+  const moreSections = bird.sheet.sections.filter(
+    (s) =>
+      s.text.trim().length > 0 &&
+      (!s.label || MORE_SECTION_LABELS.has(s.label) || !FIELD_SECTION_LABELS.has(s.label)),
+  )
+  const hasRange = Boolean(bird.wildRange?.regions?.length)
+  const iucnLabel = bird.iucn
+    ? `${bird.iucn.category}${bird.iucn.year ? ` (${bird.iucn.year})` : ''}`
+    : null
 
   return (
     <div
@@ -99,22 +116,7 @@ export function BirdSheetPage() {
       <p className="sheet__live" aria-live="polite">
         {bird.commonName}
       </p>
-      <div
-        className="sheet__media sheet__media--illustration"
-        style={
-          hasIllustration
-            ? { background: bird.illustrationBg ?? 'var(--illustration-cream)' }
-            : { background: orderMediaStyle(bird.order) }
-        }
-      >
-        <BirdImage
-          src={bird.illustration}
-          variant="illustration"
-          alt={`Illustration — ${bird.commonName}`}
-          order={bird.order}
-          loading="eager"
-        />
-      </div>
+
       <h3>{bird.commonName}</h3>
       <p className="latin">{bird.scientificName}</p>
       <div className="pills">
@@ -122,27 +124,11 @@ export function BirdSheetPage() {
         <span className="pill">{bird.family}</span>
         {bird.iucn ? (
           <span className="pill pill--iucn" title="Statut UICN">
-            UICN {bird.iucn.category}
-            {bird.iucn.year ? ` (${bird.iucn.year})` : ''}
+            UICN {iucnLabel}
           </span>
         ) : null}
       </div>
-      {bird.measurements?.adultSize || bird.measurements?.longevity ? (
-        <dl className="sheet__metrics">
-          {bird.measurements.adultSize ? (
-            <>
-              <dt>Taille adulte</dt>
-              <dd>{bird.measurements.adultSize.value}</dd>
-            </>
-          ) : null}
-          {bird.measurements.longevity ? (
-            <>
-              <dt>Longévité</dt>
-              <dd>{bird.measurements.longevity.value}</dd>
-            </>
-          ) : null}
-        </dl>
-      ) : null}
+
       <ul className="points">
         {bird.coursePoints.map((point) => (
           <CoursePointItem
@@ -152,6 +138,72 @@ export function BirdSheetPage() {
           />
         ))}
       </ul>
+
+      {hasPhoto ? (
+        <figure className="sheet__photo">
+          <div className="sheet__photo-frame">
+            <BirdImage
+              src={bird.image}
+              birdId={bird.id}
+              variant="photo"
+              alt={`Photo — ${bird.commonName}`}
+              order={bird.order}
+              loading="eager"
+            />
+          </div>
+          <figcaption className="sheet__photo-credit">
+            {photoCredit
+              ? `Photo : ${photoCredit}`
+              : 'Photo sourcée (voir Sources)'}
+          </figcaption>
+        </figure>
+      ) : (
+        <SheetField label="Photo" value={null} />
+      )}
+
+      <div className="sheet__fields">
+        <SheetField label="Description morphologique" value={null} />
+        <div className="sheet__pair">
+          <SheetField
+            label="Taille adulte"
+            value={bird.measurements?.adultSize?.value ?? null}
+          />
+          <SheetField
+            label="Longévité"
+            value={bird.measurements?.longevity?.value ?? null}
+          />
+        </div>
+        <SheetField
+          label="Dimorphisme sexuel"
+          value={sectionText(byLabel, 'Dimorphisme')}
+        />
+        <SheetField
+          label="Comportement"
+          value={sectionText(byLabel, 'Comportement')}
+        />
+        <SheetField
+          label="Habitat naturel"
+          value={sectionText(byLabel, 'Habitat')}
+        />
+        <dl className="sheet__field">
+          <dt>Origine géographique</dt>
+          {hasRange ? (
+            <dd>
+              <WildRangeMap bird={bird} sourceById={sourceById} />
+            </dd>
+          ) : (
+            <dd className="is-empty">{EMPTY}</dd>
+          )}
+        </dl>
+        <div className="sheet__pair">
+          <SheetField label="Statut UICN" value={iucnLabel} />
+          <SheetField label="Statut CITES" value={null} />
+        </div>
+        <SheetField label="Alimentation en captivité" value={null} />
+        <SheetField label="Conseils captivité" value={null} />
+        <SheetField label="Compatibilité" value={null} />
+      </div>
+
       {localAudio ? (
         <div className="sheet__audio">
           <p className="sheet__audio-label">Écouter</p>
@@ -160,16 +212,25 @@ export function BirdSheetPage() {
           </audio>
         </div>
       ) : null}
-      {sections.length > 0 ? (
+
+      {moreSections.length > 0 ? (
         <details className="sheet__more">
           <summary>En savoir plus</summary>
           <div className="sheet__sections">
-            {sections.map((section) => (
+            {moreSections.map((section) => (
               <section
                 key={`${section.label ?? 'section'}-${section.text.slice(0, 24)}`}
                 className="sheet__section"
               >
-                {section.label ? <h4>{section.label}</h4> : null}
+                {section.label ? (
+                  <h4>
+                    {section.label === 'Régime'
+                      ? 'Régime (sauvage)'
+                      : section.label === 'Description'
+                        ? 'Description (statut)'
+                        : section.label}
+                  </h4>
+                ) : null}
                 <p>{renderInlineMarkdown(section.text)}</p>
                 {section.sourceIds.length > 0 ? (
                   <p className="sheet__section-src">
@@ -181,27 +242,43 @@ export function BirdSheetPage() {
           </div>
         </details>
       ) : null}
-      {hasPhoto ? (
-        <figure className="sheet__photo">
-          <div className="sheet__photo-frame">
-            <BirdImage
-              src={bird.image}
-              birdId={bird.id}
-              variant="photo"
-              alt={`Photo — ${bird.commonName}`}
-              order={bird.order}
-              loading="lazy"
-            />
-          </div>
-          <figcaption className="sheet__photo-credit">
-            {photoCredit
-              ? `Photo : ${photoCredit}`
-              : 'Photo sourcée (voir Sources)'}
-          </figcaption>
-        </figure>
-      ) : null}
+
       <SourcesBlock sources={bird.sources} />
     </div>
+  )
+}
+
+function sectionMap(sections: SourcedText[]): Map<string, SourcedText> {
+  const map = new Map<string, SourcedText>()
+  for (const section of sections) {
+    if (section.label) map.set(section.label, section)
+  }
+  return map
+}
+
+function sectionText(
+  byLabel: Map<string, SourcedText>,
+  label: string,
+): string | null {
+  const text = byLabel.get(label)?.text.trim()
+  return text ? text : null
+}
+
+function SheetField({
+  label,
+  value,
+}: {
+  label: string
+  value: string | null
+}) {
+  const empty = !value
+  return (
+    <dl className="sheet__field">
+      <dt>{label}</dt>
+      <dd className={empty ? 'is-empty' : undefined}>
+        {empty ? EMPTY : renderInlineMarkdown(value)}
+      </dd>
+    </dl>
   )
 }
 
@@ -216,7 +293,9 @@ function CoursePointItem({
     point.level === 'sourcé' ? formatSourceIds(point.sourceIds, sourceById) : ''
   const badgeLabel = point.level === 'programme' ? 'Programme' : 'Sourcé'
   const badgeClass =
-    point.level === 'programme' ? 'point__badge point__badge--programme' : 'point__badge point__badge--source'
+    point.level === 'programme'
+      ? 'point__badge point__badge--programme'
+      : 'point__badge point__badge--source'
 
   return (
     <li>
