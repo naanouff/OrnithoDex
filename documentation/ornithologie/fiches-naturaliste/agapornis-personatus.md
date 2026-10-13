@@ -2,7 +2,7 @@
 
 - **Slug** : `agapornis-personatus`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -17,6 +17,20 @@
 
 Évalué **Least Concern** (2018). Endémique nicheur Tanzanie ; EOO ≈ 226 000 km² ; localement commun ; tendance **stable**. Non migrateur. Elevation typique 1 100–1 800 m.  
 *Source : birdlife-agapornis-personatus.*
+
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Préoccupation mineure (LC) | birdlife-agapornis-personatus. |
+| Année évaluation | 2018 | birdlife-agapornis-personatus. |
+
+## Mensurations
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Taille adulte | na |  |
+| Longévité | 10–20 ans (captivité) | adw-agapornis-personatus |
 
 ## Dimorphisme sexuel
 
@@ -69,3 +83,4 @@ Enregistrement XC509849 (Peter Boesman — CC BY-NC-ND 4.0) : https://xeno-canto
 | birdlife-agapornis-fischeri | Fischer's Lovebird Agapornis fischeri — Species Factsheet | BirdLife International | 2021 | https://datazone.birdlife.org/species/factsheet/fischers-lovebird-agapornis-fischeri | Hybridation |
 | media-agapornis-personatus-img | File:Yellow-collared Lovebird (27582137244).jpg | Becky Matsubara / Wikimedia Commons | 2016 | https://commons.wikimedia.org/wiki/File:Yellow-collared_Lovebird_(27582137244).jpg | CC BY 2.0 ; Tarangire, Tanzanie |
 | media-agapornis-personatus-audio | XC509849 | Peter Boesman / Xeno-canto | | https://xeno-canto.org/509849 | CC BY-NC-ND 4.0 |
+| adw-agapornis-personatus | Agapornis personatus | Animal Diversity Web | | https://animaldiversity.org/accounts/Agapornis_personatus/ | Consulté 2026-10-13 |

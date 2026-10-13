@@ -2,7 +2,7 @@
 
 - **Slug** : `myiopsitta-monachus-monachus`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -17,6 +17,20 @@
 
 Évalué **Least Concern** (2018) au rang d’espèce *M. monachus*. EOO ≈ 3 130 000 km² ; tendance **en augmentation** ; population non quantifiée, décrite comme commune à abondante. Forme programme : sous-espèce nominale. ≈ 28–33 cm ; vert et gris, front bleu-gris (nominate), pas de dimorphisme sexuel évident.  
 *Sources : birdlife-myiopsitta-monachus ; adw-myiopsitta-monachus.*
+
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Préoccupation mineure (LC) | birdlife-myiopsitta-monachus |
+| Année évaluation | 2018 | birdlife-myiopsitta-monachus |
+
+## Mensurations
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Taille adulte | 28–33 cm | birdlife-myiopsitta-monachus |
+| Longévité | na | |
 
 ## Dimorphisme sexuel
 

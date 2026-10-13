@@ -2,7 +2,7 @@
 
 - **Slug** : `poephila-acuticauda`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -17,6 +17,13 @@
 
 Évalué **Least Concern** (2024). EOO ≈ 1 420 000 km² ; population non quantifiée ; tendance **stable**. Endémique nicheur d’Australie. Commerce signalé à forte prévalence.  
 *Source : birdlife-poephila-acuticauda.*
+
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Préoccupation mineure (LC) | birdlife-poephila-acuticauda. |
+| Année évaluation | 2024 | birdlife-poephila-acuticauda. |
 
 ## Dimorphisme sexuel
 

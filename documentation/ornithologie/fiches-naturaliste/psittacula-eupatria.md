@@ -18,6 +18,13 @@
 Évalué **Least Concern** (2025) sous le nom BirdLife *Palaeornis eupatria* (ex-*Psittacula eupatria*). EOO ≈ 9 010 000 km² ; taille de population inconnue ; localement commune et en forte hausse en Inde (SoIB 2023 *via* BirdLife) ; tendance globale **en augmentation** ; rare ou localisé en Indochine. Altitude 0–900 m.  
 *Source : birdlife-palaeornis-eupatria.*
 
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Préoccupation mineure (LC) | birdlife-palaeornis-eupatria. |
+| Année évaluation | 2025 | birdlife-palaeornis-eupatria. |
+
 ## Dimorphisme sexuel
 
 *Non détaillé dans les sources consultées pour ce sprint.*  

@@ -2,7 +2,7 @@
 
 - **Slug** : `neochmia-ruficauda`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -17,6 +17,13 @@
 
 Évalué **Least Concern** (2018). EOO ≈ 3 380 000 km² ; tendance **en diminution** mais populations importantes encore stables ; endémique nicheur d’Australie. Surpâturage près de l’eau cité comme menace principale pour certaines sous-espèces.  
 *Source : birdlife-neochmia-ruficauda.*
+
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Préoccupation mineure (LC) | birdlife-neochmia-ruficauda. |
+| Année évaluation | 2018 | birdlife-neochmia-ruficauda. |
 
 ## Dimorphisme sexuel
 

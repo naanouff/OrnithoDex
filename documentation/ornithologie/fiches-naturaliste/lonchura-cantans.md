@@ -2,7 +2,7 @@
 
 - **Slug** : `lonchura-cantans`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -18,6 +18,13 @@
 
 BirdLife place l’espèce dans *Euodice* (ex-*Lonchura*). Évalué **Least Concern** (2018). EOO ≈ 16 600 000 km² ; tendance **stable**. Altitude 0–1 600 m. Commerce international d’animaux de compagnie signalé.  
 *Source : birdlife-euodice-cantans.*
+
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Préoccupation mineure (LC) | birdlife-euodice-cantans. |
+| Année évaluation | 2018 | birdlife-euodice-cantans. |
 
 ## Dimorphisme sexuel
 

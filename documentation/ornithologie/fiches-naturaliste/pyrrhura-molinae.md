@@ -2,7 +2,7 @@
 
 - **Slug** : `pyrrhura-molinae`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -17,6 +17,20 @@
 
 Évalué **Least Concern** (2018). EOO ≈ 1 290 000 km² ; population non quantifiée, décrite comme « commune » (Stotz *et al.* 1996 *via* BirdLife) ; tendance **en diminution**. Joues vertes caractéristiques ; queue rougeâtre ; ~26 cm, 62–81 g.  
 *Sources : birdlife-pyrrhura-molinae ; adw-pyrrhura-molinae.*
+
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Préoccupation mineure (LC) | birdlife-pyrrhura-molinae |
+| Année évaluation | 2018 | birdlife-pyrrhura-molinae |
+
+## Mensurations
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Taille adulte | 26 cm | birdlife-pyrrhura-molinae |
+| Longévité | 25–30 ans (captivité) | adw-pyrrhura-molinae |
 
 ## Dimorphisme sexuel
 

@@ -30,7 +30,7 @@
 
 | Champ | Valeur | Source |
 |-------|--------|--------|
-| Taille adulte | na | |
+| Taille adulte | 25 cm | adw-callipepla-californica |
 | Longévité | na | |
 
 

@@ -26,6 +26,13 @@ Tous passés en `na` explicite (« Non détaillé dans les sources consultées �
 
 `amadina-fasciata`, `euplectes-orix`, `geopelia-cuneata`, `geopelia-striata`, `gracula-religiosa`, `lonchura-striata-domestiqua`, `neophema-elegans`, `neophema-pulchella`, `neophema-splendida`, `oena-capensis`, `passer-luteus`, `platycercus-adscitus`, `platycercus-elegans`, `platycercus-eximius-eximius`, `platycercus-icterotis`, `ploceus-cucullatus`, `polytelis-alexandrae`, `polytelis-anthopeplus`, `psephotus-haematonotus-haematonotus`, `psittacula-cyanocephala`, `psittacula-eupatria`, `streptopelia-senegalensis`.
 
-## Reste (73)
+## Reste (après passe 2026-10-13)
 
-UICN / répartition / mensurations : `manquant` jusqu’aux sprints suivants. Captivité / CITES / compatibilité : `hors_perimetre` sans catalogue sources animalerie.
+| Champ | Résultat | Source |
+|-------|----------|--------|
+| UICN structuré | **85/85** | Phrase BirdLife déjà dans la Description — pas une nouvelle évaluation |
+| Taille | **24** fiches (cm déjà écrit ou ADW) | BirdLife / ADW ; les autres restent `na` |
+| Longévité | **15** fiches | ADW, libellé **sauvage** et/ou **captivité** |
+| CITES, alimentation, conseils, compatibilité, morphologie dédiée | non remplis | Pas de source du catalogue qui donne ces faits sans les inventer |
+
+Script : `scripts/apply-champs-manquants.mjs`. Les comptes ADW ajoutés ce jour sont dans la table Sources de la fiche (`Consulté 2026-10-13`).

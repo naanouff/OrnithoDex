@@ -2,7 +2,7 @@
 
 - **Slug** : `vidua-orientalis`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -17,6 +17,13 @@
 
 Évalué **Least Concern** (2024). EOO ≈ 5 390 000 km² ; population non quantifiée ; tendance **stable**. Commerce signalé à forte prévalence. BirdLife : Sahel Paradise-whydah (*V. orientalis*), distincte de *V. togoensis* (Exclamatory).  
 *Source : birdlife-vidua-orientalis.*
+
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Préoccupation mineure (LC) | birdlife-vidua-orientalis. |
+| Année évaluation | 2024 | birdlife-vidua-orientalis. |
 
 ## Dimorphisme sexuel
 

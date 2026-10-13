@@ -2,7 +2,7 @@
 
 - **Slug** : `cacatua-alba`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -17,6 +17,20 @@
 
 Évalué **Endangered** (2021 ; critères A2bcd+4bcd). EOO ≈ 51 700 km² ; endémique nicheur ; non migrateur ; tendance **en diminution** (capture pour le commerce + déforestation). Population autrefois estimée ≈ 43 000–183 000 individus (Lambert 1993).  
 *Source : birdlife-cacatua-alba.*
+
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | En danger (EN) | birdlife-cacatua-alba. |
+| Année évaluation | 2021 | birdlife-cacatua-alba. |
+
+## Mensurations
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Taille adulte | 25–31 cm | adw-cacatua-alba |
+| Longévité | 26,9 ans (sauvage, maximum cité) | adw-cacatua-alba |
 
 ## Dimorphisme sexuel
 
@@ -68,3 +82,4 @@ Enregistrement XC1074294 (Richard E. Webster — CC BY-NC-SA 4.0) : https://xeno
 | birdlife-cacatua-alba | White Cockatoo Cacatua alba — Species Factsheet | BirdLife International | 2021 | https://datazone.birdlife.org/species/factsheet/white-cockatoo-cacatua-alba | Consulté 2026-10-10 |
 | media-cacatua-alba-img | File:Cacatua alba -Coconuts Bar -Cozumel -Mexico-8a.jpg | Kevin T / Wikimedia Commons | 2009 | https://commons.wikimedia.org/wiki/File:Cacatua_alba_-Coconuts_Bar_-Cozumel_-Mexico-8a.jpg | CC BY 2.0 |
 | media-cacatua-alba-audio | XC1074294 | Richard E. Webster / Xeno-canto | | https://xeno-canto.org/1074294 | CC BY-NC-SA 4.0 |
+| adw-cacatua-alba | Cacatua alba | Animal Diversity Web | | https://animaldiversity.org/accounts/Cacatua_alba/ | Consulté 2026-10-13 |

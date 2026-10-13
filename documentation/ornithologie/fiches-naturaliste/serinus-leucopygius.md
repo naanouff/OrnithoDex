@@ -2,7 +2,7 @@
 
 - **Slug** : `serinus-leucopygius`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -18,6 +18,13 @@
 
 Évalué **Least Concern** (2024). EOO ≈ 7 330 000 km² ; population non quantifiée ; tendance **stable**. Commerce signalé à forte prévalence. BirdLife / HBW : *Crithagra leucopygia* (ex-*Serinus*).  
 *Source : birdlife-serinus-leucopygius.*
+
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Préoccupation mineure (LC) | birdlife-serinus-leucopygius. |
+| Année évaluation | 2024 | birdlife-serinus-leucopygius. |
 
 ## Dimorphisme sexuel
 

@@ -2,7 +2,7 @@
 
 - **Slug** : `lonchura-punctulata`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -17,6 +17,13 @@
 
 Évalué **Least Concern** (2025). EOO ≈ 23 000 000 km² ; population considérée > 50 000 000 individus matures (Partners in Flight 2024 *via* BirdLife) ; tendance **en augmentation**. Commerce signalé à forte prévalence.  
 *Source : birdlife-lonchura-punctulata.*
+
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Préoccupation mineure (LC) | birdlife-lonchura-punctulata. |
+| Année évaluation | 2025 | birdlife-lonchura-punctulata. |
 
 ## Dimorphisme sexuel
 

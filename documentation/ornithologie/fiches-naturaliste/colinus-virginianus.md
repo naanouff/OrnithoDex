@@ -30,8 +30,8 @@
 
 | Champ | Valeur | Source |
 |-------|--------|--------|
-| Taille adulte | na | |
-| Longévité | na | |
+| Taille adulte | 20,3–24,7 cm | adw-colinus-virginianus |
+| Longévité | 6 ans (sauvage, maximum cité) | adw-colinus-virginianus |
 
 
 ## Dimorphisme sexuel

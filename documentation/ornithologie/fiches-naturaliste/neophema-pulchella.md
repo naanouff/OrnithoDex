@@ -18,6 +18,13 @@
 Évalué **Least Concern** (2024). Endémique nicheur d’Australie (sud-est) ; EOO ≈ 771 000 km² ; tendance **stable** ; ≈ 20 000 individus (estimation). Aire historiquement contractée (Queensland, NSW, Victoria).  
 *Source : birdlife-neophema-pulchella.*
 
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Préoccupation mineure (LC) | birdlife-neophema-pulchella. |
+| Année évaluation | 2024 | birdlife-neophema-pulchella. |
+
 ## Dimorphisme sexuel
 
 *Non détaillé dans les sources consultées pour ce sprint.*  

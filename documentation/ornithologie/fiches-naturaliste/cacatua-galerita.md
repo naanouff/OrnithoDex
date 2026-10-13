@@ -2,7 +2,7 @@
 
 - **Slug** : `cacatua-galerita`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -17,6 +17,20 @@
 
 Évalué **Least Concern** (2018). EOO ≈ 10 800 000 km² ; natif Australie, Indonésie, Papouasie-Nouvelle-Guinée ; tendance **en diminution** (destruction d’habitat) sans atteindre le seuil Vulnerable. Grand cacatoès blanc à bec gris-noir, huppe jaune soufre et lavage jaune sous les ailes.  
 *Sources : birdlife-cacatua-galerita ; birdlife-au-sulphur-crested.*
+
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Préoccupation mineure (LC) | birdlife-cacatua-galerita |
+| Année évaluation | 2018 | birdlife-cacatua-galerita |
+
+## Mensurations
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Taille adulte | 50 cm | adw-cacatua-galerita |
+| Longévité | 57 ans (sauvage, maximum cité) | adw-cacatua-galerita |
 
 ## Dimorphisme sexuel
 
@@ -71,3 +85,4 @@ BirdLife Australia : cri fort caractéristique se terminant par une légère mon
 | birdlife-au-sulphur-crested | Sulphur-crested Cockatoo — Bird profile | BirdLife Australia | | https://birdlife.org.au/bird-profiles/sulphur-crested-cockatoo/ | Consulté 2026-10-10 |
 | media-cacatua-galerita-img | File:Sulphur-crested cockatoo (Cacatua galerita galerita) Sydney.jpg | Charles J. Sharp / Wikimedia Commons | 2023 | https://commons.wikimedia.org/wiki/File:Sulphur-crested_cockatoo_(Cacatua_galerita_galerita)_Sydney.jpg | CC BY-SA 4.0 |
 | media-cacatua-galerita-audio | XC1177819 | AK / Xeno-canto | | https://xeno-canto.org/1177819 | CC BY-NC-SA 4.0 |
+| adw-cacatua-galerita | Cacatua galerita | Animal Diversity Web | | https://animaldiversity.org/accounts/Cacatua_galerita/ | Consulté 2026-10-13 |

@@ -18,6 +18,13 @@
 Évalué **Least Concern** (2024). Endémique nicheur d’Australie ; EOO ≈ 308 000 km² ; relativement commun ; tendance **en diminution** (pertes d’habitat, extinctions locales). Non migrant.  
 *Source : birdlife-platycercus-icterotis.*
 
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Préoccupation mineure (LC) | birdlife-platycercus-icterotis. |
+| Année évaluation | 2024 | birdlife-platycercus-icterotis. |
+
 ## Dimorphisme sexuel
 
 *Non détaillé dans les sources consultées pour ce sprint.*  

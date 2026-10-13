@@ -2,7 +2,7 @@
 
 - **Slug** : `agapornis-nigrigenis`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -17,6 +17,13 @@
 
 Évalué **Vulnerable** (évaluation BirdLife 2025). EOO ≈ 19 800 km² ; ≈ 8 000–11 500 individus matures ; tendance **en diminution**. Distribution patchy sud-ouest Zambie (entre Kafue et Zambèze). Non migrateur ; 600–1 000 m.  
 *Source : birdlife-agapornis-nigrigenis.*
+
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Vulnérable (VU) | birdlife-agapornis-nigrigenis. |
+| Année évaluation | na |  |
 
 ## Dimorphisme sexuel
 

@@ -2,7 +2,7 @@
 
 - **Slug** : `amazona-aestiva`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -17,6 +17,20 @@
 
 Évalué **Near Threatened** (2019 ; A2bcd+3bcd+4bcd). EOO ≈ 7 940 000 km² ; tendance **en diminution** (capture + perte d’habitat). Brésil, Bolivie, Paraguay, Argentine, etc.  
 *Source : birdlife-amazona-aestiva.*
+
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Quasi menacé (NT) | birdlife-amazona-aestiva. |
+| Année évaluation | 2019 | birdlife-amazona-aestiva. |
+
+## Mensurations
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Taille adulte | 33–38 cm | adw-amazona-aestiva |
+| Longévité | na | |
 
 ## Dimorphisme sexuel
 

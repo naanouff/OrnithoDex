@@ -2,7 +2,7 @@
 
 - **Slug** : `agapornis-roseicollis`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -17,6 +17,20 @@
 
 Évalué **Least Concern** (2018). EOO ≈ 768 000 km² ; natif Angola, Namibie, Afrique du Sud ; tendance **en diminution** (exploitation). Localement commun près de l’eau. ≈ 15 cm, ≈ 55 g ; face et poitrine rose-rosé, corps vert, croupion bleu.  
 *Sources : birdlife-agapornis-roseicollis ; adw-agapornis-roseicollis.*
+
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Préoccupation mineure (LC) | birdlife-agapornis-roseicollis |
+| Année évaluation | 2018 | birdlife-agapornis-roseicollis |
+
+## Mensurations
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Taille adulte | 15 cm | birdlife-agapornis-roseicollis |
+| Longévité | 15–25 ans (captivité) | adw-agapornis-roseicollis |
 
 ## Dimorphisme sexuel
 

@@ -2,7 +2,7 @@
 
 - **Slug** : `serinus-canaria`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -17,6 +17,13 @@
 
 Évalué **Least Concern** (2018) pour la forme sauvage (Island Canary). EOO ≈ 612 000 km² ; 3 000 000–5 050 000 individus matures ; tendance **stable**. Très largement élevé en captivité (formes domestiques) ; evaluation IUCN = taxon sauvage.  
 *Source : birdlife-serinus-canaria.*
+
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Préoccupation mineure (LC) | birdlife-serinus-canaria. |
+| Année évaluation | 2018 | birdlife-serinus-canaria. |
 
 ## Dimorphisme sexuel
 

@@ -2,7 +2,7 @@
 
 - **Slug** : `lonchura-malacca-malacca`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -18,6 +18,13 @@
 
 Évalué **Least Concern** (2018). EOO ≈ 1 850 000 km² ; population non quantifiée, localement commune (Clement 1999 *via* BirdLife) ; tendance **stable**. Altitude 0–1 500 m. Commerce (nourriture humaine + animaux de compagnie) signalé.  
 *Source : birdlife-lonchura-malacca.*
+
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Préoccupation mineure (LC) | birdlife-lonchura-malacca. |
+| Année évaluation | 2018 | birdlife-lonchura-malacca. |
 
 ## Dimorphisme sexuel
 

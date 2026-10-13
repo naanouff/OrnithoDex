@@ -2,7 +2,7 @@
 
 - **Slug** : `lonchura-oryzivora`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -18,6 +18,13 @@
 
 Évalué **Endangered** (2021). EOO ≈ 148 000 km² ; 1 000–2 499 individus matures ; tendance **en diminution**. Endémique nicheur de Java, Bali et probablement Madura ; largement introduit ailleurs. Déclin lié au piégeage pour le commerce d’oiseaux de cage. CITES Annexe II.  
 *Source : birdlife-lonchura-oryzivora.*
+
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | En danger (EN) | birdlife-lonchura-oryzivora. |
+| Année évaluation | 2021 | birdlife-lonchura-oryzivora. |
 
 ## Dimorphisme sexuel
 

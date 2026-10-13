@@ -2,7 +2,7 @@
 
 - **Slug** : `lonchura-malabarica`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-10
+- **Dernière vérification** : 2026-10-13
 
 ## Identité
 
@@ -18,6 +18,13 @@
 
 BirdLife place l’espèce dans *Euodice* (ex-*Lonchura*). Évalué **Least Concern** (2018). EOO ≈ 11 300 000 km² ; commune ou localement commune (Clement 1999 *via* BirdLife) ; tendance **stable**. Commerce (nourriture + animaux de compagnie) signalé à échelle nationale / de subsistance.  
 *Source : birdlife-euodice-malabarica.*
+
+## Statut UICN
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Catégorie | Préoccupation mineure (LC) | birdlife-euodice-malabarica. |
+| Année évaluation | 2018 | birdlife-euodice-malabarica. |
 
 ## Dimorphisme sexuel
 
