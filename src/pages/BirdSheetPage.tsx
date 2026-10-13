@@ -181,22 +181,20 @@ export function BirdSheetPage() {
           label="Comportement"
           value={sectionText(byLabel, 'Comportement')}
         />
-        <div className="sheet__pair">
-          <SheetField
-            label="Habitat naturel"
-            value={sectionText(byLabel, 'Habitat')}
-          />
-          <dl className="sheet__field">
-            <dt>Origine géographique</dt>
-            {hasRange ? (
-              <dd>
-                <WildRangeMap bird={bird} sourceById={sourceById} />
-              </dd>
-            ) : (
-              <dd className="is-empty">{EMPTY}</dd>
-            )}
-          </dl>
-        </div>
+        <SheetField
+          label="Habitat naturel"
+          value={sectionText(byLabel, 'Habitat')}
+        />
+        <dl className="sheet__field">
+          <dt>Origine géographique</dt>
+          {hasRange ? (
+            <dd>
+              <WildRangeMap bird={bird} sourceById={sourceById} />
+            </dd>
+          ) : (
+            <dd className="is-empty">{EMPTY}</dd>
+          )}
+        </dl>
         <div className="sheet__pair">
           <SheetField label="Statut UICN" value={iucnLabel} />
           <SheetField label="Statut CITES" value={null} />
