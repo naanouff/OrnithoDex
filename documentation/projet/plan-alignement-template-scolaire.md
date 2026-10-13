@@ -12,7 +12,7 @@ Rapprocher les fiches OrnithoDex du **template scolaire TCVA** (seconde pro) san
 1. **Zéro invention** — captivité / CITES / taille / longévité uniquement si source validée.
 2. **Champs structurés** plutôt que faits noyés dans `Description`.
 3. **Compatibilité avec l’existant** — ne pas casser le statut `complete` naturaliste ; nouveaux champs = optionnels (`ok` / `na` / `manquant` dans un suivi dédié).
-4. **UI** : n’afficher un champ que s’il est rempli (charte [pedagogie.md](pedagogie.md)).
+4. **UI** : mise en page du polycopié → [plan-fiche-gabarit-cours.md](plan-fiche-gabarit-cours.md) (maquette d’abord). Les cases sans source affichent « Non documenté », elles ne disparaissent pas.
 
 ## Lots
 
@@ -45,7 +45,7 @@ Nouveau lot **sources animalerie** (ouvrages / fiches CITES officielles). Hors s
 
 ## Critères de done (plan)
 
-- [ ] Gabarit étendu documenté
-- [ ] Suivi couverture template (colonnes) dans un tableau ou `suivi-template-scolaire.md`
-- [ ] Sprint 1 livré (Lot A pilote + début Lot B)
-- [ ] Lots C cadrés sans exécution forcée
+- [x] Gabarit étendu documenté
+- [x] Suivi couverture template (colonnes) dans un tableau ou `suivi-template-scolaire.md`
+- [x] Sprint 1 livré (Lot A pilote + Lot B) — PR #62
+- [x] Lots C cadrés sans exécution forcée
