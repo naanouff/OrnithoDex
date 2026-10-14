@@ -32,6 +32,7 @@
 | Champ | Valeur | Source |
 |-------|--------|--------|
 | Taille adulte | 26–27 cm (taxon sauvage *Streptopelia roseogrisea*) | adw-streptopelia-roseogrisea |
+| Poids | Page ADW Streptopelia roseogrisea. 150 à 160 g | adw-streptopelia-roseogrisea |
 | Longévité | 12 ans (maximum cité ; milieu non précisé) ; AnAge indique une durée peut-être nettement plus longue, jusqu’à 20 ans, sans mesure | anage-streptopelia-risoria |
 
 
@@ -44,6 +45,34 @@ Taxon sauvage *Streptopelia roseogrisea* : calotte, cou et nuque d’un fauve ro
 
 Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).  
 *Source : cites-appendices.*
+
+## Variétés domestiques
+
+Variétés domestiques constituant la tourterelle domestique ou tourterelle rieuse (Streptopelia « risoria »), de la tourterelle rose et grise (Streptopelia roseogrisea).  
+*Source : arrete-11-aout-2006.*
+
+## Reproduction
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Période | Non documenté — page ADW consultée le 2026-10-14, ce chiffre n’y figure pas. | adw-streptopelia-roseogrisea |
+| Nombre d'œufs | moyenne 2 (ADW). | adw-streptopelia-roseogrisea |
+| Temps de couvaison | 15 jours en moyenne jusqu’à l’éclosion (ADW). | adw-streptopelia-roseogrisea |
+
+## Taille de cage
+
+L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.  
+*Source : arrete-08-octobre-2018.*
+
+## Prix en animalerie
+
+Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.  
+*Sources : arrete-08-octobre-2018 ; eaza-bpg ; aza-acm.*
+
+## Prix sur internet
+
+Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.  
+*Sources : arrete-08-octobre-2018 ; eaza-bpg ; aza-acm.*
 
 ## Alimentation en captivité
 
@@ -123,3 +152,5 @@ Enregistrement XC1163976 (*Streptopelia roseogrisea*, Zsombor Károlyi — CC BY
 | eaza-bpg | EAZA Best Practice Guidelines (index) | EAZA | | https://www.eaza.net/bpg/ | Consulté 2026-10-14 ; aucun guide pour cette espèce |
 | aza-acm | AZA Animal Care Manuals (liste publiée) | Association of Zoos & Aquariums | | https://www.aza.org/animal-care-manuals | Consulté 2026-10-14 ; aucun manuel pour cette espèce |
 | anage-streptopelia-risoria | Streptopelia risoria — AnAge | AnAge | | https://genomics.senescence.info/species/entry.php?species=Streptopelia_risoria | Consulté 2026-10-14 |
+| arrete-11-aout-2006 | Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A) | Journal officiel | 2006 | | Annexe oiseaux, 7 octobre 2006 |
+| arrete-08-octobre-2018 | Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques | Journal officiel | 2018 | https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/ | Consulté 2026-10-14 ; pas de dimensions de cage |

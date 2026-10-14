@@ -176,6 +176,33 @@ export function BirdSheetPage() {
             {...citedProps(bird.measurements?.longevity)}
           />
         </div>
+        <SheetField label="Poids" {...citedProps(bird.measurements?.mass)} />
+        <SheetField
+          label="Période (milieu naturel)"
+          {...citedProps(bird.reproduction?.season)}
+        />
+        <div className="sheet__pair">
+          <SheetField
+            label="Nombre d'œufs (milieu naturel)"
+            {...citedProps(bird.reproduction?.clutch)}
+          />
+          <SheetField
+            label="Couvaison (milieu naturel)"
+            {...citedProps(bird.reproduction?.incubation)}
+          />
+        </div>
+        <SheetField
+          label="Taille de cage ou volière"
+          {...citedProps(bird.school?.cageSize)}
+        />
+        <SheetField
+          label="Prix en animalerie"
+          {...citedProps(bird.school?.shopPrice)}
+        />
+        <SheetField
+          label="Prix sur internet"
+          {...citedProps(bird.school?.webPrice)}
+        />
         <SheetField
           label="Dimorphisme sexuel"
           value={sectionText(byLabel, 'Dimorphisme')}
@@ -202,6 +229,10 @@ export function BirdSheetPage() {
           <SheetField label="Statut UICN" value={iucnLabel} />
           <SheetField label="Statut CITES" {...citedProps(bird.school?.cites)} />
         </div>
+        <SheetField
+          label="Variétés domestiques"
+          {...citedProps(bird.school?.domesticVarieties)}
+        />
         <SheetField
           label="Alimentation en captivité"
           {...citedProps(bird.school?.captiveDiet)}

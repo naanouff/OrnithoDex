@@ -55,13 +55,25 @@ export type CitedField = {
 /** Mensurations scolaires — `na` omis côté data. */
 export type Measurements = {
   adultSize?: CitedField
+  mass?: CitedField
   longevity?: CitedField
+}
+
+/** Reproduction en milieu naturel, chiffres ADW uniquement. */
+export type Reproduction = {
+  season?: CitedField
+  clutch?: CitedField
+  incubation?: CitedField
 }
 
 /** Cases du polycopié encore hors sections naturalistes. */
 export type SchoolSheet = {
   morphology?: CitedField
   cites?: CitedField
+  domesticVarieties?: CitedField
+  cageSize?: CitedField
+  shopPrice?: CitedField
+  webPrice?: CitedField
   captiveDiet?: CitedField
   captiveAdvice?: CitedField
   compatibility?: CitedField
@@ -91,6 +103,7 @@ export type Bird = {
   wildRange?: WildRange
   iucn?: IucnStatus
   measurements?: Measurements
+  reproduction?: Reproduction
   school?: SchoolSheet
   sheet: {
     status: SheetStatus

@@ -32,6 +32,7 @@ Espèce évaluée **Least Concern** (BirdLife 2025). Aire très vaste (EOO ≈ 3
 | Champ | Valeur | Source |
 |-------|--------|--------|
 | Taille adulte | 12,5–14 cm | adw-coturnix-chinensis |
+| Poids | 28 à 40 g | adw-coturnix-chinensis |
 | Longévité | 5 ans (maximum cité ; milieu non précisé, donnée jugée questionable) | anage-coturnix-chinensis |
 
 
@@ -44,6 +45,34 @@ Mâle brun sombre, poitrine gris-bleu ardoise, ventre roux à châtain, gorge no
 
 Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).  
 *Source : cites-appendices.*
+
+## Variétés domestiques
+
+Variétés domestiques de la caille peinte de Chine (Coturnix chinensis).  
+*Source : arrete-11-aout-2006.*
+
+## Reproduction
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Période | Non documenté — page ADW consultée le 2026-10-14, ce chiffre n’y figure pas. | adw-coturnix-chinensis |
+| Nombre d'œufs | 6 à 21 œufs par saison ; moyenne 6 to 14 (ADW). | adw-coturnix-chinensis |
+| Temps de couvaison | Non documenté — page ADW consultée le 2026-10-14, ce chiffre n’y figure pas. | adw-coturnix-chinensis |
+
+## Taille de cage
+
+L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.  
+*Source : arrete-08-octobre-2018.*
+
+## Prix en animalerie
+
+Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.  
+*Sources : arrete-08-octobre-2018 ; eaza-bpg ; aza-acm.*
+
+## Prix sur internet
+
+Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.  
+*Sources : arrete-08-octobre-2018 ; eaza-bpg ; aza-acm.*
 
 ## Alimentation en captivité
 
@@ -124,3 +153,5 @@ Enregistrement XC1076265 (Richard E. Webster — CC BY-NC-SA 4.0) : https://xeno
 | eaza-bpg | EAZA Best Practice Guidelines (index) | EAZA | | https://www.eaza.net/bpg/ | Consulté 2026-10-14 ; aucun guide pour cette espèce |
 | aza-acm | AZA Animal Care Manuals (liste publiée) | Association of Zoos & Aquariums | | https://www.aza.org/animal-care-manuals | Consulté 2026-10-14 ; aucun manuel pour cette espèce |
 | anage-coturnix-chinensis | Coturnix chinensis — AnAge | AnAge | | https://genomics.senescence.info/species/entry.php?species=Coturnix_chinensis | Consulté 2026-10-14 |
+| arrete-11-aout-2006 | Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A) | Journal officiel | 2006 | | Annexe oiseaux, 7 octobre 2006 |
+| arrete-08-octobre-2018 | Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques | Journal officiel | 2018 | https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/ | Consulté 2026-10-14 ; pas de dimensions de cage |

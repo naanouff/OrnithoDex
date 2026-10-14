@@ -26,7 +26,7 @@ Ordres et familles présents dans la liste BAC PRO TCVA (source `bac-pro-tcva-li
 | Famille | Espèces (aperçu) |
 |---------|------------------|
 | Psittacidés | Inséparables, perruches, amazones, jaco, etc. |
-| Cacatuides | Rosalbin, calopsitte, cacatoès |
+| Cacatuidés | Rosalbin, calopsitte, cacatoès |
 
 ## 5. Passériformes
 

@@ -15,7 +15,10 @@ Toute utilisation concrète (URL d’une fiche espèce, fichier média) doit aus
 | `avibase` | Avibase — the world bird database | https://avibase.bsc-eoc.org/ | Vérification taxonomique, synonymes, liens | 2026-10-10 |
 | `xeno-canto` | Xeno-canto | https://xeno-canto.org/ | Enregistrements sonores — fichier précis + licence | 2026-10-10 |
 | `wikimedia-commons` | Wikimedia Commons | https://commons.wikimedia.org/ | Images (licence + auteur par fichier) | 2026-10-10 |
-| `bac-pro-tcva-liste` | Liste oiseaux BAC PRO TCVA MP6 | (support de cours) | Identité programme uniquement | 2026-10-10 |
+| `bac-pro-tcva-liste` | Liste oiseaux BAC PRO TCVA MP6 | [cours/liste-oiseaux-bac-pro-tcva.pdf](cours/liste-oiseaux-bac-pro-tcva.pdf) | Identité programme uniquement | 2026-10-10 |
+| `arrete-11-aout-2006` | Arrêté du 11 août 2006, animaux domestiques | [cours/arrete-11-aout-2006-animaux-domestiques.pdf](cours/arrete-11-aout-2006-animaux-domestiques.pdf) | Variétés domestiques citées par l’annexe — pas un fait de fiche tant qu’il n’y est pas recopié | 2026-10-14 |
+| `arrete-08-octobre-2018` | Arrêté du 8 octobre 2018, détention d’espèces non domestiques | https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/ | Hébergement adapté ; pas de dimensions de cage ni de prix | 2026-10-14 |
+| `fiche-oiseaux-cours` | Formulaire de fiche (vierge) | [cours/fiche-oiseaux.pdf](cours/fiche-oiseaux.pdf) | Cases du cours — le PDF ne contient aucun fait | 2026-10-14 |
 | `cites-appendices` | CITES — Annexes I, II et III | https://cites.org/eng/app/appendices.php | Annexe, ou absence d’inscription dans le document en vigueur | 2026-10-14 |
 | `anage` | AnAge — Animal Ageing and Longevity Database | https://genomics.senescence.info/species/ | Longévité (maximum cité, milieu indiqué par la base) | 2026-10-14 |
 | `eaza-bpg` | EAZA Best Practice Guidelines (index) | https://www.eaza.net/bpg/ | Élevage seulement si un guide nommé couvre l’espèce | 2026-10-14 |

@@ -33,7 +33,7 @@ Une consigne d’élevage (ration, conseil, compatibilité) n’entre que depuis
 
 ## Identité programme
 
-Source unique initiale : `bac-pro-tcva-liste` — voir [programme.md](programme.md).
+Identité : `bac-pro-tcva-liste` — voir [programme.md](programme.md) et le PDF dans [cours/](cours/). L’arrêté du 11 août 2006 (`arrete-11-aout-2006`) ne remplace pas cette liste.
 
 ## Catalogue opérationnel
 

@@ -169,9 +169,23 @@ function parseMensurationsTable(block) {
   const measurements = {}
   const size = parseCitedCell(map['taille adulte'])
   if (size) measurements.adultSize = size
+  const mass = parseCitedCell(map['poids'])
+  if (mass) measurements.mass = mass
   const longev = parseCitedCell(map['longévité'] || map['longevite'])
   if (longev) measurements.longevity = longev
   return Object.keys(measurements).length ? measurements : null
+}
+
+function parseReproductionTable(block) {
+  const map = parseKeyValueTable(block)
+  const reproduction = {}
+  const season = parseCitedCell(map['période'] || map['periode'])
+  const clutch = parseCitedCell(map["nombre d'œufs"] || map['nombre d’œufs'] || map['nombre d’oeufs'])
+  const incubation = parseCitedCell(map['temps de couvaison'])
+  if (season) reproduction.season = season
+  if (clutch) reproduction.clutch = clutch
+  if (incubation) reproduction.incubation = incubation
+  return Object.keys(reproduction).length ? reproduction : null
 }
 
 function findLocalMedia(slug, kind, exts) {
@@ -223,7 +237,9 @@ function parseFiche(filePath) {
         !id.startsWith('anage-') &&
         id !== 'cites-appendices' &&
         id !== 'eaza-bpg' &&
-        id !== 'aza-acm',
+        id !== 'aza-acm' &&
+        id !== 'arrete-11-aout-2006' &&
+        id !== 'arrete-08-octobre-2018',
     )
 
   const coursePoints = courseRaw.map((p) => ({
@@ -267,14 +283,23 @@ function parseFiche(filePath) {
   const wildRange = fromTable || fromText
   const iucn = parseIucnTable(extractSection(md, 'Statut UICN'))
   const measurements = parseMensurationsTable(extractSection(md, 'Mensurations'))
+  const reproduction = parseReproductionTable(extractSection(md, 'Reproduction'))
   const school = {}
   const morphology = parseSchoolSection(extractSection(md, 'Morphologie'))
   const cites = parseSchoolSection(extractSection(md, 'Statut CITES'))
+  const domesticVarieties = parseSchoolSection(extractSection(md, 'Variétés domestiques'))
+  const cageSize = parseSchoolSection(extractSection(md, 'Taille de cage'))
+  const shopPrice = parseSchoolSection(extractSection(md, 'Prix en animalerie'))
+  const webPrice = parseSchoolSection(extractSection(md, 'Prix sur internet'))
   const captiveDiet = parseSchoolSection(extractSection(md, 'Alimentation en captivité'))
   const captiveAdvice = parseSchoolSection(extractSection(md, 'Conseils captivité'))
   const compatibility = parseSchoolSection(extractSection(md, 'Compatibilité'))
   if (morphology) school.morphology = morphology
   if (cites) school.cites = cites
+  if (domesticVarieties) school.domesticVarieties = domesticVarieties
+  if (cageSize) school.cageSize = cageSize
+  if (shopPrice) school.shopPrice = shopPrice
+  if (webPrice) school.webPrice = webPrice
   if (captiveDiet) school.captiveDiet = captiveDiet
   if (captiveAdvice) school.captiveAdvice = captiveAdvice
   if (compatibility) school.compatibility = compatibility
@@ -297,6 +322,7 @@ function parseFiche(filePath) {
   if (wildRange) bird.wildRange = wildRange
   if (iucn) bird.iucn = iucn
   if (measurements) bird.measurements = measurements
+  if (reproduction) bird.reproduction = reproduction
   if (Object.keys(school).length) bird.school = school
 
   if (media.imageCredit) bird.imageCredit = media.imageCredit

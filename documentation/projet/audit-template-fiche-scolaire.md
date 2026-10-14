@@ -2,6 +2,7 @@
 
 Document de référence consigné le **2026-10-13**.  
 Source template : fiche papier type « Colin de Virginie » (support scolaire TCVA).  
+Le formulaire vierge récupéré le 2026-10-14 est rangé dans [cours/](../ornithologie/cours/README.md) ; il ajoute des cases (poids, reproduction, prix, cage) que cet audit ne listait pas. Suite : [plan variétés domestiques](plan-adaptation-supports-cours.md) — ces cases restent hors écran.  
 Suite données : [plan-alignement-template-scolaire.md](plan-alignement-template-scolaire.md) · [sprint-alignement-template-scolaire.md](sprint-alignement-template-scolaire.md).  
 Suite écran : [plan-fiche-gabarit-cours.md](plan-fiche-gabarit-cours.md) · [sprint-fiche-gabarit-cours.md](sprint-fiche-gabarit-cours.md).  
 Suite recherche : [plan-recherche-champs-scolaires.md](plan-recherche-champs-scolaires.md) · [sprint-recherche-champs-scolaires.md](sprint-recherche-champs-scolaires.md).

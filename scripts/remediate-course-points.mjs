@@ -16,7 +16,7 @@ const NON_PROG =
 const OVERRIDES = {
   'gracula-religiosa': [
     ['programme', 'Mainate religieux ↔ *Gracula religiosa* ; Passériformes ; Sturnidés'],
-    ['programme', 'Seul Sturnidé du référentiel — distinct des Cacatuides / Psittacidés'],
+    ['programme', 'Seul Sturnidé du référentiel — distinct des Cacatuidés / Psittacidés'],
     ['sourcé', 'Préoccupation mineure ; tendance en diminution ; noir brillant + caroncules jaunes'],
     ['sourcé', 'Surtout frugivore arboricole ; forêts humides'],
     ['sourcé', 'Connu pour le mimétisme (sons, parole)'],
