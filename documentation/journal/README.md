@@ -78,6 +78,7 @@ Chronique courte des sessions de travail : décisions, avancement, blocages.
 | 2026-10-13 | [2026-10-13-7.md](2026-10-13-7.md) — UICN structuré + mensurations ADW |
 | 2026-10-14 | [2026-10-14.md](2026-10-14.md) — Plan + sprint recherche champs scolaires |
 | 2026-10-14 | [2026-10-14-2.md](2026-10-14-2.md) — Exécution pilote recherche champs scolaires |
+| 2026-10-14 | [2026-10-14-3.md](2026-10-14-3.md) — CITES, AnAge et morphologie sur les 85 fiches |
 | 2026-10-11 | [2026-10-11-3.md](2026-10-11-3.md) — Analyse pédagogique 0.2.0 + sprint remédiation |
 | 2026-10-11 | [2026-10-11-4.md](2026-10-11-4.md) — Exécution sprint remédiation 0.3 |
 | 2026-10-11 | [2026-10-11-5.md](2026-10-11-5.md) — Plan + sprint UI/UX ergonomie |

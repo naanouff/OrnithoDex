@@ -2,7 +2,7 @@
 
 - **Slug** : `serinus-mozambicus`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-13
+- **Dernière vérification** : 2026-10-14
 
 ## Identité
 
@@ -32,6 +32,31 @@
 |-------|--------|--------|
 | Taille adulte | 11–13 cm | adw-serinus-mozambicus |
 | Longévité | 8,5 ans (sauvage, maximum cité) ; 4–15 ans (captivité) | adw-serinus-mozambicus |
+
+## Morphologie
+
+Environ 12 cm. Mâle adulte : face, ventre, flancs, croupion et couvertures caudales jaune d’or ; rayures malaire et oculaire brun à noir. Dos, cou et couronne brun à vert-olive.  
+*Source : adw-serinus-mozambicus.*
+
+## Statut CITES
+
+Non inscrit (annexes du 2026-03-05). *Serinus serinus* (population d’Ukraine) est en Annexe III : ce n’est pas ce taxon.  
+*Source : cites-appendices.*
+
+## Alimentation en captivité
+
+Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.  
+*Sources : eaza-bpg ; aza-acm.*
+
+## Conseils captivité
+
+Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.  
+*Sources : eaza-bpg ; aza-acm.*
+
+## Compatibilité
+
+Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.  
+*Sources : eaza-bpg ; aza-acm.*
 
 ## Dimorphisme sexuel
 
@@ -83,3 +108,6 @@ Enregistrement XC1140446 (Marna Buys — CC BY-NC-SA 4.0) : https://xeno-canto.o
 | media-serinus-mozambicus-img | File:Yellow-fronted canary (Crithagra mozambica granti) male Kruger.jpg | Charles J. Sharp / Wikimedia Commons | 2024 | https://commons.wikimedia.org/wiki/File:Yellow-fronted_canary_(Crithagra_mozambica_granti)_male_Kruger.jpg | CC BY-SA 4.0 |
 | media-serinus-mozambicus-audio | XC1140446 | Marna Buys / Xeno-canto | | https://xeno-canto.org/1140446 | CC BY-NC-SA 4.0 |
 | adw-serinus-mozambicus | Serinus mozambicus | Animal Diversity Web | | https://animaldiversity.org/accounts/Serinus_mozambicus/ | Consulté 2026-10-13 |
+| cites-appendices | CITES Appendices I, II and III | CITES | 2026 | https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf | Consulté 2026-10-14 |
+| eaza-bpg | EAZA Best Practice Guidelines (index) | EAZA | | https://www.eaza.net/bpg/ | Consulté 2026-10-14 ; aucun guide d’espèce |
+| aza-acm | AZA Animal Care Manuals (liste publiée) | Association of Zoos & Aquariums | | https://www.aza.org/animal-care-manuals | Consulté 2026-10-14 ; aucun manuel pour cette espèce |

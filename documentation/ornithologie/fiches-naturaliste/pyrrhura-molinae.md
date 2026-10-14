@@ -2,7 +2,7 @@
 
 - **Slug** : `pyrrhura-molinae`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-13
+- **Dernière vérification** : 2026-10-14
 
 ## Identité
 
@@ -31,6 +31,31 @@
 |-------|--------|--------|
 | Taille adulte | 26 cm | birdlife-pyrrhura-molinae |
 | Longévité | 25–30 ans (captivité) | adw-pyrrhura-molinae |
+
+## Morphologie
+
+Joues vertes, critère cité pour la distinguer des autres conures. Sous-espèce nominale : du front à la nuque, plumes brunes ou grises.  
+*Source : adw-pyrrhura-molinae.*
+
+## Statut CITES
+
+Annexe II (Psittaciformes spp., annexes du 2026-03-05). *Pyrrhura cruentata* est en Annexe I : ce n’est pas ce taxon.  
+*Source : cites-appendices.*
+
+## Alimentation en captivité
+
+Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.  
+*Sources : eaza-bpg ; aza-acm.*
+
+## Conseils captivité
+
+Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.  
+*Sources : eaza-bpg ; aza-acm.*
+
+## Compatibilité
+
+Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.  
+*Sources : eaza-bpg ; aza-acm.*
 
 ## Dimorphisme sexuel
 
@@ -84,3 +109,6 @@ ADW : cris aigus et graves, sifflements, cris, babils, claquements de langue ; m
 | adw-pyrrhura-molinae | Pyrrhura molinae (green-cheeked parakeet) | Animal Diversity Web / Ana Horvath | | https://animaldiversity.org/accounts/Pyrrhura_molinae/ | Consulté 2026-10-10 |
 | media-pyrrhura-molinae-img | File:Green Cheecked Conure.jpg | Dan Muntz / Wikimedia Commons | 2008 | https://commons.wikimedia.org/wiki/File:Green_Cheecked_Conure.jpg | CC BY-SA 2.0 |
 | media-pyrrhura-molinae-audio | XC1180569 | Bo Shunqi 薄顺奇 / Xeno-canto | | https://xeno-canto.org/1180569 | CC BY-NC-SA 4.0 |
+| cites-appendices | CITES Appendices I, II and III | CITES | 2026 | https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf | Consulté 2026-10-14 |
+| eaza-bpg | EAZA Best Practice Guidelines (index) | EAZA | | https://www.eaza.net/bpg/ | Consulté 2026-10-14 ; aucun guide d’espèce |
+| aza-acm | AZA Animal Care Manuals (liste publiée) | Association of Zoos & Aquariums | | https://www.aza.org/animal-care-manuals | Consulté 2026-10-14 ; aucun manuel pour cette espèce |

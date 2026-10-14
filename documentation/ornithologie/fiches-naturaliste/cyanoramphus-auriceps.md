@@ -2,7 +2,7 @@
 
 - **Slug** : `cyanoramphus-auriceps`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-13
+- **Dernière vérification** : 2026-10-14
 
 ## Identité
 
@@ -24,6 +24,38 @@
 |-------|--------|--------|
 | Catégorie | Quasi menacé (NT) | birdlife-cyanoramphus-auriceps. |
 | Année évaluation | 2022 | birdlife-cyanoramphus-auriceps. |
+
+## Mensurations
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Taille adulte | Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification). | birdlife-cyanoramphus-auriceps |
+| Longévité | 9,3 ans (captivité ; un individu encore vivant après cette durée) | anage-cyanoramphus-auriceps |
+
+## Morphologie
+
+Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).  
+*Source : birdlife-cyanoramphus-auriceps.*
+
+## Statut CITES
+
+Annexe II (Psittaciformes spp., annexes du 2026-03-05).  
+*Source : cites-appendices.*
+
+## Alimentation en captivité
+
+Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.  
+*Sources : eaza-bpg ; aza-acm.*
+
+## Conseils captivité
+
+Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.  
+*Sources : eaza-bpg ; aza-acm.*
+
+## Compatibilité
+
+Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.  
+*Sources : eaza-bpg ; aza-acm.*
 
 ## Dimorphisme sexuel
 
@@ -75,3 +107,6 @@ Enregistrement XC526622 (James Lidster — CC BY-NC-SA 4.0) : https://xeno-canto
 | birdlife-cyanoramphus-auriceps | Yellow-fronted Parakeet Cyanoramphus auriceps — Species Factsheet | BirdLife International | 2022 | https://datazone.birdlife.org/species/factsheet/yellow-fronted-parakeet-cyanoramphus-auriceps | Consulté 2026-10-10 |
 | media-cyanoramphus-auriceps-img | File:Yellow-crowned parakeet - Kākāriki.jpg | Alexeyevitch / Wikimedia Commons | 2024 | https://commons.wikimedia.org/wiki/File:Yellow-crowned_parakeet_-_K%C4%81k%C4%81riki.jpg | Domaine public |
 | media-cyanoramphus-auriceps-audio | XC526622 | James Lidster / Xeno-canto | | https://xeno-canto.org/526622 | CC BY-NC-SA 4.0 |
+| cites-appendices | CITES Appendices I, II and III | CITES | 2026 | https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf | Consulté 2026-10-14 |
+| eaza-bpg | EAZA Best Practice Guidelines (index) | EAZA | | https://www.eaza.net/bpg/ | Consulté 2026-10-14 ; aucun guide d’espèce |
+| aza-acm | AZA Animal Care Manuals (liste publiée) | Association of Zoos & Aquariums | | https://www.aza.org/animal-care-manuals | Consulté 2026-10-14 ; aucun manuel pour cette espèce |

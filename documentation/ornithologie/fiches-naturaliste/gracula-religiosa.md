@@ -2,7 +2,7 @@
 
 - **Slug** : `gracula-religiosa`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-13
+- **Dernière vérification** : 2026-10-14
 
 ## Identité
 
@@ -30,7 +30,32 @@
 | Champ | Valeur | Source |
 |-------|--------|--------|
 | Taille adulte | 27–30 cm | birdlife-gracula-religiosa |
-| Longévité | na | |
+| Longévité | Non documenté — bases consultées le 2026-10-14 : AnAge (entrée absente). | anage-gracula-religiosa |
+
+## Morphologie
+
+27 à 30 cm, plumage noir lustré (reflets pourpres sur la couronne, la nuque et la poitrine, reflets verts sur le corps, queue turquoise). Aile noire à miroir blanc. Bec rouge à pointe jaune, caroncules nues jusqu’à la nuque.  
+*Source : adw-gracula-religiosa.*
+
+## Statut CITES
+
+Annexe II (*Gracula religiosa*, annexes du 2026-03-05).  
+*Source : cites-appendices.*
+
+## Alimentation en captivité
+
+Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.  
+*Sources : eaza-bpg ; aza-acm.*
+
+## Conseils captivité
+
+Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.  
+*Sources : eaza-bpg ; aza-acm.*
+
+## Compatibilité
+
+Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.  
+*Sources : eaza-bpg ; aza-acm.*
 
 ## Dimorphisme sexuel
 
@@ -85,3 +110,6 @@ Enregistrement XC1157137 (Ding Li Yong — CC BY-NC-ND 4.0) : https://xeno-canto
 | adw-gracula-religiosa | Gracula religiosa (hill myna) | Animal Diversity Web / Kelly Sims | | https://animaldiversity.org/accounts/Gracula_religiosa/ | Consulté 2026-10-10 |
 | media-gracula-religiosa-img | File:Hill Myna (Gracula religiosa intermedia), Thrigby Hall.jpg | Spencer Wright / Wikimedia Commons | 2009 | https://commons.wikimedia.org/wiki/File:Hill_Myna_(Gracula_religiosa_intermedia),_Thrigby_Hall.jpg | CC BY 2.0 |
 | media-gracula-religiosa-audio | XC1157137 | Ding Li Yong / Xeno-canto | | https://xeno-canto.org/1157137 | CC BY-NC-ND 4.0 |
+| cites-appendices | CITES Appendices I, II and III | CITES | 2026 | https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf | Consulté 2026-10-14 |
+| eaza-bpg | EAZA Best Practice Guidelines (index) | EAZA | | https://www.eaza.net/bpg/ | Consulté 2026-10-14 ; aucun guide d’espèce |
+| aza-acm | AZA Animal Care Manuals (liste publiée) | Association of Zoos & Aquariums | | https://www.aza.org/animal-care-manuals | Consulté 2026-10-14 ; aucun manuel pour cette espèce |

@@ -2,7 +2,7 @@
 
 - **Slug** : `stagonopleura-guttata`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-13
+- **Dernière vérification** : 2026-10-14
 
 ## Identité
 
@@ -31,6 +31,31 @@
 |-------|--------|--------|
 | Taille adulte | 12 cm | adw-stagonopleura-guttata |
 | Longévité | 5–7 ans (captivité) | adw-stagonopleura-guttata |
+
+## Morphologie
+
+Mâle : dessus brun, couvertures sus-caudales cramoisies, queue, front et couronne noirs, nuque gris cendre, gorge blanche, poitrine et ventre blancs. Bec et iris rouges, pattes gris foncé. Femelle semblable, souvent plus petite, bande noire étroite sur le front.  
+*Source : adw-stagonopleura-guttata.*
+
+## Statut CITES
+
+Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).  
+*Source : cites-appendices.*
+
+## Alimentation en captivité
+
+Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.  
+*Sources : eaza-bpg ; aza-acm.*
+
+## Conseils captivité
+
+Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.  
+*Sources : eaza-bpg ; aza-acm.*
+
+## Compatibilité
+
+Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.  
+*Sources : eaza-bpg ; aza-acm.*
 
 ## Dimorphisme sexuel
 
@@ -82,3 +107,6 @@ Enregistrement XC576505 (Marc Anderson — CC BY-NC-ND 4.0) : https://xeno-canto
 | media-stagonopleura-guttata-img | File:Stagonopleura guttata 1 - Glen Alice.jpg | JJ Harrison / Wikimedia Commons | 2019 | https://commons.wikimedia.org/wiki/File:Stagonopleura_guttata_1_-_Glen_Alice.jpg | CC BY-SA 4.0 |
 | media-stagonopleura-guttata-audio | XC576505 | Marc Anderson / Xeno-canto | | https://xeno-canto.org/576505 | CC BY-NC-ND 4.0 |
 | adw-stagonopleura-guttata | Stagonopleura guttata | Animal Diversity Web | | https://animaldiversity.org/accounts/Stagonopleura_guttata/ | Consulté 2026-10-13 |
+| cites-appendices | CITES Appendices I, II and III | CITES | 2026 | https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf | Consulté 2026-10-14 |
+| eaza-bpg | EAZA Best Practice Guidelines (index) | EAZA | | https://www.eaza.net/bpg/ | Consulté 2026-10-14 ; aucun guide d’espèce |
+| aza-acm | AZA Animal Care Manuals (liste publiée) | Association of Zoos & Aquariums | | https://www.aza.org/animal-care-manuals | Consulté 2026-10-14 ; aucun manuel pour cette espèce |

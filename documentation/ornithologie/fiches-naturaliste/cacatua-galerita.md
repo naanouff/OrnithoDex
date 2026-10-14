@@ -2,7 +2,7 @@
 
 - **Slug** : `cacatua-galerita`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-13
+- **Dernière vérification** : 2026-10-14
 
 ## Identité
 
@@ -31,6 +31,31 @@
 |-------|--------|--------|
 | Taille adulte | 50 cm | adw-cacatua-galerita |
 | Longévité | 57 ans (sauvage, maximum cité) | adw-cacatua-galerita |
+
+## Morphologie
+
+Grand oiseau blanc, 45 à 50 cm, masse moyenne 800 g, huppe jaune soufre.  
+*Source : adw-cacatua-galerita.*
+
+## Statut CITES
+
+Annexe II (Psittaciformes spp., annexes du 2026-03-05). *Cacatua goffiniana*, *haematuropygia*, *moluccensis* et *sulphurea* sont en Annexe I : ce n’est pas ce taxon.  
+*Source : cites-appendices.*
+
+## Alimentation en captivité
+
+Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.  
+*Sources : eaza-bpg ; aza-acm.*
+
+## Conseils captivité
+
+Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.  
+*Sources : eaza-bpg ; aza-acm.*
+
+## Compatibilité
+
+Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.  
+*Sources : eaza-bpg ; aza-acm.*
 
 ## Dimorphisme sexuel
 
@@ -86,3 +111,6 @@ BirdLife Australia : cri fort caractéristique se terminant par une légère mon
 | media-cacatua-galerita-img | File:Sulphur-crested cockatoo (Cacatua galerita galerita) Sydney.jpg | Charles J. Sharp / Wikimedia Commons | 2023 | https://commons.wikimedia.org/wiki/File:Sulphur-crested_cockatoo_(Cacatua_galerita_galerita)_Sydney.jpg | CC BY-SA 4.0 |
 | media-cacatua-galerita-audio | XC1177819 | AK / Xeno-canto | | https://xeno-canto.org/1177819 | CC BY-NC-SA 4.0 |
 | adw-cacatua-galerita | Cacatua galerita | Animal Diversity Web | | https://animaldiversity.org/accounts/Cacatua_galerita/ | Consulté 2026-10-13 |
+| cites-appendices | CITES Appendices I, II and III | CITES | 2026 | https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf | Consulté 2026-10-14 |
+| eaza-bpg | EAZA Best Practice Guidelines (index) | EAZA | | https://www.eaza.net/bpg/ | Consulté 2026-10-14 ; aucun guide d’espèce |
+| aza-acm | AZA Animal Care Manuals (liste publiée) | Association of Zoos & Aquariums | | https://www.aza.org/animal-care-manuals | Consulté 2026-10-14 ; aucun manuel pour cette espèce |

@@ -2,7 +2,7 @@
 
 - **Slug** : `neopsephotus-bourkii`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-13
+- **Dernière vérification** : 2026-10-14
 
 ## Identité
 
@@ -30,7 +30,32 @@
 | Champ | Valeur | Source |
 |-------|--------|--------|
 | Taille adulte | 18–23 cm | birdlife-neopsephotus-bourkii |
-| Longévité | na | |
+| Longévité | 12,6 ans (captivité, maximum cité) | anage-neopsephotus-bourkii |
+
+## Morphologie
+
+18 à 23 cm, queue d’environ 9 cm, masse environ 42 à 49 g.  
+*Source : adw-neopsephotus-bourkii.*
+
+## Statut CITES
+
+Annexe II (Psittaciformes spp., annexes du 2026-03-05).  
+*Source : cites-appendices.*
+
+## Alimentation en captivité
+
+Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.  
+*Sources : eaza-bpg ; aza-acm.*
+
+## Conseils captivité
+
+Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.  
+*Sources : eaza-bpg ; aza-acm.*
+
+## Compatibilité
+
+Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.  
+*Sources : eaza-bpg ; aza-acm.*
 
 ## Dimorphisme sexuel
 
@@ -82,3 +107,6 @@ Enregistrement XC681342 (Marc Anderson — CC BY-NC-ND 4.0) : https://xeno-canto
 | adw-neopsephotus-bourkii | Neopsephotus bourkii (Bourke's parrot) | Animal Diversity Web / Janice Pappas | | https://animaldiversity.org/accounts/Neopsephotus_bourkii/ | Consulté 2026-10-10 |
 | media-neopsephotus-bourkii-img | File:Bourkes Parrot (Neopsephotus bourkii)9.jpg | Ljosa / Wikimedia Commons | | https://commons.wikimedia.org/wiki/File:Bourkes_Parrot_(Neopsephotus_bourkii)9.jpg | Domaine public |
 | media-neopsephotus-bourkii-audio | XC681342 | Marc Anderson / Xeno-canto | | https://xeno-canto.org/681342 | CC BY-NC-ND 4.0 |
+| cites-appendices | CITES Appendices I, II and III | CITES | 2026 | https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf | Consulté 2026-10-14 |
+| eaza-bpg | EAZA Best Practice Guidelines (index) | EAZA | | https://www.eaza.net/bpg/ | Consulté 2026-10-14 ; aucun guide d’espèce |
+| aza-acm | AZA Animal Care Manuals (liste publiée) | Association of Zoos & Aquariums | | https://www.aza.org/animal-care-manuals | Consulté 2026-10-14 ; aucun manuel pour cette espèce |

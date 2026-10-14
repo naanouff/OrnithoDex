@@ -2,7 +2,7 @@
 
 - **Slug** : `eolophus-roseicapilla`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-13
+- **Dernière vérification** : 2026-10-14
 
 ## Identité
 
@@ -24,6 +24,38 @@
 |-------|--------|--------|
 | Catégorie | Préoccupation mineure (LC) | birdlife-eolophus-roseicapilla |
 | Année évaluation | 2018 | birdlife-eolophus-roseicapilla |
+
+## Mensurations
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Taille adulte | Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification). | birdlife-eolophus-roseicapilla |
+| Longévité | 40 ans (captivité, maximum cité) | anage-eolophus-roseicapilla |
+
+## Morphologie
+
+Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).  
+*Source : birdlife-eolophus-roseicapilla.*
+
+## Statut CITES
+
+Annexe II (Psittaciformes spp., annexes du 2026-03-05).  
+*Source : cites-appendices.*
+
+## Alimentation en captivité
+
+Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.  
+*Sources : eaza-bpg ; aza-acm.*
+
+## Conseils captivité
+
+Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.  
+*Sources : eaza-bpg ; aza-acm.*
+
+## Compatibilité
+
+Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.  
+*Sources : eaza-bpg ; aza-acm.*
 
 ## Dimorphisme sexuel
 
@@ -77,3 +109,6 @@ BirdLife Australia : cri aigu caractéristique « chi-chi ».
 | birdlife-au-galah | Galah — Bird profile | BirdLife Australia | | https://birdlife.org.au/bird-profiles/galah/ | Consulté 2026-10-10 |
 | media-eolophus-roseicapilla-img | File:Eolophus roseicapilla - a pair of Galahs -Australia.jpg | Tatiana Gerus / Wikimedia Commons | 2008 | https://commons.wikimedia.org/wiki/File:Eolophus_roseicapilla_-_a_pair_of_Galahs_-Australia.jpg | CC BY 2.0 |
 | media-eolophus-roseicapilla-audio | XC1181679 | Khristos Nizamis / Xeno-canto | | https://xeno-canto.org/1181679 | CC BY-NC-ND 4.0 |
+| cites-appendices | CITES Appendices I, II and III | CITES | 2026 | https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf | Consulté 2026-10-14 |
+| eaza-bpg | EAZA Best Practice Guidelines (index) | EAZA | | https://www.eaza.net/bpg/ | Consulté 2026-10-14 ; aucun guide d’espèce |
+| aza-acm | AZA Animal Care Manuals (liste publiée) | Association of Zoos & Aquariums | | https://www.aza.org/animal-care-manuals | Consulté 2026-10-14 ; aucun manuel pour cette espèce |

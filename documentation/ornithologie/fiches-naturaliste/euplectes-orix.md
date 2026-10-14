@@ -2,7 +2,7 @@
 
 - **Slug** : `euplectes-orix`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-13
+- **Dernière vérification** : 2026-10-14
 
 ## Identité
 
@@ -24,6 +24,38 @@
 |-------|--------|--------|
 | Catégorie | Préoccupation mineure (LC) | birdlife-euplectes-orix. |
 | Année évaluation | 2018 | birdlife-euplectes-orix. |
+
+## Mensurations
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Taille adulte | Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification). | birdlife-euplectes-orix |
+| Longévité | Non documenté — bases consultées le 2026-10-14 : AnAge (entrée absente). | anage-euplectes-orix |
+
+## Morphologie
+
+Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).  
+*Source : birdlife-euplectes-orix.*
+
+## Statut CITES
+
+Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).  
+*Source : cites-appendices.*
+
+## Alimentation en captivité
+
+Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.  
+*Sources : eaza-bpg ; aza-acm.*
+
+## Conseils captivité
+
+Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.  
+*Sources : eaza-bpg ; aza-acm.*
+
+## Compatibilité
+
+Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.  
+*Sources : eaza-bpg ; aza-acm.*
 
 ## Dimorphisme sexuel
 
@@ -76,3 +108,6 @@ Enregistrement XC1183523 (African Bioacoustics Community — CC BY-NC-SA 4.0) : 
 | birdlife-euplectes-orix | Southern Red Bishop Euplectes orix — Species Factsheet | BirdLife International | 2018 | https://datazone.birdlife.org/species/factsheet/southern-red-bishop-euplectes-orix | Consulté 2026-10-10 |
 | media-euplectes-orix-img | File:Southern Red Bishop (Euplectes orix) male ... (52656476541).jpg | Bernard DUPONT / Wikimedia Commons | 2023 | https://commons.wikimedia.org/wiki/File:Southern_Red_Bishop_(Euplectes_orix)_male_..._(52656476541).jpg | CC BY-SA 2.0 |
 | media-euplectes-orix-audio | XC1183523 | African Bioacoustics Community / Xeno-canto | | https://xeno-canto.org/1183523 | CC BY-NC-SA 4.0 |
+| cites-appendices | CITES Appendices I, II and III | CITES | 2026 | https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf | Consulté 2026-10-14 |
+| eaza-bpg | EAZA Best Practice Guidelines (index) | EAZA | | https://www.eaza.net/bpg/ | Consulté 2026-10-14 ; aucun guide d’espèce |
+| aza-acm | AZA Animal Care Manuals (liste publiée) | Association of Zoos & Aquariums | | https://www.aza.org/animal-care-manuals | Consulté 2026-10-14 ; aucun manuel pour cette espèce |

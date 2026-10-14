@@ -2,7 +2,7 @@
 
 - **Slug** : `psittacula-krameri-manillensis`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-13
+- **Dernière vérification** : 2026-10-14
 
 ## Identité
 
@@ -30,7 +30,32 @@
 | Champ | Valeur | Source |
 |-------|--------|--------|
 | Taille adulte | 38–42 cm | adw-psittacula-krameri |
-| Longévité | na | |
+| Longévité | 34 ans (captivité, maximum cité) | anage-psittacula-krameri-manillensis |
+
+## Morphologie
+
+Corps vert, bec rougeâtre, longue queue pointue (jusqu’à 25 cm, plus de la moitié du corps). Le mâle adulte a une teinte pourpre sombre autour du cou.  
+*Source : adw-psittacula-krameri.*
+
+## Statut CITES
+
+Non inscrit : *Psittacula krameri* (donc la sous-espèce *manillensis*) est exclu des Psittaciformes spp. (annexes du 2026-03-05).  
+*Source : cites-appendices.*
+
+## Alimentation en captivité
+
+Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.  
+*Sources : eaza-bpg ; aza-acm.*
+
+## Conseils captivité
+
+Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.  
+*Sources : eaza-bpg ; aza-acm.*
+
+## Compatibilité
+
+Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.  
+*Sources : eaza-bpg ; aza-acm.*
 
 ## Dimorphisme sexuel
 
@@ -85,3 +110,6 @@ ADW : cris rapides « kew-kew-kew », cris de menace « krrrr », agrégatifs do
 | adw-psittacula-krameri | Psittacula krameri (rose-ringed parakeet) | Animal Diversity Web / Ashley Flory | | https://animaldiversity.org/accounts/Psittacula_krameri/ | Consulté 2026-10-10 |
 | media-psittacula-krameri-img | File:Indian Ringneck parrot. (Psittacula krameri), (9779826796).jpg | Bernard Spragg. NZ / Wikimedia Commons | 2008 | https://commons.wikimedia.org/wiki/File:Indian_Ringneck_parrot._(Psittacula_krameri),_(9779826796).jpg | CC0 |
 | media-psittacula-krameri-audio | XC1180800 | Sam Hambly / Xeno-canto | | https://xeno-canto.org/1180800 | CC BY-NC-SA 4.0 |
+| cites-appendices | CITES Appendices I, II and III | CITES | 2026 | https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf | Consulté 2026-10-14 |
+| eaza-bpg | EAZA Best Practice Guidelines (index) | EAZA | | https://www.eaza.net/bpg/ | Consulté 2026-10-14 ; aucun guide d’espèce |
+| aza-acm | AZA Animal Care Manuals (liste publiée) | Association of Zoos & Aquariums | | https://www.aza.org/animal-care-manuals | Consulté 2026-10-14 ; aucun manuel pour cette espèce |

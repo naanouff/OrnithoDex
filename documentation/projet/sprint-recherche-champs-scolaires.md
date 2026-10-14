@@ -40,7 +40,7 @@ Mêmes 12 que [sprint-alignement-template-scolaire.md](sprint-alignement-templat
 
 ## Suite
 
-Lots de 6 sur les 73 espèces restantes, même barre de source.
+Lots de 6 sur les 73 espèces restantes : faits le 2026-10-14 (`scripts/apply-recherche-collection.mjs`). L’élevage reste une trace, faute de guide nommé.
 
 ## Documents liés
 

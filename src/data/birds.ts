@@ -143,6 +143,28 @@ export const birds: Bird[] = [
         "publisher": "Peter Boesman / Xeno-canto",
         "url": "https://xeno-canto.org/947900",
         "note": "CC BY-NC-ND 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
       }
     ],
     "wildRange": {
@@ -174,6 +196,44 @@ export const birds: Bird[] = [
         "sourceIds": [
           "adw-agapornis-fischeri"
         ]
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Petite perruche au plumage vif ; mâle et femelle d’apparence identique. Envergure 88 à 89 mm.",
+        "sourceIds": [
+          "adw-agapornis-fischeri"
+        ]
+      },
+      "cites": {
+        "value": "Annexe II (Psittaciformes spp., annexes du 2026-03-05).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
       }
     },
     "imageCredit": "Peter Békési — CC BY-SA 2.0",
@@ -311,6 +371,28 @@ export const birds: Bird[] = [
         "publisher": "Magnus Wadstein / Xeno-canto",
         "url": "https://xeno-canto.org/933097",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
       }
     ],
     "wildRange": {
@@ -328,6 +410,60 @@ export const birds: Bird[] = [
         "birdlife-agapornis-lilianae."
       ],
       "year": "2018"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-agapornis-lilianae"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "19,2 ans (captivité, maximum cité)",
+        "sourceIds": [
+          "anage-agapornis-lilianae"
+        ]
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-agapornis-lilianae"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Annexe II (Psittaciformes spp., annexes du 2026-03-05).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Lip Kee — CC BY-SA 2.0",
     "imageSourceId": "media-agapornis-lilianae-img",
@@ -462,6 +598,28 @@ export const birds: Bird[] = [
         "publisher": "Dries Van de Loock / Xeno-canto",
         "url": "https://xeno-canto.org/585260",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
       }
     ],
     "iucn": {
@@ -469,6 +627,61 @@ export const birds: Bird[] = [
       "sourceIds": [
         "birdlife-agapornis-nigrigenis."
       ]
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-agapornis-nigrigenis"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : AnAge (entrée absente).",
+        "sourceIds": [
+          "anage-agapornis-nigrigenis"
+        ],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-agapornis-nigrigenis"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Annexe II (Psittaciformes spp., annexes du 2026-03-05).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Huub Veldhuijzen van Zanten / Naturalis — CC BY-SA",
     "imageSourceId": "media-agapornis-nigrigenis-img",
@@ -624,6 +837,28 @@ export const birds: Bird[] = [
         "publisher": "Animal Diversity Web",
         "url": "https://animaldiversity.org/accounts/Agapornis_personatus/",
         "note": "Consulté 2026-10-13"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
       }
     ],
     "wildRange": {
@@ -643,11 +878,56 @@ export const birds: Bird[] = [
       "year": "2018"
     },
     "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "adw-agapornis-personatus"
+        ],
+        "undocumented": true
+      },
       "longevity": {
         "value": "10–20 ans (captivité)",
         "sourceIds": [
           "adw-agapornis-personatus"
         ]
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Corps vert, tête et masque brun-noir, gorge noire, poitrine et collier jaune citron, pattes grises, bec corail, cercle blanc autour de l’œil.",
+        "sourceIds": [
+          "adw-agapornis-personatus"
+        ]
+      },
+      "cites": {
+        "value": "Annexe II (Psittaciformes spp., annexes du 2026-03-05).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
       }
     },
     "imageCredit": "Becky Matsubara — CC BY 2.0",
@@ -798,6 +1078,28 @@ export const birds: Bird[] = [
         "publisher": "African Bioacoustics Community / Xeno-canto",
         "url": "https://xeno-canto.org/1101865",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
       }
     ],
     "wildRange": {
@@ -832,6 +1134,44 @@ export const birds: Bird[] = [
         "sourceIds": [
           "adw-agapornis-roseicollis"
         ]
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Environ 55 g et 15 cm ; les femelles sont un peu plus lourdes que les mâles.",
+        "sourceIds": [
+          "adw-agapornis-roseicollis"
+        ]
+      },
+      "cites": {
+        "value": "Non inscrit : *Agapornis roseicollis* est exclu des Psittaciformes spp. (annexes du 2026-03-05).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
       }
     },
     "imageCredit": "Charles J. Sharp — CC BY-SA 4.0",
@@ -1453,6 +1793,28 @@ export const birds: Bird[] = [
         "publisher": "Peter Boesman / Xeno-canto",
         "url": "https://xeno-canto.org/509854",
         "note": "CC BY-NC-ND 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
       }
     ],
     "iucn": {
@@ -1461,6 +1823,61 @@ export const birds: Bird[] = [
         "birdlife-amadina-fasciata."
       ],
       "year": "2024"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-amadina-fasciata"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : AnAge (entrée absente).",
+        "sourceIds": [
+          "anage-amadina-fasciata"
+        ],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-amadina-fasciata"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "David Boettger — Domaine public",
     "imageSourceId": "media-amadina-fasciata-img",
@@ -1611,6 +2028,28 @@ export const birds: Bird[] = [
         "publisher": "Ding Li Yong / Xeno-canto",
         "url": "https://xeno-canto.org/698326",
         "note": "CC BY-NC-ND 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
       }
     ],
     "iucn": {
@@ -1626,6 +2065,51 @@ export const birds: Bird[] = [
         "sourceIds": [
           "birdlife-amandava-amandava"
         ]
+      },
+      "longevity": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : AnAge (entrée absente).",
+        "sourceIds": [
+          "anage-amandava-amandava"
+        ],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Environ 10 cm. Mue annuelle du plumage nuptial ; mâle nuptial à couronne et dos rouge profond.",
+        "sourceIds": [
+          "adw-amandava-amandava"
+        ]
+      },
+      "cites": {
+        "value": "Non inscrit (annexes du 2026-03-05). *Amandava formosa* est en Annexe II : ce n’est pas ce taxon.",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
       }
     },
     "imageCredit": "Mike Prince — CC BY 2.0",
@@ -1758,6 +2242,28 @@ export const birds: Bird[] = [
         "publisher": "Dries Van de Loock / Xeno-canto",
         "url": "https://xeno-canto.org/872300",
         "note": "CC BY-NC-ND 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
       }
     ],
     "wildRange": {
@@ -1775,6 +2281,61 @@ export const birds: Bird[] = [
         "birdlife-amandava-subflava."
       ],
       "year": "2018"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-amandava-subflava"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : AnAge (entrée absente).",
+        "sourceIds": [
+          "anage-amandava-subflava"
+        ],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-amandava-subflava"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Non inscrit (annexes du 2026-03-05). *Amandava formosa* est en Annexe II : ce n’est pas ce taxon.",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Alan Manson — CC BY-SA 2.0",
     "imageSourceId": "media-amandava-subflava-img",
@@ -1921,6 +2482,28 @@ export const birds: Bird[] = [
         "publisher": "Ricardo José Mitidieri / Xeno-canto",
         "url": "https://xeno-canto.org/554117",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
       }
     ],
     "wildRange": {
@@ -1947,6 +2530,50 @@ export const birds: Bird[] = [
         "sourceIds": [
           "adw-amazona-aestiva"
         ]
+      },
+      "longevity": {
+        "value": "49 ans (captivité, maximum cité)",
+        "sourceIds": [
+          "anage-amazona-aestiva"
+        ]
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Corps surtout vert vif ; plumes bleu vif sur la couronne, jaune autour de la face et à l’extrémité des scapulaires. Bec en grande partie noir. Sexes semblables à l’œil humain.",
+        "sourceIds": [
+          "adw-amazona-aestiva"
+        ]
+      },
+      "cites": {
+        "value": "Annexe II (Psittaciformes spp., annexes du 2026-03-05).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
       }
     },
     "imageCredit": "H. Zell — CC BY-SA 3.0",
@@ -2081,6 +2708,28 @@ export const birds: Bird[] = [
         "publisher": "José / Xeno-canto",
         "url": "https://xeno-canto.org/1060162",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
       }
     ],
     "wildRange": {
@@ -2099,6 +2748,61 @@ export const birds: Bird[] = [
         "birdlife-bolborhynchus-lineola"
       ],
       "year": "2022"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-bolborhynchus-lineola"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : AnAge (entrée absente).",
+        "sourceIds": [
+          "anage-bolborhynchus-lineola-lineola"
+        ],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-bolborhynchus-lineola"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Annexe II (Psittaciformes spp., annexes du 2026-03-05).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "thibaudaronson — CC BY-SA 4.0",
     "imageSourceId": "media-bolborhynchus-lineola-img",
@@ -2242,6 +2946,28 @@ export const birds: Bird[] = [
         "publisher": "Animal Diversity Web",
         "url": "https://animaldiversity.org/accounts/Cacatua_alba/",
         "note": "Consulté 2026-10-13"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
       }
     ],
     "iucn": {
@@ -2253,7 +2979,7 @@ export const birds: Bird[] = [
     },
     "measurements": {
       "adultSize": {
-        "value": "25–31 cm",
+        "value": "46 cm (longueur moyenne) ; envergure 25–31 cm",
         "sourceIds": [
           "adw-cacatua-alba"
         ]
@@ -2263,6 +2989,44 @@ export const birds: Bird[] = [
         "sourceIds": [
           "adw-cacatua-alba"
         ]
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Grand oiseau blanc, dessous des ailes et de la queue jaunâtre, large huppe en éventail. Bec et pattes gris foncé. Iris brun sombre chez le mâle, rougeâtre chez la femelle.",
+        "sourceIds": [
+          "adw-cacatua-alba"
+        ]
+      },
+      "cites": {
+        "value": "Annexe II (Psittaciformes spp., annexes du 2026-03-05). *Cacatua goffiniana*, *haematuropygia*, *moluccensis* et *sulphurea* sont en Annexe I : ce n’est pas ce taxon.",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
       }
     },
     "imageCredit": "Kevin T — CC BY 2.0",
@@ -2419,6 +3183,28 @@ export const birds: Bird[] = [
         "publisher": "Animal Diversity Web",
         "url": "https://animaldiversity.org/accounts/Cacatua_galerita/",
         "note": "Consulté 2026-10-13"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
       }
     ],
     "wildRange": {
@@ -2452,6 +3238,44 @@ export const birds: Bird[] = [
         "sourceIds": [
           "adw-cacatua-galerita"
         ]
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Grand oiseau blanc, 45 à 50 cm, masse moyenne 800 g, huppe jaune soufre.",
+        "sourceIds": [
+          "adw-cacatua-galerita"
+        ]
+      },
+      "cites": {
+        "value": "Annexe II (Psittaciformes spp., annexes du 2026-03-05). *Cacatua goffiniana*, *haematuropygia*, *moluccensis* et *sulphurea* sont en Annexe I : ce n’est pas ce taxon.",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
       }
     },
     "imageCredit": "Charles J. Sharp — CC BY-SA 4.0",
@@ -3573,6 +4397,28 @@ export const birds: Bird[] = [
         "publisher": "James Lidster / Xeno-canto",
         "url": "https://xeno-canto.org/526622",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
       }
     ],
     "wildRange": {
@@ -3590,6 +4436,60 @@ export const birds: Bird[] = [
         "birdlife-cyanoramphus-auriceps."
       ],
       "year": "2022"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-cyanoramphus-auriceps"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "9,3 ans (captivité ; un individu encore vivant après cette durée)",
+        "sourceIds": [
+          "anage-cyanoramphus-auriceps"
+        ]
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-cyanoramphus-auriceps"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Annexe II (Psittaciformes spp., annexes du 2026-03-05).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Alexeyevitch — domaine public",
     "imageSourceId": "media-cyanoramphus-auriceps-img",
@@ -3736,6 +4636,28 @@ export const birds: Bird[] = [
         "publisher": "Meena Haribal / Xeno-canto",
         "url": "https://xeno-canto.org/956617",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
       }
     ],
     "wildRange": {
@@ -3752,6 +4674,60 @@ export const birds: Bird[] = [
       "sourceIds": [
         "birdlife-cyanoramphus-novaezelandiae."
       ]
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-cyanoramphus-novaezelandiae"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "12,4 ans (captivité ; un individu encore vivant après cette durée)",
+        "sourceIds": [
+          "anage-cyanoramphus-novaezelandiae"
+        ]
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-cyanoramphus-novaezelandiae"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Annexe I (annexes CITES du 2026-03-05). *Cyanoramphus auriceps* relève de l’Annexe II (Psittaciformes spp.).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Bernard Spragg. NZ — CC0",
     "imageSourceId": "media-cyanoramphus-novaezelandiae-img",
@@ -3902,6 +4878,28 @@ export const birds: Bird[] = [
         "publisher": "Khristos Nizamis / Xeno-canto",
         "url": "https://xeno-canto.org/1181679",
         "note": "CC BY-NC-ND 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
       }
     ],
     "wildRange": {
@@ -3920,6 +4918,60 @@ export const birds: Bird[] = [
         "birdlife-eolophus-roseicapilla"
       ],
       "year": "2018"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-eolophus-roseicapilla"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "40 ans (captivité, maximum cité)",
+        "sourceIds": [
+          "anage-eolophus-roseicapilla"
+        ]
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-eolophus-roseicapilla"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Annexe II (Psittaciformes spp., annexes du 2026-03-05).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Tatiana Gerus — CC BY 2.0",
     "imageSourceId": "media-eolophus-roseicapilla-img",
@@ -4053,6 +5105,28 @@ export const birds: Bird[] = [
         "publisher": "Louis Masarei / Xeno-canto",
         "url": "https://xeno-canto.org/960939",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
       }
     ],
     "wildRange": {
@@ -4070,6 +5144,60 @@ export const birds: Bird[] = [
         "birdlife-chloebia-gouldiae."
       ],
       "year": "2022"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-chloebia-gouldiae"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "6 ans (captivité, maximum cité)",
+        "sourceIds": [
+          "anage-erythrura-gouldiae"
+        ]
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-chloebia-gouldiae"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Kym Nicolson — CC BY 4.0",
     "imageSourceId": "media-erythrura-gouldiae-img",
@@ -4201,6 +5329,28 @@ export const birds: Bird[] = [
         "publisher": "Patrik Åberg / Xeno-canto",
         "url": "https://xeno-canto.org/40164",
         "note": "CC BY-NC-SA 3.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
       }
     ],
     "iucn": {
@@ -4209,6 +5359,61 @@ export const birds: Bird[] = [
         "birdlife-erythrura-psittacea."
       ],
       "year": "2018"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-erythrura-psittacea"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : AnAge (entrée absente).",
+        "sourceIds": [
+          "anage-erythrura-psittacea"
+        ],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-erythrura-psittacea"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "JJ Harrison — CC BY-SA 3.0",
     "imageSourceId": "media-erythrura-psittacea-img",
@@ -4340,6 +5545,28 @@ export const birds: Bird[] = [
         "publisher": "Chi-Hsuan Shao / Xeno-canto",
         "url": "https://xeno-canto.org/1003825",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
       }
     ],
     "wildRange": {
@@ -4359,6 +5586,60 @@ export const birds: Bird[] = [
         "birdlife-erythrura-trichroa."
       ],
       "year": "2018"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-erythrura-trichroa"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "longévité maximale non établie ; des individus ont vécu jusqu’à 2,2 ans (sauvage)",
+        "sourceIds": [
+          "anage-erythrura-trichroa"
+        ]
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-erythrura-trichroa"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Peter Halasz — CC BY-SA 2.5 / 3.0",
     "imageSourceId": "media-erythrura-trichroa-img",
@@ -4508,6 +5789,28 @@ export const birds: Bird[] = [
         "publisher": "Walter Wallner / Xeno-canto",
         "url": "https://xeno-canto.org/1155179",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
       }
     ],
     "wildRange": {
@@ -4539,6 +5842,44 @@ export const birds: Bird[] = [
         "sourceIds": [
           "adw-estrilda-astrild"
         ]
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Petit passereau gris-brun, bec conique et zone de la face rouges.",
+        "sourceIds": [
+          "adw-estrilda-astrild"
+        ]
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
       }
     },
     "imageCredit": "Derek Keats — CC BY 2.0",
@@ -4671,6 +6012,28 @@ export const birds: Bird[] = [
         "publisher": "Peter Boesman / Xeno-canto",
         "url": "https://xeno-canto.org/1081214",
         "note": "CC BY-NC-ND 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
       }
     ],
     "wildRange": {
@@ -4688,6 +6051,61 @@ export const birds: Bird[] = [
         "birdlife-glaucestrilda-coerulescens."
       ],
       "year": "2018"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-glaucestrilda-coerulescens"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : AnAge (entrée absente).",
+        "sourceIds": [
+          "anage-estrilda-caerulescens"
+        ],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-glaucestrilda-coerulescens"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Charles J. Sharp — CC BY-SA 4.0",
     "imageSourceId": "media-estrilda-caerulescens-img",
@@ -4818,6 +6236,28 @@ export const birds: Bird[] = [
         "publisher": "Peter Boesman / Xeno-canto",
         "url": "https://xeno-canto.org/1081191",
         "note": "CC BY-NC-ND 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
       }
     ],
     "iucn": {
@@ -4825,6 +6265,61 @@ export const birds: Bird[] = [
       "sourceIds": [
         "birdlife-estrilda-melpoda."
       ]
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-estrilda-melpoda"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : AnAge (entrée absente).",
+        "sourceIds": [
+          "anage-estrilda-melpoda"
+        ],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-estrilda-melpoda"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Pearly85 — CC BY 2.0",
     "imageSourceId": "media-estrilda-melpoda-img",
@@ -4956,6 +6451,28 @@ export const birds: Bird[] = [
         "publisher": "Sébastien Birard / Xeno-canto",
         "url": "https://xeno-canto.org/1154517",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
       }
     ],
     "iucn": {
@@ -4964,6 +6481,61 @@ export const birds: Bird[] = [
         "birdlife-estrilda-troglodytes."
       ],
       "year": "2018"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-estrilda-troglodytes"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : AnAge (entrée absente).",
+        "sourceIds": [
+          "anage-estrilda-troglodytes"
+        ],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-estrilda-troglodytes"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Francesco Veronesi — CC BY-SA 2.0",
     "imageSourceId": "media-estrilda-troglodytes-img",
@@ -5095,6 +6667,28 @@ export const birds: Bird[] = [
         "publisher": "African Bioacoustics Community / Xeno-canto",
         "url": "https://xeno-canto.org/1183523",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
       }
     ],
     "iucn": {
@@ -5103,6 +6697,61 @@ export const birds: Bird[] = [
         "birdlife-euplectes-orix."
       ],
       "year": "2018"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-euplectes-orix"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : AnAge (entrée absente).",
+        "sourceIds": [
+          "anage-euplectes-orix"
+        ],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-euplectes-orix"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Bernard DUPONT — CC BY-SA 2.0",
     "imageSourceId": "media-euplectes-orix-img",
@@ -5236,6 +6885,28 @@ export const birds: Bird[] = [
         "publisher": "Hans Matheve / Xeno-canto",
         "url": "https://xeno-canto.org/512761",
         "note": "CC BY-NC-ND 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
       }
     ],
     "iucn": {
@@ -5244,6 +6915,60 @@ export const birds: Bird[] = [
         "birdlife-forpus-coelestis."
       ],
       "year": "2024"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-forpus-coelestis"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "10,4 ans (captivité, maximum cité)",
+        "sourceIds": [
+          "anage-forpus-coelestis"
+        ]
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-forpus-coelestis"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Annexe II (Psittaciformes spp., annexes du 2026-03-05).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Ruth Rogers — CC BY 2.0",
     "imageSourceId": "media-forpus-coelestis-img",
@@ -6095,6 +7820,28 @@ export const birds: Bird[] = [
         "publisher": "Ding Li Yong / Xeno-canto",
         "url": "https://xeno-canto.org/1157137",
         "note": "CC BY-NC-ND 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
       }
     ],
     "iucn": {
@@ -6110,6 +7857,51 @@ export const birds: Bird[] = [
         "sourceIds": [
           "birdlife-gracula-religiosa"
         ]
+      },
+      "longevity": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : AnAge (entrée absente).",
+        "sourceIds": [
+          "anage-gracula-religiosa"
+        ],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "27 à 30 cm, plumage noir lustré (reflets pourpres sur la couronne, la nuque et la poitrine, reflets verts sur le corps, queue turquoise). Aile noire à miroir blanc. Bec rouge à pointe jaune, caroncules nues jusqu’à la nuque.",
+        "sourceIds": [
+          "adw-gracula-religiosa"
+        ]
+      },
+      "cites": {
+        "value": "Annexe II (*Gracula religiosa*, annexes du 2026-03-05).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
       }
     },
     "imageCredit": "Spencer Wright — CC BY 2.0",
@@ -6239,6 +8031,28 @@ export const birds: Bird[] = [
         "publisher": "Bram Piot / Xeno-canto",
         "url": "https://xeno-canto.org/405752",
         "note": "CC BY-NC-SA 4.0 ; catalogué *L. larvata* (IOC)"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
       }
     ],
     "wildRange": {
@@ -6256,6 +8070,61 @@ export const birds: Bird[] = [
         "birdlife-lagonosticta-vinacea."
       ],
       "year": "2024"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-lagonosticta-vinacea"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : AnAge (entrée absente).",
+        "sourceIds": [
+          "anage-lagonosticta-larvata-vinacea"
+        ],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-lagonosticta-vinacea"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Francesco Veronesi — CC BY-SA 2.0",
     "imageSourceId": "media-lagonosticta-larvata-vinacea-img",
@@ -6386,6 +8255,28 @@ export const birds: Bird[] = [
         "publisher": "African Bioacoustics Community / Xeno-canto",
         "url": "https://xeno-canto.org/1145629",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
       }
     ],
     "iucn": {
@@ -6393,6 +8284,61 @@ export const birds: Bird[] = [
       "sourceIds": [
         "birdlife-lagonosticta-senegala."
       ]
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-lagonosticta-senegala"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : AnAge (entrée absente).",
+        "sourceIds": [
+          "anage-lagonosticta-senegala"
+        ],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-lagonosticta-senegala"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Charles J. Sharp — CC BY-SA 4.0",
     "imageSourceId": "media-lagonosticta-senegala-img",
@@ -6524,6 +8470,28 @@ export const birds: Bird[] = [
         "publisher": "Zsombor Károlyi / Xeno-canto",
         "url": "https://xeno-canto.org/1163939",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
       }
     ],
     "iucn": {
@@ -6532,6 +8500,61 @@ export const birds: Bird[] = [
         "birdlife-euodice-cantans."
       ],
       "year": "2018"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-euodice-cantans"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : AnAge (entrée absente).",
+        "sourceIds": [
+          "anage-lonchura-cantans"
+        ],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-euodice-cantans"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Edward Cwik — CC BY-SA 3.0",
     "imageSourceId": "media-lonchura-cantans-img",
@@ -6663,6 +8686,28 @@ export const birds: Bird[] = [
         "publisher": "Jonathan Onongo / Xeno-canto",
         "url": "https://xeno-canto.org/1165783",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
       }
     ],
     "iucn": {
@@ -6671,6 +8716,61 @@ export const birds: Bird[] = [
         "birdlife-spermestes-cucullata."
       ],
       "year": "2024"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-spermestes-cucullata"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : AnAge (entrée absente).",
+        "sourceIds": [
+          "anage-lonchura-cucullata"
+        ],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-spermestes-cucullata"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Charles J. Sharp — CC BY-SA 4.0",
     "imageSourceId": "media-lonchura-cucullata-img",
@@ -6802,6 +8902,28 @@ export const birds: Bird[] = [
         "publisher": "Joan Theng / Xeno-canto",
         "url": "https://xeno-canto.org/1106789",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
       }
     ],
     "iucn": {
@@ -6810,6 +8932,61 @@ export const birds: Bird[] = [
         "birdlife-lonchura-maja."
       ],
       "year": "2025"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-lonchura-maja"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : AnAge (entrée absente).",
+        "sourceIds": [
+          "anage-lonchura-maja"
+        ],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-lonchura-maja"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Michael MK Khor — CC BY 2.0",
     "imageSourceId": "media-lonchura-maja-img",
@@ -6941,6 +9118,28 @@ export const birds: Bird[] = [
         "publisher": "David Darrell-Lambert / Xeno-canto",
         "url": "https://xeno-canto.org/1182208",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
       }
     ],
     "iucn": {
@@ -6949,6 +9148,61 @@ export const birds: Bird[] = [
         "birdlife-euodice-malabarica."
       ],
       "year": "2018"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-euodice-malabarica"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : AnAge (entrée absente).",
+        "sourceIds": [
+          "anage-lonchura-malabarica"
+        ],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-euodice-malabarica"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Anagha devi — CC BY-SA 4.0",
     "imageSourceId": "media-lonchura-malabarica-img",
@@ -7080,6 +9334,28 @@ export const birds: Bird[] = [
         "publisher": "Joan Theng / Xeno-canto",
         "url": "https://xeno-canto.org/1141729",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
       }
     ],
     "iucn": {
@@ -7088,6 +9364,61 @@ export const birds: Bird[] = [
         "birdlife-lonchura-atricapilla."
       ],
       "year": "2024"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-lonchura-atricapilla"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : AnAge (entrée absente).",
+        "sourceIds": [
+          "anage-lonchura-malacca-atricapilla"
+        ],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-lonchura-atricapilla"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Batin E. Tuwuilu — CC BY-SA 3.0",
     "imageSourceId": "media-lonchura-malacca-atricapilla-img",
@@ -7219,6 +9550,28 @@ export const birds: Bird[] = [
         "publisher": "Nishant Bhagwat / Xeno-canto",
         "url": "https://xeno-canto.org/1160217",
         "note": "CC BY-NC-ND 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
       }
     ],
     "iucn": {
@@ -7227,6 +9580,61 @@ export const birds: Bird[] = [
         "birdlife-lonchura-malacca."
       ],
       "year": "2018"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-lonchura-malacca"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : AnAge (entrée absente).",
+        "sourceIds": [
+          "anage-lonchura-malacca-malacca"
+        ],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-lonchura-malacca"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Photosynthesis85 — CC BY-SA 4.0",
     "imageSourceId": "media-lonchura-malacca-malacca-img",
@@ -7358,6 +9766,28 @@ export const birds: Bird[] = [
         "publisher": "Kim Chuah Lim / Xeno-canto",
         "url": "https://xeno-canto.org/793299",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
       }
     ],
     "iucn": {
@@ -7366,6 +9796,60 @@ export const birds: Bird[] = [
         "birdlife-lonchura-oryzivora."
       ],
       "year": "2021"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-lonchura-oryzivora"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "longévité maximale non établie ; espérance en captivité 2 à 3 ans, des individus jusqu’à 7 ans, au-delà de 9 ans seulement de façon anecdotique",
+        "sourceIds": [
+          "anage-lonchura-oryzivora"
+        ]
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-lonchura-oryzivora"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Annexe II (*Lonchura oryzivora*, annexes du 2026-03-05).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Quartl — CC BY-SA 3.0",
     "imageSourceId": "media-lonchura-oryzivora-img",
@@ -7494,6 +9978,28 @@ export const birds: Bird[] = [
         "publisher": "David Darrell-Lambert / Xeno-canto",
         "url": "https://xeno-canto.org/1069340",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
       }
     ],
     "iucn": {
@@ -7502,6 +10008,61 @@ export const birds: Bird[] = [
         "birdlife-lonchura-punctulata."
       ],
       "year": "2025"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-lonchura-punctulata"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : AnAge (entrée absente).",
+        "sourceIds": [
+          "anage-lonchura-punctulata"
+        ],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-lonchura-punctulata"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Satdeep Gill — CC BY-SA 4.0",
     "imageSourceId": "media-lonchura-punctulata-img",
@@ -7633,6 +10194,28 @@ export const birds: Bird[] = [
         "publisher": "Nishant Bhagwat / Xeno-canto",
         "url": "https://xeno-canto.org/1160466",
         "note": "CC BY-NC-ND 4.0 ; taxon sauvage"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
       }
     ],
     "wildRange": {
@@ -7650,6 +10233,60 @@ export const birds: Bird[] = [
         "birdlife-lonchura-striata"
       ],
       "year": "2024"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-lonchura-striata"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "10 ans (maximum cité ; milieu non précisé ; page AnAge *Lonchura striata*)",
+        "sourceIds": [
+          "anage-lonchura-striata-domestiqua"
+        ]
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-lonchura-striata"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Anil Kumar — CC BY-SA 4.0",
     "imageSourceId": "media-lonchura-striata-domestiqua-img",
@@ -7781,6 +10418,28 @@ export const birds: Bird[] = [
         "publisher": "Nishant Bhagwat / Xeno-canto",
         "url": "https://xeno-canto.org/1160466",
         "note": "CC BY-NC-ND 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
       }
     ],
     "iucn": {
@@ -7789,6 +10448,60 @@ export const birds: Bird[] = [
         "birdlife-lonchura-striata."
       ],
       "year": "2024"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-lonchura-striata"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "10 ans (maximum cité ; milieu non précisé)",
+        "sourceIds": [
+          "anage-lonchura-striata"
+        ]
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-lonchura-striata"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Rison Thumboor — CC BY 2.0",
     "imageSourceId": "media-lonchura-striata-img",
@@ -7934,6 +10647,28 @@ export const birds: Bird[] = [
         "publisher": "Samantha Aguirre / Xeno-canto",
         "url": "https://xeno-canto.org/940888",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
       }
     ],
     "wildRange": {
@@ -7959,6 +10694,50 @@ export const birds: Bird[] = [
         "sourceIds": [
           "birdlife-melopsittacus-undulatus"
         ]
+      },
+      "longevity": {
+        "value": "21 ans (captivité, maximum cité)",
+        "sourceIds": [
+          "anage-melopsittacus-undulatus"
+        ]
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Petite perruche élancée, 18 à 20 cm, ailes et queue pointues.",
+        "sourceIds": [
+          "adw-melopsittacus-undulatus"
+        ]
+      },
+      "cites": {
+        "value": "Non inscrit : *Melopsittacus undulatus* est exclu des Psittaciformes spp. (annexes du 2026-03-05).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
       }
     },
     "imageCredit": "Lip Kee — CC BY-SA 2.0",
@@ -8105,6 +10884,28 @@ export const birds: Bird[] = [
         "publisher": "Tanguy Loïs / Xeno-canto",
         "url": "https://xeno-canto.org/1143450",
         "note": "CC BY-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
       }
     ],
     "wildRange": {
@@ -8131,6 +10932,50 @@ export const birds: Bird[] = [
         "sourceIds": [
           "birdlife-myiopsitta-monachus"
         ]
+      },
+      "longevity": {
+        "value": "22,1 ans (captivité, maximum cité)",
+        "sourceIds": [
+          "anage-myiopsitta-monachus-monachus"
+        ]
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Taille moyenne, 11 à 13 pouces jusqu’au bout de la queue effilée. Vert et gris ; front bleu-gris, lores, joues et gorge gris pâle, bec brun-rose clair, pattes grises.",
+        "sourceIds": [
+          "adw-myiopsitta-monachus"
+        ]
+      },
+      "cites": {
+        "value": "Annexe II (Psittaciformes spp., annexes du 2026-03-05).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
       }
     },
     "imageCredit": "Juan Emilio — CC BY-SA 2.0",
@@ -8263,6 +11108,28 @@ export const birds: Bird[] = [
         "publisher": "Liam Manderson / Xeno-canto",
         "url": "https://xeno-canto.org/605889",
         "note": "CC BY-NC-SA 4.0 ; XC: Aidemosyne modesta"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
       }
     ],
     "wildRange": {
@@ -8280,6 +11147,61 @@ export const birds: Bird[] = [
         "birdlife-neochmia-modesta."
       ],
       "year": "2024"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-neochmia-modesta"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : AnAge (entrée absente).",
+        "sourceIds": [
+          "anage-neochmia-modesta"
+        ],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-neochmia-modesta"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Greg Miles — CC BY-SA 2.0",
     "imageSourceId": "media-neochmia-modesta-img",
@@ -8363,21 +11285,24 @@ export const birds: Bird[] = [
         "level": "sourcé",
         "text": "Least Concern ; endémique Australie ; tendance en diminution",
         "sourceIds": [
-          "birdlife-neochmia-ruficauda"
+          "birdlife-neochmia-ruficauda",
+          "adw-neochmia-ruficauda"
         ]
       },
       {
         "level": "sourcé",
         "text": "Non migrateur ; zones irriguées, urbain, savane/fourrés humides",
         "sourceIds": [
-          "birdlife-neochmia-ruficauda"
+          "birdlife-neochmia-ruficauda",
+          "adw-neochmia-ruficauda"
         ]
       },
       {
         "level": "sourcé",
         "text": "Menace citée : surpâturage près de l’eau (certaines sous-espèces)",
         "sourceIds": [
-          "birdlife-neochmia-ruficauda"
+          "birdlife-neochmia-ruficauda",
+          "adw-neochmia-ruficauda"
         ]
       }
     ],
@@ -8411,6 +11336,35 @@ export const birds: Bird[] = [
         "publisher": "Marc Anderson / Xeno-canto",
         "url": "https://xeno-canto.org/436594",
         "note": "CC BY-NC-ND 4.0 ; XC: Bathilda ruficauda"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "adw-neochmia-ruficauda",
+        "title": "Neochmia ruficauda",
+        "publisher": "Animal Diversity Web",
+        "url": "https://animaldiversity.org/accounts/Neochmia_ruficauda/",
+        "note": "Consulté 2026-10-14 ; Physical Description"
       }
     ],
     "wildRange": {
@@ -8428,6 +11382,59 @@ export const birds: Bird[] = [
         "birdlife-neochmia-ruficauda."
       ],
       "year": "2018"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "adw-neochmia-ruficauda"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "3,4 ans (sauvage, maximum cité ; donnée jugée questionable, probablement sous-estimée)",
+        "sourceIds": [
+          "anage-neochmia-ruficauda"
+        ]
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Face rouge vif. Mâle : face rouge, dessous de la tête jaune-olive, taches blanches sur la poitrine, les flancs, le croupion et la queue. Femelle : face plus terne, rouge vif surtout sur les lores et le front.",
+        "sourceIds": [
+          "adw-neochmia-ruficauda"
+        ]
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "HaraldW1954 — CC BY-SA 4.0",
     "imageSourceId": "media-neochmia-ruficauda-img",
@@ -8556,6 +11563,28 @@ export const birds: Bird[] = [
         "publisher": "Eddy Smith / Xeno-canto",
         "url": "https://xeno-canto.org/755583",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
       }
     ],
     "wildRange": {
@@ -8573,6 +11602,60 @@ export const birds: Bird[] = [
         "birdlife-neophema-elegans."
       ],
       "year": "2024"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-neophema-elegans"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "longévité maximale non établie ; des individus ont vécu 2,9 ans (milieu non précisé)",
+        "sourceIds": [
+          "anage-neophema-elegans"
+        ]
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-neophema-elegans"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Annexe II (Psittaciformes spp., annexes du 2026-03-05). *Neophema chrysogaster* est en Annexe I : ce n’est pas ce taxon.",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Ron Knight — CC BY 2.0",
     "imageSourceId": "media-neophema-elegans-img",
@@ -8703,6 +11786,28 @@ export const birds: Bird[] = [
         "publisher": "Andrew Spencer / Xeno-canto",
         "url": "https://xeno-canto.org/328216",
         "note": "CC BY-NC-ND 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
       }
     ],
     "wildRange": {
@@ -8720,6 +11825,60 @@ export const birds: Bird[] = [
         "birdlife-neophema-pulchella."
       ],
       "year": "2024"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-neophema-pulchella"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "21 ans (captivité, maximum cité)",
+        "sourceIds": [
+          "anage-neophema-pulchella"
+        ]
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-neophema-pulchella"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Annexe II (Psittaciformes spp., annexes du 2026-03-05). *Neophema chrysogaster* est en Annexe I : ce n’est pas ce taxon.",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "stephen jones — CC BY 2.0",
     "imageSourceId": "media-neophema-pulchella-img",
@@ -8848,6 +12007,28 @@ export const birds: Bird[] = [
         "publisher": "Louis Masarei / Xeno-canto",
         "url": "https://xeno-canto.org/924874",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
       }
     ],
     "wildRange": {
@@ -8865,6 +12046,60 @@ export const birds: Bird[] = [
         "birdlife-neophema-splendida."
       ],
       "year": "2024"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-neophema-splendida"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "14 ans (captivité, maximum cité)",
+        "sourceIds": [
+          "anage-neophema-splendida"
+        ]
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-neophema-splendida"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Annexe II (Psittaciformes spp., annexes du 2026-03-05). *Neophema chrysogaster* est en Annexe I : ce n’est pas ce taxon.",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Ltshears — Domaine public",
     "imageSourceId": "media-neophema-splendida-img",
@@ -9010,6 +12245,28 @@ export const birds: Bird[] = [
         "publisher": "Marc Anderson / Xeno-canto",
         "url": "https://xeno-canto.org/681342",
         "note": "CC BY-NC-ND 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
       }
     ],
     "wildRange": {
@@ -9035,6 +12292,50 @@ export const birds: Bird[] = [
         "sourceIds": [
           "birdlife-neopsephotus-bourkii"
         ]
+      },
+      "longevity": {
+        "value": "12,6 ans (captivité, maximum cité)",
+        "sourceIds": [
+          "anage-neopsephotus-bourkii"
+        ]
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "18 à 23 cm, queue d’environ 9 cm, masse environ 42 à 49 g.",
+        "sourceIds": [
+          "adw-neopsephotus-bourkii"
+        ]
+      },
+      "cites": {
+        "value": "Annexe II (Psittaciformes spp., annexes du 2026-03-05).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
       }
     },
     "imageCredit": "Ljosa — Domaine public",
@@ -9184,6 +12485,28 @@ export const birds: Bird[] = [
         "publisher": "Thierry THOMAS / Xeno-canto",
         "url": "https://xeno-canto.org/1163859",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
       }
     ],
     "wildRange": {
@@ -9211,10 +12534,48 @@ export const birds: Bird[] = [
         ]
       },
       "longevity": {
-        "value": "10–14 ans (captivité)",
+        "value": "10–14 ans (sauvage) ; captivité jusqu’à 25 ans, record 36 ans",
         "sourceIds": [
           "adw-nymphicus-hollandicus"
         ]
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Plus petit des cacatoès, environ 80 g, silhouette élancée. Seule perruche à huppe dont la queue se termine en pointe ; cette queue, très longue (environ 15 cm), fait la moitié de la longueur.",
+        "sourceIds": [
+          "adw-nymphicus-hollandicus"
+        ]
+      },
+      "cites": {
+        "value": "Non inscrit : *Nymphicus hollandicus* est exclu des Psittaciformes spp. (annexes du 2026-03-05).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
       }
     },
     "imageCredit": "Zefry — CC BY 2.0",
@@ -9578,6 +12939,28 @@ export const birds: Bird[] = [
         "publisher": "Oscar Campbell / Xeno-canto",
         "url": "https://xeno-canto.org/985452",
         "note": "CC BY-NC-ND 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
       }
     ],
     "iucn": {
@@ -9586,6 +12969,61 @@ export const birds: Bird[] = [
         "birdlife-passer-luteus."
       ],
       "year": "2018"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-passer-luteus"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : AnAge (entrée absente).",
+        "sourceIds": [
+          "anage-passer-luteus"
+        ],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-passer-luteus"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Barry Stewart — CC BY 4.0",
     "imageSourceId": "media-passer-luteus-img",
@@ -9714,6 +13152,28 @@ export const birds: Bird[] = [
         "publisher": "James Lambert / Xeno-canto",
         "url": "https://xeno-canto.org/593967",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
       }
     ],
     "wildRange": {
@@ -9731,6 +13191,60 @@ export const birds: Bird[] = [
         "birdlife-platycercus-adscitus."
       ],
       "year": "2024"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-platycercus-adscitus"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "longévité maximale non établie ; des individus ont vécu 4,2 ans (milieu non précisé)",
+        "sourceIds": [
+          "anage-platycercus-adscitus"
+        ]
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-platycercus-adscitus"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Annexe II (Psittaciformes spp., annexes du 2026-03-05).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "JJ Harrison — CC BY-SA 4.0",
     "imageSourceId": "media-platycercus-adscitus-img",
@@ -9859,6 +13373,28 @@ export const birds: Bird[] = [
         "publisher": "Romuald Mikusek / Xeno-canto",
         "url": "https://xeno-canto.org/1173944",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
       }
     ],
     "iucn": {
@@ -9867,6 +13403,60 @@ export const birds: Bird[] = [
         "birdlife-platycercus-elegans."
       ],
       "year": "2018"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-platycercus-elegans"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "26,8 ans (captivité ; un individu de la sous-espèce *adelaidae*)",
+        "sourceIds": [
+          "anage-platycercus-elegans"
+        ]
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-platycercus-elegans"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Annexe II (Psittaciformes spp., annexes du 2026-03-05).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "John Poulakis — CC BY 2.0",
     "imageSourceId": "media-platycercus-elegans-img",
@@ -9995,6 +13585,28 @@ export const birds: Bird[] = [
         "publisher": "Romuald Mikusek / Xeno-canto",
         "url": "https://xeno-canto.org/1173636",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
       }
     ],
     "wildRange": {
@@ -10013,6 +13625,60 @@ export const birds: Bird[] = [
         "birdlife-platycercus-eximius."
       ],
       "year": "2024"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-platycercus-eximius"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "27,4 ans (captivité, maximum cité)",
+        "sourceIds": [
+          "anage-platycercus-eximius-eximius"
+        ]
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-platycercus-eximius"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Annexe II (Psittaciformes spp., annexes du 2026-03-05).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Murdock Grewar — CC BY-SA 4.0",
     "imageSourceId": "media-platycercus-eximius-eximius-img",
@@ -10141,6 +13807,28 @@ export const birds: Bird[] = [
         "publisher": "Marc Anderson / Xeno-canto",
         "url": "https://xeno-canto.org/382800",
         "note": "CC BY-NC-ND 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
       }
     ],
     "wildRange": {
@@ -10158,6 +13846,60 @@ export const birds: Bird[] = [
         "birdlife-platycercus-icterotis."
       ],
       "year": "2024"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-platycercus-icterotis"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "13,2 ans (captivité, maximum cité ; donnée jugée questionable)",
+        "sourceIds": [
+          "anage-platycercus-icterotis"
+        ]
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-platycercus-icterotis"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Annexe II (Psittaciformes spp., annexes du 2026-03-05).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Robert Young — CC BY 2.0",
     "imageSourceId": "media-platycercus-icterotis-img",
@@ -10289,6 +14031,28 @@ export const birds: Bird[] = [
         "publisher": "JJSUN / Xeno-canto",
         "url": "https://xeno-canto.org/1080073",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
       }
     ],
     "iucn": {
@@ -10297,6 +14061,60 @@ export const birds: Bird[] = [
         "birdlife-ploceus-cucullatus."
       ],
       "year": "2018"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-ploceus-cucullatus"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "24 ans (captivité, maximum cité ; un mâle)",
+        "sourceIds": [
+          "anage-ploceus-cucullatus"
+        ]
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-ploceus-cucullatus"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Charles J. Sharp — CC BY-SA 4.0",
     "imageSourceId": "media-ploceus-cucullatus-img",
@@ -10428,6 +14246,28 @@ export const birds: Bird[] = [
         "publisher": "James Lambert / Xeno-canto",
         "url": "https://xeno-canto.org/668759",
         "note": "CC BY-NC-ND 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
       }
     ],
     "wildRange": {
@@ -10445,6 +14285,60 @@ export const birds: Bird[] = [
         "birdlife-poephila-acuticauda."
       ],
       "year": "2024"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-poephila-acuticauda"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "6 ans (sauvage, maximum cité)",
+        "sourceIds": [
+          "anage-poephila-acuticauda"
+        ]
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-poephila-acuticauda"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Non inscrit (annexes du 2026-03-05). *Poephila cincta cincta* est en Annexe II : ce n’est pas ce taxon.",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Lip Kee Yap — CC BY-SA 2.0",
     "imageSourceId": "media-poephila-acuticauda-img",
@@ -10590,6 +14484,28 @@ export const birds: Bird[] = [
         "publisher": "Azens / Xeno-canto",
         "url": "https://xeno-canto.org/1093291",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
       }
     ],
     "wildRange": {
@@ -10615,6 +14531,50 @@ export const birds: Bird[] = [
         "sourceIds": [
           "birdlife-poicephalus-senegalus"
         ]
+      },
+      "longevity": {
+        "value": "40 ans (captivité, maximum cité)",
+        "sourceIds": [
+          "anage-poicephalus-senegalus"
+        ]
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Tête et bec gris. Ailes, dos, rectrices et partie de la poitrine verts, le vert de la poitrine en « V ». Ventre du jaune vif à l’orange. Iris jaune chez l’adulte. Pattes grises ou roses.",
+        "sourceIds": [
+          "adw-poicephalus-senegalus"
+        ]
+      },
+      "cites": {
+        "value": "Annexe II (Psittaciformes spp., annexes du 2026-03-05).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
       }
     },
     "imageCredit": "ThomHasi / Thomas J. Haslam — CC BY 2.5",
@@ -10756,6 +14716,28 @@ export const birds: Bird[] = [
         "publisher": "Animal Diversity Web",
         "url": "https://animaldiversity.org/accounts/Polytelis_alexandrae/",
         "note": "Consulté 2026-10-13"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
       }
     ],
     "wildRange": {
@@ -10780,6 +14762,50 @@ export const birds: Bird[] = [
         "sourceIds": [
           "adw-polytelis-alexandrae"
         ]
+      },
+      "longevity": {
+        "value": "23,9 ans (captivité ; une femelle)",
+        "sourceIds": [
+          "anage-polytelis-alexandrae"
+        ]
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Mâle : couronne bleue, côtés de la tête bleu-gris, menton et gorge roses, corps vert-olive, dessus de l’aile vert vif, dessous de l’aile bleu-violet, œil et bec orange. Femelle : couronne gris-mauve, ailes plus ternes, queue plus courte.",
+        "sourceIds": [
+          "adw-polytelis-alexandrae"
+        ]
+      },
+      "cites": {
+        "value": "Annexe II (Psittaciformes spp., annexes du 2026-03-05).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
       }
     },
     "imageCredit": "PG Palmer — CC BY 2.0",
@@ -10909,6 +14935,28 @@ export const birds: Bird[] = [
         "publisher": "Drew Davison / Xeno-canto",
         "url": "https://xeno-canto.org/638864",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
       }
     ],
     "wildRange": {
@@ -10926,6 +14974,60 @@ export const birds: Bird[] = [
         "birdlife-polytelis-anthopeplus."
       ],
       "year": "2024"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-polytelis-anthopeplus"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "13,8 ans (captivité ; un individu encore vivant après cette durée)",
+        "sourceIds": [
+          "anage-polytelis-anthopeplus"
+        ]
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-polytelis-anthopeplus"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Annexe II (Psittaciformes spp., annexes du 2026-03-05).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "David Cook Wildlife Photography — CC BY 2.0",
     "imageSourceId": "media-polytelis-anthopeplus-img",
@@ -11057,6 +15159,28 @@ export const birds: Bird[] = [
         "publisher": "Marc Anderson / Xeno-canto",
         "url": "https://xeno-canto.org/692681",
         "note": "CC BY-NC-ND 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
       }
     ],
     "wildRange": {
@@ -11074,6 +15198,60 @@ export const birds: Bird[] = [
         "birdlife-psephotus-haematonotus."
       ],
       "year": "2024"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-psephotus-haematonotus"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "12,2 ans (captivité, maximum cité)",
+        "sourceIds": [
+          "anage-psephotus-haematonotus-haematonotus"
+        ]
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-psephotus-haematonotus"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Annexe II (Psittaciformes spp., annexes du 2026-03-05). *Psephotellus chrysopterygius*, *dissimilis* et *pulcherrimus* sont en Annexe I : ce n’est pas ce taxon.",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Toby Hudson — CC BY-SA 3.0",
     "imageSourceId": "media-psephotus-haematonotus-img",
@@ -11205,6 +15383,28 @@ export const birds: Bird[] = [
         "publisher": "Marc Anderson / Xeno-canto",
         "url": "https://xeno-canto.org/809699",
         "note": "CC BY-NC-ND 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
       }
     ],
     "wildRange": {
@@ -11222,6 +15422,60 @@ export const birds: Bird[] = [
         "birdlife-himalayapsitta-cyanocephala."
       ],
       "year": "2024"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-himalayapsitta-cyanocephala"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "18,8 ans (captivité, maximum cité ; donnée jugée questionable)",
+        "sourceIds": [
+          "anage-psittacula-cyanocephala"
+        ]
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-himalayapsitta-cyanocephala"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Annexe II (Psittaciformes spp., annexes du 2026-03-05).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "J.M.Garg — CC BY-SA 4.0",
     "imageSourceId": "media-psittacula-cyanocephala-img",
@@ -11355,6 +15609,28 @@ export const birds: Bird[] = [
         "publisher": "David Darrell-Lambert / Xeno-canto",
         "url": "https://xeno-canto.org/1182205",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
       }
     ],
     "wildRange": {
@@ -11372,6 +15648,60 @@ export const birds: Bird[] = [
         "birdlife-palaeornis-eupatria."
       ],
       "year": "2025"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-palaeornis-eupatria"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "30 ans (captivité ; un individu encore vivant après cette durée)",
+        "sourceIds": [
+          "anage-psittacula-eupatria"
+        ]
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-palaeornis-eupatria"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Annexe II (Psittaciformes spp., annexes du 2026-03-05).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Hari K Patibanda — CC BY 2.0",
     "imageSourceId": "media-psittacula-eupatria-img",
@@ -11521,6 +15851,28 @@ export const birds: Bird[] = [
         "publisher": "Sam Hambly / Xeno-canto",
         "url": "https://xeno-canto.org/1180800",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
       }
     ],
     "iucn": {
@@ -11536,6 +15888,50 @@ export const birds: Bird[] = [
         "sourceIds": [
           "adw-psittacula-krameri"
         ]
+      },
+      "longevity": {
+        "value": "34 ans (captivité, maximum cité)",
+        "sourceIds": [
+          "anage-psittacula-krameri-manillensis"
+        ]
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Corps vert, bec rougeâtre, longue queue pointue (jusqu’à 25 cm, plus de la moitié du corps). Le mâle adulte a une teinte pourpre sombre autour du cou.",
+        "sourceIds": [
+          "adw-psittacula-krameri"
+        ]
+      },
+      "cites": {
+        "value": "Non inscrit : *Psittacula krameri* (donc la sous-espèce *manillensis*) est exclu des Psittaciformes spp. (annexes du 2026-03-05).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
       }
     },
     "imageCredit": "Bernard Spragg. NZ — CC0",
@@ -11687,6 +16083,28 @@ export const birds: Bird[] = [
         "publisher": "Antoine Ede / Xeno-canto",
         "url": "https://xeno-canto.org/1137653",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
       }
     ],
     "iucn": {
@@ -11708,6 +16126,44 @@ export const birds: Bird[] = [
         "sourceIds": [
           "adw-psittacus-erithacus"
         ]
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Plumage gris de plusieurs tons, rectrices rouges bien distinctes. Environ 33 cm, jusqu’à 407 g.",
+        "sourceIds": [
+          "adw-psittacus-erithacus"
+        ]
+      },
+      "cites": {
+        "value": "Annexe I (annexes CITES du 2026-03-05).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
       }
     },
     "imageCredit": "Nasimahmed01 — CC BY-SA 4.0",
@@ -11858,6 +16314,28 @@ export const birds: Bird[] = [
         "publisher": "Bo Shunqi 薄顺奇 / Xeno-canto",
         "url": "https://xeno-canto.org/1180569",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
       }
     ],
     "wildRange": {
@@ -11889,6 +16367,44 @@ export const birds: Bird[] = [
         "sourceIds": [
           "adw-pyrrhura-molinae"
         ]
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Joues vertes, critère cité pour la distinguer des autres conures. Sous-espèce nominale : du front à la nuque, plumes brunes ou grises.",
+        "sourceIds": [
+          "adw-pyrrhura-molinae"
+        ]
+      },
+      "cites": {
+        "value": "Annexe II (Psittaciformes spp., annexes du 2026-03-05). *Pyrrhura cruentata* est en Annexe I : ce n’est pas ce taxon.",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
       }
     },
     "imageCredit": "Dan Muntz — CC BY-SA 2.0",
@@ -12021,6 +16537,28 @@ export const birds: Bird[] = [
         "publisher": "Radek Grochowski / Xeno-canto",
         "url": "https://xeno-canto.org/1156694",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
       }
     ],
     "iucn": {
@@ -12029,6 +16567,60 @@ export const birds: Bird[] = [
         "birdlife-serinus-canaria."
       ],
       "year": "2018"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-serinus-canaria"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "24 ans (captivité, maximum cité)",
+        "sourceIds": [
+          "anage-serinus-canaria"
+        ]
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-serinus-canaria"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Non inscrit (annexes du 2026-03-05). *Serinus serinus* (population d’Ukraine) est en Annexe III : ce n’est pas ce taxon.",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Eduardo Martínez — CC BY 2.0",
     "imageSourceId": "media-serinus-canaria-img",
@@ -12160,6 +16752,28 @@ export const birds: Bird[] = [
         "publisher": "Bram Piot / Xeno-canto",
         "url": "https://xeno-canto.org/469496",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
       }
     ],
     "iucn": {
@@ -12168,6 +16782,61 @@ export const birds: Bird[] = [
         "birdlife-serinus-leucopygius."
       ],
       "year": "2024"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-serinus-leucopygius"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : AnAge (entrée absente).",
+        "sourceIds": [
+          "anage-serinus-leucopygius"
+        ],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-serinus-leucopygius"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Non inscrit (annexes du 2026-03-05). *Serinus serinus* (population d’Ukraine) est en Annexe III : ce n’est pas ce taxon.",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Francesco Veronesi — CC BY-SA 2.0",
     "imageSourceId": "media-serinus-leucopygius-img",
@@ -12309,6 +16978,28 @@ export const birds: Bird[] = [
         "publisher": "Animal Diversity Web",
         "url": "https://animaldiversity.org/accounts/Serinus_mozambicus/",
         "note": "Consulté 2026-10-13"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
       }
     ],
     "iucn": {
@@ -12330,6 +17021,44 @@ export const birds: Bird[] = [
         "sourceIds": [
           "adw-serinus-mozambicus"
         ]
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Environ 12 cm. Mâle adulte : face, ventre, flancs, croupion et couvertures caudales jaune d’or ; rayures malaire et oculaire brun à noir. Dos, cou et couronne brun à vert-olive.",
+        "sourceIds": [
+          "adw-serinus-mozambicus"
+        ]
+      },
+      "cites": {
+        "value": "Non inscrit (annexes du 2026-03-05). *Serinus serinus* (population d’Ukraine) est en Annexe III : ce n’est pas ce taxon.",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
       }
     },
     "imageCredit": "Charles J. Sharp — CC BY-SA 4.0",
@@ -12472,6 +17201,28 @@ export const birds: Bird[] = [
         "publisher": "Animal Diversity Web",
         "url": "https://animaldiversity.org/accounts/Stagonopleura_guttata/",
         "note": "Consulté 2026-10-13"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
       }
     ],
     "wildRange": {
@@ -12502,6 +17253,44 @@ export const birds: Bird[] = [
         "sourceIds": [
           "adw-stagonopleura-guttata"
         ]
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Mâle : dessus brun, couvertures sus-caudales cramoisies, queue, front et couronne noirs, nuque gris cendre, gorge blanche, poitrine et ventre blancs. Bec et iris rouges, pattes gris foncé. Femelle semblable, souvent plus petite, bande noire étroite sur le front.",
+        "sourceIds": [
+          "adw-stagonopleura-guttata"
+        ]
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
       }
     },
     "imageCredit": "JJ Harrison — CC BY-SA 4.0",
@@ -13113,6 +17902,28 @@ export const birds: Bird[] = [
         "publisher": "Marc Anderson / Xeno-canto",
         "url": "https://xeno-canto.org/816265",
         "note": "CC BY-NC-ND 4.0 ; XC: Stizoptera bichenovii"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
       }
     ],
     "wildRange": {
@@ -13130,6 +17941,60 @@ export const birds: Bird[] = [
         "birdlife-taeniopygia-bichenovii."
       ],
       "year": "2024"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-taeniopygia-bichenovii"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "5,4 ans (sauvage, maximum cité ; donnée jugée questionable)",
+        "sourceIds": [
+          "anage-taeniopygia-bichenovii"
+        ]
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-taeniopygia-bichenovii"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "JJ Harrison — CC BY-SA 4.0",
     "imageSourceId": "media-taeniopygia-bichenovii-img",
@@ -13272,6 +18137,28 @@ export const birds: Bird[] = [
         "publisher": "Animal Diversity Web",
         "url": "https://animaldiversity.org/accounts/Taeniopygia_guttata/",
         "note": "Consulté 2026-10-13"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
       }
     ],
     "wildRange": {
@@ -13302,6 +18189,44 @@ export const birds: Bird[] = [
         "sourceIds": [
           "adw-taeniopygia-guttata-castanotis"
         ]
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Petit passereau, 10 à 11 cm, environ 12 g. Mâle et femelle diffèrent par la coloration.",
+        "sourceIds": [
+          "adw-taeniopygia-guttata-castanotis"
+        ]
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
       }
     },
     "imageCredit": "JJ Harrison — CC BY-SA 3.0",
@@ -13431,6 +18356,28 @@ export const birds: Bird[] = [
         "publisher": "Bram Piot / Xeno-canto",
         "url": "https://xeno-canto.org/405791",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
       }
     ],
     "iucn": {
@@ -13439,6 +18386,61 @@ export const birds: Bird[] = [
         "birdlife-uraeginthus-bengalus."
       ],
       "year": "2018"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-uraeginthus-bengalus"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : AnAge (entrée absente).",
+        "sourceIds": [
+          "anage-uraeginthus-bengalus"
+        ],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-uraeginthus-bengalus"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Charles J. Sharp — CC BY-SA 4.0",
     "imageSourceId": "media-uraeginthus-bengalus-img",
@@ -13570,6 +18572,28 @@ export const birds: Bird[] = [
         "publisher": "Martin Tlustos / Xeno-canto",
         "url": "https://xeno-canto.org/1030357",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
       }
     ],
     "iucn": {
@@ -13578,6 +18602,61 @@ export const birds: Bird[] = [
         "birdlife-uraeginthus-cyanocephalus."
       ],
       "year": "2018"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-uraeginthus-cyanocephalus"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : AnAge (entrée absente).",
+        "sourceIds": [
+          "anage-uraeginthus-cyanocephalus"
+        ],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-uraeginthus-cyanocephalus"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "D. Gordon E. Robertson — CC BY-SA 3.0",
     "imageSourceId": "media-uraeginthus-cyanocephalus-img",
@@ -13709,6 +18788,28 @@ export const birds: Bird[] = [
         "publisher": "Julien Birard / Xeno-canto",
         "url": "https://xeno-canto.org/982686",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
       }
     ],
     "iucn": {
@@ -13717,6 +18818,61 @@ export const birds: Bird[] = [
         "birdlife-vidua-chalybeata."
       ],
       "year": "2018"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-vidua-chalybeata"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : AnAge (entrée absente).",
+        "sourceIds": [
+          "anage-vidua-chalybeata"
+        ],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-vidua-chalybeata"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Charles J. Sharp — CC BY-SA 4.0",
     "imageSourceId": "media-vidua-chalybeata-img",
@@ -13848,6 +19004,28 @@ export const birds: Bird[] = [
         "publisher": "African Bioacoustics Community / Xeno-canto",
         "url": "https://xeno-canto.org/1183545",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
       }
     ],
     "iucn": {
@@ -13856,6 +19034,61 @@ export const birds: Bird[] = [
         "birdlife-vidua-macroura."
       ],
       "year": "2018"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-vidua-macroura"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : AnAge (entrée absente).",
+        "sourceIds": [
+          "anage-vidua-macroura"
+        ],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-vidua-macroura"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Charles J. Sharp — CC BY-SA 4.0",
     "imageSourceId": "media-vidua-macroura-img",
@@ -13987,6 +19220,28 @@ export const birds: Bird[] = [
         "publisher": "Bram Piot / Xeno-canto",
         "url": "https://xeno-canto.org/436008",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
       }
     ],
     "iucn": {
@@ -13995,6 +19250,61 @@ export const birds: Bird[] = [
         "birdlife-vidua-orientalis."
       ],
       "year": "2024"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-vidua-orientalis"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : AnAge (entrée absente).",
+        "sourceIds": [
+          "anage-vidua-orientalis"
+        ],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-vidua-orientalis"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Pobpob11 — CC BY-SA 4.0",
     "imageSourceId": "media-vidua-orientalis-img",

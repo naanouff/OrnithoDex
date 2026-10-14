@@ -2,7 +2,7 @@
 
 - **Slug** : `nymphicus-hollandicus`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-13
+- **Dernière vérification** : 2026-10-14
 
 ## Identité
 
@@ -30,7 +30,32 @@
 | Champ | Valeur | Source |
 |-------|--------|--------|
 | Taille adulte | 15 cm | birdlife-nymphicus-hollandicus |
-| Longévité | 10–14 ans (captivité) | adw-nymphicus-hollandicus |
+| Longévité | 10–14 ans (sauvage) ; captivité jusqu’à 25 ans, record 36 ans | adw-nymphicus-hollandicus |
+
+## Morphologie
+
+Plus petit des cacatoès, environ 80 g, silhouette élancée. Seule perruche à huppe dont la queue se termine en pointe ; cette queue, très longue (environ 15 cm), fait la moitié de la longueur.  
+*Source : adw-nymphicus-hollandicus.*
+
+## Statut CITES
+
+Non inscrit : *Nymphicus hollandicus* est exclu des Psittaciformes spp. (annexes du 2026-03-05).  
+*Source : cites-appendices.*
+
+## Alimentation en captivité
+
+Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.  
+*Sources : eaza-bpg ; aza-acm.*
+
+## Conseils captivité
+
+Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.  
+*Sources : eaza-bpg ; aza-acm.*
+
+## Compatibilité
+
+Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.  
+*Sources : eaza-bpg ; aza-acm.*
 
 ## Dimorphisme sexuel
 
@@ -85,3 +110,6 @@ ADW : cris aigus pour le stress / alerte ; chants de parade chez le mâle ; imit
 | adw-nymphicus-hollandicus | Nymphicus hollandicus (cockatiel) | Animal Diversity Web / Brandon Newmyer | | https://animaldiversity.org/accounts/Nymphicus_hollandicus/ | Consulté 2026-10-10 |
 | media-nymphicus-hollandicus-img | File:Cockatiel Parakeet (Nymphicus hollandicus)9.jpg | Zefry / Wikimedia Commons | 2008 | https://commons.wikimedia.org/wiki/File:Cockatiel_Parakeet_(Nymphicus_hollandicus)9.jpg | CC BY 2.0 |
 | media-nymphicus-hollandicus-audio | XC1163859 | Thierry THOMAS / Xeno-canto | | https://xeno-canto.org/1163859 | CC BY-NC-SA 4.0 |
+| cites-appendices | CITES Appendices I, II and III | CITES | 2026 | https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf | Consulté 2026-10-14 |
+| eaza-bpg | EAZA Best Practice Guidelines (index) | EAZA | | https://www.eaza.net/bpg/ | Consulté 2026-10-14 ; aucun guide d’espèce |
+| aza-acm | AZA Animal Care Manuals (liste publiée) | Association of Zoos & Aquariums | | https://www.aza.org/animal-care-manuals | Consulté 2026-10-14 ; aucun manuel pour cette espèce |

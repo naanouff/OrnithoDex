@@ -2,7 +2,7 @@
 
 - **Slug** : `myiopsitta-monachus-monachus`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-13
+- **Dernière vérification** : 2026-10-14
 
 ## Identité
 
@@ -30,7 +30,32 @@
 | Champ | Valeur | Source |
 |-------|--------|--------|
 | Taille adulte | 28–33 cm | birdlife-myiopsitta-monachus |
-| Longévité | na | |
+| Longévité | 22,1 ans (captivité, maximum cité) | anage-myiopsitta-monachus-monachus |
+
+## Morphologie
+
+Taille moyenne, 11 à 13 pouces jusqu’au bout de la queue effilée. Vert et gris ; front bleu-gris, lores, joues et gorge gris pâle, bec brun-rose clair, pattes grises.  
+*Source : adw-myiopsitta-monachus.*
+
+## Statut CITES
+
+Annexe II (Psittaciformes spp., annexes du 2026-03-05).  
+*Source : cites-appendices.*
+
+## Alimentation en captivité
+
+Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.  
+*Sources : eaza-bpg ; aza-acm.*
+
+## Conseils captivité
+
+Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.  
+*Sources : eaza-bpg ; aza-acm.*
+
+## Compatibilité
+
+Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.  
+*Sources : eaza-bpg ; aza-acm.*
 
 ## Dimorphisme sexuel
 
@@ -83,3 +108,6 @@ Enregistrement XC1143450 (Tanguy Loïs — CC BY-SA 4.0) : https://xeno-canto.or
 | adw-myiopsitta-monachus | Myiopsitta monachus (monk parakeet) | Animal Diversity Web / Lin Wang | | https://animaldiversity.org/accounts/Myiopsitta_monachus/ | Consulté 2026-10-10 |
 | media-myiopsitta-monachus-monachus-img | File:Myiopsitta monachus -Gran Canaria…jpg | Juan Emilio / Wikimedia Commons | | https://commons.wikimedia.org/wiki/File:Myiopsitta_monachus_-Gran_Canaria,_Canary_Islands,_Spain-8.jpg | CC BY-SA 2.0 |
 | media-myiopsitta-monachus-monachus-audio | XC1143450 | Tanguy Loïs / Xeno-canto | | https://xeno-canto.org/1143450 | CC BY-SA 4.0 |
+| cites-appendices | CITES Appendices I, II and III | CITES | 2026 | https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf | Consulté 2026-10-14 |
+| eaza-bpg | EAZA Best Practice Guidelines (index) | EAZA | | https://www.eaza.net/bpg/ | Consulté 2026-10-14 ; aucun guide d’espèce |
+| aza-acm | AZA Animal Care Manuals (liste publiée) | Association of Zoos & Aquariums | | https://www.aza.org/animal-care-manuals | Consulté 2026-10-14 ; aucun manuel pour cette espèce |

@@ -2,7 +2,7 @@
 
 - **Slug** : `amazona-aestiva`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-13
+- **Dernière vérification** : 2026-10-14
 
 ## Identité
 
@@ -30,7 +30,32 @@
 | Champ | Valeur | Source |
 |-------|--------|--------|
 | Taille adulte | 33–38 cm | adw-amazona-aestiva |
-| Longévité | na | |
+| Longévité | 49 ans (captivité, maximum cité) | anage-amazona-aestiva |
+
+## Morphologie
+
+Corps surtout vert vif ; plumes bleu vif sur la couronne, jaune autour de la face et à l’extrémité des scapulaires. Bec en grande partie noir. Sexes semblables à l’œil humain.  
+*Source : adw-amazona-aestiva.*
+
+## Statut CITES
+
+Annexe II (Psittaciformes spp., annexes du 2026-03-05).  
+*Source : cites-appendices.*
+
+## Alimentation en captivité
+
+Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.  
+*Sources : eaza-bpg ; aza-acm.*
+
+## Conseils captivité
+
+Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.  
+*Sources : eaza-bpg ; aza-acm.*
+
+## Compatibilité
+
+Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.  
+*Sources : eaza-bpg ; aza-acm.*
 
 ## Dimorphisme sexuel
 
@@ -82,3 +107,6 @@ Enregistrement XC554117 (Ricardo José Mitidieri — CC BY-NC-SA 4.0) : https://
 | adw-amazona-aestiva | Amazona aestiva (blue-fronted parrot) | Animal Diversity Web / Kaila Huhtasaari | | https://animaldiversity.org/accounts/Amazona_aestiva/ | Consulté 2026-10-10 |
 | media-amazona-aestiva-img | File:Amazona aestiva - Maroparque 01.jpg | H. Zell / Wikimedia Commons | 2019 | https://commons.wikimedia.org/wiki/File:Amazona_aestiva_-_Maroparque_01.jpg | CC BY-SA 3.0 |
 | media-amazona-aestiva-audio | XC554117 | Ricardo José Mitidieri / Xeno-canto | | https://xeno-canto.org/554117 | CC BY-NC-SA 4.0 |
+| cites-appendices | CITES Appendices I, II and III | CITES | 2026 | https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf | Consulté 2026-10-14 |
+| eaza-bpg | EAZA Best Practice Guidelines (index) | EAZA | | https://www.eaza.net/bpg/ | Consulté 2026-10-14 ; aucun guide d’espèce |
+| aza-acm | AZA Animal Care Manuals (liste publiée) | Association of Zoos & Aquariums | | https://www.aza.org/animal-care-manuals | Consulté 2026-10-14 ; aucun manuel pour cette espèce |

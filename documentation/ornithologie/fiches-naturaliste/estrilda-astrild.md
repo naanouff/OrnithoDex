@@ -2,7 +2,7 @@
 
 - **Slug** : `estrilda-astrild`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-13
+- **Dernière vérification** : 2026-10-14
 
 ## Identité
 
@@ -31,6 +31,31 @@
 |-------|--------|--------|
 | Taille adulte | 11,5 cm | birdlife-estrilda-astrild |
 | Longévité | 4 ans (sauvage, maximum cité) | adw-estrilda-astrild |
+
+## Morphologie
+
+Petit passereau gris-brun, bec conique et zone de la face rouges.  
+*Source : adw-estrilda-astrild.*
+
+## Statut CITES
+
+Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).  
+*Source : cites-appendices.*
+
+## Alimentation en captivité
+
+Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.  
+*Sources : eaza-bpg ; aza-acm.*
+
+## Conseils captivité
+
+Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.  
+*Sources : eaza-bpg ; aza-acm.*
+
+## Compatibilité
+
+Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.  
+*Sources : eaza-bpg ; aza-acm.*
 
 ## Dimorphisme sexuel
 
@@ -85,3 +110,6 @@ ADW : chant doux et simple ; parade avec « révérence » et exhibition du vent
 | adw-estrilda-astrild | Estrilda astrild (common waxbill) | Animal Diversity Web / Lauren Tarr | | https://animaldiversity.org/accounts/Estrilda_astrild/ | Consulté 2026-10-10 |
 | media-estrilda-astrild-img | File:Common waxbill (26408344029).jpg | Derek Keats / Wikimedia Commons | 2015 | https://commons.wikimedia.org/wiki/File:Common_waxbill_(26408344029).jpg | CC BY 2.0 |
 | media-estrilda-astrild-audio | XC1155179 | Walter Wallner / Xeno-canto | | https://xeno-canto.org/1155179 | CC BY-NC-SA 4.0 |
+| cites-appendices | CITES Appendices I, II and III | CITES | 2026 | https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf | Consulté 2026-10-14 |
+| eaza-bpg | EAZA Best Practice Guidelines (index) | EAZA | | https://www.eaza.net/bpg/ | Consulté 2026-10-14 ; aucun guide d’espèce |
+| aza-acm | AZA Animal Care Manuals (liste publiée) | Association of Zoos & Aquariums | | https://www.aza.org/animal-care-manuals | Consulté 2026-10-14 ; aucun manuel pour cette espèce |

@@ -2,7 +2,7 @@
 
 - **Slug** : `amandava-amandava`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-13
+- **Dernière vérification** : 2026-10-14
 
 ## Identité
 
@@ -30,7 +30,32 @@
 | Champ | Valeur | Source |
 |-------|--------|--------|
 | Taille adulte | 10 cm | birdlife-amandava-amandava |
-| Longévité | na | |
+| Longévité | Non documenté — bases consultées le 2026-10-14 : AnAge (entrée absente). | anage-amandava-amandava |
+
+## Morphologie
+
+Environ 10 cm. Mue annuelle du plumage nuptial ; mâle nuptial à couronne et dos rouge profond.  
+*Source : adw-amandava-amandava.*
+
+## Statut CITES
+
+Non inscrit (annexes du 2026-03-05). *Amandava formosa* est en Annexe II : ce n’est pas ce taxon.  
+*Source : cites-appendices.*
+
+## Alimentation en captivité
+
+Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.  
+*Sources : eaza-bpg ; aza-acm.*
+
+## Conseils captivité
+
+Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.  
+*Sources : eaza-bpg ; aza-acm.*
+
+## Compatibilité
+
+Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.  
+*Sources : eaza-bpg ; aza-acm.*
 
 ## Dimorphisme sexuel
 
@@ -85,3 +110,6 @@ ADW : cris de localisation longs ; cris aigus d’alarme.
 | adw-amandava-amandava | Amandava amandava (red avadavat) | Animal Diversity Web / Sarah Weitzel | | https://animaldiversity.org/accounts/Amandava_amandava/ | Consulté 2026-10-10 |
 | media-amandava-amandava-img | File:Red Avadavat (26082788247).jpg | Mike Prince / Wikimedia Commons | 2018 | https://commons.wikimedia.org/wiki/File:Red_Avadavat_(26082788247).jpg | CC BY 2.0 |
 | media-amandava-amandava-audio | XC698326 | Ding Li Yong / Xeno-canto | | https://xeno-canto.org/698326 | CC BY-NC-ND 4.0 |
+| cites-appendices | CITES Appendices I, II and III | CITES | 2026 | https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf | Consulté 2026-10-14 |
+| eaza-bpg | EAZA Best Practice Guidelines (index) | EAZA | | https://www.eaza.net/bpg/ | Consulté 2026-10-14 ; aucun guide d’espèce |
+| aza-acm | AZA Animal Care Manuals (liste publiée) | Association of Zoos & Aquariums | | https://www.aza.org/animal-care-manuals | Consulté 2026-10-14 ; aucun manuel pour cette espèce |

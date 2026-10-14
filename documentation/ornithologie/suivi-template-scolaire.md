@@ -61,4 +61,14 @@ CITES : document [E-Appendices-2026-03-05](https://cites.org/sites/default/files
 
 Élevage : index [EAZA](https://www.eaza.net/bpg/) et [AZA](https://www.aza.org/animal-care-manuals) consultés le 2026-10-14, aucun guide nommé. Le régime sauvage n’a pas été recopié.
 
-Comptes après ce pilote : taille chiffrée **26/85** ( + poule, taxon sauvage ; + tourterelle rieuse, taxon sauvage) ; longévité citée **24/85**. Les 73 espèces hors pilote ne sont pas encore passées.
+Comptes après ce pilote : taille chiffrée **26/85** ( + poule, taxon sauvage ; + tourterelle rieuse, taxon sauvage) ; longévité citée **24/85**.
+
+## Collection — 2026-10-14
+
+Les 85 fiches ont une case CITES, une morphologie et une trace d’élevage. Script : `scripts/apply-recherche-collection.mjs`.
+
+- **CITES** : annexes du 2026-03-05. Psittaciformes spp. en Annexe II, sauf Annexe I (*Psittacus erithacus*, *Cyanoramphus novaezelandiae*) et les exclusions explicites (*Agapornis roseicollis*, *Melopsittacus undulatus*, *Nymphicus hollandicus*, *Psittacula krameri*). *Lonchura oryzivora* et *Gracula religiosa* en Annexe II. Le reste du programme n’est pas inscrit.
+- **Longévité** : AnAge quand l’entrée existe et que la case était vide. Les chiffres déjà sourcés (ADW) sont conservés. Correction : calopsitte, 10–14 ans est le chiffre **sauvage** ADW, pas la captivité.
+- **Taille** : cacatoès blanc, 46 cm de longueur ; 25–31 cm est l’envergure (ADW), pas la taille du corps.
+- **Morphologie** : phrase ADW (*Physical Description*) pour 22 espèces. Les autres : trace de consultation.
+- **Élevage** : index EAZA et liste AZA, aucun guide d’espèce. Le document EAZA « Virus Management for Parrots » n’a pas servi à rédiger une ration.

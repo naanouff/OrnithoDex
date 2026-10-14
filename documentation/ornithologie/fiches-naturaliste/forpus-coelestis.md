@@ -2,7 +2,7 @@
 
 - **Slug** : `forpus-coelestis`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-13
+- **Dernière vérification** : 2026-10-14
 
 ## Identité
 
@@ -24,6 +24,38 @@
 |-------|--------|--------|
 | Catégorie | Préoccupation mineure (LC) | birdlife-forpus-coelestis. |
 | Année évaluation | 2024 | birdlife-forpus-coelestis. |
+
+## Mensurations
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Taille adulte | Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification). | birdlife-forpus-coelestis |
+| Longévité | 10,4 ans (captivité, maximum cité) | anage-forpus-coelestis |
+
+## Morphologie
+
+Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).  
+*Source : birdlife-forpus-coelestis.*
+
+## Statut CITES
+
+Annexe II (Psittaciformes spp., annexes du 2026-03-05).  
+*Source : cites-appendices.*
+
+## Alimentation en captivité
+
+Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.  
+*Sources : eaza-bpg ; aza-acm.*
+
+## Conseils captivité
+
+Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.  
+*Sources : eaza-bpg ; aza-acm.*
+
+## Compatibilité
+
+Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.  
+*Sources : eaza-bpg ; aza-acm.*
 
 ## Dimorphisme sexuel
 
@@ -74,3 +106,6 @@ Enregistrement XC512761 (Hans Matheve — CC BY-NC-ND 4.0) : https://xeno-canto.
 | birdlife-forpus-coelestis | Pacific Parrotlet Forpus coelestis — Species Factsheet | BirdLife International | 2024 | https://datazone.birdlife.org/species/factsheet/pacific-parrotlet-forpus-coelestis | Consulté 2026-10-10 |
 | media-forpus-coelestis-img | File:Forpus coelestis (normal and American white) -AFA show bird-8a.jpg | Ruth Rogers / Wikimedia Commons | 2002 | https://commons.wikimedia.org/wiki/File:Forpus_coelestis_(normal_and_American_white)_-AFA_show_bird-8a.jpg | CC BY 2.0 ; individu vert à gauche |
 | media-forpus-coelestis-audio | XC512761 | Hans Matheve / Xeno-canto | | https://xeno-canto.org/512761 | CC BY-NC-ND 4.0 |
+| cites-appendices | CITES Appendices I, II and III | CITES | 2026 | https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf | Consulté 2026-10-14 |
+| eaza-bpg | EAZA Best Practice Guidelines (index) | EAZA | | https://www.eaza.net/bpg/ | Consulté 2026-10-14 ; aucun guide d’espèce |
+| aza-acm | AZA Animal Care Manuals (liste publiée) | Association of Zoos & Aquariums | | https://www.aza.org/animal-care-manuals | Consulté 2026-10-14 ; aucun manuel pour cette espèce |

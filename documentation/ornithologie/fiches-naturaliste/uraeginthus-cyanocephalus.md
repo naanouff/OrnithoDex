@@ -2,7 +2,7 @@
 
 - **Slug** : `uraeginthus-cyanocephalus`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-13
+- **Dernière vérification** : 2026-10-14
 
 ## Identité
 
@@ -24,6 +24,38 @@
 |-------|--------|--------|
 | Catégorie | Préoccupation mineure (LC) | birdlife-uraeginthus-cyanocephalus. |
 | Année évaluation | 2018 | birdlife-uraeginthus-cyanocephalus. |
+
+## Mensurations
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Taille adulte | Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification). | birdlife-uraeginthus-cyanocephalus |
+| Longévité | Non documenté — bases consultées le 2026-10-14 : AnAge (entrée absente). | anage-uraeginthus-cyanocephalus |
+
+## Morphologie
+
+Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).  
+*Source : birdlife-uraeginthus-cyanocephalus.*
+
+## Statut CITES
+
+Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).  
+*Source : cites-appendices.*
+
+## Alimentation en captivité
+
+Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.  
+*Sources : eaza-bpg ; aza-acm.*
+
+## Conseils captivité
+
+Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.  
+*Sources : eaza-bpg ; aza-acm.*
+
+## Compatibilité
+
+Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.  
+*Sources : eaza-bpg ; aza-acm.*
 
 ## Dimorphisme sexuel
 
@@ -74,3 +106,6 @@ Enregistrement XC1030357 (Martin Tlustos — CC BY-NC-SA 4.0) : https://xeno-can
 | birdlife-uraeginthus-cyanocephalus | Blue-capped Cordon-bleu Uraeginthus cyanocephalus — Species Factsheet | BirdLife International | 2018 | https://datazone.birdlife.org/species/factsheet/blue-capped-cordon-bleu-uraeginthus-cyanocephalus | Consulté 2026-10-10 |
 | media-uraeginthus-cyanocephalus-img | File:Blue-capped Cordon-bleu, Ngorongoro.jpg | D. Gordon E. Robertson / Wikimedia Commons | 2009 | https://commons.wikimedia.org/wiki/File:Blue-capped_Cordon-bleu,_Ngorongoro.jpg | CC BY-SA 3.0 |
 | media-uraeginthus-cyanocephalus-audio | XC1030357 | Martin Tlustos / Xeno-canto | | https://xeno-canto.org/1030357 | CC BY-NC-SA 4.0 |
+| cites-appendices | CITES Appendices I, II and III | CITES | 2026 | https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf | Consulté 2026-10-14 |
+| eaza-bpg | EAZA Best Practice Guidelines (index) | EAZA | | https://www.eaza.net/bpg/ | Consulté 2026-10-14 ; aucun guide d’espèce |
+| aza-acm | AZA Animal Care Manuals (liste publiée) | Association of Zoos & Aquariums | | https://www.aza.org/animal-care-manuals | Consulté 2026-10-14 ; aucun manuel pour cette espèce |
