@@ -1,7 +1,8 @@
 # Suivi — Alignement template scolaire
 
 Valeurs : `ok` | `na` | `manquant` | `hors_perimetre`.  
-Réf. : [audit-template-fiche-scolaire.md](../projet/audit-template-fiche-scolaire.md) · [sprint-alignement-template-scolaire.md](../projet/sprint-alignement-template-scolaire.md).
+Réf. : [audit-template-fiche-scolaire.md](../projet/audit-template-fiche-scolaire.md) · [sprint-alignement-template-scolaire.md](../projet/sprint-alignement-template-scolaire.md).  
+Suite : [plan-recherche-champs-scolaires.md](../projet/plan-recherche-champs-scolaires.md) · [sprint-recherche-champs-scolaires.md](../projet/sprint-recherche-champs-scolaires.md).
 
 ## Pilotes Lot A (12) — 2026-10-13
 

@@ -215,6 +215,7 @@ Flux : feature → `develop` → `release/x.y.z` → `main` → tag + Release �
 11. Densité Collection en `localStorage` — [sprint](sprint-cols-localstorage.md)
 12. Passe critique UI/UX / ergonomie (quiz → fiche → collection → séries) — [plan](plan-ui-ux-ergonomie.md) · [sprint](sprint-ui-ux-ergonomie.md)
 13. Fiche au gabarit de cours (maquette puis app) — [plan](plan-fiche-gabarit-cours.md) · [sprint](sprint-fiche-gabarit-cours.md)
+14. Recherche sourcée des champs absents du cours — [plan](plan-recherche-champs-scolaires.md) · [sprint](sprint-recherche-champs-scolaires.md)
 
 ## Critères de done V1
 
@@ -240,6 +241,7 @@ Flux : feature → `develop` → `release/x.y.z` → `main` → tag + Release �
 - [Plan swipe fiches](plan-swipe-fiches.md) — parcours horizontal Collection filtrée
 - [Plan UI/UX ergonomie](plan-ui-ux-ergonomie.md) — passe critique 0.2.0 · [sprint](sprint-ui-ux-ergonomie.md)
 - [Plan fiche gabarit de cours](plan-fiche-gabarit-cours.md) — maquette polycopié · [sprint](sprint-fiche-gabarit-cours.md)
+- [Plan recherche champs scolaires](plan-recherche-champs-scolaires.md) — CITES, taille, élevage sourcés · [sprint](sprint-recherche-champs-scolaires.md)
 - [Charte design](design.md) — tokens, composants, specs écrans
 - [Vision](vision.md)
 - [Cahier des charges](cahier-des-charges.md)

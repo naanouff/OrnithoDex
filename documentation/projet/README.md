@@ -16,6 +16,8 @@
 | [plan-fiche-gabarit-cours.md](plan-fiche-gabarit-cours.md) | **Plan** — fiche UI au gabarit polycopié (maquette d’abord) |
 | [sprint-fiche-gabarit-cours.md](sprint-fiche-gabarit-cours.md) | **Sprint** — rattrapage maquette puis cases du cours |
 | [suivi-template-scolaire.md](../ornithologie/suivi-template-scolaire.md) | **Suivi** — couverture champs template scolaire |
+| [plan-recherche-champs-scolaires.md](plan-recherche-champs-scolaires.md) | **Plan** — collecte sourcée des champs absents du cours |
+| [sprint-recherche-champs-scolaires.md](sprint-recherche-champs-scolaires.md) | **Sprint** — catalogue + gabarit + pilote 12 |
 | [sprint-pedagogie-pilote-12.md](sprint-pedagogie-pilote-12.md) | **Sprint pédagogie** — pilote 12 points de cours |
 | [sprint-pedagogie-lot-01.md](sprint-pedagogie-lot-01.md) | **Sprint pédagogie** — lot 01 Agapornis / Amazona (6) |
 | [sprint-pedagogie-lot-02.md](sprint-pedagogie-lot-02.md) | **Sprint pédagogie** — lot 02 Psittacidés A (6) |
