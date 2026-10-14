@@ -44,10 +44,27 @@ export type IucnStatus = {
   sourceIds: string[]
 }
 
+/** Valeur citée, ou trace de recherche si la base ne donne pas de fait. */
+export type CitedField = {
+  value: string
+  sourceIds: string[]
+  /** Vrai quand `value` est « Non documenté — bases consultées… », pas un fait. */
+  undocumented?: boolean
+}
+
 /** Mensurations scolaires — `na` omis côté data. */
 export type Measurements = {
-  adultSize?: { value: string; sourceIds: string[] }
-  longevity?: { value: string; sourceIds: string[] }
+  adultSize?: CitedField
+  longevity?: CitedField
+}
+
+/** Cases du polycopié encore hors sections naturalistes. */
+export type SchoolSheet = {
+  morphology?: CitedField
+  cites?: CitedField
+  captiveDiet?: CitedField
+  captiveAdvice?: CitedField
+  compatibility?: CitedField
 }
 
 export type Bird = {
@@ -74,6 +91,7 @@ export type Bird = {
   wildRange?: WildRange
   iucn?: IucnStatus
   measurements?: Measurements
+  school?: SchoolSheet
   sheet: {
     status: SheetStatus
     sections: SourcedText[]

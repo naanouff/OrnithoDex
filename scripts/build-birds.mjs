@@ -135,23 +135,42 @@ function parseIucnTable(block) {
   return iucn
 }
 
+function sourceIdsFromCell(source) {
+  if (!source || source === 'na') return []
+  return source
+    .split(/[;,]/)
+    .map((id) => id.trim())
+    .filter((id) => id && id !== 'na')
+}
+
+function parseCitedCell(cell) {
+  if (!cell?.valeur || cell.valeur === 'na' || cell.valeur === '—') return null
+  const undocumented = /^non documenté/i.test(cell.valeur)
+  return {
+    value: cell.valeur,
+    sourceIds: sourceIdsFromCell(cell.source),
+    ...(undocumented ? { undocumented: true } : {}),
+  }
+}
+
+function parseSchoolSection(block) {
+  const sourced = parseSourcedSection(block)
+  if (!sourced) return null
+  const undocumented = /^non documenté/i.test(sourced.text)
+  return {
+    value: sourced.text,
+    sourceIds: sourced.sourceIds,
+    ...(undocumented ? { undocumented: true } : {}),
+  }
+}
+
 function parseMensurationsTable(block) {
   const map = parseKeyValueTable(block)
   const measurements = {}
-  const size = map['taille adulte']
-  if (size?.valeur && size.valeur !== 'na' && size.valeur !== '—') {
-    measurements.adultSize = {
-      value: size.valeur,
-      sourceIds: size.source && size.source !== 'na' ? [size.source] : [],
-    }
-  }
-  const longev = map['longévité'] || map['longevite']
-  if (longev?.valeur && longev.valeur !== 'na' && longev.valeur !== '—') {
-    measurements.longevity = {
-      value: longev.valeur,
-      sourceIds: longev.source && longev.source !== 'na' ? [longev.source] : [],
-    }
-  }
+  const size = parseCitedCell(map['taille adulte'])
+  if (size) measurements.adultSize = size
+  const longev = parseCitedCell(map['longévité'] || map['longevite'])
+  if (longev) measurements.longevity = longev
   return Object.keys(measurements).length ? measurements : null
 }
 
@@ -197,7 +216,15 @@ function parseFiche(filePath) {
 
   const biologyIds = sources
     .map((s) => s.id)
-    .filter((id) => id !== 'bac-pro-tcva-liste' && !id.startsWith('media-'))
+    .filter(
+      (id) =>
+        id !== 'bac-pro-tcva-liste' &&
+        !id.startsWith('media-') &&
+        !id.startsWith('anage-') &&
+        id !== 'cites-appendices' &&
+        id !== 'eaza-bpg' &&
+        id !== 'aza-acm',
+    )
 
   const coursePoints = courseRaw.map((p) => ({
     level: p.level,
@@ -240,6 +267,17 @@ function parseFiche(filePath) {
   const wildRange = fromTable || fromText
   const iucn = parseIucnTable(extractSection(md, 'Statut UICN'))
   const measurements = parseMensurationsTable(extractSection(md, 'Mensurations'))
+  const school = {}
+  const morphology = parseSchoolSection(extractSection(md, 'Morphologie'))
+  const cites = parseSchoolSection(extractSection(md, 'Statut CITES'))
+  const captiveDiet = parseSchoolSection(extractSection(md, 'Alimentation en captivité'))
+  const captiveAdvice = parseSchoolSection(extractSection(md, 'Conseils captivité'))
+  const compatibility = parseSchoolSection(extractSection(md, 'Compatibilité'))
+  if (morphology) school.morphology = morphology
+  if (cites) school.cites = cites
+  if (captiveDiet) school.captiveDiet = captiveDiet
+  if (captiveAdvice) school.captiveAdvice = captiveAdvice
+  if (compatibility) school.compatibility = compatibility
 
   const bird = {
     id: slugMatch[1],
@@ -259,6 +297,7 @@ function parseFiche(filePath) {
   if (wildRange) bird.wildRange = wildRange
   if (iucn) bird.iucn = iucn
   if (measurements) bird.measurements = measurements
+  if (Object.keys(school).length) bird.school = school
 
   if (media.imageCredit) bird.imageCredit = media.imageCredit
   if (media.imageSourceId) bird.imageSourceId = media.imageSourceId

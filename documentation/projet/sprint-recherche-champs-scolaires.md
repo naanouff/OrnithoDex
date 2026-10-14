@@ -1,7 +1,7 @@
 # Sprint — Recherche champs scolaires (catalogue + gabarit + pilote 12)
 
 **Branche** : `feature/recherche-champs-scolaires` → PR vers `develop`  
-**Dates** : préparation 2026-10-14 ; exécution → …  
+**Dates** : préparation 2026-10-14 ; exécution pilote 2026-10-14  
 **Réf.** : [plan-recherche-champs-scolaires.md](plan-recherche-champs-scolaires.md)
 
 ## Objectif
@@ -31,12 +31,12 @@ Mêmes 12 que [sprint-alignement-template-scolaire.md](sprint-alignement-templat
 
 ## Checklist
 
-- [ ] Plan lu
-- [ ] Sources adoptées (catalogue + README)
-- [ ] Gabarit + parseur + écran
-- [ ] 12 pilotes traités (fait cité ou `na` tracé)
-- [ ] Suivi + journal
-- [ ] `npm run data:birds` + PR vers `develop`
+- [x] Plan lu
+- [x] Sources adoptées (catalogue + README)
+- [x] Gabarit + parseur + écran
+- [x] 12 pilotes traités (fait cité ou `na` tracé)
+- [x] Suivi + journal
+- [ ] PR vers `develop` (pilote ; les 73 restent hors de cette passe)
 
 ## Suite
 

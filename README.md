@@ -59,6 +59,10 @@ Registre public de **toutes** les sources utilisées dans le projet. Toute nouve
 | `avibase` | Avibase | Denis Lepage / BSC-EOC | https://avibase.bsc-eoc.org/ | Contrôle taxonomique, synonymes |
 | `xeno-canto` | Xeno-canto | Xeno-canto Foundation | https://xeno-canto.org/ | Enregistrement audio précis (auteur + licence) |
 | `wikimedia-commons` | Wikimedia Commons | Wikimedia | https://commons.wikimedia.org/ | Images libres (licence par fichier) |
+| `cites-appendices` | CITES Appendices I, II and III | CITES | https://cites.org/eng/app/appendices.php | Annexe, ou absence d’inscription |
+| `anage` | AnAge | Human Ageing Genomic Resources | https://genomics.senescence.info/species/ | Longévité |
+| `eaza-bpg` | EAZA Best Practice Guidelines | EAZA | https://www.eaza.net/bpg/ | Élevage, seulement si un guide nommé existe |
+| `aza-acm` | AZA Animal Care Manuals | Association of Zoos & Aquariums | https://www.aza.org/animal-care-manuals | Élevage, seulement si un manuel nommé existe |
 
 Fiches espèce BirdLife / ADW / Avibase (sprints 01–07) : détail dans chaque [fiche du naturaliste](documentation/ornithologie/fiches-naturaliste/).
 

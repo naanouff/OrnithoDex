@@ -2,7 +2,7 @@
 
 - **Slug** : `aix-galericulata`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-13
+- **Dernière vérification** : 2026-10-14
 
 ## Identité
 
@@ -30,9 +30,34 @@
 
 | Champ | Valeur | Source |
 |-------|--------|--------|
-| Taille adulte | na | |
-| Longévité | na | |
+| Taille adulte | Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur dans la description consultée), BirdLife (pas de paragraphe d’identification). | adw-aix-galericulata |
+| Longévité | 10,4 ans (sauvage, maximum cité ; donnée jugée questionable, probablement sous-estimée) ; 20 ans cités comme chiffre anecdotique | anage-aix-galericulata |
 
+
+## Morphologie
+
+Mâle en plumage complet : plumes « voile » dressées au-dessus du dos, crête orange et crème, large sourcil blanc. Femelle plus terne, grisâtre, avec une bande blanche courbe derrière l’œil et des taches blanches dessous. Miroir bleu-vert chez les deux sexes en vol.  
+*Source : adw-aix-galericulata.*
+
+## Statut CITES
+
+Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).  
+*Source : cites-appendices.*
+
+## Alimentation en captivité
+
+Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).  
+*Sources : eaza-bpg ; aza-acm.*
+
+## Conseils captivité
+
+Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).  
+*Sources : eaza-bpg ; aza-acm.*
+
+## Compatibilité
+
+Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).  
+*Sources : eaza-bpg ; aza-acm.*
 
 ## Dimorphisme sexuel
 
@@ -93,3 +118,7 @@ Enregistrement XC1137635 (Simon Gillings — CC BY-NC-SA 4.0) : https://xeno-can
 | adw-aix-galericulata | Aix galericulata (Mandarin duck) | Animal Diversity Web / Marie S. Harris | | https://animaldiversity.org/accounts/Aix_galericulata/ | Consulté 2026-10-10 |
 | media-aix-galericulata-img | File:Mandarin duck (Aix galericulata).jpg | Alexis Lours / Wikimedia Commons | 2021 | https://commons.wikimedia.org/wiki/File:Mandarin_duck_(Aix_galericulata).jpg | CC BY 4.0 |
 | media-aix-galericulata-audio | XC1137635 | Simon Gillings / Xeno-canto | | https://xeno-canto.org/1137635 | CC BY-NC-SA 4.0 |
+| cites-appendices | CITES Appendices I, II and III | CITES | 2026 | https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf | Consulté 2026-10-14 |
+| eaza-bpg | EAZA Best Practice Guidelines (index) | EAZA | | https://www.eaza.net/bpg/ | Consulté 2026-10-14 ; aucun guide pour cette espèce |
+| aza-acm | AZA Animal Care Manuals (liste publiée) | Association of Zoos & Aquariums | | https://www.aza.org/animal-care-manuals | Consulté 2026-10-14 ; aucun manuel pour cette espèce |
+| anage-aix-galericulata | Aix galericulata — AnAge | AnAge | | https://genomics.senescence.info/species/entry.php?species=Aix_galericulata | Consulté 2026-10-14 |

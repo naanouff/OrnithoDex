@@ -2,7 +2,7 @@
 
 - **Slug** : `streptopelia-risoria`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-13
+- **Dernière vérification** : 2026-10-14
 
 ## Identité
 
@@ -31,9 +31,34 @@
 
 | Champ | Valeur | Source |
 |-------|--------|--------|
-| Taille adulte | na | |
-| Longévité | na | |
+| Taille adulte | 26–27 cm (taxon sauvage *Streptopelia roseogrisea*) | adw-streptopelia-roseogrisea |
+| Longévité | 12 ans (maximum cité ; milieu non précisé) ; AnAge indique une durée peut-être nettement plus longue, jusqu’à 20 ans, sans mesure | anage-streptopelia-risoria |
 
+
+## Morphologie
+
+Taxon sauvage *Streptopelia roseogrisea* : calotte, cou et nuque d’un fauve rose-gris pâle ; demi-collier noir étroit, bordé de blanc sur le bord supérieur ; dos et dessus de l’aile sable pâle.  
+*Source : adw-streptopelia-roseogrisea.*
+
+## Statut CITES
+
+Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).  
+*Source : cites-appendices.*
+
+## Alimentation en captivité
+
+Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).  
+*Sources : eaza-bpg ; aza-acm.*
+
+## Conseils captivité
+
+Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).  
+*Sources : eaza-bpg ; aza-acm.*
+
+## Compatibilité
+
+Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).  
+*Sources : eaza-bpg ; aza-acm.*
 
 ## Dimorphisme sexuel
 
@@ -94,3 +119,7 @@ Enregistrement XC1163976 (*Streptopelia roseogrisea*, Zsombor Károlyi — CC BY
 | adw-streptopelia-roseogrisea | Streptopelia roseogrisea (African collared dove) | Animal Diversity Web / Janice Pappas | | https://animaldiversity.org/accounts/Streptopelia_roseogrisea/ | Consulté 2026-10-10 |
 | media-streptopelia-risoria-img | File:Barbary Dove (Streptopelia risoria) RWD.jpg | Dick Daniels / Wikimedia Commons | 2010 | https://commons.wikimedia.org/wiki/File:Barbary_Dove_(Streptopelia_risoria)_RWD.jpg | CC BY-SA 3.0 |
 | media-streptopelia-risoria-audio | XC1163976 | Zsombor Károlyi / Xeno-canto | | https://xeno-canto.org/1163976 | CC BY-NC-SA 4.0 ; taxon sauvage |
+| cites-appendices | CITES Appendices I, II and III | CITES | 2026 | https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf | Consulté 2026-10-14 |
+| eaza-bpg | EAZA Best Practice Guidelines (index) | EAZA | | https://www.eaza.net/bpg/ | Consulté 2026-10-14 ; aucun guide pour cette espèce |
+| aza-acm | AZA Animal Care Manuals (liste publiée) | Association of Zoos & Aquariums | | https://www.aza.org/animal-care-manuals | Consulté 2026-10-14 ; aucun manuel pour cette espèce |
+| anage-streptopelia-risoria | Streptopelia risoria — AnAge | AnAge | | https://genomics.senescence.info/species/entry.php?species=Streptopelia_risoria | Consulté 2026-10-14 |

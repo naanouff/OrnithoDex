@@ -978,6 +978,35 @@ export const birds: Bird[] = [
         "publisher": "Simon Gillings / Xeno-canto",
         "url": "https://xeno-canto.org/1137635",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide pour cette espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "anage-aix-galericulata",
+        "title": "Aix galericulata — AnAge",
+        "publisher": "AnAge",
+        "url": "https://genomics.senescence.info/species/entry.php?species=Aix_galericulata",
+        "note": "Consulté 2026-10-14"
       }
     ],
     "wildRange": {
@@ -996,6 +1025,59 @@ export const birds: Bird[] = [
         "birdlife-aix-galericulata"
       ],
       "year": "2018"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur dans la description consultée), BirdLife (pas de paragraphe d’identification).",
+        "sourceIds": [
+          "adw-aix-galericulata"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "10,4 ans (sauvage, maximum cité ; donnée jugée questionable, probablement sous-estimée) ; 20 ans cités comme chiffre anecdotique",
+        "sourceIds": [
+          "anage-aix-galericulata"
+        ]
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Mâle en plumage complet : plumes « voile » dressées au-dessus du dos, crête orange et crème, large sourcil blanc. Femelle plus terne, grisâtre, avec une bande blanche courbe derrière l’œil et des taches blanches dessous. Miroir bleu-vert chez les deux sexes en vol.",
+        "sourceIds": [
+          "adw-aix-galericulata"
+        ]
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Alexis Lours — CC BY 4.0",
     "imageSourceId": "media-aix-galericulata-img",
@@ -1140,6 +1222,35 @@ export const birds: Bird[] = [
         "publisher": "Don Profota / Xeno-canto",
         "url": "https://xeno-canto.org/1173163",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide pour cette espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "anage-aix-sponsa",
+        "title": "Aix sponsa — AnAge",
+        "publisher": "AnAge",
+        "url": "https://genomics.senescence.info/species/entry.php?species=Aix_sponsa",
+        "note": "Consulté 2026-10-14"
       }
     ],
     "wildRange": {
@@ -1161,10 +1272,55 @@ export const birds: Bird[] = [
     },
     "measurements": {
       "adultSize": {
-        "value": "48–54 cm",
+        "value": "mâle 48–54 cm ; femelle 47–51 cm",
         "sourceIds": [
           "adw-aix-sponsa"
         ]
+      },
+      "longevity": {
+        "value": "22,5 ans (sauvage, maximum cité, AnAge) ; environ 15 ans (sauvage, maximum cité, ADW)",
+        "sourceIds": [
+          "anage-aix-sponsa",
+          "adw-aix-sponsa"
+        ]
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Crête, queue rectangulaire, ventre blanc et lignes blanches au dos de l’aile. Mâle : tête irisée verte, bleue et violette, poitrine rouille, flancs bronze. Femelle : brun-gris, anneau oculaire blanc.",
+        "sourceIds": [
+          "adw-aix-sponsa"
+        ]
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
       }
     },
     "imageCredit": "Dick Daniels — CC BY-SA 3.0",
@@ -2441,6 +2597,35 @@ export const birds: Bird[] = [
         "publisher": "Ron Overholtz / Xeno-canto",
         "url": "https://xeno-canto.org/570687",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide pour cette espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "anage-callipepla-californica",
+        "title": "Callipepla californica — AnAge",
+        "publisher": "AnAge",
+        "url": "https://genomics.senescence.info/species/entry.php?species=Callipepla_californica",
+        "note": "Consulté 2026-10-14"
       }
     ],
     "wildRange": {
@@ -2466,6 +2651,50 @@ export const birds: Bird[] = [
         "sourceIds": [
           "adw-callipepla-californica"
         ]
+      },
+      "longevity": {
+        "value": "9,6 ans (maximum cité ; milieu non précisé)",
+        "sourceIds": [
+          "anage-callipepla-californica"
+        ]
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Dessous d’aspect écailleux (pointes de plumes noires et brunes), plumage général bleu-gris et brun, couronne châtain, bec noir, pattes grises, huppe en goutte sur le front.",
+        "sourceIds": [
+          "adw-callipepla-californica"
+        ]
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
       }
     },
     "imageCredit": "Nick Myatt / ODFW — CC BY-SA 2.0",
@@ -2611,6 +2840,35 @@ export const birds: Bird[] = [
         "publisher": "FREDERIC Lionel / Xeno-canto",
         "url": "https://xeno-canto.org/919215",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide pour cette espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "anage-colinus-virginianus",
+        "title": "Colinus virginianus — AnAge",
+        "publisher": "AnAge",
+        "url": "https://genomics.senescence.info/species/entry.php?species=Colinus_virginianus",
+        "note": "Consulté 2026-10-14"
       }
     ],
     "wildRange": {
@@ -2638,10 +2896,48 @@ export const birds: Bird[] = [
         ]
       },
       "longevity": {
-        "value": "6 ans (sauvage, maximum cité)",
+        "value": "6,4 ans (sauvage, maximum cité) ; 10 ans évoqués mais non confirmés",
+        "sourceIds": [
+          "anage-colinus-virginianus"
+        ]
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Petit Galliforme (140 à 170 g), ailes arrondies, queue carrée. Dos brun-roux marbré (bords clairs et barres sombres), poitrine blanche.",
         "sourceIds": [
           "adw-colinus-virginianus"
         ]
+      },
+      "cites": {
+        "value": "Non inscrit à l’espèce ; sous-espèce *Colinus virginianus ridgwayi* en Annexe I (annexes du 2026-03-05).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
       }
     },
     "imageCredit": "DickDaniels — CC BY-SA 3.0",
@@ -2787,6 +3083,35 @@ export const birds: Bird[] = [
         "publisher": "Pietro Bonanno / Xeno-canto",
         "url": "https://xeno-canto.org/977797",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide pour cette espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "anage-columba-livia",
+        "title": "Columba livia — AnAge",
+        "publisher": "AnAge",
+        "url": "https://genomics.senescence.info/species/entry.php?species=Columba_livia",
+        "note": "Consulté 2026-10-14"
       }
     ],
     "wildRange": {
@@ -2806,6 +3131,60 @@ export const birds: Bird[] = [
       "sourceIds": [
         "birdlife-columba-livia"
       ]
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur dans la description consultée), BirdLife (pas de paragraphe d’identification).",
+        "sourceIds": [
+          "adw-columba-livia"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "35 ans (captivité, maximum cité) ; 6 ans (sauvage, moyenne, ADW)",
+        "sourceIds": [
+          "anage-columba-livia",
+          "adw-columba-livia"
+        ]
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Tête, cou et poitrine gris-bleu sombre, avec des irisations jaunâtres, verdâtres et pourpre rougeâtre sur le cou et les ailes. Bec gris-rose sombre. La plupart montrent deux bandes sombres sur l’aile et une bande gris-bleu sur la queue.",
+        "sourceIds": [
+          "adw-columba-livia"
+        ]
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Charles J. Sharp — CC BY-SA 4.0",
     "imageSourceId": "media-columba-livia-img",
@@ -2960,6 +3339,35 @@ export const birds: Bird[] = [
         "publisher": "Richard E. Webster / Xeno-canto",
         "url": "https://xeno-canto.org/1076265",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide pour cette espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "anage-coturnix-chinensis",
+        "title": "Coturnix chinensis — AnAge",
+        "publisher": "AnAge",
+        "url": "https://genomics.senescence.info/species/entry.php?species=Coturnix_chinensis",
+        "note": "Consulté 2026-10-14"
       }
     ],
     "wildRange": {
@@ -2987,6 +3395,50 @@ export const birds: Bird[] = [
         "sourceIds": [
           "adw-coturnix-chinensis"
         ]
+      },
+      "longevity": {
+        "value": "5 ans (maximum cité ; milieu non précisé, donnée jugée questionable)",
+        "sourceIds": [
+          "anage-coturnix-chinensis"
+        ]
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Mâle brun sombre, poitrine gris-bleu ardoise, ventre roux à châtain, gorge noire bordée de blanc. Femelle brune, sans la poitrine grise, le ventre roux ni les marques noires du mâle.",
+        "sourceIds": [
+          "adw-coturnix-chinensis"
+        ]
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
       }
     },
     "imageCredit": "DickDaniels — CC BY-SA 3.0",
@@ -4938,6 +5390,35 @@ export const birds: Bird[] = [
         "publisher": "Maria Ulfah / Xeno-canto",
         "url": "https://xeno-canto.org/1181554",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide pour cette espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "anage-gallus-gallus",
+        "title": "Gallus gallus — AnAge",
+        "publisher": "AnAge",
+        "url": "https://genomics.senescence.info/species/entry.php?species=Gallus_gallus",
+        "note": "Consulté 2026-10-14"
       }
     ],
     "wildRange": {
@@ -4956,6 +5437,58 @@ export const birds: Bird[] = [
         "birdlife-gallus-gallus"
       ],
       "year": "2024"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "jusqu’à 70 cm (taxon sauvage *Gallus gallus*)",
+        "sourceIds": [
+          "adw-gallus-gallus"
+        ]
+      },
+      "longevity": {
+        "value": "30 ans (captivité, maximum rapporté ; non prouvé, AnAge recommande 15 ou 20 ans pour les comparaisons)",
+        "sourceIds": [
+          "anage-gallus-gallus"
+        ]
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Taxon sauvage *Gallus gallus* : plumage or, rouge, brun, marron, orange, avec du vert métallique et du gris ; deux taches blanches en forme d’oreille de chaque côté de la tête ; pattes grisâtres. Queue du mâle pouvant atteindre presque 28 cm.",
+        "sourceIds": [
+          "adw-gallus-gallus"
+        ]
+      },
+      "cites": {
+        "value": "Non inscrit (*Gallus gallus*, forme domestique comprise). *Gallus sonneratii* est en Annexe II : ce n’est pas ce taxon (annexes du 2026-03-05).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "SimonWaldherr — CC BY 4.0",
     "imageSourceId": "media-gallus-domesticus-img",
@@ -5085,6 +5618,35 @@ export const birds: Bird[] = [
         "publisher": "Nigel Jackett / Xeno-canto",
         "url": "https://xeno-canto.org/165147",
         "note": "CC BY-NC-SA 3.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide pour cette espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "anage-geopelia-cuneata",
+        "title": "Geopelia cuneata — AnAge",
+        "publisher": "AnAge",
+        "url": "https://genomics.senescence.info/species/entry.php?species=Geopelia_cuneata",
+        "note": "Consulté 2026-10-14"
       }
     ],
     "wildRange": {
@@ -5103,6 +5665,60 @@ export const birds: Bird[] = [
         "birdlife-geopelia-cuneata"
       ],
       "year": "2024"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : BirdLife (fiche sans paragraphe d’identification), ADW (page non obtenue, erreur 503).",
+        "sourceIds": [
+          "birdlife-geopelia-cuneata"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "longévité maximale non établie ; des individus ont vécu 1,8 an",
+        "sourceIds": [
+          "anage-geopelia-cuneata"
+        ]
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : BirdLife (fiche sans paragraphe d’identification), ADW (page non obtenue, erreur 503).",
+        "sourceIds": [
+          "birdlife-geopelia-cuneata"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Maurice van Bruggen — CC BY-SA 3.0",
     "imageSourceId": "media-geopelia-cuneata-img",
@@ -5232,6 +5848,35 @@ export const birds: Bird[] = [
         "publisher": "Arend Wassink / Xeno-canto",
         "url": "https://xeno-canto.org/1081912",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide pour cette espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "anage-geopelia-striata",
+        "title": "Geopelia striata — AnAge",
+        "publisher": "AnAge",
+        "url": "https://genomics.senescence.info/species/entry.php?species=Geopelia_striata",
+        "note": "Consulté 2026-10-14"
       }
     ],
     "wildRange": {
@@ -5250,6 +5895,60 @@ export const birds: Bird[] = [
         "birdlife-geopelia-striata"
       ],
       "year": "2025"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : BirdLife (fiche sans paragraphe d’identification), ADW (page non obtenue, erreur 503).",
+        "sourceIds": [
+          "birdlife-geopelia-striata"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "18,7 ans (sauvage, maximum cité ; un individu bagué d’au moins 18,7 ans)",
+        "sourceIds": [
+          "anage-geopelia-striata"
+        ]
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : BirdLife (fiche sans paragraphe d’identification), ADW (page non obtenue, erreur 503).",
+        "sourceIds": [
+          "birdlife-geopelia-striata"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Angah hfz — CC BY-SA 3.0",
     "imageSourceId": "media-geopelia-striata-img",
@@ -8646,6 +9345,35 @@ export const birds: Bird[] = [
         "publisher": "Stanislas Wroza / Xeno-canto",
         "url": "https://xeno-canto.org/951388",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide pour cette espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "anage-oena-capensis",
+        "title": "Oena capensis — AnAge",
+        "publisher": "AnAge",
+        "url": "https://genomics.senescence.info/species/entry.php?species=Oena_capensis",
+        "note": "Consulté 2026-10-14 ; entrée absente"
       }
     ],
     "wildRange": {
@@ -8664,6 +9392,61 @@ export const birds: Bird[] = [
         "birdlife-oena-capensis"
       ],
       "year": "2024"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : BirdLife (fiche sans paragraphe d’identification), ADW (page non obtenue, erreur 503).",
+        "sourceIds": [
+          "birdlife-oena-capensis"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : AnAge (entrée absente), ADW (page non obtenue, erreur 503).",
+        "sourceIds": [
+          "anage-oena-capensis"
+        ],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : BirdLife (fiche sans paragraphe d’identification), ADW (page non obtenue, erreur 503).",
+        "sourceIds": [
+          "birdlife-oena-capensis"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Neil Strickland — CC BY 2.0",
     "imageSourceId": "media-oena-capensis-img",
@@ -11865,6 +12648,35 @@ export const birds: Bird[] = [
         "publisher": "Zsombor Károlyi / Xeno-canto",
         "url": "https://xeno-canto.org/1163976",
         "note": "CC BY-NC-SA 4.0 ; taxon sauvage"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide pour cette espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "anage-streptopelia-risoria",
+        "title": "Streptopelia risoria — AnAge",
+        "publisher": "AnAge",
+        "url": "https://genomics.senescence.info/species/entry.php?species=Streptopelia_risoria",
+        "note": "Consulté 2026-10-14"
       }
     ],
     "wildRange": {
@@ -11883,6 +12695,58 @@ export const birds: Bird[] = [
         "birdlife-streptopelia-roseogrisea"
       ],
       "year": "2018"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "26–27 cm (taxon sauvage *Streptopelia roseogrisea*)",
+        "sourceIds": [
+          "adw-streptopelia-roseogrisea"
+        ]
+      },
+      "longevity": {
+        "value": "12 ans (maximum cité ; milieu non précisé) ; AnAge indique une durée peut-être nettement plus longue, jusqu’à 20 ans, sans mesure",
+        "sourceIds": [
+          "anage-streptopelia-risoria"
+        ]
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Taxon sauvage *Streptopelia roseogrisea* : calotte, cou et nuque d’un fauve rose-gris pâle ; demi-collier noir étroit, bordé de blanc sur le bord supérieur ; dos et dessus de l’aile sable pâle.",
+        "sourceIds": [
+          "adw-streptopelia-roseogrisea"
+        ]
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Dick Daniels — CC BY-SA 3.0",
     "imageSourceId": "media-streptopelia-risoria-img",
@@ -12015,6 +12879,35 @@ export const birds: Bird[] = [
         "publisher": "African Bioacoustics Community / Xeno-canto",
         "url": "https://xeno-canto.org/1183962",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide pour cette espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "anage-spilopelia-senegalensis",
+        "title": "Spilopelia senegalensis — AnAge",
+        "publisher": "AnAge",
+        "url": "https://genomics.senescence.info/species/entry.php?species=Spilopelia_senegalensis",
+        "note": "Consulté 2026-10-14 ; entrée absente"
       }
     ],
     "wildRange": {
@@ -12034,6 +12927,61 @@ export const birds: Bird[] = [
         "birdlife-spilopelia-senegalensis"
       ],
       "year": "2018"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : BirdLife (fiche sans paragraphe d’identification), ADW (page non obtenue, erreur 503).",
+        "sourceIds": [
+          "birdlife-spilopelia-senegalensis"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : AnAge (entrée absente), ADW (page non obtenue, erreur 503).",
+        "sourceIds": [
+          "anage-spilopelia-senegalensis"
+        ],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : BirdLife (fiche sans paragraphe d’identification), ADW (page non obtenue, erreur 503).",
+        "sourceIds": [
+          "birdlife-spilopelia-senegalensis"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Zeynel Cebeci — CC BY-SA 4.0",
     "imageSourceId": "media-streptopelia-senegalensis-img",

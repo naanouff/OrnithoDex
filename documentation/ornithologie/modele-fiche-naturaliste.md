@@ -51,6 +51,22 @@ Les sections sans source restent **vides** (ne pas inventer). Méthode : [plan-s
 | Taille adulte | … ou na | … |
 | Longévité | … ou na | … |
 
+## Morphologie
+
+<!-- Phrase BirdLife (identification) ou ADW (Physical Description). Pas le paragraphe de statut UICN. -->
+
+## Statut CITES
+
+<!-- Annexe I, II, III, ou « non inscrit », d’après les annexes CITES. -->
+
+## Alimentation en captivité
+
+<!-- Uniquement un guide EAZA, un manuel AZA, un article ou un ouvrage nommé. Sinon la trace de recherche. -->
+
+## Conseils captivité
+
+## Compatibilité
+
 ## Dimorphisme sexuel
 
 ## Habitat d’origine

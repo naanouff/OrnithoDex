@@ -162,15 +162,18 @@ export function BirdSheetPage() {
       )}
 
       <div className="sheet__fields">
-        <SheetField label="Description morphologique" value={null} />
+        <SheetField
+          label="Description morphologique"
+          {...citedProps(bird.school?.morphology)}
+        />
         <div className="sheet__pair">
           <SheetField
             label="Taille adulte"
-            value={bird.measurements?.adultSize?.value ?? null}
+            {...citedProps(bird.measurements?.adultSize)}
           />
           <SheetField
             label="Longévité"
-            value={bird.measurements?.longevity?.value ?? null}
+            {...citedProps(bird.measurements?.longevity)}
           />
         </div>
         <SheetField
@@ -197,11 +200,20 @@ export function BirdSheetPage() {
         </dl>
         <div className="sheet__pair">
           <SheetField label="Statut UICN" value={iucnLabel} />
-          <SheetField label="Statut CITES" value={null} />
+          <SheetField label="Statut CITES" {...citedProps(bird.school?.cites)} />
         </div>
-        <SheetField label="Alimentation en captivité" value={null} />
-        <SheetField label="Conseils captivité" value={null} />
-        <SheetField label="Compatibilité" value={null} />
+        <SheetField
+          label="Alimentation en captivité"
+          {...citedProps(bird.school?.captiveDiet)}
+        />
+        <SheetField
+          label="Conseils captivité"
+          {...citedProps(bird.school?.captiveAdvice)}
+        />
+        <SheetField
+          label="Compatibilité"
+          {...citedProps(bird.school?.compatibility)}
+        />
       </div>
 
       {localAudio ? (
@@ -264,19 +276,29 @@ function sectionText(
   return text ? text : null
 }
 
+function citedProps(field?: { value: string; undocumented?: boolean }): {
+  value: string | null
+  undocumented: boolean
+} {
+  if (!field?.value) return { value: null, undocumented: false }
+  return { value: field.value, undocumented: Boolean(field.undocumented) }
+}
+
 function SheetField({
   label,
   value,
+  undocumented = false,
 }: {
   label: string
   value: string | null
+  undocumented?: boolean
 }) {
-  const empty = !value
+  const empty = !value || undocumented
   return (
     <dl className="sheet__field">
       <dt>{label}</dt>
       <dd className={empty ? 'is-empty' : undefined}>
-        {empty ? EMPTY : renderInlineMarkdown(value)}
+        {value ? renderInlineMarkdown(value) : EMPTY}
       </dd>
     </dl>
   )

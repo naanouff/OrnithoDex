@@ -2,7 +2,7 @@
 
 - **Slug** : `callipepla-californica`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-13
+- **Dernière vérification** : 2026-10-14
 
 ## Identité
 
@@ -31,8 +31,33 @@
 | Champ | Valeur | Source |
 |-------|--------|--------|
 | Taille adulte | 25 cm | adw-callipepla-californica |
-| Longévité | na | |
+| Longévité | 9,6 ans (maximum cité ; milieu non précisé) | anage-callipepla-californica |
 
+
+## Morphologie
+
+Dessous d’aspect écailleux (pointes de plumes noires et brunes), plumage général bleu-gris et brun, couronne châtain, bec noir, pattes grises, huppe en goutte sur le front.  
+*Source : adw-callipepla-californica.*
+
+## Statut CITES
+
+Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).  
+*Source : cites-appendices.*
+
+## Alimentation en captivité
+
+Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).  
+*Sources : eaza-bpg ; aza-acm.*
+
+## Conseils captivité
+
+Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).  
+*Sources : eaza-bpg ; aza-acm.*
+
+## Compatibilité
+
+Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).  
+*Sources : eaza-bpg ; aza-acm.*
 
 ## Dimorphisme sexuel
 
@@ -93,3 +118,7 @@ Enregistrement XC570687 (Ron Overholtz — CC BY-NC-SA 4.0) : https://xeno-canto
 | adw-callipepla-californica | Callipepla californica (California quail) | Animal Diversity Web / Zebulon Price | | https://animaldiversity.org/accounts/Callipepla_californica/ | Consulté 2026-10-10 |
 | media-callipepla-californica-img | File:Valley quail myatt (5489811278) (cropped).jpg | Nick Myatt / ODFW / Wikimedia Commons | 2010 | https://commons.wikimedia.org/wiki/File:Valley_quail_myatt_(5489811278)_(cropped).jpg | CC BY-SA 2.0 |
 | media-callipepla-californica-audio | XC570687 | Ron Overholtz / Xeno-canto | | https://xeno-canto.org/570687 | CC BY-NC-SA 4.0 |
+| cites-appendices | CITES Appendices I, II and III | CITES | 2026 | https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf | Consulté 2026-10-14 |
+| eaza-bpg | EAZA Best Practice Guidelines (index) | EAZA | | https://www.eaza.net/bpg/ | Consulté 2026-10-14 ; aucun guide pour cette espèce |
+| aza-acm | AZA Animal Care Manuals (liste publiée) | Association of Zoos & Aquariums | | https://www.aza.org/animal-care-manuals | Consulté 2026-10-14 ; aucun manuel pour cette espèce |
+| anage-callipepla-californica | Callipepla californica — AnAge | AnAge | | https://genomics.senescence.info/species/entry.php?species=Callipepla_californica | Consulté 2026-10-14 |
