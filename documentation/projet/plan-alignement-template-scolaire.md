@@ -33,9 +33,9 @@ Pilote : **12** espèces Galliformes / Ansériformes / Columbiformes (dont colin
 
 Relecture ADW / BirdLife pour les 22 slugs listés dans l’audit → `ok` ou `na` justifié (pas de silence ambigu).
 
-### Lot C — Captivité / CITES / compatibilité (plus tard)
+### Lot C — Captivité / CITES / compatibilité
 
-Nouveau lot **sources animalerie** (ouvrages / fiches CITES officielles). Hors sprint 1. Ne pas inventer à partir du template vide.
+Recherche primaire (CITES, AnAge, BirdLife / ADW, guide nommé) : [plan-recherche-champs-scolaires.md](plan-recherche-champs-scolaires.md). Pas de forum animalerie comme source unique.
 
 ## Hors périmètre global
 

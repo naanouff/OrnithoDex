@@ -2,7 +2,7 @@
 
 - **Slug** : `aix-galericulata`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-13
+- **Dernière vérification** : 2026-10-14
 
 ## Identité
 
@@ -30,9 +30,63 @@
 
 | Champ | Valeur | Source |
 |-------|--------|--------|
-| Taille adulte | na | |
-| Longévité | na | |
+| Taille adulte | Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur dans la description consultée), BirdLife (pas de paragraphe d’identification). | adw-aix-galericulata |
+| Poids | 428 à 693 g | adw-aix-galericulata |
+| Longévité | 10,4 ans (sauvage, maximum cité ; donnée jugée questionable, probablement sous-estimée) ; 20 ans cités comme chiffre anecdotique | anage-aix-galericulata |
 
+
+## Morphologie
+
+Mâle en plumage complet : plumes « voile » dressées au-dessus du dos, crête orange et crème, large sourcil blanc. Femelle plus terne, grisâtre, avec une bande blanche courbe derrière l’œil et des taches blanches dessous. Miroir bleu-vert chez les deux sexes en vol.  
+*Source : adw-aix-galericulata.*
+
+## Statut CITES
+
+Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).  
+*Source : cites-appendices.*
+
+## Variétés domestiques
+
+Variété blanche du canard mandarin (Aix galericulata).  
+*Source : arrete-11-aout-2006.*
+
+## Reproduction
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Période | Non documenté — page ADW consultée le 2026-10-14, ce chiffre n’y figure pas. | adw-aix-galericulata |
+| Nombre d'œufs | 9 à 12 œufs par saison (ADW). | adw-aix-galericulata |
+| Temps de couvaison | Non documenté — page ADW consultée le 2026-10-14, ce chiffre n’y figure pas. | adw-aix-galericulata |
+
+## Taille de cage
+
+L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.  
+*Source : arrete-08-octobre-2018.*
+
+## Prix en animalerie
+
+Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.  
+*Sources : arrete-08-octobre-2018 ; eaza-bpg ; aza-acm.*
+
+## Prix sur internet
+
+Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.  
+*Sources : arrete-08-octobre-2018 ; eaza-bpg ; aza-acm.*
+
+## Alimentation en captivité
+
+Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).  
+*Sources : eaza-bpg ; aza-acm.*
+
+## Conseils captivité
+
+Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).  
+*Sources : eaza-bpg ; aza-acm.*
+
+## Compatibilité
+
+Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).  
+*Sources : eaza-bpg ; aza-acm.*
 
 ## Dimorphisme sexuel
 
@@ -93,3 +147,9 @@ Enregistrement XC1137635 (Simon Gillings — CC BY-NC-SA 4.0) : https://xeno-can
 | adw-aix-galericulata | Aix galericulata (Mandarin duck) | Animal Diversity Web / Marie S. Harris | | https://animaldiversity.org/accounts/Aix_galericulata/ | Consulté 2026-10-10 |
 | media-aix-galericulata-img | File:Mandarin duck (Aix galericulata).jpg | Alexis Lours / Wikimedia Commons | 2021 | https://commons.wikimedia.org/wiki/File:Mandarin_duck_(Aix_galericulata).jpg | CC BY 4.0 |
 | media-aix-galericulata-audio | XC1137635 | Simon Gillings / Xeno-canto | | https://xeno-canto.org/1137635 | CC BY-NC-SA 4.0 |
+| cites-appendices | CITES Appendices I, II and III | CITES | 2026 | https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf | Consulté 2026-10-14 |
+| eaza-bpg | EAZA Best Practice Guidelines (index) | EAZA | | https://www.eaza.net/bpg/ | Consulté 2026-10-14 ; aucun guide pour cette espèce |
+| aza-acm | AZA Animal Care Manuals (liste publiée) | Association of Zoos & Aquariums | | https://www.aza.org/animal-care-manuals | Consulté 2026-10-14 ; aucun manuel pour cette espèce |
+| anage-aix-galericulata | Aix galericulata — AnAge | AnAge | | https://genomics.senescence.info/species/entry.php?species=Aix_galericulata | Consulté 2026-10-14 |
+| arrete-11-aout-2006 | Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A) | Journal officiel | 2006 | | Annexe oiseaux, 7 octobre 2006 |
+| arrete-08-octobre-2018 | Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques | Journal officiel | 2018 | https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/ | Consulté 2026-10-14 ; pas de dimensions de cage |

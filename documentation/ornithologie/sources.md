@@ -19,7 +19,9 @@ Ce projet est **open source** et pédagogique. **Il est interdit d’inventer** 
 | Sites institutionnels | Muséums, associations reconnues | URL stable, date de consultation |
 | Médias | Photos, enregistrements | Auteur, licence, URL |
 
-Sources non acceptées seules : rumeurs, forums non expertisés, « connaissance personnelle » non documentée, contenu généré par IA non vérifié.
+Sources non acceptées seules : rumeurs, forums non expertisés, « connaissance personnelle » non documentée, contenu généré par IA non vérifié, blogs et forums animalerie.
+
+Une consigne d’élevage (ration, conseil, compatibilité) n’entre que depuis un guide EAZA, un manuel AZA, un article ou un ouvrage nommé. Le régime sauvage ne remplit pas la case captivité.
 
 ## Processus d’ajout
 
@@ -31,7 +33,7 @@ Sources non acceptées seules : rumeurs, forums non expertisés, « connaissance
 
 ## Identité programme
 
-Source unique initiale : `bac-pro-tcva-liste` — voir [programme.md](programme.md).
+Identité : `bac-pro-tcva-liste` — voir [programme.md](programme.md) et le PDF dans [cours/](cours/). L’arrêté du 11 août 2006 (`arrete-11-aout-2006`) ne remplace pas cette liste.
 
 ## Catalogue opérationnel
 

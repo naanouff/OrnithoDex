@@ -1,7 +1,8 @@
 # Suivi — Alignement template scolaire
 
 Valeurs : `ok` | `na` | `manquant` | `hors_perimetre`.  
-Réf. : [audit-template-fiche-scolaire.md](../projet/audit-template-fiche-scolaire.md) · [sprint-alignement-template-scolaire.md](../projet/sprint-alignement-template-scolaire.md).
+Réf. : [audit-template-fiche-scolaire.md](../projet/audit-template-fiche-scolaire.md) · [sprint-alignement-template-scolaire.md](../projet/sprint-alignement-template-scolaire.md).  
+Suite : [plan-recherche-champs-scolaires.md](../projet/plan-recherche-champs-scolaires.md) · [sprint-recherche-champs-scolaires.md](../projet/sprint-recherche-champs-scolaires.md).
 
 ## Pilotes Lot A (12) — 2026-10-13
 
@@ -36,3 +37,38 @@ Tous passés en `na` explicite (« Non détaillé dans les sources consultées �
 | CITES, alimentation, conseils, compatibilité, morphologie dédiée | non remplis | Pas de source du catalogue qui donne ces faits sans les inventer |
 
 Script : `scripts/apply-champs-manquants.mjs`. Les comptes ADW ajoutés ce jour sont dans la table Sources de la fiche (`Consulté 2026-10-13`).
+
+## Pilote recherche — 2026-10-14
+
+`ok` = fait cité. `trace` = case remplie par « Non documenté — bases consultées… », pas un fait. Script : `scripts/apply-recherche-pilote.mjs`.
+
+| Slug | morphologie | taille | longevite | cites | captivite | conseils | compatibilite |
+|------|-------------|--------|-----------|-------|-----------|----------|---------------|
+| colinus-virginianus | ok | ok | ok | ok (espèce non inscrite ; *ridgwayi* Annexe I) | trace | trace | trace |
+| coturnix-chinensis | ok | ok | ok | ok | trace | trace | trace |
+| gallus-gallus-domesticus | ok (taxon sauvage) | ok (taxon sauvage) | ok (captivité, non prouvé) | ok | trace | trace | trace |
+| callipepla-californica | ok | ok | ok (milieu non précisé) | ok | trace | trace | trace |
+| aix-galericulata | ok | trace | ok | ok | trace | trace | trace |
+| aix-sponsa | ok | ok | ok | ok | trace | trace | trace |
+| geopelia-cuneata | trace | trace | ok (max. non établie) | ok | trace | trace | trace |
+| geopelia-striata | trace | trace | ok | ok | trace | trace | trace |
+| oena-capensis | trace | trace | trace | ok | trace | trace | trace |
+| streptopelia-senegalensis | trace | trace | trace | ok | trace | trace | trace |
+| streptopelia-risoria | ok (taxon sauvage) | ok (taxon sauvage) | ok | ok | trace | trace | trace |
+| columba-livia | ok | trace | ok | ok | trace | trace | trace |
+
+CITES : document [E-Appendices-2026-03-05](https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf). Les 12 taxons du programme n’y figurent pas ; seule la sous-espèce *Colinus virginianus ridgwayi* est en Annexe I, et *Gallus sonneratii* (autre espèce) en Annexe II.
+
+Élevage : index [EAZA](https://www.eaza.net/bpg/) et [AZA](https://www.aza.org/animal-care-manuals) consultés le 2026-10-14, aucun guide nommé. Le régime sauvage n’a pas été recopié.
+
+Comptes après ce pilote : taille chiffrée **26/85** ( + poule, taxon sauvage ; + tourterelle rieuse, taxon sauvage) ; longévité citée **24/85**.
+
+## Collection — 2026-10-14
+
+Les 85 fiches ont une case CITES, une morphologie et une trace d’élevage. Script : `scripts/apply-recherche-collection.mjs`.
+
+- **CITES** : annexes du 2026-03-05. Psittaciformes spp. en Annexe II, sauf Annexe I (*Psittacus erithacus*, *Cyanoramphus novaezelandiae*) et les exclusions explicites (*Agapornis roseicollis*, *Melopsittacus undulatus*, *Nymphicus hollandicus*, *Psittacula krameri*). *Lonchura oryzivora* et *Gracula religiosa* en Annexe II. Le reste du programme n’est pas inscrit.
+- **Longévité** : AnAge quand l’entrée existe et que la case était vide. Les chiffres déjà sourcés (ADW) sont conservés. Correction : calopsitte, 10–14 ans est le chiffre **sauvage** ADW, pas la captivité.
+- **Taille** : cacatoès blanc, 46 cm de longueur ; 25–31 cm est l’envergure (ADW), pas la taille du corps.
+- **Morphologie** : phrase ADW (*Physical Description*) pour 22 espèces. Les autres : trace de consultation.
+- **Élevage** : index EAZA et liste AZA, aucun guide d’espèce. Le document EAZA « Virus Management for Parrots » n’a pas servi à rédiger une ration.

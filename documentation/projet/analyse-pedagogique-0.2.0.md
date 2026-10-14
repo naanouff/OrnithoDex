@@ -70,7 +70,7 @@ Les **données** sont riches (85 fiches `complete`, 5 points de cours, photo + i
 10. **Jargon anglais** — `Least Concern`, `Near Threatened`, `EOO`, `IUCN` dans les points.
 11. **Synonymes BirdLife concurrents** — *Padda*, *Euodice*, *Crithagra*, *Chloebia*… en concurrence avec le latin programme.
 12. **Points méta / non apprenables** — ex. Gracula « Premier Passériforme du lot » ; Moineau du Japon « Audio de référence = … » ; Veuve « Sahel Paradise-whydah ».
-13. **Graphies familles** — programme : `Ploceidae`, `Cacatuides` ; points parfois « plocéidés » → double graphie.
+13. **Graphies familles** — le PDF de liste (contrôlé le 2026-10-14) écrit `Ploceidae` et `Cacatuidés`. Le référentiel avait `Cacatuides` : aligné sur le PDF. Les points « plocéidés » restent une deuxième graphie.
 14. **Contradiction docs** — [pedagogie.md](pedagogie.md) « photo dominante » vs [design.md](design.md) illustration en tête de fiche (implémenté = illustration haut, photo bas lazy).
 
 ## Annexe — 61 points `[programme]` à revoir

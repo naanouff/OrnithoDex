@@ -47,7 +47,10 @@ Registre public de **toutes** les sources utilisées dans le projet. Toute nouve
 
 | Id | Titre | Auteur / organisme | Année | URL | Usage |
 |----|-------|--------------------|-------|-----|--------|
-| `bac-pro-tcva-liste` | Liste des oiseaux – BAC PRO TCVA (MP6), arrêtés du 02 juillet 2009 + espèces domestiques | Support de cours transmis pour le projet (réf. arrêtés 02/07/2009) | 2009 | — | Noms scientifiques, noms communs, ordre, famille |
+| `bac-pro-tcva-liste` | Liste des oiseaux – BAC PRO TCVA (MP6), en-tête « arrêtés du 02 juillet 2009 + espèces domestiques » | Support de cours (fichier interne « Liste oiseaux 2015 ») | 2015 | [PDF](documentation/ornithologie/cours/liste-oiseaux-bac-pro-tcva.pdf) | Noms scientifiques, noms communs, ordre, famille |
+| `arrete-11-aout-2006` | Arrêté du 11 août 2006 fixant la liste des animaux domestiques (JO 7 octobre 2006, NOR DEVN0650509A) | Ministère de l’écologie / ministère de l’agriculture | 2006 | [PDF](documentation/ornithologie/cours/arrete-11-aout-2006-animaux-domestiques.pdf) | Annexe oiseaux : races et variétés domestiques |
+| `arrete-08-octobre-2018` | Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques | Ministère de la transition écologique | 2018 | https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/ | Hébergement adapté ; aucune dimension de cage pour les oiseaux |
+| `fiche-oiseaux-cours` | Formulaire de fiche oiseaux (vierge) | Support de cours | 2014 | [PDF](documentation/ornithologie/cours/fiche-oiseaux.pdf) | Liste des cases — aucune valeur |
 
 ### Bases et sites (enrichissement)
 
@@ -59,6 +62,10 @@ Registre public de **toutes** les sources utilisées dans le projet. Toute nouve
 | `avibase` | Avibase | Denis Lepage / BSC-EOC | https://avibase.bsc-eoc.org/ | Contrôle taxonomique, synonymes |
 | `xeno-canto` | Xeno-canto | Xeno-canto Foundation | https://xeno-canto.org/ | Enregistrement audio précis (auteur + licence) |
 | `wikimedia-commons` | Wikimedia Commons | Wikimedia | https://commons.wikimedia.org/ | Images libres (licence par fichier) |
+| `cites-appendices` | CITES Appendices I, II and III | CITES | https://cites.org/eng/app/appendices.php | Annexe, ou absence d’inscription |
+| `anage` | AnAge | Human Ageing Genomic Resources | https://genomics.senescence.info/species/ | Longévité |
+| `eaza-bpg` | EAZA Best Practice Guidelines | EAZA | https://www.eaza.net/bpg/ | Élevage, seulement si un guide nommé existe |
+| `aza-acm` | AZA Animal Care Manuals | Association of Zoos & Aquariums | https://www.aza.org/animal-care-manuals | Élevage, seulement si un manuel nommé existe |
 
 Fiches espèce BirdLife / ADW / Avibase (sprints 01–07) : détail dans chaque [fiche du naturaliste](documentation/ornithologie/fiches-naturaliste/).
 

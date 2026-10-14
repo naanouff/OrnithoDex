@@ -143,6 +143,43 @@ export const birds: Bird[] = [
         "publisher": "Peter Boesman / Xeno-canto",
         "url": "https://xeno-canto.org/947900",
         "note": "CC BY-NC-ND 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "wildRange": {
@@ -169,11 +206,104 @@ export const birds: Bird[] = [
           "adw-agapornis-fischeri"
         ]
       },
+      "mass": {
+        "value": "42 à 58 g",
+        "sourceIds": [
+          "adw-agapornis-fischeri"
+        ]
+      },
       "longevity": {
         "value": "12,6 ans (sauvage, maximum cité) ; 15–25 ans (captivité)",
         "sourceIds": [
           "adw-agapornis-fischeri"
         ]
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "De janvier à juillet (ADW).",
+        "sourceIds": [
+          "adw-agapornis-fischeri"
+        ]
+      },
+      "clutch": {
+        "value": "3 à 8 œufs par saison ; moyenne 6 (ADW).",
+        "sourceIds": [
+          "adw-agapornis-fischeri"
+        ]
+      },
+      "incubation": {
+        "value": "Non documenté — page ADW consultée le 2026-10-14, ce chiffre n’y figure pas.",
+        "sourceIds": [
+          "adw-agapornis-fischeri"
+        ],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Petite perruche au plumage vif ; mâle et femelle d’apparence identique. Envergure 88 à 89 mm.",
+        "sourceIds": [
+          "adw-agapornis-fischeri"
+        ]
+      },
+      "cites": {
+        "value": "Annexe II (Psittaciformes spp., annexes du 2026-03-05).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Variétés domestiques de l’inséparable de Fischer (Agapornis fischeri).",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
       }
     },
     "imageCredit": "Peter Békési — CC BY-SA 2.0",
@@ -311,6 +441,43 @@ export const birds: Bird[] = [
         "publisher": "Magnus Wadstein / Xeno-canto",
         "url": "https://xeno-canto.org/933097",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "wildRange": {
@@ -328,6 +495,105 @@ export const birds: Bird[] = [
         "birdlife-agapornis-lilianae."
       ],
       "year": "2018"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-agapornis-lilianae"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "19,2 ans (captivité, maximum cité)",
+        "sourceIds": [
+          "anage-agapornis-lilianae"
+        ]
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "clutch": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "incubation": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-agapornis-lilianae"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Annexe II (Psittaciformes spp., annexes du 2026-03-05).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Variété lutino de l’inséparable de Liliane (Agapornis lilianae).",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Lip Kee — CC BY-SA 2.0",
     "imageSourceId": "media-agapornis-lilianae-img",
@@ -462,6 +728,43 @@ export const birds: Bird[] = [
         "publisher": "Dries Van de Loock / Xeno-canto",
         "url": "https://xeno-canto.org/585260",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "iucn": {
@@ -469,6 +772,106 @@ export const birds: Bird[] = [
       "sourceIds": [
         "birdlife-agapornis-nigrigenis."
       ]
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-agapornis-nigrigenis"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : AnAge (entrée absente).",
+        "sourceIds": [
+          "anage-agapornis-nigrigenis"
+        ],
+        "undocumented": true
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "clutch": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "incubation": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-agapornis-nigrigenis"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Annexe II (Psittaciformes spp., annexes du 2026-03-05).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Variétés foncée, bleue et violet de l’inséparable nigrigenis (Agapornis nigrigenis).",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Huub Veldhuijzen van Zanten / Naturalis — CC BY-SA",
     "imageSourceId": "media-agapornis-nigrigenis-img",
@@ -624,6 +1027,43 @@ export const birds: Bird[] = [
         "publisher": "Animal Diversity Web",
         "url": "https://animaldiversity.org/accounts/Agapornis_personatus/",
         "note": "Consulté 2026-10-13"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "wildRange": {
@@ -643,11 +1083,110 @@ export const birds: Bird[] = [
       "year": "2018"
     },
     "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "adw-agapornis-personatus"
+        ],
+        "undocumented": true
+      },
+      "mass": {
+        "value": "30 à 60 g ; moyenne 50-55 g",
+        "sourceIds": [
+          "adw-agapornis-personatus"
+        ]
+      },
       "longevity": {
         "value": "10–20 ans (captivité)",
         "sourceIds": [
           "adw-agapornis-personatus"
         ]
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "De mars à juillet (ADW).",
+        "sourceIds": [
+          "adw-agapornis-personatus"
+        ]
+      },
+      "clutch": {
+        "value": "3 à 8 œufs par saison ; moyenne 5 à 6 (ADW).",
+        "sourceIds": [
+          "adw-agapornis-personatus"
+        ]
+      },
+      "incubation": {
+        "value": "23 jours en moyenne jusqu’à l’éclosion (ADW).",
+        "sourceIds": [
+          "adw-agapornis-personatus"
+        ]
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Corps vert, tête et masque brun-noir, gorge noire, poitrine et collier jaune citron, pattes grises, bec corail, cercle blanc autour de l’œil.",
+        "sourceIds": [
+          "adw-agapornis-personatus"
+        ]
+      },
+      "cites": {
+        "value": "Annexe II (Psittaciformes spp., annexes du 2026-03-05).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Variétés domestiques de l’inséparable masqué ou à tête noire (Agapornis personatus).",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
       }
     },
     "imageCredit": "Becky Matsubara — CC BY 2.0",
@@ -798,6 +1337,43 @@ export const birds: Bird[] = [
         "publisher": "African Bioacoustics Community / Xeno-canto",
         "url": "https://xeno-canto.org/1101865",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "wildRange": {
@@ -827,11 +1403,103 @@ export const birds: Bird[] = [
           "birdlife-agapornis-roseicollis"
         ]
       },
+      "mass": {
+        "value": "48 à 61 g ; moyenne 54,8 g",
+        "sourceIds": [
+          "adw-agapornis-roseicollis"
+        ]
+      },
       "longevity": {
         "value": "15–25 ans (captivité)",
         "sourceIds": [
           "adw-agapornis-roseicollis"
         ]
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "De février à mai (ADW).",
+        "sourceIds": [
+          "adw-agapornis-roseicollis"
+        ]
+      },
+      "clutch": {
+        "value": "4 à 6 œufs par saison (ADW).",
+        "sourceIds": [
+          "adw-agapornis-roseicollis"
+        ]
+      },
+      "incubation": {
+        "value": "23 jours en moyenne jusqu’à l’éclosion (ADW).",
+        "sourceIds": [
+          "adw-agapornis-roseicollis"
+        ]
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Environ 55 g et 15 cm ; les femelles sont un peu plus lourdes que les mâles.",
+        "sourceIds": [
+          "adw-agapornis-roseicollis"
+        ]
+      },
+      "cites": {
+        "value": "Non inscrit : *Agapornis roseicollis* est exclu des Psittaciformes spp. (annexes du 2026-03-05).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Variétés domestiques de l’inséparable à face rose. L’annexe écrit Agapornis roseicolis.",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
       }
     },
     "imageCredit": "Charles J. Sharp — CC BY-SA 4.0",
@@ -978,6 +1646,50 @@ export const birds: Bird[] = [
         "publisher": "Simon Gillings / Xeno-canto",
         "url": "https://xeno-canto.org/1137635",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide pour cette espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "anage-aix-galericulata",
+        "title": "Aix galericulata — AnAge",
+        "publisher": "AnAge",
+        "url": "https://genomics.senescence.info/species/entry.php?species=Aix_galericulata",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "wildRange": {
@@ -996,6 +1708,115 @@ export const birds: Bird[] = [
         "birdlife-aix-galericulata"
       ],
       "year": "2018"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur dans la description consultée), BirdLife (pas de paragraphe d’identification).",
+        "sourceIds": [
+          "adw-aix-galericulata"
+        ],
+        "undocumented": true
+      },
+      "mass": {
+        "value": "428 à 693 g",
+        "sourceIds": [
+          "adw-aix-galericulata"
+        ]
+      },
+      "longevity": {
+        "value": "10,4 ans (sauvage, maximum cité ; donnée jugée questionable, probablement sous-estimée) ; 20 ans cités comme chiffre anecdotique",
+        "sourceIds": [
+          "anage-aix-galericulata"
+        ]
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "Non documenté — page ADW consultée le 2026-10-14, ce chiffre n’y figure pas.",
+        "sourceIds": [
+          "adw-aix-galericulata"
+        ],
+        "undocumented": true
+      },
+      "clutch": {
+        "value": "9 à 12 œufs par saison (ADW).",
+        "sourceIds": [
+          "adw-aix-galericulata"
+        ]
+      },
+      "incubation": {
+        "value": "Non documenté — page ADW consultée le 2026-10-14, ce chiffre n’y figure pas.",
+        "sourceIds": [
+          "adw-aix-galericulata"
+        ],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Mâle en plumage complet : plumes « voile » dressées au-dessus du dos, crête orange et crème, large sourcil blanc. Femelle plus terne, grisâtre, avec une bande blanche courbe derrière l’œil et des taches blanches dessous. Miroir bleu-vert chez les deux sexes en vol.",
+        "sourceIds": [
+          "adw-aix-galericulata"
+        ]
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Variété blanche du canard mandarin (Aix galericulata).",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Alexis Lours — CC BY 4.0",
     "imageSourceId": "media-aix-galericulata-img",
@@ -1140,6 +1961,50 @@ export const birds: Bird[] = [
         "publisher": "Don Profota / Xeno-canto",
         "url": "https://xeno-canto.org/1173163",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide pour cette espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "anage-aix-sponsa",
+        "title": "Aix sponsa — AnAge",
+        "publisher": "AnAge",
+        "url": "https://genomics.senescence.info/species/entry.php?species=Aix_sponsa",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "wildRange": {
@@ -1161,10 +2026,109 @@ export const birds: Bird[] = [
     },
     "measurements": {
       "adultSize": {
-        "value": "48–54 cm",
+        "value": "mâle 48–54 cm ; femelle 47–51 cm",
         "sourceIds": [
           "adw-aix-sponsa"
         ]
+      },
+      "mass": {
+        "value": "635 à 681 g ; moyenne 600 g",
+        "sourceIds": [
+          "adw-aix-sponsa"
+        ]
+      },
+      "longevity": {
+        "value": "22,5 ans (sauvage, maximum cité, AnAge) ; environ 15 ans (sauvage, maximum cité, ADW)",
+        "sourceIds": [
+          "anage-aix-sponsa",
+          "adw-aix-sponsa"
+        ]
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "De février à avril (ADW).",
+        "sourceIds": [
+          "adw-aix-sponsa"
+        ]
+      },
+      "clutch": {
+        "value": "6 à 15 œufs par saison ; moyenne 12 (ADW).",
+        "sourceIds": [
+          "adw-aix-sponsa"
+        ]
+      },
+      "incubation": {
+        "value": "30 jours en moyenne jusqu’à l’éclosion (ADW).",
+        "sourceIds": [
+          "adw-aix-sponsa"
+        ]
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Crête, queue rectangulaire, ventre blanc et lignes blanches au dos de l’aile. Mâle : tête irisée verte, bleue et violette, poitrine rouille, flancs bronze. Femelle : brun-gris, anneau oculaire blanc.",
+        "sourceIds": [
+          "adw-aix-sponsa"
+        ]
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Variétés blonde et blanche du canard carolin (Aix sponsa).",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
       }
     },
     "imageCredit": "Dick Daniels — CC BY-SA 3.0",
@@ -1297,6 +2261,43 @@ export const birds: Bird[] = [
         "publisher": "Peter Boesman / Xeno-canto",
         "url": "https://xeno-canto.org/509854",
         "note": "CC BY-NC-ND 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "iucn": {
@@ -1305,6 +2306,106 @@ export const birds: Bird[] = [
         "birdlife-amadina-fasciata."
       ],
       "year": "2024"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-amadina-fasciata"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : AnAge (entrée absente).",
+        "sourceIds": [
+          "anage-amadina-fasciata"
+        ],
+        "undocumented": true
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "clutch": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "incubation": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-amadina-fasciata"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Variétés blanche, brune et collier jaune du cou-coupé (Amadina fasciata).",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "David Boettger — Domaine public",
     "imageSourceId": "media-amadina-fasciata-img",
@@ -1455,6 +2556,43 @@ export const birds: Bird[] = [
         "publisher": "Ding Li Yong / Xeno-canto",
         "url": "https://xeno-canto.org/698326",
         "note": "CC BY-NC-ND 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "iucn": {
@@ -1470,6 +2608,99 @@ export const birds: Bird[] = [
         "sourceIds": [
           "birdlife-amandava-amandava"
         ]
+      },
+      "longevity": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : AnAge (entrée absente).",
+        "sourceIds": [
+          "anage-amandava-amandava"
+        ],
+        "undocumented": true
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "De janvier à avril (ADW).",
+        "sourceIds": [
+          "adw-amandava-amandava"
+        ]
+      },
+      "clutch": {
+        "value": "4 à 6 œufs par saison (ADW).",
+        "sourceIds": [
+          "adw-amandava-amandava"
+        ]
+      },
+      "incubation": {
+        "value": "11 jours en moyenne jusqu’à l’éclosion (ADW).",
+        "sourceIds": [
+          "adw-amandava-amandava"
+        ]
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Environ 10 cm. Mue annuelle du plumage nuptial ; mâle nuptial à couronne et dos rouge profond.",
+        "sourceIds": [
+          "adw-amandava-amandava"
+        ]
+      },
+      "cites": {
+        "value": "Non inscrit (annexes du 2026-03-05). *Amandava formosa* est en Annexe II : ce n’est pas ce taxon.",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Non cité dans l’annexe oiseaux de l’arrêté du 11 août 2006.",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
       }
     },
     "imageCredit": "Mike Prince — CC BY 2.0",
@@ -1602,6 +2833,43 @@ export const birds: Bird[] = [
         "publisher": "Dries Van de Loock / Xeno-canto",
         "url": "https://xeno-canto.org/872300",
         "note": "CC BY-NC-ND 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "wildRange": {
@@ -1619,6 +2887,106 @@ export const birds: Bird[] = [
         "birdlife-amandava-subflava."
       ],
       "year": "2018"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-amandava-subflava"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : AnAge (entrée absente).",
+        "sourceIds": [
+          "anage-amandava-subflava"
+        ],
+        "undocumented": true
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "clutch": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "incubation": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-amandava-subflava"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Non inscrit (annexes du 2026-03-05). *Amandava formosa* est en Annexe II : ce n’est pas ce taxon.",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Non cité dans l’annexe oiseaux de l’arrêté du 11 août 2006.",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Alan Manson — CC BY-SA 2.0",
     "imageSourceId": "media-amandava-subflava-img",
@@ -1765,6 +3133,43 @@ export const birds: Bird[] = [
         "publisher": "Ricardo José Mitidieri / Xeno-canto",
         "url": "https://xeno-canto.org/554117",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "wildRange": {
@@ -1791,6 +3196,104 @@ export const birds: Bird[] = [
         "sourceIds": [
           "adw-amazona-aestiva"
         ]
+      },
+      "mass": {
+        "value": "275 à 510 g ; moyenne 400 à 430 g",
+        "sourceIds": [
+          "adw-amazona-aestiva"
+        ]
+      },
+      "longevity": {
+        "value": "49 ans (captivité, maximum cité)",
+        "sourceIds": [
+          "anage-amazona-aestiva"
+        ]
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "De août à décembre (ADW).",
+        "sourceIds": [
+          "adw-amazona-aestiva"
+        ]
+      },
+      "clutch": {
+        "value": "1 à 6 œufs par saison ; moyenne 2 to 3 (ADW).",
+        "sourceIds": [
+          "adw-amazona-aestiva"
+        ]
+      },
+      "incubation": {
+        "value": "30 jours en moyenne jusqu’à l’éclosion (ADW).",
+        "sourceIds": [
+          "adw-amazona-aestiva"
+        ]
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Corps surtout vert vif ; plumes bleu vif sur la couronne, jaune autour de la face et à l’extrémité des scapulaires. Bec en grande partie noir. Sexes semblables à l’œil humain.",
+        "sourceIds": [
+          "adw-amazona-aestiva"
+        ]
+      },
+      "cites": {
+        "value": "Annexe II (Psittaciformes spp., annexes du 2026-03-05).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Non cité dans l’annexe oiseaux de l’arrêté du 11 août 2006.",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
       }
     },
     "imageCredit": "H. Zell — CC BY-SA 3.0",
@@ -1925,6 +3428,43 @@ export const birds: Bird[] = [
         "publisher": "José / Xeno-canto",
         "url": "https://xeno-canto.org/1060162",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "wildRange": {
@@ -1944,6 +3484,106 @@ export const birds: Bird[] = [
       ],
       "year": "2022"
     },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-bolborhynchus-lineola"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : AnAge (entrée absente).",
+        "sourceIds": [
+          "anage-bolborhynchus-lineola-lineola"
+        ],
+        "undocumented": true
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "clutch": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "incubation": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-bolborhynchus-lineola"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Annexe II (Psittaciformes spp., annexes du 2026-03-05).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Variétés vert foncé, bleue, foncé bleue, lutino et albino de la perruche rayée ou perruche catherine (Bolborhynchus lineola lineola).",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
+    },
     "imageCredit": "thibaudaronson — CC BY-SA 4.0",
     "imageSourceId": "media-bolborhynchus-lineola-img",
     "image": "/images/birds/bolborhynchus-lineola-lineola.webp",
@@ -1962,7 +3602,7 @@ export const birds: Bird[] = [
     "scientificName": "Cacatua alba",
     "commonName": "Cacatoès blanc",
     "order": "Psittaciformes",
-    "family": "Cacatuides",
+    "family": "Cacatuidés",
     "programSourceId": "bac-pro-tcva-liste",
     "sheet": {
       "status": "complete",
@@ -2012,7 +3652,7 @@ export const birds: Bird[] = [
     "coursePoints": [
       {
         "level": "programme",
-        "text": "Cacatoès blanc ↔ *Cacatua alba* ; Psittaciformes ; Cacatuides",
+        "text": "Cacatoès blanc ↔ *Cacatua alba* ; Psittaciformes ; Cacatuidés",
         "sourceIds": [
           "bac-pro-tcva-liste"
         ]
@@ -2086,6 +3726,43 @@ export const birds: Bird[] = [
         "publisher": "Animal Diversity Web",
         "url": "https://animaldiversity.org/accounts/Cacatua_alba/",
         "note": "Consulté 2026-10-13"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "iucn": {
@@ -2097,7 +3774,13 @@ export const birds: Bird[] = [
     },
     "measurements": {
       "adultSize": {
-        "value": "25–31 cm",
+        "value": "46 cm (longueur moyenne) ; envergure 25–31 cm",
+        "sourceIds": [
+          "adw-cacatua-alba"
+        ]
+      },
+      "mass": {
+        "value": "500 à 630 g",
         "sourceIds": [
           "adw-cacatua-alba"
         ]
@@ -2107,6 +3790,92 @@ export const birds: Bird[] = [
         "sourceIds": [
           "adw-cacatua-alba"
         ]
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "De décembre à mars (ADW).",
+        "sourceIds": [
+          "adw-cacatua-alba"
+        ]
+      },
+      "clutch": {
+        "value": "moyenne 2 (ADW).",
+        "sourceIds": [
+          "adw-cacatua-alba"
+        ]
+      },
+      "incubation": {
+        "value": "30 jours en moyenne jusqu’à l’éclosion (ADW).",
+        "sourceIds": [
+          "adw-cacatua-alba"
+        ]
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Grand oiseau blanc, dessous des ailes et de la queue jaunâtre, large huppe en éventail. Bec et pattes gris foncé. Iris brun sombre chez le mâle, rougeâtre chez la femelle.",
+        "sourceIds": [
+          "adw-cacatua-alba"
+        ]
+      },
+      "cites": {
+        "value": "Annexe II (Psittaciformes spp., annexes du 2026-03-05). *Cacatua goffiniana*, *haematuropygia*, *moluccensis* et *sulphurea* sont en Annexe I : ce n’est pas ce taxon.",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Non cité dans l’annexe oiseaux de l’arrêté du 11 août 2006.",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
       }
     },
     "imageCredit": "Kevin T — CC BY 2.0",
@@ -2124,7 +3893,7 @@ export const birds: Bird[] = [
     "scientificName": "Cacatua galerita",
     "commonName": "Grand cacatoès à huppe jaune",
     "order": "Psittaciformes",
-    "family": "Cacatuides",
+    "family": "Cacatuidés",
     "programSourceId": "bac-pro-tcva-liste",
     "sheet": {
       "status": "complete",
@@ -2179,7 +3948,7 @@ export const birds: Bird[] = [
     "coursePoints": [
       {
         "level": "programme",
-        "text": "Grand cacatoès à huppe jaune ↔ *Cacatua galerita* ; Psittaciformes ; Cacatuides",
+        "text": "Grand cacatoès à huppe jaune ↔ *Cacatua galerita* ; Psittaciformes ; Cacatuidés",
         "sourceIds": [
           "bac-pro-tcva-liste"
         ]
@@ -2263,6 +4032,43 @@ export const birds: Bird[] = [
         "publisher": "Animal Diversity Web",
         "url": "https://animaldiversity.org/accounts/Cacatua_galerita/",
         "note": "Consulté 2026-10-13"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "wildRange": {
@@ -2291,11 +4097,103 @@ export const birds: Bird[] = [
           "adw-cacatua-galerita"
         ]
       },
+      "mass": {
+        "value": "700 à 950 g ; moyenne 800 g",
+        "sourceIds": [
+          "adw-cacatua-galerita"
+        ]
+      },
       "longevity": {
         "value": "57 ans (sauvage, maximum cité)",
         "sourceIds": [
           "adw-cacatua-galerita"
         ]
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "De août à septembre (ADW).",
+        "sourceIds": [
+          "adw-cacatua-galerita"
+        ]
+      },
+      "clutch": {
+        "value": "2 à 3 œufs par saison ; moyenne 2 (ADW).",
+        "sourceIds": [
+          "adw-cacatua-galerita"
+        ]
+      },
+      "incubation": {
+        "value": "27 jours en moyenne jusqu’à l’éclosion (ADW).",
+        "sourceIds": [
+          "adw-cacatua-galerita"
+        ]
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Grand oiseau blanc, 45 à 50 cm, masse moyenne 800 g, huppe jaune soufre.",
+        "sourceIds": [
+          "adw-cacatua-galerita"
+        ]
+      },
+      "cites": {
+        "value": "Annexe II (Psittaciformes spp., annexes du 2026-03-05). *Cacatua goffiniana*, *haematuropygia*, *moluccensis* et *sulphurea* sont en Annexe I : ce n’est pas ce taxon.",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Non cité dans l’annexe oiseaux de l’arrêté du 11 août 2006.",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
       }
     },
     "imageCredit": "Charles J. Sharp — CC BY-SA 4.0",
@@ -2441,6 +4339,50 @@ export const birds: Bird[] = [
         "publisher": "Ron Overholtz / Xeno-canto",
         "url": "https://xeno-canto.org/570687",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide pour cette espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "anage-callipepla-californica",
+        "title": "Callipepla californica — AnAge",
+        "publisher": "AnAge",
+        "url": "https://genomics.senescence.info/species/entry.php?species=Callipepla_californica",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "wildRange": {
@@ -2466,6 +4408,105 @@ export const birds: Bird[] = [
         "sourceIds": [
           "adw-callipepla-californica"
         ]
+      },
+      "mass": {
+        "value": "150,6 à 189,5 g",
+        "sourceIds": [
+          "adw-callipepla-californica"
+        ]
+      },
+      "longevity": {
+        "value": "9,6 ans (maximum cité ; milieu non précisé)",
+        "sourceIds": [
+          "anage-callipepla-californica"
+        ]
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "De mai à juillet (ADW).",
+        "sourceIds": [
+          "adw-callipepla-californica"
+        ]
+      },
+      "clutch": {
+        "value": "6 à 28 œufs par saison ; moyenne 14 (ADW).",
+        "sourceIds": [
+          "adw-callipepla-californica"
+        ]
+      },
+      "incubation": {
+        "value": "Non documenté — page ADW consultée le 2026-10-14, ce chiffre n’y figure pas.",
+        "sourceIds": [
+          "adw-callipepla-californica"
+        ],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Dessous d’aspect écailleux (pointes de plumes noires et brunes), plumage général bleu-gris et brun, couronne châtain, bec noir, pattes grises, huppe en goutte sur le front.",
+        "sourceIds": [
+          "adw-callipepla-californica"
+        ]
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Non cité dans l’annexe oiseaux de l’arrêté du 11 août 2006.",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
       }
     },
     "imageCredit": "Nick Myatt / ODFW — CC BY-SA 2.0",
@@ -2611,6 +4652,50 @@ export const birds: Bird[] = [
         "publisher": "FREDERIC Lionel / Xeno-canto",
         "url": "https://xeno-canto.org/919215",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide pour cette espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "anage-colinus-virginianus",
+        "title": "Colinus virginianus — AnAge",
+        "publisher": "AnAge",
+        "url": "https://genomics.senescence.info/species/entry.php?species=Colinus_virginianus",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "wildRange": {
@@ -2637,11 +4722,103 @@ export const birds: Bird[] = [
           "adw-colinus-virginianus"
         ]
       },
-      "longevity": {
-        "value": "6 ans (sauvage, maximum cité)",
+      "mass": {
+        "value": "140 à 170 g",
         "sourceIds": [
           "adw-colinus-virginianus"
         ]
+      },
+      "longevity": {
+        "value": "6,4 ans (sauvage, maximum cité) ; 10 ans évoqués mais non confirmés",
+        "sourceIds": [
+          "anage-colinus-virginianus"
+        ]
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "De février à octobre (ADW).",
+        "sourceIds": [
+          "adw-colinus-virginianus"
+        ]
+      },
+      "clutch": {
+        "value": "6 à 28 œufs par saison ; moyenne 12 à 14 (ADW).",
+        "sourceIds": [
+          "adw-colinus-virginianus"
+        ]
+      },
+      "incubation": {
+        "value": "23 jours en moyenne jusqu’à l’éclosion (ADW).",
+        "sourceIds": [
+          "adw-colinus-virginianus"
+        ]
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Petit Galliforme (140 à 170 g), ailes arrondies, queue carrée. Dos brun-roux marbré (bords clairs et barres sombres), poitrine blanche.",
+        "sourceIds": [
+          "adw-colinus-virginianus"
+        ]
+      },
+      "cites": {
+        "value": "Non inscrit à l’espèce ; sous-espèce *Colinus virginianus ridgwayi* en Annexe I (annexes du 2026-03-05).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Non cité dans l’annexe oiseaux de l’arrêté du 11 août 2006.",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
       }
     },
     "imageCredit": "DickDaniels — CC BY-SA 3.0",
@@ -2787,6 +4964,50 @@ export const birds: Bird[] = [
         "publisher": "Pietro Bonanno / Xeno-canto",
         "url": "https://xeno-canto.org/977797",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide pour cette espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "anage-columba-livia",
+        "title": "Columba livia — AnAge",
+        "publisher": "AnAge",
+        "url": "https://genomics.senescence.info/species/entry.php?species=Columba_livia",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "wildRange": {
@@ -2806,6 +5027,115 @@ export const birds: Bird[] = [
       "sourceIds": [
         "birdlife-columba-livia"
       ]
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur dans la description consultée), BirdLife (pas de paragraphe d’identification).",
+        "sourceIds": [
+          "adw-columba-livia"
+        ],
+        "undocumented": true
+      },
+      "mass": {
+        "value": "358,7 g (moyenne AnAge, citée sur la page ADW)",
+        "sourceIds": [
+          "adw-columba-livia"
+        ]
+      },
+      "longevity": {
+        "value": "35 ans (captivité, maximum cité) ; 6 ans (sauvage, moyenne, ADW)",
+        "sourceIds": [
+          "anage-columba-livia",
+          "adw-columba-livia"
+        ]
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "Non documenté — page ADW consultée le 2026-10-14, ce chiffre n’y figure pas.",
+        "sourceIds": [
+          "adw-columba-livia"
+        ],
+        "undocumented": true
+      },
+      "clutch": {
+        "value": "moyenne 2 (ADW).",
+        "sourceIds": [
+          "adw-columba-livia"
+        ]
+      },
+      "incubation": {
+        "value": "19 jours en moyenne jusqu’à l’éclosion (ADW).",
+        "sourceIds": [
+          "adw-columba-livia"
+        ]
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Tête, cou et poitrine gris-bleu sombre, avec des irisations jaunâtres, verdâtres et pourpre rougeâtre sur le cou et les ailes. Bec gris-rose sombre. La plupart montrent deux bandes sombres sur l’aile et une bande gris-bleu sur la queue.",
+        "sourceIds": [
+          "adw-columba-livia"
+        ]
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Races et variétés domestiques du pigeon biset (Columba livia).",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Charles J. Sharp — CC BY-SA 4.0",
     "imageSourceId": "media-columba-livia-img",
@@ -2960,6 +5290,50 @@ export const birds: Bird[] = [
         "publisher": "Richard E. Webster / Xeno-canto",
         "url": "https://xeno-canto.org/1076265",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide pour cette espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "anage-coturnix-chinensis",
+        "title": "Coturnix chinensis — AnAge",
+        "publisher": "AnAge",
+        "url": "https://genomics.senescence.info/species/entry.php?species=Coturnix_chinensis",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "wildRange": {
@@ -2987,6 +5361,106 @@ export const birds: Bird[] = [
         "sourceIds": [
           "adw-coturnix-chinensis"
         ]
+      },
+      "mass": {
+        "value": "28 à 40 g",
+        "sourceIds": [
+          "adw-coturnix-chinensis"
+        ]
+      },
+      "longevity": {
+        "value": "5 ans (maximum cité ; milieu non précisé, donnée jugée questionable)",
+        "sourceIds": [
+          "anage-coturnix-chinensis"
+        ]
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "Non documenté — page ADW consultée le 2026-10-14, ce chiffre n’y figure pas.",
+        "sourceIds": [
+          "adw-coturnix-chinensis"
+        ],
+        "undocumented": true
+      },
+      "clutch": {
+        "value": "6 à 21 œufs par saison ; moyenne 6 to 14 (ADW).",
+        "sourceIds": [
+          "adw-coturnix-chinensis"
+        ]
+      },
+      "incubation": {
+        "value": "Non documenté — page ADW consultée le 2026-10-14, ce chiffre n’y figure pas.",
+        "sourceIds": [
+          "adw-coturnix-chinensis"
+        ],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Mâle brun sombre, poitrine gris-bleu ardoise, ventre roux à châtain, gorge noire bordée de blanc. Femelle brune, sans la poitrine grise, le ventre roux ni les marques noires du mâle.",
+        "sourceIds": [
+          "adw-coturnix-chinensis"
+        ]
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Variétés domestiques de la caille peinte de Chine (Coturnix chinensis).",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
       }
     },
     "imageCredit": "DickDaniels — CC BY-SA 3.0",
@@ -3121,6 +5595,43 @@ export const birds: Bird[] = [
         "publisher": "James Lidster / Xeno-canto",
         "url": "https://xeno-canto.org/526622",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "wildRange": {
@@ -3138,6 +5649,105 @@ export const birds: Bird[] = [
         "birdlife-cyanoramphus-auriceps."
       ],
       "year": "2022"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-cyanoramphus-auriceps"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "9,3 ans (captivité ; un individu encore vivant après cette durée)",
+        "sourceIds": [
+          "anage-cyanoramphus-auriceps"
+        ]
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "clutch": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "incubation": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-cyanoramphus-auriceps"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Annexe II (Psittaciformes spp., annexes du 2026-03-05).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Variétés cinnamon, panaché, lutino et ailes en dentelles (lacewing) du kakariki à front jaune (Cyanoramphus auriceps).",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Alexeyevitch — domaine public",
     "imageSourceId": "media-cyanoramphus-auriceps-img",
@@ -3284,6 +5894,43 @@ export const birds: Bird[] = [
         "publisher": "Meena Haribal / Xeno-canto",
         "url": "https://xeno-canto.org/956617",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "wildRange": {
@@ -3300,6 +5947,105 @@ export const birds: Bird[] = [
       "sourceIds": [
         "birdlife-cyanoramphus-novaezelandiae."
       ]
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-cyanoramphus-novaezelandiae"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "12,4 ans (captivité ; un individu encore vivant après cette durée)",
+        "sourceIds": [
+          "anage-cyanoramphus-novaezelandiae"
+        ]
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "clutch": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "incubation": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-cyanoramphus-novaezelandiae"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Annexe I (annexes CITES du 2026-03-05). *Cyanoramphus auriceps* relève de l’Annexe II (Psittaciformes spp.).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Variétés cinnamon, panaché, jaune aux yeux noirs, lutino et ailes en dentelles (lacewing) de la sous-espèce Cyanoramphus novaezelandiae novaezelandiae. L’annexe ne vise pas l’espèce entière du programme.",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Bernard Spragg. NZ — CC0",
     "imageSourceId": "media-cyanoramphus-novaezelandiae-img",
@@ -3319,7 +6065,7 @@ export const birds: Bird[] = [
     "scientificName": "Eolophus roseicapilla",
     "commonName": "Cacatoès rosalbin",
     "order": "Psittaciformes",
-    "family": "Cacatuides",
+    "family": "Cacatuidés",
     "programSourceId": "bac-pro-tcva-liste",
     "sheet": {
       "status": "complete",
@@ -3376,14 +6122,14 @@ export const birds: Bird[] = [
     "coursePoints": [
       {
         "level": "programme",
-        "text": "Cacatoès rosalbin ↔ *Eolophus roseicapilla* ; Psittaciformes ; **Cacatuides**",
+        "text": "Cacatoès rosalbin ↔ *Eolophus roseicapilla* ; Psittaciformes ; **Cacatuidés**",
         "sourceIds": [
           "bac-pro-tcva-liste"
         ]
       },
       {
         "level": "programme",
-        "text": "Famille Cacatuides — distincte des Psittacidés (*Psittacula*, jaco, conure)",
+        "text": "Famille Cacatuidés — distincte des Psittacidés (*Psittacula*, jaco, conure)",
         "sourceIds": [
           "bac-pro-tcva-liste"
         ]
@@ -3450,6 +6196,43 @@ export const birds: Bird[] = [
         "publisher": "Khristos Nizamis / Xeno-canto",
         "url": "https://xeno-canto.org/1181679",
         "note": "CC BY-NC-ND 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "wildRange": {
@@ -3468,6 +6251,105 @@ export const birds: Bird[] = [
         "birdlife-eolophus-roseicapilla"
       ],
       "year": "2018"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-eolophus-roseicapilla"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "40 ans (captivité, maximum cité)",
+        "sourceIds": [
+          "anage-eolophus-roseicapilla"
+        ]
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "clutch": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "incubation": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-eolophus-roseicapilla"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Annexe II (Psittaciformes spp., annexes du 2026-03-05).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Non cité dans l’annexe oiseaux de l’arrêté du 11 août 2006.",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Tatiana Gerus — CC BY 2.0",
     "imageSourceId": "media-eolophus-roseicapilla-img",
@@ -3601,6 +6483,43 @@ export const birds: Bird[] = [
         "publisher": "Louis Masarei / Xeno-canto",
         "url": "https://xeno-canto.org/960939",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "wildRange": {
@@ -3618,6 +6537,105 @@ export const birds: Bird[] = [
         "birdlife-chloebia-gouldiae."
       ],
       "year": "2022"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-chloebia-gouldiae"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "6 ans (captivité, maximum cité)",
+        "sourceIds": [
+          "anage-erythrura-gouldiae"
+        ]
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "clutch": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "incubation": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-chloebia-gouldiae"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Variétés domestiques du diamant de Gould. L’annexe écrit Eryhrura gouldiae.",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Kym Nicolson — CC BY 4.0",
     "imageSourceId": "media-erythrura-gouldiae-img",
@@ -3749,6 +6767,43 @@ export const birds: Bird[] = [
         "publisher": "Patrik Åberg / Xeno-canto",
         "url": "https://xeno-canto.org/40164",
         "note": "CC BY-NC-SA 3.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "iucn": {
@@ -3757,6 +6812,106 @@ export const birds: Bird[] = [
         "birdlife-erythrura-psittacea."
       ],
       "year": "2018"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-erythrura-psittacea"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : AnAge (entrée absente).",
+        "sourceIds": [
+          "anage-erythrura-psittacea"
+        ],
+        "undocumented": true
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "clutch": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "incubation": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-erythrura-psittacea"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Variété bleue du pape de Nouméa (Erythrura psittacea).",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "JJ Harrison — CC BY-SA 3.0",
     "imageSourceId": "media-erythrura-psittacea-img",
@@ -3888,6 +7043,43 @@ export const birds: Bird[] = [
         "publisher": "Chi-Hsuan Shao / Xeno-canto",
         "url": "https://xeno-canto.org/1003825",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "wildRange": {
@@ -3907,6 +7099,105 @@ export const birds: Bird[] = [
         "birdlife-erythrura-trichroa."
       ],
       "year": "2018"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-erythrura-trichroa"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "longévité maximale non établie ; des individus ont vécu jusqu’à 2,2 ans (sauvage)",
+        "sourceIds": [
+          "anage-erythrura-trichroa"
+        ]
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "clutch": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "incubation": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-erythrura-trichroa"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Variété lutino du diamant de Kittlitz (Erythrura trichroa).",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Peter Halasz — CC BY-SA 2.5 / 3.0",
     "imageSourceId": "media-erythrura-trichroa-img",
@@ -4056,6 +7347,43 @@ export const birds: Bird[] = [
         "publisher": "Walter Wallner / Xeno-canto",
         "url": "https://xeno-canto.org/1155179",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "wildRange": {
@@ -4082,11 +7410,103 @@ export const birds: Bird[] = [
           "birdlife-estrilda-astrild"
         ]
       },
+      "mass": {
+        "value": "8,9 g (moyenne)",
+        "sourceIds": [
+          "adw-estrilda-astrild"
+        ]
+      },
       "longevity": {
         "value": "4 ans (sauvage, maximum cité)",
         "sourceIds": [
           "adw-estrilda-astrild"
         ]
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "De janvier à septembre (ADW).",
+        "sourceIds": [
+          "adw-estrilda-astrild"
+        ]
+      },
+      "clutch": {
+        "value": "moyenne 4 to 6 (ADW).",
+        "sourceIds": [
+          "adw-estrilda-astrild"
+        ]
+      },
+      "incubation": {
+        "value": "11 jours en moyenne jusqu’à l’éclosion (ADW).",
+        "sourceIds": [
+          "adw-estrilda-astrild"
+        ]
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Petit passereau gris-brun, bec conique et zone de la face rouges.",
+        "sourceIds": [
+          "adw-estrilda-astrild"
+        ]
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Non cité dans l’annexe oiseaux de l’arrêté du 11 août 2006.",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
       }
     },
     "imageCredit": "Derek Keats — CC BY 2.0",
@@ -4219,6 +7639,43 @@ export const birds: Bird[] = [
         "publisher": "Peter Boesman / Xeno-canto",
         "url": "https://xeno-canto.org/1081214",
         "note": "CC BY-NC-ND 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "wildRange": {
@@ -4236,6 +7693,106 @@ export const birds: Bird[] = [
         "birdlife-glaucestrilda-coerulescens."
       ],
       "year": "2018"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-glaucestrilda-coerulescens"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : AnAge (entrée absente).",
+        "sourceIds": [
+          "anage-estrilda-caerulescens"
+        ],
+        "undocumented": true
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "clutch": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "incubation": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-glaucestrilda-coerulescens"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Non cité dans l’annexe oiseaux de l’arrêté du 11 août 2006.",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Charles J. Sharp — CC BY-SA 4.0",
     "imageSourceId": "media-estrilda-caerulescens-img",
@@ -4366,6 +7923,43 @@ export const birds: Bird[] = [
         "publisher": "Peter Boesman / Xeno-canto",
         "url": "https://xeno-canto.org/1081191",
         "note": "CC BY-NC-ND 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "iucn": {
@@ -4373,6 +7967,106 @@ export const birds: Bird[] = [
       "sourceIds": [
         "birdlife-estrilda-melpoda."
       ]
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-estrilda-melpoda"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : AnAge (entrée absente).",
+        "sourceIds": [
+          "anage-estrilda-melpoda"
+        ],
+        "undocumented": true
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "clutch": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "incubation": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-estrilda-melpoda"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Non cité dans l’annexe oiseaux de l’arrêté du 11 août 2006.",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Pearly85 — CC BY 2.0",
     "imageSourceId": "media-estrilda-melpoda-img",
@@ -4504,6 +8198,43 @@ export const birds: Bird[] = [
         "publisher": "Sébastien Birard / Xeno-canto",
         "url": "https://xeno-canto.org/1154517",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "iucn": {
@@ -4512,6 +8243,106 @@ export const birds: Bird[] = [
         "birdlife-estrilda-troglodytes."
       ],
       "year": "2018"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-estrilda-troglodytes"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : AnAge (entrée absente).",
+        "sourceIds": [
+          "anage-estrilda-troglodytes"
+        ],
+        "undocumented": true
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "clutch": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "incubation": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-estrilda-troglodytes"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Non cité dans l’annexe oiseaux de l’arrêté du 11 août 2006.",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Francesco Veronesi — CC BY-SA 2.0",
     "imageSourceId": "media-estrilda-troglodytes-img",
@@ -4643,6 +8474,43 @@ export const birds: Bird[] = [
         "publisher": "African Bioacoustics Community / Xeno-canto",
         "url": "https://xeno-canto.org/1183523",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "iucn": {
@@ -4651,6 +8519,106 @@ export const birds: Bird[] = [
         "birdlife-euplectes-orix."
       ],
       "year": "2018"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-euplectes-orix"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : AnAge (entrée absente).",
+        "sourceIds": [
+          "anage-euplectes-orix"
+        ],
+        "undocumented": true
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "clutch": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "incubation": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-euplectes-orix"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Non cité dans l’annexe oiseaux de l’arrêté du 11 août 2006.",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Bernard DUPONT — CC BY-SA 2.0",
     "imageSourceId": "media-euplectes-orix-img",
@@ -4784,6 +8752,43 @@ export const birds: Bird[] = [
         "publisher": "Hans Matheve / Xeno-canto",
         "url": "https://xeno-canto.org/512761",
         "note": "CC BY-NC-ND 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "iucn": {
@@ -4792,6 +8797,105 @@ export const birds: Bird[] = [
         "birdlife-forpus-coelestis."
       ],
       "year": "2024"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-forpus-coelestis"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "10,4 ans (captivité, maximum cité)",
+        "sourceIds": [
+          "anage-forpus-coelestis"
+        ]
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "clutch": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "incubation": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-forpus-coelestis"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Annexe II (Psittaciformes spp., annexes du 2026-03-05).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Variétés bleue, fallow, lutino, albino et cinnamon de la perruche céleste (Forpus coelestis).",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Ruth Rogers — CC BY 2.0",
     "imageSourceId": "media-forpus-coelestis-img",
@@ -4938,6 +9042,50 @@ export const birds: Bird[] = [
         "publisher": "Maria Ulfah / Xeno-canto",
         "url": "https://xeno-canto.org/1181554",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide pour cette espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "anage-gallus-gallus",
+        "title": "Gallus gallus — AnAge",
+        "publisher": "AnAge",
+        "url": "https://genomics.senescence.info/species/entry.php?species=Gallus_gallus",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "wildRange": {
@@ -4956,6 +9104,115 @@ export const birds: Bird[] = [
         "birdlife-gallus-gallus"
       ],
       "year": "2024"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "jusqu’à 70 cm (taxon sauvage *Gallus gallus*)",
+        "sourceIds": [
+          "adw-gallus-gallus"
+        ]
+      },
+      "mass": {
+        "value": "2 580,2 g (moyenne AnAge, citée sur la page ADW du coq bankiva Gallus gallus)",
+        "sourceIds": [
+          "adw-gallus-gallus"
+        ]
+      },
+      "longevity": {
+        "value": "30 ans (captivité, maximum rapporté ; non prouvé, AnAge recommande 15 ou 20 ans pour les comparaisons)",
+        "sourceIds": [
+          "anage-gallus-gallus"
+        ]
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "Non documenté — page ADW consultée le 2026-10-14, ce chiffre n’y figure pas.",
+        "sourceIds": [
+          "adw-gallus-gallus"
+        ],
+        "undocumented": true
+      },
+      "clutch": {
+        "value": "Non documenté — page ADW consultée le 2026-10-14, ce chiffre n’y figure pas.",
+        "sourceIds": [
+          "adw-gallus-gallus"
+        ],
+        "undocumented": true
+      },
+      "incubation": {
+        "value": "Non documenté — page ADW consultée le 2026-10-14, ce chiffre n’y figure pas.",
+        "sourceIds": [
+          "adw-gallus-gallus"
+        ],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Taxon sauvage *Gallus gallus* : plumage or, rouge, brun, marron, orange, avec du vert métallique et du gris ; deux taches blanches en forme d’oreille de chaque côté de la tête ; pattes grisâtres. Queue du mâle pouvant atteindre presque 28 cm.",
+        "sourceIds": [
+          "adw-gallus-gallus"
+        ]
+      },
+      "cites": {
+        "value": "Non inscrit (*Gallus gallus*, forme domestique comprise). *Gallus sonneratii* est en Annexe II : ce n’est pas ce taxon (annexes du 2026-03-05).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Races et variétés domestiques du coq bankiva (Gallus gallus). Le programme nomme Gallus gallus domesticus.",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "SimonWaldherr — CC BY 4.0",
     "imageSourceId": "media-gallus-domesticus-img",
@@ -5085,6 +9342,50 @@ export const birds: Bird[] = [
         "publisher": "Nigel Jackett / Xeno-canto",
         "url": "https://xeno-canto.org/165147",
         "note": "CC BY-NC-SA 3.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide pour cette espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "anage-geopelia-cuneata",
+        "title": "Geopelia cuneata — AnAge",
+        "publisher": "AnAge",
+        "url": "https://genomics.senescence.info/species/entry.php?species=Geopelia_cuneata",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "wildRange": {
@@ -5103,6 +9404,105 @@ export const birds: Bird[] = [
         "birdlife-geopelia-cuneata"
       ],
       "year": "2024"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : BirdLife (fiche sans paragraphe d’identification), ADW (page non obtenue, erreur 503).",
+        "sourceIds": [
+          "birdlife-geopelia-cuneata"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "longévité maximale non établie ; des individus ont vécu 1,8 an",
+        "sourceIds": [
+          "anage-geopelia-cuneata"
+        ]
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "clutch": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "incubation": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : BirdLife (fiche sans paragraphe d’identification), ADW (page non obtenue, erreur 503).",
+        "sourceIds": [
+          "birdlife-geopelia-cuneata"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Variétés domestiques de la colombe diamant (Geopelia cuneata).",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Maurice van Bruggen — CC BY-SA 3.0",
     "imageSourceId": "media-geopelia-cuneata-img",
@@ -5232,6 +9632,50 @@ export const birds: Bird[] = [
         "publisher": "Arend Wassink / Xeno-canto",
         "url": "https://xeno-canto.org/1081912",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide pour cette espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "anage-geopelia-striata",
+        "title": "Geopelia striata — AnAge",
+        "publisher": "AnAge",
+        "url": "https://genomics.senescence.info/species/entry.php?species=Geopelia_striata",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "wildRange": {
@@ -5250,6 +9694,105 @@ export const birds: Bird[] = [
         "birdlife-geopelia-striata"
       ],
       "year": "2025"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : BirdLife (fiche sans paragraphe d’identification), ADW (page non obtenue, erreur 503).",
+        "sourceIds": [
+          "birdlife-geopelia-striata"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "18,7 ans (sauvage, maximum cité ; un individu bagué d’au moins 18,7 ans)",
+        "sourceIds": [
+          "anage-geopelia-striata"
+        ]
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "clutch": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "incubation": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : BirdLife (fiche sans paragraphe d’identification), ADW (page non obtenue, erreur 503).",
+        "sourceIds": [
+          "birdlife-geopelia-striata"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Non cité dans l’annexe oiseaux de l’arrêté du 11 août 2006.",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Angah hfz — CC BY-SA 3.0",
     "imageSourceId": "media-geopelia-striata-img",
@@ -5329,7 +9872,7 @@ export const birds: Bird[] = [
       },
       {
         "level": "programme",
-        "text": "Seul Sturnidé du référentiel — distinct des Cacatuides / Psittacidés",
+        "text": "Seul Sturnidé du référentiel — distinct des Cacatuidés / Psittacidés",
         "sourceIds": [
           "bac-pro-tcva-liste"
         ]
@@ -5396,6 +9939,43 @@ export const birds: Bird[] = [
         "publisher": "Ding Li Yong / Xeno-canto",
         "url": "https://xeno-canto.org/1157137",
         "note": "CC BY-NC-ND 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "iucn": {
@@ -5411,6 +9991,96 @@ export const birds: Bird[] = [
         "sourceIds": [
           "birdlife-gracula-religiosa"
         ]
+      },
+      "longevity": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : AnAge (entrée absente).",
+        "sourceIds": [
+          "anage-gracula-religiosa"
+        ],
+        "undocumented": true
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "clutch": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "incubation": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "27 à 30 cm, plumage noir lustré (reflets pourpres sur la couronne, la nuque et la poitrine, reflets verts sur le corps, queue turquoise). Aile noire à miroir blanc. Bec rouge à pointe jaune, caroncules nues jusqu’à la nuque.",
+        "sourceIds": [
+          "adw-gracula-religiosa"
+        ]
+      },
+      "cites": {
+        "value": "Annexe II (*Gracula religiosa*, annexes du 2026-03-05).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Non cité dans l’annexe oiseaux de l’arrêté du 11 août 2006.",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
       }
     },
     "imageCredit": "Spencer Wright — CC BY 2.0",
@@ -5540,6 +10210,43 @@ export const birds: Bird[] = [
         "publisher": "Bram Piot / Xeno-canto",
         "url": "https://xeno-canto.org/405752",
         "note": "CC BY-NC-SA 4.0 ; catalogué *L. larvata* (IOC)"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "wildRange": {
@@ -5557,6 +10264,106 @@ export const birds: Bird[] = [
         "birdlife-lagonosticta-vinacea."
       ],
       "year": "2024"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-lagonosticta-vinacea"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : AnAge (entrée absente).",
+        "sourceIds": [
+          "anage-lagonosticta-larvata-vinacea"
+        ],
+        "undocumented": true
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "clutch": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "incubation": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-lagonosticta-vinacea"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Non cité dans l’annexe oiseaux de l’arrêté du 11 août 2006.",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Francesco Veronesi — CC BY-SA 2.0",
     "imageSourceId": "media-lagonosticta-larvata-vinacea-img",
@@ -5687,6 +10494,43 @@ export const birds: Bird[] = [
         "publisher": "African Bioacoustics Community / Xeno-canto",
         "url": "https://xeno-canto.org/1145629",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "iucn": {
@@ -5694,6 +10538,106 @@ export const birds: Bird[] = [
       "sourceIds": [
         "birdlife-lagonosticta-senegala."
       ]
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-lagonosticta-senegala"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : AnAge (entrée absente).",
+        "sourceIds": [
+          "anage-lagonosticta-senegala"
+        ],
+        "undocumented": true
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "clutch": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "incubation": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-lagonosticta-senegala"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Non cité dans l’annexe oiseaux de l’arrêté du 11 août 2006.",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Charles J. Sharp — CC BY-SA 4.0",
     "imageSourceId": "media-lagonosticta-senegala-img",
@@ -5825,6 +10769,43 @@ export const birds: Bird[] = [
         "publisher": "Zsombor Károlyi / Xeno-canto",
         "url": "https://xeno-canto.org/1163939",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "iucn": {
@@ -5833,6 +10814,106 @@ export const birds: Bird[] = [
         "birdlife-euodice-cantans."
       ],
       "year": "2018"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-euodice-cantans"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : AnAge (entrée absente).",
+        "sourceIds": [
+          "anage-lonchura-cantans"
+        ],
+        "undocumented": true
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "clutch": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "incubation": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-euodice-cantans"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Variétés brune, pastel, ventre noir et crème ino du bec d’argent (Lonchura cantans).",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Edward Cwik — CC BY-SA 3.0",
     "imageSourceId": "media-lonchura-cantans-img",
@@ -5964,6 +11045,43 @@ export const birds: Bird[] = [
         "publisher": "Jonathan Onongo / Xeno-canto",
         "url": "https://xeno-canto.org/1165783",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "iucn": {
@@ -5972,6 +11090,106 @@ export const birds: Bird[] = [
         "birdlife-spermestes-cucullata."
       ],
       "year": "2024"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-spermestes-cucullata"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : AnAge (entrée absente).",
+        "sourceIds": [
+          "anage-lonchura-cucullata"
+        ],
+        "undocumented": true
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "clutch": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "incubation": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-spermestes-cucullata"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Non cité dans l’annexe oiseaux de l’arrêté du 11 août 2006.",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Charles J. Sharp — CC BY-SA 4.0",
     "imageSourceId": "media-lonchura-cucullata-img",
@@ -6103,6 +11321,43 @@ export const birds: Bird[] = [
         "publisher": "Joan Theng / Xeno-canto",
         "url": "https://xeno-canto.org/1106789",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "iucn": {
@@ -6111,6 +11366,106 @@ export const birds: Bird[] = [
         "birdlife-lonchura-maja."
       ],
       "year": "2025"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-lonchura-maja"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : AnAge (entrée absente).",
+        "sourceIds": [
+          "anage-lonchura-maja"
+        ],
+        "undocumented": true
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "clutch": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "incubation": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-lonchura-maja"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Non cité dans l’annexe oiseaux de l’arrêté du 11 août 2006.",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Michael MK Khor — CC BY 2.0",
     "imageSourceId": "media-lonchura-maja-img",
@@ -6242,6 +11597,43 @@ export const birds: Bird[] = [
         "publisher": "David Darrell-Lambert / Xeno-canto",
         "url": "https://xeno-canto.org/1182208",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "iucn": {
@@ -6250,6 +11642,106 @@ export const birds: Bird[] = [
         "birdlife-euodice-malabarica."
       ],
       "year": "2018"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-euodice-malabarica"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : AnAge (entrée absente).",
+        "sourceIds": [
+          "anage-lonchura-malabarica"
+        ],
+        "undocumented": true
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "clutch": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "incubation": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-euodice-malabarica"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Variétés brune, opale et grise du bec de plomb (Lonchura malabarica).",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Anagha devi — CC BY-SA 4.0",
     "imageSourceId": "media-lonchura-malabarica-img",
@@ -6381,6 +11873,43 @@ export const birds: Bird[] = [
         "publisher": "Joan Theng / Xeno-canto",
         "url": "https://xeno-canto.org/1141729",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "iucn": {
@@ -6389,6 +11918,106 @@ export const birds: Bird[] = [
         "birdlife-lonchura-atricapilla."
       ],
       "year": "2024"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-lonchura-atricapilla"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : AnAge (entrée absente).",
+        "sourceIds": [
+          "anage-lonchura-malacca-atricapilla"
+        ],
+        "undocumented": true
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "clutch": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "incubation": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-lonchura-atricapilla"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Non cité dans l’annexe oiseaux de l’arrêté du 11 août 2006.",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Batin E. Tuwuilu — CC BY-SA 3.0",
     "imageSourceId": "media-lonchura-malacca-atricapilla-img",
@@ -6520,6 +12149,43 @@ export const birds: Bird[] = [
         "publisher": "Nishant Bhagwat / Xeno-canto",
         "url": "https://xeno-canto.org/1160217",
         "note": "CC BY-NC-ND 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "iucn": {
@@ -6528,6 +12194,106 @@ export const birds: Bird[] = [
         "birdlife-lonchura-malacca."
       ],
       "year": "2018"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-lonchura-malacca"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : AnAge (entrée absente).",
+        "sourceIds": [
+          "anage-lonchura-malacca-malacca"
+        ],
+        "undocumented": true
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "clutch": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "incubation": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-lonchura-malacca"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Non cité dans l’annexe oiseaux de l’arrêté du 11 août 2006.",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Photosynthesis85 — CC BY-SA 4.0",
     "imageSourceId": "media-lonchura-malacca-malacca-img",
@@ -6659,6 +12425,43 @@ export const birds: Bird[] = [
         "publisher": "Kim Chuah Lim / Xeno-canto",
         "url": "https://xeno-canto.org/793299",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "iucn": {
@@ -6667,6 +12470,105 @@ export const birds: Bird[] = [
         "birdlife-lonchura-oryzivora."
       ],
       "year": "2021"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-lonchura-oryzivora"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "longévité maximale non établie ; espérance en captivité 2 à 3 ans, des individus jusqu’à 7 ans, au-delà de 9 ans seulement de façon anecdotique",
+        "sourceIds": [
+          "anage-lonchura-oryzivora"
+        ]
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "clutch": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "incubation": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-lonchura-oryzivora"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Annexe II (*Lonchura oryzivora*, annexes du 2026-03-05).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Variétés blanche, brune, opale et pastel du padda ou calfat (Lonchura oryzivora).",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Quartl — CC BY-SA 3.0",
     "imageSourceId": "media-lonchura-oryzivora-img",
@@ -6795,6 +12697,43 @@ export const birds: Bird[] = [
         "publisher": "David Darrell-Lambert / Xeno-canto",
         "url": "https://xeno-canto.org/1069340",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "iucn": {
@@ -6803,6 +12742,106 @@ export const birds: Bird[] = [
         "birdlife-lonchura-punctulata."
       ],
       "year": "2025"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-lonchura-punctulata"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : AnAge (entrée absente).",
+        "sourceIds": [
+          "anage-lonchura-punctulata"
+        ],
+        "undocumented": true
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "clutch": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "incubation": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-lonchura-punctulata"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Non cité dans l’annexe oiseaux de l’arrêté du 11 août 2006.",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Satdeep Gill — CC BY-SA 4.0",
     "imageSourceId": "media-lonchura-punctulata-img",
@@ -6934,6 +12973,43 @@ export const birds: Bird[] = [
         "publisher": "Nishant Bhagwat / Xeno-canto",
         "url": "https://xeno-canto.org/1160466",
         "note": "CC BY-NC-ND 4.0 ; taxon sauvage"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "wildRange": {
@@ -6951,6 +13027,105 @@ export const birds: Bird[] = [
         "birdlife-lonchura-striata"
       ],
       "year": "2024"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-lonchura-striata"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "10 ans (maximum cité ; milieu non précisé ; page AnAge *Lonchura striata*)",
+        "sourceIds": [
+          "anage-lonchura-striata-domestiqua"
+        ]
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "clutch": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "incubation": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-lonchura-striata"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Variétés domestiques constituant le moineau du Japon, écrites Lonchura « domestica », du domino (Lonchura striata). L’identité programme reste Lonchura striata domestiqua.",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Anil Kumar — CC BY-SA 4.0",
     "imageSourceId": "media-lonchura-striata-domestiqua-img",
@@ -7082,6 +13257,43 @@ export const birds: Bird[] = [
         "publisher": "Nishant Bhagwat / Xeno-canto",
         "url": "https://xeno-canto.org/1160466",
         "note": "CC BY-NC-ND 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "iucn": {
@@ -7090,6 +13302,105 @@ export const birds: Bird[] = [
         "birdlife-lonchura-striata."
       ],
       "year": "2024"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-lonchura-striata"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "10 ans (maximum cité ; milieu non précisé)",
+        "sourceIds": [
+          "anage-lonchura-striata"
+        ]
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "clutch": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "incubation": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-lonchura-striata"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Lonchura striata n’est cité que comme parent (domino) des variétés domestiques qui constituent le moineau du Japon (Lonchura « domestica »).",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Rison Thumboor — CC BY 2.0",
     "imageSourceId": "media-lonchura-striata-img",
@@ -7235,6 +13546,43 @@ export const birds: Bird[] = [
         "publisher": "Samantha Aguirre / Xeno-canto",
         "url": "https://xeno-canto.org/940888",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "wildRange": {
@@ -7260,6 +13608,105 @@ export const birds: Bird[] = [
         "sourceIds": [
           "birdlife-melopsittacus-undulatus"
         ]
+      },
+      "mass": {
+        "value": "30 g (moyenne AnAge, citée sur la page ADW)",
+        "sourceIds": [
+          "adw-melopsittacus-undulatus"
+        ]
+      },
+      "longevity": {
+        "value": "21 ans (captivité, maximum cité)",
+        "sourceIds": [
+          "anage-melopsittacus-undulatus"
+        ]
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "Non documenté — page ADW consultée le 2026-10-14, ce chiffre n’y figure pas.",
+        "sourceIds": [
+          "adw-melopsittacus-undulatus"
+        ],
+        "undocumented": true
+      },
+      "clutch": {
+        "value": "moyenne 5 (ADW).",
+        "sourceIds": [
+          "adw-melopsittacus-undulatus"
+        ]
+      },
+      "incubation": {
+        "value": "18 jours en moyenne jusqu’à l’éclosion (ADW).",
+        "sourceIds": [
+          "adw-melopsittacus-undulatus"
+        ]
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Petite perruche élancée, 18 à 20 cm, ailes et queue pointues.",
+        "sourceIds": [
+          "adw-melopsittacus-undulatus"
+        ]
+      },
+      "cites": {
+        "value": "Non inscrit : *Melopsittacus undulatus* est exclu des Psittaciformes spp. (annexes du 2026-03-05).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Variétés domestiques de la perruche ondulée (Melopsittacus undulatus).",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
       }
     },
     "imageCredit": "Lip Kee — CC BY-SA 2.0",
@@ -7406,6 +13853,43 @@ export const birds: Bird[] = [
         "publisher": "Tanguy Loïs / Xeno-canto",
         "url": "https://xeno-canto.org/1143450",
         "note": "CC BY-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "wildRange": {
@@ -7432,6 +13916,105 @@ export const birds: Bird[] = [
         "sourceIds": [
           "birdlife-myiopsitta-monachus"
         ]
+      },
+      "mass": {
+        "value": "81,7 g (moyenne AnAge, citée sur la page ADW)",
+        "sourceIds": [
+          "adw-myiopsitta-monachus"
+        ]
+      },
+      "longevity": {
+        "value": "22,1 ans (captivité, maximum cité)",
+        "sourceIds": [
+          "anage-myiopsitta-monachus-monachus"
+        ]
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "Non documenté — page ADW consultée le 2026-10-14, ce chiffre n’y figure pas.",
+        "sourceIds": [
+          "adw-myiopsitta-monachus"
+        ],
+        "undocumented": true
+      },
+      "clutch": {
+        "value": "moyenne 7 (ADW).",
+        "sourceIds": [
+          "adw-myiopsitta-monachus"
+        ]
+      },
+      "incubation": {
+        "value": "31 jours en moyenne jusqu’à l’éclosion (ADW).",
+        "sourceIds": [
+          "adw-myiopsitta-monachus"
+        ]
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Taille moyenne, 11 à 13 pouces jusqu’au bout de la queue effilée. Vert et gris ; front bleu-gris, lores, joues et gorge gris pâle, bec brun-rose clair, pattes grises.",
+        "sourceIds": [
+          "adw-myiopsitta-monachus"
+        ]
+      },
+      "cites": {
+        "value": "Annexe II (Psittaciformes spp., annexes du 2026-03-05).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Variétés bleue, lutino et albino de la perruche souris (Myiopsitta monachus monachus).",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
       }
     },
     "imageCredit": "Juan Emilio — CC BY-SA 2.0",
@@ -7564,6 +14147,43 @@ export const birds: Bird[] = [
         "publisher": "Liam Manderson / Xeno-canto",
         "url": "https://xeno-canto.org/605889",
         "note": "CC BY-NC-SA 4.0 ; XC: Aidemosyne modesta"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "wildRange": {
@@ -7581,6 +14201,106 @@ export const birds: Bird[] = [
         "birdlife-neochmia-modesta."
       ],
       "year": "2024"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-neochmia-modesta"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : AnAge (entrée absente).",
+        "sourceIds": [
+          "anage-neochmia-modesta"
+        ],
+        "undocumented": true
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "clutch": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "incubation": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-neochmia-modesta"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Variétés brune et isabelle du diamant modeste. L’annexe écrit Neochemia modesta.",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Greg Miles — CC BY-SA 2.0",
     "imageSourceId": "media-neochmia-modesta-img",
@@ -7664,21 +14384,24 @@ export const birds: Bird[] = [
         "level": "sourcé",
         "text": "Least Concern ; endémique Australie ; tendance en diminution",
         "sourceIds": [
-          "birdlife-neochmia-ruficauda"
+          "birdlife-neochmia-ruficauda",
+          "adw-neochmia-ruficauda"
         ]
       },
       {
         "level": "sourcé",
         "text": "Non migrateur ; zones irriguées, urbain, savane/fourrés humides",
         "sourceIds": [
-          "birdlife-neochmia-ruficauda"
+          "birdlife-neochmia-ruficauda",
+          "adw-neochmia-ruficauda"
         ]
       },
       {
         "level": "sourcé",
         "text": "Menace citée : surpâturage près de l’eau (certaines sous-espèces)",
         "sourceIds": [
-          "birdlife-neochmia-ruficauda"
+          "birdlife-neochmia-ruficauda",
+          "adw-neochmia-ruficauda"
         ]
       }
     ],
@@ -7712,6 +14435,50 @@ export const birds: Bird[] = [
         "publisher": "Marc Anderson / Xeno-canto",
         "url": "https://xeno-canto.org/436594",
         "note": "CC BY-NC-ND 4.0 ; XC: Bathilda ruficauda"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "adw-neochmia-ruficauda",
+        "title": "Neochmia ruficauda",
+        "publisher": "Animal Diversity Web",
+        "url": "https://animaldiversity.org/accounts/Neochmia_ruficauda/",
+        "note": "Consulté 2026-10-14 ; Physical Description"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "wildRange": {
@@ -7729,6 +14496,108 @@ export const birds: Bird[] = [
         "birdlife-neochmia-ruficauda."
       ],
       "year": "2018"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "adw-neochmia-ruficauda"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "3,4 ans (sauvage, maximum cité ; donnée jugée questionable, probablement sous-estimée)",
+        "sourceIds": [
+          "anage-neochmia-ruficauda"
+        ]
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "De septembre à janvier (ADW).",
+        "sourceIds": [
+          "adw-neochmia-ruficauda"
+        ]
+      },
+      "clutch": {
+        "value": "3 à 7 œufs par saison (ADW).",
+        "sourceIds": [
+          "adw-neochmia-ruficauda"
+        ]
+      },
+      "incubation": {
+        "value": "Non documenté — page ADW consultée le 2026-10-14, ce chiffre n’y figure pas.",
+        "sourceIds": [
+          "adw-neochmia-ruficauda"
+        ],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Face rouge vif. Mâle : face rouge, dessous de la tête jaune-olive, taches blanches sur la poitrine, les flancs, le croupion et la queue. Femelle : face plus terne, rouge vif surtout sur les lores et le front.",
+        "sourceIds": [
+          "adw-neochmia-ruficauda"
+        ]
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Variétés à masque jaune et pastel du diamant à queue rousse (Neochmia ruficauda).",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "HaraldW1954 — CC BY-SA 4.0",
     "imageSourceId": "media-neochmia-ruficauda-img",
@@ -7857,6 +14726,43 @@ export const birds: Bird[] = [
         "publisher": "Eddy Smith / Xeno-canto",
         "url": "https://xeno-canto.org/755583",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "wildRange": {
@@ -7874,6 +14780,105 @@ export const birds: Bird[] = [
         "birdlife-neophema-elegans."
       ],
       "year": "2024"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-neophema-elegans"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "longévité maximale non établie ; des individus ont vécu 2,9 ans (milieu non précisé)",
+        "sourceIds": [
+          "anage-neophema-elegans"
+        ]
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "clutch": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "incubation": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-neophema-elegans"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Annexe II (Psittaciformes spp., annexes du 2026-03-05). *Neophema chrysogaster* est en Annexe I : ce n’est pas ce taxon.",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Variétés foncée, lutino, panaché et cinnamon de la perruche élégante (Neophema elegans).",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Ron Knight — CC BY 2.0",
     "imageSourceId": "media-neophema-elegans-img",
@@ -8004,6 +15009,43 @@ export const birds: Bird[] = [
         "publisher": "Andrew Spencer / Xeno-canto",
         "url": "https://xeno-canto.org/328216",
         "note": "CC BY-NC-ND 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "wildRange": {
@@ -8021,6 +15063,105 @@ export const birds: Bird[] = [
         "birdlife-neophema-pulchella."
       ],
       "year": "2024"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-neophema-pulchella"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "21 ans (captivité, maximum cité)",
+        "sourceIds": [
+          "anage-neophema-pulchella"
+        ]
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "clutch": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "incubation": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-neophema-pulchella"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Annexe II (Psittaciformes spp., annexes du 2026-03-05). *Neophema chrysogaster* est en Annexe I : ce n’est pas ce taxon.",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Variétés foncée, ventre rouge, poitrine et ventre rouges, jaune, opaline et grise de la perruche d’Edwards ou turquoisine (Neophema pulchella).",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "stephen jones — CC BY 2.0",
     "imageSourceId": "media-neophema-pulchella-img",
@@ -8149,6 +15290,43 @@ export const birds: Bird[] = [
         "publisher": "Louis Masarei / Xeno-canto",
         "url": "https://xeno-canto.org/924874",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "wildRange": {
@@ -8166,6 +15344,105 @@ export const birds: Bird[] = [
         "birdlife-neophema-splendida."
       ],
       "year": "2024"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-neophema-splendida"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "14 ans (captivité, maximum cité)",
+        "sourceIds": [
+          "anage-neophema-splendida"
+        ]
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "clutch": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "incubation": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-neophema-splendida"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Annexe II (Psittaciformes spp., annexes du 2026-03-05). *Neophema chrysogaster* est en Annexe I : ce n’est pas ce taxon.",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Variétés bleu de mer, bleue à poitrine blanche, ino, ventre rouge, cinnamon et grise de la perruche splendide (Neophema splendida).",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Ltshears — Domaine public",
     "imageSourceId": "media-neophema-splendida-img",
@@ -8311,6 +15588,43 @@ export const birds: Bird[] = [
         "publisher": "Marc Anderson / Xeno-canto",
         "url": "https://xeno-canto.org/681342",
         "note": "CC BY-NC-ND 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "wildRange": {
@@ -8336,6 +15650,105 @@ export const birds: Bird[] = [
         "sourceIds": [
           "birdlife-neopsephotus-bourkii"
         ]
+      },
+      "mass": {
+        "value": "42 à 49 g",
+        "sourceIds": [
+          "adw-neopsephotus-bourkii"
+        ]
+      },
+      "longevity": {
+        "value": "12,6 ans (captivité, maximum cité)",
+        "sourceIds": [
+          "anage-neopsephotus-bourkii"
+        ]
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "De août à décembre (ADW).",
+        "sourceIds": [
+          "adw-neopsephotus-bourkii"
+        ]
+      },
+      "clutch": {
+        "value": "3 à 6 œufs par saison (ADW).",
+        "sourceIds": [
+          "adw-neopsephotus-bourkii"
+        ]
+      },
+      "incubation": {
+        "value": "Non documenté — page ADW consultée le 2026-10-14, ce chiffre n’y figure pas.",
+        "sourceIds": [
+          "adw-neopsephotus-bourkii"
+        ],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "18 à 23 cm, queue d’environ 9 cm, masse environ 42 à 49 g.",
+        "sourceIds": [
+          "adw-neopsephotus-bourkii"
+        ]
+      },
+      "cites": {
+        "value": "Annexe II (Psittaciformes spp., annexes du 2026-03-05).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Variétés opaline (rose), jaune, fallow, ino et isabelle de la perruche de Bourke (Neopsephotus bourkii).",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
       }
     },
     "imageCredit": "Ljosa — Domaine public",
@@ -8356,7 +15769,7 @@ export const birds: Bird[] = [
     "scientificName": "Nymphicus hollandicus",
     "commonName": "Calopsitte",
     "order": "Psittaciformes",
-    "family": "Cacatuides",
+    "family": "Cacatuidés",
     "programSourceId": "bac-pro-tcva-liste",
     "sheet": {
       "status": "complete",
@@ -8411,7 +15824,7 @@ export const birds: Bird[] = [
     "coursePoints": [
       {
         "level": "programme",
-        "text": "Calopsitte ↔ *Nymphicus hollandicus* ; Psittaciformes ; **Cacatuides**",
+        "text": "Calopsitte ↔ *Nymphicus hollandicus* ; Psittaciformes ; **Cacatuidés**",
         "sourceIds": [
           "bac-pro-tcva-liste"
         ]
@@ -8485,6 +15898,43 @@ export const birds: Bird[] = [
         "publisher": "Thierry THOMAS / Xeno-canto",
         "url": "https://xeno-canto.org/1163859",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "wildRange": {
@@ -8511,11 +15961,104 @@ export const birds: Bird[] = [
           "birdlife-nymphicus-hollandicus"
         ]
       },
-      "longevity": {
-        "value": "10–14 ans (captivité)",
+      "mass": {
+        "value": "80-90 g (moyenne)",
         "sourceIds": [
           "adw-nymphicus-hollandicus"
         ]
+      },
+      "longevity": {
+        "value": "10–14 ans (sauvage) ; captivité jusqu’à 25 ans, record 36 ans",
+        "sourceIds": [
+          "adw-nymphicus-hollandicus"
+        ]
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "De août à décembre (ADW).",
+        "sourceIds": [
+          "adw-nymphicus-hollandicus"
+        ]
+      },
+      "clutch": {
+        "value": "4 à 7 œufs par saison ; moyenne 5 (ADW).",
+        "sourceIds": [
+          "adw-nymphicus-hollandicus"
+        ]
+      },
+      "incubation": {
+        "value": "Non documenté — page ADW consultée le 2026-10-14, ce chiffre n’y figure pas.",
+        "sourceIds": [
+          "adw-nymphicus-hollandicus"
+        ],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Plus petit des cacatoès, environ 80 g, silhouette élancée. Seule perruche à huppe dont la queue se termine en pointe ; cette queue, très longue (environ 15 cm), fait la moitié de la longueur.",
+        "sourceIds": [
+          "adw-nymphicus-hollandicus"
+        ]
+      },
+      "cites": {
+        "value": "Non inscrit : *Nymphicus hollandicus* est exclu des Psittaciformes spp. (annexes du 2026-03-05).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Variétés domestiques de la perruche calopsitte (Nymphicus hollandicus).",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
       }
     },
     "imageCredit": "Zefry — CC BY 2.0",
@@ -8646,6 +16189,50 @@ export const birds: Bird[] = [
         "publisher": "Stanislas Wroza / Xeno-canto",
         "url": "https://xeno-canto.org/951388",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide pour cette espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "anage-oena-capensis",
+        "title": "Oena capensis — AnAge",
+        "publisher": "AnAge",
+        "url": "https://genomics.senescence.info/species/entry.php?species=Oena_capensis",
+        "note": "Consulté 2026-10-14 ; entrée absente"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "wildRange": {
@@ -8664,6 +16251,106 @@ export const birds: Bird[] = [
         "birdlife-oena-capensis"
       ],
       "year": "2024"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : BirdLife (fiche sans paragraphe d’identification), ADW (page non obtenue, erreur 503).",
+        "sourceIds": [
+          "birdlife-oena-capensis"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : AnAge (entrée absente), ADW (page non obtenue, erreur 503).",
+        "sourceIds": [
+          "anage-oena-capensis"
+        ],
+        "undocumented": true
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "clutch": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "incubation": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : BirdLife (fiche sans paragraphe d’identification), ADW (page non obtenue, erreur 503).",
+        "sourceIds": [
+          "birdlife-oena-capensis"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Non cité dans l’annexe oiseaux de l’arrêté du 11 août 2006.",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Neil Strickland — CC BY 2.0",
     "imageSourceId": "media-oena-capensis-img",
@@ -8795,6 +16482,43 @@ export const birds: Bird[] = [
         "publisher": "Oscar Campbell / Xeno-canto",
         "url": "https://xeno-canto.org/985452",
         "note": "CC BY-NC-ND 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "iucn": {
@@ -8803,6 +16527,106 @@ export const birds: Bird[] = [
         "birdlife-passer-luteus."
       ],
       "year": "2018"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-passer-luteus"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : AnAge (entrée absente).",
+        "sourceIds": [
+          "anage-passer-luteus"
+        ],
+        "undocumented": true
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "clutch": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "incubation": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-passer-luteus"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Non cité dans l’annexe oiseaux de l’arrêté du 11 août 2006.",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Barry Stewart — CC BY 4.0",
     "imageSourceId": "media-passer-luteus-img",
@@ -8931,6 +16755,43 @@ export const birds: Bird[] = [
         "publisher": "James Lambert / Xeno-canto",
         "url": "https://xeno-canto.org/593967",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "wildRange": {
@@ -8948,6 +16809,105 @@ export const birds: Bird[] = [
         "birdlife-platycercus-adscitus."
       ],
       "year": "2024"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-platycercus-adscitus"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "longévité maximale non établie ; des individus ont vécu 4,2 ans (milieu non précisé)",
+        "sourceIds": [
+          "anage-platycercus-adscitus"
+        ]
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "clutch": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "incubation": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-platycercus-adscitus"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Annexe II (Psittaciformes spp., annexes du 2026-03-05).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Variété cinnamon de la perruche palliceps (Platycercus adscitus).",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "JJ Harrison — CC BY-SA 4.0",
     "imageSourceId": "media-platycercus-adscitus-img",
@@ -9076,6 +17036,43 @@ export const birds: Bird[] = [
         "publisher": "Romuald Mikusek / Xeno-canto",
         "url": "https://xeno-canto.org/1173944",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "iucn": {
@@ -9084,6 +17081,105 @@ export const birds: Bird[] = [
         "birdlife-platycercus-elegans."
       ],
       "year": "2018"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-platycercus-elegans"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "26,8 ans (captivité ; un individu de la sous-espèce *adelaidae*)",
+        "sourceIds": [
+          "anage-platycercus-elegans"
+        ]
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "clutch": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "incubation": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-platycercus-elegans"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Annexe II (Psittaciformes spp., annexes du 2026-03-05).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Variétés bleue, jaune et cinnamon de la perruche de Pennant (Platycercus elegans).",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "John Poulakis — CC BY 2.0",
     "imageSourceId": "media-platycercus-elegans-img",
@@ -9212,6 +17308,43 @@ export const birds: Bird[] = [
         "publisher": "Romuald Mikusek / Xeno-canto",
         "url": "https://xeno-canto.org/1173636",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "wildRange": {
@@ -9230,6 +17363,105 @@ export const birds: Bird[] = [
         "birdlife-platycercus-eximius."
       ],
       "year": "2024"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-platycercus-eximius"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "27,4 ans (captivité, maximum cité)",
+        "sourceIds": [
+          "anage-platycercus-eximius-eximius"
+        ]
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "clutch": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "incubation": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-platycercus-eximius"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Annexe II (Psittaciformes spp., annexes du 2026-03-05).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Variétés pastel, cinnamon, lutino et opaline de la perruche omnicolore (Platycercus eximius eximius).",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Murdock Grewar — CC BY-SA 4.0",
     "imageSourceId": "media-platycercus-eximius-eximius-img",
@@ -9358,6 +17590,43 @@ export const birds: Bird[] = [
         "publisher": "Marc Anderson / Xeno-canto",
         "url": "https://xeno-canto.org/382800",
         "note": "CC BY-NC-ND 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "wildRange": {
@@ -9375,6 +17644,105 @@ export const birds: Bird[] = [
         "birdlife-platycercus-icterotis."
       ],
       "year": "2024"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-platycercus-icterotis"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "13,2 ans (captivité, maximum cité ; donnée jugée questionable)",
+        "sourceIds": [
+          "anage-platycercus-icterotis"
+        ]
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "clutch": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "incubation": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-platycercus-icterotis"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Annexe II (Psittaciformes spp., annexes du 2026-03-05).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Non cité dans l’annexe oiseaux de l’arrêté du 11 août 2006.",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Robert Young — CC BY 2.0",
     "imageSourceId": "media-platycercus-icterotis-img",
@@ -9506,6 +17874,43 @@ export const birds: Bird[] = [
         "publisher": "JJSUN / Xeno-canto",
         "url": "https://xeno-canto.org/1080073",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "iucn": {
@@ -9514,6 +17919,105 @@ export const birds: Bird[] = [
         "birdlife-ploceus-cucullatus."
       ],
       "year": "2018"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-ploceus-cucullatus"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "24 ans (captivité, maximum cité ; un mâle)",
+        "sourceIds": [
+          "anage-ploceus-cucullatus"
+        ]
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "clutch": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "incubation": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-ploceus-cucullatus"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Non cité dans l’annexe oiseaux de l’arrêté du 11 août 2006.",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Charles J. Sharp — CC BY-SA 4.0",
     "imageSourceId": "media-ploceus-cucullatus-img",
@@ -9645,6 +18149,43 @@ export const birds: Bird[] = [
         "publisher": "James Lambert / Xeno-canto",
         "url": "https://xeno-canto.org/668759",
         "note": "CC BY-NC-ND 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "wildRange": {
@@ -9662,6 +18203,105 @@ export const birds: Bird[] = [
         "birdlife-poephila-acuticauda."
       ],
       "year": "2024"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-poephila-acuticauda"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "6 ans (sauvage, maximum cité)",
+        "sourceIds": [
+          "anage-poephila-acuticauda"
+        ]
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "clutch": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "incubation": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-poephila-acuticauda"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Non inscrit (annexes du 2026-03-05). *Poephila cincta cincta* est en Annexe II : ce n’est pas ce taxon.",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Variétés brune, isabelle et crème ino du diamant à longue queue (Poephila acuticauda).",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Lip Kee Yap — CC BY-SA 2.0",
     "imageSourceId": "media-poephila-acuticauda-img",
@@ -9807,6 +18447,43 @@ export const birds: Bird[] = [
         "publisher": "Azens / Xeno-canto",
         "url": "https://xeno-canto.org/1093291",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "wildRange": {
@@ -9832,6 +18509,107 @@ export const birds: Bird[] = [
         "sourceIds": [
           "birdlife-poicephalus-senegalus"
         ]
+      },
+      "mass": {
+        "value": "115 à 125 g",
+        "sourceIds": [
+          "adw-poicephalus-senegalus"
+        ]
+      },
+      "longevity": {
+        "value": "40 ans (captivité, maximum cité)",
+        "sourceIds": [
+          "anage-poicephalus-senegalus"
+        ]
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "Non documenté — page ADW consultée le 2026-10-14, ce chiffre n’y figure pas.",
+        "sourceIds": [
+          "adw-poicephalus-senegalus"
+        ],
+        "undocumented": true
+      },
+      "clutch": {
+        "value": "Non documenté — page ADW consultée le 2026-10-14, ce chiffre n’y figure pas.",
+        "sourceIds": [
+          "adw-poicephalus-senegalus"
+        ],
+        "undocumented": true
+      },
+      "incubation": {
+        "value": "Non documenté — page ADW consultée le 2026-10-14, ce chiffre n’y figure pas.",
+        "sourceIds": [
+          "adw-poicephalus-senegalus"
+        ],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Tête et bec gris. Ailes, dos, rectrices et partie de la poitrine verts, le vert de la poitrine en « V ». Ventre du jaune vif à l’orange. Iris jaune chez l’adulte. Pattes grises ou roses.",
+        "sourceIds": [
+          "adw-poicephalus-senegalus"
+        ]
+      },
+      "cites": {
+        "value": "Annexe II (Psittaciformes spp., annexes du 2026-03-05).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Non cité dans l’annexe oiseaux de l’arrêté du 11 août 2006.",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
       }
     },
     "imageCredit": "ThomHasi / Thomas J. Haslam — CC BY 2.5",
@@ -9973,6 +18751,43 @@ export const birds: Bird[] = [
         "publisher": "Animal Diversity Web",
         "url": "https://animaldiversity.org/accounts/Polytelis_alexandrae/",
         "note": "Consulté 2026-10-13"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "wildRange": {
@@ -9997,6 +18812,105 @@ export const birds: Bird[] = [
         "sourceIds": [
           "adw-polytelis-alexandrae"
         ]
+      },
+      "mass": {
+        "value": "113,4 g (moyenne)",
+        "sourceIds": [
+          "adw-polytelis-alexandrae"
+        ]
+      },
+      "longevity": {
+        "value": "23,9 ans (captivité ; une femelle)",
+        "sourceIds": [
+          "anage-polytelis-alexandrae"
+        ]
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "De septembre à décembre (ADW).",
+        "sourceIds": [
+          "adw-polytelis-alexandrae"
+        ]
+      },
+      "clutch": {
+        "value": "moyenne 5 (ADW).",
+        "sourceIds": [
+          "adw-polytelis-alexandrae"
+        ]
+      },
+      "incubation": {
+        "value": "Non documenté — page ADW consultée le 2026-10-14, ce chiffre n’y figure pas.",
+        "sourceIds": [
+          "adw-polytelis-alexandrae"
+        ],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Mâle : couronne bleue, côtés de la tête bleu-gris, menton et gorge roses, corps vert-olive, dessus de l’aile vert vif, dessous de l’aile bleu-violet, œil et bec orange. Femelle : couronne gris-mauve, ailes plus ternes, queue plus courte.",
+        "sourceIds": [
+          "adw-polytelis-alexandrae"
+        ]
+      },
+      "cites": {
+        "value": "Annexe II (Psittaciformes spp., annexes du 2026-03-05).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Variétés bleue, lutino et albino (bleue et lutino) de la perruche à calotte bleue ou perruche princesse de Galles (Polytelis alexandrae).",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
       }
     },
     "imageCredit": "PG Palmer — CC BY 2.0",
@@ -10126,6 +19040,43 @@ export const birds: Bird[] = [
         "publisher": "Drew Davison / Xeno-canto",
         "url": "https://xeno-canto.org/638864",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "wildRange": {
@@ -10143,6 +19094,105 @@ export const birds: Bird[] = [
         "birdlife-polytelis-anthopeplus."
       ],
       "year": "2024"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-polytelis-anthopeplus"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "13,8 ans (captivité ; un individu encore vivant après cette durée)",
+        "sourceIds": [
+          "anage-polytelis-anthopeplus"
+        ]
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "clutch": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "incubation": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-polytelis-anthopeplus"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Annexe II (Psittaciformes spp., annexes du 2026-03-05).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Non cité dans l’annexe oiseaux de l’arrêté du 11 août 2006.",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "David Cook Wildlife Photography — CC BY 2.0",
     "imageSourceId": "media-polytelis-anthopeplus-img",
@@ -10274,6 +19324,43 @@ export const birds: Bird[] = [
         "publisher": "Marc Anderson / Xeno-canto",
         "url": "https://xeno-canto.org/692681",
         "note": "CC BY-NC-ND 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "wildRange": {
@@ -10291,6 +19378,105 @@ export const birds: Bird[] = [
         "birdlife-psephotus-haematonotus."
       ],
       "year": "2024"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-psephotus-haematonotus"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "12,2 ans (captivité, maximum cité)",
+        "sourceIds": [
+          "anage-psephotus-haematonotus-haematonotus"
+        ]
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "clutch": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "incubation": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-psephotus-haematonotus"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Annexe II (Psittaciformes spp., annexes du 2026-03-05). *Psephotellus chrysopterygius*, *dissimilis* et *pulcherrimus* sont en Annexe I : ce n’est pas ce taxon.",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Variétés cinnamon, lutino, vert de mer et opaline de la perruche à croupion rouge (Psephotus haematonotus haematonotus).",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Toby Hudson — CC BY-SA 3.0",
     "imageSourceId": "media-psephotus-haematonotus-img",
@@ -10422,6 +19608,43 @@ export const birds: Bird[] = [
         "publisher": "Marc Anderson / Xeno-canto",
         "url": "https://xeno-canto.org/809699",
         "note": "CC BY-NC-ND 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "wildRange": {
@@ -10439,6 +19662,105 @@ export const birds: Bird[] = [
         "birdlife-himalayapsitta-cyanocephala."
       ],
       "year": "2024"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-himalayapsitta-cyanocephala"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "18,8 ans (captivité, maximum cité ; donnée jugée questionable)",
+        "sourceIds": [
+          "anage-psittacula-cyanocephala"
+        ]
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "clutch": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "incubation": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-himalayapsitta-cyanocephala"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Annexe II (Psittaciformes spp., annexes du 2026-03-05).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Variétés foncée et panachée de la perruche tête de prune (Psittacula cyanocephala).",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "J.M.Garg — CC BY-SA 4.0",
     "imageSourceId": "media-psittacula-cyanocephala-img",
@@ -10572,6 +19894,43 @@ export const birds: Bird[] = [
         "publisher": "David Darrell-Lambert / Xeno-canto",
         "url": "https://xeno-canto.org/1182205",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "wildRange": {
@@ -10589,6 +19948,105 @@ export const birds: Bird[] = [
         "birdlife-palaeornis-eupatria."
       ],
       "year": "2025"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-palaeornis-eupatria"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "30 ans (captivité ; un individu encore vivant après cette durée)",
+        "sourceIds": [
+          "anage-psittacula-eupatria"
+        ]
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "clutch": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "incubation": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-palaeornis-eupatria"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Annexe II (Psittaciformes spp., annexes du 2026-03-05).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Variétés grise, lutino et albino de la perruche grande alexandre (Psittacula eupatria).",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Hari K Patibanda — CC BY 2.0",
     "imageSourceId": "media-psittacula-eupatria-img",
@@ -10738,6 +20196,43 @@ export const birds: Bird[] = [
         "publisher": "Sam Hambly / Xeno-canto",
         "url": "https://xeno-canto.org/1180800",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "iucn": {
@@ -10753,6 +20248,105 @@ export const birds: Bird[] = [
         "sourceIds": [
           "adw-psittacula-krameri"
         ]
+      },
+      "mass": {
+        "value": "137,0 g (moyenne)",
+        "sourceIds": [
+          "adw-psittacula-krameri"
+        ]
+      },
+      "longevity": {
+        "value": "34 ans (captivité, maximum cité)",
+        "sourceIds": [
+          "anage-psittacula-krameri-manillensis"
+        ]
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "De décembre à janvier (ADW).",
+        "sourceIds": [
+          "adw-psittacula-krameri"
+        ]
+      },
+      "clutch": {
+        "value": "1 à 7 œufs par saison (ADW).",
+        "sourceIds": [
+          "adw-psittacula-krameri"
+        ]
+      },
+      "incubation": {
+        "value": "Non documenté — page ADW consultée le 2026-10-14, ce chiffre n’y figure pas.",
+        "sourceIds": [
+          "adw-psittacula-krameri"
+        ],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Corps vert, bec rougeâtre, longue queue pointue (jusqu’à 25 cm, plus de la moitié du corps). Le mâle adulte a une teinte pourpre sombre autour du cou.",
+        "sourceIds": [
+          "adw-psittacula-krameri"
+        ]
+      },
+      "cites": {
+        "value": "Non inscrit : *Psittacula krameri* (donc la sous-espèce *manillensis*) est exclu des Psittaciformes spp. (annexes du 2026-03-05).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Variétés domestiques de la perruche à collier d’Asie (Psittacula krameri manillensis).",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
       }
     },
     "imageCredit": "Bernard Spragg. NZ — CC0",
@@ -10904,6 +20498,43 @@ export const birds: Bird[] = [
         "publisher": "Antoine Ede / Xeno-canto",
         "url": "https://xeno-canto.org/1137653",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "iucn": {
@@ -10920,11 +20551,104 @@ export const birds: Bird[] = [
           "birdlife-psittacus-erithacus"
         ]
       },
+      "mass": {
+        "value": "407 g (moyenne)",
+        "sourceIds": [
+          "adw-psittacus-erithacus"
+        ]
+      },
       "longevity": {
         "value": "22,7 ans (sauvage, maximum cité) ; 40–60 ans (captivité)",
         "sourceIds": [
           "adw-psittacus-erithacus"
         ]
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "Non documenté — page ADW consultée le 2026-10-14, ce chiffre n’y figure pas.",
+        "sourceIds": [
+          "adw-psittacus-erithacus"
+        ],
+        "undocumented": true
+      },
+      "clutch": {
+        "value": "3 à 5 œufs par saison (ADW).",
+        "sourceIds": [
+          "adw-psittacus-erithacus"
+        ]
+      },
+      "incubation": {
+        "value": "30 jours en moyenne jusqu’à l’éclosion (ADW).",
+        "sourceIds": [
+          "adw-psittacus-erithacus"
+        ]
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Plumage gris de plusieurs tons, rectrices rouges bien distinctes. Environ 33 cm, jusqu’à 407 g.",
+        "sourceIds": [
+          "adw-psittacus-erithacus"
+        ]
+      },
+      "cites": {
+        "value": "Annexe I (annexes CITES du 2026-03-05).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Non cité dans l’annexe oiseaux de l’arrêté du 11 août 2006.",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
       }
     },
     "imageCredit": "Nasimahmed01 — CC BY-SA 4.0",
@@ -11075,6 +20799,43 @@ export const birds: Bird[] = [
         "publisher": "Bo Shunqi 薄顺奇 / Xeno-canto",
         "url": "https://xeno-canto.org/1180569",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "wildRange": {
@@ -11101,11 +20862,104 @@ export const birds: Bird[] = [
           "birdlife-pyrrhura-molinae"
         ]
       },
+      "mass": {
+        "value": "62 à 81 g ; moyenne 72 g",
+        "sourceIds": [
+          "adw-pyrrhura-molinae"
+        ]
+      },
       "longevity": {
         "value": "25–30 ans (captivité)",
         "sourceIds": [
           "adw-pyrrhura-molinae"
         ]
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "Non documenté — page ADW consultée le 2026-10-14, ce chiffre n’y figure pas.",
+        "sourceIds": [
+          "adw-pyrrhura-molinae"
+        ],
+        "undocumented": true
+      },
+      "clutch": {
+        "value": "3 à 8 œufs par saison ; moyenne 5 (ADW).",
+        "sourceIds": [
+          "adw-pyrrhura-molinae"
+        ]
+      },
+      "incubation": {
+        "value": "23 jours en moyenne jusqu’à l’éclosion (ADW).",
+        "sourceIds": [
+          "adw-pyrrhura-molinae"
+        ]
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Joues vertes, critère cité pour la distinguer des autres conures. Sous-espèce nominale : du front à la nuque, plumes brunes ou grises.",
+        "sourceIds": [
+          "adw-pyrrhura-molinae"
+        ]
+      },
+      "cites": {
+        "value": "Annexe II (Psittaciformes spp., annexes du 2026-03-05). *Pyrrhura cruentata* est en Annexe I : ce n’est pas ce taxon.",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Variétés bleue et cinnamon de la conure de Molina (Pyrrhura molinae).",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
       }
     },
     "imageCredit": "Dan Muntz — CC BY-SA 2.0",
@@ -11238,6 +21092,43 @@ export const birds: Bird[] = [
         "publisher": "Radek Grochowski / Xeno-canto",
         "url": "https://xeno-canto.org/1156694",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "iucn": {
@@ -11246,6 +21137,105 @@ export const birds: Bird[] = [
         "birdlife-serinus-canaria."
       ],
       "year": "2018"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-serinus-canaria"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "24 ans (captivité, maximum cité)",
+        "sourceIds": [
+          "anage-serinus-canaria"
+        ]
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "clutch": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "incubation": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-serinus-canaria"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Non inscrit (annexes du 2026-03-05). *Serinus serinus* (population d’Ukraine) est en Annexe III : ce n’est pas ce taxon.",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Races et variétés domestiques, dites « canaris », du serin des Canaries (Serinus canaria).",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Eduardo Martínez — CC BY 2.0",
     "imageSourceId": "media-serinus-canaria-img",
@@ -11377,6 +21367,43 @@ export const birds: Bird[] = [
         "publisher": "Bram Piot / Xeno-canto",
         "url": "https://xeno-canto.org/469496",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "iucn": {
@@ -11385,6 +21412,106 @@ export const birds: Bird[] = [
         "birdlife-serinus-leucopygius."
       ],
       "year": "2024"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-serinus-leucopygius"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : AnAge (entrée absente).",
+        "sourceIds": [
+          "anage-serinus-leucopygius"
+        ],
+        "undocumented": true
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "clutch": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "incubation": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-serinus-leucopygius"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Non inscrit (annexes du 2026-03-05). *Serinus serinus* (population d’Ukraine) est en Annexe III : ce n’est pas ce taxon.",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Non cité dans l’annexe oiseaux de l’arrêté du 11 août 2006.",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Francesco Veronesi — CC BY-SA 2.0",
     "imageSourceId": "media-serinus-leucopygius-img",
@@ -11526,6 +21653,43 @@ export const birds: Bird[] = [
         "publisher": "Animal Diversity Web",
         "url": "https://animaldiversity.org/accounts/Serinus_mozambicus/",
         "note": "Consulté 2026-10-13"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "iucn": {
@@ -11547,6 +21711,89 @@ export const birds: Bird[] = [
         "sourceIds": [
           "adw-serinus-mozambicus"
         ]
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "clutch": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "incubation": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Environ 12 cm. Mâle adulte : face, ventre, flancs, croupion et couvertures caudales jaune d’or ; rayures malaire et oculaire brun à noir. Dos, cou et couronne brun à vert-olive.",
+        "sourceIds": [
+          "adw-serinus-mozambicus"
+        ]
+      },
+      "cites": {
+        "value": "Non inscrit (annexes du 2026-03-05). *Serinus serinus* (population d’Ukraine) est en Annexe III : ce n’est pas ce taxon.",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Non cité dans l’annexe oiseaux de l’arrêté du 11 août 2006.",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
       }
     },
     "imageCredit": "Charles J. Sharp — CC BY-SA 4.0",
@@ -11689,6 +21936,43 @@ export const birds: Bird[] = [
         "publisher": "Animal Diversity Web",
         "url": "https://animaldiversity.org/accounts/Stagonopleura_guttata/",
         "note": "Consulté 2026-10-13"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "wildRange": {
@@ -11714,11 +21998,103 @@ export const birds: Bird[] = [
           "adw-stagonopleura-guttata"
         ]
       },
+      "mass": {
+        "value": "17 g (moyenne)",
+        "sourceIds": [
+          "adw-stagonopleura-guttata"
+        ]
+      },
       "longevity": {
         "value": "5–7 ans (captivité)",
         "sourceIds": [
           "adw-stagonopleura-guttata"
         ]
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "De août à janvier (ADW).",
+        "sourceIds": [
+          "adw-stagonopleura-guttata"
+        ]
+      },
+      "clutch": {
+        "value": "4 à 9 œufs par saison ; moyenne 6 (ADW).",
+        "sourceIds": [
+          "adw-stagonopleura-guttata"
+        ]
+      },
+      "incubation": {
+        "value": "13 jours en moyenne jusqu’à l’éclosion (ADW).",
+        "sourceIds": [
+          "adw-stagonopleura-guttata"
+        ]
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Mâle : dessus brun, couvertures sus-caudales cramoisies, queue, front et couronne noirs, nuque gris cendre, gorge blanche, poitrine et ventre blancs. Bec et iris rouges, pattes gris foncé. Femelle semblable, souvent plus petite, bande noire étroite sur le front.",
+        "sourceIds": [
+          "adw-stagonopleura-guttata"
+        ]
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Variétés brune, à bec jaune, pastel et argenté du diamant à gouttelettes (Stagonopleura guttata). L’annexe écrit « goutelettes ».",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
       }
     },
     "imageCredit": "JJ Harrison — CC BY-SA 4.0",
@@ -11865,6 +22241,50 @@ export const birds: Bird[] = [
         "publisher": "Zsombor Károlyi / Xeno-canto",
         "url": "https://xeno-canto.org/1163976",
         "note": "CC BY-NC-SA 4.0 ; taxon sauvage"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide pour cette espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "anage-streptopelia-risoria",
+        "title": "Streptopelia risoria — AnAge",
+        "publisher": "AnAge",
+        "url": "https://genomics.senescence.info/species/entry.php?species=Streptopelia_risoria",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "wildRange": {
@@ -11883,6 +22303,113 @@ export const birds: Bird[] = [
         "birdlife-streptopelia-roseogrisea"
       ],
       "year": "2018"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "26–27 cm (taxon sauvage *Streptopelia roseogrisea*)",
+        "sourceIds": [
+          "adw-streptopelia-roseogrisea"
+        ]
+      },
+      "mass": {
+        "value": "Page ADW Streptopelia roseogrisea. 150 à 160 g",
+        "sourceIds": [
+          "adw-streptopelia-roseogrisea"
+        ]
+      },
+      "longevity": {
+        "value": "12 ans (maximum cité ; milieu non précisé) ; AnAge indique une durée peut-être nettement plus longue, jusqu’à 20 ans, sans mesure",
+        "sourceIds": [
+          "anage-streptopelia-risoria"
+        ]
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "Non documenté — page ADW consultée le 2026-10-14, ce chiffre n’y figure pas.",
+        "sourceIds": [
+          "adw-streptopelia-roseogrisea"
+        ],
+        "undocumented": true
+      },
+      "clutch": {
+        "value": "moyenne 2 (ADW).",
+        "sourceIds": [
+          "adw-streptopelia-roseogrisea"
+        ]
+      },
+      "incubation": {
+        "value": "15 jours en moyenne jusqu’à l’éclosion (ADW).",
+        "sourceIds": [
+          "adw-streptopelia-roseogrisea"
+        ]
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Taxon sauvage *Streptopelia roseogrisea* : calotte, cou et nuque d’un fauve rose-gris pâle ; demi-collier noir étroit, bordé de blanc sur le bord supérieur ; dos et dessus de l’aile sable pâle.",
+        "sourceIds": [
+          "adw-streptopelia-roseogrisea"
+        ]
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Variétés domestiques constituant la tourterelle domestique ou tourterelle rieuse (Streptopelia « risoria »), de la tourterelle rose et grise (Streptopelia roseogrisea).",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Dick Daniels — CC BY-SA 3.0",
     "imageSourceId": "media-streptopelia-risoria-img",
@@ -12015,6 +22542,50 @@ export const birds: Bird[] = [
         "publisher": "African Bioacoustics Community / Xeno-canto",
         "url": "https://xeno-canto.org/1183962",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide pour cette espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "anage-spilopelia-senegalensis",
+        "title": "Spilopelia senegalensis — AnAge",
+        "publisher": "AnAge",
+        "url": "https://genomics.senescence.info/species/entry.php?species=Spilopelia_senegalensis",
+        "note": "Consulté 2026-10-14 ; entrée absente"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "wildRange": {
@@ -12034,6 +22605,106 @@ export const birds: Bird[] = [
         "birdlife-spilopelia-senegalensis"
       ],
       "year": "2018"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : BirdLife (fiche sans paragraphe d’identification), ADW (page non obtenue, erreur 503).",
+        "sourceIds": [
+          "birdlife-spilopelia-senegalensis"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : AnAge (entrée absente), ADW (page non obtenue, erreur 503).",
+        "sourceIds": [
+          "anage-spilopelia-senegalensis"
+        ],
+        "undocumented": true
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "clutch": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "incubation": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : BirdLife (fiche sans paragraphe d’identification), ADW (page non obtenue, erreur 503).",
+        "sourceIds": [
+          "birdlife-spilopelia-senegalensis"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Non cité dans l’annexe oiseaux de l’arrêté du 11 août 2006.",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines, liste AZA Animal Care Manuals (aucun guide nommé pour cette espèce).",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Zeynel Cebeci — CC BY-SA 4.0",
     "imageSourceId": "media-streptopelia-senegalensis-img",
@@ -12165,6 +22836,43 @@ export const birds: Bird[] = [
         "publisher": "Marc Anderson / Xeno-canto",
         "url": "https://xeno-canto.org/816265",
         "note": "CC BY-NC-ND 4.0 ; XC: Stizoptera bichenovii"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "wildRange": {
@@ -12182,6 +22890,105 @@ export const birds: Bird[] = [
         "birdlife-taeniopygia-bichenovii."
       ],
       "year": "2024"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-taeniopygia-bichenovii"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "5,4 ans (sauvage, maximum cité ; donnée jugée questionable)",
+        "sourceIds": [
+          "anage-taeniopygia-bichenovii"
+        ]
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "clutch": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "incubation": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-taeniopygia-bichenovii"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Non cité dans l’annexe oiseaux de l’arrêté du 11 août 2006.",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "JJ Harrison — CC BY-SA 4.0",
     "imageSourceId": "media-taeniopygia-bichenovii-img",
@@ -12324,6 +23131,43 @@ export const birds: Bird[] = [
         "publisher": "Animal Diversity Web",
         "url": "https://animaldiversity.org/accounts/Taeniopygia_guttata/",
         "note": "Consulté 2026-10-13"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "wildRange": {
@@ -12349,11 +23193,105 @@ export const birds: Bird[] = [
           "adw-taeniopygia-guttata-castanotis"
         ]
       },
+      "mass": {
+        "value": "12 g (moyenne)",
+        "sourceIds": [
+          "adw-taeniopygia-guttata-castanotis"
+        ]
+      },
       "longevity": {
         "value": "4,5 ans (sauvage, maximum cité) ; 5–7 ans (captivité)",
         "sourceIds": [
           "adw-taeniopygia-guttata-castanotis"
         ]
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "Non documenté — page ADW consultée le 2026-10-14, ce chiffre n’y figure pas.",
+        "sourceIds": [
+          "adw-taeniopygia-guttata-castanotis"
+        ],
+        "undocumented": true
+      },
+      "clutch": {
+        "value": "4 à 6 œufs par saison (ADW).",
+        "sourceIds": [
+          "adw-taeniopygia-guttata-castanotis"
+        ]
+      },
+      "incubation": {
+        "value": "Non documenté — page ADW consultée le 2026-10-14, ce chiffre n’y figure pas.",
+        "sourceIds": [
+          "adw-taeniopygia-guttata-castanotis"
+        ],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Petit passereau, 10 à 11 cm, environ 12 g. Mâle et femelle diffèrent par la coloration.",
+        "sourceIds": [
+          "adw-taeniopygia-guttata-castanotis"
+        ]
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Variétés domestiques du diamant mandarin (Taeniopygia guttata castanotis).",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
       }
     },
     "imageCredit": "JJ Harrison — CC BY-SA 3.0",
@@ -12483,6 +23421,43 @@ export const birds: Bird[] = [
         "publisher": "Bram Piot / Xeno-canto",
         "url": "https://xeno-canto.org/405791",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "iucn": {
@@ -12491,6 +23466,106 @@ export const birds: Bird[] = [
         "birdlife-uraeginthus-bengalus."
       ],
       "year": "2018"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-uraeginthus-bengalus"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : AnAge (entrée absente).",
+        "sourceIds": [
+          "anage-uraeginthus-bengalus"
+        ],
+        "undocumented": true
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "clutch": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "incubation": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-uraeginthus-bengalus"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Non cité dans l’annexe oiseaux de l’arrêté du 11 août 2006.",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Charles J. Sharp — CC BY-SA 4.0",
     "imageSourceId": "media-uraeginthus-bengalus-img",
@@ -12622,6 +23697,43 @@ export const birds: Bird[] = [
         "publisher": "Martin Tlustos / Xeno-canto",
         "url": "https://xeno-canto.org/1030357",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "iucn": {
@@ -12630,6 +23742,106 @@ export const birds: Bird[] = [
         "birdlife-uraeginthus-cyanocephalus."
       ],
       "year": "2018"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-uraeginthus-cyanocephalus"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : AnAge (entrée absente).",
+        "sourceIds": [
+          "anage-uraeginthus-cyanocephalus"
+        ],
+        "undocumented": true
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "clutch": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "incubation": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-uraeginthus-cyanocephalus"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Non cité dans l’annexe oiseaux de l’arrêté du 11 août 2006.",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "D. Gordon E. Robertson — CC BY-SA 3.0",
     "imageSourceId": "media-uraeginthus-cyanocephalus-img",
@@ -12761,6 +23973,43 @@ export const birds: Bird[] = [
         "publisher": "Julien Birard / Xeno-canto",
         "url": "https://xeno-canto.org/982686",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "iucn": {
@@ -12769,6 +24018,106 @@ export const birds: Bird[] = [
         "birdlife-vidua-chalybeata."
       ],
       "year": "2018"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-vidua-chalybeata"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : AnAge (entrée absente).",
+        "sourceIds": [
+          "anage-vidua-chalybeata"
+        ],
+        "undocumented": true
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "clutch": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "incubation": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-vidua-chalybeata"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Non cité dans l’annexe oiseaux de l’arrêté du 11 août 2006.",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Charles J. Sharp — CC BY-SA 4.0",
     "imageSourceId": "media-vidua-chalybeata-img",
@@ -12900,6 +24249,43 @@ export const birds: Bird[] = [
         "publisher": "African Bioacoustics Community / Xeno-canto",
         "url": "https://xeno-canto.org/1183545",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "iucn": {
@@ -12908,6 +24294,106 @@ export const birds: Bird[] = [
         "birdlife-vidua-macroura."
       ],
       "year": "2018"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-vidua-macroura"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : AnAge (entrée absente).",
+        "sourceIds": [
+          "anage-vidua-macroura"
+        ],
+        "undocumented": true
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "clutch": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "incubation": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-vidua-macroura"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Non cité dans l’annexe oiseaux de l’arrêté du 11 août 2006.",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Charles J. Sharp — CC BY-SA 4.0",
     "imageSourceId": "media-vidua-macroura-img",
@@ -13039,6 +24525,43 @@ export const birds: Bird[] = [
         "publisher": "Bram Piot / Xeno-canto",
         "url": "https://xeno-canto.org/436008",
         "note": "CC BY-NC-SA 4.0"
+      },
+      {
+        "id": "cites-appendices",
+        "title": "CITES Appendices I, II and III",
+        "publisher": "CITES",
+        "year": "2026",
+        "url": "https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf",
+        "note": "Consulté 2026-10-14"
+      },
+      {
+        "id": "eaza-bpg",
+        "title": "EAZA Best Practice Guidelines (index)",
+        "publisher": "EAZA",
+        "url": "https://www.eaza.net/bpg/",
+        "note": "Consulté 2026-10-14 ; aucun guide d’espèce"
+      },
+      {
+        "id": "aza-acm",
+        "title": "AZA Animal Care Manuals (liste publiée)",
+        "publisher": "Association of Zoos & Aquariums",
+        "url": "https://www.aza.org/animal-care-manuals",
+        "note": "Consulté 2026-10-14 ; aucun manuel pour cette espèce"
+      },
+      {
+        "id": "arrete-11-aout-2006",
+        "title": "Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A)",
+        "publisher": "Journal officiel",
+        "year": "2006",
+        "note": "Annexe oiseaux, 7 octobre 2006"
+      },
+      {
+        "id": "arrete-08-octobre-2018",
+        "title": "Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques",
+        "publisher": "Journal officiel",
+        "year": "2018",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/",
+        "note": "Consulté 2026-10-14 ; pas de dimensions de cage"
       }
     ],
     "iucn": {
@@ -13047,6 +24570,106 @@ export const birds: Bird[] = [
         "birdlife-vidua-orientalis."
       ],
       "year": "2024"
+    },
+    "measurements": {
+      "adultSize": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (pas de longueur du corps), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-vidua-orientalis"
+        ],
+        "undocumented": true
+      },
+      "longevity": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : AnAge (entrée absente).",
+        "sourceIds": [
+          "anage-vidua-orientalis"
+        ],
+        "undocumented": true
+      }
+    },
+    "reproduction": {
+      "season": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "clutch": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      },
+      "incubation": {
+        "value": "Non documenté — pas de page ADW exploitable le 2026-10-14.",
+        "sourceIds": [],
+        "undocumented": true
+      }
+    },
+    "school": {
+      "morphology": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : ADW (page absente ou non obtenue), BirdLife (fiche sans paragraphe d’identification).",
+        "sourceIds": [
+          "birdlife-vidua-orientalis"
+        ],
+        "undocumented": true
+      },
+      "cites": {
+        "value": "Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).",
+        "sourceIds": [
+          "cites-appendices"
+        ]
+      },
+      "domesticVarieties": {
+        "value": "Non cité dans l’annexe oiseaux de l’arrêté du 11 août 2006.",
+        "sourceIds": [
+          "arrete-11-aout-2006"
+        ]
+      },
+      "cageSize": {
+        "value": "L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.",
+        "sourceIds": [
+          "arrete-08-octobre-2018"
+        ]
+      },
+      "shopPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "webPrice": {
+        "value": "Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.",
+        "sourceIds": [
+          "arrete-08-octobre-2018",
+          "eaza-bpg",
+          "aza-acm"
+        ]
+      },
+      "captiveDiet": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "captiveAdvice": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      },
+      "compatibility": {
+        "value": "Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.",
+        "sourceIds": [
+          "eaza-bpg",
+          "aza-acm"
+        ],
+        "undocumented": true
+      }
     },
     "imageCredit": "Pobpob11 — CC BY-SA 4.0",
     "imageSourceId": "media-vidua-orientalis-img",

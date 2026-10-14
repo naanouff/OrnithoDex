@@ -2,7 +2,7 @@
 
 - **Slug** : `poicephalus-senegalus`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-13
+- **Dernière vérification** : 2026-10-14
 
 ## Identité
 
@@ -30,7 +30,61 @@
 | Champ | Valeur | Source |
 |-------|--------|--------|
 | Taille adulte | 20–25 cm | birdlife-poicephalus-senegalus |
-| Longévité | na | |
+| Poids | 115 à 125 g | adw-poicephalus-senegalus |
+| Longévité | 40 ans (captivité, maximum cité) | anage-poicephalus-senegalus |
+
+## Morphologie
+
+Tête et bec gris. Ailes, dos, rectrices et partie de la poitrine verts, le vert de la poitrine en « V ». Ventre du jaune vif à l’orange. Iris jaune chez l’adulte. Pattes grises ou roses.  
+*Source : adw-poicephalus-senegalus.*
+
+## Statut CITES
+
+Annexe II (Psittaciformes spp., annexes du 2026-03-05).  
+*Source : cites-appendices.*
+
+## Variétés domestiques
+
+Non cité dans l’annexe oiseaux de l’arrêté du 11 août 2006.  
+*Source : arrete-11-aout-2006.*
+
+## Reproduction
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Période | Non documenté — page ADW consultée le 2026-10-14, ce chiffre n’y figure pas. | adw-poicephalus-senegalus |
+| Nombre d'œufs | Non documenté — page ADW consultée le 2026-10-14, ce chiffre n’y figure pas. | adw-poicephalus-senegalus |
+| Temps de couvaison | Non documenté — page ADW consultée le 2026-10-14, ce chiffre n’y figure pas. | adw-poicephalus-senegalus |
+
+## Taille de cage
+
+L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.  
+*Source : arrete-08-octobre-2018.*
+
+## Prix en animalerie
+
+Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.  
+*Sources : arrete-08-octobre-2018 ; eaza-bpg ; aza-acm.*
+
+## Prix sur internet
+
+Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.  
+*Sources : arrete-08-octobre-2018 ; eaza-bpg ; aza-acm.*
+
+## Alimentation en captivité
+
+Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.  
+*Sources : eaza-bpg ; aza-acm.*
+
+## Conseils captivité
+
+Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.  
+*Sources : eaza-bpg ; aza-acm.*
+
+## Compatibilité
+
+Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.  
+*Sources : eaza-bpg ; aza-acm.*
 
 ## Dimorphisme sexuel
 
@@ -82,3 +136,8 @@ Enregistrement XC1093291 (Azens — CC BY-NC-SA 4.0) : https://xeno-canto.org/10
 | adw-poicephalus-senegalus | Poicephalus senegalus (Senegal parrot) | Animal Diversity Web / Kristel Koehler | | https://animaldiversity.org/accounts/Poicephalus_senegalus/ | Consulté 2026-10-10 |
 | media-poicephalus-senegalus-img | File:Senegal Parrots -two on branch in Africa.jpg | ThomHasi / Wikimedia Commons | | https://commons.wikimedia.org/wiki/File:Senegal_Parrots_-two_on_branch_in_Africa.jpg | CC BY 2.5 |
 | media-poicephalus-senegalus-audio | XC1093291 | Azens / Xeno-canto | | https://xeno-canto.org/1093291 | CC BY-NC-SA 4.0 |
+| cites-appendices | CITES Appendices I, II and III | CITES | 2026 | https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf | Consulté 2026-10-14 |
+| eaza-bpg | EAZA Best Practice Guidelines (index) | EAZA | | https://www.eaza.net/bpg/ | Consulté 2026-10-14 ; aucun guide d’espèce |
+| aza-acm | AZA Animal Care Manuals (liste publiée) | Association of Zoos & Aquariums | | https://www.aza.org/animal-care-manuals | Consulté 2026-10-14 ; aucun manuel pour cette espèce |
+| arrete-11-aout-2006 | Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A) | Journal officiel | 2006 | | Annexe oiseaux, 7 octobre 2006 |
+| arrete-08-octobre-2018 | Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques | Journal officiel | 2018 | https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/ | Consulté 2026-10-14 ; pas de dimensions de cage |

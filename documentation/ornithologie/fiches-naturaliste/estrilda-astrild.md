@@ -2,7 +2,7 @@
 
 - **Slug** : `estrilda-astrild`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-13
+- **Dernière vérification** : 2026-10-14
 
 ## Identité
 
@@ -30,7 +30,61 @@
 | Champ | Valeur | Source |
 |-------|--------|--------|
 | Taille adulte | 11,5 cm | birdlife-estrilda-astrild |
+| Poids | 8,9 g (moyenne) | adw-estrilda-astrild |
 | Longévité | 4 ans (sauvage, maximum cité) | adw-estrilda-astrild |
+
+## Morphologie
+
+Petit passereau gris-brun, bec conique et zone de la face rouges.  
+*Source : adw-estrilda-astrild.*
+
+## Statut CITES
+
+Non inscrit (annexes CITES du 2026-03-05, consultées le 2026-10-14).  
+*Source : cites-appendices.*
+
+## Variétés domestiques
+
+Non cité dans l’annexe oiseaux de l’arrêté du 11 août 2006.  
+*Source : arrete-11-aout-2006.*
+
+## Reproduction
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Période | De janvier à septembre (ADW). | adw-estrilda-astrild |
+| Nombre d'œufs | moyenne 4 to 6 (ADW). | adw-estrilda-astrild |
+| Temps de couvaison | 11 jours en moyenne jusqu’à l’éclosion (ADW). | adw-estrilda-astrild |
+
+## Taille de cage
+
+L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.  
+*Source : arrete-08-octobre-2018.*
+
+## Prix en animalerie
+
+Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.  
+*Sources : arrete-08-octobre-2018 ; eaza-bpg ; aza-acm.*
+
+## Prix sur internet
+
+Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.  
+*Sources : arrete-08-octobre-2018 ; eaza-bpg ; aza-acm.*
+
+## Alimentation en captivité
+
+Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.  
+*Sources : eaza-bpg ; aza-acm.*
+
+## Conseils captivité
+
+Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.  
+*Sources : eaza-bpg ; aza-acm.*
+
+## Compatibilité
+
+Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.  
+*Sources : eaza-bpg ; aza-acm.*
 
 ## Dimorphisme sexuel
 
@@ -85,3 +139,8 @@ ADW : chant doux et simple ; parade avec « révérence » et exhibition du vent
 | adw-estrilda-astrild | Estrilda astrild (common waxbill) | Animal Diversity Web / Lauren Tarr | | https://animaldiversity.org/accounts/Estrilda_astrild/ | Consulté 2026-10-10 |
 | media-estrilda-astrild-img | File:Common waxbill (26408344029).jpg | Derek Keats / Wikimedia Commons | 2015 | https://commons.wikimedia.org/wiki/File:Common_waxbill_(26408344029).jpg | CC BY 2.0 |
 | media-estrilda-astrild-audio | XC1155179 | Walter Wallner / Xeno-canto | | https://xeno-canto.org/1155179 | CC BY-NC-SA 4.0 |
+| cites-appendices | CITES Appendices I, II and III | CITES | 2026 | https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf | Consulté 2026-10-14 |
+| eaza-bpg | EAZA Best Practice Guidelines (index) | EAZA | | https://www.eaza.net/bpg/ | Consulté 2026-10-14 ; aucun guide d’espèce |
+| aza-acm | AZA Animal Care Manuals (liste publiée) | Association of Zoos & Aquariums | | https://www.aza.org/animal-care-manuals | Consulté 2026-10-14 ; aucun manuel pour cette espèce |
+| arrete-11-aout-2006 | Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A) | Journal officiel | 2006 | | Annexe oiseaux, 7 octobre 2006 |
+| arrete-08-octobre-2018 | Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques | Journal officiel | 2018 | https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/ | Consulté 2026-10-14 ; pas de dimensions de cage |

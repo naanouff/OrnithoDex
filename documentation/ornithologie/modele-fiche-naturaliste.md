@@ -3,7 +3,8 @@
 Chaque espèce a un fichier `fiches-naturaliste/{slug}.md` calqué sur ce gabarit.
 
 Les sections sans source restent **vides** (ne pas inventer). Méthode : [plan-sources.md](../projet/plan-sources.md).  
-Écart vs fiche scolaire TCVA : [audit-template-fiche-scolaire.md](../projet/audit-template-fiche-scolaire.md) · alignement : [sprint-alignement-template-scolaire.md](../projet/sprint-alignement-template-scolaire.md).
+Écart vs fiche scolaire TCVA : [audit-template-fiche-scolaire.md](../projet/audit-template-fiche-scolaire.md) · alignement : [sprint-alignement-template-scolaire.md](../projet/sprint-alignement-template-scolaire.md).  
+Variétés domestiques (arrêté 2006) : [plan](../projet/plan-adaptation-supports-cours.md) · [sprint](../projet/sprint-adaptation-supports-cours.md).
 
 ## Statuts
 
@@ -49,7 +50,40 @@ Les sections sans source restent **vides** (ne pas inventer). Méthode : [plan-s
 | Champ | Valeur | Source |
 |-------|--------|--------|
 | Taille adulte | … ou na | … |
+| Poids | … ou na | … |
 | Longévité | … ou na | … |
+
+## Morphologie
+
+<!-- Phrase BirdLife (identification) ou ADW (Physical Description). Pas le paragraphe de statut UICN. -->
+
+## Statut CITES
+
+<!-- Annexe I, II, III, ou « non inscrit », d’après les annexes CITES. -->
+
+## Variétés domestiques
+
+<!-- Paraphrase de l’annexe oiseaux de l’arrêté du 11 août 2006. Source : arrete-11-aout-2006. Pas un statut « non domestique ». -->
+
+## Reproduction
+
+<!-- Période, nombre d’œufs, temps de couvaison : champs chiffrés ADW seulement. -->
+
+## Taille de cage
+
+<!-- L’arrêté du 8 octobre 2018 ne donne pas de dimensions. -->
+
+## Prix en animalerie
+
+## Prix sur internet
+
+## Alimentation en captivité
+
+<!-- Uniquement un guide EAZA, un manuel AZA, un article ou un ouvrage nommé. Sinon la trace de recherche. -->
+
+## Conseils captivité
+
+## Compatibilité
 
 ## Dimorphisme sexuel
 

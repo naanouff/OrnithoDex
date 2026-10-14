@@ -2,7 +2,7 @@
 
 - **Slug** : `amandava-amandava`
 - **Statut documentation** : `complete`
-- **Dernière vérification** : 2026-10-13
+- **Dernière vérification** : 2026-10-14
 
 ## Identité
 
@@ -30,7 +30,60 @@
 | Champ | Valeur | Source |
 |-------|--------|--------|
 | Taille adulte | 10 cm | birdlife-amandava-amandava |
-| Longévité | na | |
+| Longévité | Non documenté — bases consultées le 2026-10-14 : AnAge (entrée absente). | anage-amandava-amandava |
+
+## Morphologie
+
+Environ 10 cm. Mue annuelle du plumage nuptial ; mâle nuptial à couronne et dos rouge profond.  
+*Source : adw-amandava-amandava.*
+
+## Statut CITES
+
+Non inscrit (annexes du 2026-03-05). *Amandava formosa* est en Annexe II : ce n’est pas ce taxon.  
+*Source : cites-appendices.*
+
+## Variétés domestiques
+
+Non cité dans l’annexe oiseaux de l’arrêté du 11 août 2006.  
+*Source : arrete-11-aout-2006.*
+
+## Reproduction
+
+| Champ | Valeur | Source |
+|-------|--------|--------|
+| Période | De janvier à avril (ADW). | adw-amandava-amandava |
+| Nombre d'œufs | 4 à 6 œufs par saison (ADW). | adw-amandava-amandava |
+| Temps de couvaison | 11 jours en moyenne jusqu’à l’éclosion (ADW). | adw-amandava-amandava |
+
+## Taille de cage
+
+L’arrêté du 8 octobre 2018, pour les espèces non domestiques, demande un hébergement adapté aux besoins physiologiques et comportementaux. Il ne fixe aucune dimension de cage pour les oiseaux.  
+*Source : arrete-08-octobre-2018.*
+
+## Prix en animalerie
+
+Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.  
+*Sources : arrete-08-octobre-2018 ; eaza-bpg ; aza-acm.*
+
+## Prix sur internet
+
+Pas de prix dans l’arrêté du 8 octobre 2018, ni dans l’index EAZA, ni dans la liste AZA (consultés le 2026-10-14). Les annonces d’animalerie ne sont pas une source.  
+*Sources : arrete-08-octobre-2018 ; eaza-bpg ; aza-acm.*
+
+## Alimentation en captivité
+
+Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.  
+*Sources : eaza-bpg ; aza-acm.*
+
+## Conseils captivité
+
+Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.  
+*Sources : eaza-bpg ; aza-acm.*
+
+## Compatibilité
+
+Non documenté — bases consultées le 2026-10-14 : index EAZA Best Practice Guidelines (aucun guide d’espèce pour ce taxon ; pas de ration tirée du document « Virus Management for Parrots »), liste AZA Animal Care Manuals.  
+*Sources : eaza-bpg ; aza-acm.*
 
 ## Dimorphisme sexuel
 
@@ -85,3 +138,8 @@ ADW : cris de localisation longs ; cris aigus d’alarme.
 | adw-amandava-amandava | Amandava amandava (red avadavat) | Animal Diversity Web / Sarah Weitzel | | https://animaldiversity.org/accounts/Amandava_amandava/ | Consulté 2026-10-10 |
 | media-amandava-amandava-img | File:Red Avadavat (26082788247).jpg | Mike Prince / Wikimedia Commons | 2018 | https://commons.wikimedia.org/wiki/File:Red_Avadavat_(26082788247).jpg | CC BY 2.0 |
 | media-amandava-amandava-audio | XC698326 | Ding Li Yong / Xeno-canto | | https://xeno-canto.org/698326 | CC BY-NC-ND 4.0 |
+| cites-appendices | CITES Appendices I, II and III | CITES | 2026 | https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf | Consulté 2026-10-14 |
+| eaza-bpg | EAZA Best Practice Guidelines (index) | EAZA | | https://www.eaza.net/bpg/ | Consulté 2026-10-14 ; aucun guide d’espèce |
+| aza-acm | AZA Animal Care Manuals (liste publiée) | Association of Zoos & Aquariums | | https://www.aza.org/animal-care-manuals | Consulté 2026-10-14 ; aucun manuel pour cette espèce |
+| arrete-11-aout-2006 | Arrêté du 11 août 2006 fixant la liste des animaux domestiques (NOR DEVN0650509A) | Journal officiel | 2006 | | Annexe oiseaux, 7 octobre 2006 |
+| arrete-08-octobre-2018 | Arrêté du 8 octobre 2018 fixant les règles générales de détention d’animaux d’espèces non domestiques | Journal officiel | 2018 | https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037491137/ | Consulté 2026-10-14 ; pas de dimensions de cage |

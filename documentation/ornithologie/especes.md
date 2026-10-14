@@ -47,10 +47,10 @@ Total : **85** espèces.
 | 39 | Perruche grande alexandre | *Psittacula eupatria* | Psittaciformes | Psittacidés | [psittacula-eupatria](fiches-naturaliste/psittacula-eupatria.md) |
 | 40 | Perroquet gris du Gabon ou jaco | *Psittacus erithacus* | Psittaciformes | Psittacidés | [psittacus-erithacus](fiches-naturaliste/psittacus-erithacus.md) |
 | 41 | Conure de Molina | *Pyrrhura molinae* | Psittaciformes | Psittacidés | [pyrrhura-molinae](fiches-naturaliste/pyrrhura-molinae.md) |
-| 42 | Cacatoès rosalbin | *Eolophus roseicapilla* | Psittaciformes | Cacatuides | [eolophus-roseicapilla](fiches-naturaliste/eolophus-roseicapilla.md) |
-| 43 | Calopsitte | *Nymphicus hollandicus* | Psittaciformes | Cacatuides | [nymphicus-hollandicus](fiches-naturaliste/nymphicus-hollandicus.md) |
-| 44 | Cacatoès blanc | *Cacatua alba* | Psittaciformes | Cacatuides | [cacatua-alba](fiches-naturaliste/cacatua-alba.md) |
-| 45 | Grand cacatoès à huppe jaune | *Cacatua galerita* | Psittaciformes | Cacatuides | [cacatua-galerita](fiches-naturaliste/cacatua-galerita.md) |
+| 42 | Cacatoès rosalbin | *Eolophus roseicapilla* | Psittaciformes | Cacatuidés | [eolophus-roseicapilla](fiches-naturaliste/eolophus-roseicapilla.md) |
+| 43 | Calopsitte | *Nymphicus hollandicus* | Psittaciformes | Cacatuidés | [nymphicus-hollandicus](fiches-naturaliste/nymphicus-hollandicus.md) |
+| 44 | Cacatoès blanc | *Cacatua alba* | Psittaciformes | Cacatuidés | [cacatua-alba](fiches-naturaliste/cacatua-alba.md) |
+| 45 | Grand cacatoès à huppe jaune | *Cacatua galerita* | Psittaciformes | Cacatuidés | [cacatua-galerita](fiches-naturaliste/cacatua-galerita.md) |
 | 46 | Mainate religieux | *Gracula religiosa* | Passériformes | Sturnidés | [gracula-religiosa](fiches-naturaliste/gracula-religiosa.md) |
 | 47 | Moineau doré | *Passer luteus* | Passériformes | Passéridés | [passer-luteus](fiches-naturaliste/passer-luteus.md) |
 | 48 | Tisserin gendarme | *Ploceus cucullatus* | Passériformes | Ploceidae | [ploceus-cucullatus](fiches-naturaliste/ploceus-cucullatus.md) |
